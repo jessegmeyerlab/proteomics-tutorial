@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5a082b2173f564bfa062537506706351473835ca/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5a082b2173f564bfa062537506706351473835ca/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5a082b2173f564bfa062537506706351473835ca/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/5a082b2173f564bfa062537506706351473835ca/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@5a082b2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/5a082b2173f564bfa062537506706351473835ca)
+from [jessegmeyerlab/proteomics-tutorial@55a3425](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/55a3425a044eeb56a15a1690d09b8d982812cf5b)
 on January 14, 2022.
 </em></small>
 
@@ -151,6 +151,9 @@ Discussion of methods to isotopically label peptides or proteins that enable qua
 ### Peptide enrichment 
 * antibody enrichments of modifications, e.g. lysine acetylation [@DOI:10.1002/pmic.201800123].
 * TiO2 and Fe enrichment of phosphorylation
+* Glycosylation
+* SISCAPA
+
 
 
 ## Methods for Peptide Purification {.page_break_before}
@@ -161,6 +164,21 @@ Discussion of methods to isotopically label peptides or proteins that enable qua
 4. SP2, SP3
 5. s traps
 
+
+
+## Types of Mass Spectrometers used for Proteomics {.page_break_before}
+
+1. QQQ
+2. Q-TOF
+3. Q-Orbitrap
+4. LTQ-Orbitrap
+5. TOF/TOF
+6. FT-ICR
+7. types of ion mobility
+* SLIM
+* FAIMS
+* traveling wave
+* tims
 
 
 ## Experiment Design
