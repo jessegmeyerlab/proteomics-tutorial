@@ -8,18 +8,17 @@
 
 ## Project information
 
-**Purpose.** We are writing a collaborative tutorial on proteomics invited by the ACS journal .  We are using [Manubot](https://github.com/manubot/manubot) to write this manuscript and track contributions. See the remaining readme below this section or at the link above for more information about manubot. 
+**Purpose.** We are collaboratively writing a broad, basic tutorial on proteomics invited by the ACS journal [Measurement Science Au](https://pubs.acs.org/journal/amachv). An example of the scope and style is [this tutorial from Jillian Dempsy's group on cyclic voltammetry](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.7b00361). We are using [Manubot](https://github.com/manubot/manubot) to write this manuscript and track contributions. See the remaining readme below this section or at the link above for more information about manubot. The manuscript is due scheduled to be submitted April 1st 2022. 
 
-**Authorship.** I (Jesse Meyer) will be the senior author and we will decide author order for everyone based on the contributions recorded via github. 
+**Authorship.** I (Jesse Meyer) will lead the project as senior author and we will decide author order for everyone based on the contributions recorded via github. 
 
 **Rules.** 
-See [contributing](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/contributing.md) for guidance on how to contribute and what is expected of authors. 
 See also [the code of conduct](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/CODE_OF_CONDUCT.md) for participants. 
 
 **Use Issues** to discuss organization, potential figures, and discussion of papers.
 
-**How to contribute:** edit sections in the content directory and create a pull request. You can practice contributing here: 
-
+**How to contribute:** edit sections in the content directory and create a pull request. You can practice contributing [here](https://github.com/manubot/try-manubot). 
+See the [contributing section](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/contributing.md) for guidance on how to contribute and what is expected of authors. 
 
 **Focus Areas** of this tutorial include an entire overview of topics that are relevant to mass spectrometry based proteomics. The current list of sections includes:
 
