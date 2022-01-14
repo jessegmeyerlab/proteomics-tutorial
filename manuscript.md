@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d694878afe03e6d9347415eab39ecc3cc50b5bc5/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d694878afe03e6d9347415eab39ecc3cc50b5bc5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d694878afe03e6d9347415eab39ecc3cc50b5bc5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d694878afe03e6d9347415eab39ecc3cc50b5bc5/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@d694878](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d694878afe03e6d9347415eab39ecc3cc50b5bc5)
+from [jessegmeyerlab/proteomics-tutorial@450c8e1](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3)
 on January 14, 2022.
 </em></small>
 
@@ -99,6 +99,15 @@ on January 14, 2022.
 A wide range of questions are addressable with proteomics experiments, which translates to a wide range of variations of proteomics workflows. 
 Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
 
+
+
+## Experiment Design
+
+This section should discuss trade offs and balancing them to design an experiment. 
+1. constraints: Each experiment will have different constraints, which may include the number of samples needed for analysis, or desire to quantify a specific subset of proteins within a sample.
+2. sample size
+3. statistics
+4. costs
 
 
 ## References {.page_break_before}
