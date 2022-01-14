@@ -28,3 +28,8 @@ content/05.peptide-protein-labeling.md:5:SILAM
 content/05.peptide-protein-labeling.md:6:iTRAQ
 content/05.peptide-protein-labeling.md:7:TMT
 content/05.peptide-protein-labeling.md:8:dimethyl
+content/06.enrichment.md:4:coIP
+content/06.enrichment.md:6:bioID
+content/06.enrichment.md:7:bioplex
+content/06.enrichment.md:11:acetylation
+content/06.enrichment.md:11:enrichments
