@@ -22,3 +22,9 @@ content/04.proteolysis.md:8:GluC
 content/04.proteolysis.md:9:AspN
 content/04.proteolysis.md:10:lytic
 content/04.proteolysis.md:10:protease
+content/05.peptide-protein-labeling.md:3:isotopically
+content/05.peptide-protein-labeling.md:5:SILAC
+content/05.peptide-protein-labeling.md:5:SILAM
+content/05.peptide-protein-labeling.md:6:iTRAQ
+content/05.peptide-protein-labeling.md:7:TMT
+content/05.peptide-protein-labeling.md:8:dimethyl
