@@ -1,26 +1,19 @@
 ---
-title: "Manuscript Title"
+title: "A Practical Beginner's Guide to Proteomics"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: jessegmeyerlab
+    name: Jesse G. Meyer
+    initials: JGM
+    orcid: 0000-0003-2753-3926
+    twitter: j_my_sci
+    email: jessegmeyer@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Biochemistry, Medical College of Wisconsin
     funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Grant R21 AG074234
+      - Grant R35 GM142502
