@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# A Practical Beginner's Guide to Proteomics
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -6,12 +6,34 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/jessegmeyerlab/proteomics-tutorial/workflows/Manubot/badge.svg)](https://github.com/jessegmeyerlab/proteomics-tutorial/actions)
 
-## Manuscript description
+## Project information
 
-<!-- usage note: edit this section. -->
+**Purpose.** We are writing a collaborative tutorial on proteomics invited by the ACS journal .  We are using [Manubot](https://github.com/manubot/manubot) to write this manuscript and track contributions. See the remaining readme below this section or at the link above for more information about manubot. 
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+**Authorship.** I (Jesse Meyer) will be the senior author and we will decide author order for everyone based on the contributions recorded via github. 
+
+**Rules.** 
+See [contributing](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/contributing.md) for guidance on how to contribute and what is expected of authors. 
+See also [the code of conduct](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/CODE_OF_CONDUCT.md) for participants. 
+
+**Use Issues** to discuss organization, potential figures, and discussion of papers.
+
+**How to contribute:** edit sections in the content directory and create a pull request. You can practice contributing here: 
+
+
+**Focus Areas** of this tutorial include an entire overview of topics that are relevant to mass spectrometry based proteomics. The current list of sections includes:
+
+1. Introduction
+2. protein extraction
+3. proteolysis
+4. enrichment of proteins or modifications 
+5. peptide cleanup methods
+6. types of mass spectrometers used for proteomics
+7. Peptide ionization
+8. Data Acquisition (targeted and untargeted DDA and DIA)
+9. Basics of data analysis
+10. Biological Analysis
+
 
 ## Manubot
 
