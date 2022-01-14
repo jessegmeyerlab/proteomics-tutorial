@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/73f9442bc4e624b29876d5ea6b8636d26040d889/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/73f9442bc4e624b29876d5ea6b8636d26040d889/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/73f9442bc4e624b29876d5ea6b8636d26040d889/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/55a3425a044eeb56a15a1690d09b8d982812cf5b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/73f9442bc4e624b29876d5ea6b8636d26040d889/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@55a3425](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/55a3425a044eeb56a15a1690d09b8d982812cf5b)
+from [jessegmeyerlab/proteomics-tutorial@73f9442](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/73f9442bc4e624b29876d5ea6b8636d26040d889)
 on January 14, 2022.
 </em></small>
 
@@ -179,6 +179,15 @@ Discussion of methods to isotopically label peptides or proteins that enable qua
 * FAIMS
 * traveling wave
 * tims
+
+
+## Peptide Ionization {.page_break_before}
+
+The 2002 Nobel Prize in Chemistry was awarded to partially to John Fenn and Koichi Tanaka "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules" [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary/].
+
+### MALDI
+
+### Electrospray Ionization
 
 
 ## Experiment Design
