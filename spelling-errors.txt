@@ -36,7 +36,7 @@ MALDI
 maleimide
 Orbitrap
 protease
-Proteolysis
+proteolysis
 proteomics
 QQQ
 SILAC
