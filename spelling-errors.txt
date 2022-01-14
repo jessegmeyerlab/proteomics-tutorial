@@ -1,2 +1,12 @@
+alkylation
+BME
+Chloroacetamide
+contaminations
+DTT
+iodoacetamide
 jessegmeyerlab
+Lysis
+maleimide
 proteomics
+solubilizaition
+TCEP

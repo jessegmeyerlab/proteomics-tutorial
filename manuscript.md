@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@450c8e1](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/450c8e1c0b7e40cfada3d8bc096372bf1b74f7d3)
+from [jessegmeyerlab/proteomics-tutorial@228bbd4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/228bbd46358be0c5ce23a67fe901eed24e72e767)
 on January 14, 2022.
 </em></small>
 
@@ -98,6 +98,20 @@ on January 14, 2022.
 [paragraph about what proteomics can do] 
 A wide range of questions are addressable with proteomics experiments, which translates to a wide range of variations of proteomics workflows. 
 Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
+
+
+
+## Protein Extraction {.page_break_before}
+
+Discussion of methods for protein extraction and solubilizaition. 
+
+
+1. Choice of Lysis buffer
+* Urea can cause chemical modifications 
+2. chemicals to avoid
+3. removal of contaminations, Protein Precipitation
+4. protein alkylation
+* choices of reduction and alkylation reagents, TCEP/DTT/2BME, Chloroacetamide/iodoacetamide, n-ethyl maleimide
 
 
 
