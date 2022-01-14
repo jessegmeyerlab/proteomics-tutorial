@@ -6,6 +6,8 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/jessegmeyerlab/proteomics-tutorial/workflows/Manubot/badge.svg)](https://github.com/jessegmeyerlab/proteomics-tutorial/actions)
 
+^^^ click the links above to see the current manuscript in HTML or PDF format!! ^^^
+
 ## Project information
 
 **Purpose.** We are collaboratively writing a broad, basic tutorial on proteomics invited by the ACS journal [Measurement Science Au](https://pubs.acs.org/journal/amachv). An example of the scope and style is [this tutorial from Jillian Dempsy's group on cyclic voltammetry](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.7b00361). We are using [Manubot](https://github.com/manubot/manubot) to write this manuscript and track contributions. See the remaining readme below this section or at the link above for more information about manubot. We are aiming to submit April 1st 2022. 
