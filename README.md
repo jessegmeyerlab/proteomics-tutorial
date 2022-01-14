@@ -35,6 +35,7 @@ See the [contributing section](https://github.com/jessegmeyerlab/proteomics-tuto
 9. Data Acquisition (targeted and untargeted DDA and DIA)
 10. Basics of data analysis
 11. Biological Interpretation
+12. Experiment design and considerations not discussed elsewhere
 
 
 ## Manubot
