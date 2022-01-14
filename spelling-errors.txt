@@ -36,8 +36,8 @@ MALDI
 maleimide
 Orbitrap
 protease
-Proteolysis
-proteomics
+proteolysis
+Proteomics
 QQQ
 SILAC
 SILAM
@@ -51,4 +51,4 @@ TiO
 TMT
 TOF
 trypsin
-untargeted
+Untargeted
