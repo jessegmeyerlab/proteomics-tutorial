@@ -13,3 +13,12 @@ content/03.protein-extraction.md:11:DTT
 content/03.protein-extraction.md:11:iodoacetamide
 content/03.protein-extraction.md:11:maleimide
 content/03.protein-extraction.md:11:TCEP
+content/04.proteolysis.md:1:Proteolysis
+content/04.proteolysis.md:3:proteolysis
+content/04.proteolysis.md:4:trypsin
+content/04.proteolysis.md:5:proteolysis
+content/04.proteolysis.md:7:LysC
+content/04.proteolysis.md:8:GluC
+content/04.proteolysis.md:9:AspN
+content/04.proteolysis.md:10:lytic
+content/04.proteolysis.md:10:protease

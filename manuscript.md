@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/266e20029b0665caf43d14ba62f822f59633a713/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/266e20029b0665caf43d14ba62f822f59633a713/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/266e20029b0665caf43d14ba62f822f59633a713/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/228bbd46358be0c5ce23a67fe901eed24e72e767/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/266e20029b0665caf43d14ba62f822f59633a713/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@228bbd4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/228bbd46358be0c5ce23a67fe901eed24e72e767)
+from [jessegmeyerlab/proteomics-tutorial@266e200](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/266e20029b0665caf43d14ba62f822f59633a713)
 on January 14, 2022.
 </em></small>
 
@@ -113,6 +113,19 @@ Discussion of methods for protein extraction and solubilizaition.
 4. protein alkylation
 * choices of reduction and alkylation reagents, TCEP/DTT/2BME, Chloroacetamide/iodoacetamide, n-ethyl maleimide
 
+
+
+## Proteolysis {.page_break_before}
+
+1. discussion of protein sequence coverage is determined by the choice of proteolysis
+2. why trypsin is the most common choice (charge and length character)
+3. theoretical studies of proteolysis and enzyme [@DOI:https://doi.org/10.1155/2014/960902]
+4. Challenges associated with alternative enzyme choices (non-specific and semi-specific enzymes)
+5. Alternative enzyme choices (one paragraph each?) - LysC
+6. GluC
+7. AspN
+8. Alpha-lytic protease [@DOI:https://doi.org/10.1074/mcp.m113.034710] and how it enables mapping human SUMO sites [@PMID:29079793].
+9. others?
 
 
 ## Experiment Design
