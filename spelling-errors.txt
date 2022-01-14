@@ -35,7 +35,7 @@ maleimide
 Orbitrap
 protease
 Proteolysis
-proteomics
+Proteomics
 QQQ
 SILAC
 SILAM
