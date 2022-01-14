@@ -13,12 +13,12 @@
 **Authorship.** I (Jesse Meyer) will lead the project as senior author and we will decide author order for everyone based on the contributions recorded via github. 
 
 **Rules.** 
-See also [the code of conduct](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/CODE_OF_CONDUCT.md) for participants. 
+See also [the code of conduct](https://github.com/jessegmeyerlab/proteomics-tutorial/blob/main/CODE_OF_CONDUCT.md) for participants. 
 
 **Use Issues** to discuss organization, potential figures, and discussion of papers.
 
 **How to contribute:** edit sections in the content directory and create a pull request. You can practice contributing [here](https://github.com/manubot/try-manubot). 
-See the [contributing section](https://github.com/jessegmeyerlab/2022-multi-omics-review/blob/main/contributing.md) for guidance on how to contribute and what is expected of authors. 
+See the [contributing section](https://github.com/jessegmeyerlab/proteomics-tutorial/blob/main/contributing.md) for guidance on how to contribute and what is expected of authors. 
 
 **Focus Areas** of this tutorial include an entire overview of topics that are relevant to mass spectrometry based proteomics. The current list of sections includes:
 
