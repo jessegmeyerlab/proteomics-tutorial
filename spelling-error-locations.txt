@@ -55,3 +55,15 @@ content/09.peptide-ionization.md:3:spectrometric
 content/09.peptide-ionization.md:3:Tanaka
 content/09.peptide-ionization.md:5:MALDI
 content/09.peptide-ionization.md:7:Electrospray
+content/10.Data-Acquisition.md:3:DDA
+content/10.Data-Acquisition.md:3:DIA
+content/10.Data-Acquisition.md:3:proteomics
+content/10.Data-Acquisition.md:3:untargeted
+content/10.Data-Acquisition.md:6:DDA
+content/10.Data-Acquisition.md:8:DDA
+content/10.Data-Acquisition.md:10:DIA
+content/10.Data-Acquisition.md:10:Untargeted
+content/10.Data-Acquisition.md:13:DIA
+content/10.Data-Acquisition.md:15:DIA
+content/10.Data-Acquisition.md:17:DIA
+content/10.Data-Acquisition.md:17:Untargeted

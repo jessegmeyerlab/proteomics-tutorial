@@ -7,7 +7,9 @@ BME
 Chloroacetamide
 coIP
 contaminations
+DDA
 desorption
+DIA
 dimethyl
 DTT
 Electrospray
@@ -47,3 +49,4 @@ TiO
 TMT
 TOF
 trypsin
+untargeted
