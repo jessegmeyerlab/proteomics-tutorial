@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b6d6b623130f65d5656b50580aae6751d9929b2/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b6d6b623130f65d5656b50580aae6751d9929b2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b6d6b623130f65d5656b50580aae6751d9929b2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5636b482442a24341476bfe030813ec9c4e8c9fb/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5636b482442a24341476bfe030813ec9c4e8c9fb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5636b482442a24341476bfe030813ec9c4e8c9fb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b6d6b623130f65d5656b50580aae6751d9929b2/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/5636b482442a24341476bfe030813ec9c4e8c9fb/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@1b6d6b6](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1b6d6b623130f65d5656b50580aae6751d9929b2)
+from [jessegmeyerlab/proteomics-tutorial@5636b48](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/5636b482442a24341476bfe030813ec9c4e8c9fb)
 on January 14, 2022.
 </em></small>
 
@@ -213,11 +213,23 @@ Data acquisition strategies for proteomics fall generally within targeted or unt
 
 ## Analysis of Raw Data {.page_break_before}
 
+The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis.
+
 ### Analysis of DDA data
 
 ### Strategies for analysis of DIA data
 
 
+
+
+## Biological Interpretation {.page_break_before}
+
+
+1. term enrichment analysis (KEGG, GO)
+2. network analysis methods
+3. structure analysis
+4. isoform analysis
+5. follow-up experiments
 
 
 ## Experiment Design

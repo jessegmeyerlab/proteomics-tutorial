@@ -20,10 +20,12 @@ GluC
 Glycosylation
 ICR
 iodoacetamide
+isoform
 isotopically
 iST
 iTRAQ
 jessegmeyerlab
+KEGG
 Koichi
 LTQ
 LysC
@@ -34,8 +36,8 @@ MALDI
 maleimide
 Orbitrap
 protease
-Proteolysis
-Proteomics
+proteolysis
+proteomics
 QQQ
 SILAC
 SILAM

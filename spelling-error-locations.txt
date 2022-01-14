@@ -67,5 +67,7 @@ content/10.Data-Acquisition.md:13:DIA
 content/10.Data-Acquisition.md:15:DIA
 content/10.Data-Acquisition.md:17:DIA
 content/10.Data-Acquisition.md:17:Untargeted
-content/11.raw-data-analysis.md:3:DDA
-content/11.raw-data-analysis.md:5:DIA
+content/11.raw-data-analysis.md:5:DDA
+content/11.raw-data-analysis.md:7:DIA
+content/12.biological-interpretation.md:4:KEGG
+content/12.biological-interpretation.md:7:isoform
