@@ -11,7 +11,6 @@ dimethyl
 DTT
 enrichments
 GluC
-Glycosylation
 iodoacetamide
 isotopically
 iST
@@ -26,7 +25,6 @@ proteolysis
 proteomics
 SILAC
 SILAM
-SISCAPA
 solubilizaition
 TCEP
 TiO
