@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-14'
+date-meta: '2022-01-15'
 author-meta:
 - Jesse G. Meyer
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-14" />
-  <meta name="citation_publication_date" content="2022-01-14" />
+  <meta name="dc.date" content="2022-01-15" />
+  <meta name="citation_publication_date" content="2022-01-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ed8b35bef3a43aca388075c3b6d6c6c12e5fd563/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ed8b35bef3a43aca388075c3b6d6c6c12e5fd563/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ed8b35bef3a43aca388075c3b6d6c6c12e5fd563/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/343a832c57d0e3ad3db8fabb7b785eae61e87c49/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/343a832c57d0e3ad3db8fabb7b785eae61e87c49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/343a832c57d0e3ad3db8fabb7b785eae61e87c49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/ed8b35bef3a43aca388075c3b6d6c6c12e5fd563/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/343a832c57d0e3ad3db8fabb7b785eae61e87c49/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@ed8b35b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/ed8b35bef3a43aca388075c3b6d6c6c12e5fd563)
-on January 14, 2022.
+from [jessegmeyerlab/proteomics-tutorial@343a832](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/343a832c57d0e3ad3db8fabb7b785eae61e87c49)
+on January 15, 2022.
 </em></small>
 
 ## Authors
@@ -87,6 +87,17 @@ on January 14, 2022.
 ## Abstract {.page_break_before}
 
 
+Proteomics is the large scale study of protein structure and function from biological systems.  
+"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy for proteomics, which refers to the fragmentation of proteins into peptide pieces for easier analysis.
+Mass spectrometry is used to detect peptides from proteome fragmentation.
+Proteomics is commonly applied to identify and quantity as many proteins as possible from biological systems. 
+Such quantitaive comparisons enable discovery of proteins that change between two or more conditions.
+More diverse views of the proteome are also possible using mass spectrometry, for example we can measure protein-protein interactions, post-translational modifications, and protein stability. 
+To collect these diverse types of information, there are diverse strategies for proteome analysis, and each step in the workflow is tunable. 
+The complexity and nuance of how proteomic methods differ may be difficulty to understand for new practitioners. 
+Here, we provide a comprehensive tutorial of proteomics methods. 
+Our tutorial starts with protein extraction and covers all steps ending with biological interpretation and study design. 
+We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics. 
 
 
 ## Introduction {.page_break_before}
