@@ -55,5 +55,4 @@ TMT
 TOF
 translational
 trypsin
-tunable
-untargeted
+Untargeted

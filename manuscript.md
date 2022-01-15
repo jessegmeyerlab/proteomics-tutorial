@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/36b8e9b9357395cbdaa122b706f885d47e0174f6/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/36b8e9b9357395cbdaa122b706f885d47e0174f6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/36b8e9b9357395cbdaa122b706f885d47e0174f6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/36b8e9b9357395cbdaa122b706f885d47e0174f6/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@36b8e9b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/36b8e9b9357395cbdaa122b706f885d47e0174f6)
+from [jessegmeyerlab/proteomics-tutorial@114ffe7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/114ffe7fa5a933458cd5ad8c20883e242f3187aa)
 on January 15, 2022.
 </em></small>
 
@@ -88,12 +88,11 @@ on January 15, 2022.
 
 
 Proteomics is the large scale study of protein structure and function from biological systems.  
-"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy for proteomics, in which proteins are hydrolyzed into peptide pieces for easier analysis.
-Mass spectrometry is used to detect peptides.
-Proteomics studies can be applied to diverse studies, for example to identify and quantity proteins, but also to study protein-protein interactions, post-translational modifications, and protein stability. 
-To collect these diverse types of information, there are diverse strategies for proteome analysis, and each step in the workflow is tunable. 
-The complexity and nuance of how proteomic workflows differ may be difficult to understand for new practitioners. 
-Here, we provide a comprehensive tutorial of proteomics methods. 
+"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptide that are analyzed by mass spectrometry.
+Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of protein-protein interactions, post-translational modifications, and protein stability. 
+To enable this range of different experiments, there are diverse strategies for proteome analysis. 
+The nuances of how proteomic workflows differ may be difficult to understand for new practitioners. 
+Here, we provide a comprehensive tutorial of different proteomics methods. 
 Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation. 
 We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics. 
 
