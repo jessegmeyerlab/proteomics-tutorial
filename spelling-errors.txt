@@ -36,12 +36,11 @@ MALDI
 maleimide
 Orbitrap
 protease
-Proteolysis
+proteolysis
 proteome
 proteomic
 proteomics
 QQQ
-quantitaive
 SILAC
 SILAM
 SISCAPA
@@ -57,4 +56,4 @@ TOF
 translational
 trypsin
 tunable
-Untargeted
+untargeted
