@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b4d6900a4f4537e5633bab99f70513bd165b69c/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b4d6900a4f4537e5633bab99f70513bd165b69c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b4d6900a4f4537e5633bab99f70513bd165b69c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1b4d6900a4f4537e5633bab99f70513bd165b69c/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@cfd38d8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/cfd38d8f104c9907509861713958a854b1e1a26b)
+from [jessegmeyerlab/proteomics-tutorial@1b4d690](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1b4d6900a4f4537e5633bab99f70513bd165b69c)
 on January 16, 2022.
 </em></small>
 
@@ -125,6 +125,19 @@ We expect that this work will serve as a basic resource for new practitioners of
 A wide range of questions are addressable with proteomics experiments, which translates to a wide range of variations of proteomics workflows. 
 Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
 
+
+
+## Types of Experiments {.page_break_before}
+
+[List of common types of experiments and brief description]
+
+- Protein abundance changes
+- Phosphoproteomics
+- Glycoproteomics
+- Structural techniques (XL-MS, HDX-MS, FPOP, protein-painting, LiP-MS, ...)
+- Protein stability measurements (Thermal denaturation)
+- PPIs: AP-MS, APEX, BioID
+- ...
 
 
 ## Protein Extraction {.page_break_before}
