@@ -17,3 +17,6 @@ authors:
     funders:
       - Grant R21 AG074234
       - Grant R35 GM142502
+    coi:
+      string: "None"
+      lastapproved:  !!str 2022-01-06
