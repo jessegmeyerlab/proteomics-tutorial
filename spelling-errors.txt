@@ -58,7 +58,7 @@ PBhCNARIsABcz
 Phosphoproteomics
 PPIs
 protease
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
@@ -88,7 +88,7 @@ TMT
 TOF
 translational
 trypsin
-untargeted
+Untargeted
 Villigen
 wcB
 wExEeoFwnQXuCHscaAlgBEALw
