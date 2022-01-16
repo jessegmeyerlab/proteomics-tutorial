@@ -5,6 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Jesse G. Meyer" />
+  <meta name="author" content="Dina Schuster" />
   <meta name="dcterms.date" content="2022-01-16" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>A Practical Beginner’s Guide to Proteomics</title>
@@ -59,15 +60,21 @@
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Dina Schuster" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
+  <meta name="twitter:creator" content="@dina_sch" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,14 +88,14 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/269566051980f34f963ec1c5bb046c6769c10f3b">jessegmeyerlab/proteomics-tutorial@2695660</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/cfd38d8f104c9907509861713958a854b1e1a26b">jessegmeyerlab/proteomics-tutorial@cfd38d8</a>
 on January 16, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><strong>Jesse G. Meyer</strong><br>
+<li><p><strong>Jesse G. Meyer</strong><br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
 <a href="https://orcid.org/0000-0003-2753-3926">0000-0003-2753-3926</a>
 · <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
@@ -98,7 +105,17 @@ on January 16, 2022.
 <small>
 Department of Biochemistry, Medical College of Wisconsin
 · Funded by Grant R21 AG074234; Grant R35 GM142502
-</small></li>
+</small></p></li>
+<li><p><strong>Dina Schuster</strong><br>
+<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0001-6611-8237">0000-0001-6611-8237</a>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/dschust-r">dschust-r</a>
+· <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
+<a href="https://twitter.com/dina_sch">dina_sch</a><br>
+<small>
+Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+</small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <p>Proteomics is the large scale study of protein structure and function from biological systems.<br />
@@ -203,9 +220,44 @@ Sometimes identifying what proteins are present is desired, and sometimes the qu
 <h4 id="targeted-dia">Targeted DIA</h4>
 <h4 id="untargeted-dia-1">Untargeted DIA</h4>
 <h2 class="page_break_before" id="analysis-of-raw-data">Analysis of Raw Data</h2>
-<p>The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis.</p>
+<p>The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis.
+This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests.</p>
+<p>In typical bottom-up proteomics experiments, proteins are digested into peptides and further analyzed with LC-MS/MS systems.
+Peptides can have different PTMs and ionize differently depending on their length and amino acid distributions.
+Therefore, mass spectrometers often record different charge and modification states of one single peptide.
+The entity that is recorded on a mass spectrometer is usually referred to as a precursor ion (peptide with its modification and charge state).
+This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching.
+The quantity of a precursor is estimated with various methods.
+The measured precursor quantities are combined to generate a peptide quantity.
+Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification <span class="citation" data-cites="dPwJMGS2">[<a href="#ref-dPwJMGS2" role="doc-biblioref">6</a>]</span> <span class="citation" data-cites="wtH5a4Ax">[<a href="#ref-wtH5a4Ax" role="doc-biblioref">7</a>]</span>.
+Protein inference is still a challenge in bottom-up proteomics.</p>
+<p>Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above.
+The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:</p>
+<!-- TODO: should we make a table for this part? with primary citation and link to the website -->
+<p>DDA freeware:
+- MaxQuant <span class="citation" data-cites="eMe2Of7g">[<a href="#ref-eMe2Of7g" role="doc-biblioref">8</a>/]</span>
+- MSFragger <span class="citation" data-cites="Yy0yOieV">[<a href="#ref-Yy0yOieV" role="doc-biblioref">9</a>/]</span>
+- Mascot (for smaller data sets) <span class="citation" data-cites="n7wP3FMc">[<a href="#ref-n7wP3FMc" role="doc-biblioref">10</a>/]</span> <span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">11</a>]</span>
+- MS-GF+ <span class="citation" data-cites="kYPWjawj">[<a href="#ref-kYPWjawj" role="doc-biblioref">12</a>]</span></p>
+<p>DIA freeware:
+- MaxDIA (within MaxQuant) <span class="citation" data-cites="eMe2Of7g">[<a href="#ref-eMe2Of7g" role="doc-biblioref">8</a>/]</span>
+- Skyline <span class="citation" data-cites="vHExP6Vd">[<a href="#ref-vHExP6Vd" role="doc-biblioref">13</a>]</span>
+- DIA-NN <span class="citation" data-cites="wyMbh03o">[<a href="#ref-wyMbh03o" role="doc-biblioref">14</a>]</span>
+Targeted proteomics freeware:
+- Skyline <span class="citation" data-cites="vHExP6Vd">[<a href="#ref-vHExP6Vd" role="doc-biblioref">13</a>]</span></p>
+<p>DDA non-freeware:
+- ProteomeDiscoverer<span class="citation" data-cites="14gNbVe7d">[<a href="#ref-14gNbVe7d" role="doc-biblioref">15</a>]</span>
+- Mascot (for larger data sets) <span class="citation" data-cites="n7wP3FMc">[<a href="#ref-n7wP3FMc" role="doc-biblioref">10</a>/]</span>
+- Spectromine <span class="citation" data-cites="1BMYnjEYe">[<a href="#ref-1BMYnjEYe" role="doc-biblioref">16</a>/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB]</span>
+- PEAKS <span class="citation" data-cites="izdBEnFd">[<a href="#ref-izdBEnFd" role="doc-biblioref">17</a>/]</span></p>
+<p>DIA non-freeware:
+- Spectronaut <span class="citation" data-cites="m9WhWFYh">[<a href="#ref-m9WhWFYh" role="doc-biblioref">18</a>/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770nuaU2SgIriS-ZJJGsC6CtzXc9AC8b9K3w5FlFDsDfGtnuUjIhankaAvegEALw_wcB]</span>
+- PEAKS <span class="citation" data-cites="izdBEnFd">[<a href="#ref-izdBEnFd" role="doc-biblioref">17</a>/]</span></p>
 <h3 id="analysis-of-dda-data">Analysis of DDA data</h3>
 <h3 id="strategies-for-analysis-of-dia-data">Strategies for analysis of DIA data</h3>
+<h3 id="targeted-proteomics-data-analysis">Targeted proteomics data analysis</h3>
+<h3 id="quality-control">Quality control</h3>
+<h3 id="statistical-hypothesis-testing">Statistical hypothesis testing</h3>
 <h2 class="page_break_before" id="biological-interpretation">Biological Interpretation</h2>
 <ol type="1">
 <li>term enrichment analysis (KEGG, GO)</li>
@@ -237,6 +289,45 @@ Sometimes identifying what proteins are present is desired, and sometimes the qu
 </div>
 <div id="ref-YdLSljVE" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>The Nobel Prize in Chemistry 2002</strong> <div class="csl-block">NobelPrize.org</div> <a href="https://www.nobelprize.org/prizes/chemistry/2002/summary/">https://www.nobelprize.org/prizes/chemistry/2002/summary/</a></div>
+</div>
+<div id="ref-dPwJMGS2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Interpretation of Shotgun Proteomic Data</strong> <div class="csl-block">Alexey I Nesvizhskii, Ruedi Aebersold</div> <em>Molecular &amp; Cellular Proteomics</em> (2005-10) <a href="https://doi.org/cm99cj">https://doi.org/cm99cj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r500012-mcp200">https://doi.org/10.1074/mcp.r500012-mcp200</a></div></div>
+</div>
+<div id="ref-wtH5a4Ax" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics</strong> <div class="csl-block">Enrique Audain, Julian Uszkoreit, Timo Sachsenberg, Julianus Pfeuffer, Xiao Liang, Henning Hermjakob, Aniel Sanchez, Martin Eisenacher, Knut Reinert, David L Tabb, … Yasset Perez-Riverol</div> <em>Journal of Proteomics</em> (2017-01) <a href="https://doi.org/f9r8r6">https://doi.org/f9r8r6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2016.08.002">10.1016/j.jprot.2016.08.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27498275">27498275</a></div></div>
+</div>
+<div id="ref-eMe2Of7g" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>MaxQuant</strong> <a href="https://www.maxquant.org/">https://www.maxquant.org/</a></div>
+</div>
+<div id="ref-Yy0yOieV" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>MSFragger</strong> <div class="csl-block">MSFragger</div> <a href="https://msfragger.nesvilab.org/">https://msfragger.nesvilab.org/</a></div>
+</div>
+<div id="ref-n7wP3FMc" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Mascot search engine | Protein identification software for mass spec data</strong> <a href="https://www.matrixscience.com/">https://www.matrixscience.com/</a></div>
+</div>
+<div id="ref-rKtsv6G" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
+</div>
+<div id="ref-kYPWjawj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-12) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">https://doi.org/10.1038/ncomms6277</a></div></div>
+</div>
+<div id="ref-vHExP6Vd" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Start Page: /home/software/Skyline</strong> <a href="https://skyline.ms/project/home/software/Skyline/begin.view">https://skyline.ms/project/home/software/Skyline/begin.view</a></div>
+</div>
+<div id="ref-wyMbh03o" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2020-01) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">https://doi.org/10.1038/s41592-019-0638-x</a></div></div>
+</div>
+<div id="ref-14gNbVe7d" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Proteome Discoverer Software - US</strong> <a href="https:////www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html">//www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html</a></div>
+</div>
+<div id="ref-1BMYnjEYe" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Proteomics Analysis Software | Shotgun Proteomics | DDA Proteomics</strong> <div class="csl-block">Biognosys</div> <a href="https://biognosys.com/software/spectromine/">https://biognosys.com/software/spectromine/</a></div>
+</div>
+<div id="ref-izdBEnFd" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>Protein Identification &amp; Quantification Software, PTM &amp; Variant Search</strong> <div class="csl-block">Bioinformatics Solutions Inc.</div> <a href="https://www.bioinfor.com/peaks-studio/">https://www.bioinfor.com/peaks-studio/</a></div>
+</div>
+<div id="ref-m9WhWFYh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Proteomics Software | DIA Proteomics | Discovery Proteomics</strong> <div class="csl-block">Biognosys</div> <a href="https://biognosys.com/software/spectronaut/">https://biognosys.com/software/spectronaut/</a></div>
 </div>
 </div>
 <!-- default theme -->
