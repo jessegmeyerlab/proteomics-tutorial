@@ -1,7 +1,7 @@
 acetylation
 alkylation
 AspN
-bioID
+BioID
 Biomolecular
 bioplex
 BME
@@ -58,11 +58,11 @@ PBhCNARIsABcz
 Phosphoproteomics
 PPIs
 protease
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 PTM
 PTMs
 Ql
