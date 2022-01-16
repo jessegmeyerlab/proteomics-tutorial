@@ -51,7 +51,6 @@ content/07.enrichment.md:11:acetylation
 content/07.enrichment.md:11:enrichments
 content/07.enrichment.md:13:Glycosylation
 content/07.enrichment.md:14:SISCAPA
-content/07.peptide-purification.md:5:iST
 content/08.mass-spectrometers.md:1:Proteomics
 content/08.mass-spectrometers.md:3:QQQ
 content/08.mass-spectrometers.md:4:TOF
@@ -63,6 +62,7 @@ content/08.mass-spectrometers.md:7:TOF
 content/08.mass-spectrometers.md:8:ICR
 content/08.mass-spectrometers.md:11:FAIMS
 content/08.mass-spectrometers.md:13:tims
+content/08.peptide-purification.md:5:iST
 content/09.peptide-ionization.md:3:desorption
 content/09.peptide-ionization.md:3:Fenn
 content/09.peptide-ionization.md:3:Koichi
