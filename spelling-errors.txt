@@ -16,11 +16,8 @@ Electrospray
 enrichments
 FAIMS
 Fenn
-FPOP
 GluC
-Glycoproteomics
 Glycosylation
-HDX
 ICR
 iodoacetamide
 isoform
@@ -38,8 +35,6 @@ macromolecules
 MALDI
 maleimide
 Orbitrap
-Phosphoproteomics
-PPIs
 protease
 Proteolysis
 proteome
@@ -60,4 +55,4 @@ TMT
 TOF
 translational
 trypsin
-untargeted
+Untargeted
