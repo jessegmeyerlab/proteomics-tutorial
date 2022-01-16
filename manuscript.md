@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a09a60ba3778add30215ed21b469cdfc1f021753/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a09a60ba3778add30215ed21b469cdfc1f021753/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a09a60ba3778add30215ed21b469cdfc1f021753/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7190310bbe075fdd5ad0218f5535976bddb9d1d4/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7190310bbe075fdd5ad0218f5535976bddb9d1d4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7190310bbe075fdd5ad0218f5535976bddb9d1d4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/a09a60ba3778add30215ed21b469cdfc1f021753/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7190310bbe075fdd5ad0218f5535976bddb9d1d4/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@a09a60b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/a09a60ba3778add30215ed21b469cdfc1f021753)
+from [jessegmeyerlab/proteomics-tutorial@7190310](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7190310bbe075fdd5ad0218f5535976bddb9d1d4)
 on January 16, 2022.
 </em></small>
 
