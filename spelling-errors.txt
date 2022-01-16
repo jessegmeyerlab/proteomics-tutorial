@@ -18,7 +18,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 ETH
 FAIMS
 Fenn
@@ -65,7 +65,7 @@ Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-proteomics
+Proteomics
 PTM
 PTMs
 Ql
@@ -80,7 +80,7 @@ SILAM
 SISCAPA
 solubilizaition
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Tanaka
@@ -91,7 +91,7 @@ TMT
 TOF
 translational
 trypsin
-untargeted
+Untargeted
 Villigen
 wcB
 wExEeoFwnQXuCHscaAlgBEALw

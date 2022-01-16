@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/34e6b2b7cd6f1d7802cade2ff87af7d08ca468aa/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/34e6b2b7cd6f1d7802cade2ff87af7d08ca468aa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/34e6b2b7cd6f1d7802cade2ff87af7d08ca468aa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/34e6b2b7cd6f1d7802cade2ff87af7d08ca468aa/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@34e6b2b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/34e6b2b7cd6f1d7802cade2ff87af7d08ca468aa)
+from [jessegmeyerlab/proteomics-tutorial@21ec587](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/21ec587c21a922857bd98ce53edc2552060d9ec0)
 on January 16, 2022.
 </em></small>
 
@@ -120,7 +120,7 @@ We expect that this work will serve as a basic resource for new practitioners of
 [paragraph about what proteomics means today] Proteomics is the large scale study of protein structure and function. Proteins are translated from mRNAs that are transcribed from the genome. Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology. 
 
 
-[history of proteomics? how we got here] How did we get here? Modern proteomics really started around 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315][@DOI:https://doi.org/10.1002/rcm.1290020802]. Shortly afterward, the first machine algorithm for matching peptides to a database was introduced [@DOI:10.1016/1044-0305(94)80016-2]. Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography [@DOI:10.1021/ac010617e]. As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:https://doi.org/10.1038/nmeth1019]. 
+[history of proteomics? how we got here] How did we get here? Modern proteomics really started around 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315][@DOI:https://doi.org/10.1002/rcm.1290020802]. Shortly afterward, the first machine algorithm for matching peptides to a database was introduced [@PMID:24226387]. Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography [@DOI:10.1021/ac010617e]. As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:https://doi.org/10.1038/nmeth1019]. 
 
 The wide variety of experimental goals leads to equal diversity in potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners:
 1. Types of experiments enabled by proteomics
