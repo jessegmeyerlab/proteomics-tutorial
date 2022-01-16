@@ -13,12 +13,6 @@ content/02.introduction.md:5:proteomics
 content/02.introduction.md:7:proteomics
 content/02.introduction.md:8:proteomics
 content/02.introduction.md:8:proteomics
-content/03.experiment-types.md:6:Phosphoproteomics
-content/03.experiment-types.md:7:Glycoproteomics
-content/03.experiment-types.md:8:FPOP
-content/03.experiment-types.md:8:HDX
-content/03.experiment-types.md:10:BioID
-content/03.experiment-types.md:10:PPIs
 content/03.protein-extraction.md:3:solubilizaition
 content/03.protein-extraction.md:6:Lysis
 content/03.protein-extraction.md:9:contaminations
