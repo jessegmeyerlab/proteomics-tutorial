@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-15'
+date-meta: '2022-01-16'
 author-meta:
 - Jesse G. Meyer
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-15" />
-  <meta name="citation_publication_date" content="2022-01-15" />
+  <meta name="dc.date" content="2022-01-16" />
+  <meta name="citation_publication_date" content="2022-01-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1ab6e63dba7a725b727f375936b8f83ae3b0b711/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1ab6e63dba7a725b727f375936b8f83ae3b0b711/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1ab6e63dba7a725b727f375936b8f83ae3b0b711/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/114ffe7fa5a933458cd5ad8c20883e242f3187aa/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1ab6e63dba7a725b727f375936b8f83ae3b0b711/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@114ffe7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/114ffe7fa5a933458cd5ad8c20883e242f3187aa)
-on January 15, 2022.
+from [jessegmeyerlab/proteomics-tutorial@1ab6e63](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1ab6e63dba7a725b727f375936b8f83ae3b0b711)
+on January 16, 2022.
 </em></small>
 
 ## Authors
@@ -108,6 +108,18 @@ A wide range of questions are addressable with proteomics experiments, which tra
 Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
 
 
+
+## Types of Experiments {.page_break_before}
+
+[List of common types of experiments and brief description]
+
+- Protein abundance changes
+- Phosphoproteomics
+- Glycoproteomics
+- Structural techniques (XL-MS, HDX-MS, FPOP, protein-painting, LiP-MS, ...)
+- Protein stability measurements (Thermal denaturation)
+- PPIs: AP-MS, APEX, BioID
+- ...
 
 ## Protein Extraction {.page_break_before}
 
