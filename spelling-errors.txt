@@ -39,7 +39,7 @@ protease
 Proteolysis
 proteome
 proteomic
-proteomics
+Proteomics
 QQQ
 SILAC
 SILAM
