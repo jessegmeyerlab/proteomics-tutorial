@@ -20,6 +20,7 @@ authors:
     coi:
       string: "None"
       lastapproved:  !!str 2022-01-06
+    order: 2
   - github: dschust-r
     name: Dina Schuster
     initials: DS
@@ -30,4 +31,4 @@ authors:
       - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
       - Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland
       - Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-
+    order: 1
