@@ -8,6 +8,7 @@ lang: en-US
 date-meta: '2022-01-16'
 author-meta:
 - Jesse G. Meyer
+- Dina Schuster
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -30,15 +31,21 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Dina Schuster" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
+  <meta name="twitter:creator" content="@dina_sch" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/269566051980f34f963ec1c5bb046c6769c10f3b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfd38d8f104c9907509861713958a854b1e1a26b/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@2695660](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/269566051980f34f963ec1c5bb046c6769c10f3b)
+from [jessegmeyerlab/proteomics-tutorial@cfd38d8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/cfd38d8f104c9907509861713958a854b1e1a26b)
 on January 16, 2022.
 </em></small>
 
@@ -80,6 +87,17 @@ on January 16, 2022.
   <small>
      Department of Biochemistry, Medical College of Wisconsin
      · Funded by Grant R21 AG074234; Grant R35 GM142502
+  </small>
+
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
 
@@ -221,11 +239,56 @@ Data acquisition strategies for proteomics fall generally within targeted or unt
 
 ## Analysis of Raw Data {.page_break_before}
 
-The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis.
+The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis. 
+This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
+
+In typical bottom-up proteomics experiments, proteins are digested into peptides and further analyzed with LC-MS/MS systems. 
+Peptides can have different PTMs and ionize differently depending on their length and amino acid distributions. 
+Therefore, mass spectrometers often record different charge and modification states of one single peptide. 
+The entity that is recorded on a mass spectrometer is usually referred to as a precursor ion (peptide with its modification and charge state). 
+This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching. 
+The quantity of a precursor is estimated with various methods.
+The measured precursor quantities are combined to generate a peptide quantity. 
+Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification [@DOI:https://doi.org/10.1074/mcp.R500012-MCP200] [@DOI:10.1016/j.jprot.2016.08.002].
+Protein inference is still a challenge in bottom-up proteomics. 
+
+Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
+The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:
+
+<!-- TODO: should we make a table for this part? with primary citation and link to the website -->
+
+DDA freeware: 
+- MaxQuant [@URL:https://www.maxquant.org/]
+- MSFragger [@URL:https://msfragger.nesvilab.org/] 
+- Mascot (for smaller data sets) [@URL:https://www.matrixscience.com/] [@PMID:10612281]
+- MS-GF+ [@DOI:https://doi.org/10.1038/ncomms6277]
+
+DIA freeware:
+- MaxDIA (within MaxQuant) [@URL:https://www.maxquant.org/]
+- Skyline [@URL:https://skyline.ms/project/home/software/Skyline/begin.view]
+- DIA-NN [@DOI:https://doi.org/10.1038/s41592-019-0638-x]
+Targeted proteomics freeware:
+- Skyline [@URL:https://skyline.ms/project/home/software/Skyline/begin.view]
+
+DDA non-freeware:
+- ProteomeDiscoverer[@URL:https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html]
+- Mascot (for larger data sets) [@URL:https://www.matrixscience.com/]
+- Spectromine [@URL:https://biognosys.com/software/spectromine/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB]
+- PEAKS [@URL:https://www.bioinfor.com/peaks-studio/]
+
+DIA non-freeware:
+- Spectronaut [@URL:https://biognosys.com/software/spectronaut/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770nuaU2SgIriS-ZJJGsC6CtzXc9AC8b9K3w5FlFDsDfGtnuUjIhankaAvegEALw_wcB]
+- PEAKS [@URL:https://www.bioinfor.com/peaks-studio/]
 
 ### Analysis of DDA data
 
 ### Strategies for analysis of DIA data
+
+### Targeted proteomics data analysis
+
+### Quality control
+
+### Statistical hypothesis testing
 
 
 
