@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@d2ab1d1](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561)
+from [jessegmeyerlab/proteomics-tutorial@bfa4090](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/bfa409066cc0f620baae488c33ca8917ed24d71a)
 on January 17, 2022.
 </em></small>
 
@@ -136,9 +136,6 @@ The wide variety of experimental goals leads to equal diversity in potential pro
 11. Biological Interpretation
 12. Experimental considerations and design
 
-[paragraph about what proteomics can do - leads into the next section] 
-A wide range of questions are addressable with proteomics experiments, which translates to a wide range of variations of proteomics workflows. 
-Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
 
 
 

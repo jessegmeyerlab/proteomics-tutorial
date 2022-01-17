@@ -21,9 +21,6 @@ content/02.introduction.md:9:proteomics
 content/02.introduction.md:11:proteolysis
 content/02.introduction.md:13:Enrichments
 content/02.introduction.md:15:Spectrometry
-content/02.introduction.md:22:proteomics
-content/02.introduction.md:23:proteomics
-content/02.introduction.md:23:proteomics
 content/03.experiment-types.md:6:Phosphoproteomics
 content/03.experiment-types.md:7:Glycoproteomics
 content/03.experiment-types.md:8:FPOP
