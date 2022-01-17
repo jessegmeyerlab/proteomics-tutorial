@@ -19,7 +19,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 ETH
 FAIMS
 Fenn
@@ -73,7 +73,7 @@ SILAM
 SISCAPA
 solubilizaition
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Tanaka
@@ -85,5 +85,5 @@ TOF
 TPP
 translational
 trypsin
-Untargeted
+untargeted
 Villigen

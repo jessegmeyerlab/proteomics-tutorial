@@ -17,10 +17,10 @@ content/02.introduction.md:6:proteomics
 content/02.introduction.md:8:practioners
 content/02.introduction.md:8:proteomics
 content/02.introduction.md:8:proteomics
-content/02.introduction.md:10:proteomics
-content/02.introduction.md:12:proteolysis
-content/02.introduction.md:14:Enrichments
-content/02.introduction.md:16:Spectrometry
+content/02.introduction.md:9:proteomics
+content/02.introduction.md:11:proteolysis
+content/02.introduction.md:13:Enrichments
+content/02.introduction.md:15:Spectrometry
 content/03.experiment-types.md:2:proteomics
 content/03.experiment-types.md:2:proteomics
 content/03.experiment-types.md:4:Proteomics
