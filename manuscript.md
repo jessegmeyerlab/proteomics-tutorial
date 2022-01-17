@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-16'
+date-meta: '2022-01-17'
 author-meta:
 - Dina Schuster
 - Jesse G. Meyer
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-16" />
-  <meta name="citation_publication_date" content="2022-01-16" />
+  <meta name="dc.date" content="2022-01-17" />
+  <meta name="citation_publication_date" content="2022-01-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/21ec587c21a922857bd98ce53edc2552060d9ec0/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@21ec587](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/21ec587c21a922857bd98ce53edc2552060d9ec0)
-on January 16, 2022.
+from [jessegmeyerlab/proteomics-tutorial@d2ab1d1](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d2ab1d1435b4eb4d58aeddffc1a1bfdefe964561)
+on January 17, 2022.
 </em></small>
 
 ## Authors
@@ -283,30 +283,49 @@ Protein inference is still a challenge in bottom-up proteomics.
 Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
 The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:
 
-<!-- TODO: should we make a table for this part? with primary citation and link to the website -->
+#### DDA freeware 
 
-DDA freeware: 
-- MaxQuant [@URL:https://www.maxquant.org/]
-- MSFragger [@URL:https://msfragger.nesvilab.org/] 
-- Mascot (for smaller data sets) [@URL:https://www.matrixscience.com/] [@PMID:10612281]
-- MS-GF+ [@DOI:https://doi.org/10.1038/ncomms6277]
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| MaxQuant |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|[MaxQuant](https://www.maxquant.org/)    |
+| MSFragger|   Kong et al., 2017[@DOI:10.1038/nmeth.4256]    |    [MSFragger](https://msfragger.nesvilab.org/) |
+| Mascot   |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
+| MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
 
-DIA freeware:
-- MaxDIA (within MaxQuant) [@URL:https://www.maxquant.org/]
-- Skyline [@URL:https://skyline.ms/project/home/software/Skyline/begin.view]
-- DIA-NN [@DOI:https://doi.org/10.1038/s41592-019-0638-x]
-Targeted proteomics freeware:
-- Skyline [@URL:https://skyline.ms/project/home/software/Skyline/begin.view]
 
-DDA non-freeware:
-- ProteomeDiscoverer[@URL:https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html]
-- Mascot (for larger data sets) [@URL:https://www.matrixscience.com/]
-- Spectromine [@URL:https://biognosys.com/software/spectromine/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB]
-- PEAKS [@URL:https://www.bioinfor.com/peaks-studio/]
+#### DIA freeware:
 
-DIA non-freeware:
-- Spectronaut [@URL:https://biognosys.com/software/spectronaut/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770nuaU2SgIriS-ZJJGsC6CtzXc9AC8b9K3w5FlFDsDfGtnuUjIhankaAvegEALw_wcB]
-- PEAKS [@URL:https://www.bioinfor.com/peaks-studio/]
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| MaxDIA |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|        [MaxQuant](https://www.maxquant.org/)    |
+| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
+| DIA-NN|Demichev et al., 2019[@DOI:10.1038/s41592-019-0638-x]  |    [DIA-NN](https://github.com/vdemichev/DiaNN)     |
+
+
+#### Targeted proteomics freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
+
+
+#### DDA non-freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| ProteomeDiscoverer ||[ProteomeDiscoverer](https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html)|
+| Mascot             |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
+| Spectromine   |           |    [Spectromine](ttps://biognosys.com/software/spectromine/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB)     |
+| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+
+
+#### DIA non-freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| Spectronaut |Bruderer et al., 2015[@DOI:10.1074/mcp.M114.044305]|[ProteomeDiscoverer](https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html)|
+| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+
 
 ### Analysis of DDA data
 
