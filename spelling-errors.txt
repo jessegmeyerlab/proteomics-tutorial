@@ -7,6 +7,7 @@ biomolecules
 bioplex
 BME
 Bruderer
+CETSA
 Chloroacetamide
 coIP
 contaminations
@@ -18,10 +19,11 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 ETH
 FAIMS
 Fenn
+footprinting
 FPOP
 GF
 GluC
@@ -31,6 +33,7 @@ HDX
 ICR
 iodoacetamide
 isoform
+isoforms
 isotopically
 iST
 iTRAQ
@@ -59,7 +62,7 @@ proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 PTM
 PTMs
 QQQ
@@ -79,6 +82,7 @@ tims
 TiO
 TMT
 TOF
+TPP
 translational
 trypsin
 Untargeted

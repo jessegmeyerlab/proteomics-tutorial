@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7221f38abbbba00a0b4cfe0a4b1540180757540a/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7221f38abbbba00a0b4cfe0a4b1540180757540a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7221f38abbbba00a0b4cfe0a4b1540180757540a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/bfa409066cc0f620baae488c33ca8917ed24d71a/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7221f38abbbba00a0b4cfe0a4b1540180757540a/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@bfa4090](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/bfa409066cc0f620baae488c33ca8917ed24d71a)
+from [jessegmeyerlab/proteomics-tutorial@7221f38](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7221f38abbbba00a0b4cfe0a4b1540180757540a)
 on January 17, 2022.
 </em></small>
 
@@ -123,6 +123,7 @@ We expect that this work will serve as a basic resource for new practitioners of
 [history of proteomics? how we got here] How did we get here? Modern proteomics really started around 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315][@DOI:https://doi.org/10.1002/rcm.1290020802]. Shortly afterward, the first machine algorithm for matching peptides to a database was introduced [@PMID:24226387]. Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography [@DOI:10.1021/ac010617e]. As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:https://doi.org/10.1038/nmeth1019]. 
 
 The wide variety of experimental goals leads to equal diversity in potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners:
+
 1. Types of experiments enabled by proteomics
 2. Protein extraction
 3. proteolysis
@@ -140,16 +141,24 @@ The wide variety of experimental goals leads to equal diversity in potential pro
 
 
 ## Types of Experiments {.page_break_before}
+A wide range of questions are addressable with proteomics technology, which translates to a wide range of variations of proteomics workflows. 
+Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
+Proteomics experiments can be both qualitative and quantitative. 
 
-[List of common types of experiments and brief description]
+### Qualitative experiments
+- Identifying proteins 
+- Identifying post translational modifications
+- Identifying protein isoforms
 
+### Quantitative experiments
 - Protein abundance changes
 - Phosphoproteomics
 - Glycoproteomics
-- Structural techniques (XL-MS, HDX-MS, FPOP, protein-painting, LiP-MS, ...)
-- Protein stability measurements (Thermal denaturation)
-- PPIs: AP-MS, APEX, BioID
-- ...
+- Structural techniques (XL-MS, HDX-MS, FPOP, protein-painting, LiP-MS, radical footprinting, ion mobility)
+- Protein stability and small molecule binding (Thermal proteome profiling, TPP, or cellular thermal shift assay, CETSA)
+- Protein-protein interactions (PPIs): AP-MS, APEX, BioID
+
+
 
 
 ## Protein Extraction {.page_break_before}
