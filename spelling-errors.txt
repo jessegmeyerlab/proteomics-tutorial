@@ -19,7 +19,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 ETH
 FAIMS
 Fenn
