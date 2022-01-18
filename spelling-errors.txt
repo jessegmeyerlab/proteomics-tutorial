@@ -19,7 +19,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 ETH
 FAIMS
 Fenn
@@ -31,6 +31,7 @@ Glycoproteomics
 Glycosylation
 HDX
 ICR
+infered
 iodoacetamide
 isoform
 isoforms
@@ -58,7 +59,8 @@ Phosphoproteomics
 PPIs
 practioners
 protease
-proteolysis
+proteoforms
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
@@ -66,12 +68,14 @@ proteomics
 PTM
 PTMs
 QQQ
+refered
 Scherrer
 Schuster
 SILAC
 SILAM
 SISCAPA
 solubilizaition
+solubilizing
 spectrometric
 spectrometry
 Spectromine
@@ -85,5 +89,5 @@ TOF
 TPP
 translational
 trypsin
-untargeted
+Untargeted
 Villigen

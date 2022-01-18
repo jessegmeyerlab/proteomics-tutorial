@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Dina Schuster" />
   <meta name="author" content="Jesse G. Meyer" />
-  <meta name="dcterms.date" content="2022-01-17" />
+  <meta name="dcterms.date" content="2022-01-18" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>A Practical Beginner’s Guide to Proteomics</title>
   <style>
@@ -48,8 +48,8 @@
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-17" />
-  <meta name="citation_publication_date" content="2022-01-17" />
+  <meta name="dc.date" content="2022-01-18" />
+  <meta name="citation_publication_date" content="2022-01-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8323a5d2a45e2bf2d0c4ae1caa49fa685c2708e2/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8323a5d2a45e2bf2d0c4ae1caa49fa685c2708e2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8323a5d2a45e2bf2d0c4ae1caa49fa685c2708e2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5145074c61677ff7fb9842af15b550f8b1105198/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5145074c61677ff7fb9842af15b550f8b1105198/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5145074c61677ff7fb9842af15b550f8b1105198/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,10 +88,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8323a5d2a45e2bf2d0c4ae1caa49fa685c2708e2/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5145074c61677ff7fb9842af15b550f8b1105198/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/8323a5d2a45e2bf2d0c4ae1caa49fa685c2708e2">jessegmeyerlab/proteomics-tutorial@8323a5d</a>
-on January 17, 2022.
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/5145074c61677ff7fb9842af15b550f8b1105198">jessegmeyerlab/proteomics-tutorial@5145074</a>
+on January 18, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -127,21 +127,48 @@ Here, we provide a comprehensive tutorial of different proteomics methods.
 Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation.
 We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
-<p>[paragraph about what proteomics means today] Proteomics is the large scale study of protein structure and function. Proteins are translated from mRNAs that are transcribed from the genome. Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology.</p>
-<p>[history of proteomics? how we got here] How did we get here? Modern proteomics really started around 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [<span class="citation" data-cites="4Ajjx5fo">[<a href="#ref-4Ajjx5fo" role="doc-biblioref">1</a>]</span>]<span class="citation" data-cites="DHJke1NV">[<a href="#ref-DHJke1NV" role="doc-biblioref">2</a>]</span>. Shortly afterward, the first machine algorithm for matching peptides to a database was introduced <span class="citation" data-cites="pG7zq91Q">[<a href="#ref-pG7zq91Q" role="doc-biblioref">3</a>]</span>. Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography <span class="citation" data-cites="ujahSo3G">[<a href="#ref-ujahSo3G" role="doc-biblioref">4</a>]</span>. As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models <span class="citation" data-cites="mw5jxASm">[<a href="#ref-mw5jxASm" role="doc-biblioref">5</a>]</span> and the false discovery rate <span class="citation" data-cites="y9Bki24q">[<a href="#ref-y9Bki24q" role="doc-biblioref">6</a>]</span>.</p>
-<p>The wide variety of experimental goals leads to equal diversity in potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners:
-1. Types of experiments enabled by proteomics
-2. Protein extraction
-3. proteolysis
-4. Isotopic Labeling
-5. Enrichments
-6. Peptide purification
-7. Mass Spectrometry
-8. Peptide Ionization
-9. Data Acquisition
-10. Basic Data Analysis
-11. Biological Interpretation
-12. Experimental considerations and design</p>
+<p>Proteomics is the large scale study of protein structure and function.
+Proteins are translated from mRNAs that are transcribed from the genome.
+Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology.
+Currently, proteomic studies are facilitated by mass spectrometry, although alternative methods are being developed.</p>
+<p>Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [<span class="citation" data-cites="4Ajjx5fo">[<a href="#ref-4Ajjx5fo" role="doc-biblioref">1</a>]</span>]<span class="citation" data-cites="DHJke1NV">[<a href="#ref-DHJke1NV" role="doc-biblioref">2</a>]</span>.
+Shortly afterward, the first computer algorithm for matching peptides to a database was introduced <span class="citation" data-cites="pG7zq91Q">[<a href="#ref-pG7zq91Q" role="doc-biblioref">3</a>]</span>.
+Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography <span class="citation" data-cites="ujahSo3G">[<a href="#ref-ujahSo3G" role="doc-biblioref">4</a>]</span>.
+As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models <span class="citation" data-cites="mw5jxASm">[<a href="#ref-mw5jxASm" role="doc-biblioref">5</a>]</span> and the false discovery rate <span class="citation" data-cites="y9Bki24q">[<a href="#ref-y9Bki24q" role="doc-biblioref">6</a>]</span>.
+<!-- Todo: figure 1: major milestones in proteomics technology since 1990 --></p>
+<p>Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are cleaved into peptides before analysis: “top-down” and “bottom-up”.
+Bottom-up proteomics (also refered to as shotgun proteomics) is defined by the hydrolysis of proteins into peptide pieces <span class="citation" data-cites="16QSCuG38">[<a href="#ref-16QSCuG38" role="doc-biblioref">7</a>]</span>.
+Therefore, bottom-up proteomics does not actually measure proteins, but must infer their presence <span class="citation" data-cites="GZmDnwb9">[<a href="#ref-GZmDnwb9" role="doc-biblioref">8</a>]</span>.
+Sometimes proteins are infered from only one peptide sequence representing a small fraction of the total protein sequence predicted from the genome.
+In contrast, top-down proteomics attempts to measure all proteins intact <span class="citation" data-cites="a6Z8FNxW">[<a href="#ref-a6Z8FNxW" role="doc-biblioref">9</a>]</span>.
+The potential benefit of top-down proteomics is the ability to measure proteoforms <span class="citation" data-cites="h00Trxkt">[<a href="#ref-h00Trxkt" role="doc-biblioref">10</a>]</span>.
+However, due to analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is less than the depth that is achievable by bottom-up proteomics.</p>
+<p>In this tutorial we focus on the bottom-up proteomics workflow, the most common workflow of which is generally comprised of the following steps.
+First, proteins in a biological sample must be extracted.
+Usually this is done by denaturing and solubilizing the proteins while disrupting DNA and tissue.
+Next, proteins are hydrolyzed into peptides, usually using a protease like trypsin.
+Peptides from proteome hydrolysis must be purified.
+Most often this is done with reversed phase chromatography cartridges or tips.
+The peptides are then almost always separated by liquid chromatography before they are ionized and introduced into a mass spectrometer.
+The mass spectrometer then collects precursor and fragment ion data from those peptides.
+The data analysis is usually the rate limiting step.
+Peptides must be identified, and proteins are inferred and quantities are assigned.
+Changes in proteins across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.</p>
+<p>There are many variations on this workflow. The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners.</p>
+<ol type="1">
+<li>Types of experiments enabled by proteomics</li>
+<li>Protein extraction</li>
+<li>proteolysis</li>
+<li>Isotopic Labeling</li>
+<li>Enrichments</li>
+<li>Peptide purification</li>
+<li>Mass Spectrometry</li>
+<li>Peptide Ionization</li>
+<li>Data Acquisition</li>
+<li>Basic Data Analysis</li>
+<li>Biological Interpretation</li>
+<li>Experimental considerations and design</li>
+</ol>
 <h2 class="page_break_before" id="types-of-experiments">Types of Experiments</h2>
 <p>A wide range of questions are addressable with proteomics technology, which translates to a wide range of variations of proteomics workflows.
 Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired.
@@ -181,12 +208,12 @@ Proteomics experiments can be both qualitative and quantitative.</p>
 <ol type="1">
 <li>discussion of protein sequence coverage is determined by the choice of proteolysis</li>
 <li>why trypsin is the most common choice (charge and length character)</li>
-<li>theoretical studies of proteolysis and enzyme <span class="citation" data-cites="bVe8fVUv">[<a href="#ref-bVe8fVUv" role="doc-biblioref">7</a>]</span></li>
+<li>theoretical studies of proteolysis and enzyme <span class="citation" data-cites="bVe8fVUv">[<a href="#ref-bVe8fVUv" role="doc-biblioref">11</a>]</span></li>
 <li>Challenges associated with alternative enzyme choices (non-specific and semi-specific enzymes)</li>
 <li>Alternative enzyme choices (one paragraph each?) - LysC</li>
 <li>GluC</li>
 <li>AspN</li>
-<li>Alpha-lytic protease <span class="citation" data-cites="1DWUg5Sp2">[<a href="#ref-1DWUg5Sp2" role="doc-biblioref">8</a>]</span> and how it enables mapping human SUMO sites <span class="citation" data-cites="4iAess79">[<a href="#ref-4iAess79" role="doc-biblioref">9</a>]</span>.</li>
+<li>Alpha-lytic protease <span class="citation" data-cites="1DWUg5Sp2">[<a href="#ref-1DWUg5Sp2" role="doc-biblioref">12</a>]</span> and how it enables mapping human SUMO sites <span class="citation" data-cites="4iAess79">[<a href="#ref-4iAess79" role="doc-biblioref">13</a>]</span>.</li>
 <li>others?</li>
 </ol>
 <h2 class="page_break_before" id="peptide-and-protein-labeling">Peptide and Protein Labeling</h2>
@@ -207,7 +234,7 @@ Proteomics experiments can be both qualitative and quantitative.</p>
 </ul>
 <h3 id="peptide-enrichment">Peptide enrichment</h3>
 <ul>
-<li>antibody enrichments of modifications, e.g. lysine acetylation <span class="citation" data-cites="58knZUn0">[<a href="#ref-58knZUn0" role="doc-biblioref">10</a>]</span>.</li>
+<li>antibody enrichments of modifications, e.g. lysine acetylation <span class="citation" data-cites="58knZUn0">[<a href="#ref-58knZUn0" role="doc-biblioref">14</a>]</span>.</li>
 <li>TiO2 and Fe enrichment of phosphorylation</li>
 <li>Glycosylation</li>
 <li>SISCAPA</li>
@@ -237,7 +264,7 @@ Proteomics experiments can be both qualitative and quantitative.</p>
 <li>tims</li>
 </ul>
 <h2 class="page_break_before" id="peptide-ionization">Peptide Ionization</h2>
-<p>The 2002 Nobel Prize in Chemistry was awarded to partially to John Fenn and Koichi Tanaka “for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules” <span class="citation" data-cites="YdLSljVE">[<a href="#ref-YdLSljVE" role="doc-biblioref">11</a>/]</span>.</p>
+<p>The 2002 Nobel Prize in Chemistry was awarded to partially to John Fenn and Koichi Tanaka “for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules” <span class="citation" data-cites="YdLSljVE">[<a href="#ref-YdLSljVE" role="doc-biblioref">15</a>/]</span>.</p>
 <h3 id="maldi">MALDI</h3>
 <h3 id="electrospray-ionization">Electrospray Ionization</h3>
 <h2 id="data-acquisition">Data Acquisition</h2>
@@ -258,7 +285,7 @@ The entity that is recorded on a mass spectrometer is usually referred to as a p
 This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching.
 The quantity of a precursor is estimated with various methods.
 The measured precursor quantities are combined to generate a peptide quantity.
-Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification <span class="citation" data-cites="dPwJMGS2">[<a href="#ref-dPwJMGS2" role="doc-biblioref">12</a>]</span> <span class="citation" data-cites="wtH5a4Ax">[<a href="#ref-wtH5a4Ax" role="doc-biblioref">13</a>]</span>.
+Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification <span class="citation" data-cites="dPwJMGS2">[<a href="#ref-dPwJMGS2" role="doc-biblioref">16</a>]</span> <span class="citation" data-cites="wtH5a4Ax">[<a href="#ref-wtH5a4Ax" role="doc-biblioref">17</a>]</span>.
 Protein inference is still a challenge in bottom-up proteomics.</p>
 <p>Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above.
 The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:</p>
@@ -274,22 +301,22 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">MaxQuant</td>
-<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">14</a>]</span></td>
+<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">18</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">MSFragger</td>
-<td style="text-align: center;">Kong et al., 2017<span class="citation" data-cites="bKpYR6PB">[<a href="#ref-bKpYR6PB" role="doc-biblioref">15</a>]</span></td>
+<td style="text-align: center;">Kong et al., 2017<span class="citation" data-cites="bKpYR6PB">[<a href="#ref-bKpYR6PB" role="doc-biblioref">19</a>]</span></td>
 <td style="text-align: center;"><a href="https://msfragger.nesvilab.org/">MSFragger</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Mascot</td>
-<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">16</a>]</span></td>
+<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">20</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.matrixscience.com/">Mascot</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">MS-GF+</td>
-<td style="text-align: center;">Kim et al., <span class="citation" data-cites="1B2RVFOKK">[<a href="#ref-1B2RVFOKK" role="doc-biblioref">17</a>]</span></td>
+<td style="text-align: center;">Kim et al., <span class="citation" data-cites="1B2RVFOKK">[<a href="#ref-1B2RVFOKK" role="doc-biblioref">21</a>]</span></td>
 <td style="text-align: center;"><a href="https://github.com/MSGFPlus/msgfplus">MS-GF+</a></td>
 </tr>
 </tbody>
@@ -306,17 +333,17 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">MaxDIA</td>
-<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">14</a>]</span></td>
+<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">18</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Skyline</td>
-<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">18</a>]</span></td>
+<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">22</a>]</span></td>
 <td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">DIA-NN</td>
-<td style="text-align: center;">Demichev et al., 2019<span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">19</a>]</span></td>
+<td style="text-align: center;">Demichev et al., 2019<span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">23</a>]</span></td>
 <td style="text-align: center;"><a href="https://github.com/vdemichev/DiaNN">DIA-NN</a></td>
 </tr>
 </tbody>
@@ -333,7 +360,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Skyline</td>
-<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">18</a>]</span></td>
+<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">22</a>]</span></td>
 <td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
 </tr>
 </tbody>
@@ -355,7 +382,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 <tr class="even">
 <td style="text-align: center;">Mascot</td>
-<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">16</a>]</span></td>
+<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">20</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.matrixscience.com/">Mascot</a></td>
 </tr>
 <tr class="odd">
@@ -365,7 +392,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 <tr class="even">
 <td style="text-align: center;">PEAKS</td>
-<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">20</a>]</span></td>
+<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">24</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.bioinfor.com/peaks-studio/">PEAKS</a></td>
 </tr>
 </tbody>
@@ -387,12 +414,12 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Spectronaut</td>
-<td style="text-align: center;">Bruderer et al., 2015<span class="citation" data-cites="UKcaDUJ7">[<a href="#ref-UKcaDUJ7" role="doc-biblioref">21</a>]</span></td>
+<td style="text-align: center;">Bruderer et al., 2015<span class="citation" data-cites="UKcaDUJ7">[<a href="#ref-UKcaDUJ7" role="doc-biblioref">25</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html">ProteomeDiscoverer</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">PEAKS</td>
-<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">20</a>]</span></td>
+<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">24</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.bioinfor.com/peaks-studio/">PEAKS</a></td>
 </tr>
 </tbody>
@@ -437,50 +464,62 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <div id="ref-y9Bki24q" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry</strong> <div class="csl-block">Joshua E Elias, Steven P Gygi</div> <em>Nature Methods</em> (2007-03) <a href="https://doi.org/djz7fz">https://doi.org/djz7fz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth1019">https://doi.org/10.1038/nmeth1019</a></div></div>
 </div>
+<div id="ref-16QSCuG38" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Mass-spectrometric exploration of proteome structure and function</strong> <div class="csl-block">Ruedi Aebersold, Matthias Mann</div> <em>Nature</em> (2016-09) <a href="https://doi.org/f83zqm">https://doi.org/f83zqm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature19949">10.1038/nature19949</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27629641">27629641</a></div></div>
+</div>
+<div id="ref-GZmDnwb9" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>A Statistical Model for Identifying Proteins by Tandem Mass Spectrometry</strong> <div class="csl-block">* Alexey I. Nesvizhskii, * Andrew Keller, ‡ and Eugene Kolker, Ruedi Aebersold</div> <em>ACS Publications</em> (2003-07-15) <a href="https://pubs.acs.org/doi/abs/10.1021/ac0341261">https://pubs.acs.org/doi/abs/10.1021/ac0341261</a></div>
+</div>
+<div id="ref-a6Z8FNxW" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>High-throughput quantitative top-down proteomics</strong> <div class="csl-block">Kellye A Cupp-Sutton, Si Wu</div> <em>Molecular Omics</em> (2020) <a href="https://doi.org/gnx98p">https://doi.org/gnx98p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1039/c9mo00154a">10.1039/c9mo00154a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31932818">31932818</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7529119">PMC7529119</a></div></div>
+</div>
+<div id="ref-h00Trxkt" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Proteoforms as the next proteomics currency</strong> <div class="csl-block">Lloyd M Smith, Neil L Kelleher</div> <em>Science</em> (2018-03-09) <a href="https://doi.org/gn6p4x">https://doi.org/gn6p4x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.aat1884">10.1126/science.aat1884</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29590032">29590032</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5944612">PMC5944612</a></div></div>
+</div>
 <div id="ref-bVe8fVUv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>&lt;i&gt;In Silico&lt;/i&gt; Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage</strong> <div class="csl-block">Jesse G Meyer</div> <em>ISRN Computational Biology</em> (2014-04-22) <a href="https://doi.org/gb6s2r">https://doi.org/gb6s2r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1155/2014/960902">https://doi.org/10.1155/2014/960902</a></div></div>
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>&lt;i&gt;In Silico&lt;/i&gt; Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage</strong> <div class="csl-block">Jesse G Meyer</div> <em>ISRN Computational Biology</em> (2014-04-22) <a href="https://doi.org/gb6s2r">https://doi.org/gb6s2r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1155/2014/960902">https://doi.org/10.1155/2014/960902</a></div></div>
 </div>
 <div id="ref-1DWUg5Sp2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Expanding Proteome Coverage with Orthogonal-specificity α-Lytic Proteases</strong> <div class="csl-block">Jesse G Meyer, Sangtae Kim, David A Maltby, Majid Ghassemian, Nuno Bandeira, Elizabeth A Komives</div> <em>Molecular &amp; Cellular Proteomics</em> (2014-03) <a href="https://doi.org/f5vgcg">https://doi.org/f5vgcg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m113.034710">https://doi.org/10.1074/mcp.m113.034710</a></div></div>
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Expanding Proteome Coverage with Orthogonal-specificity α-Lytic Proteases</strong> <div class="csl-block">Jesse G Meyer, Sangtae Kim, David A Maltby, Majid Ghassemian, Nuno Bandeira, Elizabeth A Komives</div> <em>Molecular &amp; Cellular Proteomics</em> (2014-03) <a href="https://doi.org/f5vgcg">https://doi.org/f5vgcg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m113.034710">https://doi.org/10.1074/mcp.m113.034710</a></div></div>
 </div>
 <div id="ref-4iAess79" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>Site-specific identification and quantitation of endogenous SUMO modifications under native conditions.</strong> <div class="csl-block">Ryan J Lumpkin, Hongbo Gu, Yiying Zhu, Marilyn Leonard, Alla S Ahmad, Karl R Clauser, Jesse G Meyer, Eric J Bennett, Elizabeth A Komives</div> <em>Nature communications</em> (2017-10-27) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">https://www.ncbi.nlm.nih.gov/pubmed/29079793</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-017-01271-3">10.1038/s41467-017-01271-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">29079793</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660086">PMC5660086</a></div></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Site-specific identification and quantitation of endogenous SUMO modifications under native conditions.</strong> <div class="csl-block">Ryan J Lumpkin, Hongbo Gu, Yiying Zhu, Marilyn Leonard, Alla S Ahmad, Karl R Clauser, Jesse G Meyer, Eric J Bennett, Elizabeth A Komives</div> <em>Nature communications</em> (2017-10-27) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">https://www.ncbi.nlm.nih.gov/pubmed/29079793</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-017-01271-3">10.1038/s41467-017-01271-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">29079793</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660086">PMC5660086</a></div></div>
 </div>
 <div id="ref-58knZUn0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Simultaneous Quantification of the Acetylome and Succinylome by ‘One‐Pot’ Affinity Enrichment</strong> <div class="csl-block">Nathan Basisty, Jesse G Meyer, Lei Wei, Bradford W Gibson, Birgit Schilling</div> <em>PROTEOMICS</em> (2018-08-19) <a href="https://doi.org/gn4cmb">https://doi.org/gn4cmb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201800123">10.1002/pmic.201800123</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30035354">30035354</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6175148">PMC6175148</a></div></div>
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Simultaneous Quantification of the Acetylome and Succinylome by ‘One‐Pot’ Affinity Enrichment</strong> <div class="csl-block">Nathan Basisty, Jesse G Meyer, Lei Wei, Bradford W Gibson, Birgit Schilling</div> <em>PROTEOMICS</em> (2018-08-19) <a href="https://doi.org/gn4cmb">https://doi.org/gn4cmb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201800123">10.1002/pmic.201800123</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30035354">30035354</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6175148">PMC6175148</a></div></div>
 </div>
 <div id="ref-YdLSljVE" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>The Nobel Prize in Chemistry 2002</strong> <div class="csl-block">NobelPrize.org</div> <a href="https://www.nobelprize.org/prizes/chemistry/2002/summary/">https://www.nobelprize.org/prizes/chemistry/2002/summary/</a></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>The Nobel Prize in Chemistry 2002</strong> <div class="csl-block">NobelPrize.org</div> <a href="https://www.nobelprize.org/prizes/chemistry/2002/summary/">https://www.nobelprize.org/prizes/chemistry/2002/summary/</a></div>
 </div>
 <div id="ref-dPwJMGS2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Interpretation of Shotgun Proteomic Data</strong> <div class="csl-block">Alexey I Nesvizhskii, Ruedi Aebersold</div> <em>Molecular &amp; Cellular Proteomics</em> (2005-10) <a href="https://doi.org/cm99cj">https://doi.org/cm99cj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r500012-mcp200">https://doi.org/10.1074/mcp.r500012-mcp200</a></div></div>
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Interpretation of Shotgun Proteomic Data</strong> <div class="csl-block">Alexey I Nesvizhskii, Ruedi Aebersold</div> <em>Molecular &amp; Cellular Proteomics</em> (2005-10) <a href="https://doi.org/cm99cj">https://doi.org/cm99cj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r500012-mcp200">https://doi.org/10.1074/mcp.r500012-mcp200</a></div></div>
 </div>
 <div id="ref-wtH5a4Ax" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics</strong> <div class="csl-block">Enrique Audain, Julian Uszkoreit, Timo Sachsenberg, Julianus Pfeuffer, Xiao Liang, Henning Hermjakob, Aniel Sanchez, Martin Eisenacher, Knut Reinert, David L Tabb, … Yasset Perez-Riverol</div> <em>Journal of Proteomics</em> (2017-01) <a href="https://doi.org/f9r8r6">https://doi.org/f9r8r6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2016.08.002">10.1016/j.jprot.2016.08.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27498275">27498275</a></div></div>
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics</strong> <div class="csl-block">Enrique Audain, Julian Uszkoreit, Timo Sachsenberg, Julianus Pfeuffer, Xiao Liang, Henning Hermjakob, Aniel Sanchez, Martin Eisenacher, Knut Reinert, David L Tabb, … Yasset Perez-Riverol</div> <em>Journal of Proteomics</em> (2017-01) <a href="https://doi.org/f9r8r6">https://doi.org/f9r8r6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2016.08.002">10.1016/j.jprot.2016.08.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27498275">27498275</a></div></div>
 </div>
 <div id="ref-18PIzg2Co" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</strong> <div class="csl-block">Jürgen Cox, Matthias Mann</div> <em>Nature Biotechnology</em> (2008-11-30) <a href="https://doi.org/crn24x">https://doi.org/crn24x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1511">10.1038/nbt.1511</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19029910">19029910</a></div></div>
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</strong> <div class="csl-block">Jürgen Cox, Matthias Mann</div> <em>Nature Biotechnology</em> (2008-11-30) <a href="https://doi.org/crn24x">https://doi.org/crn24x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1511">10.1038/nbt.1511</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19029910">19029910</a></div></div>
 </div>
 <div id="ref-bKpYR6PB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics</strong> <div class="csl-block">Andy T Kong, Felipe V Leprevost, Dmitry M Avtonomov, Dattatreya Mellacheruvu, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2017-04-10) <a href="https://doi.org/f9z6p7">https://doi.org/f9z6p7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4256">10.1038/nmeth.4256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28394336">28394336</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409104">PMC5409104</a></div></div>
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics</strong> <div class="csl-block">Andy T Kong, Felipe V Leprevost, Dmitry M Avtonomov, Dattatreya Mellacheruvu, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2017-04-10) <a href="https://doi.org/f9z6p7">https://doi.org/f9z6p7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4256">10.1038/nmeth.4256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28394336">28394336</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409104">PMC5409104</a></div></div>
 </div>
 <div id="ref-rKtsv6G" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
 </div>
 <div id="ref-1B2RVFOKK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-10-31) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">10.1038/ncomms6277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25358478">25358478</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036525">PMC5036525</a></div></div>
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-10-31) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">10.1038/ncomms6277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25358478">25358478</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036525">PMC5036525</a></div></div>
 </div>
 <div id="ref-CObAggjA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</strong> <div class="csl-block">Brendan MacLean, Daniela M Tomazela, Nicholas Shulman, Matthew Chambers, Gregory L Finney, Barbara Frewen, Randall Kern, David L Tabb, Daniel C Liebler, Michael J MacCoss</div> <em>Bioinformatics</em> (2010-04-01) <a href="https://doi.org/bqx9rq">https://doi.org/bqx9rq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btq054">10.1093/bioinformatics/btq054</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20147306">20147306</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844992">PMC2844992</a></div></div>
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</strong> <div class="csl-block">Brendan MacLean, Daniela M Tomazela, Nicholas Shulman, Matthew Chambers, Gregory L Finney, Barbara Frewen, Randall Kern, David L Tabb, Daniel C Liebler, Michael J MacCoss</div> <em>Bioinformatics</em> (2010-04-01) <a href="https://doi.org/bqx9rq">https://doi.org/bqx9rq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btq054">10.1093/bioinformatics/btq054</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20147306">20147306</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844992">PMC2844992</a></div></div>
 </div>
 <div id="ref-1HLH2DWkK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2019-11-25) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">10.1038/s41592-019-0638-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31768060">31768060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949130">PMC6949130</a></div></div>
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2019-11-25) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">10.1038/s41592-019-0638-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31768060">31768060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949130">PMC6949130</a></div></div>
 </div>
 <div id="ref-IUqTUA43" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry</strong> <div class="csl-block">Ngoc Hieu Tran, Rui Qiao, Lei Xin, Xin Chen, Chuyi Liu, Xianglilan Zhang, Baozhen Shan, Ali Ghodsi, Ming Li</div> <em>Nature Methods</em> (2018-12-20) <a href="https://doi.org/gftvmn">https://doi.org/gftvmn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0260-3">10.1038/s41592-018-0260-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30573815">30573815</a></div></div>
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry</strong> <div class="csl-block">Ngoc Hieu Tran, Rui Qiao, Lei Xin, Xin Chen, Chuyi Liu, Xianglilan Zhang, Baozhen Shan, Ali Ghodsi, Ming Li</div> <em>Nature Methods</em> (2018-12-20) <a href="https://doi.org/gftvmn">https://doi.org/gftvmn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0260-3">10.1038/s41592-018-0260-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30573815">30573815</a></div></div>
 </div>
 <div id="ref-UKcaDUJ7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Extending the Limits of Quantitative Proteome Profiling with Data-Independent Acquisition and Application to Acetaminophen-Treated Three-Dimensional Liver Microtissues</strong> <div class="csl-block">Roland Bruderer, Oliver M Bernhardt, Tejas Gandhi, Saša M Miladinović, Lin-Yang Cheng, Simon Messner, Tobias Ehrenberger, Vito Zanotelli, Yulia Butscheid, Claudia Escher, … Lukas Reiter</div> <em>Molecular &amp; Cellular Proteomics</em> (2015-05) <a href="https://doi.org/f7b76h">https://doi.org/f7b76h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m114.044305">10.1074/mcp.m114.044305</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25724911">25724911</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424408">PMC4424408</a></div></div>
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Extending the Limits of Quantitative Proteome Profiling with Data-Independent Acquisition and Application to Acetaminophen-Treated Three-Dimensional Liver Microtissues</strong> <div class="csl-block">Roland Bruderer, Oliver M Bernhardt, Tejas Gandhi, Saša M Miladinović, Lin-Yang Cheng, Simon Messner, Tobias Ehrenberger, Vito Zanotelli, Yulia Butscheid, Claudia Escher, … Lukas Reiter</div> <em>Molecular &amp; Cellular Proteomics</em> (2015-05) <a href="https://doi.org/f7b76h">https://doi.org/f7b76h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m114.044305">10.1074/mcp.m114.044305</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25724911">25724911</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424408">PMC4424408</a></div></div>
 </div>
 </div>
 <!-- default theme -->
