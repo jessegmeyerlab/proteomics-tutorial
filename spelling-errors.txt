@@ -77,7 +77,7 @@ SISCAPA
 solubilizaition
 solubilizing
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Tanaka
