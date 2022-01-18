@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d23ac39050c59719247a100b7c5f4b970e758ed7/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d23ac39050c59719247a100b7c5f4b970e758ed7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d23ac39050c59719247a100b7c5f4b970e758ed7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ca97819f50640979a26566d06eed3686e149522c/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ca97819f50640979a26566d06eed3686e149522c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ca97819f50640979a26566d06eed3686e149522c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d23ac39050c59719247a100b7c5f4b970e758ed7/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ca97819f50640979a26566d06eed3686e149522c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d23ac39050c59719247a100b7c5f4b970e758ed7">jessegmeyerlab/proteomics-tutorial@d23ac39</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/ca97819f50640979a26566d06eed3686e149522c">jessegmeyerlab/proteomics-tutorial@ca97819</a>
 on January 18, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -127,11 +127,12 @@ Here, we provide a comprehensive tutorial of different proteomics methods.
 Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation.
 We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
-<p>[paragraph about what proteomics means today] Proteomics is the large scale study of protein structure and function.
+<p>Proteomics is the large scale study of protein structure and function.
 Proteins are translated from mRNAs that are transcribed from the genome.
-Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology.</p>
-<p>How did we get here? Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [<span class="citation" data-cites="4Ajjx5fo">[<a href="#ref-4Ajjx5fo" role="doc-biblioref">1</a>]</span>]<span class="citation" data-cites="DHJke1NV">[<a href="#ref-DHJke1NV" role="doc-biblioref">2</a>]</span>.
-Shortly afterward, the first machine algorithm for matching peptides to a database was introduced <span class="citation" data-cites="pG7zq91Q">[<a href="#ref-pG7zq91Q" role="doc-biblioref">3</a>]</span>.
+Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology.
+Currently, proteomic studies are facilitated by mass spectrometry, although alternative methods are being developed.</p>
+<p>Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [<span class="citation" data-cites="4Ajjx5fo">[<a href="#ref-4Ajjx5fo" role="doc-biblioref">1</a>]</span>]<span class="citation" data-cites="DHJke1NV">[<a href="#ref-DHJke1NV" role="doc-biblioref">2</a>]</span>.
+Shortly afterward, the first computer algorithm for matching peptides to a database was introduced <span class="citation" data-cites="pG7zq91Q">[<a href="#ref-pG7zq91Q" role="doc-biblioref">3</a>]</span>.
 Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography <span class="citation" data-cites="ujahSo3G">[<a href="#ref-ujahSo3G" role="doc-biblioref">4</a>]</span>.
 As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models <span class="citation" data-cites="mw5jxASm">[<a href="#ref-mw5jxASm" role="doc-biblioref">5</a>]</span> and the false discovery rate <span class="citation" data-cites="y9Bki24q">[<a href="#ref-y9Bki24q" role="doc-biblioref">6</a>]</span>.
 <!-- Todo: figure 1: major milestones in proteomics technology since 1990 --></p>
@@ -142,7 +143,8 @@ Sometimes proteins are infered from only one peptide sequence representing a sma
 In contrast, top-down proteomics attempts to measure all proteins intact <span class="citation" data-cites="a6Z8FNxW">[<a href="#ref-a6Z8FNxW" role="doc-biblioref">9</a>]</span>.
 The potential benefit of top-down proteomics is the ability to measure proteoforms <span class="citation" data-cites="h00Trxkt">[<a href="#ref-h00Trxkt" role="doc-biblioref">10</a>]</span>.
 However, due to analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is less than the depth that is achievable by bottom-up proteomics.</p>
-<p>In this tutorial we focus on the bottom-up proteomics workflow, the most common workflow of which is generally comprised of the following steps.
+<p>In this tutorial we focus on the bottom-up proteomics workflow.
+The most common version of this workflow is generally comprised of the following steps.
 First, proteins in a biological sample must be extracted.
 Usually this is done by denaturing and solubilizing the proteins while disrupting DNA and tissue.
 Next, proteins are hydrolyzed into peptides, usually using a protease like trypsin.
