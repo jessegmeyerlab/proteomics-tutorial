@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@637dc96](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/637dc96d5f6af564773df3d94d4a027f9b0bb39e)
+from [jessegmeyerlab/proteomics-tutorial@d44df44](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d44df4432a795191b5a1e784a0c101b864dc149f)
 on January 19, 2022.
 </em></small>
 
@@ -205,9 +205,18 @@ Discussion of methods for protein extraction and solubilizaition.
 
 ## Proteolysis {.page_break_before}
 
-1. discussion of protein sequence coverage is determined by the choice of proteolysis
-2. why trypsin is the most common choice (charge and length character)
-3. theoretical studies of proteolysis and enzyme [@DOI:https://doi.org/10.1155/2014/960902]
+Proteolysis is the defining step that differentiates bottom-up or shotgun proteomics from top-down proteomics. 
+Hydrolysis of proteins is extremely important because it defines the population of potentially identifyable peptides. 
+Generally peptides between a length of 7-35 amino acid are considered useful for mass spectrometry analysis.
+Peptides that are too long are difficult to identify by tandem mass spectrometry, or may be lost during sample preparation due to 
+Peptides that are too short are less likely to uniquely match to a single protein. 
+There are many choices of enzymes and chemicals that hydrolyze proteins into peptides. 
+This section summarizes potential choices and their strengths and weaknesses. 
+
+Trypsin is the most common choice of protease for proteome hydrolysis [@DOI:10.1002/mas.21376]. 
+ 
+
+3. theoretical studies of proteolysis enzymes [@DOI:https://doi.org/10.1155/2014/960902]
 4. Challenges associated with alternative enzyme choices (non-specific and semi-specific enzymes)
 5. Alternative enzyme choices (one paragraph each?) - LysC
 6. GluC
