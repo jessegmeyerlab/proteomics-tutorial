@@ -1,7 +1,7 @@
 acetylation
 alkylation
 AspN
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -19,7 +19,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 ETH
 FAIMS
 Fenn
@@ -77,7 +77,7 @@ SISCAPA
 solubilizaition
 solubilizing
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Tanaka
@@ -89,5 +89,5 @@ TOF
 TPP
 translational
 trypsin
-untargeted
+Untargeted
 Villigen

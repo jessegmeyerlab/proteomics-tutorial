@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-18'
+date-meta: '2022-01-19'
 author-meta:
 - Dina Schuster
 - Jesse G. Meyer
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-18" />
-  <meta name="citation_publication_date" content="2022-01-18" />
+  <meta name="dc.date" content="2022-01-19" />
+  <meta name="citation_publication_date" content="2022-01-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ef0aa5add5f47c552a4dd10b8748d672196105d2/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ef0aa5add5f47c552a4dd10b8748d672196105d2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ef0aa5add5f47c552a4dd10b8748d672196105d2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/ef0aa5add5f47c552a4dd10b8748d672196105d2/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/637dc96d5f6af564773df3d94d4a027f9b0bb39e/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@ef0aa5a](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/ef0aa5add5f47c552a4dd10b8748d672196105d2)
-on January 18, 2022.
+from [jessegmeyerlab/proteomics-tutorial@637dc96](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/637dc96d5f6af564773df3d94d4a027f9b0bb39e)
+on January 19, 2022.
 </em></small>
 
 ## Authors
