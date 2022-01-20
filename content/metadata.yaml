@@ -16,6 +16,7 @@ authors:
       - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
       - Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland
       - Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  
   - github: aky
     name: Amit Kumar Yadav
     initials: AKY
@@ -28,7 +29,6 @@ authors:
       - Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)
       - Grant Translational Research Program (TRP) at THSTI funded by DBT
  
-
   - github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
