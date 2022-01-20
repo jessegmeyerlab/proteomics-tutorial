@@ -19,18 +19,18 @@ Citation in manubot format:
 
 1. What section does this paper fit into? (select at least one or add your own)
 
-- [] Introduction
-- [] protein extraction
-- [] proteolysis
-- [] Peptide and protein labeling
-- [] enrichment of proteins or modifications
-- [] peptide purification
-- [] types of mass spectrometers used for proteomics
-- [] Peptide ionization
-- [] Data Acquisition (targeted and untargeted DDA and DIA)
-- [] Basics of data analysis
-- [] Biological Interpretation
-- [] Experiment design and considerations not discussed elsewhere
+- [ ] Introduction
+- [ ] protein extraction
+- [ ] proteolysis
+- [ ] Peptide and protein labeling
+- [ ] enrichment of proteins or modifications
+- [ ] peptide purification
+- [ ] types of mass spectrometers used for proteomics
+- [ ] Peptide ionization
+- [ ] Data Acquisition (targeted and untargeted DDA and DIA)
+- [ ] Basics of data analysis
+- [ ] Biological Interpretation
+- [ ] Experiment design and considerations not discussed elsewhere
 
 2.  Please provide a short summary of the work (1-2 sentences):
 
