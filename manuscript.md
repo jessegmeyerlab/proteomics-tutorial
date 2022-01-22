@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-19'
+date-meta: '2022-01-22'
 author-meta:
 - Dina Schuster
 - Jesse G. Meyer
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-19" />
-  <meta name="citation_publication_date" content="2022-01-19" />
+  <meta name="dc.date" content="2022-01-22" />
+  <meta name="citation_publication_date" content="2022-01-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d44df4432a795191b5a1e784a0c101b864dc149f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@d44df44](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d44df4432a795191b5a1e784a0c101b864dc149f)
-on January 19, 2022.
+from [jessegmeyerlab/proteomics-tutorial@2270566](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/227056678baa5e636c8a17e6178ca6bf36fb8654)
+on January 22, 2022.
 </em></small>
 
 ## Authors
@@ -191,12 +191,11 @@ Proteomics experiments can be both qualitative and quantitative.
 
 ## Protein Extraction {.page_break_before}
 
-Discussion of methods for protein extraction and solubilizaition. 
-
+First, proteins must be isolated from the sample matrix. Because some proteins alter other proteins, the goal is to simultaneously solubilizw and denature proteins. This is achieved with a combination of salt and chaotropic agent. 
 
 1. Choice of Lysis buffer
 * Urea can cause chemical modifications 
-2. chemicals to avoid
+2. chemicals to avoid: PEGs, etc
 3. removal of contaminations, Protein Precipitation
 4. protein alkylation
 * choices of reduction and alkylation reagents, TCEP/DTT/2BME, Chloroacetamide/iodoacetamide, n-ethyl maleimide

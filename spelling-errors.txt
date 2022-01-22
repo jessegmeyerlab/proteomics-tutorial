@@ -8,6 +8,7 @@ bioplex
 BME
 Bruderer
 CETSA
+chaotropic
 Chloroacetamide
 coIP
 contaminations
@@ -19,7 +20,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 ETH
 FAIMS
 Fenn
@@ -61,7 +62,7 @@ PPIs
 practioners
 protease
 proteoforms
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
@@ -75,10 +76,10 @@ Schuster
 SILAC
 SILAM
 SISCAPA
-solubilizaition
 solubilizing
+solubilizw
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Tanaka
@@ -90,5 +91,5 @@ TOF
 TPP
 translational
 Trypsin
-untargeted
+Untargeted
 Villigen
