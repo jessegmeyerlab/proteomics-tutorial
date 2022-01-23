@@ -1,7 +1,7 @@
 acetylation
 alkylation
 AspN
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -20,7 +20,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 ETH
 FAIMS
 Fenn
@@ -30,6 +30,7 @@ GF
 GluC
 Glycoproteomics
 Glycosylation
+HDMX
 HDX
 ICR
 identifyable
@@ -62,15 +63,17 @@ PPIs
 practioners
 protease
 proteoforms
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
 proteomics
+Protifi
 PTM
 PTMs
 QQQ
 refered
+reomoval
 Scherrer
 Schuster
 SILAC
@@ -79,7 +82,7 @@ SISCAPA
 solubilizing
 solubilizw
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 Tanaka
@@ -90,6 +93,6 @@ TMT
 TOF
 TPP
 translational
-Trypsin
+trypsin
 Untargeted
 Villigen

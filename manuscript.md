@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-22'
+date-meta: '2022-01-23'
 author-meta:
 - Dina Schuster
 - Jesse G. Meyer
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-22" />
-  <meta name="citation_publication_date" content="2022-01-22" />
+  <meta name="dc.date" content="2022-01-23" />
+  <meta name="citation_publication_date" content="2022-01-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/227056678baa5e636c8a17e6178ca6bf36fb8654/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@2270566](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/227056678baa5e636c8a17e6178ca6bf36fb8654)
-on January 22, 2022.
+from [jessegmeyerlab/proteomics-tutorial@b818753](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b81875367a7ae24ee1ef72df48c52d001294443a)
+on January 23, 2022.
 </em></small>
 
 ## Authors
@@ -195,9 +195,12 @@ First, proteins must be isolated from the sample matrix. Because some proteins a
 
 1. Choice of Lysis buffer
 * Urea can cause chemical modifications 
-2. chemicals to avoid: PEGs, etc
-3. removal of contaminations, Protein Precipitation
-4. protein alkylation
+2. Sample type and homogenisation methods
+* specialised sample preparation protocols for non-denaturing protein isolation (i.e. for LiP-MS, HDMX-MS etc) 
+4. chemicals to avoid: PEGs, detergents etc
+5. removal of contaminations, Protein Precipitation
+* detergent reomoval resins, S-TRAP (Protifi) etc
+7. protein alkylation
 * choices of reduction and alkylation reagents, TCEP/DTT/2BME, Chloroacetamide/iodoacetamide, n-ethyl maleimide
 
 
