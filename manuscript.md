@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-23'
+date-meta: '2022-01-25'
 author-meta:
 - Dina Schuster
 - Jesse G. Meyer
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-23" />
-  <meta name="citation_publication_date" content="2022-01-23" />
+  <meta name="dc.date" content="2022-01-25" />
+  <meta name="citation_publication_date" content="2022-01-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8cf8a677b130552e86cb5b45d67ef6aa82dfc884/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8cf8a677b130552e86cb5b45d67ef6aa82dfc884/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8cf8a677b130552e86cb5b45d67ef6aa82dfc884/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b81875367a7ae24ee1ef72df48c52d001294443a/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/8cf8a677b130552e86cb5b45d67ef6aa82dfc884/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b818753](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b81875367a7ae24ee1ef72df48c52d001294443a)
-on January 23, 2022.
+from [jessegmeyerlab/proteomics-tutorial@8cf8a67](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/8cf8a677b130552e86cb5b45d67ef6aa82dfc884)
+on January 25, 2022.
 </em></small>
 
 ## Authors
@@ -105,13 +105,13 @@ on January 23, 2022.
 ## Abstract {.page_break_before}
 
 
-Proteomics is the large scale study of protein structure and function from biological systems.  
-"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptide that are analyzed by mass spectrometry.
-Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of protein-protein interactions, post-translational modifications, and protein stability. 
-To enable this range of different experiments, there are diverse strategies for proteome analysis. 
-The nuances of how proteomic workflows differ may be difficult to understand for new practitioners. 
-Here, we provide a comprehensive tutorial of different proteomics methods. 
-Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation. 
+Proteomics is the large-scale study of protein structure and function from biological systems.
+"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptides that are analyzed by mass spectrometry.
+Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of protein-protein interactions, post-translational modifications, and protein stability.
+To enable this range of different experiments, there are diverse strategies for proteome analysis.
+The nuances of how proteomics workflows differ may be challenging to understand for new practitioners.
+Here, we provide a comprehensive tutorial of different proteomics methods.
+Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation.
 We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics. 
 
 

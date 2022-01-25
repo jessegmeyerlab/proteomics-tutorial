@@ -1,7 +1,7 @@
 acetylation
 alkylation
 AspN
-bioID
+BioID
 Biomolecular
 biomolecules
 bioplex
@@ -20,7 +20,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 ETH
 FAIMS
 Fenn
@@ -63,11 +63,11 @@ PPIs
 practioners
 protease
 proteoforms
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-proteomics
+Proteomics
 Protifi
 PTM
 PTMs
@@ -82,7 +82,7 @@ SISCAPA
 solubilizing
 solubilizw
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Tanaka

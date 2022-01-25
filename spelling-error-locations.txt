@@ -5,7 +5,7 @@ content/01.abstract.md:5:spectrometry
 content/01.abstract.md:6:Proteomics
 content/01.abstract.md:6:translational
 content/01.abstract.md:7:proteome
-content/01.abstract.md:8:proteomic
+content/01.abstract.md:8:proteomics
 content/01.abstract.md:9:proteomics
 content/01.abstract.md:11:proteomics
 content/02.introduction.md:3:Proteomics
