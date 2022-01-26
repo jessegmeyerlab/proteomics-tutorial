@@ -1,7 +1,7 @@
 acetylation
 alkylation
 AspN
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -20,7 +20,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 ETH
 FAIMS
 Fenn
@@ -94,5 +94,5 @@ TOF
 TPP
 translational
 trypsin
-Untargeted
+untargeted
 Villigen
