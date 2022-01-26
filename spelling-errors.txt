@@ -93,6 +93,6 @@ TMT
 TOF
 TPP
 translational
-Trypsin
-untargeted
+trypsin
+Untargeted
 Villigen
