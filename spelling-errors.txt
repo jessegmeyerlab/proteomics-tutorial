@@ -63,11 +63,11 @@ PPIs
 practioners
 protease
 proteoforms
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 Protifi
 PTM
 PTMs
@@ -93,6 +93,6 @@ TMT
 TOF
 TPP
 translational
-trypsin
+Trypsin
 untargeted
 Villigen

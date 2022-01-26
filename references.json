@@ -790,13 +790,12 @@
     "type": "article-journal",
     "container-title": "Rapid Communications in Mass Spectrometry",
     "DOI": "https://doi.org/10.1002/rcm.1290020802",
-    "ISSN": "0951-4198, 1097-0231",
+    "ISSN": "1097-0231",
     "issue": "8",
-    "journalAbbreviation": "Rapid Commun. Mass Spectrom.",
     "language": "en",
     "page": "151-153",
-    "source": "DOI.org (Crossref)",
-    "title": "Protein and polymer analyses up tom/z 100 000 by laser ionization time-of-flight mass spectrometry",
+    "source": "Wiley Online Library",
+    "title": "Protein and polymer analyses up to m/z 100 000 by laser ionization time-of-flight mass spectrometry",
     "URL": "https://doi.org/ffbwwr",
     "volume": "2",
     "author": [
@@ -841,8 +840,7 @@
     "issued": {
       "date-parts": [
         [
-          "1988",
-          8
+          "1988"
         ]
       ]
     },
@@ -851,25 +849,26 @@
   {
     "id": "y9Bki24q",
     "type": "article-journal",
+    "abstract": "Liquid chromatography and tandem mass spectrometry (LC-MS/MS) has become the preferred method for conducting large-scale surveys of proteomes. Automated interpretation of tandem mass spectrometry (MS/MS) spectra can be problematic, however, for a variety of reasons. As most sequence search engines return results even for 'unmatchable' spectra, proteome researchers must devise ways to distinguish correct from incorrect peptide identifications. The target-decoy search strategy represents a straightforward and effective way to manage this effort. Despite the apparent simplicity of this method, some controversy surrounds its successful application. Here we clarify our preferred methodology by addressing four issues based on observed decoy hit frequencies: (i) the major assumptions made with this database search strategy are reasonable; (ii) concatenated target-decoy database searches are preferable to separate target and decoy database searches; (iii) the theoretical error associated with target-decoy false positive (FP) rate measurements can be estimated; and (iv) alternate methods for constructing decoy databases are similarly effective once certain considerations are taken into account.",
     "container-title": "Nature Methods",
     "DOI": "https://doi.org/10.1038/nmeth1019",
-    "ISSN": "1548-7091, 1548-7105",
+    "ISSN": "1548-7105",
     "issue": "3",
     "journalAbbreviation": "Nat Methods",
     "language": "en",
     "page": "207-214",
-    "source": "DOI.org (Crossref)",
+    "source": "www.nature.com",
     "title": "Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry",
     "URL": "https://doi.org/djz7fz",
     "volume": "4",
     "author": [
       {
         "family": "Elias",
-        "given": "Joshua E"
+        "given": "Joshua E."
       },
       {
         "family": "Gygi",
-        "given": "Steven P"
+        "given": "Steven P."
       }
     ],
     "accessed": {
@@ -999,12 +998,10 @@
     "abstract": "In the postgenome era, biologists have sought to measure the complete complement of proteins, termed proteomics. Currently, the most effective method to measure the proteome is with shotgun, or bottom-up, proteomics, in which the proteome is digested into peptides that are identified followed by protein inference. Despite continuous improvements to all steps of the shotgun proteomics workflow, observed proteome coverage is often low; some proteins are identified by a single peptide sequence. Complete proteome sequence coverage would allow comprehensive characterization of RNA splicing variants and all posttranslational modifications, which would drastically improve the accuracy of biological models. There are many reasons for the sequence coverage deficit, but ultimately peptide length determines sequence observability. Peptides that are too short are lost because they match many protein sequences and their true origin is ambiguous. The maximum observable peptide length is determined by several analytical challenges. This paper explores computationally how peptide lengths produced from several common proteome digestion methods limit observable proteome coverage. Iterative proteome cleavage strategies are also explored. These simulations reveal that maximized proteome coverage can be achieved by use of an iterative digestion protocol involving multiple proteases and chemical cleavages that theoretically allow 92.9% proteome coverage.",
     "container-title": "ISRN Computational Biology",
     "DOI": "https://doi.org/10.1155/2014/960902",
-    "ISSN": "2314-5420",
-    "journalAbbreviation": "ISRN Computational Biology",
     "language": "en",
-    "page": "1-7",
-    "source": "DOI.org (Crossref)",
-    "title": "<i>In Silico</i> Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage",
+    "page": "e960902",
+    "source": "www.hindawi.com",
+    "title": "In Silico Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage",
     "URL": "https://doi.org/gb6s2r",
     "volume": "2014",
     "author": [
