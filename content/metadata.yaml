@@ -6,6 +6,15 @@ keywords:
   - manubot
 lang: en-US
 authors:
+ - github: ArokiaRex
+    name: Devasahayam Arokia Balaya Rex
+    initials:
+    orcid: 0000-0002-9556-3150
+    twitter: @rexprem
+    email: rexprem@yenepoya.edu.in
+    affiliations:
+      -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+      
   - github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
