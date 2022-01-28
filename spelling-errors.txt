@@ -4,7 +4,7 @@ Arokia
 ArokiaRex
 AspN
 Balaya
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -25,7 +25,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 enzymatically
 ETH
 FAIMS
@@ -52,7 +52,7 @@ KEGG
 Koichi
 LTQ
 LysC
-Lysis
+lysis
 lytic
 MacLean
 macromolecules
@@ -70,7 +70,7 @@ PPIs
 practioners
 protease
 proteoforms
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
@@ -79,7 +79,6 @@ Protifi
 PTM
 PTMs
 QQQ
-quant
 refered
 reomoval
 rexprem
@@ -104,6 +103,6 @@ TOF
 TPP
 translational
 Trypsin
-untargeted
+Untargeted
 Villigen
 Yenepoya

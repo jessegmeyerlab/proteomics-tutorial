@@ -7,9 +7,9 @@ keywords:
 lang: en-US
 date-meta: '2022-01-28'
 author-meta:
-- Devasahayam Arokia Balaya Rex
 - Jesse G. Meyer
 - Dina Schuster
+- Devasahayam Arokia Balaya Rex
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -28,10 +28,6 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -42,15 +38,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/59b6e3fa312204814ae0c435cc45588dda4406ee/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/59b6e3fa312204814ae0c435cc45588dda4406ee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/59b6e3fa312204814ae0c435cc45588dda4406ee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3928310dbf5e37864cd68f867852d5f66b7d9137/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3928310dbf5e37864cd68f867852d5f66b7d9137/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3928310dbf5e37864cd68f867852d5f66b7d9137/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,26 +72,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/59b6e3fa312204814ae0c435cc45588dda4406ee/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/3928310dbf5e37864cd68f867852d5f66b7d9137/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@59b6e3f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/59b6e3fa312204814ae0c435cc45588dda4406ee)
+from [jessegmeyerlab/proteomics-tutorial@3928310](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3928310dbf5e37864cd68f867852d5f66b7d9137)
 on January 28, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Devasahayam Arokia Balaya Rex**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)<br>
-  <small>
-     -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
 
 + **Jesse G. Meyer**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -114,6 +103,17 @@ on January 28, 2022.
     [dina_sch](https://twitter.com/dina_sch)<br>
   <small>
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)<br>
+  <small>
+     -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 
@@ -244,7 +244,7 @@ C) Isobaric or chemical labelling.
 Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
 These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
 Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
-](images/Summay_peptide-protein-labeling_.svg) {#fig:quant-summary tag="1" width="5in"}
+](images/Summay_peptide-protein-labeling_.svg){#fig:quant-summary tag="1" width="5in"}
 
 
 
