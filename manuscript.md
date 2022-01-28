@@ -5,10 +5,11 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-26'
+date-meta: '2022-01-28'
 author-meta:
 - Dina Schuster
 - Jesse G. Meyer
+- Devasahayam Arokia Balaya Rex
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -19,8 +20,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-26" />
-  <meta name="citation_publication_date" content="2022-01-26" />
+  <meta name="dc.date" content="2022-01-28" />
+  <meta name="citation_publication_date" content="2022-01-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,15 +38,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fed79f4373858d625afb15c81a2ae95d23d254e8/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fed79f4373858d625afb15c81a2ae95d23d254e8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fed79f4373858d625afb15c81a2ae95d23d254e8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2c2fd919ce915988b28265c1e3f5b4a403da8209/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2c2fd919ce915988b28265c1e3f5b4a403da8209/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2c2fd919ce915988b28265c1e3f5b4a403da8209/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +72,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/fed79f4373858d625afb15c81a2ae95d23d254e8/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/2c2fd919ce915988b28265c1e3f5b4a403da8209/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@fed79f4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/fed79f4373858d625afb15c81a2ae95d23d254e8)
-on January 26, 2022.
+from [jessegmeyerlab/proteomics-tutorial@2c2fd91](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/2c2fd919ce915988b28265c1e3f5b4a403da8209)
+on January 28, 2022.
 </em></small>
 
 ## Authors
@@ -98,6 +103,17 @@ on January 26, 2022.
   <small>
      Department of Biochemistry, Medical College of Wisconsin
      · Funded by Grant R21 AG074234; Grant R35 GM142502
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)<br>
+  <small>
+     -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 
@@ -205,6 +221,33 @@ First, proteins must be isolated from the sample matrix. Because some proteins a
 
 
 
+## Peptide and Protein Labeling {.page_break_before}
+
+Discussion of methods to isotopically label peptides or proteins that enable quantification
+
+1. SILAC/SILAM
+2. iTRAQ
+3. TMT
+4. dimethyl labeling
+
+<!-- todo: not sure if this is the best place for this figure about quantification strategies, do we need a whole section on quant? -->
+![** Quantitative strategies commonly used in proteomics.**
+A) Label-free quantitation. 
+Proteins are extracted from samples, enzymatically hydrolyzed into peptides and analyzed by mass spectrometry.
+Chromatographic peak areas from peptides are compared across samples that are analyzed sequentially. 
+B) Metabolic labelling. 
+Stable isotope labeling with amino acids in cell culture (SILAC) is based on feeding cells stable isotope labeled amino acids (“light” or “heavy”). 
+Samples grown with heavy or light amino acids are mixed before cell lysis.
+The relative intensities of the heavy and light peptide are used to compute protein changes between samples.
+C) Isobaric or chemical labelling. 
+Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
+These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
+Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
+]. (images/Summay_peptide-protein-labeling_.svg) {#fig: Summay_peptide-protein-labeling=1}
+
+
+
+
 ## Proteolysis {.page_break_before}
 
 Proteolysis is the defining step that differentiates bottom-up or shotgun proteomics from top-down proteomics. 
@@ -235,6 +278,20 @@ Discussion of methods to isotopically label peptides or proteins that enable qua
 2. iTRAQ
 3. TMT
 4. dimethyl labeling
+
+![** A schematic representation of various quantitative strategies commonly used in proteomics.**
+
+A) Label-free quantitation. Proteins are extracted from samples, proteolytically digested into peptides and analyzed by mass spectrometry.
+
+B) Metabolic labelling. 
+Metabolic incorporation of stable isotope labelling (“light” or “heavy”) with amino acids strategy takes heavy amino acid metabolic incorporation into mature proteins. 
+The relative peak intensities (MS1) in this strategy represent the abundances of the precursor peptide ions.
+(C) Isobaric or chemical labelling. 
+Proteins from individual samples are digested into peptides tagged with isobaric stable isotope labelled chemicals. 
+Chemical tags have different unique mass-to-charge (m/z) values that are produced during peptide tandem MS (MS/MS) and used for relative quantitation by relative peak intensity. 
+Peptide fragment ions are used to identify peptides signatures and infer proteins.
+]. (images/Summay_peptide-protein-labeling_.svg) {#fig: Summay_peptide-protein-labeling=1}
+
 
 
 
