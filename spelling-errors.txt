@@ -4,7 +4,7 @@ Arokia
 ArokiaRex
 AspN
 Balaya
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -25,7 +25,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 enzymatically
 ETH
 FAIMS
@@ -52,7 +52,7 @@ KEGG
 Koichi
 LTQ
 LysC
-lysis
+Lysis
 lytic
 MacLean
 macromolecules
@@ -90,7 +90,7 @@ SISCAPA
 solubilizing
 solubilizw
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Summay
