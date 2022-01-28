@@ -48,9 +48,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/37e0c6b517af7bd9bfa4b71880f370c1881edd90/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/37e0c6b517af7bd9bfa4b71880f370c1881edd90/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/37e0c6b517af7bd9bfa4b71880f370c1881edd90/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/065bac0ebf21a2c71fc3eb9766e18d39005f3193/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/065bac0ebf21a2c71fc3eb9766e18d39005f3193/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/065bac0ebf21a2c71fc3eb9766e18d39005f3193/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/37e0c6b517af7bd9bfa4b71880f370c1881edd90/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/065bac0ebf21a2c71fc3eb9766e18d39005f3193/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@37e0c6b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/37e0c6b517af7bd9bfa4b71880f370c1881edd90)
+from [jessegmeyerlab/proteomics-tutorial@065bac0](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/065bac0ebf21a2c71fc3eb9766e18d39005f3193)
 on January 28, 2022.
 </em></small>
 
@@ -231,6 +231,7 @@ Discussion of methods to isotopically label peptides or proteins that enable qua
 4. dimethyl labeling
 
 <!-- todo: not sure if this is the best place for this figure about quantification strategies, do we need a whole section on quant? -->
+
 ![** Quantitative strategies commonly used in proteomics.**
 A) Label-free quantitation. 
 Proteins are extracted from samples, enzymatically hydrolyzed into peptides and analyzed by mass spectrometry.
@@ -243,7 +244,7 @@ C) Isobaric or chemical labelling.
 Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
 These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
 Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
-](images/Summay_peptide-protein-labeling_.svg) {#fig: Summay_peptide-protein-labeling=1}
+](images/Summay_peptide-protein-labeling_.svg) {#fig:Summay_peptide-protein-labeling=1 width="100%"}
 
 
 

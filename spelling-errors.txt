@@ -4,7 +4,7 @@ Arokia
 ArokiaRex
 AspN
 Balaya
-bioID
+BioID
 Biomolecular
 biomolecules
 bioplex
@@ -25,7 +25,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 enzymatically
 ETH
 FAIMS
@@ -102,7 +102,7 @@ TMT
 TOF
 TPP
 translational
-trypsin
+Trypsin
 Untargeted
 Villigen
 Yenepoya
