@@ -25,7 +25,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 enzymatically
 ETH
 FAIMS
@@ -52,7 +52,7 @@ KEGG
 Koichi
 LTQ
 LysC
-lysis
+Lysis
 lytic
 MacLean
 macromolecules
@@ -70,11 +70,11 @@ PPIs
 practioners
 protease
 proteoforms
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 Protifi
 PTM
 PTMs
@@ -90,7 +90,7 @@ SISCAPA
 solubilizing
 solubilizw
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Summay
@@ -103,6 +103,6 @@ TOF
 TPP
 translational
 trypsin
-untargeted
+Untargeted
 Villigen
 Yenepoya
