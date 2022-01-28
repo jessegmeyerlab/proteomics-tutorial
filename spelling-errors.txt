@@ -102,7 +102,7 @@ TMT
 TOF
 TPP
 translational
-trypsin
+Trypsin
 Untargeted
 Villigen
 Yenepoya
