@@ -41,5 +41,6 @@ authors:
     coi:
       string: "None"
       lastapproved:  !!str 2022-01-16
-
+# use this to randomize authors
+manubot-randomize-author-order: true
 
