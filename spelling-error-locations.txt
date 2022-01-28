@@ -75,6 +75,7 @@ content/05.peptide-protein-labeling.md:5:SILAM
 content/05.peptide-protein-labeling.md:6:iTRAQ
 content/05.peptide-protein-labeling.md:7:TMT
 content/05.peptide-protein-labeling.md:8:dimethyl
+content/05.peptide-protein-labeling.md:10:quant
 content/05.peptide-protein-labeling.md:12:proteomics
 content/05.peptide-protein-labeling.md:14:enzymatically
 content/05.peptide-protein-labeling.md:14:spectrometry
@@ -82,6 +83,7 @@ content/05.peptide-protein-labeling.md:15:Chromatographic
 content/05.peptide-protein-labeling.md:17:SILAC
 content/05.peptide-protein-labeling.md:18:lysis
 content/05.peptide-protein-labeling.md:21:enzymatically
+content/05.peptide-protein-labeling.md:24:quant
 content/05.proteolysis.md:1:Proteolysis
 content/05.proteolysis.md:3:Proteolysis
 content/05.proteolysis.md:3:proteomics
