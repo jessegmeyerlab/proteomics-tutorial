@@ -14,6 +14,8 @@
 
 **Authorship.** I (Jesse Meyer) will lead the project as senior author and we will decide author order for everyone based on the contributions recorded via github. The minimum suggested contribution for authorship is five coherent and well referenced paragraphs. Authorship can also be awarded for helping with reviewing new contributions (pull requests) or by making figures. 
 
+The author order in the pdf and html versions is currently set to random to indicate that the order is up in the air until this is complete.
+
 **Rules.** 
 See also [the code of conduct](https://github.com/jessegmeyerlab/proteomics-tutorial/blob/main/CODE_OF_CONDUCT.md) for participants. 
 
