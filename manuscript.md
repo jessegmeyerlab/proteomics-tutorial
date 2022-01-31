@@ -7,8 +7,8 @@ keywords:
 lang: en-US
 date-meta: '2022-01-31'
 author-meta:
-- Devasahayam Arokia Balaya Rex
 - Dina Schuster
+- Devasahayam Arokia Balaya Rex
 - Jesse G. Meyer
 header-includes: |-
   <!--
@@ -28,16 +28,16 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -48,9 +48,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9e22f12abe8d7ffe1f7494050a2e63c979216bf4/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9e22f12abe8d7ffe1f7494050a2e63c979216bf4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9e22f12abe8d7ffe1f7494050a2e63c979216bf4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,26 +72,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/9e22f12abe8d7ffe1f7494050a2e63c979216bf4/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@9e22f12](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/9e22f12abe8d7ffe1f7494050a2e63c979216bf4)
+from [jessegmeyerlab/proteomics-tutorial@02515c8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/02515c86f69201671c4c7f987435f66a5f629009)
 on January 31, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Devasahayam Arokia Balaya Rex**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)<br>
-  <small>
-     -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
 
 + **Dina Schuster**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -102,6 +91,17 @@ on January 31, 2022.
     [dina_sch](https://twitter.com/dina_sch)<br>
   <small>
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)<br>
+  <small>
+     -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 + **Jesse G. Meyer**<br>
@@ -138,7 +138,7 @@ Proteins are translated from mRNAs that are transcribed from the genome.
 Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology. 
 Currently, proteomic studies are facilitated by mass spectrometry, although alternative methods are being developed.
 
-Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315][@DOI:https://doi.org/10.1002/rcm.1290020802]. 
+Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315; @DOI:10.1002/rcm.1290020802]. 
 Shortly afterward, the first computer algorithm for matching peptides to a database was introduced [@PMID:24226387]. 
 Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography [@DOI:10.1021/ac010617e]. 
 As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:https://doi.org/10.1038/nmeth1019]. 

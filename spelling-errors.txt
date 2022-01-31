@@ -90,7 +90,7 @@ SISCAPA
 solubilizing
 solubilizw
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 Tanaka
@@ -101,7 +101,7 @@ TMT
 TOF
 TPP
 translational
-trypsin
+Trypsin
 untargeted
 Villigen
 Yenepoya
