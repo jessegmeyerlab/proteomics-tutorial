@@ -19,7 +19,8 @@ The author order in the pdf and html versions is currently set to random to indi
 **Rules.** 
 See also [the code of conduct](https://github.com/jessegmeyerlab/proteomics-tutorial/blob/main/CODE_OF_CONDUCT.md) for participants. 
 
-**How to contribute:** edit sections in the /content directory and create a pull request describing your changes. You can practice contributing [here](https://github.com/manubot/try-manubot). 
+## **How to contribute:**
+Edit sections in the /content directory and create a pull request describing your changes. You can practice contributing [here](https://github.com/manubot/try-manubot). 
 See the [contributing section](https://github.com/jessegmeyerlab/proteomics-tutorial/blob/main/contributing.md) for guidance on how to contribute and what is expected of authors. 
 
 [** PLEASE CHECK OUT THIS HELP VIDEO FIRST**](https://manubot.org/docs/getting-started.html) and also [this step-by-step guide](https://github.com/greenelab/covid19-review/blob/master/CONTRIBUTING.md) for the COVID-19 review by @rando2.
