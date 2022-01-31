@@ -25,7 +25,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-Enrichments
+enrichments
 enzymatically
 ETH
 FAIMS
@@ -70,7 +70,7 @@ PPIs
 practioners
 protease
 proteoforms
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
@@ -102,6 +102,6 @@ TOF
 TPP
 translational
 Trypsin
-untargeted
+Untargeted
 Villigen
 Yenepoya
