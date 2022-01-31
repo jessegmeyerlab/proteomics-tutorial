@@ -25,7 +25,7 @@ dimethyl
 dschust
 DTT
 Electrospray
-enrichments
+Enrichments
 enzymatically
 ETH
 FAIMS
@@ -74,7 +74,7 @@ Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-proteomics
+Proteomics
 Protifi
 PTM
 PTMs
@@ -93,7 +93,6 @@ spectrometric
 spectrometry
 Spectromine
 Spectronaut
-Summay
 Tanaka
 TCEP
 tims
@@ -102,7 +101,7 @@ TMT
 TOF
 TPP
 translational
-Trypsin
+trypsin
 Untargeted
 Villigen
 Yenepoya

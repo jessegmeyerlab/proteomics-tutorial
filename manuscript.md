@@ -5,11 +5,11 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-01-28'
+date-meta: '2022-01-31'
 author-meta:
+- Dina Schuster
 - Jesse G. Meyer
 - Devasahayam Arokia Balaya Rex
-- Dina Schuster
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,14 +20,20 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-28" />
-  <meta name="citation_publication_date" content="2022-01-28" />
+  <meta name="dc.date" content="2022-01-31" />
+  <meta name="citation_publication_date" content="2022-01-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Dina Schuster" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
+  <meta name="twitter:creator" content="@dina_sch" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -36,21 +42,15 @@ header-includes: |-
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
   <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Dina Schuster" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
-  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
-  <meta name="twitter:creator" content="@dina_sch" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/618f794f5e174713170307b5863f77a37b099411/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/618f794f5e174713170307b5863f77a37b099411/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/618f794f5e174713170307b5863f77a37b099411/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/29404f6d0d86b56cabedeecc9527e45fddf21a8c/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/29404f6d0d86b56cabedeecc9527e45fddf21a8c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/29404f6d0d86b56cabedeecc9527e45fddf21a8c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,15 +72,26 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/618f794f5e174713170307b5863f77a37b099411/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/29404f6d0d86b56cabedeecc9527e45fddf21a8c/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@618f794](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/618f794f5e174713170307b5863f77a37b099411)
-on January 28, 2022.
+from [jessegmeyerlab/proteomics-tutorial@29404f6](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/29404f6d0d86b56cabedeecc9527e45fddf21a8c)
+on January 31, 2022.
 </em></small>
 
 ## Authors
 
 
+
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
 
 + **Jesse G. Meyer**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -103,17 +114,6 @@ on January 28, 2022.
     [rexprem](https://twitter.com/rexprem)<br>
   <small>
      -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Dina Schuster**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
 
@@ -280,18 +280,21 @@ Discussion of methods to isotopically label peptides or proteins that enable qua
 3. TMT
 4. dimethyl labeling
 
-![** A schematic representation of various quantitative strategies commonly used in proteomics.**
+<!-- todo: not sure if this is the best place for this figure about quantification strategies, do we need a whole section on quant? -->
 
-A) Label-free quantitation. Proteins are extracted from samples, proteolytically digested into peptides and analyzed by mass spectrometry.
-
+![**Quantitative strategies commonly used in proteomics.**
+A) Label-free quantitation. 
+Proteins are extracted from samples, enzymatically hydrolyzed into peptides and analyzed by mass spectrometry.
+Chromatographic peak areas from peptides are compared across samples that are analyzed sequentially. 
 B) Metabolic labelling. 
-Metabolic incorporation of stable isotope labelling (“light” or “heavy”) with amino acids strategy takes heavy amino acid metabolic incorporation into mature proteins. 
-The relative peak intensities (MS1) in this strategy represent the abundances of the precursor peptide ions.
-(C) Isobaric or chemical labelling. 
-Proteins from individual samples are digested into peptides tagged with isobaric stable isotope labelled chemicals. 
-Chemical tags have different unique mass-to-charge (m/z) values that are produced during peptide tandem MS (MS/MS) and used for relative quantitation by relative peak intensity. 
-Peptide fragment ions are used to identify peptides signatures and infer proteins.
-]. (images/Summay_peptide-protein-labeling_.svg) {#fig: Summay_peptide-protein-labeling=1}
+Stable isotope labeling with amino acids in cell culture (SILAC) is based on feeding cells stable isotope labeled amino acids (“light” or “heavy”). 
+Samples grown with heavy or light amino acids are mixed before cell lysis.
+The relative intensities of the heavy and light peptide are used to compute protein changes between samples.
+C) Isobaric or chemical labelling. 
+Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
+These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
+Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
+](images/Summay_peptide-protein-labeling_.svg){#fig:quant-summary tag="1" width="100%"}
 
 
 

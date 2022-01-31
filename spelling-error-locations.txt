@@ -104,8 +104,13 @@ content/06.peptide-protein-labeling.md:5:SILAM
 content/06.peptide-protein-labeling.md:6:iTRAQ
 content/06.peptide-protein-labeling.md:7:TMT
 content/06.peptide-protein-labeling.md:8:dimethyl
-content/06.peptide-protein-labeling.md:10:proteomics
-content/06.peptide-protein-labeling.md:12:spectrometry
+content/06.peptide-protein-labeling.md:12:proteomics
+content/06.peptide-protein-labeling.md:14:enzymatically
+content/06.peptide-protein-labeling.md:14:spectrometry
+content/06.peptide-protein-labeling.md:15:Chromatographic
+content/06.peptide-protein-labeling.md:17:SILAC
+content/06.peptide-protein-labeling.md:18:lysis
+content/06.peptide-protein-labeling.md:21:enzymatically
 content/07.enrichment.md:4:coIP
 content/07.enrichment.md:6:bioID
 content/07.enrichment.md:7:bioplex
