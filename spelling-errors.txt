@@ -52,7 +52,7 @@ KEGG
 Koichi
 LTQ
 LysC
-Lysis
+lysis
 lytic
 MacLean
 macromolecules
@@ -70,11 +70,11 @@ PPIs
 practioners
 protease
 proteoforms
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 Protifi
 PTM
 PTMs
@@ -101,7 +101,7 @@ TMT
 TOF
 TPP
 translational
-trypsin
-Untargeted
+Trypsin
+untargeted
 Villigen
 Yenepoya
