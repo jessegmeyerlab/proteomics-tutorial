@@ -10,7 +10,7 @@ ArokiaRex
 aspartate
 aspartic
 Balaya
-bioID
+BioID
 Biomolecular
 biomolecules
 bioplex
@@ -129,7 +129,7 @@ proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 Protifi
 Pseudomonas
 PTM
