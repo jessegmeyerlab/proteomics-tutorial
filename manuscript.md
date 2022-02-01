@@ -7,9 +7,10 @@ keywords:
 lang: en-US
 date-meta: '2022-02-01'
 author-meta:
-- Jesse G. Meyer
 - Dina Schuster
+- Jesse G. Meyer
 - Devasahayam Arokia Balaya Rex
+- Muralidharan Vanuopadath
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -28,29 +29,33 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
   <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bce5a2c4e10fe3be450baf7908bd6b20ab4e9320/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bce5a2c4e10fe3be450baf7908bd6b20ab4e9320/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bce5a2c4e10fe3be450baf7908bd6b20ab4e9320/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,15 +77,26 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/bce5a2c4e10fe3be450baf7908bd6b20ab4e9320/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@3ef371d](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3ef371d113d1f91015cc8d5962b21f769198021b)
+from [jessegmeyerlab/proteomics-tutorial@bce5a2c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/bce5a2c4e10fe3be450baf7908bd6b20ab4e9320)
 on February 1, 2022.
 </em></small>
 
 ## Authors
 
 
+
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
 
 + **Jesse G. Meyer**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -94,17 +110,6 @@ on February 1, 2022.
      · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
-+ **Dina Schuster**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
 + **Devasahayam Arokia Balaya Rex**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
@@ -114,6 +119,17 @@ on February 1, 2022.
     [rexprem](https://twitter.com/rexprem)<br>
   <small>
      -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Muralidharan Vanuopadath**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
+  <small>
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
 
