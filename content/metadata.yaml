@@ -7,6 +7,15 @@ keywords:
 lang: en-US
 authors:
 
+  - github: vanuopadathmurali
+    name: Muralidharan Vanuopadath
+    initials: MV
+    orcid: 0000-0002-9364-917X
+    twitter: V_MuraleeDhar
+    email: muralidharanv@am.amrita.edu
+    affiliations:
+      - School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+      
   - github: dschust-r
     name: Dina Schuster
     initials: DS
