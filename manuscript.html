@@ -4,10 +4,10 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jesse G. Meyer" />
   <meta name="author" content="Dina Schuster" />
   <meta name="author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="author" content="Jesse G. Meyer" />
-  <meta name="dcterms.date" content="2022-01-31" />
+  <meta name="dcterms.date" content="2022-02-01" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>A Practical Beginner’s Guide to Proteomics</title>
   <style>
@@ -46,14 +46,18 @@
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-01-31" />
-  <meta name="citation_publication_date" content="2022-01-31" />
+  <meta name="dc.date" content="2022-02-01" />
+  <meta name="citation_publication_date" content="2022-02-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
@@ -64,19 +68,15 @@
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
   <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -93,13 +93,24 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/02515c86f69201671c4c7f987435f66a5f629009/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3ef371d113d1f91015cc8d5962b21f769198021b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/02515c86f69201671c4c7f987435f66a5f629009">jessegmeyerlab/proteomics-tutorial@02515c8</a>
-on January 31, 2022.
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3ef371d113d1f91015cc8d5962b21f769198021b">jessegmeyerlab/proteomics-tutorial@3ef371d</a>
+on February 1, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
+<li><p><strong>Jesse G. Meyer</strong><br>
+<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0003-2753-3926">0000-0003-2753-3926</a>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/jessegmeyerlab">jessegmeyerlab</a>
+· <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
+<a href="https://twitter.com/j_my_sci">j_my_sci</a><br>
+<small>
+Department of Biochemistry, Medical College of Wisconsin
+· Funded by Grant R21 AG074234; Grant R35 GM142502
+</small></p></li>
 <li><p><strong>Dina Schuster</strong><br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
 <a href="https://orcid.org/0000-0001-6611-8237">0000-0001-6611-8237</a>
@@ -120,24 +131,13 @@ Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zuric
 <small>
 -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
 </small></p></li>
-<li><p><strong>Jesse G. Meyer</strong><br>
-<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/0000-0003-2753-3926">0000-0003-2753-3926</a>
-· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/jessegmeyerlab">jessegmeyerlab</a>
-· <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
-<a href="https://twitter.com/j_my_sci">j_my_sci</a><br>
-<small>
-Department of Biochemistry, Medical College of Wisconsin
-· Funded by Grant R21 AG074234; Grant R35 GM142502
-</small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>Proteomics is the large-scale study of protein structure and function from biological systems.
-“Shotgun proteomics” or “bottom-up proteomics” is the prevailing strategy, in which proteins are hydrolyzed into peptides that are analyzed by mass spectrometry.
-Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of protein-protein interactions, post-translational modifications, and protein stability.
+<p>Proteomics is the large scale study of protein structure and function from biological systems.<br />
+“Shotgun proteomics” or “bottom-up proteomics” is the prevailing strategy, in which proteins are hydrolyzed into peptide that are analyzed by mass spectrometry.
+Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of protein-protein interactions, absolute and relative protein quantification, post-translational modifications, and protein stability.
 To enable this range of different experiments, there are diverse strategies for proteome analysis.
-The nuances of how proteomics workflows differ may be challenging to understand for new practitioners.
+The nuances of how proteomic workflows differ may be difficult to understand for new practitioners.
 Here, we provide a comprehensive tutorial of different proteomics methods.
 Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation.
 We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics.</p>
@@ -239,16 +239,59 @@ Peptides that are too long are difficult to identify by tandem mass spectrometry
 Peptides that are too short are less likely to uniquely match to a single protein.
 There are many choices of enzymes and chemicals that hydrolyze proteins into peptides.
 This section summarizes potential choices and their strengths and weaknesses.</p>
-<p>Trypsin is the most common choice of protease for proteome hydrolysis <span class="citation" data-cites="vpBg0CP7">[<a href="#ref-vpBg0CP7" role="doc-biblioref">11</a>]</span>.</p>
+<p>Trypsin is the most common choice of protease for proteome hydrolysis <span class="citation" data-cites="vpBg0CP7">[<a href="#ref-vpBg0CP7" role="doc-biblioref">11</a>]</span>.
+Trypsin is favorable because of its specificity, availability, efficiency and low cost.
+Trypsin cleaves at the C-terminus of basic amino acids, arginine and lysine.
+Many of the peptides generated from trypsin are short in length (less than ~ 20 amino acids), which is ideal for chromatographic separation, MS-based peptide fragmentation and identification by database search.
+The main drawback of trypsin is that majority (56%) of the tryptic peptides are ≤ 6 amino acids, and hence using trypsin alone limits the observable proteome <span class="citation" data-cites="PMID PMID 10vHwy5gN">[<a href="#ref-PMID" role="doc-biblioref"><strong>PMID?</strong></a> 20113005,<a href="#ref-PMID" role="doc-biblioref"><strong>PMID?</strong></a> 25823410,<a href="#ref-10vHwy5gN" role="doc-biblioref">12</a>]</span>.
+This limits the number of identifiable protein isoforms and post translational modifications.</p>
 <ol start="3" type="1">
-<li>theoretical studies of proteolysis enzymes <span class="citation" data-cites="bVe8fVUv">[<a href="#ref-bVe8fVUv" role="doc-biblioref">12</a>]</span></li>
+<li>theoretical studies of proteolysis enzymes <span class="citation" data-cites="bVe8fVUv">[<a href="#ref-bVe8fVUv" role="doc-biblioref">13</a>]</span></li>
 <li>Challenges associated with alternative enzyme choices (non-specific and semi-specific enzymes)</li>
-<li>Alternative enzyme choices (one paragraph each?) - LysC</li>
-<li>GluC</li>
-<li>AspN</li>
-<li>Alpha-lytic protease <span class="citation" data-cites="1DWUg5Sp2">[<a href="#ref-1DWUg5Sp2" role="doc-biblioref">13</a>]</span> and how it enables mapping human SUMO sites <span class="citation" data-cites="4iAess79">[<a href="#ref-4iAess79" role="doc-biblioref">14</a>]</span>.</li>
-<li>others?</li>
 </ol>
+<p>Many alternative proteases are available with different specificities that complement trypsin to reveal different proteomic sequences <span class="citation" data-cites="7aKTZT1i 16FpKYZCe">[<a href="#ref-7aKTZT1i" role="doc-biblioref">14</a>,<a href="#ref-16FpKYZCe" role="doc-biblioref">15</a>]</span>, which can help distinguish protein isoforms <span class="citation" data-cites="gXhdeFOF">[<a href="#ref-gXhdeFOF" role="doc-biblioref">16</a>]</span>.
+The enzyme choice mostly depends on the application.
+In general, for a mere protein identification mostly trypsin is the choice due to the reasons aforementioned.
+However, alternative enzymes are used for de novo assembly when the genomic data information is limited in the public database repositories <span class="citation" data-cites="14bc70ELO zmo81rNN IZw9sVjg 1GjXVjuGk">[<a href="#ref-14bc70ELO" role="doc-biblioref">17</a>,<a href="#ref-zmo81rNN" role="doc-biblioref">18</a>,<a href="#ref-IZw9sVjg" role="doc-biblioref">19</a>,<a href="#ref-1GjXVjuGk" role="doc-biblioref">20</a>]</span>.
+Use of multiple proteases for proteome digestion also can improve the sensitivity and accuracy of protein quantification <span class="citation" data-cites="1GLf6FYas">[<a href="#ref-1GLf6FYas" role="doc-biblioref">21</a>]</span>.</p>
+<p>Lysyl endopeptidase (Lys-C) obtained from <em>Lysobacter enzymogenesis</em> is a serine protease invloved in cleaving carboxyl terminus of lysine <span class="citation" data-cites="ZgqlEERS">[<a href="#ref-lSFMVWD1" role="doc-biblioref">23</a>]</span>.
+Like trypsin, the optimum pH required for its activity is from pH 7-9.
+One among the major advantage of Lys-C is that it is resistant to denaturing agents, including 8 M urea <span class="citation" data-cites="PMID">[<a href="#ref-PMID" role="doc-biblioref"><strong>PMID?</strong></a> 27123950]</span>.
+Compared to Arginine, trypsin is less efficient in cleaving Lysine, which could limit the quality of quantitation from tryptic peptides.
+Hence to achieve complete protein digestion with minimal missed cleavages, Lys-C is often used in parallel to complement tryspin digestion <span class="citation" data-cites="nobcST81">[<a href="#ref-nobcST81" role="doc-biblioref">24</a>]</span>.</p>
+<p>Glutamyl peptidase I, commonly known as Glu-C or V8 protease, is a serine protease obtained from <em>Staphyloccous aureus</em> <span class="citation" data-cites="PMID">[<a href="#ref-PMID" role="doc-biblioref"><strong>PMID?</strong></a> 4627743]</span>.
+This specifically cleaves at the C-terimus of Glu.
+However, in addition to cleaving after glutamate, Glu-C also cleaves after aspartate <span class="citation" data-cites="UeP5oN6q FcovvAwu">[<a href="#ref-UeP5oN6q" role="doc-biblioref">25</a>,<a href="#ref-FcovvAwu" role="doc-biblioref">26</a>]</span>.</p>
+<p>Peptidyl-Asp metallopeptidase, commonly known as Asp-N, is a metalloprotease obtained from <em>Pseudomonas fragi</em> <span class="citation" data-cites="Z8khRFem">[<a href="#ref-Z8khRFem" role="doc-biblioref">27</a>]</span>.
+It is involved in the hydrolysis of Asp residues at the N-terminal of the peptide and works at an optimum pH 4-9.<br />
+As with any metalloprotease, chelators like EDTA should be avoided for digestion buffers when using Asp-N.
+Studies also suggests that Asp-N cleaves at the amino terminus of Glu when a detergent is present in the proteolysis buffer <span class="citation" data-cites="Z8khRFem">[<a href="#ref-Z8khRFem" role="doc-biblioref">27</a>]</span>.
+Asp-N often leaves many missed cleavages <span class="citation" data-cites="gXhdeFOF">[<a href="#ref-gXhdeFOF" role="doc-biblioref">16</a>]</span>.</p>
+<ol start="9" type="1">
+<li>Alpha-lytic protease <span class="citation" data-cites="1DWUg5Sp2">[<a href="#ref-1DWUg5Sp2" role="doc-biblioref">28</a>]</span> and how it enables mapping human SUMO sites <span class="citation" data-cites="4iAess79">[<a href="#ref-4iAess79" role="doc-biblioref">29</a>]</span>.</li>
+</ol>
+<p>Chymotrypsin or Chymotrypsinogen A is a serine protease obtained from porcine or bovine pancreas and works at an optimum pH ranging from 7.8 to 8.0 <span class="citation" data-cites="129jHkJ7J">[<a href="#ref-129jHkJ7J" role="doc-biblioref">30</a>]</span>.
+It cleaves at the C-terminus of hydrphobic amino acids Phe, Trp, Tyr and barely Met and Leu residues.
+Since the transmembrane region of membrance proteins lacks tryptic cleavage sites, this enzyme works well with membrane proteins having more hydrophobic residues <span class="citation" data-cites="PMID Ddlp2JQj gXhdeFOF">[<a href="#ref-PMID" role="doc-biblioref"><strong>PMID?</strong></a> 24870543,<a href="#ref-gXhdeFOF" role="doc-biblioref">16</a>,<a href="#ref-Ddlp2JQj" role="doc-biblioref">31</a>]</span>.
+Also, the chymotryptic peptides generated after proteolysis will cover the proteome space orthogonal to that of tryptic peptides both in a quantitative and qualitative manner <span class="citation" data-cites="VbXzZ784 1BDWCCTHa Ddlp2JQj">[<a href="#ref-Ddlp2JQj" role="doc-biblioref">31</a>,<a href="#ref-VbXzZ784" role="doc-biblioref">32</a>,<a href="#ref-1BDWCCTHa" role="doc-biblioref">33</a>]</span></p>
+<p>Clostripain, commonly known as Arg-C, is a cysteine protease obtained from <em>Clostridium histolyticum</em> <span class="citation" data-cites="qJADzs4">[<a href="#ref-qJADzs4" role="doc-biblioref">34</a>]</span>.
+It hydrolyse mostly the C-terminal Arg residues and sometimes Lys residues, but with less efficiency.
+The peptides generated are generally longer than that of tryptic peptides.
+Arg-C is often used with other proteases for improving qualitative proteome data and also for investigating PTMs <span class="citation" data-cites="lSFMVWD1">[<a href="#ref-lSFMVWD1" role="doc-biblioref">23</a>]</span>.</p>
+<p>LysargiNase, also known as Ulilysin, is a recently discovered protease belonging to the metalloprotease family.
+It is a thermophilic protease derived from <em>Methanosarcina acetivorans</em> that specifically cleaves at the N-terminus of Lys and Arg residues <span class="citation" data-cites="MqKkSQNK">[<a href="#ref-MqKkSQNK" role="doc-biblioref">35</a>]</span>.
+Hence, it enabled discovery of C-terminal peptides that were not observed using trypsin.
+In addition, it also can cleave modified amino acids such as methylated or dimethylated arginine and lysine <span class="citation" data-cites="MqKkSQNK">[<a href="#ref-MqKkSQNK" role="doc-biblioref">35</a>]</span>.</p>
+<p>Peptidyl-Lys metalloendopeptidase, or Lys-N, is an metalloprotease obtained from <em>Grifola frondosa</em> <span class="citation" data-cites="3xdcLBaR">[<a href="#ref-3xdcLBaR" role="doc-biblioref">36</a>]</span>.
+It cleaves at N-terminal of Lys and has an optimal activity at pH 9.0.
+Unlike trypsin, Lys-N is more resistant to denaturing agents and can be heated up to 70 °C <span class="citation" data-cites="lSFMVWD1">[<a href="#ref-lSFMVWD1" role="doc-biblioref">23</a>]</span>.
+Reports suggests that the peptides generated after Lys-N digestion produces more of c-type ions in a ETD-based mass spectrometer <span class="citation" data-cites="O6S1GvPn">[<a href="#ref-O6S1GvPn" role="doc-biblioref">37</a>]</span>.
+Hence this can be used for analysing PTMs, identification of C-terminal peptides and also for de novo sequencing strategies <span class="citation" data-cites="O6S1GvPn 8DGqkN3D">[<a href="#ref-O6S1GvPn" role="doc-biblioref">37</a>,<a href="#ref-8DGqkN3D" role="doc-biblioref">38</a>]</span>.</p>
+<p>Pepsin A, commonly known as pepsin, is an aspartic protease obtained from bovine or porcrine pancreas <span class="citation" data-cites="eMC9mqfj">[<a href="#ref-eMC9mqfj" role="doc-biblioref">39</a>]</span>.
+This was the first protease that was identified and crystallized and was awarded the Nobel prize <span class="citation" data-cites="PMID 9Yf3fEMC 10CHY6r2E">[<a href="#ref-PMID" role="doc-biblioref"><strong>PMID?</strong></a> 19872561,<a href="#ref-9Yf3fEMC" role="doc-biblioref">40</a>,<a href="#ref-10CHY6r2E" role="doc-biblioref">41</a>]</span>.
+Pepsin works at an optimum pH from 1-4 and, in a pH depended manner it specifically cleaves Trp, Phe, Tyr and Leu <span class="citation" data-cites="lSFMVWD1">[<a href="#ref-lSFMVWD1" role="doc-biblioref">23</a>]</span>.
+Since it possess high enzyme activity and broad specificity at lower pH, it is preferred over other proteases for MS-based disulphide mapping <span class="citation" data-cites="itW7kK3s Vske1oHJ">[<a href="#ref-itW7kK3s" role="doc-biblioref">42</a>,<a href="#ref-Vske1oHJ" role="doc-biblioref">43</a>]</span>.
+Pepsin is also used extensively for structural mass spectrometry studies with hydrogen-deuterium exchange (HDX) because the rate of back exchange of the amide deuteron is minimized at low pH <span class="citation" data-cites="Azi1X1R4 1nMCmYmb">[<a href="#ref-Azi1X1R4" role="doc-biblioref">44</a>,<a href="#ref-1nMCmYmb" role="doc-biblioref">45</a>]</span>.</p>
 <h2 class="page_break_before" id="peptide-and-protein-labeling">Peptide and Protein Labeling</h2>
 <p>Discussion of methods to isotopically label peptides or proteins that enable quantification</p>
 <ol type="1">
@@ -285,7 +328,7 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 </ul>
 <h3 id="peptide-enrichment">Peptide enrichment</h3>
 <ul>
-<li>antibody enrichments of modifications, e.g. lysine acetylation <span class="citation" data-cites="58knZUn0">[<a href="#ref-58knZUn0" role="doc-biblioref">15</a>]</span>.</li>
+<li>antibody enrichments of modifications, e.g. lysine acetylation <span class="citation" data-cites="58knZUn0">[<a href="#ref-58knZUn0" role="doc-biblioref">46</a>]</span>.</li>
 <li>TiO2 and Fe enrichment of phosphorylation</li>
 <li>Glycosylation</li>
 <li>SISCAPA</li>
@@ -315,7 +358,7 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 <li>tims</li>
 </ul>
 <h2 class="page_break_before" id="peptide-ionization">Peptide Ionization</h2>
-<p>The 2002 Nobel Prize in Chemistry was awarded to partially to John Fenn and Koichi Tanaka “for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules” <span class="citation" data-cites="YdLSljVE">[<a href="#ref-YdLSljVE" role="doc-biblioref">16</a>/]</span>.</p>
+<p>The 2002 Nobel Prize in Chemistry was awarded to partially to John Fenn and Koichi Tanaka “for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules” <span class="citation" data-cites="YdLSljVE">[<a href="#ref-YdLSljVE" role="doc-biblioref">47</a>/]</span>.</p>
 <h3 id="maldi">MALDI</h3>
 <h3 id="electrospray-ionization">Electrospray Ionization</h3>
 <h2 id="data-acquisition">Data Acquisition</h2>
@@ -336,7 +379,7 @@ The entity that is recorded on a mass spectrometer is usually referred to as a p
 This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching.
 The quantity of a precursor is estimated with various methods.
 The measured precursor quantities are combined to generate a peptide quantity.
-Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification <span class="citation" data-cites="dPwJMGS2">[<a href="#ref-dPwJMGS2" role="doc-biblioref">17</a>]</span> <span class="citation" data-cites="wtH5a4Ax">[<a href="#ref-wtH5a4Ax" role="doc-biblioref">18</a>]</span>.
+Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification <span class="citation" data-cites="dPwJMGS2">[<a href="#ref-dPwJMGS2" role="doc-biblioref">48</a>]</span> <span class="citation" data-cites="wtH5a4Ax">[<a href="#ref-wtH5a4Ax" role="doc-biblioref">49</a>]</span>.
 Protein inference is still a challenge in bottom-up proteomics.</p>
 <p>Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above.
 The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:</p>
@@ -357,22 +400,22 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">MaxQuant</td>
-<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">19</a>]</span></td>
+<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">50</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">MSFragger</td>
-<td style="text-align: center;">Kong et al., 2017<span class="citation" data-cites="bKpYR6PB">[<a href="#ref-bKpYR6PB" role="doc-biblioref">20</a>]</span></td>
+<td style="text-align: center;">Kong et al., 2017<span class="citation" data-cites="bKpYR6PB">[<a href="#ref-bKpYR6PB" role="doc-biblioref">51</a>]</span></td>
 <td style="text-align: center;"><a href="https://msfragger.nesvilab.org/">MSFragger</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Mascot</td>
-<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">21</a>]</span></td>
+<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">52</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.matrixscience.com/">Mascot</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">MS-GF+</td>
-<td style="text-align: center;">Kim et al., <span class="citation" data-cites="1B2RVFOKK">[<a href="#ref-1B2RVFOKK" role="doc-biblioref">22</a>]</span></td>
+<td style="text-align: center;">Kim et al., <span class="citation" data-cites="1B2RVFOKK">[<a href="#ref-1B2RVFOKK" role="doc-biblioref">53</a>]</span></td>
 <td style="text-align: center;"><a href="https://github.com/MSGFPlus/msgfplus">MS-GF+</a></td>
 </tr>
 </tbody>
@@ -394,17 +437,17 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">MaxDIA</td>
-<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">19</a>]</span></td>
+<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">50</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Skyline</td>
-<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">23</a>]</span></td>
+<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">54</a>]</span></td>
 <td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">DIA-NN</td>
-<td style="text-align: center;">Demichev et al., 2019<span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">24</a>]</span></td>
+<td style="text-align: center;">Demichev et al., 2019<span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">55</a>]</span></td>
 <td style="text-align: center;"><a href="https://github.com/vdemichev/DiaNN">DIA-NN</a></td>
 </tr>
 </tbody>
@@ -426,7 +469,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Skyline</td>
-<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">23</a>]</span></td>
+<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">54</a>]</span></td>
 <td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
 </tr>
 </tbody>
@@ -453,7 +496,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 <tr class="even">
 <td style="text-align: center;">Mascot</td>
-<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">21</a>]</span></td>
+<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">52</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.matrixscience.com/">Mascot</a></td>
 </tr>
 <tr class="odd">
@@ -463,7 +506,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 <tr class="even">
 <td style="text-align: center;">PEAKS</td>
-<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">25</a>]</span></td>
+<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">56</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.bioinfor.com/peaks-studio/">PEAKS</a></td>
 </tr>
 </tbody>
@@ -485,12 +528,12 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Spectronaut</td>
-<td style="text-align: center;">Bruderer et al., 2015<span class="citation" data-cites="UKcaDUJ7">[<a href="#ref-UKcaDUJ7" role="doc-biblioref">26</a>]</span></td>
+<td style="text-align: center;">Bruderer et al., 2015<span class="citation" data-cites="UKcaDUJ7">[<a href="#ref-UKcaDUJ7" role="doc-biblioref">57</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html">ProteomeDiscoverer</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">PEAKS</td>
-<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">25</a>]</span></td>
+<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">56</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.bioinfor.com/peaks-studio/">PEAKS</a></td>
 </tr>
 </tbody>
@@ -550,50 +593,143 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <div id="ref-vpBg0CP7" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Getting intimate with trypsin, the leading protease in proteomics</strong> <div class="csl-block">Elien Vandermarliere, Michael Mueller, Lennart Martens</div> <em>Mass Spectrometry Reviews</em> (2013-06-15) <a href="https://doi.org/gn64qb">https://doi.org/gn64qb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/mas.21376">10.1002/mas.21376</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23775586">23775586</a></div></div>
 </div>
+<div id="ref-10vHwy5gN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><div class="csl-block">Jesse G Meyer</div> <em>ISRN computational biology</em> (2014-04-22) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30687733">https://www.ncbi.nlm.nih.gov/pubmed/30687733</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1155/2014/960902">10.1155/2014/960902</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30687733">30687733</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347401">PMC6347401</a></div></div>
+</div>
 <div id="ref-bVe8fVUv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>In Silico Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage</strong> <div class="csl-block">Jesse G Meyer</div> <em>ISRN Computational Biology</em> (2014-04-22) <a href="https://doi.org/gb6s2r">https://doi.org/gb6s2r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1155/2014/960902">https://doi.org/10.1155/2014/960902</a></div></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>In Silico Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage</strong> <div class="csl-block">Jesse G Meyer</div> <em>ISRN Computational Biology</em> (2014-04-22) <a href="https://doi.org/gb6s2r">https://doi.org/gb6s2r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1155/2014/960902">https://doi.org/10.1155/2014/960902</a></div></div>
+</div>
+<div id="ref-7aKTZT1i" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Multiple enzymatic digestion for enhanced sequence coverage of proteins in complex proteomic mixtures using capillary LC with ion trap MS/MS.</strong> <div class="csl-block">Gargi Choudhary, Shiaw-Lin Wu, Paul Shieh, William S Hancock</div> <em>Journal of proteome research</em> <a href="https://www.ncbi.nlm.nih.gov/pubmed/12643544">https://www.ncbi.nlm.nih.gov/pubmed/12643544</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/pr025557n">10.1021/pr025557n</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12643544">12643544</a></div></div>
+</div>
+<div id="ref-16FpKYZCe" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Value of using multiple proteases for large-scale mass spectrometry-based proteomics.</strong> <div class="csl-block">Danielle L Swaney, Craig D Wenger, Joshua J Coon</div> <em>Journal of proteome research</em> (2010-03-05) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20113005">https://www.ncbi.nlm.nih.gov/pubmed/20113005</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/pr900863u">10.1021/pr900863u</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20113005">20113005</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2833215">PMC2833215</a></div></div>
+</div>
+<div id="ref-gXhdeFOF" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Six alternative proteases for mass spectrometry-based proteomics beyond trypsin.</strong> <div class="csl-block">Piero Giansanti, Liana Tsiatsiani, Teck Yew Low, Albert JR Heck</div> <em>Nature protocols</em> (2016-04-28) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27123950">https://www.ncbi.nlm.nih.gov/pubmed/27123950</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nprot.2016.057">10.1038/nprot.2016.057</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27123950">27123950</a></div></div>
+</div>
+<div id="ref-14bc70ELO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>Combination of Proteogenomics with Peptide </strong> <div class="csl-block">B Blank-Landeshammer, I Teichert, R Märker, M Nowrousian, U Kück, A Sickmann</div> <em>mBio</em> (2019-10-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31615963">https://www.ncbi.nlm.nih.gov/pubmed/31615963</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1128/mbio.02367-19">10.1128/mbio.02367-19</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31615963">31615963</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6794485">PMC6794485</a></div></div>
+</div>
+<div id="ref-zmo81rNN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Precision </strong> <div class="csl-block">Hao Yang, Yan-Chang Li, Ming-Zhi Zhao, Fei-Lin Wu, Xi Wang, Wei-Di Xiao, Yi-Hao Wang, Jun-Ling Zhang, Fu-Qiang Wang, Feng Xu, … Ping Xu</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2019-01-08) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30622160">https://www.ncbi.nlm.nih.gov/pubmed/30622160</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.tir118.000918">10.1074/mcp.tir118.000918</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30622160">30622160</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6442358">PMC6442358</a></div></div>
+</div>
+<div id="ref-IZw9sVjg" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>Mass spectrometry-assisted venom profiling of Hypnale hypnale found in the Western Ghats of India incorporating de novo sequencing approaches.</strong> <div class="csl-block">Muralidharan Vanuopadath, Nithin Sajeev, Athira Radhamony Murali, Nayana Sudish, Nithya Kangosseri, Ivy Rose Sebastian, Nidhi Dalpatraj Jain, Amit Pal, Dileepkumar Raveendran, Bipin Gopalakrishnan Nair, Sudarslal Sadasivan Nair</div> <em>International journal of biological macromolecules</em> (2018-07-07) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29990557">https://www.ncbi.nlm.nih.gov/pubmed/29990557</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.ijbiomac.2018.07.016">10.1016/j.ijbiomac.2018.07.016</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29990557">29990557</a></div></div>
+</div>
+<div id="ref-1GjXVjuGk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>Venomics and antivenomics of Indian spectacled cobra (Naja naja) from the Western Ghats</strong> <div class="csl-block">Muralidharan Vanuopadath, Dileepkumar Raveendran, Bipin Gopalakrishnan Nair, Sudarslal Sadasivan Nair</div> <em>Acta Tropica</em> (2022-04) <a href="https://doi.org/gpbzf7">https://doi.org/gpbzf7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.actatropica.2022.106324">https://doi.org/10.1016/j.actatropica.2022.106324</a></div></div>
+</div>
+<div id="ref-1GLf6FYas" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Multiple-Enzyme-Digestion Strategy Improves Accuracy and Sensitivity of Label- and Standard-Free Absolute Quantification to a Level That Is Achievable by Analysis with Stable Isotope-Labeled Standard Spiking.</strong> <div class="csl-block">Jacek R Wiśniewski, Christine Wegler, Per Artursson</div> <em>Journal of proteome research</em> (2018-10-30) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30336047">https://www.ncbi.nlm.nih.gov/pubmed/30336047</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.8b00549">10.1021/acs.jproteome.8b00549</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30336047">30336047</a></div></div>
+</div>
+<div id="ref-ZgqlEERS" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Use of endoproteinase Lys-C from Lysobacter enzymogenes in protein sequence analysis.</strong> <div class="csl-block">PA Jekel, WJ Weijer, JJ Beintema</div> <em>Analytical biochemistry</em> (1983-10-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/6359954">https://www.ncbi.nlm.nih.gov/pubmed/6359954</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/0003-2697(83)90308-1">10.1016/0003-2697(83)90308-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/6359954">6359954</a></div></div>
+</div>
+<div id="ref-lSFMVWD1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>Proteomics beyond trypsin.</strong> <div class="csl-block">Liana Tsiatsiani, Albert JR Heck</div> <em>The FEBS journal</em> (2015-04-14) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25823410">https://www.ncbi.nlm.nih.gov/pubmed/25823410</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/febs.13287">10.1111/febs.13287</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25823410">25823410</a></div></div>
+</div>
+<div id="ref-nobcST81" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Large-scale quantitative assessment of different in-solution protein digestion protocols reveals superior cleavage efficiency of tandem Lys-C/trypsin proteolysis over trypsin digestion.</strong> <div class="csl-block">Timo Glatter, Christina Ludwig, Erik Ahrné, Ruedi Aebersold, Albert JR Heck, Alexander Schmidt</div> <em>Journal of proteome research</em> (2012-10-16) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23017020">https://www.ncbi.nlm.nih.gov/pubmed/23017020</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/pr300273g">10.1021/pr300273g</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23017020">23017020</a></div></div>
+</div>
+<div id="ref-UeP5oN6q" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Purification and properties of an extracellular protease of Staphylococcus aureus.</strong> <div class="csl-block">GR Drapeau, Y Boily, J Houmard</div> <em>The Journal of biological chemistry</em> (1972-10-25) <a href="https://www.ncbi.nlm.nih.gov/pubmed/4627743">https://www.ncbi.nlm.nih.gov/pubmed/4627743</a> <div class="csl-block">PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/4627743">4627743</a></div></div>
+</div>
+<div id="ref-FcovvAwu" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>Mildly acidic conditions eliminate deamidation artifact during proteolysis: digestion with endoprotease Glu-C at pH 4.5.</strong> <div class="csl-block">Shanshan Liu, Kevin Ryan Moulton, Jared Robert Auclair, Zhaohui Sunny Zhou</div> <em>Amino acids</em> (2016-01-09) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26748652">https://www.ncbi.nlm.nih.gov/pubmed/26748652</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s00726-015-2166-z">10.1007/s00726-015-2166-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26748652">26748652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4795971">PMC4795971</a></div></div>
+</div>
+<div id="ref-Z8khRFem" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>Specificity of endoproteinase Asp-N (Pseudomonas fragi): cleavage at glutamyl residues in two proteins.</strong> <div class="csl-block">D Ingrosso, AV Fowler, J Bleibaum, S Clarke</div> <em>Biochemical and biophysical research communications</em> (1989-08-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/2669754">https://www.ncbi.nlm.nih.gov/pubmed/2669754</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/0006-291x(89)90848-6">10.1016/0006-291x(89)90848-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/2669754">2669754</a></div></div>
 </div>
 <div id="ref-1DWUg5Sp2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Expanding Proteome Coverage with Orthogonal-specificity α-Lytic Proteases</strong> <div class="csl-block">Jesse G Meyer, Sangtae Kim, David A Maltby, Majid Ghassemian, Nuno Bandeira, Elizabeth A Komives</div> <em>Molecular &amp; Cellular Proteomics</em> (2014-03) <a href="https://doi.org/f5vgcg">https://doi.org/f5vgcg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m113.034710">https://doi.org/10.1074/mcp.m113.034710</a></div></div>
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>Expanding Proteome Coverage with Orthogonal-specificity α-Lytic Proteases</strong> <div class="csl-block">Jesse G Meyer, Sangtae Kim, David A Maltby, Majid Ghassemian, Nuno Bandeira, Elizabeth A Komives</div> <em>Molecular &amp; Cellular Proteomics</em> (2014-03) <a href="https://doi.org/f5vgcg">https://doi.org/f5vgcg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m113.034710">https://doi.org/10.1074/mcp.m113.034710</a></div></div>
 </div>
 <div id="ref-4iAess79" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Site-specific identification and quantitation of endogenous SUMO modifications under native conditions.</strong> <div class="csl-block">Ryan J Lumpkin, Hongbo Gu, Yiying Zhu, Marilyn Leonard, Alla S Ahmad, Karl R Clauser, Jesse G Meyer, Eric J Bennett, Elizabeth A Komives</div> <em>Nature communications</em> (2017-10-27) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">https://www.ncbi.nlm.nih.gov/pubmed/29079793</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-017-01271-3">10.1038/s41467-017-01271-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">29079793</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660086">PMC5660086</a></div></div>
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>Site-specific identification and quantitation of endogenous SUMO modifications under native conditions.</strong> <div class="csl-block">Ryan J Lumpkin, Hongbo Gu, Yiying Zhu, Marilyn Leonard, Alla S Ahmad, Karl R Clauser, Jesse G Meyer, Eric J Bennett, Elizabeth A Komives</div> <em>Nature communications</em> (2017-10-27) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">https://www.ncbi.nlm.nih.gov/pubmed/29079793</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-017-01271-3">10.1038/s41467-017-01271-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29079793">29079793</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660086">PMC5660086</a></div></div>
+</div>
+<div id="ref-129jHkJ7J" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>Chymotrypsin: molecular and catalytic properties.</strong> <div class="csl-block">W Appel</div> <em>Clinical biochemistry</em> (1986-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/3555886">https://www.ncbi.nlm.nih.gov/pubmed/3555886</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/s0009-9120(86)80002-9">10.1016/s0009-9120(86)80002-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/3555886">3555886</a></div></div>
+</div>
+<div id="ref-Ddlp2JQj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>Confetti: a multiprotease map of the HeLa proteome for comprehensive proteomics.</strong> <div class="csl-block">Xiaofeng Guo, David C Trudgian, Andrew Lemoff, Sivaramakrishna Yadavalli, Hamid Mirzaei</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2014-04-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24696503">https://www.ncbi.nlm.nih.gov/pubmed/24696503</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m113.035170">10.1074/mcp.m113.035170</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24696503">24696503</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4047476">PMC4047476</a></div></div>
+</div>
+<div id="ref-VbXzZ784" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>Quantitative and qualitative proteome characteristics extracted from in-depth integrated genomics and proteomics analysis.</strong> <div class="csl-block">Teck Yew Low, Sebastiaan van Heesch, Henk van den Toorn, Piero Giansanti, Alba Cristobal, Pim Toonen, Sebastian Schafer, Norbert Hübner, Bas van Breukelen, Shabaz Mohammed, … Victor Guryev</div> <em>Cell reports</em> (2013-11-27) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24290761">https://www.ncbi.nlm.nih.gov/pubmed/24290761</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.celrep.2013.10.041">10.1016/j.celrep.2013.10.041</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24290761">24290761</a></div></div>
+</div>
+<div id="ref-1BDWCCTHa" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>Protease bias in absolute protein quantitation.</strong> <div class="csl-block">Mao Peng, Nadia Taouatas, Salvatore Cappadona, Bas van Breukelen, Shabaz Mohammed, Arjen Scholten, Albert JR Heck</div> <em>Nature methods</em> (2012-05-30) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22669647">https://www.ncbi.nlm.nih.gov/pubmed/22669647</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.2031">10.1038/nmeth.2031</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22669647">22669647</a></div></div>
+</div>
+<div id="ref-qJADzs4" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline"><strong>Studies on the active site of clostripain. The specific inactivation by the chloromethyl ketone derived from -N-tosyl-L-lysine.</strong> <div class="csl-block">WH Porter, LW Cunningham, WM Mitchell</div> <em>The Journal of biological chemistry</em> (1971-12-25) <a href="https://www.ncbi.nlm.nih.gov/pubmed/4332560">https://www.ncbi.nlm.nih.gov/pubmed/4332560</a> <div class="csl-block">PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/4332560">4332560</a></div></div>
+</div>
+<div id="ref-MqKkSQNK" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline"><strong>LysargiNase mirrors trypsin for protein C-terminal and methylation-site identification.</strong> <div class="csl-block">Pitter F Huesgen, Philipp F Lange, Lindsay D Rogers, Nestor Solis, Ulrich Eckhard, Oded Kleifeld, Theodoros Goulas, FXavier Gomis-Rüth, Christopher M Overall</div> <em>Nature methods</em> (2014-11-24) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25419962">https://www.ncbi.nlm.nih.gov/pubmed/25419962</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.3177">10.1038/nmeth.3177</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25419962">25419962</a></div></div>
+</div>
+<div id="ref-3xdcLBaR" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline"><strong>Proteomic analyses using Grifola frondosa metalloendoprotease Lys-N.</strong> <div class="csl-block">Laura Hohmann, Carly Sherwood, Ashley Eastham, Amelia Peterson, Jimmy K Eng, James S Eddes, David Shteynberg, Daniel B Martin</div> <em>Journal of proteome research</em> (2009-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19195997">https://www.ncbi.nlm.nih.gov/pubmed/19195997</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/pr800774h">10.1021/pr800774h</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19195997">19195997</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798736">PMC2798736</a></div></div>
+</div>
+<div id="ref-O6S1GvPn" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">37. </div><div class="csl-right-inline"><strong>Straightforward ladder sequencing of peptides using a Lys-N metalloendopeptidase.</strong> <div class="csl-block">Nadia Taouatas, Madalina M Drugan, Albert JR Heck, Shabaz Mohammed</div> <em>Nature methods</em> (2008-04-20) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18425140">https://www.ncbi.nlm.nih.gov/pubmed/18425140</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.1204">10.1038/nmeth.1204</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18425140">18425140</a></div></div>
+</div>
+<div id="ref-8DGqkN3D" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">38. </div><div class="csl-right-inline"><strong>Cleavage specificities of the brother and sister proteases Lys-C and Lys-N.</strong> <div class="csl-block">Reinout Raijmakers, Pieter Neerincx, Shabaz Mohammed, Albert JR Heck</div> <em>Chemical communications (Cambridge, England)</em> (2010-10-18) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20953479">https://www.ncbi.nlm.nih.gov/pubmed/20953479</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1039/c0cc02523b">10.1039/c0cc02523b</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20953479">20953479</a></div></div>
+</div>
+<div id="ref-eMC9mqfj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">39. </div><div class="csl-right-inline"><strong>A history of pepsin and related enzymes.</strong> <div class="csl-block">Joseph S Fruton</div> <em>The Quarterly review of biology</em> (2002-06) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12089768">https://www.ncbi.nlm.nih.gov/pubmed/12089768</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1086/340729">10.1086/340729</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12089768">12089768</a></div></div>
+</div>
+<div id="ref-9Yf3fEMC" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">40. </div><div class="csl-right-inline"><strong>CRYSTALLINE PEPSIN : II. GENERAL PROPERTIES AND EXPERIMENTAL METHODS.</strong> <div class="csl-block">JH Northrop</div> <em>The Journal of general physiology</em> (1930-07-20) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19872562">https://www.ncbi.nlm.nih.gov/pubmed/19872562</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1085/jgp.13.6.767">10.1085/jgp.13.6.767</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19872562">19872562</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2141088">PMC2141088</a></div></div>
+</div>
+<div id="ref-10CHY6r2E" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">41. </div><div class="csl-right-inline"><strong>CRYSTALLINE PEPSIN.</strong> <div class="csl-block">JH Northrop</div> <em>Science (New York, N.Y.)</em> (1929-05-31) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17758437">https://www.ncbi.nlm.nih.gov/pubmed/17758437</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.69.1796.580">10.1126/science.69.1796.580</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17758437">17758437</a></div></div>
+</div>
+<div id="ref-itW7kK3s" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">42. </div><div class="csl-right-inline"><strong>Protein disulfide bond determination by mass spectrometry.</strong> <div class="csl-block">Jeffrey J Gorman, Tristan P Wallis, James J Pitt</div> <em>Mass spectrometry reviews</em> <a href="https://www.ncbi.nlm.nih.gov/pubmed/12476442">https://www.ncbi.nlm.nih.gov/pubmed/12476442</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/mas.10025">10.1002/mas.10025</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12476442">12476442</a></div></div>
+</div>
+<div id="ref-Vske1oHJ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">43. </div><div class="csl-right-inline"><strong>Facilitating protein disulfide mapping by a combination of pepsin digestion, electron transfer higher energy dissociation (EThcD), and a dedicated search algorithm SlinkS.</strong> <div class="csl-block">Fan Liu, Bas van Breukelen, Albert JR Heck</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2014-06-30) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24980484">https://www.ncbi.nlm.nih.gov/pubmed/24980484</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.o114.039057">10.1074/mcp.o114.039057</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24980484">24980484</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4189002">PMC4189002</a></div></div>
+</div>
+<div id="ref-Azi1X1R4" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">44. </div><div class="csl-right-inline"><strong>Online, High-Pressure Digestion System for Protein Characterization by Hydrogen/Deuterium Exchange and Mass Spectrometry</strong> <div class="csl-block">Lisa M Jones, Hao Zhang, Ilan Vidavsky, Michael L Gross</div> <em>Analytical Chemistry</em> (2010-01-22) <a href="https://doi.org/b993rm">https://doi.org/b993rm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/ac902477u">10.1021/ac902477u</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20095571">20095571</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2826105">PMC2826105</a></div></div>
+</div>
+<div id="ref-1nMCmYmb" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">45. </div><div class="csl-right-inline"><strong>Hydrogen/deuterium exchange in mass spectrometry</strong> <div class="csl-block">Yury Kostyukevich, Thamina Acter, Alexander Zherebker, Arif Ahmed, Sunghwan Kim, Eugene Nikolaev</div> <em>Mass Spectrometry Reviews</em> (2018-03-30) <a href="https://doi.org/gffzx8">https://doi.org/gffzx8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/mas.21565">10.1002/mas.21565</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29603316">29603316</a></div></div>
 </div>
 <div id="ref-58knZUn0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Simultaneous Quantification of the Acetylome and Succinylome by ‘One‐Pot’ Affinity Enrichment</strong> <div class="csl-block">Nathan Basisty, Jesse G Meyer, Lei Wei, Bradford W Gibson, Birgit Schilling</div> <em>PROTEOMICS</em> (2018-08-19) <a href="https://doi.org/gn4cmb">https://doi.org/gn4cmb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201800123">10.1002/pmic.201800123</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30035354">30035354</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6175148">PMC6175148</a></div></div>
+<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>Simultaneous Quantification of the Acetylome and Succinylome by ‘One‐Pot’ Affinity Enrichment</strong> <div class="csl-block">Nathan Basisty, Jesse G Meyer, Lei Wei, Bradford W Gibson, Birgit Schilling</div> <em>PROTEOMICS</em> (2018-08-19) <a href="https://doi.org/gn4cmb">https://doi.org/gn4cmb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201800123">10.1002/pmic.201800123</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30035354">30035354</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6175148">PMC6175148</a></div></div>
 </div>
 <div id="ref-YdLSljVE" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>The Nobel Prize in Chemistry 2002</strong> <div class="csl-block">NobelPrize.org</div> <a href="https://www.nobelprize.org/prizes/chemistry/2002/summary/">https://www.nobelprize.org/prizes/chemistry/2002/summary/</a></div>
+<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>The Nobel Prize in Chemistry 2002</strong> <div class="csl-block">NobelPrize.org</div> <a href="https://www.nobelprize.org/prizes/chemistry/2002/summary/">https://www.nobelprize.org/prizes/chemistry/2002/summary/</a></div>
 </div>
 <div id="ref-dPwJMGS2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>Interpretation of Shotgun Proteomic Data</strong> <div class="csl-block">Alexey I Nesvizhskii, Ruedi Aebersold</div> <em>Molecular &amp; Cellular Proteomics</em> (2005-10) <a href="https://doi.org/cm99cj">https://doi.org/cm99cj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r500012-mcp200">https://doi.org/10.1074/mcp.r500012-mcp200</a></div></div>
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>Interpretation of Shotgun Proteomic Data</strong> <div class="csl-block">Alexey I Nesvizhskii, Ruedi Aebersold</div> <em>Molecular &amp; Cellular Proteomics</em> (2005-10) <a href="https://doi.org/cm99cj">https://doi.org/cm99cj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r500012-mcp200">https://doi.org/10.1074/mcp.r500012-mcp200</a></div></div>
 </div>
 <div id="ref-wtH5a4Ax" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics</strong> <div class="csl-block">Enrique Audain, Julian Uszkoreit, Timo Sachsenberg, Julianus Pfeuffer, Xiao Liang, Henning Hermjakob, Aniel Sanchez, Martin Eisenacher, Knut Reinert, David L Tabb, … Yasset Perez-Riverol</div> <em>Journal of Proteomics</em> (2017-01) <a href="https://doi.org/f9r8r6">https://doi.org/f9r8r6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2016.08.002">10.1016/j.jprot.2016.08.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27498275">27498275</a></div></div>
+<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics</strong> <div class="csl-block">Enrique Audain, Julian Uszkoreit, Timo Sachsenberg, Julianus Pfeuffer, Xiao Liang, Henning Hermjakob, Aniel Sanchez, Martin Eisenacher, Knut Reinert, David L Tabb, … Yasset Perez-Riverol</div> <em>Journal of Proteomics</em> (2017-01) <a href="https://doi.org/f9r8r6">https://doi.org/f9r8r6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2016.08.002">10.1016/j.jprot.2016.08.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27498275">27498275</a></div></div>
 </div>
 <div id="ref-18PIzg2Co" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</strong> <div class="csl-block">Jürgen Cox, Matthias Mann</div> <em>Nature Biotechnology</em> (2008-11-30) <a href="https://doi.org/crn24x">https://doi.org/crn24x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1511">10.1038/nbt.1511</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19029910">19029910</a></div></div>
+<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</strong> <div class="csl-block">Jürgen Cox, Matthias Mann</div> <em>Nature Biotechnology</em> (2008-11-30) <a href="https://doi.org/crn24x">https://doi.org/crn24x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1511">10.1038/nbt.1511</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19029910">19029910</a></div></div>
 </div>
 <div id="ref-bKpYR6PB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics</strong> <div class="csl-block">Andy T Kong, Felipe V Leprevost, Dmitry M Avtonomov, Dattatreya Mellacheruvu, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2017-04-10) <a href="https://doi.org/f9z6p7">https://doi.org/f9z6p7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4256">10.1038/nmeth.4256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28394336">28394336</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409104">PMC5409104</a></div></div>
+<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics</strong> <div class="csl-block">Andy T Kong, Felipe V Leprevost, Dmitry M Avtonomov, Dattatreya Mellacheruvu, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2017-04-10) <a href="https://doi.org/f9z6p7">https://doi.org/f9z6p7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4256">10.1038/nmeth.4256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28394336">28394336</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409104">PMC5409104</a></div></div>
 </div>
 <div id="ref-rKtsv6G" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
+<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
 </div>
 <div id="ref-1B2RVFOKK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-10-31) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">10.1038/ncomms6277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25358478">25358478</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036525">PMC5036525</a></div></div>
+<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-10-31) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">10.1038/ncomms6277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25358478">25358478</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036525">PMC5036525</a></div></div>
 </div>
 <div id="ref-CObAggjA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</strong> <div class="csl-block">Brendan MacLean, Daniela M Tomazela, Nicholas Shulman, Matthew Chambers, Gregory L Finney, Barbara Frewen, Randall Kern, David L Tabb, Daniel C Liebler, Michael J MacCoss</div> <em>Bioinformatics</em> (2010-02-09) <a href="https://doi.org/bqx9rq">https://doi.org/bqx9rq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btq054">10.1093/bioinformatics/btq054</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20147306">20147306</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844992">PMC2844992</a></div></div>
+<div class="csl-left-margin">54. </div><div class="csl-right-inline"><strong>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</strong> <div class="csl-block">Brendan MacLean, Daniela M Tomazela, Nicholas Shulman, Matthew Chambers, Gregory L Finney, Barbara Frewen, Randall Kern, David L Tabb, Daniel C Liebler, Michael J MacCoss</div> <em>Bioinformatics</em> (2010-02-09) <a href="https://doi.org/bqx9rq">https://doi.org/bqx9rq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btq054">10.1093/bioinformatics/btq054</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20147306">20147306</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844992">PMC2844992</a></div></div>
 </div>
 <div id="ref-1HLH2DWkK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2019-11-25) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">10.1038/s41592-019-0638-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31768060">31768060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949130">PMC6949130</a></div></div>
+<div class="csl-left-margin">55. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2019-11-25) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">10.1038/s41592-019-0638-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31768060">31768060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949130">PMC6949130</a></div></div>
 </div>
 <div id="ref-IUqTUA43" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry</strong> <div class="csl-block">Ngoc Hieu Tran, Rui Qiao, Lei Xin, Xin Chen, Chuyi Liu, Xianglilan Zhang, Baozhen Shan, Ali Ghodsi, Ming Li</div> <em>Nature Methods</em> (2018-12-20) <a href="https://doi.org/gftvmn">https://doi.org/gftvmn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0260-3">10.1038/s41592-018-0260-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30573815">30573815</a></div></div>
+<div class="csl-left-margin">56. </div><div class="csl-right-inline"><strong>Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry</strong> <div class="csl-block">Ngoc Hieu Tran, Rui Qiao, Lei Xin, Xin Chen, Chuyi Liu, Xianglilan Zhang, Baozhen Shan, Ali Ghodsi, Ming Li</div> <em>Nature Methods</em> (2018-12-20) <a href="https://doi.org/gftvmn">https://doi.org/gftvmn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0260-3">10.1038/s41592-018-0260-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30573815">30573815</a></div></div>
 </div>
 <div id="ref-UKcaDUJ7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>Extending the Limits of Quantitative Proteome Profiling with Data-Independent Acquisition and Application to Acetaminophen-Treated Three-Dimensional Liver Microtissues</strong> <div class="csl-block">Roland Bruderer, Oliver M Bernhardt, Tejas Gandhi, Saša M Miladinović, Lin-Yang Cheng, Simon Messner, Tobias Ehrenberger, Vito Zanotelli, Yulia Butscheid, Claudia Escher, … Lukas Reiter</div> <em>Molecular &amp; Cellular Proteomics</em> (2015-05) <a href="https://doi.org/f7b76h">https://doi.org/f7b76h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m114.044305">10.1074/mcp.m114.044305</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25724911">25724911</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424408">PMC4424408</a></div></div>
+<div class="csl-left-margin">57. </div><div class="csl-right-inline"><strong>Extending the Limits of Quantitative Proteome Profiling with Data-Independent Acquisition and Application to Acetaminophen-Treated Three-Dimensional Liver Microtissues</strong> <div class="csl-block">Roland Bruderer, Oliver M Bernhardt, Tejas Gandhi, Saša M Miladinović, Lin-Yang Cheng, Simon Messner, Tobias Ehrenberger, Vito Zanotelli, Yulia Butscheid, Claudia Escher, … Lukas Reiter</div> <em>Molecular &amp; Cellular Proteomics</em> (2015-05) <a href="https://doi.org/f7b76h">https://doi.org/f7b76h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m114.044305">10.1074/mcp.m114.044305</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25724911">25724911</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424408">PMC4424408</a></div></div>
 </div>
 </div>
 <!-- default theme -->
