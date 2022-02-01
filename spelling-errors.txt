@@ -10,7 +10,7 @@ ArokiaRex
 aspartate
 aspartic
 Balaya
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -88,7 +88,7 @@ LTQ
 Lys
 LysargiNase
 lysine
-Lysis
+lysis
 Lysobacter
 Lysyl
 lytic
@@ -125,7 +125,7 @@ practioners
 protease
 proteases
 proteoforms
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomic
@@ -169,7 +169,7 @@ tryptic
 tryspin
 Tyr
 Ulilysin
-Untargeted
+untargeted
 valine
 Vanuopadath
 vanuopadathmurali
