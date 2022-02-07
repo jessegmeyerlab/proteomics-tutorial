@@ -7,10 +7,10 @@ keywords:
 lang: en-US
 date-meta: '2022-02-07'
 author-meta:
+- Jesse G. Meyer
 - Amit Kumar Yadav
 - Dina Schuster
 - Muralidharan Vanuopadath
-- Jesse G. Meyer
 - Devasahayam Arokia Balaya Rex
 header-includes: |-
   <!--
@@ -30,6 +30,10 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Amit Kumar Yadav" />
   <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
   <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
@@ -44,10 +48,6 @@ header-includes: |-
   <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
   <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
   <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,15 +82,27 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@d7a7e82](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d7a7e82757037f066e191677800930ae84bb81da)
+from [jessegmeyerlab/proteomics-tutorial@ae069c2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/ae069c204deca2abed97ffcff6a315178d512604)
 on February 7, 2022.
 </em></small>
 
 ## Authors
 
 
+
++ **Jesse G. Meyer**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [j_my_sci](https://twitter.com/j_my_sci)<br>
+  <small>
+     Department of Biochemistry, Medical College of Wisconsin
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
+  </small>
 
 + **Amit Kumar Yadav**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -124,18 +136,6 @@ on February 7, 2022.
     [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
   <small>
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
-  </small>
-
-+ **Jesse G. Meyer**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)<br>
-  <small>
-     Department of Biochemistry, Medical College of Wisconsin
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 + **Devasahayam Arokia Balaya Rex**<br>
@@ -409,7 +409,8 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 Until the early 1990s, peptides analysis by mass spectrometry was challenging. 
 Hard ionization techniques in use at the time, like fast atom bombardment, were not directly applicable to peptides without destroying or breaking them.
 The soft ionization tehniques however, revolutionized the proteomics field and it became possible to routinely ionize and analyze peptides using MALDI and ESI techniques at high-throughput scale. 
-These two techniques were so impactful that the 2002 Nobel Prize in Chemistry was co-awarded to John Fenn (ESI) and Koichi Tanaka (MALDI) "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules". [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary/]. 
+These two techniques were so impactful that the 2002 Nobel Prize in Chemistry was co-awarded to John Fenn (ESI) and Koichi Tanaka (MALDI) "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules" [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary/]. 
+
 ### MALDI
 The term, Matrix-assisted LASER desorption ionization (MALDI), was coined by Hillenkamp and Karas in 1985[@URL:https://pubs.acs.org/doi/abs/10.1021/ac00291a042]. 
 Karas and Hillenkamp discovered the MALDI technique first, although a similar ionization method was shown by Koichi Tanaka in 1988 [@DOI:10.1002/rcm.1290020802]. 
