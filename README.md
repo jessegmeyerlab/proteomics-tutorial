@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/gh-pages) branch hosts the contents of this directory at <https://jessegmeyerlab.github.io/proteomics-tutorial/>.
-The permalink for this webpage version is <https://jessegmeyerlab.github.io/proteomics-tutorial/v/5cb3f34a6320a2881ac9ab9d374b6dc1ce6b0153/>.
+The permalink for this webpage version is <https://jessegmeyerlab.github.io/proteomics-tutorial/v/da36a1b306752ca56585af83c401b3c42cf58d68/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://jessegmeyerlab.github.io/proteomics-tutorial/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`5cb3f34a6320a2881ac9ab9d374b6dc1ce6b0153`](https://github.com/jessegmeyerlab/proteomics-tutorial/commit/5cb3f34a6320a2881ac9ab9d374b6dc1ce6b0153).
+[`da36a1b306752ca56585af83c401b3c42cf58d68`](https://github.com/jessegmeyerlab/proteomics-tutorial/commit/da36a1b306752ca56585af83c401b3c42cf58d68).
