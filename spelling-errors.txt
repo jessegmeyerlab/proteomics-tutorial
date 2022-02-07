@@ -27,7 +27,7 @@ chaotrope
 chaotropic
 chelators
 Chloroacetamide
-Chromatographic
+chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -81,6 +81,7 @@ Gygi
 HDMX
 HDX
 Hillenkamp
+histidine
 histolyticum
 hydroxycinnamic
 hydrphobic
@@ -104,11 +105,12 @@ Kerala
 Koichi
 Kollam
 Kumar
+kV
 Leu
 LTQ
 Lys
 LysargiNase
-Lysis
+lysis
 Lysobacter
 Lysyl
 lytic
@@ -118,6 +120,7 @@ MALDI
 maleimide
 MaLP
 Mangalore
+maniupulated
 MaxDIA
 MaxQuant
 metalloendopeptidase
@@ -128,7 +131,6 @@ Methanosarcina
 methionine
 methylated
 MGF
-MH
 mRNAs
 MSFragger
 MSGF
@@ -152,8 +154,8 @@ protease
 proteases
 Proteinase
 proteoforms
-proteolysis
-Proteome
+Proteolysis
+proteome
 ProteomeDiscoverer
 proteomic
 proteomics
@@ -197,7 +199,7 @@ TiO
 TMT
 TOF
 TPP
-Translational
+translational
 transmembrane
 Tritirachium
 TRP
@@ -205,7 +207,7 @@ trypsin
 tryptic
 Tyr
 Ulilysin
-Untargeted
+untargeted
 valine
 Vanuopadath
 vanuopadathmurali

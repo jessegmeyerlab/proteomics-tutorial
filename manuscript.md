@@ -7,11 +7,11 @@ keywords:
 lang: en-US
 date-meta: '2022-02-07'
 author-meta:
-- Jesse G. Meyer
-- Amit Kumar Yadav
 - Dina Schuster
 - Muralidharan Vanuopadath
+- Jesse G. Meyer
 - Devasahayam Arokia Balaya Rex
+- Amit Kumar Yadav
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -30,14 +30,6 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
@@ -48,19 +40,27 @@ header-includes: |-
   <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
   <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
   <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
   <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1bb38cd49a551b1c09d02753b54265f0d5083ac/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1bb38cd49a551b1c09d02753b54265f0d5083ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1bb38cd49a551b1c09d02753b54265f0d5083ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,39 +82,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/ae069c204deca2abed97ffcff6a315178d512604/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1bb38cd49a551b1c09d02753b54265f0d5083ac/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@ae069c2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/ae069c204deca2abed97ffcff6a315178d512604)
+from [jessegmeyerlab/proteomics-tutorial@b1bb38c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b1bb38cd49a551b1c09d02753b54265f0d5083ac)
 on February 7, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Jesse G. Meyer**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)<br>
-  <small>
-     Department of Biochemistry, Medical College of Wisconsin
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
-  </small>
-
-+ **Amit Kumar Yadav**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)<br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
-  </small>
 
 + **Dina Schuster**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -138,6 +114,18 @@ on February 7, 2022.
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
++ **Jesse G. Meyer**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [j_my_sci](https://twitter.com/j_my_sci)<br>
+  <small>
+     Department of Biochemistry, Medical College of Wisconsin
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
+  </small>
+
 + **Devasahayam Arokia Balaya Rex**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
@@ -147,6 +135,18 @@ on February 7, 2022.
     [rexprem](https://twitter.com/rexprem)<br>
   <small>
      -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Amit Kumar Yadav**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)<br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
 
@@ -425,18 +425,27 @@ The matrix and co-crystallized sample generate plumes, and the volatile matrix i
 The weak acidic conditions used as well as the acidic nature of the matrix allows easy exchange of protons for the peptides to get ionized and fly under the electrical field in the mass spectrometer.
 These ionized peptides generally form the metastable ions, most of them will fragment quickly [@DOI:10.1021/ac00099a029].
 However, it can take several milliseconds and the mass spectrometry analysis can be performed before this time.
-Peptides ionized by MALDI almost always take up a single charge and thus observed and detected as [MH]+ species.
+Peptides ionized by MALDI almost always take up a single charge and thus observed and detected as [M+H]+ species.
+
+#### MALDI Mechanism
 
 ### Electrospray Ionization
 ESI was first applied to peptides by John Fenn and coworkers in 1989 [@DOI:10.1126/science.2675315].
 Concepts related to electrospray Ionization (ESI) were published at least as early as 1882, when Lord Rayleigh described the number of charges that could assemble on the surface of a droplet [@DOI:10.1080/14786448208628425]. 
 ESI is usually coupled with reverse-phase liquid-chromatography of peptides directly interfaced to a mass spectrometer.
-A high voltage is applied between the spraying needle and the mass spectrometer.
-Through this needle, a fine mist of analyte as liquid droplets form at the tip of the needle.
-Due to voltage and pressure, the droplet bursts into plumes of ions carrying protons from the liquid phase of the chromatography to impart ions to the analytes.
+A high voltage (~ 2 kV) is applied between the spray needle and the mass spectrometer.
+As solvent exits the needle, it forms droplets that take on charge at the surface, and through a debated mechanism, those charges are imparted to peptide ions.
+The liquid phase is generally kept acidic to help impart protons easily to the analytes.
+
+Tryptic peptides ionized by ESI usually carry one charge one the side chain of their c-terminal residue (Arg or Lys) and one charge at their n-terminal amine.
+Peptides can have more than one charge if they have a longer peptide backbone, have histidine residues, or have missed cleavages leaving extra Arg and Lys.
+In most cases, peptides ionized by ESI are observed at more than one charge state.
+Evidence suggests that the distribution of peptide charge states can be maniupulated through chemical additives [@PMID:22610994].
+
+#### Electrospray Mechanism
 <!-- TODO, explicitly describe the taylor cone and coulombic explosion -->
-The liquid phase is generally kept acidic to impart protons easily to the analytes.
-As the peptide ionization takes place in the liquid phase, the peptides are usually doubly or triply charged [@DOI:10.1126/science.2675315], which makes it much easier to sequence the peptide in MS/MS as compared to MALDI which forms predominantly singly charged ions.
+<!-- TODO: discussion of ionizaation mechanisms, ion evaporation versus charge residue model -->
+
 
 
 ## Data Acquisition
