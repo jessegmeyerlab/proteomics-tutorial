@@ -5,12 +5,12 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-02-01'
+date-meta: '2022-02-07'
 author-meta:
-- Jesse G. Meyer
 - Dina Schuster
 - Muralidharan Vanuopadath
 - Devasahayam Arokia Balaya Rex
+- Jesse G. Meyer
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -21,18 +21,14 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-02-01" />
-  <meta name="citation_publication_date" content="2022-02-01" />
+  <meta name="dc.date" content="2022-02-07" />
+  <meta name="citation_publication_date" content="2022-02-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
@@ -47,15 +43,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
   <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2eccdd4132ec1aa9fa0c70f334157d3fac86f79d/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2eccdd4132ec1aa9fa0c70f334157d3fac86f79d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2eccdd4132ec1aa9fa0c70f334157d3fac86f79d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,27 +77,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/2eccdd4132ec1aa9fa0c70f334157d3fac86f79d/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@2eccdd4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/2eccdd4132ec1aa9fa0c70f334157d3fac86f79d)
-on February 1, 2022.
+from [jessegmeyerlab/proteomics-tutorial@a78f97c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f)
+on February 7, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Jesse G. Meyer**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)<br>
-  <small>
-     Department of Biochemistry, Medical College of Wisconsin
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
-  </small>
 
 + **Dina Schuster**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -130,6 +118,18 @@ on February 1, 2022.
     [rexprem](https://twitter.com/rexprem)<br>
   <small>
      -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Jesse G. Meyer**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [j_my_sci](https://twitter.com/j_my_sci)<br>
+  <small>
+     Department of Biochemistry, Medical College of Wisconsin
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 
@@ -240,19 +240,18 @@ First, proteins must be isolated from the sample matrix. Because some proteins a
 
 Proteolysis is the defining step that differentiates bottom-up or shotgun proteomics from top-down proteomics. 
 Hydrolysis of proteins is extremely important because it defines the population of potentially identifyable peptides. 
-Generally peptides between a length of 7-35 amino acid are considered useful for mass spectrometry analysis.
-Peptides that are too long are difficult to identify by tandem mass spectrometry, or may be lost during sample preparation due to 
-Peptides that are too short are less likely to uniquely match to a single protein. 
+Generally peptides between a length of 7-35 amino acids are considered useful for mass spectrometry analysis.
+Peptides that are too long are difficult to identify by tandem mass spectrometry, or may be lost during sample preparation due to irreversible binding with solid-phase extraction sorbents.
+Peptides that are too short are also not useful because they may match to many proteins during protein inference. 
 There are many choices of enzymes and chemicals that hydrolyze proteins into peptides. 
 This section summarizes potential choices and their strengths and weaknesses. 
 
 Trypsin is the most common choice of protease for proteome hydrolysis [@DOI:10.1002/mas.21376].
 Trypsin is favorable because of its specificity, availability, efficiency and low cost. 
-Trypsin cleaves at the C-terminus of basic amino acids, arginine and lysine. 
+Trypsin cleaves at the C-terminus of basic amino acids, Arg and Lys. 
 Many of the peptides generated from trypsin are short in length (less than ~ 20 amino acids), which is ideal for chromatographic separation, MS-based peptide fragmentation and identification by database search.
 The main drawback of trypsin is that majority (56%) of the tryptic peptides are ≤ 6 amino acids, and hence using trypsin alone limits the observable proteome [@PMID:20113005; @PMID:25823410; @PMID:30687733].
-This limits the number of identifiable protein isoforms and post translational modifications.
-
+This limits the number of identifiable protein isoforms and post-translational modifications.
 
 3. theoretical studies of proteolysis enzymes [@DOI:10.1155/2014/960902]
 4. Challenges associated with alternative enzyme choices (non-specific and semi-specific enzymes)
@@ -263,11 +262,11 @@ In general, for a mere protein identification mostly trypsin is the choice due t
 However, alternative enzymes can facilitate _de novo_ assembly when the genomic data information is limited in the public database repositories [@pmid:31615963; @pmid:30622160; @pmid:29990557; @doi:10.1016/j.actatropica.2022.106324; @DOI:10.1021/pr400173d].
 Use of multiple proteases for proteome digestion also can improve the sensitivity and accuracy of protein quantification [@PMID:30336047].
 
-Lysyl endopeptidase (Lys-C) obtained from  _Lysobacter enzymogenesis_ is a serine protease invloved in cleaving carboxyl terminus of lysine [@PMID:6359954, @PMID:25823410].
+Lysyl endopeptidase (Lys-C) obtained from  _Lysobacter enzymogenesis_ is a serine protease invloved in cleaving carboxyl terminus of Lys [@PMID:6359954, @PMID:25823410].
 Like trypsin, the optimum pH required for its activity is from pH 7-9. 
-One among the major advantage of Lys-C is that it is resistant to denaturing agents, including 8 M urea [@PMID:27123950].
-Compared to Arginine, trypsin is less efficient in cleaving Lysine, which could limit the quality of quantitation from tryptic peptides.
-Hence to achieve complete protein digestion with minimal missed cleavages, Lys-C is often used in parallel to complement tryspin digestion [@PMID:23017020].
+A major advantage of Lys-C is its resistance to denaturing agents, including 8 M urea - a chaotrope commonly used to denature proteins _prior_ to digestion [@PMID:27123950].
+Trypsin is less efficient at cleaving Lys than Arg, which could limit the quality of quantitation from tryptic peptides.
+Hence, to achieve complete protein digestion with minimal missed cleavages, Lys-C is often used in simultaneously with trypsin digestion [@PMID:23017020].
 
 Alpha-lytic protease (aLP) is also secreted by the soil bacterial _Lysobacter enzymogenesis_ [@PMID:3053694].
 Wild-type aLP (WaLP) and an active site mutant of aLP, M190A (MaLP), have been used to expand proteome coverage [@DOI:10.1074/mcp.m113.034710].
@@ -282,37 +281,41 @@ Peptidyl-Asp metallopeptidase, commonly known as Asp-N, is a metalloprotease obt
 Asp-N catalyzes the hydrolysis of peptide bonds at the N-terminal of aspartate residues. 
 The optimum activity of this enzyme is between pH 4 and 9.  
 As with any metalloprotease, chelators like EDTA should be avoided for digestion buffers when using Asp-N.
-Studies also suggests that Asp-N cleaves at the amino terminus of glutamate when a detergent is present in the proteolysis buffer [@PMID:2669754]. 
+Studies also suggest that Asp-N cleaves at the amino terminus of glutamate when a detergent is present in the proteolysis buffer [@PMID:2669754]. 
 Asp-N often leaves many missed cleavages [@PMID:27123950].
 
-Chymotrypsin or Chymotrypsinogen A is a serine protease obtained from porcine or bovine pancreas with an optimum pH range from 7.8 to 8.0 [@PMID:3555886]. 
+Chymotrypsin or chymotrypsinogen A is a serine protease obtained from porcine or bovine pancreas with an optimum pH range from 7.8 to 8.0 [@PMID:3555886]. 
 It cleaves at the C-terminus of hydrphobic amino acids Phe, Trp, Tyr and barely Met and Leu residues.
-Since the transmembrane region of membrance proteins lacks tryptic cleavage sites, this enzyme works well with membrane proteins having more hydrophobic residues [@PMID:24870543; @PMID:24696503; @PMID:27123950].
-Also, the chymotryptic peptides generated after proteolysis will cover the proteome space orthogonal to that of tryptic peptides both in a quantitative and qualitative manner [@PMID:24290761; @PMID:22669647; @PMID:24696503]
+Since the transmembrane region of membrane proteins commonly lacks tryptic cleavage sites, this enzyme works well with membrane proteins having more hydrophobic residues [@PMID:24870543; @PMID:24696503; @PMID:27123950].
+The chymotryptic peptides generated after proteolysis will cover the proteome space orthogonal to that of tryptic peptides both in a quantitative and qualitative manner [@PMID:24290761; @PMID:22669647; @PMID:24696503]
 
 Clostripain, commonly known as Arg-C, is a cysteine protease obtained from _Clostridium histolyticum_ [@PMID:4332560].
-It hydrolyse mostly the C-terminal Arg residues and sometimes Lys residues, but with less efficiency.
+It hydrolyses mostly the C-terminal Arg residues and sometimes Lys residues, but with less efficiency.
 The peptides generated are generally longer than that of tryptic peptides.
 Arg-C is often used with other proteases for improving qualitative proteome data and also for investigating PTMs [@PMID:25823410]. 
 
 LysargiNase, also known as Ulilysin, is a recently discovered protease belonging to the metalloprotease family. 
 It is a thermophilic protease derived from _Methanosarcina acetivorans_ that specifically cleaves at the N-terminus of Lys and Arg residues [@PMID:25419962].
 Hence, it enabled discovery of C-terminal peptides that were not observed using trypsin.
-In addition, it also can cleave modified amino acids such as methylated or dimethylated arginine and lysine [@PMID:25419962].
+In addition, it can also cleave modified amino acids such as methylated or dimethylated Arg and Lys [@PMID:25419962].
 
 Peptidyl-Lys metalloendopeptidase, or Lys-N, is an metalloprotease obtained from _Grifola frondosa_ [@PMID:19195997]. 
-It cleaves at N-terminal of Lys and has an optimal activity at pH 9.0.
+It cleaves N-terminally of Lys and has an optimal activity at pH 9.0.
 Unlike trypsin, Lys-N is more resistant to denaturing agents and can be heated up to 70 °C [@PMID:25823410].
-Reports suggests that the peptides generated after Lys-N digestion produces more of c-type ions in a ETD-based mass spectrometer [@PMID:18425140]. 
+Reports suggest that the peptides generated after Lys-N digestion produces more of c-type ions in a ETD-based mass spectrometer [@PMID:18425140]. 
 Hence this can be used for analysing PTMs, identification of C-terminal peptides and also for de novo sequencing strategies [@PMID:18425140; @PMID:20953479].
 
-Pepsin A, commonly known as pepsin, is an aspartic protease obtained from bovine or porcrine pancreas [@PMID:12089768]. 
-This was the first protease that was identified and crystallized and was awarded the Nobel prize [@PMID:19872561;@PMID:19872562; @PMID:17758437].
-Pepsin works at an optimum pH from 1-4 and, in a pH depended manner it specifically cleaves Trp, Phe, Tyr and  Leu [@PMID:25823410]. 
+Pepsin A, commonly known as pepsin, is an aspartic protease obtained from bovine or porcine pancreas [@PMID:12089768].
+Pepsin was one of several proteins crystalized by John Northrop, who shared the 1946 Nobel prize in chemistry for this work [@PMID:19872561;@PMID:19872562; @PMID:17758437;@URL:https://www.nobelprize.org/prizes/chemistry/1946/speedread/].
+Pepsin works at an optimum pH from 1-4 and specifically cleaves Trp, Phe, Tyr and  Leu [@PMID:25823410]. 
 Since it possess high enzyme activity and broad specificity at lower pH, it is preferred over other proteases for MS-based disulphide mapping [@PMID:12476442; @PMID:24980484].
 Pepsin is also used extensively for structural mass spectrometry studies with hydrogen-deuterium exchange (HDX) because the rate of back exchange of the amide deuteron is minimized at low pH [@DOI:10.1021/ac902477u; @DOI:10.1002/mas.21565].  
  
-
+Proteinase K was first isolated from the mold _Tritirachium album_ Limber [@PMID:4373242]. 
+The epithet 'K' is derived from its ability to efficiently hydrolyse keratin [@PMID:4373242].
+It is a member of the subtilisin family of proteases and is relatively unspecific with a preference for proteolysis at hydrophobic and aromatic amino acid residues [@DOI:https://doi.org/10.1016/B978-0-12-382219-2.00714-6]. 
+The optimal enzyme activity is between pH 7.5 and 12.
+Proteinase K is used at low concentrations for limited proteolysis (LiP) and the detection of protein structural changes in the eponymous technique LiP-MS [@PMID:29072706]. 
 
 
 ## Peptide and Protein Labeling {.page_break_before}
