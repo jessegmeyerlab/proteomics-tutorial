@@ -16,6 +16,7 @@ authors:
     affiliations:
       - School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
       
+      
   - github: dschust-r
     name: Dina Schuster
     initials: DS
@@ -27,6 +28,20 @@ authors:
       - Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland
       - Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
 
+  
+  - github: aky
+    name: Amit Kumar Yadav
+    initials: AKY
+    orcid: 0000-0002-9445-8156
+    twitter: theoneamit
+    email: amit.yadav@thsti.res.in
+    affiliations:
+      - Translational Health Science and Technology Institute
+    funders:
+      - Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)
+      - Grant Translational Research Program (TRP) at THSTI funded by DBT
+ 
+
   - github: ArokiaRex
     name: Devasahayam Arokia Balaya Rex
     initials: DABR
@@ -35,6 +50,7 @@ authors:
     email: rexprem@yenepoya.edu.in
     affiliations:
       -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+      
       
   - github: jessegmeyerlab
     name: Jesse G. Meyer
