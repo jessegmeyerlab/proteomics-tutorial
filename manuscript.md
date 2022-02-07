@@ -7,10 +7,11 @@ keywords:
 lang: en-US
 date-meta: '2022-02-07'
 author-meta:
-- Dina Schuster
-- Muralidharan Vanuopadath
-- Devasahayam Arokia Balaya Rex
+- Amit Kumar Yadav
 - Jesse G. Meyer
+- Muralidharan Vanuopadath
+- Dina Schuster
+- Devasahayam Arokia Balaya Rex
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,33 +30,37 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
   <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@a78f97c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/a78f97cb9be4dd33a9546c8bfaeb79586b4fe47f)
+from [jessegmeyerlab/proteomics-tutorial@18bd4b8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/18bd4b87ad2240a8b09394c936a217c78ff86456)
 on February 7, 2022.
 </em></small>
 
@@ -87,15 +92,28 @@ on February 7, 2022.
 
 
 
-+ **Dina Schuster**<br>
++ **Amit Kumar Yadav**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
+    [aky](https://github.com/aky)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
+    [theoneamit](https://twitter.com/theoneamit)<br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+  </small>
+
++ **Jesse G. Meyer**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [j_my_sci](https://twitter.com/j_my_sci)<br>
+  <small>
+     Department of Biochemistry, Medical College of Wisconsin
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 + **Muralidharan Vanuopadath**<br>
@@ -109,6 +127,17 @@ on February 7, 2022.
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
 + **Devasahayam Arokia Balaya Rex**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
@@ -118,18 +147,6 @@ on February 7, 2022.
     [rexprem](https://twitter.com/rexprem)<br>
   <small>
      -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Jesse G. Meyer**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)<br>
-  <small>
-     Department of Biochemistry, Medical College of Wisconsin
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 
@@ -389,12 +406,36 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 
 
 ## Peptide Ionization {.page_break_before}
-
-The 2002 Nobel Prize in Chemistry was awarded to partially to John Fenn and Koichi Tanaka "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules" [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary/].
-
+Until the early 1990s, peptides analysis by mass spectrometry was challenging. 
+Hard ionization techniques in use at the time, like fast atom bombardment, were not directly applicable to peptides without destroying or breaking them.
+The soft ionization tehniques however, revolutionized the proteomics field and it became possible to routinely ionize and analyze peptides using MALDI and ESI techniques at high-throughput scale. 
+These two techniques were so impactful that the 2002 Nobel Prize in Chemistry was co-awarded to John Fenn (ESI) and Koichi Tanaka (MALDI) "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules". [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary/]. 
 ### MALDI
+The term, Matrix-assisted LASER desorption ionization (MALDI), was coined by Hillenkamp and Karas in 1985[@URL:https://pubs.acs.org/doi/abs/10.1021/ac00291a042]. 
+Karas and Hillenkamp discovered the MALDI technique first, although a similar ionization method was shown by Koichi Tanaka in 1988 [@DOI:10.1002/rcm.1290020802]. 
+A few months later, Karas and Hillenkamp also demonstrated MALDI applied to protein ionization [@DOI:10.1021/ac00171a028].
+It also created a controversy that the widely used method of MALDI from these two people had been overlooked, and the Nobel prize was awarded to Tanaka, whose system was rarely used[@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
+
+MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound.
+Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@URL:https://pubmed.ncbi.nlm.nih.gov/23681820/].
+Subsequently, the analyte is placed in a vacuum chamber in which it is irradiated with a LASER, usually at 337nm [@DOI:10.1021/cr010375i].
+This laser energy is absorbed by the matrix, which then transfers that energy along with its free protons to the co-crystalized peptides without significantly breaking them.
+The matrix and co-crystallized sample generate plumes, and the volatile matrix imparts its protons to the peptides as it gets ionized first.
+The weak acidic conditions used as well as the acidic nature of the matrix allows easy exchange of protons for the peptides to get ionized and fly under the electrical field in the mass spectrometer.
+These ionized peptides generally form the metastable ions, most of them will fragment quickly [@DOI:10.1021/ac00099a029].
+However, it can take several milliseconds and the mass spectrometry analysis can be performed before this time.
+Peptides ionized by MALDI almost always take up a single charge and thus observed and detected as [MH]+ species.
 
 ### Electrospray Ionization
+ESI was first applied to peptides by John Fenn and coworkers in 1989 [@DOI:10.1126/science.2675315].
+Concepts related to electrospray Ionization (ESI) were published at least as early as 1882, when Lord Rayleigh described the number of charges that could assemble on the surface of a droplet [@DOI:10.1080/14786448208628425]. 
+ESI is usually coupled with reverse-phase liquid-chromatography of peptides directly interfaced to a mass spectrometer.
+A high voltage is applied between the spraying needle and the mass spectrometer.
+Through this needle, a fine mist of analyte as liquid droplets form at the tip of the needle.
+Due to voltage and pressure, the droplet bursts into plumes of ions carrying protons from the liquid phase of the chromatography to impart ions to the analytes.
+<!-- TODO, explicitly describe the taylor cone and coulombic explosion -->
+The liquid phase is generally kept acidic to impart protons easily to the analytes.
+As the peptide ionization takes place in the liquid phase, the peptides are usually doubly or triply charged [@DOI:10.1126/science.2675315], which makes it much easier to sequence the peptide in MS/MS as compared to MALDI which forms predominantly singly charged ions.
 
 
 ## Data Acquisition
@@ -444,6 +485,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | MSFragger|   Kong et al., 2017[@DOI:10.1038/nmeth.4256]    |    [MSFragger](https://msfragger.nesvilab.org/) |
 | Mascot   |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
 | MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
+| X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198],[@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
 
 
 #### DIA freeware:
@@ -481,6 +523,38 @@ The existing software for DDA and DIA analysis can be further divided into freew
 
 
 ### Analysis of DDA data
+DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, Sequest (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, MaxQuant, MSGF+, X!Tandem, Morpheus, MSFragger, and OMSSA. 
+Tables 1 and 4 give weblinks and citations for these software tools.
+<!-- todo: need to make sure all these are listed in the table and cited -->
+<!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
+For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133] [@PMID:20013381][@DOI:10.1074/mcp.R112.019695]. 
+The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
+All search prarameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
+The search algorithm scores each query spectrum against its possible peptide matches [@DOI:10.1002/mas.21543]. 
+A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
+The scores reflect a _goodness-of-fit_ between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.
+
+For evaluating the matches, a decoy database is preferred as a null model for peptide matching.
+A randomized or reversed version of target database is used as a nonparametric null model.
+The decoy database can be searched separate from the target database (Kall's method)[@DOI:10.1021/pr700600n] or it can be combined with the target database before search (Elias and Gygi method)[@DOI:10.1038/nmeth1019].
+Using either separate method or concatenated database search method, an estimate of false hits can be calculated which is used to estimate the false discovery rate (FDR) [@DOI:10.1007/978-1-4939-3106-4_7]. 
+The FDR denotes the proportion of false hits in the population accepted as true.
+For Kall's method: the false hits are estimated to be the number of decoys above a given threshold. 
+It is assumed that the number of decoy hits that pass a threshold are the false hits. 
+A similar number of target population may also be false. 
+Therefore, the FDR is calculated as:
+
+\begin{equation}FDR = #Decoy PSMs/#Target PSMs\end{equation}
+
+For Elias and Gygi Method, the target population in which FDR is estimated changes.
+The target and decoy hits coming from a joint database compete against each other.
+For any spectrum, either a target or a decoy peptide can be the best hit.
+It is argued that the joint target-decoy population has decoy hits as confirmed false hits.
+However, due to the joint database search, the target database may also have equal number of false hits. 
+Thus, the number of false hits is multiplied by two for FDR estimation.
+
+\begin{equation}FDR = (2 * # Decoy PSMs)/ (#(Target+Decoy) PSMs)\end{equation}
+
 
 ### Strategies for analysis of DIA data
 
