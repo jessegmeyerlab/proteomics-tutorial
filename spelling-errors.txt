@@ -27,7 +27,7 @@ chaotrope
 chaotropic
 chelators
 Chloroacetamide
-Chromatographic
+chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -54,7 +54,7 @@ DTT
 EDTA
 electrospray
 endopeptidase
-enrichments
+Enrichments
 enzymatically
 enzymogenesis
 ESI
@@ -110,7 +110,7 @@ Leu
 LTQ
 Lys
 LysargiNase
-lysis
+Lysis
 Lysobacter
 Lysyl
 lytic
@@ -155,10 +155,10 @@ proteases
 Proteinase
 proteoforms
 Proteolysis
-proteome
+Proteome
 ProteomeDiscoverer
 proteomic
-proteomics
+Proteomics
 Protifi
 Pseudomonas
 PSM
@@ -203,7 +203,7 @@ transmembrane
 Tritirachium
 Trp
 trypsin
-Tryptic
+tryptic
 Tyr
 Ulilysin
 Untargeted
