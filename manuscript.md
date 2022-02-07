@@ -8,9 +8,9 @@ lang: en-US
 date-meta: '2022-02-07'
 author-meta:
 - Amit Kumar Yadav
-- Jesse G. Meyer
-- Muralidharan Vanuopadath
 - Dina Schuster
+- Muralidharan Vanuopadath
+- Jesse G. Meyer
 - Devasahayam Arokia Balaya Rex
 header-includes: |-
   <!--
@@ -34,20 +34,20 @@ header-includes: |-
   <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
   <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
   <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
   <meta name="citation_author_institution" content="-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
   <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/18bd4b87ad2240a8b09394c936a217c78ff86456/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d7a7e82757037f066e191677800930ae84bb81da/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@18bd4b8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/18bd4b87ad2240a8b09394c936a217c78ff86456)
+from [jessegmeyerlab/proteomics-tutorial@d7a7e82](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d7a7e82757037f066e191677800930ae84bb81da)
 on February 7, 2022.
 </em></small>
 
@@ -104,16 +104,15 @@ on February 7, 2022.
      · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
-+ **Jesse G. Meyer**<br>
++ **Dina Schuster**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    [dschust-r](https://github.com/dschust-r)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)<br>
+    [dina_sch](https://twitter.com/dina_sch)<br>
   <small>
-     Department of Biochemistry, Medical College of Wisconsin
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
 + **Muralidharan Vanuopadath**<br>
@@ -127,15 +126,16 @@ on February 7, 2022.
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
-+ **Dina Schuster**<br>
++ **Jesse G. Meyer**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
+    [j_my_sci](https://twitter.com/j_my_sci)<br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+     Department of Biochemistry, Medical College of Wisconsin
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 + **Devasahayam Arokia Balaya Rex**<br>
@@ -485,7 +485,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | MSFragger|   Kong et al., 2017[@DOI:10.1038/nmeth.4256]    |    [MSFragger](https://msfragger.nesvilab.org/) |
 | Mascot   |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
 | MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
-| X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198],[@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
+| X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198;@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
 
 
 #### DIA freeware:
@@ -544,7 +544,7 @@ It is assumed that the number of decoy hits that pass a threshold are the false 
 A similar number of target population may also be false. 
 Therefore, the FDR is calculated as:
 
-\begin{equation}FDR = #Decoy PSMs/#Target PSMs\end{equation}
+\[ FDR = #Decoy PSMs/#Target PSMs \]
 
 For Elias and Gygi Method, the target population in which FDR is estimated changes.
 The target and decoy hits coming from a joint database compete against each other.
@@ -553,7 +553,7 @@ It is argued that the joint target-decoy population has decoy hits as confirmed 
 However, due to the joint database search, the target database may also have equal number of false hits. 
 Thus, the number of false hits is multiplied by two for FDR estimation.
 
-\begin{equation}FDR = (2 * # Decoy PSMs)/ (#(Target+Decoy) PSMs)\end{equation}
+\[ FDR = (2 * # Decoy PSMs)/ (#(Target+Decoy) PSMs) \]
 
 
 ### Strategies for analysis of DIA data

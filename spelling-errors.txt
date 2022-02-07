@@ -14,7 +14,7 @@ ArokiaRex
 aspartate
 aspartic
 Balaya
-bioID
+BioID
 Biomolecular
 biomolecules
 bioplex
@@ -54,7 +54,7 @@ DTT
 EDTA
 electrospray
 endopeptidase
-Enrichments
+enrichments
 enzymatically
 enzymogenesis
 ESI
@@ -152,7 +152,7 @@ protease
 proteases
 Proteinase
 proteoforms
-proteolysis
+Proteolysis
 Proteome
 ProteomeDiscoverer
 proteomic
@@ -160,6 +160,7 @@ proteomics
 Protifi
 Pseudomonas
 PSM
+PSMs
 PTM
 PTMs
 QQQ
@@ -199,12 +200,12 @@ TPP
 translational
 transmembrane
 Tritirachium
-Trp
-trypsin
+TRP
+Trypsin
 tryptic
 Tyr
 Ulilysin
-Untargeted
+untargeted
 valine
 Vanuopadath
 vanuopadathmurali
