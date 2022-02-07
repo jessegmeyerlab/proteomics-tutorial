@@ -110,7 +110,7 @@ Leu
 LTQ
 Lys
 LysargiNase
-Lysis
+lysis
 Lysobacter
 Lysyl
 lytic
@@ -154,11 +154,11 @@ protease
 proteases
 Proteinase
 proteoforms
-Proteolysis
+proteolysis
 Proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 Protifi
 Pseudomonas
 PSM
@@ -201,7 +201,7 @@ TPP
 translational
 transmembrane
 Tritirachium
-Trp
+TRP
 trypsin
 tryptic
 Tyr
