@@ -14,7 +14,7 @@ ArokiaRex
 aspartate
 aspartic
 Balaya
-bioID
+BioID
 Biomolecular
 biomolecules
 bioplex
@@ -27,7 +27,7 @@ chaotrope
 chaotropic
 chelators
 Chloroacetamide
-chromatographic
+Chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -54,7 +54,7 @@ DTT
 EDTA
 electrospray
 endopeptidase
-Enrichments
+enrichments
 enzymatically
 enzymogenesis
 ESI
@@ -162,7 +162,6 @@ proteomics
 Protifi
 Pseudomonas
 PSM
-PSMs
 PTM
 PTMs
 QQQ
@@ -202,12 +201,12 @@ TPP
 translational
 transmembrane
 Tritirachium
-TRP
+Trp
 trypsin
-tryptic
+Tryptic
 Tyr
 Ulilysin
-untargeted
+Untargeted
 valine
 Vanuopadath
 vanuopadathmurali

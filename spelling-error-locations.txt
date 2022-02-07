@@ -391,11 +391,7 @@ content/12.raw-data-analysis.md:77:nonparametric
 content/12.raw-data-analysis.md:78:Gygi
 content/12.raw-data-analysis.md:78:Kall's
 content/12.raw-data-analysis.md:81:Kall's
-content/12.raw-data-analysis.md:86:PSMs
-content/12.raw-data-analysis.md:86:PSMs
 content/12.raw-data-analysis.md:88:Gygi
-content/12.raw-data-analysis.md:95:PSMs
-content/12.raw-data-analysis.md:95:PSMs
 content/12.raw-data-analysis.md:98:DIA
 content/12.raw-data-analysis.md:100:proteomics
 content/13.biological-interpretation.md:4:KEGG
