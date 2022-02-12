@@ -7,15 +7,15 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2022-02-07",
+    "date-meta": "2022-02-12",
     "author-meta": [
+      "Devasahayam Arokia Balaya Rex",
+      "Amit Kumar Yadav",
       "Jesse G. Meyer",
       "Muralidharan Vanuopadath",
-      "Dina Schuster",
-      "Devasahayam Arokia Balaya Rex",
-      "Amit Kumar Yadav"
+      "Dina Schuster"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"citation_title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"og:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"twitter:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"dc.date\" content=\"2022-02-07\" />\n<meta name=\"citation_publication_date\" content=\"2022-02-07\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jesse G. Meyer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry, Medical College of Wisconsin\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2753-3926\" />\n<meta name=\"twitter:creator\" content=\"@j_my_sci\" />\n<meta name=\"citation_author\" content=\"Muralidharan Vanuopadath\" />\n<meta name=\"citation_author_institution\" content=\"School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9364-917X\" />\n<meta name=\"twitter:creator\" content=\"@V_MuraleeDhar\" />\n<meta name=\"citation_author\" content=\"Dina Schuster\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6611-8237\" />\n<meta name=\"twitter:creator\" content=\"@dina_sch\" />\n<meta name=\"citation_author\" content=\"Devasahayam Arokia Balaya Rex\" />\n<meta name=\"citation_author_institution\" content=\"-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9556-3150\" />\n<meta name=\"twitter:creator\" content=\"@rexprem\" />\n<meta name=\"citation_author\" content=\"Amit Kumar Yadav\" />\n<meta name=\"citation_author_institution\" content=\"Translational Health Science and Technology Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9445-8156\" />\n<meta name=\"twitter:creator\" content=\"@theoneamit\" />\n<link rel=\"canonical\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"og:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"twitter:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/8564eb7ea9e21ce04985a829bb782a6d926a3a31/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/8564eb7ea9e21ce04985a829bb782a6d926a3a31/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/8564eb7ea9e21ce04985a829bb782a6d926a3a31/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"citation_title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"og:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"twitter:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"dc.date\" content=\"2022-02-12\" />\n<meta name=\"citation_publication_date\" content=\"2022-02-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Devasahayam Arokia Balaya Rex\" />\n<meta name=\"citation_author_institution\" content=\"-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9556-3150\" />\n<meta name=\"twitter:creator\" content=\"@rexprem\" />\n<meta name=\"citation_author\" content=\"Amit Kumar Yadav\" />\n<meta name=\"citation_author_institution\" content=\"Translational Health Science and Technology Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9445-8156\" />\n<meta name=\"twitter:creator\" content=\"@theoneamit\" />\n<meta name=\"citation_author\" content=\"Jesse G. Meyer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry, Medical College of Wisconsin\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2753-3926\" />\n<meta name=\"twitter:creator\" content=\"@j_my_sci\" />\n<meta name=\"citation_author\" content=\"Muralidharan Vanuopadath\" />\n<meta name=\"citation_author_institution\" content=\"School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9364-917X\" />\n<meta name=\"twitter:creator\" content=\"@V_MuraleeDhar\" />\n<meta name=\"citation_author\" content=\"Dina Schuster\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6611-8237\" />\n<meta name=\"twitter:creator\" content=\"@dina_sch\" />\n<link rel=\"canonical\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"og:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"twitter:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/b48e52217869c374aecccbc6b3d59a3adc6cb5e0/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/b48e52217869c374aecccbc6b3d59a3adc6cb5e0/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/b48e52217869c374aecccbc6b3d59a3adc6cb5e0/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -25,10 +25,42 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "February 7, 2022",
+    "date": "February 12, 2022",
     "randomize_author_order": true,
-    "randomize_author_order_seed": "8564eb7ea9e21ce04985a829bb782a6d926a3a31",
+    "randomize_author_order_seed": "b48e52217869c374aecccbc6b3d59a3adc6cb5e0",
     "authors": [
+      {
+        "github": "ArokiaRex",
+        "name": "Devasahayam Arokia Balaya Rex",
+        "initials": "DABR",
+        "orcid": "0000-0002-9556-3150",
+        "twitter": "rexprem",
+        "email": "rexprem@yenepoya.edu.in",
+        "affiliations": [
+          "-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India"
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "aky",
+        "name": "Amit Kumar Yadav",
+        "initials": "AKY",
+        "orcid": "0000-0002-9445-8156",
+        "twitter": "theoneamit",
+        "email": "amit.yadav@thsti.res.in",
+        "affiliations": [
+          "Translational Health Science and Technology Institute"
+        ],
+        "funders": [
+          "Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)",
+          "Grant Translational Research Program (TRP) at THSTI funded by DBT"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
       {
         "github": "jessegmeyerlab",
         "name": "Jesse G. Meyer",
@@ -48,7 +80,7 @@
           "lastapproved": "2022-01-16"
         },
         "affiliation_numbers": [
-          1
+          3
         ]
       },
       {
@@ -62,7 +94,7 @@
           "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India"
         ],
         "affiliation_numbers": [
-          2
+          4
         ]
       },
       {
@@ -78,71 +110,39 @@
           "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland"
         ],
         "affiliation_numbers": [
-          3,
-          4,
-          5
-        ]
-      },
-      {
-        "github": "ArokiaRex",
-        "name": "Devasahayam Arokia Balaya Rex",
-        "initials": "DABR",
-        "orcid": "0000-0002-9556-3150",
-        "twitter": "rexprem",
-        "email": "rexprem@yenepoya.edu.in",
-        "affiliations": [
-          "-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India"
-        ],
-        "affiliation_numbers": [
-          6
-        ]
-      },
-      {
-        "github": "aky",
-        "name": "Amit Kumar Yadav",
-        "initials": "AKY",
-        "orcid": "0000-0002-9445-8156",
-        "twitter": "theoneamit",
-        "email": "amit.yadav@thsti.res.in",
-        "affiliations": [
-          "Translational Health Science and Technology Institute"
-        ],
-        "funders": [
-          "Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)",
-          "Grant Translational Research Program (TRP) at THSTI funded by DBT"
-        ],
-        "affiliation_numbers": [
+          5,
+          6,
           7
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Biochemistry, Medical College of Wisconsin",
+        "affiliation": "-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India",
         "affiliation_number": 1
       },
       {
-        "affiliation": "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India",
+        "affiliation": "Translational Health Science and Technology Institute",
         "affiliation_number": 2
       },
       {
-        "affiliation": "Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland",
+        "affiliation": "Department of Biochemistry, Medical College of Wisconsin",
         "affiliation_number": 3
       },
       {
-        "affiliation": "Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland",
+        "affiliation": "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India",
         "affiliation_number": 4
       },
       {
-        "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland",
+        "affiliation": "Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland",
         "affiliation_number": 5
       },
       {
-        "affiliation": "-Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India",
+        "affiliation": "Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland",
         "affiliation_number": 6
       },
       {
-        "affiliation": "Translational Health Science and Technology Institute",
+        "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland",
         "affiliation_number": 7
       }
     ],
@@ -151,19 +151,19 @@
       "repo_slug": "jessegmeyerlab/proteomics-tutorial",
       "repo_owner": "jessegmeyerlab",
       "repo_name": "proteomics-tutorial",
-      "commit": "8564eb7ea9e21ce04985a829bb782a6d926a3a31",
-      "triggering_commit": "8564eb7ea9e21ce04985a829bb782a6d926a3a31",
-      "build_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/commit/8564eb7ea9e21ce04985a829bb782a6d926a3a31/checks",
-      "job_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/actions/runs/1807657256"
+      "commit": "b48e52217869c374aecccbc6b3d59a3adc6cb5e0",
+      "triggering_commit": "b48e52217869c374aecccbc6b3d59a3adc6cb5e0",
+      "build_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/commit/b48e52217869c374aecccbc6b3d59a3adc6cb5e0/checks",
+      "job_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/actions/runs/1834100152"
     },
     "html_url": "https://jessegmeyerlab.github.io/proteomics-tutorial/",
     "pdf_url": "https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf",
-    "html_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/8564eb7ea9e21ce04985a829bb782a6d926a3a31/",
-    "pdf_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/8564eb7ea9e21ce04985a829bb782a6d926a3a31/manuscript.pdf",
+    "html_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/b48e52217869c374aecccbc6b3d59a3adc6cb5e0/",
+    "pdf_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/b48e52217869c374aecccbc6b3d59a3adc6cb5e0/manuscript.pdf",
     "manubot_version": "0.5.2",
     "rootstock_commit": "9a22fab4497f80f501ea361d028f26888ad9d5a0",
     "manuscript_stats": {
-      "word_count": 4324
+      "word_count": 4498
     }
   }
 }
