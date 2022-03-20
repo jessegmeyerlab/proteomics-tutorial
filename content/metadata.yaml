@@ -51,6 +51,15 @@ authors:
     affiliations:
       -Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
       
+  - github: martinmayta
+    name: Martín L. Mayta
+    initials: MLM
+    orcid: 0000-0002-7986-4551
+    twitter: MartinMayta2
+    email: martin.mayta@uap.edu.ar
+    affiliations:
+      - School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina
+      - Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
       
   - github: jessegmeyerlab
     name: Jesse G. Meyer
