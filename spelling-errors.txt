@@ -14,7 +14,7 @@ ArokiaRex
 aspartate
 aspartic
 Balaya
-bioID
+BioID
 Biomolecular
 biomolecules
 bioplex
@@ -42,7 +42,7 @@ cysteine
 DBT
 DDA
 Demichev
-Desorption
+desorption
 deuteron
 Devasahayam
 DIA
@@ -53,9 +53,9 @@ disulphide
 dschust
 DTT
 EDTA
-electrospray
+Electrospray
 endopeptidase
-Enrichments
+enrichments
 enzymatically
 enzymogenesis
 ESI
@@ -90,7 +90,6 @@ ICR
 identifyable
 impactful
 infered
-invloved
 iodoacetamide
 isoform
 isoforms
@@ -156,11 +155,11 @@ protease
 proteases
 Proteinase
 proteoforms
-Proteolysis
+proteolysis
 Proteome
 ProteomeDiscoverer
 proteomic
-proteomics
+Proteomics
 Protifi
 Pseudomonas
 PSM
@@ -190,7 +189,6 @@ subtilisin
 Tanaka
 TCEP
 tehniques
-terimus
 theoneamit
 thermophilic
 threonine
@@ -203,12 +201,12 @@ TPP
 translational
 transmembrane
 Tritirachium
-Trp
+TRP
 trypsin
 tryptic
 Tyr
 Ulilysin
-Untargeted
+untargeted
 valine
 Vanuopadath
 vanuopadathmurali
