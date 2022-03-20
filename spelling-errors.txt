@@ -1,5 +1,6 @@
 acetivorans
 acetylation
+Adventista
 aky
 alanine
 aliphatic
@@ -14,7 +15,7 @@ ArokiaRex
 aspartate
 aspartic
 Balaya
-BioID
+bioID
 Biomolecular
 biomolecules
 bioplex
@@ -53,9 +54,9 @@ disulphide
 dschust
 DTT
 EDTA
-Electrospray
+electrospray
 endopeptidase
-enrichments
+Enrichments
 enzymatically
 enzymogenesis
 ESI
@@ -107,10 +108,11 @@ Kollam
 Kumar
 kV
 Leu
+Libertador
 LTQ
 Lys
 LysargiNase
-lysis
+Lysis
 Lysobacter
 Lysyl
 lytic
@@ -121,8 +123,11 @@ maleimide
 MaLP
 Mangalore
 maniupulated
+Martín
+martinmayta
 MaxDIA
 MaxQuant
+Mayta
 metalloendopeptidase
 metallopeptidase
 metalloprotease
@@ -137,6 +142,7 @@ MSGF
 MuraleeDhar
 Muralidharan
 mzML
+Nacional
 NN
 nonparametric
 novo
@@ -148,6 +154,7 @@ Peptidyl
 Phe
 phenylalanine
 Phosphoproteomics
+Plata
 PPIs
 practioners
 prarameters
@@ -159,7 +166,7 @@ proteolysis
 Proteome
 ProteomeDiscoverer
 proteomic
-Proteomics
+proteomics
 Protifi
 Pseudomonas
 PSM
@@ -198,15 +205,16 @@ TiO
 TMT
 TOF
 TPP
-translational
+Translational
 transmembrane
 Tritirachium
 TRP
 trypsin
-tryptic
+Tryptic
 Tyr
 Ulilysin
-untargeted
+Universidad
+Untargeted
 valine
 Vanuopadath
 vanuopadathmurali
