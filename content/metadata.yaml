@@ -7,6 +7,19 @@ keywords:
 lang: en-US
 authors:
 
+
+  - github: neely 
+    name: Benjamin A. Neely
+    initials: BAN
+    orcid: 0000-0001-6120-7695
+    twitter: neely615
+    email: benjamin.neely@nist.gov
+    affiliations:
+      - Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+    funders:
+      - NIST 
+
+
   - github: vanuopadathmurali
     name: Muralidharan Vanuopadath
     initials: MV
