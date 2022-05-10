@@ -16,6 +16,7 @@ aspartate
 aspartic
 Balaya
 bioID
+Biomedicine
 Biomolecular
 biomolecules
 bioplex
@@ -43,7 +44,7 @@ cysteine
 DBT
 DDA
 Demichev
-desorption
+Desorption
 deuteron
 Devasahayam
 DIA
@@ -54,9 +55,9 @@ disulphide
 dschust
 DTT
 EDTA
-electrospray
+Electrospray
 endopeptidase
-Enrichments
+enrichments
 enzymatically
 enzymogenesis
 ESI
@@ -163,10 +164,10 @@ proteases
 Proteinase
 proteoforms
 proteolysis
-Proteome
+proteome
 ProteomeDiscoverer
 proteomic
-proteomics
+Proteomics
 Protifi
 Pseudomonas
 PSM
@@ -188,7 +189,7 @@ solubilizw
 sorbents
 specificities
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 Staphyloccous
@@ -205,7 +206,7 @@ TiO
 TMT
 TOF
 TPP
-Translational
+translational
 transmembrane
 Tritirachium
 TRP

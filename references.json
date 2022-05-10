@@ -881,7 +881,7 @@
     "type": "article-journal",
     "page": "2846-2857",
     "source": "Crossref",
-    "title": "Sequencing-Grade De novo Analysis of MS/MS Triplets (CID/HCD/ETD) From Overlapping Peptides",
+    "title": "Sequencing-Grade <i>De novo</i> Analysis of MS/MS Triplets (CID/HCD/ETD) From Overlapping Peptides",
     "volume": "12",
     "author": [
       {
@@ -1397,7 +1397,7 @@
         "family": "Komives"
       }
     ],
-    "container-title": "Molecular & Cellular Proteomics",
+    "container-title": "Molecular &amp; Cellular Proteomics",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1408,7 +1408,7 @@
       ]
     },
     "URL": "https://doi.org/f5vgcg",
-    "container-title-short": "Molecular & Cellular Proteomics",
+    "container-title-short": "Molecular &amp; Cellular Proteomics",
     "PMCID": "PMC3945911",
     "PMID": "24425750",
     "id": "yeQvImXS",
@@ -1445,7 +1445,7 @@
         "family": "Mirzaei"
       }
     ],
-    "container-title": "Molecular & Cellular Proteomics",
+    "container-title": "Molecular &amp; Cellular Proteomics",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1456,7 +1456,7 @@
       ]
     },
     "URL": "https://doi.org/f56bwx",
-    "container-title-short": "Molecular & Cellular Proteomics",
+    "container-title-short": "Molecular &amp; Cellular Proteomics",
     "PMCID": "PMC4047476",
     "PMID": "24696503",
     "id": "14eCb7Jfc",
@@ -1525,7 +1525,7 @@
         "family": "Reiter"
       }
     ],
-    "container-title": "Molecular & Cellular Proteomics",
+    "container-title": "Molecular &amp; Cellular Proteomics",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1536,7 +1536,7 @@
       ]
     },
     "URL": "https://doi.org/f7b76h",
-    "container-title-short": "Molecular & Cellular Proteomics",
+    "container-title-short": "Molecular &amp; Cellular Proteomics",
     "PMCID": "PMC4424408",
     "PMID": "25724911",
     "id": "UKcaDUJ7",
@@ -1625,7 +1625,7 @@
         "family": "Deutsch"
       }
     ],
-    "container-title": "Molecular & Cellular Proteomics",
+    "container-title": "Molecular &amp; Cellular Proteomics",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1636,7 +1636,7 @@
       ]
     },
     "URL": "https://doi.org/dxkg99",
-    "container-title-short": "Molecular & Cellular Proteomics",
+    "container-title-short": "Molecular &amp; Cellular Proteomics",
     "PMCID": "PMC3013463",
     "PMID": "20716697",
     "id": "zsmAmqZJ",
@@ -1657,7 +1657,7 @@
         "family": "Deutsch"
       }
     ],
-    "container-title": "Molecular & Cellular Proteomics",
+    "container-title": "Molecular &amp; Cellular Proteomics",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1668,7 +1668,7 @@
       ]
     },
     "URL": "https://doi.org/ggkdvv",
-    "container-title-short": "Molecular & Cellular Proteomics",
+    "container-title-short": "Molecular &amp; Cellular Proteomics",
     "PMCID": "PMC3518119",
     "PMID": "22956731",
     "id": "r2hPariY",
@@ -1681,7 +1681,7 @@
     "type": "article-journal",
     "page": "184-186",
     "source": "Crossref",
-    "title": "XX. On the equilibrium of liquid conducting masses charged with electricity",
+    "title": "XX. <i>On the equilibrium of liquid conducting masses charged with electricity</i>",
     "volume": "14",
     "author": [
       {
@@ -1901,7 +1901,7 @@
     "type": "article-journal",
     "page": "1-7",
     "source": "Crossref",
-    "title": "In Silico Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage",
+    "title": "<i>In Silico</i>Proteome Cleavage Reveals Iterative Digestion Strategy for High Sequence Coverage",
     "volume": "2014",
     "author": [
       {
@@ -1995,8 +1995,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
@@ -2038,8 +2038,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
@@ -2081,8 +2081,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
@@ -3927,27 +3927,30 @@
   },
   {
     "id": "GZmDnwb9",
-    "type": "webpage",
-    "abstract": "A statistical model is presented for computing probabilities that proteins are present in a sample on the basis of peptides assigned to tandem mass (MS/MS) spectra acquired from a proteolytic digest of the sample. Peptides that correspond to more than a single protein in the sequence database are apportioned among all corresponding proteins, and a minimal protein list sufficient to account for the observed peptide assignments is derived using the expectation−maximization algorithm. Using peptide assignments to spectra generated from a sample of 18 purified proteins, as well as complex H. influenzae and Halobacterium samples, the model is shown to produce probabilities that are accurate and have high power to discriminate correct from incorrect protein identifications. This method allows filtering of large-scale proteomics data sets with predictable sensitivity and false positive identification error rates. Fast, consistent, and transparent, it provides a standard for publishing large-scale protein identification data sets in the literature and for comparing the results obtained from different experiments.",
-    "container-title": "ACS Publications",
-    "genre": "research-article",
+    "type": "article-journal",
+    "container-title": "Analytical Chemistry",
+    "DOI": "10.1021/ac0341261",
+    "ISSN": "0003-2700, 1520-6882",
+    "issue": "17",
+    "journalAbbreviation": "Anal. Chem.",
     "language": "en",
-    "note": "DOI: 10.1021/ac0341261\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.1021/ac0341261",
+    "page": "4646-4658",
+    "source": "DOI.org (Crossref)",
     "title": "A Statistical Model for Identifying Proteins by Tandem Mass Spectrometry",
-    "URL": "https://pubs.acs.org/doi/abs/10.1021/ac0341261",
+    "URL": "https://pubs.acs.org/doi/10.1021/ac0341261",
+    "volume": "75",
     "author": [
       {
-        "family": "Alexey I.  Nesvizhskii",
-        "given": "*"
+        "family": "Nesvizhskii",
+        "given": "Alexey I."
       },
       {
-        "family": "Andrew Keller",
-        "given": "*"
+        "family": "Keller",
+        "given": "Andrew"
       },
       {
-        "family": "Eugene Kolker",
-        "given": "‡",
-        "dropping-particle": "and"
+        "family": "Kolker",
+        "given": "Eugene"
       },
       {
         "family": "Aebersold",
@@ -3958,8 +3961,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
@@ -3967,11 +3970,12 @@
       "date-parts": [
         [
           "2003",
-          7,
-          15
+          9,
+          1
         ]
       ]
-    }
+    },
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.1021/ac0341261"
   },
   {
     "id": "w7xaaHV0",
@@ -4022,45 +4026,51 @@
   },
   {
     "id": "zfiYj2co",
-    "type": "webpage",
-    "container-title": "ACS Publications",
-    "genre": "research-article",
-    "language": "EN",
-    "note": "DOI: 10.1021/ac00291a042\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://pubs.acs.org/doi/abs/10.1021/ac00291a042",
+    "type": "article-journal",
+    "container-title": "Analytical Chemistry",
+    "DOI": "10.1021/ac00291a042",
+    "ISSN": "0003-2700, 1520-6882",
+    "issue": "14",
+    "journalAbbreviation": "Anal. Chem.",
+    "language": "en",
+    "page": "2935-2939",
+    "source": "DOI.org (Crossref)",
     "title": "Influence of the wavelength in high-irradiance ultraviolet laser desorption mass spectrometry of organic molecules",
     "URL": "https://pubs.acs.org/doi/abs/10.1021/ac00291a042",
+    "volume": "57",
     "author": [
       {
         "family": "Karas",
-        "given": "Michael"
+        "given": "Michael."
       },
       {
         "family": "Bachmann",
-        "given": "Doris"
+        "given": "Doris."
       },
       {
         "family": "Hillenkamp",
-        "given": "Franz"
+        "given": "Franz."
       }
     ],
     "accessed": {
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
     "issued": {
       "date-parts": [
         [
-          "2002",
-          5,
+          "1985",
+          12,
           1
         ]
       ]
-    }
+    },
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://pubs.acs.org/doi/abs/10.1021/ac00291a042"
   },
   {
     "id": "1HBJs2tAB",
@@ -4072,8 +4082,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
@@ -4100,8 +4110,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
@@ -4119,8 +4129,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          20
+          5,
+          10
         ]
       ]
     },
