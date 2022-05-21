@@ -53,12 +53,12 @@ crystalized
 curation
 cyno
 cysteine
-Datasets
+datasets
 DBT
 DDA
 DDBJ
 Demichev
-Desorption
+desorption
 deuteron
 Devasahayam
 DIA
@@ -73,8 +73,8 @@ electrospray
 elegans
 EMBL
 endopeptidase
-Enrichments
-Ensembl
+enrichments
+ensembl
 enzymatically
 enzymogenesis
 Equus
@@ -142,7 +142,7 @@ Libertador
 LTQ
 Lys
 LysargiNase
-lysis
+Lysis
 Lysobacter
 Lysyl
 lytic
@@ -235,7 +235,7 @@ solubilizw
 sorbents
 specificities
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 Staphyloccous
@@ -256,9 +256,9 @@ TOF
 TPP
 Translational
 transmembrane
-TrEMBL
+trembl
 Tritirachium
-TRP
+Trp
 trypsin
 Tryptic
 TryTrypDB
@@ -271,7 +271,7 @@ UniProt’s
 UniRef
 Universidad
 unreviewed
-Untargeted
+untargeted
 useable
 valine
 Vanuopadath
