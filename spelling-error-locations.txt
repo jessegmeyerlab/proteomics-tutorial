@@ -428,7 +428,6 @@ content/12.raw-data-analysis.md:74:TPP
 content/12.raw-data-analysis.md:75:MGF
 content/12.raw-data-analysis.md:75:mzML
 content/12.raw-data-analysis.md:76:FASTA
-content/12.raw-data-analysis.md:77:prarameters
 content/12.raw-data-analysis.md:79:PSM
 content/12.raw-data-analysis.md:83:nonparametric
 content/12.raw-data-analysis.md:84:Gygi
