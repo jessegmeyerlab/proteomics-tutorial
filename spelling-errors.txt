@@ -18,12 +18,13 @@ aspartic
 Balaya
 Benchmarking
 biocuration
-bioID
+BioID
 Biomedicine
 Biomolecular
 biomolecules
 bioplex
 BME
+bRP
 Bruderer
 BT
 BUSCO
@@ -37,7 +38,7 @@ chaotrope
 chaotropic
 chelators
 Chloroacetamide
-Chromatographic
+chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -58,7 +59,7 @@ DBT
 DDA
 DDBJ
 Demichev
-Desorption
+desorption
 deuteron
 Devasahayam
 DIA
@@ -69,12 +70,12 @@ disulphide
 dschust
 DTT
 EDTA
-electrospray
+Electrospray
 elegans
 EMBL
 endopeptidase
 Enrichments
-Ensembl
+ensembl
 enzymatically
 enzymogenesis
 Equus
@@ -82,12 +83,13 @@ ESI
 ETH
 eukaryotic
 FAIMS
-fasta
+FASTA
 Fenn
 ferulic
 FlyBase
 footprinting
 FPOP
+fractionation
 fragi
 FragPipe
 frondosa
@@ -142,7 +144,7 @@ Libertador
 LTQ
 Lys
 LysargiNase
-Lysis
+lysis
 Lysobacter
 Lysyl
 lytic
@@ -203,7 +205,7 @@ protease
 proteases
 Proteinase
 proteoforms
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomes
@@ -224,6 +226,7 @@ rexprem
 Scherrer
 Schuster
 scrofa
+SDS
 Sequest
 SILAC
 SILAM
@@ -234,7 +237,7 @@ solubilizw
 sorbents
 specificities
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 Staphyloccous
