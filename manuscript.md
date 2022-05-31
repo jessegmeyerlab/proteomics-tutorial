@@ -5,14 +5,14 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-05-26'
+date-meta: '2022-05-31'
 author-meta:
-- Benjamin A. Neely
-- Muralidharan Vanuopadath
-- Amit Kumar Yadav
-- Devasahayam Arokia Balaya Rex
 - Martín L. Mayta
+- Amit Kumar Yadav
 - Dina Schuster
+- Benjamin A. Neely
+- Devasahayam Arokia Balaya Rex
+- Muralidharan Vanuopadath
 - Jesse G. Meyer
 header-includes: |-
   <!--
@@ -24,41 +24,41 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-05-26" />
-  <meta name="citation_publication_date" content="2022-05-26" />
+  <meta name="dc.date" content="2022-05-31" />
+  <meta name="citation_publication_date" content="2022-05-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Martín L. Mayta" />
   <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
   <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
   <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -69,9 +69,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1a9182a08608a1ef198ab52cd7963c6837efdf70/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1a9182a08608a1ef198ab52cd7963c6837efdf70/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1a9182a08608a1ef198ab52cd7963c6837efdf70/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/32b3d34a896bdaca10933f6cc66940ba0d054082/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/32b3d34a896bdaca10933f6cc66940ba0d054082/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/32b3d34a896bdaca10933f6cc66940ba0d054082/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -93,37 +93,25 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1a9182a08608a1ef198ab52cd7963c6837efdf70/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/32b3d34a896bdaca10933f6cc66940ba0d054082/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@1a9182a](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1a9182a08608a1ef198ab52cd7963c6837efdf70)
-on May 26, 2022.
+from [jessegmeyerlab/proteomics-tutorial@32b3d34](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/32b3d34a896bdaca10933f6cc66940ba0d054082)
+on May 31, 2022.
 </em></small>
 
 ## Authors
 
 
 
-+ **Benjamin A. Neely**<br>
++ **Martín L. Mayta**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
+    [martinmayta](https://github.com/martinmayta)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)<br>
+    [MartinMayta2](https://twitter.com/MartinMayta2)<br>
   <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
-  </small>
-
-+ **Muralidharan Vanuopadath**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
-  <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 + **Amit Kumar Yadav**<br>
@@ -138,6 +126,29 @@ on May 26, 2022.
      · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Benjamin A. Neely**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [neely](https://github.com/neely)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [neely615](https://twitter.com/neely615)<br>
+  <small>
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
+  </small>
+
 + **Devasahayam Arokia Balaya Rex**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
@@ -149,26 +160,15 @@ on May 26, 2022.
      Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
-+ **Martín L. Mayta**<br>
++ **Muralidharan Vanuopadath**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)<br>
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
   <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Dina Schuster**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
 + **Jesse G. Meyer**<br>
@@ -273,18 +273,93 @@ Proteomics experiments can be both qualitative and quantitative.
 
 ## Protein Extraction {.page_break_before}
 
-First, proteins must be isolated from the sample matrix. Because some proteins alter other proteins, the goal is to simultaneously solubilizw and denature proteins. This is achieved with a combination of salt and chaotropic agent. 
+Protein extraction from the sample of interest is the initial phase of any mass spectrometry-based proteomics experiment. 
+Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, post translational modification enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments) long term project goals (reproducibility, multiple sample types, low abundance samples) as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or immune or affinity enrichment of a specific classes of modifications.) 
+The 2009 version of Methods in Enzymology: guide to Protein Purification [@isbn:978-0-12-374536-1] serves as a deep dive into how molecular biologists and biochemists traditionally thought about protein extraction. 
+Any change in extraction conditions should be expected to create potential changes in downstream results. 
+Optimize this step first and stick with a protocol that works for your needs. 
+If a collaborator is attempting to reproduce your results, make sure they begin with the same extraction protocols. 
 
-1. Choice of Lysis buffer
-* Urea can cause chemical modifications 
-2. Sample type and homogenisation methods
-* specialised sample preparation protocols for non-denaturing protein isolation (i.e. for LiP-MS, HDMX-MS etc) 
-4. chemicals to avoid: PEGs, detergents etc
-5. removal of contaminations, Protein Precipitation
-* detergent reomoval resins, S-TRAP (Protifi) etc
-7. protein alkylation
-* choices of reduction and alkylation reagents, TCEP/DTT/2BME, Chloroacetamide/iodoacetamide, n-ethyl maleimide
+### Buffer choice 
+#### General proteomics 
 
+A common question to proteomics core facilities is, “What is the best buffer for protein extraction?”
+Unfortunately, there is no one correct answer. 
+For global proteomics experiments, a buffer of neutral pH (50-100 mM PBS, Tris, HEPES, Ammonium Bicarbonate, triethanolamine bicarbonate; pH 7.5-8.5) is used in conjunction with a chaotrope or surfactant to denature and solubilize proteins (e.g., 8 M urea, 6 M guanidine, 5% SDS) [@PMID:16152629; @PMID:20722421]. 
+Often other salts like 50-150 mM NaCl are also added. 
+If intact protein separations are planned (based on size or isoelectric point) choose a denaturant compatible with those methods, such as SDS. 
+Compatibility with protease (typically trypsin) and peptide cleanup steps will need to be considered. 
+8 M urea must be diluted to 2 M or less for trypsin and chymotrypsin digestions, while guanidine and SDS should be removed either through protein precipitation, through filter-assisted sample preparation (FASP), or similar solid phase digestion techniques. 
+Note that some buffers can potentially introduce modifications onto proteins such as carbamylation from urea at high temperatures {@PMID:24161613}. 
+Newer mass spectrometry compatible detergents are also useful for protein extraction and ease of downstream processing – including Rapigest® (Waters), N-octyl-β-glucopyranoside, Azo (Ge lab Wisconsin), PPS silent surfactant. 
+AVOID the use of tween-20, triton-X, NP-40, and PEGs as these compounds are challenging to remove after digestion. 
+
+#### Protein-protein interactions 
+Denaturing conditions will efficiently extract proteins – but they will denature/disrupt most protein-protein interactions. 
+If you are working on an immune- or affinity purification of a specific protein and expect to analyze enzymatic activity, structural features, and/or protein-protein interactions, a non-denaturing lysis buffer should be utilized. 
+Check the calculated pI and hydrophobicity for a good idea of starting pH/conductivity, but you may need to perform a stability screen. 
+In general, the buffer will still be close to neutral pH with 50-250 mM NaCl. 
+A low percent of mass spec compatible detergent may also be used.
+
+#### Optional additives 
+For denaturing buffer conditions, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTM modifications throughout the extraction process. 
+Protease, phosphatase and deubiquitinase inhibitors are optional additives in less denaturing conditions or in experiments focused on specific post-translational modifications. 
+Keep in mind that protease inhibitors may impact digestion conditions and will need to be diluted or removed prior to trypsin addition. 
+For extraction of DNA or RNA binding proteins, addition of a small amount of benzonase might be useful for degradation of any bound nucleic acids and result in a more consistent digestion.
+
+### Mechanical or Sonic Disruption 
+#### Cell lysis 
+One typical lysis buffer is 8 M urea in 100 mM Tris pH 8.5. 
+Small mammalian cell pellets and exosomes will lyse almost instantly upon addition of this sort of denaturing buffer. 
+Efficiency of extraction and degradation of nucleic acids can be improved using various sonication methods: 1) probe sonicator with ice; 2) water bath sonicator with ice or cooling; 3) bioruptor® sonication device 4) Adaptive focused acoustics (AFA®) [@PMID: 21060726]. 
+Key to these additional lysis techniques are to keep the temperature of the sample from rising significantly which can cause proteins to aggregate or degrade. 
+Some cell types may require additional force for effective lysis (see below). 
+For bacteria with cell wells, lysozyme is often added in the lysis buffer. 
+Any added protein will be present in downstream results, however, so excessive addition of lysozyme is to be avoided unless tagged protein purification will occur. 
+
+#### Tissue/other lysis 
+Although small pieces of soft tissue can often be successfully extracted with the probe and sonication methods described above, larger/harder tissues as well as plants/yeast/fungi are better extracted with some form of additional mechanical force. 
+If proteins are too be extracted from a large amount of sample, such as soil, feces, or other diffuse samples, one option is to use a dedicated blender and filter the sample after followed by centrifugation. 
+If samples are tissue or more concise, cryo-homogenization is recommended. 
+The simplest form of this is grinding the sample with liquid nitrogen and a mortar and pestle.
+Tools such as bead beaters are also used, where the sample is placed in a tube with appropriately sized beads and shaken rapidly. 
+Cryo-mills are chambers where liquid nitrogen is applied around a vessel and large bead or beads. 
+Cryo-fractionators homogenize samples in special bags that are frozen in liquid nitrogen and smashed with various degrees of force [@PMID: 34002278]. 
+After homogenization, samples can be sonicated by one of the methods above to fragment DNA and increase solubilization of proteins. 
+
+### Efficiency of protein extraction 
+Following protein extraction, samples should be centrifuged (10-14,000 g for 10-30 min depending on sample type) to remove debris prior to calculating protein concentration. 
+The amount of insoluble material remaining should be noted throughout an experiment as a large change may indicate protein extraction issues. 
+Protein concentration can be calculated using a number of assays or tools; generally UV absorption methods are facile and affordable, such as Bradford or BCA assays. 
+Protein can also be estimated by tryptophan fluorescence, which has the benefit of not consuming sample [@DOI:10.1021/ac504689z].
+A nanodrop UV spectrophotometer may be used. 
+Consistency in this method is important as each method will have inherent bias and error. 
+Extraction buffer components will need to be compatible with any assay chosen; alternatively, buffer may be removed (see below) prior to protein concentration calculation.
+
+### Reduction and alkylation 
+Typically, disulfide bonds in proteins are reduced and alkylated prior to proteolysis in order to disrupt structures and simplify peptide analysis. 
+This allows better access to all residues during proteolysis and removes the crosslinked peptides created by S-S inter peptide linkages. 
+There are a variety of reagent options for these steps. 
+For reduction, the typical agents used are 5-15 mM concentration of TCEP/DTT/2BME. 
+For the following alkylation step, a slightly higher 10-20mM concentration, alkylating agent such as Chloroacetamide/iodoacetamide, n-ethyl maleimide can be used [PMID: 29019370; @PMID: 15351294; @PMID: 28539326]. 
+It is also possible to alklylate free cysteines with one reagent, reduce di-sulfide bonds (or other Cysteine modifications) and alkylate with a different reagent in order to monitor which residues are linked/modified in a protein. 
+Reduction reactions are generally carried out in the dark at room temperature to avoid excessive off target alklation.
+
+### Removal of buffer/interfering small molecules
+If extraction must take place in a buffer which is incompatible for efficient proteolysis (check the guidelines for the protease of choice), then protein cleanup should occur prior to digestion. 
+This is generally performed through precipitation of proteins. 
+The most common types are 1) acetone, 2) trichloroacetic acid (TCA), and 3) methanol/chloroform/water. 
+Proteins are generally insoluble in most pure organic solvents, so cold ethanol or methanol are sometimes used. 
+Pellets should be washed with organic solvent for complete removal especially of detergents. 
+Alternatively, solid phase based digestion methods such as S-trap, FASP, and on column/bead can allow for proteins to be applied to a solid phase and buffers removed prior to proteolysis [@PMID: 29754492]. 
+Specialty detergent removal columns exist (Pierce/Thermo Fisher Scientific) but add expense and time consuming steps to the process. 
+Additionally these should be checked for efficiency prior to implementing in a workflow with many samples as avoiding detergent contamination in the LC/MS is very important. 
+
+### Summary 
+Often you will be given protein extraction conditions from molecular biologists or biochemistry which you will have to make work with downstream mass spectrometry applications. 
+For bottom-up proteomics, the overreaching goal is efficient and consistent extraction and digestion.
+
+<--! test edit example -->
 
 
 ## Proteolysis {.page_break_before}
