@@ -10,7 +10,7 @@
 
 ## Project information
 
-**Purpose.** We are collaboratively writing a broad, basic tutorial on proteomics invited by the ACS journal [Measurement Science Au](https://pubs.acs.org/journal/amachv). An example of the scope and style is [this tutorial from Jillian Dempsy's group on cyclic voltammetry](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.7b00361). We are using [Manubot](https://github.com/manubot/manubot) to write this manuscript and track contributions. See the remaining readme below this section or at the link above for more information about manubot. **We are aiming to submit by the end of 2022.**
+**Purpose.** We are collaboratively writing a broad, basic tutorial on proteomics invited by the ACS journal [Measurement Science Au](https://pubs.acs.org/journal/amachv). Anyone is welcome to contribute! An example of the scope and style is [this tutorial from Jillian Dempsy's group on cyclic voltammetry](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.7b00361). We are using [Manubot](https://github.com/manubot/manubot) to write this manuscript and track contributions. See the remaining readme below this section or at the link above for more information about manubot. **We are aiming to submit by the end of 2022.**
 
 **Authorship.** I (Jesse Meyer) am leading this project as senior author, and we will decide author order for everyone else based on the contributions recorded via github. The minimum suggested contribution for authorship is five coherent and well referenced paragraphs. Authorship can also be awarded for helping with reviewing new contributions (pull requests), editing, or by making figures and tables. 
 
