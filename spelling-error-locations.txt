@@ -867,4 +867,11 @@ content/15.sample-fractionation.md:2:fractionation
 content/15.sample-fractionation.md:3:SDS
 content/15.sample-fractionation.md:5:fractionation
 content/15.sample-fractionation.md:6:bRP
+content/16.tandem-MS.md:1:Spectrometry
+content/16.tandem-MS.md:3:Spectrometry
+content/16.tandem-MS.md:4:proteomics
+content/16.tandem-MS.md:13:xyz
+content/16.tandem-MS.md:14:ECD
+content/16.tandem-MS.md:14:HCD
+content/16.tandem-MS.md:14:PQD
 content/89.acknowledgements.md:3:Wilmarth
