@@ -5,16 +5,16 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-07-03'
+date-meta: '2022-07-07'
 author-meta:
 - Emma H. Doud
-- Devasahayam Arokia Balaya Rex
 - Dina Schuster
+- Benjamin A. Neely
+- Devasahayam Arokia Balaya Rex
+- Amit Kumar Yadav
 - Jesse G. Meyer
 - Muralidharan Vanuopadath
 - Martín L. Mayta
-- Benjamin A. Neely
-- Amit Kumar Yadav
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,8 +25,8 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-07-03" />
-  <meta name="citation_publication_date" content="2022-07-03" />
+  <meta name="dc.date" content="2022-07-07" />
+  <meta name="citation_publication_date" content="2022-07-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -37,16 +37,24 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
   <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -60,23 +68,15 @@ header-includes: |-
   <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
   <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/68eeda65b9ef7eddb9a5b0649de00fb2850ea2f5/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/68eeda65b9ef7eddb9a5b0649de00fb2850ea2f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/68eeda65b9ef7eddb9a5b0649de00fb2850ea2f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd2426c4b83cf11dea72f6de5b17637d0e16a7a7/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd2426c4b83cf11dea72f6de5b17637d0e16a7a7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd2426c4b83cf11dea72f6de5b17637d0e16a7a7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,10 +98,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/68eeda65b9ef7eddb9a5b0649de00fb2850ea2f5/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd2426c4b83cf11dea72f6de5b17637d0e16a7a7/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@68eeda6](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/68eeda65b9ef7eddb9a5b0649de00fb2850ea2f5)
-on July 3, 2022.
+from [jessegmeyerlab/proteomics-tutorial@fd2426c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/fd2426c4b83cf11dea72f6de5b17637d0e16a7a7)
+on July 7, 2022.
 </em></small>
 
 ## Authors
@@ -119,6 +119,29 @@ on July 3, 2022.
      Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Benjamin A. Neely**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [neely](https://github.com/neely)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [neely615](https://twitter.com/neely615)<br>
+  <small>
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
+  </small>
+
 + **Devasahayam Arokia Balaya Rex**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
@@ -130,15 +153,16 @@ on July 3, 2022.
      Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
-+ **Dina Schuster**<br>
++ **Amit Kumar Yadav**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
+    [aky](https://github.com/aky)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
+    [theoneamit](https://twitter.com/theoneamit)<br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
 + **Jesse G. Meyer**<br>
@@ -173,30 +197,6 @@ on July 3, 2022.
     [MartinMayta2](https://twitter.com/MartinMayta2)<br>
   <small>
      School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Benjamin A. Neely**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)<br>
-  <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
-  </small>
-
-+ **Amit Kumar Yadav**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)<br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
 
@@ -471,7 +471,7 @@ Increasing the number of complimentary enzymes used will increase the number of 
 Therefore, this will allow more protein isoforms and post-translational modifications to be identified than using Trypsin alone.](images/Proteolysis_v03.png){#fig:Multiple-protease-proteolysis tag="1" width="100%"}
 
 
-## Peptide and Protein Labeling {.page_break_before}
+## Peptide Quantification {.page_break_before}
 
 Discussion of methods to isotopically label peptides or proteins that enable quantification
 
@@ -599,27 +599,35 @@ Typical bottom-up proteomics experiments make use of acidic analyte solutions wh
 
 ## Data Acquisition {.page_break_before}
 
+<!-- Figures:
+1. show a plot of the polularity of MRM/DIA/DDA/ over time? 
+-->
+
 Hybrid mass spectrometers used for modern proteome analysis offer the flexibility to collect data in many different ways. 
 Data acquisition strategies differ in the sequence of precursor scans and fragment ion scans, and in how analytes are chosen for MS/MS. 
 Constant innovation to develop better and better data collection methods improves our view of the proteome, but the many method options might be confusing for newcomers. 
 This section provides an overview of these general classes of data collection methods. 
 
 Data acquisition strategies for proteomics fall into one of two general groups.
+
 1. Data dependent acquisition, or DDA, in which the exact scan sequence in each analysis depends on the data that the mass spectrometer sees.
 2. Data independent acquisition, or DIA, in which the exact scan sequence in each analysis DOES NOT depend on the data; the scans are the same whether you inject yeast peptides, human peptides, or a solvent blank.  
 
 DDA and DIA can both be futher subdivided in to targeted and untargeted methods. That is, we have targeted DDA, untargeted DDA, targeted DIA, or untargeted DIA.
 
-<--! to do: figure showing the four basic types of data acquisition and their names, like four squares -->
+<!-- to do: figure showing the four basic types of data acquisition and their names, like four squares -->
 
 ### DDA
-DDA was invented in the early 1990s, and it enabled collecting MS/MS spectra for peptides "on the fly" as soon as they start eluting from the column [@DOI:10.1006/meth.1994.1031; @DOI:10.1021/ac00104a020; @DOI:10.1016/1044-0305(96)00057-8]. 
-This was important because in most cases the peptide masses that will be observed are not known before doing the experiment. 
-Most commonly in modern proteomics, the DDA algorithm is simple. 
+
+DDA was invented in the early 1990s, and it enabled collecting MS/MS spectra for peptides "on the fly" as soon as they start eluting from the column [@DOI:10.1006/meth.1994.1031; @DOI:10.1021/ac00104a020; @PMID:24203425]. 
+This method is important because, in most cases, the peptide masses that will be observed are not known before doing the experiment. 
+
+
+#### Untargeted DDA
+A common method currently used in modern proteomics is untargeted DDA. 
 The MS collects precursor (MS1) scans iteratively until precursor mass envelopes meeting certain criteria are detected. 
 Criteria for selection are usually specific charge states and a minimum signal intensity.
 When those ions meet these criteria, the MS selects those masses for fragmentation.
-For details about how fragmentation happens, see the section on MS/MS.
 
 Because ions are selected as they are observed, repeated DDA of the same sample will produce a different set of identifications. 
 This stochasticity is the main drawback of DDA. 
@@ -630,34 +638,99 @@ More recent work has introducted statistical assessment of MBR methods using a t
 Statistically controlled MBR is currently available in the IonQuant tool [@DOI:10.1016/j.mcpro.2021.100077].
 
 #### Targeted DDA
-Targeted DDA is no longer common in modern proteomics. 
+Targeted DDA is not common in modern proteomics. 
 In targeted DDA, in addition to general criteria like a minimum intensity and a certain charge state, the mass spectrometer looks for specific masses.
 These masses might be previously observed signals that were previously missed by MS/MS [@DOI:10.1021/pr800828p; @DOI:10.1074/mcp.M700029-MCP200].
 In these studies, the sample is first analyzed by LC-MS to detect precursor ion features with some software, and then subsequent analyses target those masses for fragmentation with inclusion lists until they are all fragmeted. 
 This was shown to increase proteome converage. 
 
+<!-- Section on intelligent DDA and real time search? -->
 
-#### Untargeted DIA
-Untargeted DDA is still commonly used in 
+#### DDA methods for modifications
 
-mention this is stochastic
+There are also DDA methods that look for specific fragment or neutral loss ions in the resulting spectra. 
+For example, when linear ion traps were the main proteomics workhorses, CID analysis of phosphopeptides would result in predominantly neutral loss of the phosphate with limited sequence ion information. 
+To gain sequence ions in these experiemnts, instruments could be set to isolate a loss of 98 Thompsons for MS3 [@DOI:10.1073/pnas.0404720101; @DOI:10.1002/pmic.200800283].
+The newer collisional dissociation technique HCD significantly improves the detection of peptide fragments with the phosphorylation intact on fragment ions, and thus, this neutral loss scanning technique is no longer common. 
 
-Mention match between runs. 
+A similar strategy was introduced for N-linked glycopeptides [@DOI:10.1021/pr300257c]. 
+Collisional dissociation of glycosylated peptides produces oxonium ions at 204.09 (HexNAc) or 366.14 (HexHexNAc). 
+In oxonium ions from the glycosylation were detected in the top 20 fragments of the HCD spectra, then an ETD scan was triggered. 
+This ETD scan provides information about the peptide sequence, while the original HCD scan provides glycan structure information. 
 
 ### DIA
-Imagine the simplest method to operate a mass spectrometer is to have predefined scans that are collected for each analysis.
+The simplest method to operate a mass spectrometer is to have predefined scans that are collected for each sample analysis.
+This is DIA; the scans that are collected do not depend on the data that the instrument observes. 
+Thus, the scan sequence is the same every time. 
+Although simple in terms of data collection, when the scan sequence includes MS/MS, sophisticated software is required to analyze the data. 
+Like DDA, DIA can also be either targeted or untargeted [@DOI:10.1080/14789450.2017.1322904]:
+The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or SWATH (Figure 4).
+
+![**Types of DIA.**
+A) SRM/MRM. 
+Peptides are ionized by ESI and although there are many peptides entering the mass spectrometer at any time, the first quadruople (Q1) isolates one mass, which is then fragmented by HCD. 
+Fragment masses from the peptide are then selected in the third quadruople (Q3). 
+This leads to very low noise and high sensitivity.
+B) PRM. 
+Like MRM, peptides are selected in the first quadruople, but this analysis is done on a high resolution instrument like an Orbitrap or TOF. 
+Selectivity is gained by exploiting the high mass accuracy and resolution to monitor multiple fragment ions. 
+C) uDIA/SWATH. 
+Like MRM and PRM, peptides are isolated with Q1, but in this case a much wider isolation window is used. 
+This usually results in co-isolation of many peptides simultaneously. 
+Fragments from many peptides are measured with high resolution and high mass accuracy.
+Special software is used to get peptide identities and quantities from the fragment ions. 
+](images/data-acquisition-DIA-types.svg){#fig:DIA-types tag="4" width="100%"}
 
 #### Targeted DIA
+The first type of targeted DIA is called SRM or MRM [@DOI:10.1016/j.ymeth.2013.05.004].
+The popularity of this method in the literature peaked in 2014, with just under 1,500 documents on pubmed that year resulting from a search for "MRM".
+In this strategy, the QQQ MS is set so that the first quadrupole selects the precursor mass of the peptide(s) of interest, the second quadrupole fragments the peptide, and the third quadruople monitors the product of specific fragments from that peptide. 
+This strategy is very sensitive and has the benefit of very low noise. 
+The fragments monitored in Q3 are chosen such that it is unlikely these fragments could arise from another peptide. 
+Usually at least a few transitions are monitored for each peptide in order to get multiple measures for that peptide. 
+
+An early example of MRM applied to quantify c-reactive protein was in 2004 [@DOI:10.1002/pmic.200300670].
+Around the same time, SRM was combined with antibody enrichment of peptides from target proteins [@DOI:10.1021/pr034086h].
+This approach was popular for analysis of plasma proteins [@DOI:10.1074/mcp.M500331-MCP200].
+These early examples led to many more studies that used QQQ MS instruments to get accurate quantitation of many proteins in one injection [@DOI:10.1016/j.aca.2017.01.059; @DOI:10.1586/erm.12.32]. 
+Scheduling MRM measurement when chromatography is stable additionally enabled better utilization of instrument duty cycle and therefore monitoring of more peptides per injection [@DOI:10.1074/mcp.M700132-MCP200].
+Efforts even developed libraries of transitions that allow quantification of any protein in model organisms [@DOI:10.1038/nmeth1108-913].
+
+Another similar targeted DIA method is called parallel reaction monitoring (PRM) [@DOI:10.1074/mcp.O112.020131].
+Instead of using a QQQ instrument, PRM uses a hybrid MS with a quadrupole and a high resolution mass analyzer, such as an Q-TOF or Q-Exactive. 
+The idea is that instead of monitoring specific fragments in Q3, the high mass accuracy can be used to filter peptide fragments for high selectivity and accurate quantification. 
+Studies have found that PRM and MRM/SRM have comparable dynamic range and linearity [@DOI:10.1016/j.jprot.2014.10.017].
+
 
 #### Untargeted DIA
 
+There were many implementations of uDIA over the years, starting in 2003 by Purvine et al from the Goodlett lab [@DOI:10.1002/pmic.200300362]. 
+In this first work they demonstrated uDIA using a Q-TOF with in source fragmentation, and showed that extracted ion chromatograms of precursor and fragment ions matched in shape suggesting that this could be used to identify and quantify peptides. 
+The following year, Venable et al from the Yates lab introduced uDIA with an ion trap [@DOI:10.1038/nmeth705].
+Subsequent methods include MSE [@DOI:10.1002/rcm.2550], PAcIFIC [@DOI:10.1021/ac900888s], all ions fragmentation (AIF) [@DOI:10.1074/mcp.M110.001537].
+Computational methods were also developed to automate interpretation of this data, such as DeMux [@DOI:10.1074/mcp.M110.001537], XDIA [@DOI:10.1093/bioinformatics/btq031], and ETISEQ [@DOI:10.1186/1471-2105-10-244].
 
-New data collection strategies are worthless without computational methods to extract proteomic information. 
+The paper that is often cited for uDIA that led to widespread adoption was by Gillet et al. from the Aebersold group in 2012 [@DOI:10.1074/mcp.O111.016717].
+In this paper they branded the idea as SWATH.
+Widespread adoption may have been facilitated by the co-marketing of this idea by ABSciex as a proteomics solution on their new 5600 Q-TOF (called "tripleTOF" despite containing only one TOF, likely a portmanteau of "triple quadrupole" and "Q-TOF"). 
+Importantly, in the Gillet et al. paper the authors described a computational method to extract information from SWATH where peptides of interest were queried against the data.
+They also demonstrated the application of SWATH to measure proteomic changes that happen in diauxic shift, and showed that SWATH can reveal modified peptides, in this case a methionine oxidation. 
 
-<--! do we have a section about how fragmentation happens in MS/MS? 
-Mass selection happens using the first quadrupole to isolate a small mass range around that mass (usually less than 1 thompson).
-The selected ions then pass to the collision cell containing an inert gas, which collides with...
--->
+There are also many papers describing uDIA with orbitraps.
+One early example described combining random isolation windows together and then demultiplexing the chimeric spectra [@DOI:10.1038/nmeth.2528].
+In another landmark paper, over 6,000 proteins were identified from mouse tissue by at least 2 peptides [@DOI:10.1074/mcp.RA117.000314]. 
+In 2018, the new model orbitrap at that time (HF-X) enabled identification of nearly 6,000 human proteins in only 30 minutes (although the HF-X was problematic due to a need for frequent cleaning). 
+Currently orbitraps have all but replaced the Sciex Q-TOFs for DIA data collection. 
+
+A new direction in uDIA is the addition of ion separation by ion mobility. 
+This has appeared in two forms.
+On the timsTOF, diaPASEF makes use of the trapped ion mobility to increase speed and sensitivity of analysis [@DOI:10.1038/s41592-020-00998-0].
+On the orbitrap, the combination of FAIMS and DIA has enabled the identification of over 10,000 proteins from one sample, which is a major milestone [@DOI:10.1021/acs.jproteome.2c00023].
+
+
+
+
+
 
 
 ## Analysis of Raw Data {.page_break_before}
