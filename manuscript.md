@@ -5,16 +5,16 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-01'
+date-meta: '2022-09-13'
 author-meta:
-- Dina Schuster
-- Muralidharan Vanuopadath
-- Emma H. Doud
-- Devasahayam Arokia Balaya Rex
-- Amit Kumar Yadav
 - Benjamin A. Neely
+- Devasahayam Arokia Balaya Rex
 - Jesse G. Meyer
 - Martín L. Mayta
+- Amit Kumar Yadav
+- Emma H. Doud
+- Dina Schuster
+- Muralidharan Vanuopadath
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,14 +25,39 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-09-01" />
-  <meta name="citation_publication_date" content="2022-09-01" />
+  <meta name="dc.date" content="2022-09-13" />
+  <meta name="citation_publication_date" content="2022-09-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Emma H. Doud" />
+  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
+  <meta name="twitter:creator" content="@fireinlab" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
@@ -43,40 +68,15 @@ header-includes: |-
   <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
   <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
   <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Emma H. Doud" />
-  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
-  <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f53a2ecb8964344bad726bdce9796151d64c82ca/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f53a2ecb8964344bad726bdce9796151d64c82ca/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f53a2ecb8964344bad726bdce9796151d64c82ca/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f39137275f6cfc165e92921825345f4b365db315/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f39137275f6cfc165e92921825345f4b365db315/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f39137275f6cfc165e92921825345f4b365db315/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,71 +98,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/f53a2ecb8964344bad726bdce9796151d64c82ca/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/f39137275f6cfc165e92921825345f4b365db315/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@f53a2ec](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/f53a2ecb8964344bad726bdce9796151d64c82ca)
-on September 1, 2022.
+from [jessegmeyerlab/proteomics-tutorial@f391372](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/f39137275f6cfc165e92921825345f4b365db315)
+on September 13, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Dina Schuster**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
-+ **Muralidharan Vanuopadath**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
-  <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
-  </small>
-
-+ **Emma H. Doud**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [edoud1](https://github.com/edoud1)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [fireinlab](https://twitter.com/fireinlab)<br>
-  <small>
-     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)<br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Amit Kumar Yadav**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)<br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
-  </small>
 
 + **Benjamin A. Neely**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -174,6 +118,17 @@ on September 1, 2022.
   <small>
      Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
      · Funded by NIST
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)<br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 + **Jesse G. Meyer**<br>
@@ -197,6 +152,51 @@ on September 1, 2022.
     [MartinMayta2](https://twitter.com/MartinMayta2)<br>
   <small>
      School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+  </small>
+
++ **Amit Kumar Yadav**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)<br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+  </small>
+
++ **Emma H. Doud**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [edoud1](https://github.com/edoud1)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [fireinlab](https://twitter.com/fireinlab)<br>
+  <small>
+     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
+  </small>
+
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Muralidharan Vanuopadath**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
+  <small>
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
 
@@ -250,20 +250,101 @@ Changes in proteins across conditions are determined with statistical tests, and
 There are many variations on this workflow. The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners.
 
 
-1. Types of experiments enabled by proteomics
-2. Protein extraction
-3. proteolysis
-4. Isotopic Labeling
-5. Enrichments
-6. Peptide purification
-7. Mass Spectrometry
-8. Peptide Ionization
-9. Data Acquisition
-10. Basic Data Analysis
-11. Biological Interpretation
-12. Experimental considerations and design
+
+1. Biochemistry basics
+2. Types of experiments enabled by proteomics
+3. Protein extraction
+4. proteolysis
+5. Isotopic Labeling
+6. Enrichments
+7. Peptide purification
+8. Mass Spectrometry
+9. Peptide Ionization
+10. Data Acquisition
+11. Basic Data Analysis
+12. Biological Interpretation
+14. Sample Fractionation
+15. Tandem MS
+16. Experimental considerations and design
 
 
+
+## Biochemistry Basics {.page_break_before}
+
+### Proteins
+
+Proteins are large biomolecules or biopolymers made up of amino acids which are linked by peptide bonds. 
+They perform various functions in living organisms ranging from having structural roles to functional involvement in cellular signaling and the catalysis of chemical reactions (enzymes). 
+Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
+The human genome encodes more than 20,000 different proteins.
+Each protein is present at a different abundances.
+Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell and that their distribution is tissue-specific[@DOI:10.1038/msb.2011.82][@DOI:10.1016/j.cell.2020.08.036].
+Due to genetic variations, as well as alternative splicing and post-translational modifications, multiple different proteoforms can be produced from one single gene[@DOI:10.1038/nmeth.2369].
+
+#### PTMs
+
+Proteins can be post-translationally modified through enzymatic and non-enzymatic reactions _in vivo_ and _in vitro_ [@doi:10.1093/database/baab012]. 
+Post-translational modifications (PTMs) can be reversible or non-reversible covalent modifications of amino acids.
+The most commonly studied and biologically relevant post-translational modifications include ubiquitinations (Lys, Cys, Ser, Thr, N-term), succinylations (Lys), methylations (Arg, Lys, His, Glu, Asn, Cys), disulfide bonds (Cys-Cys), oxidations (Met, Trp, His, Cys), phosphorylations (Ser, Thr, Tyr, His), acetylations (Lys, N-term), glycosylations (Arg, Asp, Cys, Ser, Thr, Tyr, Trp) and lipidations.
+Post-translational modification of a protein can alter its function, activity, structure, location and interactions. 
+Deregulation of PTMs is linked to cellular stress and diseases[@doi:10.1038/s41570-020-00223-8].
+
+#### Protein Structure
+
+Almost all proteins (except for intrinsically disordered proteins[@doi:10.1146/annurev-biochem-072711-164947]) fold into 3D structures either by themselves or assisted through chaperones[@doi:10.1007/s12013-021-00970-5]. 
+There are four levels relevant to the folding of any protein: 
+
+- Primary structure: 
+The protein's linear amino acid sequence, with amino acids connected through peptide bonds.
+
+- Secondary structure: 
+The amino acid chain's folding: α-helix, β-sheet or turn.
+
+- Tertiary structure: 
+The three-dimensional structure of the protein. 
+
+- Quarternary structure: 
+The structure of several protein molecules/subunits in one complex.
+
+#### Biochemical and biophysical techniques for studying complex protein mixtures
+
+##### Concentration/total protein amount determination
+
+- UV-Vis Spectrophotometry (Bradford assay, BCA assay, Lowry, Folin)
+
+##### **Electrophoresis**
+
+- SDS-PAGE (sodium dodecyl sulfate-polyacrylamide gel electrophoresis)
+- 2D-PAGE
+- Isoelectric focussing (IEF)
+- Western blotting
+
+#### Biochemical and biophysical analytical techniques for studying purified proteins
+
+##### **Concentration determination**
+
+- UV-Vis Spectrophotometry
+
+##### **Protein size and aggregation**
+
+- Dynamic light scattering (DLS)
+- Size-exclusion chromatography (SEC) or size-exclusion with multi angle laser light scattering (SEC-MALLS)
+- SDS-PAGE
+- Mass photometry
+
+##### **Structural techniques**
+
+- Circular dichroism (CD) spectropolarimetry
+- X-ray crystallography
+- Protein nuclear magnetic resonance spectroscopy (NMR)
+- (cryo-)Electron microscopy (EM)
+
+##### **Interactions and binding kinetics**
+
+- Surface plasmon resonance (SPR)
+- Isothermal titration calorimetry (ITC)
+
+### Buffers
 
 
 ## Types of Experiments {.page_break_before}
@@ -918,10 +999,10 @@ In case you are analyzing different conditions, you can perform hierarchical clu
 ##### Search result QC
 
 |    Name    |       Website/Download/publication        |              publication        |              Note           |
-|:----------:|:-----------------------------------------:|:-------------------------------:|----------------------------:|
+|:----------:|:-----------------------------------------:|:-------------------------------:|:----------------------------:|
 | MSStats |[MSStats](https://github.com/Vitek-Lab/MSstats) |  [@DOI:10.1093/bioinformatics/btu305]|   can use output from MaxQuant, Proteome Discoverer, Skyline, Progenesis, Spectronaut |
 | MSStatsQC |[MSStatsQC](https://msstats.org/msstatsqc/)   |  [@DOI:10.1074/mcp.M116.064774]    |               |
-| PTXQC |PTXQC](https://github.com/cbielow/PTXQC) |[@DOI:10.1021/acs.jproteome.5b00780] | requires MaxQuant search engine output | 
+| PTXQC |[PTXQC](https://github.com/cbielow/PTXQC) |[@DOI:10.1021/acs.jproteome.5b00780] | requires MaxQuant search engine output | 
 | protti | [protti](https://github.com/jpquast/protti) | [@DOI:10.1093/bioadv/vbab041]      |                   |
 
 <!-- todo: this table is probably very incomplete. Add more tools -->
