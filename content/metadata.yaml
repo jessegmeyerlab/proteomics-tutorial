@@ -1,12 +1,13 @@
 ---
+
 title: "A Practical Beginner's Guide to Proteomics"
+date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-
 
   - github: neely 
     name: Benjamin A. Neely
@@ -102,4 +103,3 @@ authors:
 
 # use this to randomize authors
 manubot-randomize-author-order: true
-
