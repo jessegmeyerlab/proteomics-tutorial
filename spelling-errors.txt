@@ -15,7 +15,7 @@ aliphatic
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaPept
 aminooxy
 aminoxy
@@ -42,7 +42,7 @@ benzonase
 bicinchoninic
 biocuration
 Biognosys
-BioID
+bioID
 biomarker
 biomarkers
 Biomedicine
@@ -82,7 +82,7 @@ chelators
 chloroacetamide
 chromatogram
 chromatograms
-chromatographic
+Chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -94,7 +94,7 @@ Clostripain
 coIP
 coli
 Collisional
-Colorimetric
+colorimetric
 Colorimetry
 Combinatorial
 complexed
@@ -154,7 +154,7 @@ ECD
 edoud
 EDTA
 electrophoresis
-Electrospray
+electrospray
 elegans
 elute
 eluted
@@ -197,7 +197,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 fragi
 fragmeted
@@ -215,7 +215,7 @@ Glu
 glucopyranoside
 glutamate
 Glutamyl
-glycan
+Glycan
 glycans
 glycine
 glyco
@@ -224,7 +224,7 @@ glycopeptides
 Glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 Goodlett
 GPMDB
@@ -269,13 +269,13 @@ Inlcuding
 interferences
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-Isoelectric
+isoelectric
 isoform
 isoforms
 isoleucine
@@ -371,7 +371,7 @@ nanofibers
 nanomaterials
 NanoOrange
 NCBI
-neely
+Neely
 NHS
 NIST
 NMR
@@ -398,7 +398,7 @@ phenylalanine
 phosphatase
 phosphine
 phosphopeptides
-Phosphoproteomics
+phosphoproteomics
 phosphorylations
 phosphotases
 photometry
@@ -413,7 +413,7 @@ practioners
 Pre
 PRM
 Progenesis
-prot
+Prot
 protease
 proteases
 Proteinase
@@ -527,10 +527,10 @@ TMTs
 TOF
 TOFs
 TPP
-translational
+Translational
 translationally
 transmembrane
-trembl
+TrEMBL
 triazine
 Tribrid
 trichloroacetic
@@ -539,7 +539,7 @@ trifluoroethanol
 TripleTOF
 tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
