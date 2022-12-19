@@ -83,7 +83,7 @@ chloroacetamide
 chromatogram
 chromatograms
 Chromatographic
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -95,7 +95,7 @@ coIP
 coli
 Collisional
 colorimetric
-Colorimetry
+colorimetry
 Combinatorial
 complexed
 converage
@@ -105,7 +105,7 @@ covalently
 CRAPome
 cRFP
 crosslinked
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -127,7 +127,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 determinining
 deubiquitinase
 deuteron
@@ -139,7 +139,7 @@ diauxic
 dichroism
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
 disulfide
@@ -172,7 +172,7 @@ ERLIC
 ESI
 ETH
 ETISEQ
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 exosomes
@@ -197,7 +197,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 fragi
 fragmeted
@@ -215,7 +215,7 @@ Glu
 glucopyranoside
 glutamate
 Glutamyl
-Glycan
+glycan
 glycans
 glycine
 glyco
@@ -269,7 +269,7 @@ Inlcuding
 interferences
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -451,7 +451,7 @@ rawDiag
 RawMeat
 rawrr
 refered
-RefSeq
+refseq
 reproducibility
 resolubilization
 resuspending
@@ -527,7 +527,7 @@ TMTs
 TOF
 TOFs
 TPP
-Translational
+translational
 translationally
 transmembrane
 TrEMBL
@@ -536,10 +536,10 @@ Tribrid
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 tris
 Tritirachium
-Trp
+TRP
 trypsin
 tryptic
 TryTrypDB
