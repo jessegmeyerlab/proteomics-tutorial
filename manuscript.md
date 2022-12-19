@@ -5,16 +5,16 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-01'
+date-meta: '2022-12-19'
 author-meta:
-- Dina Schuster
-- Devasahayam Arokia Balaya Rex
-- Martín L. Mayta
-- Muralidharan Vanuopadath
 - Emma H. Doud
-- Benjamin A. Neely
 - Amit Kumar Yadav
+- Muralidharan Vanuopadath
+- Devasahayam Arokia Balaya Rex
 - Jesse G. Meyer
+- Martín L. Mayta
+- Benjamin A. Neely
+- Dina Schuster
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,58 +25,58 @@ header-includes: |-
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-11-01" />
-  <meta name="citation_publication_date" content="2022-11-01" />
+  <meta name="dc.date" content="2022-12-19" />
+  <meta name="citation_publication_date" content="2022-12-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Emma H. Doud" />
+  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
+  <meta name="twitter:creator" content="@fireinlab" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Emma H. Doud" />
-  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
-  <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7754ebba816f1413bfa9cfedd3248db22348ec6b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7754ebba816f1413bfa9cfedd3248db22348ec6b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7754ebba816f1413bfa9cfedd3248db22348ec6b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d776f9ac796c12be92df6b36e1febb6519489361/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d776f9ac796c12be92df6b36e1febb6519489361/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d776f9ac796c12be92df6b36e1febb6519489361/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,59 +98,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7754ebba816f1413bfa9cfedd3248db22348ec6b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d776f9ac796c12be92df6b36e1febb6519489361/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@7754ebb](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7754ebba816f1413bfa9cfedd3248db22348ec6b)
-on November 1, 2022.
+from [jessegmeyerlab/proteomics-tutorial@d776f9a](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d776f9ac796c12be92df6b36e1febb6519489361)
+on December 19, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Dina Schuster**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)<br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)<br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Martín L. Mayta**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)<br>
-  <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Muralidharan Vanuopadath**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
-  <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
-  </small>
 
 + **Emma H. Doud**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -161,18 +117,6 @@ on November 1, 2022.
     [fireinlab](https://twitter.com/fireinlab)<br>
   <small>
      Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
-  </small>
-
-+ **Benjamin A. Neely**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)<br>
-  <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
   </small>
 
 + **Amit Kumar Yadav**<br>
@@ -187,6 +131,28 @@ on November 1, 2022.
      · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
++ **Muralidharan Vanuopadath**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)<br>
+  <small>
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)<br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
 + **Jesse G. Meyer**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
@@ -197,6 +163,40 @@ on November 1, 2022.
   <small>
      Department of Computational Biomedicine, Cedars Sinai Medical Center
      · Funded by Grant R21 AG074234; Grant R35 GM142502
+  </small>
+
++ **Martín L. Mayta**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [martinmayta](https://github.com/martinmayta)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [MartinMayta2](https://twitter.com/MartinMayta2)<br>
+  <small>
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+  </small>
+
++ **Benjamin A. Neely**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [neely](https://github.com/neely)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [neely615](https://twitter.com/neely615)<br>
+  <small>
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
+  </small>
+
++ **Dina Schuster**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)<br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
 
@@ -459,6 +459,39 @@ Often proteolysis-compatible concentrations of these detergents and chaotropes a
 DOC can then be easily removed by precipitation or phase separation [@PMID:18183947] following digestion by acidification of the sample to pH 2-3.   
 Any small-molecule removal protocol should be tested for efficiency prior to implementing in a workflow with many samples as avoiding detergent (or polymer) contamination in the LC/MS is very important. 
 
+### Protein quantification
+After proteins are isolated from the sample matrix, they are often quantified.
+Protein quantification is important to assess the yeild of an extraction procedure, and to adjust the scale of the downstream processing steps to match the amount of protein. 
+For example, when purifying peptides, the amount of sorbent should match the amount of material to be bound. 
+Presently, there is a wide variety of techniques to quantitate the amount of protein present in a given sample. 
+These methods can be broadly divided into three types as follows:
+
+#### Colorimetry-based methods: 
+The method includes different assays like Coomassie Blue G-250 dye binding (the Bradford assay), the Folin-Lowry assay, the bicinchoninic acid (BCA) assay and the biuret assay [@PMID:10075906]. 
+The most commonly used method is the BCA assay. 
+In the BCA method the peptide bonds of the protein reduce cupric ions [Cu2+] to cuprous ions [Cu+] at a rate which is proportional to the amount of protein present in the sample. 
+Subsequently, the BCA reagent binds to the cuprous ions, leading to the formation of a complex which absorbs 562 nm wavelength light.
+This permits a direct correlation between sample protein concentration and absorbance [@PMID:3843705; @PMID:7951748]. 
+The Bradford assay is another method for protein quantification also based on colorimetry principle. 
+It relies on the interaction between the Coomassie brilliant blue dye and the protein based on hydrophobic and electrostatic interactions. Dye binding shifts the absorption maxima from 470 nm to 595 nm [@PMID:942051, @PMID:32238597]. 
+Similarly, the Folin- Lowry method is a two-step colorimetric assay. 
+Step one is the biuret reaction wherein complexes of copper with the nitrogen in the protein molecule are formed. 
+In the second step, the complexed tyrosine and tryptophan amino acids react with Folin–Ciocalteu phenol reagent generating an intense, blue-green color absorbing light at 650–750 nm [@PMID:6744121]. 
+
+Another simple but less reliable protein quantification method of UV-Vis Absorbance at 280 nm estimates the protein concentration by measuring the absorption of the aromatic residues; tyrosine, and tryptophan, at 280 nm [@PMID:34533299].
+
+#### Fluorescence-based methods:
+Colorimetric assays are inexpensive and require common lab equipment, but colorimetric detection is less sensitive than fluorescence. 
+Protein in proteomic samples can be quantified using intrinsic fluorescence of tryptophan based on the assumption that approximately 1% of all amino acids in the proteome are tryptophan [@PMID:25837572]. 
+
+NanoOrange is an assay for the quantitative measurement of proteins in solution using the NanoOrange reagent, a merocyanine dye that produces a large increase in fluorescence quantum yield when it interacts with detergent-coated proteins. 
+Fluorescence is measured using 485-nm excitation and 590-nm emission wavelengths. 
+The NanoOrange assay can be performed using fluorescence microplate readers, fluorometers, and laser scanners that are standard in the laboratory [@PMID:12703310].
+
+3-(4-carboxybenzoyl)quinoline-2-carboxaldehyde (CBQCA) is a sensitive fluorogenic reagent for amine detection, which can be used for analyzing proteins in solution. 
+As the number of accessible amines in a protein is modulated by its concentration, CBQCA has a greater sensitivity and dynamic range when measuring protein concentration [@PMID:9025944].
+
+
 ### Summary 
 Often you will be given protein extraction conditions from molecular biologists or biochemistry which you will have to make work with downstream mass spectrometry applications. 
 For bottom-up proteomics, the overreaching goal is efficient and consistent extraction and digestion. 
@@ -560,13 +593,92 @@ Therefore, this will allow more protein isoforms and post-translational modifica
 
 
 ## Peptide Quantification {.page_break_before}
-
+<!-- todo: change the label of this file eventually to peptide quant instead of peptide labeling
+ -->
 Discussion of methods to isotopically label peptides or proteins that enable quantification
 
 1. SILAC/SILAM
-2. iTRAQ
-3. TMT
-4. dimethyl labeling
+2. dimethyl labeling
+3. Isobaric tags
+
+### Peptide labeling with isobaric tags
+The isobaric tag labeling-based quantitation uses derivatization of every peptide sample with a different isotope from a set of isobaric mass tags. 
+This is followed by pooling the labelled samples, which undergo MS analysis simultaneously. 
+As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor m/z value in an MS1 scan and identical retention time of liquid chromatography analysis. 
+The modified parent ions undergo fragmentation during MS/MS analysis generating two kinds of fragment ions: (a) reporter ions and (b) peptide fragment ions. 
+The reporter ions’ relative intensity is directly proportional to the amount of peptide in each of the starting samples that were mixed. 
+The fragment ion peaks with higher m/z values correspond to amino acid sequences of peptides and are used for identifying peptides, from which proteins can be inferred. 
+Since it is possible to label most tryptic peptide with an isobaric mass tag at least at the n-termini, numerous peptides from the same protein can be detected, thus leading to an increase in the confidence in both protein identification and quantification [@PMID:25337643]. 
+All isobaric tags have a common structural theme consisting of 1) an amine-reactive groups (usually triazine ester or N-hydroxysuccinimide [NHS] esters) which react with peptide N-termini and ε-amino group of the lysine side chain of peptides, 2) a balancer group, and 3) a reporter ion group.  
+
+Because the size of the reporter ions is small and sometimes the mass difference between reporter ions is small, these methods are mostly used with high-resolution mass measurement, not with classical ion traps [@PMID:26584918]. 
+There are examples, however, of using isobaric tags with pulsed q dissociation on linear ion traps (LTQs) [@PMID:22397766]. 
+Suitable instruments are the Thermo Q-Exactive, Exploris lines, and Tribrid lines, or TOFs such as the TripleTOF or timsTOFs [@DOI:10.1038/s41467-022-34919-w; @PMID:30967486]. 
+
+<!-- todo: put the isobaric tagging figure Rex made here and refer to it -->
+
+The following are some of the isobaric labeling techniques:
+
+#### isobaric Tags for Relative and Absolute Quantitation (iTRAQ)
+The iTRAQ tagging method covalently labels the peptide N-terminus and side-chain primary amines with tags of different masses through the NHS-ester bond. 
+This is followed by mass spectrometry analysis [@PMID:15385600]. 
+Reporter ions for an 8plex iTRAQ are measured at roughly 113, 114, 115, 116, 117, 118, 119, and 121 Thompsons. 
+At the moment, two kinds of iTRAQ reagents are available: 4-plex and 8-plex. 
+Using 4-plex reagents, a maximum of four different biological conditions can be analyzed simultaneously, whereas using 8plex reagents, eight different biological conditions can be analysed [@PMID:20593797; @PMID:22594965].
+
+#### iTRAQ hydrazide (iTRAQH)
+iTRAQH is an isobaric tagging reagent for the selective labeling and relative quantification of carbonyl (CO) groups in proteins [@PMID:22926130]. 
+The reactive CO and oxygen groups which are generated as the byproducts of oxidation of lipids at the time of oxidative stress causes protein carbonylation [@PMID:15775985]. 
+iTRAQH is produced from iTRAQ and surplus of hydrazine. 
+This reagent reacts with peptides which are carbonylated, thus forming a hydrazone group. 
+iTRAQH is a novel method for analyzing carbonylation sites in proteins utilizing an isobaric tag for absolute and relative quantitation iTRAQ derivative, iTRAQH, and the analytical power of linear ion trap instruments (QqLIT). 
+This new strategy seems to be well suited for quantifying carbonylation at large scales because it avoids time-consuming enrichment procedures [@PMID:22926130]. 
+Thus, there is no need for enriching modified peptides before LC-MS/MS analysis.
+
+#### Tandem Mass Tag (TMT)
+TMT labeling is based on a similar principle as that of iTRAQ. 
+In the case of 6-plex-TMT, the masses of reporter groups are roughly 126, 127, 128, 129, 130, and 131 Thompsons [@PMID:26584918]. 
+TMT works best with MS which allow quantitation at MS3-level with higher accuracy (e.g.: Thermo’s Fusion Orbitrap instruments) [@PMID:25337643] and its eliminates ratio distortion in isobaric multiplexed quantitative proteomics [@PMID:21963607]. 
+The TMT is widely used for quantitative protein biomarker discovery. 
+In addition, TMT labeling technique helps multiplex sample analysis enabling efficient use of instrument time. 
+TMT labelling also controls for technical variation because after samples are mixed the ratios are locked in, and any sample loss would be equal across channels. 
+A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT six plex, TMT 10-plex, and TMT 11-plex are available along with the recent addition of TMT 16-plex and now even TMT 18-plex [@DOI:10.1021/acs.jproteome.1c00168]. 
+These TMT reagents have a similar chemical structure, which allows the efficient transition from method development to multiplex quantification [@PMID:30967486].
+
+#### iodoTMT
+IodoTMT reagents are isobaric reagents used for tagging cysteine residues of peptides. 
+The commercially available IodoTMT reagents are iodoTMTzero and iodoTMT 6-plex [@PMID:24152285; @PMID:24926564].
+
+#### aminoxyTMT Isobaric Mass Tags
+Also referred to as glyco-TMTs, these reagents have chemistry similar to iTRAQH. 
+The stable isotope-labeled glyco-TMTs are utilized for quantitating N-linked glycans. 
+They are derived from the original TMT reagents with an addition of carbonyl-reactive groups, which involve either hydrazide or aminoxy chemistry as functional groups. 
+These aminooxy TMTs show a better performance as compared to its iTRAQH counterparts in terms of efficiency of labeling and quantification. 
+The glyco-TMT compounds consist of stable isotopes thus enabling (i) isobaric quantification using MS/MS spectra and (ii) quantification in MS1 spectra using heavy/light pairs. 
+Aminoxy TMT6-128 and TMT6-131 along with the hydrazide TMT2-126 and TMT2-127 reagents can be used for isobaric quantification. 
+In the quantification at MS1 level, the light TMT0 and the heavy TMT6 reagents have a difference in mass of 5.0105 Da which is sufficient to separate the isotopic patterns of all common N-glycans. 
+Glycan quantification based on glyco-TMTs generates more accurate quantification in MS1 spectra over a broad dynamic range. 
+Intact proteins or their digests obtained from biological samples are treated with PNGase F/A glycosidases to release the N-linked glycans during the process of labeling using aminoxyTMT reagents. 
+The free glycans are then purified and labeled with the aminoxyTMT reagent at the reducing end. 
+The labeled glycans from individual samples are subsequently pooled and then undergo analysis in MS for identification of glycoforms in the sample and quantification of relative abundance of reporter ions at MS/MS level [@PMID:22455665].
+
+#### N,N-Dimethyl leucine (DiLeu)
+The N,N-Dimethyl leucine, also referred to as DiLeu, is an tandem mass tag reagent which is isobaric and has reporter ions of isotope-encoded dimethylated leucine [@PMID:20218596]. 
+Each incorporated label produces a 145.1 Da mass shift. 
+A maximum of four samples can be simultaneously analyzed using DiLeu at a highly reduced cost. 
+MS/MS analysis shows intense reporter ions i.e., dimethylated leucine a1 ions at 115, 116, 117, and 118 m/z. 
+The DiLeu tag labeling efficiency is similar to that of the iTRAQ. 
+Although, DiLeu-labeled peptides offer increased confidence for identification of peptides and more reliable quantification as they undergo better fragmentation thus generating higher reporter ion intensities [@PMID:20218596].
+
+#### Deuterium isobaric Amine Reactive Tag (DiART)
+DiART is an isobaric tagging method used in quantitative proteomics [@PMID:22404494; @PMID:20715779]. 
+The reporter group in DiART tags is a N,N′-dimethyl leucine reporter group with a mass to charge range of 114–119. DiART reagents can a label a maximum of six samples and further analyzed by MS. 
+The isotope purity of DiART reagents is very high hence correction of isotopic impurities is not needed at the time of data analysis [@PMID:20019052]. 
+The performances of DiART including the mechanism of fragmentation, the number of proteins identified and the quantification accuracy are similar to iTRAQ. 
+Irrespective of the sequence of the peptide, reporter ions of high-intensity are produced by DiART tags in comparison to those with iTRAQ and thus, DiART labeling can be used to quantify more peptides as well as those with lower abundance, and with reliable results [@PMID:22404494]. 
+DiART serves as a cheaper alternative to TMT and iTRAQ while also having a comparable labeling efficiency. 
+It has been observed that these tags are useful in labeling huge protein quantities from cell lysates before TiO2 enrichment in quantitative phosphoproteomics studies [@PMID:24129742].
+
 
 <!-- todo: not sure if this is the best place for this figure about quantification strategies, do we need a whole section on quant? -->
 
@@ -602,15 +714,128 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 * Glycosylation
 * SISCAPA
 
+### Abundant protein depletion (Blood samples)
+The range abundances of proteins in the blood/plasma proteome exceeds 10 orders of magnitude. 
+Due to this wide dynamic range, detection of proteins with medium and low abundance by proteomic analyses is difficult [@PMID:20677825]. 
+Identifying protein biomarkers from biological samples such as blood is often obstructed by proteins present at higher concentrations. 
+The removal of these high abundant proteins enables the detection of less abundant and unique proteins. 
+The ability to deplete abundant proteins with specificity, reproducibility, and selectivity is extremely important in proteomic studies [@PMID:16052628].
+
+The following are some of the methods used for abundant protein depletion:
+
+#### Dye-ligand depletion: 
+This method is used for the depletion of serum albumin based on the interaction between albumin and dyes like Cibacron Blue (CB) through electrostatic force, hydrogen bonding and hydrophobic interactions. 
+The method is relatively low cost, widely available, robust and has high binding capacity. 
+However, it lacks specificity and has varying efficiency [@PMID:11694290; @PMID:24168355].
+
+#### Protein-ligand depletion: 
+This method is used for depletion of immunoglobulins (Ig) based on the interaction between the Fragment crystallizable (Fc) region of these Igs [@PMID:2473373] and cell wall protein A, G or A/G of Staphylococcus aureus and Streptococcus spp [@PMID:2938951; @PMID:10805799]. 
+It is highly selective and has high yield and purity. 
+However, non-specific binding may occur due to co-absorption of other proteins [@PMID:31617391].
+
+#### Immunodepletion: 
+This method is used for depletion of proteins having high abundance in plasma or serum on the basis of the specific interaction of these proteins with their respective antibodies (antigen-antibody interaction) [@PMID:27896769]. 
+It has high specificity and commercial kits are also readily available, but it is expensive, has limited sample loading and can result in non-specific binding [@PMID:31617391].
+
+#### Combinatorial peptide ligand library: 
+This method is used for partial depletion of major proteins i.e., those with high abundance and for relative enrichment of lower and medium abundant proteins [@PMID:18451796]. 
+It is based on the interaction with an array of ligands which are essentially peptides of 6 amino acids in length. 
+It is also used for normalization of the global protein abundance [@PMID:25384740]. 
+However, the drawbacks include non-specific binding as well as loss of proteins due to incomplete elution or inefficient binding [@PMID:31617391].
+
+#### Precipitation: 
+This method of abundant protein depletion works by altering the solubility of proteins using a chemical reagent including inorganic salt solution [@PMID:21963274], organic solvents [@PMID:25083595], non-ionic polymer [@PMID:27832179] and reducing agents [@PMID:19454248]. 
+It is extremely simple and cost-effective. 
+However, it is less specific with a risk of protein loss, difficulty in protein resolubilization as well as time consuming [@PMID:31617391].
+
+#### New technologies: 
+Newer methods of highly abundant protein depletion are based on the interaction between polymers such as bacterial cellulose nanofibers [@PMID:30219335], cryogels [@PMID:30999704; @PMID:23668981] and nanomaterials [@DOI:10.1016/j.procbio.2010.07.007]. 
+These techniques are highly specific, relatively cheap, and very stable. 
+They can also be reused since they have larger binding capacity and less cross-reactivity [@PMID:31617391].
 
 
-## Methods for Peptide Purification {.page_break_before}
+
+## Peptide Purification and Fractionation {.page_break_before}
+
+### Peptide purification methods
+
+#### Solid phase extraction (SPE)
+Solid phase extraction (SPE) is a common MS-based proteomics technique employed in the sample preparation. 
+In this method, compound isolation is based on chemical and physical properties, which determines the distribution of compounds between a mobile phase (liquid) and a stationary phase (solid). 
+After the molecules bind, washing of the bound compounds is performed and then molecules are made to elute from the stationary phase after replacing the mobile phase with the elution buffer. 
+The material used for SPE is usually discarded after every sample and no gradient is applied for elution (single-step procedure of elution) [@PMID:14697044]. 
+Thus, using SPE only a specific analyte group gets separated, which depends on the stationary phase. 
+Hence, SPE is primarily used for sample clean-up and for reducing complexity of the sample. 
+For MS-based proteomic analysis, it is largely used to get rid of salts and other contaminants that might lead to ion suppression. 
+The major drawback of this technique is that with SPE only a small fraction of the sample is examined because not all compounds are captured, but only those with binding capabilities same as that of the sorbent. 
+The material for SPE is available in various types, including (micro-) columns, cartridges, plates, micropipette tips, and functionalized magnetic beads (MBs) [@PMID:20606758; @PMID:20099258]. 
+Reversed-phase is the most widely used material for SPE in proteomic studies for the proteins and peptide fractionation and rarely, ion-exchange material. 
+For the separation of glycosylated proteins and peptides, the preferred material is normal phase such as HILIC [@PMID:22665312; 20536156]. 
+SPE materials which are less commonly used are silica- or polystyrene-based ones [@PMID:17625912; 15317408]. 
+The other types of SPE methods are IEX, metal chelation, and affinity-based [@PMID:25692071].
+
+The basic idea behind the choice of binding and wash versus elution solutions for SPE is that that the binding and wash solutions should favor the interaction between the analytes of interest and the solid phase, whereas the elution solution should favor the interaction of the analyte with the liquid phase. 
+For example, with reversed phase SPE, the solid phase is C18 or some other hydrophic chemistry. 
+Binding of peptides to this solid phase is based on the hydrophobicity of peptides, mostly due to their peptide backbone, but also due to the presence of amino acid side chains like leucine and phenylalanine. 
+To encourage peptides to ‘like’ the stationary phase more than the liquid phase, the peptides are loaded in aqueous solution. 
+This will enable washing of the hydrophilic contaminants like salts, small polar buffer molecules, and polar denaturants like urea. 
+After washing the bound peptides, they can be eluted by switching the liquid phase to something hydrophobic, which allows the peptides to partition more into the liquid phase and elute from the solid phase. 
+
+#### Specific Types of peptide purification
 
 1. Reverse phase including tips and cartridges
 2. stage tips
 3. in stage tip (iST)
 4. SP2, SP3
 5. s traps
+
+
+### Peptide fractionation methods
+The number of peptides produced from proteolysis of the whole proteome is immense. 
+Thus, after peptides are cleaned from interferences, they are often fractionated into subsets to enable increased proteome coverage. 
+The characterization of the whole proteome is expected from higher order organisms, and with rising interest in post-translational modifications, an elaborate coverage of protein sequence is required. 
+There are different methods for peptide fractionation as follows:
+
+#### Ion-exchange chromatography (IEC)
+This method involves the separation based on contrasting electric charge [@PMID:27868236]. 
+In this approach, the mechanism of analyte retention is based on the principle of electrostatic attraction between the sample and the stationary phase functional groups (FGs), having opposite charges. 
+IEC is classified into two types: cation-exchange and anion-exchange chromatography. 
+In cation-exchange chromatography, at an acidic pH, the negatively charged functional groups such as sulfates are attracted to positively charged peptides, whereas, in anion-exchange chromatography, positively charged FGs such as quaternary ammoniums are attracted to peptides with negative charge at an alkaline pH. 
+These techniques are further classified into: strong (cation [SCX] and anion [SAX] exchange), and weak exchangers (cation [WCX] and anion [WAX] exchange), based on the type of FG attached [@PMID:35777803]. 
+These functional groups are most commonly supported in resins made up of silica and synthetic polymers, however, some inorganic materials are sometimes used [@PMID:27868236]. 
+In the IEC method, peptide elution is performed using a mobile phase with higher ionic strength, to ensure peptide partition into the liquid phase. SCX along with a salt gradient/plug is a routinely used proteomics technique. 
+In the SCX method, peptides are resolved according to their net charge, in which the peptide with the lowest positive charge is eluted first. 
+Increasing the salt concentration decreases the peptide retention time due to competition with the electrostatic interactions between the peptides and the solid phase. 
+However, SCX resolution is limited compared to reversed phase chromatography and will thus limit the suitability of this technique for complex mixtures [@PMID:15672457].
+
+#### Reversed-phase chromatography (RPLC)
+Reversed-phase chromatography is the most widely commonly used chromatographic technique which separates molecules in solution having neutral pH based on their hydrophobicity. 
+The separation occurs on the basis of the partition coefficient of analytes between the mobile phase and the hydrophobic stationary phase. 
+Highly polar peptides elute before the ones having less polarity because of the strong interaction with the hydrophobic functional groups forming a layer similar to a liquid around the silica resin [@PMID:20973639]. 
+RPLC has been widely used in separation of peptides because of its compatibility with gradient elution and aqueous samples and its retention mechanism, which modulates separation owing to changes in the properties like pH, additives and organic modifier [@PMID:20031138]. 
+Numerous factors influence the capacity of chromatographic peaks, such as temperature, column length, stationary phase, particle size, mobile-phase ion-pairing reagent, mobile-phase modifier and gradient slope[@PMID:16224963]. 
+Usually online RPLC is done at acidic pH to ensure peptide ionization, but it can be paired with offline high pH RPLC and multiple fraction concatenation to produce orthogonal separation due to altered ionization of amino acids changing peptide hydrophobicity [@PMID:22462785].
+
+#### Hydrophilic interaction liquid chromatography (HILIC)
+HILIC is similar in its principle to normal-phase chromatography. 
+It is used for the separation of hydrophilic peptides and polar analytes [@PMID:21879300]. 
+This separation is achieved by a stationary phase that is hydrophilic in nature, for example: cyano-, diol-, amino- bonded phases [@PMID:18428181], and an organic and hydrophobic mobile phase [@PMID:18264818]. 
+The elution of bonded peptides occurs by increasing the mobile phase polarity in a reversed elution order as compared to RPLC [@PMID:18264818; 15459207]. 
+Thus, the peptides with less polarity elute before the more polar peptides. 
+HILIC can also be used for enrichment and targeted proteomic analysis of PTMs, such as glycosylation, N-acetylation and phosphorylation, which increase the polarity of peptides and therefore also their retention on HILIC [@PMID:20973639].
+
+#### Isoelectric focusing (IEF)
+IEF is a type of high-resolution (HR) technique of electrophoresis used for the separation as well as concentration of peptides that are amphoteric in nature on the basis of their isoelectric point (pI) using a solution without buffer consisting of either carrier ampholytes or a gel with immobilized pH gradient (IPG). 
+After IEF separation, the separated amphoteric peptides in the liquid phase are recovered for further analysis by RPLC-MS/MS [@PMID:16849286]. 
+Along with being a technique with improved resolution and capacity, for separation of peptides, IEF provides with additional information on physicochemical properties of the peptides, for example: peptide iso electric point (pI) which acts as a tool for validation and filtration for identifying MS/MS peptide sequence during the step of database search [@PMID:18851748]. 
+The IEF system is not only used for increasing the coverage of proteome but also in quantitative label-free [@PMID:17708596] and stable isobaric labeling experiments [@PMID:18851748]. 
+IEF and gel-based separations have fallen out of favor in the last decade due to improvements in liquid chromatography. 
+
+#### Electrostatic repulsion-hydrophilic interaction chromatography (ERLIC)
+ERLIC is a method based on use of a weak anion exchange column operated at low pH with high organic solvent enabling isocratic elution [@DOI:10.1021/ac070997p]. 
+Acidic peptides are retained by electrostatic interaction, basic and neutral peptides are retained through hydrophilic interaction made favorable by high organic solvent. 
+This improves retention of acidic peptides and reduces retention of basic peptides compared to normal HILIC [@DOI:10.1021/pr100037h]. 
+
 
 
 
