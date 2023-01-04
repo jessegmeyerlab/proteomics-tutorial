@@ -5,16 +5,16 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-19'
+date-meta: '2023-01-04'
 author-meta:
-- Amit Kumar Yadav
 - Benjamin A. Neely
-- Dina Schuster
-- Devasahayam Arokia Balaya Rex
 - Emma H. Doud
 - Muralidharan Vanuopadath
+- Dina Schuster
+- Amit Kumar Yadav
 - Jesse G. Meyer
 - Martín L. Mayta
+- Devasahayam Arokia Balaya Rex
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,35 +26,21 @@ header-includes: |
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2022-12-19" />
-  <meta name="citation_publication_date" content="2022-12-19" />
-  <meta property="article:published_time" content="2022-12-19" />
-  <meta name="dc.modified" content="2022-12-19T19:29:21+00:00" />
-  <meta property="article:modified_time" content="2022-12-19T19:29:21+00:00" />
+  <meta name="dc.date" content="2023-01-04" />
+  <meta name="citation_publication_date" content="2023-01-04" />
+  <meta property="article:published_time" content="2023-01-04" />
+  <meta name="dc.modified" content="2023-01-04T18:02:02+00:00" />
+  <meta property="article:modified_time" content="2023-01-04T18:02:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Benjamin A. Neely" />
   <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
   <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
   <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Dina Schuster" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
-  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
-  <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Emma H. Doud" />
   <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
@@ -63,6 +49,16 @@ header-includes: |
   <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
   <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
   <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Dina Schuster" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
+  <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -72,15 +68,19 @@ header-includes: |
   <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
   <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfcf3e2b1595792c6dd4f7c44a537590d0e1dac5/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfcf3e2b1595792c6dd4f7c44a537590d0e1dac5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfcf3e2b1595792c6dd4f7c44a537590d0e1dac5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6efebe82f956caa038e6718d6b0e458953f80cf0/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6efebe82f956caa038e6718d6b0e458953f80cf0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6efebe82f956caa038e6718d6b0e458953f80cf0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/cfcf3e2b1595792c6dd4f7c44a537590d0e1dac5/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6efebe82f956caa038e6718d6b0e458953f80cf0/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@cfcf3e2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/cfcf3e2b1595792c6dd4f7c44a537590d0e1dac5)
-on December 19, 2022.
+from [jessegmeyerlab/proteomics-tutorial@6efebe8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6efebe82f956caa038e6718d6b0e458953f80cf0)
+on January 4, 2023.
 </em></small>
 
 
@@ -113,20 +113,6 @@ on December 19, 2022.
 ## Authors
 
 
-
-+ **Amit Kumar Yadav**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)
-    <br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
-  </small>
 
 + **Benjamin A. Neely**
   <br>
@@ -140,32 +126,6 @@ on December 19, 2022.
   <small>
      Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
      · Funded by NIST
-  </small>
-
-+ **Dina Schuster**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)
-    <br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 + **Emma H. Doud**
@@ -194,6 +154,33 @@ on December 19, 2022.
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
++ **Dina Schuster**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)
+    <br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Amit Kumar Yadav**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)
+    <br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+  </small>
+
 + **Jesse G. Meyer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -219,6 +206,19 @@ on December 19, 2022.
     <br>
   <small>
      School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)
+    <br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 
@@ -1463,14 +1463,145 @@ Moreover, in cases where no species-specific protein sequence collection exists,
 In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results. See more discussion of database choice in the following section. 
 
 
-## Biological Interpretation {.page_break_before}
+## Biological Interpretation  {.page_break_before}
 
+As described in previous sections, quantitative proteomics experiments reveal protein abundance changes. 
+After statistical data analysis, the typical output is a list of differentially expressed proteins that can contain hundreds of hits. 
+The next step is how to interpret the results in biological terms. 
+Often, it is tempting to focus on proteins with the most extreme fold changes. 
+In this case, the assumption is that the more significant the fold change (in either direction, up- or down-regulation), the higher the impact of those proteins on cellular behavior. 
+Alas, this assumption is not always valid. 
+Another approach is to start manually lookup every protein in the list to uncover groups that function together, maybe in protein complexes or signaling pathways. 
+This strategy is time-consuming and cumbersome, and it is almost impossible to capture all reported interactions from the wealth of the literature. 
+Therefore, automated computational methods to help with biological interpretation are needed. 
+In this section, we overview some of these methods. 
 
-1. term enrichment analysis (KEGG, GO)
-2. network analysis methods
-3. structure analysis
-4. isoform analysis
-5. follow-up experiments
+### Constructing a protein network
+
+A network is a representation of the relations between objects. 
+Nodes are the entities of the network (e.g., users of a social platform, train stations, proteins), while edges are the connections between them (e.g., friendship, routes, and protein interactions, respectively). 
+In the case of protein-protein interactions, the evidence for the functional associations between proteins can be obtained experimentally. 
+For example, co-immunoprecipitation, crosslinking, and proximity labeling can be used to reveal physical interactions [@PMID:34046695]. 
+The data is presented in a table with nodes and edges (e.g., "protein A interacts with protein B") from which the network can be constructed. 
+A considerable wealth of protein-protein association data is stored in free databases like IntAct, which contain interactions derived from literature curation or direct user submissions [@PMID:34761267]. 
+Protein interactions can also be predicted by classifiers that consider many features, like orthology and co-localization, to produce a posterior odds ratio of interaction [@PMID:21572181; @PMID:33237311]. 
+Finally, large repositories like STRING (Search Tool for the Retrieval of Interacting Genes/Proteins) collect and integrate protein-protein interaction data from several databases [@PMID:33237311]. 
+STRING also provides a web-based interface to survey the data, and users only have to feed a search box with the identifiers of the protein(s) of interest. 
+STRING will retrieve the network and show the evidence supporting each interaction. 
+Importantly, these databases do not indicate the direction of the interaction, so they produce undirected networks. 
+If edges have directions (e.g., A influences B and not vice versa), then the network is directed. 
+Signaling pathways are examples of directed graphs. 
+
+### Network analysis
+
+Network analysis is a group of techniques that explore and investigate the network, yielding valuable knowledge about its structure and unveiling key players regulating the flow of information. 
+One of the first steps in network analysis relates to centrality measurements. 
+Centralities are indicators of the relative importance of a node corresponding to its position in the network, and each centrality measure provides new insights to interpret the data in new ways [@PMID:27616995; @PMID:30064421].
+
+#### Degree centrality
+  
+The degree of a node measures the number of edges incident to that node. 
+Nodes with a high degree interact with many other nodes, called first neighbors. 
+In particular, the node degree distribution in protein networks is highly skewed, with most nodes having a low degree and a few having high degrees, known as hubs.
+Hubs are usually regulatory proteins, being notable examples oncogenes and transcription factors. 
+Moreover, hubs are attractive targets for directed interventions, as their alteration has a profound effect on the stability of the network [@PMID:16751849]. 
+
+#### Closeness centrality
+
+The route from one node to another is a path, and the shortest path is the one connecting them in the least amount of steps. 
+Closeness centrality is the inverse of the average length of a node's shortest paths to all other nodes in the network. 
+Nodes with a high closeness score have the shortest distances to all the others, so closeness centrality calculations detect nodes that can spread information very efficiently, as they are in a better position in the network for this task [@PMID:15616139; @URL:https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/building-and-analysing-ppins/topological-ppin-analysis/closeness-centrality/].
+
+#### Betweenness centrality
+
+This centrality index is related to the amount of shortest paths transversing a node. 
+Nodes with a high betweenness centrality usually bridge different parts of the network and strongly influence the flow of information, as they lie in communication paths. 
+These connector hubs (or bottlenecks) are also interesting for follow–up experiments because their removal can disconnect different regions of the network [@PMID:17447836].
+
+Centrality measurements add new layers of information and allow for ranking differentially expressed proteins apart from their fold-change in abundance. 
+Figure {@fig:simple-network}X depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
+In Panel A, the fill color for the nodes indicates this metric, where it can be easily seen that A stands out. 
+However, protein A is a peripheral protein, only interacting with B. 
+In Panel B, nodes are colored according to node degree. 
+Clearly, protein F has the highest number of interactions and is also the closest to all other nodes, which can be appreciated when nodes are colored according to closeness centrality (Panel C). 
+On the other hand, protein G acts as a bridge between two regions of the network and thus, has the highest betweenness centrality (Panel D). 
+Except for fold change, node A has the lowest indices, and it will be up to the researcher to decide whether this protein warrants further examination.
+
+![Caption: Analysis of a simple network using different centrality measurements. Nodes are colored according to each metric using a yellow-to-red gradient (yellow: lowest value, red: highest value). Network visualization and analysis were performed in Cytoscape.](https://github.com/ger225/proteomics-tutorial/blob/94baf66723b93100b1697def2e6fe3c2f6dfb295/content/images/Simple%20network.png){#fig:simple-network}
+
+### Network clustering
+
+In the small network presented in Figure {@fig:simple-network}X, two groups of densely connected nodes exist. 
+This topology suggests that these communities (or "clusters") work together or participate in a protein complex. 
+Dividing a network into clusters helps identify underlying relationships among nodes, which is especially useful in large networks. 
+In a broad sense, network clustering groups nodes according to a topological property, generally interconnectedness. 
+There are many network clustering algorithms, each with its own merits and approaches [@PMID:20158874; @PMID:17087821]. 
+The MCL (Markov CLustering) algorithm is suitable for protein networks in most situations . 
+On the other hand, the Molecular COmplex DEtection (MCODE) algorithm helps detect very densely connected nodes, thus unveiling protein complexes [@PMID:12525261]. 
+In this regard, network clustering is useful for tentatively assigning the function of an uncharacterized protein. 
+If the protein appears in a cluster, its function should be closely related to the cluster members, a principle known as "guilty by association." [@PMID:26215734]
+
+### Network visualization
+
+A critical step in network analysis is to display the data in a structured and uncluttered graph. 
+Networks can rapidly become a hairball unamenable to interpretation. 
+Software platforms like Cytoscape can be used to visualize networks orderly by applying layout algorithms and format styles [@PMID:14597658]. 
+Since many of these platforms are open source, community-designed plugins enhance their capabilities. 
+In Cytoscape, the stringApp adds a search bar to query the STRING database with accession numbers or protein names [@PMID:36512705]. 
+The network is directly retrieved into Cytoscape, where its built-in network analyzer can be used to calculate centralities. 
+Moreover, user-defined information, like fold-change values, can be integrated and mapped into the network.
+
+### Functional enrichment analysis
+
+Genes and gene products have shared attributes regarding their cellular localization, molecular function, or biological process in which they take part.
+For example, citrate synthase and malate dehydrogenase are _mitochondrial_ enzymes that show _RNA binding_ activity and participate in the _Krebs cycle_. 
+The terms in italics represent a fraction of the body of knowledge about these proteins. 
+Similar information can be compiled and assigned to every gene or gene product, forming its gene ontology (GO): a set of concepts that describe the entity. 
+Functional enrichment analysis assesses whether genes or gene products grouped under a GO term (a.k.a., a "gene set") are enriched in the set of proteins of interest compared to their normal frequency of occurrence in some background dataset. 
+For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
+Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
+GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
+There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (Figure XI{fig:enrich_methods}), as follows.
+
+![Caption: Types of functional enrichment methods. In the volcano plot (left), proteins with altered values are colored blue or red according to arbitrarily chosen cut-off values for significance and fold change. Black bars or thick-bordered nodes indicate members of a GO category.](https://github.com/ger225/proteomics-tutorial/blob/main/content/images/enrich_methods_v3.png){#fig:enrich_methods}
+
+#### Over-representation analysis
+  
+In a modern proteomics analysis, usually thousands of proteins are identified and quantified. 
+Fold-change and significance thresholds are chosen (e.g., fold-change ≥ 2 and p ≤ 0.05) to obtain a list of proteins with altered levels among the tested conditions.
+In over-representation methods, a contingency table is created for every protein set to establish whether proteins with altered abundance show an enrichment or a depletion of the ontology term compared to the background observed proteome [@PMID:32695141]. 
+For example, suppose that 2000 proteins were quantified in a proteomics analysis, being 40 of these members of the set "tricarboxylic acid cycle (TCA)." 
+Also, let us assume that 200 proteins showed altered abundance, with 15 belonging to the TCA set. 
+Then, the contingency table can be constructed as follows:
+
+|                             | **Proteins with altered abundance** | **Proteins with unaltered abundance** | **Total** |
+|-----------------------------|:-----------------------------------:|:-------------------------------------:|:---------:|
+| **Proteins in TCA set**     |                  15                 |                   25                  |     40    |
+| **Proteins not in TCA set** |                 185                 |                  1775                 |    1960   |
+| **Total**                   |                 200                 |                  1800                 |    2000   |
+
+	                    
+Then, a suitable statistical test is conducted to ascertain if proteins with altered levels are enriched in members of the TCA cycle (in this case, they are; p < 0.00001).
+This is commonly achieved using Fisher's exact test [@DOI:10.2307/2340521].
+The process is then repeated for every set as desired. 
+Since multiple comparisons are tested, p values must be adjusted by a false discovery rate [@PMID:35263338].
+
+#### Functional class scoring
+  
+The caveat of over-representation methods is that they rely on a list of differentially expressed genes or proteins with altered abundance, selected due to arbitrarily chosen cut-off values. 
+For example, if we set a fold change cutoff of 2, a protein with a fold-change of 1.99 would not be included in the analysis. 
+Moreover, several proteins belonging to the same set may have altered levels but are below the fold change threshold. 
+However, moderate alterations of their abundance as a group could drive the observed phenotype, even more so than a single protein over the cut-off. 
+Functional class scoring strategies aim at countering these limitations by disregarding thresholds altogether. 
+GSEA (Gene Set Enrichment Analysis) is a widely used functional class scoring method in which all detected entities are first ranked according to a quantitative measurement (fold change, p-value, or their combination) [@PMID:16199517]. 
+Then,  the distribution of members of a set is obtained. 
+A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whether there is an enrichment of the category towards the top or bottom of the ranked list.
+
+#### Pathway topology-based methods 
+  
+Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
+Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
+In Figure {fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
 
 
 ## Methods for protein or peptide fractionation {.page_break_before}
