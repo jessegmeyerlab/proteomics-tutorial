@@ -85,7 +85,17 @@ authors:
     affiliations:
       - Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
       
-     
+  - github: ger225
+    name: Germán L. Rosano
+    initials: GLR
+    orcid: 0000-0002-8313-6813 
+    twitter: GermanRosano
+    email: rosano@ibr-conicet.gov.ar
+    affiliations:
+      - Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+    funders:
+      - Grant PICT 2019-02971 (Agencia I+D+i)
+      
   - github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
