@@ -7,6 +7,7 @@ acidification
 Adventista
 Aebersold
 AFA
+Agencia
 Agilent
 AIF
 aky
@@ -15,10 +16,10 @@ aliphatic
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -40,7 +41,7 @@ Balaya
 BCA
 Benchmarking
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 biocuration
 Biognosys
@@ -97,9 +98,9 @@ Clostridium
 Clostripain
 coIP
 coli
-Collisional
+collisional
 colorimetric
-Colorimetry
+colorimetry
 Combinatorial
 complexed
 converage
@@ -110,7 +111,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -123,7 +124,7 @@ cysteine
 cysteines
 Cytoscape
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -161,7 +162,7 @@ DTT
 ECD
 edoud
 EDTA
-Electrophoresis
+electrophoresis
 electrospray
 elegans
 elute
@@ -171,7 +172,7 @@ elution
 EMBL
 endopeptidase
 enrichments
-ensembl
+Ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -205,7 +206,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 fragi
 fragmeted
@@ -216,6 +217,8 @@ futher
 GCF
 GenBank
 genomic
+Germán
+GermanRosano
 GF
 GFF
 Gillet
@@ -232,7 +235,7 @@ glycopeptides
 Glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 Goodlett
 GPMDB
@@ -280,7 +283,7 @@ interconnectedness
 interferences
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -341,7 +344,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 MassQC
 MaxDIA
 MaxQaunt
@@ -435,12 +438,12 @@ protease
 proteases
 Proteinase
 proteoforms
-Proteolysis
+proteolysis
 proteome
 ProteomeDiscoverer
 proteomes
 proteomic
-proteomics
+Proteomics
 ProtParam
 protti
 Pseudomonas
@@ -474,6 +477,7 @@ reproducibility
 resolubilization
 resuspending
 rexprem
+Rosano
 RPLC
 Scherrer
 Schuster
@@ -575,14 +579,14 @@ unamenable
 uncharacterized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 useable
 valine
 Vanuopadath
