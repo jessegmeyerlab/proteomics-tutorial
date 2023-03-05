@@ -16,7 +16,7 @@ aliphatic
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaPept
 aminooxy
 Aminoxy
@@ -45,7 +45,7 @@ Betweenness
 bicinchoninic
 biocuration
 Biognosys
-BioID
+bioID
 biomarker
 biomarkers
 Biomedicine
@@ -86,7 +86,7 @@ chelators
 chloroacetamide
 chromatogram
 chromatograms
-Chromatographic
+chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -98,8 +98,8 @@ Clostridium
 Clostripain
 coIP
 coli
-collisional
-colorimetric
+Collisional
+Colorimetric
 colorimetry
 Combinatorial
 complexed
@@ -111,7 +111,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -124,7 +124,7 @@ cysteine
 cysteines
 Cytoscape
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -135,7 +135,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -181,7 +181,7 @@ ERLIC
 ESI
 ETH
 ETISEQ
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 exosomes
@@ -190,7 +190,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 Fc
 Fenn
 ferulic
@@ -235,7 +235,7 @@ glycopeptides
 Glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 Goodlett
 GPMDB
@@ -283,13 +283,13 @@ interconnectedness
 interferences
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-Isoelectric
+isoelectric
 isoform
 isoforms
 isoleucine
@@ -402,7 +402,7 @@ octyl
 OMSSA
 onotology
 OpenMS
-Orbitrap
+orbitrap
 orbitraps
 Ortholog
 orthology
@@ -472,7 +472,7 @@ RawMeat
 rawrr
 REACTOME
 refered
-RefSeq
+refseq
 reproducibility
 resolubilization
 resuspending
@@ -563,7 +563,7 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
+TripleTOF
 tris
 Tritirachium
 Trp
@@ -579,14 +579,14 @@ unamenable
 uncharacterized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 useable
 valine
 Vanuopadath
