@@ -30,6 +30,15 @@ authors:
     affiliations:
       - School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
       
+  - github: ococrook
+    name: Oliver M. Crook
+    initials: OMC
+    orcid: 0000-0001-5669-8506
+    twitter: OllyMCrook
+    email: Oliver.Crook@stats.ox.ac.uk
+    affiliations:
+      - Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
+      
       
   - github: dschust-r
     name: Dina Schuster
