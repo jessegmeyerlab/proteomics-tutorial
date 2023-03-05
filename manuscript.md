@@ -8,14 +8,14 @@ lang: en-US
 date-meta: '2023-03-05'
 author-meta:
 - Dina Schuster
-- Amit Kumar Yadav
+- Jesse G. Meyer
 - Benjamin A. Neely
-- Martín L. Mayta
 - Muralidharan Vanuopadath
+- Devasahayam Arokia Balaya Rex
+- Amit Kumar Yadav
 - Germán L. Rosano
 - Emma H. Doud
-- Jesse G. Meyer
-- Devasahayam Arokia Balaya Rex
+- Martín L. Mayta
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -30,8 +30,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-05" />
   <meta name="citation_publication_date" content="2023-03-05" />
   <meta property="article:published_time" content="2023-03-05" />
-  <meta name="dc.modified" content="2023-03-05T03:20:53+00:00" />
-  <meta property="article:modified_time" content="2023-03-05T03:20:53+00:00" />
+  <meta name="dc.modified" content="2023-03-05T18:59:40+00:00" />
+  <meta property="article:modified_time" content="2023-03-05T18:59:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,23 +44,26 @@ header-includes: |
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Benjamin A. Neely" />
   <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
   <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
   <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
   <meta name="citation_author" content="Muralidharan Vanuopadath" />
   <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
   <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
   <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Germán L. Rosano" />
   <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
@@ -69,23 +72,20 @@ header-includes: |
   <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
   <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ac3b62bbe62e9f178a50a45dfdf54ca30f13db4b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ac3b62bbe62e9f178a50a45dfdf54ca30f13db4b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/ac3b62bbe62e9f178a50a45dfdf54ca30f13db4b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7f38a2f6787871fd1363540e9db734da791fe8e0/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7f38a2f6787871fd1363540e9db734da791fe8e0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7f38a2f6787871fd1363540e9db734da791fe8e0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -107,9 +107,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/ac3b62bbe62e9f178a50a45dfdf54ca30f13db4b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7f38a2f6787871fd1363540e9db734da791fe8e0/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@ac3b62b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/ac3b62bbe62e9f178a50a45dfdf54ca30f13db4b)
+from [jessegmeyerlab/proteomics-tutorial@7f38a2f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7f38a2f6787871fd1363540e9db734da791fe8e0)
 on March 5, 2023.
 </em></small>
 
@@ -132,18 +132,18 @@ on March 5, 2023.
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
-+ **Amit Kumar Yadav**
++ **Jesse G. Meyer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)
+    [j_my_sci](https://twitter.com/j_my_sci)
     <br>
   <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+     Department of Computational Biomedicine, Cedars Sinai Medical Center
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 + **Benjamin A. Neely**
@@ -160,19 +160,6 @@ on March 5, 2023.
      · Funded by NIST
   </small>
 
-+ **Martín L. Mayta**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
-    <br>
-  <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
 + **Muralidharan Vanuopadath**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -184,6 +171,33 @@ on March 5, 2023.
     <br>
   <small>
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)
+    <br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Amit Kumar Yadav**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)
+    <br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
 + **Germán L. Rosano**
@@ -213,31 +227,17 @@ on March 5, 2023.
      Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
-+ **Jesse G. Meyer**
++ **Martín L. Mayta**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    [martinmayta](https://github.com/martinmayta)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)
+    [MartinMayta2](https://twitter.com/MartinMayta2)
     <br>
   <small>
-     Department of Computational Biomedicine, Cedars Sinai Medical Center
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 
@@ -1484,16 +1484,27 @@ In each of these cases, proteomics practitioners must understand their specific 
 
 ## Biological Interpretation  {.page_break_before}
 
-As described in previous sections, quantitative proteomics experiments reveal protein abundance changes. 
-After statistical data analysis, the typical output is a list of differentially expressed proteins that can contain hundreds of hits. 
-The next step is how to interpret the results in biological terms. 
-Often, it is tempting to focus on proteins with the most extreme fold changes. 
+The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
+This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits. 
+In this section, we aim to present a concise overview of how proteomic data can be effectively contextualised and used to generate new hypotheses.
+
+The simplest approach is to start manual lookup of every protein in the list to uncover groups that function together.
+Starting with a list of hundreds of protein changes, a smaller list can be prioritized by considering the level of significance and effect size.
+For example, proteins with the smallest p-values (significance) and largest abundance fold-changes (effect size).
+It is tempting to focus on proteins with the most extreme fold changes. 
 In this case, the assumption is that the more significant the fold change (in either direction, up- or down-regulation), the higher the impact of those proteins on cellular behavior. 
-Alas, this assumption is not always valid. 
-Another approach is to start manually lookup every protein in the list to uncover groups that function together, maybe in protein complexes or signaling pathways. 
-This strategy is time-consuming and cumbersome, and it is almost impossible to capture all reported interactions from the wealth of the literature. 
-Therefore, automated computational methods to help with biological interpretation are needed. 
-In this section, we overview some of these methods. 
+This assumption is not always valid because protein signal in MS depends on abundance.
+The manual data interpretation approach is typically infeasible due to the number of proteins that would need to be individually looked up one-by-one.
+
+A better strategy is to use computational methods.
+These methods may consider the whole list of proteins including some ranking by significance or fold change. 
+One common interpretation method is to construct a protein network, which then lends itself to network analyses. 
+Another method is to consider functional enrichment through annotation databases.
+These databases offer insights by examining the enrichment of certain functional annotations amongst the interesting proteins.
+Secondly, one could consider other evolutionary, structurally or regulatory based methods to identify interpretation of the data.
+To fully interpret analysis, it may be required to perform or examine other data such as data from biophysical, biochemical and alternative proteomic approaches.
+Finally, the data can further be interpreted using multi-omic, native or clinical approaches.
+Below we summarize these approaches and point out potential pitfalls with these methods.
 
 ### Constructing a protein network
 
@@ -1573,16 +1584,36 @@ In Cytoscape, the stringApp adds a search bar to query the STRING database with 
 The network is directly retrieved into Cytoscape, where its built-in network analyzer can be used to calculate centralities. 
 Moreover, user-defined information, like fold-change values, can be integrated and mapped into the network.
 
-### Functional enrichment analysis
+### Functional term enrichment analysis: KEGG, String, GO, GSEA, ORA, Reactome, and others
 
-Genes and gene products have shared attributes regarding their cellular localization, molecular function, or biological process in which they take part.
-For example, citrate synthase and malate dehydrogenase are _mitochondrial_ enzymes that show _RNA binding_ activity and participate in the _Krebs cycle_. 
-The terms in italics represent a fraction of the body of knowledge about these proteins. 
-Similar information can be compiled and assigned to every gene or gene product, forming its gene ontology (GO): a set of concepts that describe the entity. 
-Functional enrichment analysis assesses whether genes or gene products grouped under a GO term (a.k.a., a "gene set") are enriched in the set of proteins of interest compared to their normal frequency of occurrence in some background dataset. 
+<!-- To-Do: this section is redundant with the next section -->
+
+Term enrichment analysis is performed to assess whether particular 'functional terms' are over-represented in a list of proteins (e.g. from a proteomics experiment) [@DOI:10.1007/978-1-4939-6783-4; @DOI:10.1016/j.ddtec.2021.06.007; @DOI:10.1152/physiolgenomics.00298.2007].
+For example, after a differential abundance analysis, we may wish to examine whether there is any shared function amongst the proteins which were determined to have significant changes.
+The simplest analysis to test whether this subset contains more of any particular functional terms than we would expect given the background of proteins.
+For example, the Gene Ontology is split into the classes: Cellular Component, Molecular Function and Biological Function and we might be interested as to whether our proteins may be more likely to localize to a particular subcellular niche [@PMID:10802651].
+The Cellular Component terms could give us a starting point if this might be the case, by examining if Cellular Component annotations are enriched. 
+
+
+There are a number of databases and tools to perform such analysis, which can even be extended to examine whole pathways, networks, post-translational modification and literature representation.
+For example, databses such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
 For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
 Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
 GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
+We refer to a number of articles on the topics, including tools, reviews and best-practice [@PMID:25430566, @PMID:33290552 @DOI:10.1371/journal.pcbi.1009935].
+The main points from such analysis is that we can obtain an insight about protein function by looking at whether our list of proteins have similar or the same annotations.
+A number of limitations should be taken into account for interpretation.
+The first is that proteins that are more abundant are more likely to be studied, measured and examined in the literature.
+Hence, abundant proteins will have more annotations than less abundant ones.
+One key part of the analysis is also to correctly select the background set; that is, the universe of protein which our list is being compared against.
+By including contaminates or proteins that are not expressed in our system within the list, the results may be unfaithful. 
+
+We may also have access to our own curated set of annotations derived either computational or experimental.
+One may be interested in seeing whether we have enrichment of these annotations amongst the differentially abundant proteins.
+Our list of proteins could be divided into two groups: differentially abundant or not. These groups could be divided into whether they have a particular annotation: yes or no.
+This information can be summarised in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
+One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
+
 There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (Figure XI{fig:enrich_methods}), as follows.
 
 ![**Types of functional enrichment methods.** 
@@ -1627,6 +1658,40 @@ A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whet
 Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
 Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
 In Figure {fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
+
+### Other computational approaches: Network analysis, Isoform correlation analysis, Alphafold, BLAST, protein language models
+
+Additional computational analysis of a list of interesting proteins may uncover additional substructure, correlation or biologically useful hypothesis.
+Building a network between the proteins based on the experiments performed, might be a useful approach to identify additional structure.
+For example, co-expression network analysis can be used to build a network from these proteins [@DOI:10.3410/f.727201931.793589848].
+In these networks, proteins are nodes and edges describe relationships between those proteins.
+Network-specific methods can then be applied, such as community detection algorithms which could uncover clusters of proteins with shared functions [@DOI:10.1101/2020.06.21.163543; @DOI:10.1016/j.physrep.2009.11.002].
+
+One way the proteome generates complexity is through alternative-splicing, which results in protein isoforms [@https://doi.org/10.7554/eLife.34477].
+
+Recently, a number of tools have been proposed to identify peptide isoforms that are quantitatively different across conditions by using a principle called peptide correlation analysis [@DOI:10.1101/2020.12.22.423928; @PMID:33325715].
+The idea is that the quantitative behavior of peptides should match each other.
+If there are subgroups that behave coherently within the group but not across groups suggest that peptide may have come from a different proteoform.
+These approaches can be used to identify specific proteoforms that are functional across different conditions.
+
+For many, a protein’s structure reveals important functional details [@PMID:18429251].
+There are a plethora of approaches to predict a protein’s structure [@DOI:10.1073/pnas.1821309116; @DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
+Recently, AlphaFold and RosettaFold have become dominant methods for predicting protein structures with high resolution [@DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
+If intrinsically disordered domains are of particular interest, methods explicitly designed for this task are recommended [@PMID:23203878].
+Once a structure is obtained more elaborate computational methods might be useful such as docking or molecular dynamics [@PMID:21534921, @DOI:10.2147/AABC.S70333].
+These approaches can give insight into how protein or molecules fit together and the dynamics of a protein's structure (conformational heterogeneity).
+A complete discussion of these topics is beyond the scope of this section.
+
+Another way to obtain insights into a protein function is to look for protein with similar sequences or motifs.
+Using BLAST, a sequence alignment tool, one can align two or more protein sequences and determine their level of similarity [@PMID:2231712].
+For example, if a human protein of unknown function has a similar sequence to a yeast protein with known function this may be a starting place for the putative function of that protein.
+
+Novel approaches to representing the similarity of proteins have proved successful at predicting the functional properties of proteins.
+Protein language models seek to learn “representation” of proteins, these are usually numerical vectors that represent a protein sequence [@DOI:10.1038/s42256-022-00457-9, @DOI:10.1016/j.cels.2021.05.017].
+Abstractly, these vectors preserve protein similarity or a notion of “proteinness”. This usually means that two proteins that have a close vector may share similarities in protein function.
+These representations are also advantageous because they can easily become the inputs for machine learning algorithms to predict valuable protein properties; for example, thermal stability values [@PMID:32133759], protein-protein binding affinities [@DOI:10.1002/wcms.1448], secondary protein structure and more [@DOI:10.1073/pnas.201623911].
+
+3. Orthogonal experimental methods
 
 
 ## Methods for protein or peptide fractionation {.page_break_before}
