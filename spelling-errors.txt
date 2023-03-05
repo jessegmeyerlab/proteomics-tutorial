@@ -16,7 +16,7 @@ aliphatic
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -42,7 +42,7 @@ Balaya
 BCA
 Benchmarking
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 biocuration
 Biognosys
@@ -87,8 +87,8 @@ chelators
 chloroacetamide
 chromatogram
 chromatograms
-Chromatographic
-Chymotrypsin
+chromatographic
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -100,7 +100,7 @@ coIP
 coli
 collisional
 colorimetric
-Colorimetry
+colorimetry
 Combinatorial
 complexed
 conformational
@@ -112,7 +112,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -125,7 +125,7 @@ cysteine
 cysteines
 Cytoscape
 databses
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -136,7 +136,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -164,7 +164,7 @@ ECD
 edoud
 EDTA
 electrophoresis
-Electrospray
+electrospray
 elegans
 elute
 eluted
@@ -172,7 +172,7 @@ eluting
 elution
 EMBL
 endopeptidase
-enrichments
+Enrichments
 Ensembl
 enzymatically
 enzymogenesis
@@ -191,7 +191,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-FASTA
+fasta
 Fc
 Fenn
 ferulic
@@ -227,7 +227,7 @@ Glu
 glucopyranoside
 glutamate
 Glutamyl
-glycan
+Glycan
 glycans
 glycine
 glyco
@@ -285,13 +285,13 @@ interconnectedness
 interferences
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-Isoelectric
+isoelectric
 isoform
 isoforms
 isoleucine
@@ -399,7 +399,9 @@ NN
 nonparametric
 novo
 nuclease
+ococrook
 octyl
+OllyMCrook
 omic
 OMSSA
 onotology
@@ -436,7 +438,7 @@ practioners
 Pre
 PRM
 Progenesis
-Prot
+prot
 protease
 proteases
 Proteinase
@@ -557,11 +559,11 @@ TMTs
 TOF
 TOFs
 TPP
-Translational
+translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
@@ -569,7 +571,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-Tris
+tris
 Tritirachium
 TRP
 trypsin
