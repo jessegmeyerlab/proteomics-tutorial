@@ -16,8 +16,8 @@ aliphatic
 alkylate
 alkylated
 alkylating
-alkylation
-AlphaFold
+Alkylation
+Alphafold
 AlphaPept
 aminooxy
 aminoxy
@@ -88,7 +88,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatographic
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -99,8 +99,8 @@ Clostripain
 coIP
 coli
 collisional
-colorimetric
-colorimetry
+Colorimetric
+Colorimetry
 Combinatorial
 complexed
 conformational
@@ -112,7 +112,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -136,7 +136,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 determinining
 deubiquitinase
 deuteron
@@ -149,7 +149,7 @@ dichroism
 differentially
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
 disulfide
@@ -182,7 +182,7 @@ ERLIC
 ESI
 ETH
 ETISEQ
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 exosomes
@@ -207,7 +207,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 fragi
 fragmeted
@@ -236,7 +236,7 @@ glycopeptides
 Glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 Goodlett
 GPMDB
@@ -285,14 +285,14 @@ interconnectedness
 interferences
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-isoelectric
-isoform
+Isoelectric
+Isoform
 isoforms
 isoleucine
 Isothermal
@@ -345,7 +345,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 MassQC
 MaxDIA
 MaxQaunt
@@ -406,7 +406,7 @@ omic
 OMSSA
 onotology
 OpenMS
-orbitrap
+Orbitrap
 orbitraps
 Ortholog
 orthology
@@ -422,7 +422,7 @@ phenylalanine
 phosphatase
 phosphine
 phosphopeptides
-phosphoproteomics
+Phosphoproteomics
 phosphorylations
 PhosphoSitePlus
 phosphotases
@@ -445,7 +445,7 @@ Proteinase
 proteinness
 proteoform
 proteoforms
-proteolysis
+Proteolysis
 proteome
 ProteomeDiscoverer
 proteomes
@@ -489,7 +489,7 @@ RosettaFold
 RPLC
 Scherrer
 Schuster
-Sciex
+SCIEX
 scrofa
 SCX
 SDS
@@ -513,7 +513,7 @@ sorbents
 SPE
 specificities
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -570,12 +570,12 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-tris
+tripleTOF
+Tris
 Tritirachium
-TRP
+Trp
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 Tyr
 tyrosine

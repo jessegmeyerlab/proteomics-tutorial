@@ -1593,11 +1593,11 @@ content/15.biological-interpretation.md:195:AlphaFold
 content/15.biological-interpretation.md:195:RosettaFold
 content/15.biological-interpretation.md:198:conformational
 content/15.biological-interpretation.md:207:proteinness
-content/16.sample-fractionation.md:1:fractionation
 content/16.sample-fractionation.md:2:fractionation
-content/16.sample-fractionation.md:3:SDS
-content/16.sample-fractionation.md:5:fractionation
-content/16.sample-fractionation.md:6:bRP
+content/16.sample-fractionation.md:6:fractionation
+content/16.sample-fractionation.md:7:SDS
+content/16.sample-fractionation.md:9:fractionation
+content/16.sample-fractionation.md:10:bRP
 content/17.tandem-MS.md:1:Spectrometry
 content/17.tandem-MS.md:3:Spectrometry
 content/17.tandem-MS.md:4:proteomics
