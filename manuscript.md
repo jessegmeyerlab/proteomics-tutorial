@@ -5,18 +5,18 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-03-06'
+date-meta: '2023-04-04'
 author-meta:
-- Dina Schuster
-- Benjamin A. Neely
-- Devasahayam Arokia Balaya Rex
-- Emma H. Doud
-- Jesse G. Meyer
-- Germán L. Rosano
-- Muralidharan Vanuopadath
-- Martín L. Mayta
 - Oliver M. Crook
+- Emma H. Doud
 - Amit Kumar Yadav
+- Devasahayam Arokia Balaya Rex
+- Martín L. Mayta
+- Muralidharan Vanuopadath
+- Dina Schuster
+- Germán L. Rosano
+- Benjamin A. Neely
+- Jesse G. Meyer
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -28,69 +28,69 @@ header-includes: |
   <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
   <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="dc.date" content="2023-03-06" />
-  <meta name="citation_publication_date" content="2023-03-06" />
-  <meta property="article:published_time" content="2023-03-06" />
-  <meta name="dc.modified" content="2023-03-06T15:14:41+00:00" />
-  <meta property="article:modified_time" content="2023-03-06T15:14:41+00:00" />
+  <meta name="dc.date" content="2023-04-04" />
+  <meta name="citation_publication_date" content="2023-04-04" />
+  <meta property="article:published_time" content="2023-04-04" />
+  <meta name="dc.modified" content="2023-04-04T18:37:39+00:00" />
+  <meta property="article:modified_time" content="2023-04-04T18:37:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Oliver M. Crook" />
+  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
+  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
+  <meta name="twitter:creator" content="@OllyMCrook" />
+  <meta name="citation_author" content="Emma H. Doud" />
+  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
+  <meta name="twitter:creator" content="@fireinlab" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Emma H. Doud" />
-  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
-  <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Germán L. Rosano" />
   <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
   <meta name="twitter:creator" content="@GermanRosano" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Oliver M. Crook" />
-  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
-  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
-  <meta name="twitter:creator" content="@OllyMCrook" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6d366747dfc31b9aadbb986998d63d4f27f3d7e1/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6d366747dfc31b9aadbb986998d63d4f27f3d7e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6d366747dfc31b9aadbb986998d63d4f27f3d7e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3109068d38551ba7ca02a8be1818e7927940a290/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3109068d38551ba7ca02a8be1818e7927940a290/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3109068d38551ba7ca02a8be1818e7927940a290/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6d366747dfc31b9aadbb986998d63d4f27f3d7e1/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/3109068d38551ba7ca02a8be1818e7927940a290/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@6d36674](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6d366747dfc31b9aadbb986998d63d4f27f3d7e1)
-on March 6, 2023.
+from [jessegmeyerlab/proteomics-tutorial@3109068](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3109068d38551ba7ca02a8be1818e7927940a290)
+on April 4, 2023.
 </em></small>
 
 
@@ -124,44 +124,17 @@ on March 6, 2023.
 
 
 
-+ **Dina Schuster**
++ **Oliver M. Crook**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
+    [ococrook](https://github.com/ococrook)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)
+    [OllyMCrook](https://twitter.com/OllyMCrook)
     <br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
-+ **Benjamin A. Neely**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)
-    <br>
-  <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
   </small>
 
 + **Emma H. Doud**
@@ -177,18 +150,70 @@ on March 6, 2023.
      Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
-+ **Jesse G. Meyer**
++ **Amit Kumar Yadav**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    [aky](https://github.com/aky)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)
+    [theoneamit](https://twitter.com/theoneamit)
     <br>
   <small>
-     Department of Computational Biomedicine, Cedars Sinai Medical Center
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)
+    <br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Martín L. Mayta**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [martinmayta](https://github.com/martinmayta)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [MartinMayta2](https://twitter.com/MartinMayta2)
+    <br>
+  <small>
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+  </small>
+
++ **Muralidharan Vanuopadath**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    <br>
+  <small>
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+  </small>
+
++ **Dina Schuster**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)
+    <br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
 + **Germán L. Rosano**
@@ -205,57 +230,32 @@ on March 6, 2023.
      · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
-+ **Muralidharan Vanuopadath**
++ **Benjamin A. Neely**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    [neely](https://github.com/neely)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    [neely615](https://twitter.com/neely615)
     <br>
   <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
   </small>
 
-+ **Martín L. Mayta**
++ **Jesse G. Meyer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
+    [j_my_sci](https://twitter.com/j_my_sci)
     <br>
   <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Oliver M. Crook**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ococrook](https://github.com/ococrook)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [OllyMCrook](https://twitter.com/OllyMCrook)
-    <br>
-  <small>
-     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
-  </small>
-
-+ **Amit Kumar Yadav**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)
-    <br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+     Department of Computational Biomedicine, Cedars Sinai Medical Center
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 
@@ -763,7 +763,7 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 
 
 
-## Peptide or Protein Enrichment
+## Peptide/Protein Enrichment and Depletion
 
 ### Protein enrichment (e.g. for protein protein interactions)
 * coIP
@@ -771,12 +771,83 @@ Peptide fragment ions are used to identify peptides, and the relative reporter i
 * bioID
 * bioplex
 
-
 ### Peptide enrichment 
-* antibody enrichments of modifications, e.g. lysine acetylation [@DOI:10.1002/pmic.201800123].
-* TiO2 and Fe enrichment of phosphorylation
 * Glycosylation
 * SISCAPA
+
+### Phosphoproteomics  
+Protein phosphorylation is when a negatively charged phosphate group (PO 4-) is added on the side-chain hydroxyl groups of (Ser, S), threonine (Thr, T), and tyrosine (Tyr, Y), residues on target proteins. 
+Protein kinases catalyze the transfer of PO 4- group from ATP to the nucleophile (OH) group of serine (S), threonine (T), and tyrosine (Y) residues, while protein phosphatases catalyze the removal of PO 4 -. 
+Phosphorylation changes the charge of a protein, often altering protein conformation and therefore function [@PMID:26473910]. 
+Protein phosphorylation is one of the major post-translation modifications (PTM) that alters the stability, subcellular location, enzymatic activity complex formation, degradation of protein, and cell signalling of protein with a diverse role in cells [@PMID:31819260, @PMID:35227377]. 
+Phosphorylation can regulate almost all cellular processes, including metabolism, growth, division, differentiation, apoptosis, and signal transduction pathways [@PMID:28656226]. 
+Rapid changes in protein phosphorylation are associated with several diseases [@PMID:11589691]. 
+
+Several methods are used to characterize phosphorylation using modification-specific enrichment techniques combined with advanced MS/MS methods and computational data analysis [@PMID:19743430]. 
+MS-based phosphoproteomics tools are pivotal for the comprehensive study for the structural and dynamics of cellular signalling networks [@PMID:32676006], but there are many challenges [PMID:24890697]. 
+For example, phosphopeptides are low stoichiometry compared to non-phosphorylated peptides, which makes them difficult to identify. 
+Phosphopeptides also exhibit low ionization efficiency [@PMID:28283928]. 
+To overcome these challenges, it is important to reduce sample complexity to detect large numbers of phosphorylation sites. 
+This is accomplished using enrichment the modified proteins and/or peptides [@PMID:19816929; @PMID:30457327; @PMID:22002794]. 
+Prefractionation techniques such as strong anionic ion-exchange chromatography (SAX), strong cationic ion-exchange chromatography (SCX), and hydrophilic interaction liquid chromatography (HILIC) are also often useful for reducing sample complexity before enrichment to observe more phosphorylation sites [@DOI:10.1021/pr500893m]. 
+
+As with any proteomics experiment, phosphoproteomics studies require protein extraction, proteolytic enzyme digestion, phosphopeptide enrichment, peptide fractionation, LC-MS/MS, bioinformatics data analysis, and biological function inference. 
+Special consideration is required during protein extraction where the cell lysis buffer should include phosphatase inhibitors such as sodium orthovanadate, sodium pyrophosphatase and beta-glycerophosphate [@PMID:35011700]. 
+
+Enrichment can be done at the protein level before proteolysis. 
+Phosphoprotein enrichment typically involves the use of immobilized metal-affinity chromatography (IMAC) to selectively capture phosphorylated proteins based on their high-affinity binding to metal ions such as Ga(III), Fe(III), Zn(II) and Al(III) [@PMID:10424175, @PMID:16464107, @PMID:3085541, @PMID:17480206, @PMID:16252304]. 
+
+Enrichment is more commonly done at the peptide level because there are several advantages over phosphoprotein enrichment. 
+First, peptides have simpler three-dimensional structures than proteins, which makes them easier to separate and analyze. 
+Second, phosphopeptide enrichment is not hindered by small, lipophilic, and very acidic or alkaline proteins [@PMID:22002794]. 
+Third, prefractionation techniques such as strong anionic ion-exchange chromatography (SAX), strong cationic ion-exchange chromatography (SCX) and hydrophilic interaction liquid chromatography (HILIC) are easier to use for peptide separation than they are for protein separation, and they are more sensitive than 2D-gel electrophoresis, allowing for the identification of less abundant phosphopeptides [@PMID:15966007]. 
+As a result, phosphopeptide enrichment has more yielded more experimental data than phosphoprotein enrichment [@PMID:17480206]. 
+
+Phosphopeptide enrichment often uses titanium dioxide (TiO2) [@PMID:15858219] and/or IMAC such as Fe3+ coupled to solid-phase materials [@PMID:3085541; @PMID:35011700, @PMID:26584922]. 
+Often organic acids such as glutamic acid, lactic acid, glycolic acid is added to compete with acidic non-phosphopeptides for binding to the metal-ions. 
+
+The use of Fe-IMAC column chromatography allows for the improved phosphopeptide from complex peptide mixtures [@PMID:25394399]. 
+Compared to other formats like StageTips or batch incubations with TiO2 or Ti-IMAC beads, Fe-IMAC columns have do not suffer from problems with poor binding or elution of phosphopeptides, and the efficiency of enrichment increases linearly with the amount of starting material [@PMID:28188522].
+
+Multiple IMAC steps can be used in parallel or sequentially to improve phosphopeptide coverage. 
+Lai et al., (2012) showed that the combined use of Fe3+-IMAC and Ti(4+)-IMAC chromatography enables complementary identification of more phosphorylation sites than either technique alone [@PMID:22886815]. 
+A novel phosphopeptide enrichment technique using sequential enrichment with magnetic Fe3O4 and TiO2 particles was developed to detect mono- and multi-phosphorylated peptides [@PMID:20411586]. 
+
+#### General protocol for phosphoproteomics:  
+•	Collect cell line or tissue samples  
+•	For cell samples, suspend the cell pellet in 2% SDS lysis buffer, heat at 90°C for 5 min, and sonicate. 
+•	For tissue samples, homogenize in liquid nitrogen and add to 4% SDS lysis buffer, then heat at 90°C for 5 min and sonicate. 
+•	Centrifuge the samples at 3,000 rcf to remove insoluble material. Remove supernatant to a new tube.
+•	Add 5 mM Tris (2-carboxyethyl) phosphine (TCEP) and 10 mM chloroacetamide to the samples for alkylation and reduction in the dark at room temperature for 30 minutes
+•	Precipitate the protein with acetone to remove SDS
+•	Dissolve the protein pellet in 8M Urea with 50 mM TEAB
+•	Quantify the protein using a BCA assay
+•	Perform proteolysis with trypsin using 1:100 trypsin:substrate (wt:wt). For example, if you have 1 mg of protein, add 10 ug of trypsin
+•	Desalt the resulting peptides using Sep-Pak C18 columns or stage tips
+•	Subject the fractions to phosphopeptide enrichment using TiO2/ Fe‐IMAC beads
+•	Desalt the peptides again using C18 stage tips
+•	Perform LC-MS/MS
+
+#### Tips for studying phosphorylation:  
+•	Cell lysates should always be prepared using phosphatase inhibitors and samples should be placed on the ice during sonication for protein extraction
+•	Increase the amount of starting material of your sample for phosphoenrichment to at least 1 mg of protein or more for optimal results
+•	If using anti-phosphorylation antibodies, ensure their specificity is confirmed with other methods
+•	Make sure to select a suitable method for the phosphoenrichment that fits the experiment goals. 
+•	TiO2-based phosphopeptide enrichment methods have different enrichment specificities; selecting non-phosphopeptide excluders such as glutamic acid, lactic acid, glycolic acid, and dihydroxybenzoic acid are the key part of the study [@PMID:35805136]
+•	Do not use milk as a blocking agent when western blotting for phosphorylation because milk contains the phosphoprotein casein. This can lead to a higher background due to non-specific recognition of phosphorylation in casein.
+
+### Antibody enrichments of modifications  
+Western blot analysis is used to detect the PTMs in a protein by using antibodies [@PMID:25059473]. 
+As an extension of this, pan-PTM antibodies have been used to isolate peptides bearing the PTM of interest [@PMID:8633009]. 
+One benefit of this approach is that peptides are less likely to experience non-specific binding than proteins [@PMID:19743430]. 
+Initially peptide immunoaffinity precipitation was developed to enrich for phosphotyrosine-containing peptides. 
+This protocol was initially designed to enrich for phosphotyrosine-containing peptides [@PMID:15592455]. 
+Peptide immunoprecipitation yielded significantly greater coverage of the phosphotyrosine proteome than global phosphorylation enrichment strategies by enriching for a subset of the phosphoproteome.  
+Since then, peptide immunoaffinity precipitation has been used successfully to enrich for peptides with other phosphorylation motifs [@PMID:17525332, @PMID:20736484] as well as peptides with other modifications such as the diglycyl-lysine residue of ubiquitin modification after trypsin proteolysis [@PMID:21963094, @PMID:21906983, @PMID:21890473], acetyl-lysine [@PMID:19608861; @PMID:23201123; @PMID:25953088, @PMID:31087289; @DOI:10.1002/pmic.201800123], arginine methylation [@PMID:24129315], tyrosine nitration [@PMID:28714690], and tyrosine phosphorylation [@PMID:19770167, @PMID:15951569]. 
+
+The O-linked β-D-N-acetylglucosamine (O-GlcNac) is found on serine and threonine residues of nucleocytoplasmic proteins a one of PTMs is involved in involved in the occurrence and progression of cancers in multiple systems throughout the body [@PMID:36104770]. 
+Anti-O-GlcNAc monoclonal antibody enables enrichment from O-GlcNAcylated peptides of cells and tissues. 
+These antibodies have high sensitivity and specificity toward O-GlcNAc-modified peptides and do not identify O-GalNAc or GlcNAc in extended glycans [@PMID:34678516].
 
 ### Abundant protein depletion (Blood samples)
 The range abundances of proteins in the blood/plasma proteome exceeds 10 orders of magnitude. 
@@ -785,7 +856,7 @@ Identifying protein biomarkers from biological samples such as blood is often ob
 The removal of these high abundant proteins enables the detection of less abundant and unique proteins. 
 The ability to deplete abundant proteins with specificity, reproducibility, and selectivity is extremely important in proteomic studies [@PMID:16052628].
 
-The following are some of the methods used for abundant protein depletion:
+The following are some of the methods used for abundant protein depletion:  
 
 #### Dye-ligand depletion: 
 This method is used for the depletion of serum albumin based on the interaction between albumin and dyes like Cibacron Blue (CB) through electrostatic force, hydrogen bonding and hydrophobic interactions. 
