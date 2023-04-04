@@ -18,10 +18,10 @@ alkylate
 alkylated
 alkylating
 alkylation
-Alphafold
+AlphaFold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -43,7 +43,7 @@ Balaya
 BCA
 Benchmarking
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 biocuration
 Biognosys
@@ -79,7 +79,7 @@ carboxyethyl
 carboxyl
 cationic
 CBQCA
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -90,7 +90,7 @@ chelators
 chloroacetamide
 chromatogram
 chromatograms
-chromatographic
+Chromatographic
 Chymotrypsin
 chymotrypsinogen
 chymotryptic
@@ -101,7 +101,7 @@ Clostridium
 Clostripain
 coIP
 coli
-Collisional
+collisional
 Colorimetric
 Colorimetry
 Combinatorial
@@ -115,7 +115,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -128,7 +128,7 @@ cysteine
 cysteines
 Cytoscape
 databses
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -154,7 +154,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
 disulfide
@@ -169,7 +169,7 @@ ECD
 edoud
 EDTA
 electrophoresis
-electrospray
+Electrospray
 elegans
 elute
 eluted
@@ -238,7 +238,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -249,7 +249,7 @@ glycopeptides
 Glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 Goodlett
 GPMDB
@@ -302,14 +302,14 @@ interconnectedness
 interferences
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-isoelectric
-Isoform
+Isoelectric
+isoform
 isoforms
 isoleucine
 Isothermal
@@ -364,7 +364,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-martinmayta
+MartinMayta
 MassQC
 MaxDIA
 MaxQaunt
@@ -411,7 +411,7 @@ nanofibers
 nanomaterials
 NanoOrange
 NCBI
-Neely
+neely
 NHS
 NIST
 NMR
@@ -469,7 +469,7 @@ PPIs
 PQD
 practioners
 Pre
-prefractionation
+Prefractionation
 PRM
 Progenesis
 Prot
@@ -481,11 +481,11 @@ proteoform
 proteoforms
 proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 proteomic
-proteomics
+Proteomics
 ProtParam
 protti
 Pseudomonas
@@ -514,7 +514,7 @@ rawDiag
 RawMeat
 rawrr
 rcf
-Reactome
+REACTOME
 refered
 RefSeq
 reproducibility
@@ -526,7 +526,7 @@ RosettaFold
 RPLC
 Scherrer
 Schuster
-Sciex
+SCIEX
 scrofa
 SCX
 SDS
@@ -606,15 +606,15 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-tris
+tripleTOF
+Tris
 Tritirachium
 TRP
 trypsin
@@ -639,7 +639,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 useable
 valine
 Vanuopadath
