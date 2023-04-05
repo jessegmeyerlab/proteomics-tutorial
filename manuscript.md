@@ -7,17 +7,17 @@ keywords:
 lang: en-US
 date-meta: '2023-04-05'
 author-meta:
+- Dina Schuster
+- Amit Kumar Yadav
+- Martín L. Mayta
 - Benjamin A. Neely
 - Jesse G. Meyer
-- Germán L. Rosano
-- Devasahayam Arokia Balaya Rex
-- Susan B. Egbert
-- Oliver M. Crook
 - Muralidharan Vanuopadath
-- Dina Schuster
-- Martín L. Mayta
+- Susan B. Egbert
+- Devasahayam Arokia Balaya Rex
+- Germán L. Rosano
 - Emma H. Doud
-- Amit Kumar Yadav
+- Oliver M. Crook
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -32,14 +32,29 @@ header-includes: |
   <meta name="dc.date" content="2023-04-05" />
   <meta name="citation_publication_date" content="2023-04-05" />
   <meta property="article:published_time" content="2023-04-05" />
-  <meta name="dc.modified" content="2023-04-05T21:44:06+00:00" />
-  <meta property="article:modified_time" content="2023-04-05T21:44:06+00:00" />
+  <meta name="dc.modified" content="2023-04-05T21:52:36+00:00" />
+  <meta property="article:modified_time" content="2023-04-05T21:52:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Dina Schuster" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
+  <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
   <meta name="citation_author" content="Benjamin A. Neely" />
   <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
   <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
@@ -48,54 +63,39 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Germán L. Rosano" />
-  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
-  <meta name="twitter:creator" content="@GermanRosano" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Susan B. Egbert" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
-  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
-  <meta name="twitter:creator" content="@lichenlady94" />
-  <meta name="citation_author" content="Oliver M. Crook" />
-  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
-  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
-  <meta name="twitter:creator" content="@OllyMCrook" />
   <meta name="citation_author" content="Muralidharan Vanuopadath" />
   <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
   <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
   <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Dina Schuster" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
-  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
-  <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Susan B. Egbert" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
+  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
+  <meta name="twitter:creator" content="@lichenlady94" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Germán L. Rosano" />
+  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
+  <meta name="twitter:creator" content="@GermanRosano" />
   <meta name="citation_author" content="Emma H. Doud" />
   <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
   <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Oliver M. Crook" />
+  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
+  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
+  <meta name="twitter:creator" content="@OllyMCrook" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7e01bccc79a4583370e389ce6063a07e3f9709f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7e01bccc79a4583370e389ce6063a07e3f9709f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7e01bccc79a4583370e389ce6063a07e3f9709f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -117,9 +117,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7e01bccc79a4583370e389ce6063a07e3f9709f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b7e01bc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b7e01bccc79a4583370e389ce6063a07e3f9709f)
+from [jessegmeyerlab/proteomics-tutorial@9a71bbb](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/9a71bbb918793a6a8cd2a787e2e62ca8f323814e)
 on April 5, 2023.
 </em></small>
 
@@ -128,6 +128,46 @@ on April 5, 2023.
 ## Authors
 
 
+
++ **Dina Schuster**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)
+    <br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Amit Kumar Yadav**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)
+    <br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+  </small>
+
++ **Martín L. Mayta**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [martinmayta](https://github.com/martinmayta)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [MartinMayta2](https://twitter.com/MartinMayta2)
+    <br>
+  <small>
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+  </small>
 
 + **Benjamin A. Neely**
   <br>
@@ -157,31 +197,17 @@ on April 5, 2023.
      · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
-+ **Germán L. Rosano**
++ **Muralidharan Vanuopadath**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ger225](https://github.com/ger225)
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [GermanRosano](https://twitter.com/GermanRosano)
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
     <br>
   <small>
-     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
-     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
 + **Susan B. Egbert**
@@ -197,56 +223,31 @@ on April 5, 2023.
      Department of Chemistry, University of Manitoba, Winnipeg, Cananda
   </small>
 
-+ **Oliver M. Crook**
++ **Devasahayam Arokia Balaya Rex**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ococrook](https://github.com/ococrook)
+    [ArokiaRex](https://github.com/ArokiaRex)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [OllyMCrook](https://twitter.com/OllyMCrook)
+    [rexprem](https://twitter.com/rexprem)
     <br>
   <small>
-     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
-+ **Muralidharan Vanuopadath**
++ **Germán L. Rosano**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    [ger225](https://github.com/ger225)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    [GermanRosano](https://twitter.com/GermanRosano)
     <br>
   <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
-  </small>
-
-+ **Dina Schuster**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)
-    <br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
-+ **Martín L. Mayta**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
-    <br>
-  <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
 + **Emma H. Doud**
@@ -262,18 +263,17 @@ on April 5, 2023.
      Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
-+ **Amit Kumar Yadav**
++ **Oliver M. Crook**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
+    [ococrook](https://github.com/ococrook)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)
+    [OllyMCrook](https://twitter.com/OllyMCrook)
     <br>
   <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
   </small>
 
 
@@ -475,7 +475,7 @@ See the Peptide/Protein Enrichment and Depletion section for more details.
 Despite advancement in technology of phosphoproteomics, the following challenges still exist: limited sample amounts, highly complex samples, and huge dynamic range [@doi:10.1016/j.copbio.2008.06.006]. 
 Additionally, phosphoproteomic analysis is often time-consuming and requires the use of expensive equipment such as enrichment kits.
 
-### Glycoproteomics
+#### Glycoproteomics
 One PTM gaining interest due to its ubiquity and emerging functional roles is glycosylation. 
 Protein glycosylation sites can be N-linked glycosylation sites (asparagine-linked), O-linked glycosylation sites (serine/threonine-linked). 
 Understanding the function of protein glycosylation will help us understand numerous biological processes since this is a universal protein modification across all domains of life [@doi:10.1038/s43586-022-00128-4; @doi:10.1093/glycob/cww086; @doi:10.1016/j.cell.2006.08.019; @doi:10.1146/annurev-neuro-071714-034019].
@@ -488,7 +488,9 @@ Mass spectrometry has improved over the past decade so that now more strategies 
 
 
 ### Structural techniques
-1. XL-MS (Cross-linking mass spectrometry)
+Several proteomics methods have been developed to reveal protein structure information for simple and complex systems.
+
+#### XL-MS (Cross-linking mass spectrometry)  
 XL-MS is an emerging technology for the field of proteomics. 
 It can be used to determine changes in protein-protein interactions. 
 XL-MS covalently locks interacting proteins together to preserve interactions and proximity during MS analysis. 
@@ -497,21 +499,35 @@ XL-MS is different from traditional MS in that it requires the identification of
 The common steps in a XL-MS workflow are as follows [@DOI:10.1021/acs.analchem.7b04431]:  
 1. Generate a system with protein-protein interactions of interest (_in vitro_ or _in vivo_ [@DOI:10.1074/mcp.M114.042630])  
 2. Add a cross-linking reagent to covalently connect adjacent protein regions (such as disuccinimidyl sulfoxide, DSSO) [@doi:10.1021/jasms.9b00085]  
-3. Proteolysis to produce peptides
-4. MS/MS data collection
-5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099]).
-6. Generate cross-link maps for structural modeling
+3. Proteolysis to produce peptides  
+4. MS/MS data collection  
+5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099])  
+6. Generate cross-link maps for structural modeling  
 
-2. Hydrogen deuterium exchange mass spectrometry (HDX-MS)
+#### Hydrogen deuterium exchange mass spectrometry (HDX-MS)  
 HDX-MS works by detecting changes in peptide mass due to exchange of amide hydrogens of the protein backbone is with deuterium from D2O [@doi:10.1038/s41592-019-0459-y]. 
-The rate of exchange depends on the protein solvent accessible surface area, dynamics, and the properties of the amino acid sequence [@doi:10.1038/s41592-019-0459-y; @doi:10.1039/C0CS00113A; @doi:10.1016/S0065-3233(08)60129-1; @doi:10.1017/S0033583500005217].
+The rate of exchange depends on the protein solvent accessible surface area, dynamics, and the properties of the amino acid sequence [@doi:10.1038/s41592-019-0459-y; @doi:10.1039/C0CS00113A; @PMID:5333290; @doi:10.1017/S0033583500005217].
 Although using D2O as a solvent to make deuterium labeled sample is simple, HDX-MS requires a number of controls to ensure that experimental conditions capture the dynamics of interest [@doi:10.1038/s41592-019-0459-y; @doi:10.1586/epr.10.109; @doi:/10.1007/s13361-012-0377-z; @doi:10.4155/bio.15.46]. 
 If the peptide dissociation process is tuned appropriately, residue-level quantification of changes in solvent accessibility are possible within a measured peptide [@DOI:10.1021/ac0710782].
 If done correctly, HDX can produce precise protein structure measurements with high reproducibility.
 Masson *et al.* gave recommendations on how to prep samples, conduct data analysis, and present findings in a detailed stepwise manner that will be useful to have if you are new to using this technique [@doi:10.1038/s41592-019-0459-y].
 
-3. Fast photochemical oxidation of proteins (FPOP) [@doi:10.1074/jbc.REV119.006218].
-FPOP is a laser-based hydroxyl radical protein footprinting MS method that relies on the irreversible labeling of solvent-exposed amino acid side chains by hydroxyl radicals in order to understand structure of proteins.
+#### Radical Footprinting  
+This technique uses hydroxyl radical footprinting and MS in order to elucidate protein structures, assembly, and interactions within a large macromolecule [@doi:10.1021/cr0682047; @DOI:10.1021/ac200567u].
+In addition to proteomics applications, various approaches to make hydroxide radicals have also been applied for footprinting studies in nucleic acid/ligand interactions [@doi:10.1016/j.cbpa.2005.02.009; @doi:10.1002/0471142700.nc0607s07; @doi:10.1093/nar/gkz089].
+This chapter is very useful in learning more on this topic [@doi:10.1002/9781118970195.ch15].
+
+There are several methods of producing radicals for protein footprinting:  
+1. Fenton and Fenton‐like Chemistry [@doi:10.1021/cr0682047; @doi:10.1016/j.elecom.2021.106970; @doi:10.1021/es903739f]  
+2. Electron-Pulse Radiolysis [@doi:10.1021/cr0682047; @doi:10.1016/j.jprot.2013.02.014]  
+3. High‐Voltage Electrical Discharge [@doi:10.1021/cr0682047; @doi:10.1016/j.ifset.2022.103055]  
+4. Synchrotron X‐ray Radiolysis of Water [@doi:10.1021/cr0682047; @doi:10.1016/j.jprot.2017.09.005]  
+5. Plasma Formation of OH Radicals [@doi:10.1021/cr0682047; @doi:10.1016/j.ijfoodmicro.2018.12.017]  
+6. Photolysis of Hydrogen Peroxide [@doi:10.1021/cr0682047; @doi:10.1016/j.jasms.2005.09.008]  
+
+#### Fast photochemical oxidation of proteins (FPOP) [@doi:10.1074/jbc.REV119.006218]  
+FPOP is an example of a radical footprinting method. 
+In FPOP, a laser-based hydroxyl radical protein footprinting MS method that relies on the irreversible labeling of solvent-exposed amino acid side chains by hydroxyl radicals in order to understand structure of proteins.
 A laser produces 248 nm light that causes hydrogen peroxide to break into a pair of hydroxyl radicals [@doi:10.1016/j.jasms.2005.09.008; @doi:10.1016/j.ijms.2006.08.018]. 
 The flow rate of solution through the capillary and laser frequency are adjusted so that each protein molecule is irradiated only once. 
 After they are irradiated, the sample is collected to a tube that has catalase and free methionine in the buffer so that the H2O2 and hydroxyl radical are quenched to prevent further unwarranted oxidation, which may then modify residues that become exposed due unfolding after the initial labeling. 
@@ -519,37 +535,22 @@ Control samples are made by running the sample through the flow system without a
 Another experimental control is done by adding a radical scavenger to tune the extent of protein oxidation [@doi:10.1002/pro.3408; @doi:10.1021/ac901054w].
 FPOP has wide application for proteins including measurements of fast protein folding and transient dynamics.
 
-4. Protein Painting [@doi:10.1038/ncomms5413; @doi:10.1074/jbc.RA118.007310].
+#### Protein Painting [@doi:10.1038/ncomms5413; @doi:10.1074/jbc.RA118.007310]  
 Protein painting uses "molecular paints" to noncovalently coat the solvent accessible surface of proteins. 
 These paint molecules will coat the protein surfaces but will not have access to the hydrophobic cores or protein-protein interface regions that solvents cannot access. 
 If the "paint" covers free amines of lysine side chains, the parts that are painted will not be subjected to trypsin cleavage, while the unpainted areas will. 
 After proteolysis, the peptides samples will be subjected to MS. 
 A lack of proteolysis in a region is interpreted as solvent accessibility, which gives rough structural information about complex protein mixtures or even a whole proteome.
 
-5. LiP-MS (limited proteolysis mass spectrometry) [@doi:10.1016/j.tibs.2020.05.006; @DOI:10.1038/nprot.2017.100; @doi:10.1038/s41596-022-00771-x; @doi:10.1038/nprot.2017.100].
+#### LiP-MS (limited proteolysis mass spectrometry) [@doi:10.1016/j.tibs.2020.05.006; @DOI:10.1038/nprot.2017.100; @doi:10.1038/s41596-022-00771-x; @doi:10.1038/nprot.2017.100]  
 Limited proteolysis coupled to mass spectrometry (LiP-MS) is a method that tracks structural changes in complex proteomes in response to arbitrary stimuli.
 The idea is to detect changes in protease-accessible protein regions due to the perturbation.
 For example, a drug binding may make a disordered region protected from non-specific proteolysis. 
 LiP-MS can therefore provide a somewhat unbiased view of structural changes at the proteome scale.
 This may be useful when attempting to discover a mechanism for some treatment that causes a phenotype. 
-
 For additional information about LiP-MS, please refer to this document: [@url:https://www.eubopen.org/sites/www.eubopen.org/files/attachments/2022/LiP-MS%20protocol.pdf]
 
-6. Radical Footprinting 
-This technique uses hydroxyl radical footprinting and MS in order to elucidate protein structures, assembly, and interactions within a large macromolecule [@doi:10.1021/cr0682047; @DOI:10.1021/ac200567u].
-In addition to proteomics applications, various approaches to make hydroxide radicals have also been applied for footprinting studies in nucleic acid/ligand interactions [@doi:10.1016/j.cbpa.2005.02.009; @doi:10.1002/0471142700.nc0607s07; @doi:10.1093/nar/gkz089].
-Below are known methods of producing radicals for footprinting.
-1. Fenton and Fenton‐like Chemistry [@doi:10.1021/cr0682047; @doi:10.1016/j.elecom.2021.106970; @doi:10.1021/es903739f]
-2. Electron-Pulse Radiolysis [@doi:10.1021/cr0682047; @doi:10.1016/j.jprot.2013.02.014]
-3. High‐Voltage Electrical Discharge [@doi:10.1021/cr0682047; @doi:10.1016/j.ifset.2022.103055]
-4. Synchrotron X‐ray Radiolysis of Water [@doi:10.1021/cr0682047; @doi:10.1016/j.jprot.2017.09.005]
-5. Plasma Formation of OH Radicals [@doi:10.1021/cr0682047; @doi:10.1016/j.ijfoodmicro.2018.12.017]
-6. Photolysis of Hydrogen Peroxide [@doi:10.1021/cr0682047; @doi:10.1016/j.jasms.2005.09.008]
-
-This chapter is very useful in learning more on this topic [@doi:10.1002/9781118970195.ch15].
-
-
-### Protein stability and small molecule binding
+### Protein stability and small molecule binding  
 1. Thermal proteome profiling (TPP) [@doi:10.15252/msb.20199232; @doi:10.1016/j.cbpa.2022.102225; @doi:10.1021/jacs.1c10621; @doi:10.1002/9781118970195.ch11]
 Thermal proteome profiling (TPP) involves subjecting a protein sample to a thermal shift assay (TSA), in which the protein is exposed to a range of temperatures, and the resulting changes in protein stability are monitored using mass spectrometry.
 During a typical TPP experiment, a protein sample is first treated with a drug of interest to stabilize protein-ligand interactions. 
@@ -561,8 +562,9 @@ By comparing protein stability curves across the temperatures between treatment 
 CETSA is the same idea as TPP, but specifically for studies of protein stability in live cells. 
 The assay is capable of detecting shifts in the thermal equilibrium of cellular proteins in response to a variety of perturbations, but most commonly in response to drug treatments. 
 
-### Protein-protein interactions (PPIs)
-1. Affinity purification coupled to mass spectrometry (AP-MS) [@doi:10.1002/iub.1081; @doi:10.1038/nrg3356; @doi:10.1038/nmeth.2400]  
+### Protein-protein interactions (PPIs)  
+
+#### Affinity purification coupled to mass spectrometry (AP-MS) [@doi:10.1002/iub.1081; @doi:10.1038/nrg3356; @doi:10.1038/nmeth.2400]  
 AP-MS is an approach that involves the purification of a target protein or protein complex using a specific antibody followed by mass spectrometry analysis to identify the interacting proteins.
 In a typical AP-MS experiment, a protein or protein complex of interest is first tagged with a specific epitope or affinity tag, such as a FLAG or HA tag, which is used to selectively capture the target protein using an antibody. 
 The protein complex is then purified from the sample using a series of wash steps, and the interacting proteins are identified using mass spectrometry.
@@ -573,21 +575,20 @@ AP-MS has been performed on a whole proteome scale as part of the BioPlex projec
 Despite its widespread use, AP-MS has some limitations, including the potential for non-specific interactions, the difficulty in interpreting complex data sets, and the possibility of missing important interacting partners due to limitations in sensitivity or specificity. 
 However, with continued advances in technology and data analysis methods, AP-MS is likely to remain a valuable tool for the study of protein-protein interactions.
 
-2. APEX peroxidase [@doi:10.1038/nbt.2375; @DOI:10.1126/science.1230593]
+#### APEX peroxidase [@doi:10.1038/nbt.2375; @DOI:10.1126/science.1230593]
 APEX-MS is a labeling technique that enables genetically attaches a peroxidase to a protein of interest. 
 When biotin-phenol is transiently added in the presence of hydrogen peroxide, nearby proteins are covalently biotinylated [@DOI:10.1016/j.molcel.2014.06.003]. 
 APEX thereby enables discovery of interacting proteins in living cells. 
 One of the major advantages of APEX is its ability to label proteins in their native environment, allowing for the identification of interactions that occur under physiological conditions. 
 Despite its advantages, APEX has some limitations, including the potential for non-specific labeling, the difficulty in distinguishing between direct and indirect interactions, and the possibility of missing interactions that occur at low abundance or in regions of the cell that are not effectively labeled. 
 
-3. Proximity-dependent biotin identification (BioID) [@DOI:10.1083/jcb.201112098; @doi:10.1074/mcp.R120.001941; @doi:10.1002/pmic.201600123; @doi:10.1091/mbc.E15-12-0844]
+#### Proximity-dependent biotin identification (BioID) [@DOI:10.1083/jcb.201112098; @doi:10.1074/mcp.R120.001941; @doi:10.1002/pmic.201600123; @doi:10.1091/mbc.E15-12-0844]
 BioID is a proximity labeling technique that allows for the identification of protein-protein interactions. 
 BioID involves the genetic tagging of a protein of interest with a promiscuous biotin ligase in live cells, which then biotinylates proteins in close proximity to the protein of interest. 
 One of the advantages of BioID is its ability to label proteins in their native environment, allowing for the identification of interactions that occur under physiological conditions. 
 BioID has been used to identify a wide range of protein interactions, including receptor-ligand interactions, signaling complexes, and protein localization.
 BioID is a slower reaction than APEX and therefore may pick up more transient interactions.
 BioID has the same limitations as APEX. 
-
 For more information on BioID, please refer to this chapter: [@doi:10.1007/978-1-4939-8814-3_10]
 
 
