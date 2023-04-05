@@ -100,7 +100,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatographic
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -111,8 +111,8 @@ Clostripain
 coIP
 coli
 Collisional
-Colorimetric
-colorimetry
+colorimetric
+Colorimetry
 Combinatorial
 complexed
 conformational
@@ -125,7 +125,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -138,7 +138,7 @@ cysteine
 cysteines
 Cytoscape
 databses
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -181,7 +181,7 @@ ECD
 edoud
 EDTA
 Egbert
-electrophoresis
+Electrophoresis
 electrospray
 elegans
 elute
@@ -191,7 +191,7 @@ elution
 EMBL
 Endo
 endopeptidase
-enrichments
+Enrichments
 Ensembl
 enzymatically
 enzymogenesis
@@ -202,7 +202,7 @@ ERLIC
 ESI
 ETH
 ETISEQ
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 excluders
@@ -227,7 +227,7 @@ FlyBase
 fo
 focussing
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -264,7 +264,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -329,7 +329,7 @@ IonQuant
 IPG
 iRT
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isoleucine
@@ -437,7 +437,7 @@ nanofibers
 nanomaterials
 NanoOrange
 NCBI
-neely
+Neely
 NHS
 NIST
 NMR
@@ -458,7 +458,7 @@ omic
 OMSSA
 onotology
 OpenMS
-orbitrap
+Orbitrap
 orbitraps
 Ortholog
 orthology
@@ -479,9 +479,9 @@ phosphatase
 phosphatases
 phosphine
 phosphoenrichment
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteome
 phosphoproteomic
 Phosphoproteomics
@@ -502,12 +502,12 @@ PPIs
 PQD
 practioners
 Pre
-Prefractionation
+prefractionation
 PRM
 Progenesis
 Pronase
 prot
-protease
+Protease
 proteases
 Proteinase
 proteinness
@@ -549,7 +549,7 @@ rawDiag
 RawMeat
 rawrr
 rcf
-Reactome
+REACTOME
 refered
 RefSeq
 reproducibility
@@ -641,11 +641,11 @@ TMTs
 TOF
 TOFs
 TPP
-translational
+Translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
@@ -655,7 +655,7 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
 Tryptic
 TryTrypDB
@@ -672,14 +672,14 @@ unamenable
 uncharacterized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 useable
 valine
 Vanuopadath
