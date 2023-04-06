@@ -48,7 +48,7 @@ BCA
 Benchmarking
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 biocuration
 Biognosys
@@ -59,7 +59,7 @@ biomarkers
 Biomedicine
 Biomolecular
 biomolecules
-bioplex
+BioPlex
 biopolymers
 bioruptor
 biotinylated
@@ -100,7 +100,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatographic
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -110,9 +110,9 @@ Clostridium
 Clostripain
 coIP
 coli
-collisional
-Colorimetric
-Colorimetry
+Collisional
+colorimetric
+colorimetry
 Combinatorial
 complexed
 conformational
@@ -125,7 +125,7 @@ CRAPome
 cRFP
 crosslinked
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -138,7 +138,7 @@ cysteine
 cysteines
 Cytoscape
 databses
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -164,7 +164,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
 disuccinimidyl
@@ -182,7 +182,7 @@ edoud
 EDTA
 Egbert
 electrophoresis
-Electrospray
+electrospray
 elegans
 elute
 eluted
@@ -227,7 +227,7 @@ FlyBase
 fo
 focussing
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -255,7 +255,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -264,10 +264,10 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 Goodlett
 GPMDB
@@ -329,8 +329,8 @@ IonQuant
 IPG
 iRT
 isocratic
-Isoelectric
-Isoform
+isoelectric
+isoform
 isoforms
 isoleucine
 Isothermal
@@ -389,7 +389,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 MaxDIA
@@ -437,7 +437,7 @@ nanofibers
 nanomaterials
 NanoOrange
 NCBI
-neely
+Neely
 NHS
 NIST
 NMR
@@ -484,7 +484,7 @@ phosphopeptides
 Phosphoprotein
 phosphoproteome
 phosphoproteomic
-Phosphoproteomics
+phosphoproteomics
 phosphorylated
 phosphorylations
 PhosphoSitePlus
@@ -506,14 +506,14 @@ prefractionation
 PRM
 Progenesis
 Pronase
-Prot
+prot
 protease
 proteases
 Proteinase
 proteinness
 proteoform
 proteoforms
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
@@ -549,9 +549,9 @@ rawDiag
 RawMeat
 rawrr
 rcf
-Reactome
+REACTOME
 refered
-refseq
+RefSeq
 reproducibility
 resolubilization
 resuspending
@@ -561,7 +561,7 @@ RosettaFold
 RPLC
 Scherrer
 Schuster
-Sciex
+SCIEX
 scrofa
 SCX
 SDS
@@ -653,7 +653,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-tris
+Tris
 Tritirachium
 Trp
 trypsin
@@ -672,7 +672,7 @@ unamenable
 uncharacterized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef

@@ -7,21 +7,21 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2023-04-05",
+    "date-meta": "2023-04-06",
     "author-meta": [
-      "Dina Schuster",
-      "Amit Kumar Yadav",
-      "Martín L. Mayta",
       "Benjamin A. Neely",
-      "Jesse G. Meyer",
-      "Muralidharan Vanuopadath",
       "Susan B. Egbert",
-      "Devasahayam Arokia Balaya Rex",
-      "Germán L. Rosano",
       "Emma H. Doud",
+      "Devasahayam Arokia Balaya Rex",
+      "Muralidharan Vanuopadath",
+      "Jesse G. Meyer",
+      "Dina Schuster",
+      "Germán L. Rosano",
+      "Martín L. Mayta",
+      "Amit Kumar Yadav",
       "Oliver M. Crook"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"citation_title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"og:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"twitter:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"dc.date\" content=\"2023-04-05\" />\n<meta name=\"citation_publication_date\" content=\"2023-04-05\" />\n<meta property=\"article:published_time\" content=\"2023-04-05\" />\n<meta name=\"dc.modified\" content=\"2023-04-05T21:52:36+00:00\" />\n<meta property=\"article:modified_time\" content=\"2023-04-05T21:52:36+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Dina Schuster\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6611-8237\" />\n<meta name=\"twitter:creator\" content=\"@dina_sch\" />\n<meta name=\"citation_author\" content=\"Amit Kumar Yadav\" />\n<meta name=\"citation_author_institution\" content=\"Translational Health Science and Technology Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9445-8156\" />\n<meta name=\"twitter:creator\" content=\"@theoneamit\" />\n<meta name=\"citation_author\" content=\"Martín L. Mayta\" />\n<meta name=\"citation_author_institution\" content=\"School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina\" />\n<meta name=\"citation_author_institution\" content=\"Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7986-4551\" />\n<meta name=\"twitter:creator\" content=\"@MartinMayta2\" />\n<meta name=\"citation_author\" content=\"Benjamin A. Neely\" />\n<meta name=\"citation_author_institution\" content=\"Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6120-7695\" />\n<meta name=\"twitter:creator\" content=\"@neely615\" />\n<meta name=\"citation_author\" content=\"Jesse G. Meyer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Biomedicine, Cedars Sinai Medical Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2753-3926\" />\n<meta name=\"twitter:creator\" content=\"@j_my_sci\" />\n<meta name=\"citation_author\" content=\"Muralidharan Vanuopadath\" />\n<meta name=\"citation_author_institution\" content=\"School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9364-917X\" />\n<meta name=\"twitter:creator\" content=\"@V_MuraleeDhar\" />\n<meta name=\"citation_author\" content=\"Susan B. Egbert\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Manitoba, Winnipeg, Cananda\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5458-1099\" />\n<meta name=\"twitter:creator\" content=\"@lichenlady94\" />\n<meta name=\"citation_author\" content=\"Devasahayam Arokia Balaya Rex\" />\n<meta name=\"citation_author_institution\" content=\"Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9556-3150\" />\n<meta name=\"twitter:creator\" content=\"@rexprem\" />\n<meta name=\"citation_author\" content=\"Germán L. Rosano\" />\n<meta name=\"citation_author_institution\" content=\"Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8313-6813\" />\n<meta name=\"twitter:creator\" content=\"@GermanRosano\" />\n<meta name=\"citation_author\" content=\"Emma H. Doud\" />\n<meta name=\"citation_author_institution\" content=\"Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0049-0073\" />\n<meta name=\"twitter:creator\" content=\"@fireinlab\" />\n<meta name=\"citation_author\" content=\"Oliver M. Crook\" />\n<meta name=\"citation_author_institution\" content=\"Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5669-8506\" />\n<meta name=\"twitter:creator\" content=\"@OllyMCrook\" />\n<link rel=\"canonical\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"og:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"twitter:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"citation_title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"og:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta property=\"twitter:title\" content=\"A Practical Beginner&#39;s Guide to Proteomics\" />\n<meta name=\"dc.date\" content=\"2023-04-06\" />\n<meta name=\"citation_publication_date\" content=\"2023-04-06\" />\n<meta property=\"article:published_time\" content=\"2023-04-06\" />\n<meta name=\"dc.modified\" content=\"2023-04-06T01:13:31+00:00\" />\n<meta property=\"article:modified_time\" content=\"2023-04-06T01:13:31+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Benjamin A. Neely\" />\n<meta name=\"citation_author_institution\" content=\"Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6120-7695\" />\n<meta name=\"twitter:creator\" content=\"@neely615\" />\n<meta name=\"citation_author\" content=\"Susan B. Egbert\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Manitoba, Winnipeg, Cananda\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5458-1099\" />\n<meta name=\"twitter:creator\" content=\"@lichenlady94\" />\n<meta name=\"citation_author\" content=\"Emma H. Doud\" />\n<meta name=\"citation_author_institution\" content=\"Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0049-0073\" />\n<meta name=\"twitter:creator\" content=\"@fireinlab\" />\n<meta name=\"citation_author\" content=\"Devasahayam Arokia Balaya Rex\" />\n<meta name=\"citation_author_institution\" content=\"Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9556-3150\" />\n<meta name=\"twitter:creator\" content=\"@rexprem\" />\n<meta name=\"citation_author\" content=\"Muralidharan Vanuopadath\" />\n<meta name=\"citation_author_institution\" content=\"School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9364-917X\" />\n<meta name=\"twitter:creator\" content=\"@V_MuraleeDhar\" />\n<meta name=\"citation_author\" content=\"Jesse G. Meyer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Biomedicine, Cedars Sinai Medical Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2753-3926\" />\n<meta name=\"twitter:creator\" content=\"@j_my_sci\" />\n<meta name=\"citation_author\" content=\"Dina Schuster\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6611-8237\" />\n<meta name=\"twitter:creator\" content=\"@dina_sch\" />\n<meta name=\"citation_author\" content=\"Germán L. Rosano\" />\n<meta name=\"citation_author_institution\" content=\"Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8313-6813\" />\n<meta name=\"twitter:creator\" content=\"@GermanRosano\" />\n<meta name=\"citation_author\" content=\"Martín L. Mayta\" />\n<meta name=\"citation_author_institution\" content=\"School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina\" />\n<meta name=\"citation_author_institution\" content=\"Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7986-4551\" />\n<meta name=\"twitter:creator\" content=\"@MartinMayta2\" />\n<meta name=\"citation_author\" content=\"Amit Kumar Yadav\" />\n<meta name=\"citation_author_institution\" content=\"Translational Health Science and Technology Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9445-8156\" />\n<meta name=\"twitter:creator\" content=\"@theoneamit\" />\n<meta name=\"citation_author\" content=\"Oliver M. Crook\" />\n<meta name=\"citation_author_institution\" content=\"Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5669-8506\" />\n<meta name=\"twitter:creator\" content=\"@OllyMCrook\" />\n<link rel=\"canonical\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"og:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta property=\"twitter:url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/a4737314580f307bf66b2856eafb9ec5c17b9b9a/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/a4737314580f307bf66b2856eafb9ec5c17b9b9a/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jessegmeyerlab.github.io/proteomics-tutorial/v/a4737314580f307bf66b2856eafb9ec5c17b9b9a/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -31,65 +31,13 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "2023-04-05",
-    "date_long": "April 5, 2023",
-    "generated": "2023-04-05T21:52:36+00:00",
-    "generated_date_long": "April 5, 2023",
+    "date": "2023-04-06",
+    "date_long": "April 6, 2023",
+    "generated": "2023-04-06T01:13:31+00:00",
+    "generated_date_long": "April 6, 2023",
     "randomize_author_order": true,
-    "randomize_author_order_seed": "9a71bbb918793a6a8cd2a787e2e62ca8f323814e",
+    "randomize_author_order_seed": "a4737314580f307bf66b2856eafb9ec5c17b9b9a",
     "authors": [
-      {
-        "github": "dschust-r",
-        "name": "Dina Schuster",
-        "initials": "DS",
-        "orcid": "0000-0001-6611-8237",
-        "twitter": "dina_sch",
-        "email": "dschuster@ethz.ch",
-        "affiliations": [
-          "Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland",
-          "Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland",
-          "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland"
-        ],
-        "affiliation_numbers": [
-          1,
-          2,
-          3
-        ]
-      },
-      {
-        "github": "aky",
-        "name": "Amit Kumar Yadav",
-        "initials": "AKY",
-        "orcid": "0000-0002-9445-8156",
-        "twitter": "theoneamit",
-        "email": "amit.yadav@thsti.res.in",
-        "affiliations": [
-          "Translational Health Science and Technology Institute"
-        ],
-        "funders": [
-          "Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)",
-          "Grant Translational Research Program (TRP) at THSTI funded by DBT"
-        ],
-        "affiliation_numbers": [
-          4
-        ]
-      },
-      {
-        "github": "martinmayta",
-        "name": "Martín L. Mayta",
-        "initials": "MLM",
-        "orcid": "0000-0002-7986-4551",
-        "twitter": "MartinMayta2",
-        "email": "martin.mayta@uap.edu.ar",
-        "affiliations": [
-          "School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina",
-          "Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina"
-        ],
-        "affiliation_numbers": [
-          5,
-          6
-        ]
-      },
       {
         "github": "neely",
         "name": "Benjamin A. Neely",
@@ -104,7 +52,63 @@
           "NIST"
         ],
         "affiliation_numbers": [
-          7
+          1
+        ]
+      },
+      {
+        "github": "lichenlady94",
+        "name": "Susan B. Egbert",
+        "initials": "SBE",
+        "orcid": "0000-0001-5458-1099",
+        "twitter": "lichenlady94",
+        "email": "sbegbert80@gmail.com",
+        "affiliations": [
+          "Department of Chemistry, University of Manitoba, Winnipeg, Cananda"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "github": "edoud1",
+        "name": "Emma H. Doud",
+        "initials": "EHD",
+        "orcid": "0000-0003-0049-0073",
+        "twitter": "fireinlab",
+        "email": "edoud@iu.edu",
+        "affiliations": [
+          "Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": "ArokiaRex",
+        "name": "Devasahayam Arokia Balaya Rex",
+        "initials": "DABR",
+        "orcid": "0000-0002-9556-3150",
+        "twitter": "rexprem",
+        "email": "rexprem@yenepoya.edu.in",
+        "affiliations": [
+          "Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India"
+        ],
+        "affiliation_numbers": [
+          4
+        ]
+      },
+      {
+        "github": "vanuopadathmurali",
+        "name": "Muralidharan Vanuopadath",
+        "initials": "MV",
+        "orcid": "0000-0002-9364-917X",
+        "twitter": "V_MuraleeDhar",
+        "email": "muralidharanv@am.amrita.edu",
+        "affiliations": [
+          "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India"
+        ],
+        "affiliation_numbers": [
+          5
         ]
       },
       {
@@ -126,49 +130,25 @@
           "lastapproved": "2022-01-16"
         },
         "affiliation_numbers": [
-          8
+          6
         ]
       },
       {
-        "github": "vanuopadathmurali",
-        "name": "Muralidharan Vanuopadath",
-        "initials": "MV",
-        "orcid": "0000-0002-9364-917X",
-        "twitter": "V_MuraleeDhar",
-        "email": "muralidharanv@am.amrita.edu",
+        "github": "dschust-r",
+        "name": "Dina Schuster",
+        "initials": "DS",
+        "orcid": "0000-0001-6611-8237",
+        "twitter": "dina_sch",
+        "email": "dschuster@ethz.ch",
         "affiliations": [
-          "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India"
+          "Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland",
+          "Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland",
+          "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland"
         ],
         "affiliation_numbers": [
+          7,
+          8,
           9
-        ]
-      },
-      {
-        "github": "lichenlady94",
-        "name": "Susan B. Egbert",
-        "initials": "SBE",
-        "orcid": "0000-0001-5458-1099",
-        "twitter": "lichenlady94",
-        "email": "sbegbert80@gmail.com",
-        "affiliations": [
-          "Department of Chemistry, University of Manitoba, Winnipeg, Cananda"
-        ],
-        "affiliation_numbers": [
-          10
-        ]
-      },
-      {
-        "github": "ArokiaRex",
-        "name": "Devasahayam Arokia Balaya Rex",
-        "initials": "DABR",
-        "orcid": "0000-0002-9556-3150",
-        "twitter": "rexprem",
-        "email": "rexprem@yenepoya.edu.in",
-        "affiliations": [
-          "Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India"
-        ],
-        "affiliation_numbers": [
-          11
         ]
       },
       {
@@ -185,18 +165,38 @@
           "Grant PICT 2019-02971 (Agencia I+D+i)"
         ],
         "affiliation_numbers": [
+          10
+        ]
+      },
+      {
+        "github": "martinmayta",
+        "name": "Martín L. Mayta",
+        "initials": "MLM",
+        "orcid": "0000-0002-7986-4551",
+        "twitter": "MartinMayta2",
+        "email": "martin.mayta@uap.edu.ar",
+        "affiliations": [
+          "School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina",
+          "Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina"
+        ],
+        "affiliation_numbers": [
+          11,
           12
         ]
       },
       {
-        "github": "edoud1",
-        "name": "Emma H. Doud",
-        "initials": "EHD",
-        "orcid": "0000-0003-0049-0073",
-        "twitter": "fireinlab",
-        "email": "edoud@iu.edu",
+        "github": "aky",
+        "name": "Amit Kumar Yadav",
+        "initials": "AKY",
+        "orcid": "0000-0002-9445-8156",
+        "twitter": "theoneamit",
+        "email": "amit.yadav@thsti.res.in",
         "affiliations": [
-          "Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA"
+          "Translational Health Science and Technology Institute"
+        ],
+        "funders": [
+          "Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)",
+          "Grant Translational Research Program (TRP) at THSTI funded by DBT"
         ],
         "affiliation_numbers": [
           13
@@ -219,55 +219,55 @@
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland",
+        "affiliation": "Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland",
+        "affiliation": "Department of Chemistry, University of Manitoba, Winnipeg, Cananda",
         "affiliation_number": 2
       },
       {
-        "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland",
+        "affiliation": "Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA",
         "affiliation_number": 3
       },
       {
-        "affiliation": "Translational Health Science and Technology Institute",
+        "affiliation": "Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India",
         "affiliation_number": 4
       },
       {
-        "affiliation": "School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina",
+        "affiliation": "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India",
         "affiliation_number": 5
       },
       {
-        "affiliation": "Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina",
+        "affiliation": "Department of Computational Biomedicine, Cedars Sinai Medical Center",
         "affiliation_number": 6
       },
       {
-        "affiliation": "Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston",
+        "affiliation": "Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland",
         "affiliation_number": 7
       },
       {
-        "affiliation": "Department of Computational Biomedicine, Cedars Sinai Medical Center",
+        "affiliation": "Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland",
         "affiliation_number": 8
       },
       {
-        "affiliation": "School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India",
+        "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland",
         "affiliation_number": 9
       },
       {
-        "affiliation": "Department of Chemistry, University of Manitoba, Winnipeg, Cananda",
+        "affiliation": "Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina",
         "affiliation_number": 10
       },
       {
-        "affiliation": "Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India",
+        "affiliation": "School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina",
         "affiliation_number": 11
       },
       {
-        "affiliation": "Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina",
+        "affiliation": "Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina",
         "affiliation_number": 12
       },
       {
-        "affiliation": "Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA",
+        "affiliation": "Translational Health Science and Technology Institute",
         "affiliation_number": 13
       },
       {
@@ -280,15 +280,15 @@
       "repo_slug": "jessegmeyerlab/proteomics-tutorial",
       "repo_owner": "jessegmeyerlab",
       "repo_name": "proteomics-tutorial",
-      "commit": "9a71bbb918793a6a8cd2a787e2e62ca8f323814e",
-      "triggering_commit": "9a71bbb918793a6a8cd2a787e2e62ca8f323814e",
-      "build_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/commit/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/checks",
-      "job_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/actions/runs/4623167446"
+      "commit": "a4737314580f307bf66b2856eafb9ec5c17b9b9a",
+      "triggering_commit": "a4737314580f307bf66b2856eafb9ec5c17b9b9a",
+      "build_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/commit/a4737314580f307bf66b2856eafb9ec5c17b9b9a/checks",
+      "job_url": "https://github.com/jessegmeyerlab/proteomics-tutorial/actions/runs/4624389772"
     },
     "html_url": "https://jessegmeyerlab.github.io/proteomics-tutorial/",
     "pdf_url": "https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf",
-    "html_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/",
-    "pdf_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/9a71bbb918793a6a8cd2a787e2e62ca8f323814e/manuscript.pdf",
+    "html_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/a4737314580f307bf66b2856eafb9ec5c17b9b9a/",
+    "pdf_url_versioned": "https://jessegmeyerlab.github.io/proteomics-tutorial/v/a4737314580f307bf66b2856eafb9ec5c17b9b9a/manuscript.pdf",
     "manubot_version": "0.5.5",
     "rootstock_commit": "9a22fab4497f80f501ea361d028f26888ad9d5a0",
     "manuscript_stats": {
