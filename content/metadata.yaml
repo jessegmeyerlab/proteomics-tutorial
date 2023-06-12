@@ -113,6 +113,16 @@ authors:
     email: sbegbert80@gmail.com
     affiliations:
       - Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+
+  - github: norbertvolkmar
+    name: Norbert Volkmar
+    initials: NV
+    orcid: 0000-0003-0766-5606
+    twitter: NorbertVolkmar    
+    email: norbertvolkmar22@gmail.com
+    affiliations:
+      - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
+      - DISCO Pharmaceuticals, Zurich 8093, Switzerland
       
   - github: jessegmeyerlab
     name: Jesse G. Meyer
