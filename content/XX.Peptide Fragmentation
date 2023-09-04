@@ -3,8 +3,6 @@ This is largely because intact peptide mass alone cannot unambiguously provide a
 Some more advanced proteomic acquisition methods use MS1-only feature detection in combination with retention time to maximize information used for downstream quantitation [@DOI:10.1021/acs.analchem.9b05095].
 In most of these, identifications are fundamentally based on MS/MS spectra, either acquired as part of a specific LC-MS/MS analysis that contains the MS/MS spectra themselves or on a spectral library of MS/MS spectra acquired previously [@DOI:10.1021/ac052197p; @DOI:10.1038/s41592-018-0003-5].
 True MS1-only methods that use only accurate mass and retention time for identification have been discussed, but these have yet to be widely adopted [@DOI:10.1021/acs.analchem.9b05095]. 
-
-The value of MS/MS spectra for peptide identification comes from predictable fragmentation behavior of peptide ions to generate sequence-informative fragments [@DOI:10.1073/pnas.83.17.6233; @DOI:10.1021/acs.jproteome.2c00838].
 Multiple dissociation methods exist to generate these product ions through various mechanisms, but the most ubiquitous is collision-induced dissociation (CID, also called collisionally-activated dissociation, CAD) [@DOI:10.1016/S0076-6879(05)02005-7].
 Here, collisions with inert gas molecules are used to increase the internal energy of peptide ions to reach bond dissociation energies that fragment them into products [@DOI:10.1002/(SICI)1096-9888(199705)32:5<461::AID-JMS515>3.0.CO;2-H].
 Various inert gases can be used; helium, nitrogen, and argon are the most common.
