@@ -1,3 +1,7 @@
+## Tandem Mass Spectrometry and Peptide Fragmentation {.page_break_before}
+
+### Tandem Mass Spectrometry
+
 Tandem MS, where precursor ions are selected and fragmented to generate an MS/MS spectrum containing peptide-derived product ions, is a fundamental process in modern proteomics [@DOI:10.1021/acs.jproteome.2c00838; @DOI: 10.1021/cr3003533].
 This is largely because intact peptide mass alone cannot unambiguously provide a peptide’s sequence [@DOI:10.1021/ac201624t].
 Some more advanced proteomic acquisition methods use MS1-only feature detection in combination with retention time to maximize information used for downstream quantitation [@DOI:10.1021/acs.analchem.9b05095].
