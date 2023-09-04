@@ -29,7 +29,7 @@ The increased kinetic energy creates more collisions with the background helium 
 Once ions dissociate, the fragments have different m/z values than the precursor ions, meaning they fall out of resonance with the supplemental rf and are no longer activated.
 Thus, resCID typically fragments only the most labile bonds in precursor ions and does not have secondary fragmentation behavior.
 As above, for non-modified peptide ions, this typically generates sequence-informative b- and y-type product ions.
-For modified peptides where the bonds connecting the modification to an amino acid are more labile than peptide bonds, e.g., phosphopeptides and glycopeptides, resCID MS/MS spectra can be dominated by products ions only of the PTM-loss rather than sequence informative fragment ions, although many factors govern this behavior.
+For modified peptides where the bonds connecting the modification to an amino acid are more labile than peptide bonds, e.g., phosphopeptides and glycopeptides, resCID MS/MS spectra can be dominated by products ions only of the PTM-loss rather than sequence informative fragment ions, although many factors govern this behavior [@DOI:10.1021/pr0705136; @DOI:10.1021/ac0497104].
 Because of this, and because this method requires an ion trap device with the ability to apply supplemental rfs, resCID is less used than beamCID.
 For both beamCID and resCID, the mobile proton model has been widely accepted to explain fragmentation behavior [@DOI:10.1002/1096-9888(200012)35:12<1399::AID-JMS86>3.0.CO;2-R], and this largely predictable behavior has greatly helped in manual and algorithm-assisted spectral interpretation.
 
