@@ -9,6 +9,27 @@ keywords:
 lang: en-US
 authors:
 
+  - github: rileynm
+    name: Nicholas M. Riley
+    initials: NMR
+    orcid: 0000-0002-1536-2966
+    twitter: riley_nm1
+    email: nmriley@uw.edu
+    affiliations:
+      - Department of Chemistry, University of Washington
+    funders:
+      - Grant R00 GM147304
+
+  - github: agduboff
+    name: Anna G. Duboff
+    initials: AGD
+    orcid: 0009-0002-7316-3831
+    email: agduboff@uw.edu
+    affiliations:
+      - Department of Chemistry, University of Washington
+    funders:
+      - Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+
   - github: neely 
     name: Benjamin A. Neely
     initials: BAN
