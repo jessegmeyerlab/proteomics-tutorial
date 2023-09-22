@@ -25,7 +25,7 @@ alkylate
 alkylated
 alkylating
 alkylation
-AlphaFold
+Alphafold
 AlphaPept
 aminooxy
 aminoxy
@@ -63,11 +63,11 @@ BCA
 Benchmarking
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 biocuration
 Biognosys
-BioID
+bioID
 bioinformatics
 bioluminescence
 bioluminescent
@@ -126,7 +126,7 @@ chromatogram
 chromatograms
 chromatographic
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -137,8 +137,8 @@ Clostripain
 coIP
 coli
 collisional
-Colorimetric
-Colorimetry
+colorimetric
+colorimetry
 columbic
 Combinatorial
 complementation
@@ -171,7 +171,7 @@ Cytoscape
 cytotoxicity
 databses
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -186,7 +186,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -209,8 +209,6 @@ disuccinimidyl
 disulfide
 disulphide
 dithiothreitol
-DLS
-dodecyl
 Doud
 downregulation
 doxycycline
@@ -250,7 +248,7 @@ ESI
 establishedmodel
 ETH
 ETISEQ
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 excluders
@@ -261,7 +259,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 Fc
 FCCS
 FCS
@@ -281,9 +279,8 @@ fluorometers
 fluorometry
 FlyBase
 fo
-focussing
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -316,7 +313,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -325,7 +322,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -399,14 +396,14 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-isoelectric
-Isoform
+Isoelectric
+isoform
 isoforms
 isogeneic
 isogenic
@@ -415,7 +412,6 @@ isothermal
 isotopically
 isotype
 iST
-ITC
 iteratively
 iTRAQ
 iTRAQH
@@ -540,7 +536,6 @@ NHEJ
 NHS
 NIST
 nL
-NMR
 NN
 noncovalently
 nonenzymatic
@@ -606,7 +601,6 @@ phosphotyrosine
 photobleaching
 photochemical
 Photolysis
-photometry
 photoreactive
 physicochemical
 PLA
@@ -682,7 +676,7 @@ recombinase
 refered
 refseq
 repressor
-reproducibility
+Reproducibility
 resolubilization
 resuspending
 reticulum
@@ -695,7 +689,7 @@ RPLC
 rtTA
 Scherrer
 Schuster
-Sciex
+SCIEX
 scrofa
 SCX
 SDS
@@ -725,12 +719,10 @@ sorbents
 SPE
 specificities
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
-Spectrophotometry
-spectropolarimetry
 spp
 SPR
 SprayQc
@@ -784,7 +776,6 @@ tims
 timsTOF
 timsTOFs
 TiO
-titration
 TMT
 TMTs
 TOF
@@ -798,7 +789,7 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
@@ -808,7 +799,7 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
 Tryptic
 TryTrypDB
@@ -828,14 +819,14 @@ unamenable
 uncharacterized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 useable
 valine
