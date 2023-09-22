@@ -1,5 +1,5 @@
 ---
-title: A Practical Beginner's Guide to Proteomics
+title: A Comprehensive Overview of Modern Proteomics
 keywords:
 - markdown
 - publishing
@@ -7,20 +7,21 @@ keywords:
 lang: en-US
 date-meta: '2023-09-22'
 author-meta:
-- Nicholas M. Riley
-- Emma H. Doud
 - Germán L. Rosano
-- Amit Kumar Yadav
-- Anna G. Duboff
 - Martín L. Mayta
-- Benjamin A. Neely
-- Jesse G. Meyer
-- Muralidharan Vanuopadath
-- Susan B. Egbert
-- Norbert Volkmar
-- Devasahayam Arokia Balaya Rex
 - Oliver M. Crook
+- Anna G. Duboff
+- Amit Kumar Yadav
+- Emma H. Doud
 - Dina Schuster
+- Norbert Volkmar
+- Jesse G. Meyer
+- Simion Kreimer
+- Benjamin A. Neely
+- Susan B. Egbert
+- Muralidharan Vanuopadath
+- Devasahayam Arokia Balaya Rex
+- Nicholas M. Riley
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -28,89 +29,93 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta name="citation_title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta property="og:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
-  <meta property="twitter:title" content="A Practical Beginner&#39;s Guide to Proteomics" />
+  <meta name="dc.title" content="A Comprehensive Overview of Modern Proteomics" />
+  <meta name="citation_title" content="A Comprehensive Overview of Modern Proteomics" />
+  <meta property="og:title" content="A Comprehensive Overview of Modern Proteomics" />
+  <meta property="twitter:title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta name="dc.date" content="2023-09-22" />
   <meta name="citation_publication_date" content="2023-09-22" />
   <meta property="article:published_time" content="2023-09-22" />
-  <meta name="dc.modified" content="2023-09-22T15:04:51+00:00" />
-  <meta property="article:modified_time" content="2023-09-22T15:04:51+00:00" />
+  <meta name="dc.modified" content="2023-09-22T17:15:12+00:00" />
+  <meta property="article:modified_time" content="2023-09-22T17:15:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Nicholas M. Riley" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
-  <meta name="twitter:creator" content="@riley_nm1" />
-  <meta name="citation_author" content="Emma H. Doud" />
-  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
-  <meta name="twitter:creator" content="@fireinlab" />
   <meta name="citation_author" content="Germán L. Rosano" />
   <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
   <meta name="twitter:creator" content="@GermanRosano" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Anna G. Duboff" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
   <meta name="citation_author" content="Martín L. Mayta" />
   <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
   <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
   <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
-  <meta name="citation_author" content="Susan B. Egbert" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
-  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
-  <meta name="twitter:creator" content="@lichenlady94" />
-  <meta name="citation_author" content="Norbert Volkmar" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
-  <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
-  <meta name="twitter:creator" content="@NorbertVolkmar" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Oliver M. Crook" />
   <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
   <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
   <meta name="twitter:creator" content="@OllyMCrook" />
+  <meta name="citation_author" content="Anna G. Duboff" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Emma H. Doud" />
+  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
+  <meta name="twitter:creator" content="@fireinlab" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Norbert Volkmar" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
+  <meta name="twitter:creator" content="@NorbertVolkmar" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
+  <meta name="citation_author" content="Simion Kreimer" />
+  <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
+  <meta name="twitter:creator" content="@KreimerSimion" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
+  <meta name="citation_author" content="Susan B. Egbert" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
+  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
+  <meta name="twitter:creator" content="@lichenlady94" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Nicholas M. Riley" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
+  <meta name="twitter:creator" content="@riley_nm1" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a33de9651c60c57187601ddf456f0763c5bf7ac9/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a33de9651c60c57187601ddf456f0763c5bf7ac9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a33de9651c60c57187601ddf456f0763c5bf7ac9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/534ddeb3814d5ea88a6cdf03badb019a3254f781/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/534ddeb3814d5ea88a6cdf03badb019a3254f781/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/534ddeb3814d5ea88a6cdf03badb019a3254f781/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/a33de9651c60c57187601ddf456f0763c5bf7ac9/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/534ddeb3814d5ea88a6cdf03badb019a3254f781/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@a33de96](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/a33de9651c60c57187601ddf456f0763c5bf7ac9)
+from [jessegmeyerlab/proteomics-tutorial@534ddeb](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/534ddeb3814d5ea88a6cdf03badb019a3254f781)
 on September 22, 2023.
 </em></small>
 
@@ -143,33 +148,6 @@ on September 22, 2023.
 ## Authors
 
 
-
-+ **Nicholas M. Riley**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-1536-2966](https://orcid.org/0000-0002-1536-2966)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [rileynm](https://github.com/rileynm)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [riley_nm1](https://twitter.com/riley_nm1)
-    <br>
-  <small>
-     Department of Chemistry, University of Washington
-     · Funded by Grant R00 GM147304
-  </small>
-
-+ **Emma H. Doud**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [edoud1](https://github.com/edoud1)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [fireinlab](https://twitter.com/fireinlab)
-    <br>
-  <small>
-     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
-  </small>
 
 + **Germán L. Rosano**
   <br>
@@ -183,6 +161,44 @@ on September 22, 2023.
   <small>
      Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
      · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
+  </small>
+
++ **Martín L. Mayta**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [martinmayta](https://github.com/martinmayta)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [MartinMayta2](https://twitter.com/MartinMayta2)
+    <br>
+  <small>
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+  </small>
+
++ **Oliver M. Crook**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ococrook](https://github.com/ococrook)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [OllyMCrook](https://twitter.com/OllyMCrook)
+    <br>
+  <small>
+     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
+  </small>
+
++ **Anna G. Duboff**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0009-0002-7316-3831](https://orcid.org/0009-0002-7316-3831)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [agduboff](https://github.com/agduboff)
+    <br>
+  <small>
+     Department of Chemistry, University of Washington
+     · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
   </small>
 
 + **Amit Kumar Yadav**
@@ -199,43 +215,43 @@ on September 22, 2023.
      · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
-+ **Anna G. Duboff**
++ **Emma H. Doud**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0009-0002-7316-3831](https://orcid.org/0009-0002-7316-3831)
+    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [agduboff](https://github.com/agduboff)
+    [edoud1](https://github.com/edoud1)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [fireinlab](https://twitter.com/fireinlab)
     <br>
   <small>
-     Department of Chemistry, University of Washington
-     · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
-+ **Martín L. Mayta**
++ **Dina Schuster**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
+    [dschust-r](https://github.com/dschust-r)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
+    [dina_sch](https://twitter.com/dina_sch)
     <br>
   <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
-+ **Benjamin A. Neely**
++ **Norbert Volkmar**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
+    [norbertvolkmar](https://github.com/norbertvolkmar)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)
+    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
     <br>
   <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
   </small>
 
 + **Jesse G. Meyer**
@@ -252,17 +268,29 @@ on September 22, 2023.
      · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
-+ **Muralidharan Vanuopadath**
++ **Simion Kreimer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    [KreimerSimion](https://twitter.com/KreimerSimion)
     <br>
   <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+     Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
+  </small>
+
++ **Benjamin A. Neely**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [neely](https://github.com/neely)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [neely615](https://twitter.com/neely615)
+    <br>
+  <small>
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
   </small>
 
 + **Susan B. Egbert**
@@ -278,17 +306,17 @@ on September 22, 2023.
      Department of Chemistry, University of Manitoba, Winnipeg, Cananda
   </small>
 
-+ **Norbert Volkmar**
++ **Muralidharan Vanuopadath**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [norbertvolkmar](https://github.com/norbertvolkmar)
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
     <br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
 + **Devasahayam Arokia Balaya Rex**
@@ -304,30 +332,18 @@ on September 22, 2023.
      Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
-+ **Oliver M. Crook**
++ **Nicholas M. Riley**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
+    [0000-0002-1536-2966](https://orcid.org/0000-0002-1536-2966)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ococrook](https://github.com/ococrook)
+    [rileynm](https://github.com/rileynm)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [OllyMCrook](https://twitter.com/OllyMCrook)
+    [riley_nm1](https://twitter.com/riley_nm1)
     <br>
   <small>
-     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
-  </small>
-
-+ **Dina Schuster**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)
-    <br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+     Department of Chemistry, University of Washington
+     · Funded by Grant R00 GM147304
   </small>
 
 
@@ -2226,6 +2242,106 @@ Segway into the section on raw data analysis.
 
 
 
+
+
+## Liquid Chromatography (LC) {.page_break_before}
+
+Chromatography is the physical sorting of a mixture of molecular species that are dissolved in a mobile phase through the strength of binding, or affinity, to the chromatographic column’s stationary phase [@DOI:10.1016/j.aca.2009.03.041]. 
+The mobile phase is pressure driven through the column and molecular species, or analytes, that have a strong affinity to the stationary phase are retained, or slowed, while those with a weak affinity pass through quickly. 
+Thusly the analytes are separated by order of elution from the column. 
+Chromatography can exploit most physical properties of the analytes, including ionic charge (anion/cation exchange chromatography), hydrogen binding (hydrophilic interaction), and size (size exclusion chromatography, capillary electrophoresis). 
+In some chromatographic separations the mobile phase composition is adjusted by mixing two or more buffers at different ratios to influence the strength of affinity of individual analytes to the stationary phase and exquisitely regulate retention.
+
+Mass spectrometers suffer from ion suppression, a phenomenon where the over-abundance of one or a few species within the ion population entering the mass spectrometer masks the presence of less abundant species [@DOI:10.1373/49.7.1041]. 
+Complex biological samples, such as tissue, cell lysate, or physiological fluids contain a wide dynamic range of molecule concentrations that span many orders of magnitude. 
+The physical separation of analytes from biological samples by LC reduces the complexity of the ion population presented to the mass spectrometer at a given time, thus allowing the instrument to carry out the necessary fragmentation scans to identify and quantify the detectable species. 
+Therefore, one major benefit of LC is that it allows detection of low abundant analytes in other elution windows. 
+
+The field of proteomics predominantly separates peptides using reversed phase liquid chromatography [@DOI:10.1016/j.chroma.2012.06.098; @DOI:10.1016/j.aca.2010.02.001; @DOI:10.1016/j.chroma.2004.07.044]. 
+Reversed stationary phase is most commonly composed of microscopic (1-3 μm) silica beads coated with covalently bound long (e.g. C18) hydrophobic alkyl chains. 
+The hydrophobic side chains of certain residues and the peptide backbone bind to this stationary phase through non-polar interactions. 
+These interactions are strong in an aqueous solvent, but are disrupted when the organic composition of the solvent is increased. 
+Thus, in a reversed phase separation the proportion of non-polar, or organic, solvent in the mobile phase is gradually increased to release analytes from the stationary phase based on the strength of hydrophobic binding: weakly bound hydrophilic analytes elute with a low organic level in the mobile phase and strongly bound hydrophobic analytes only elute when the organic composition reaches a higher percentage. 
+By far the most popular combination of solvents for peptide analysis is water and acetonitrile with dilute acid modifier (such as 0.1% formic acid or 0.5% acetic acid). 
+The programmed rate at which the proportion of organic solvent is increased in the mobile phase is called the “gradient”, which you will often find described in the methods sections for reversed phase separations.
+
+### Electrospray Ionization
+
+LC is paired to MS through ESI, and LC parameters greatly influence ESI. 
+The analytes are eluted in a liquid mobile phase and must be released into the gas phase as charged ions for detection by mass spectrometry. 
+This is achieved by spraying the eluent from the chromatographic separation through a narrow nozzle under a high voltage potential (1,000-4,000 volts) between the nozzle, or emitter, and the mass spectrometer inlet. 
+The eluent is sprayed as a mist of small charged droplets that explode into smaller droplets as the solvent evaporates and the repelling columbic force of the charged analytes increases [@DOI:10.1080/14786448208628425]. 
+The droplets become progressively smaller until individual analyte molecules are ejected. 
+The ejected analytes are ionized by the retained charge and can thus be manipulated by the electric fields in the mass spectrometer to measure their mass and perform the necessary fragmentations to elucidate structure. 
+The chromatographic flowrate (the volume of mobile phase driven through the chromatographic column per unit time e.g. uL/min) dictates the efficiently of electrospray ionization (proportion of analytes eluting from the column that are ionized and into the gas phase) and is thus a key consideration for sensitivity of analysis [@DOI:10.1021/pr050424y]. 
+Reduced flowrates generate smaller droplets which degrade into ejected charged analytes rapidly, thus resulting in more detectable analytes and higher ionization efficiency. 
+Electrospray ionization efficiency is also aided by an inert sheath gas, high temperature, and reduced pressure between the nozzle and ion lensing elements, thus decent sensitivity can still be achieved at high flowrates. 
+For more detailed discussion of ionization, see the “Ionization” section. 
+
+### Quality Attributes of Chromatographic Separation
+
+The quality of chromatographic separation defines the number of analytes that are identified and quantified by LC-MS analysis. 
+The theory around chromatographic separation was developed when LCs were paired with spectrophotometer detectors that only measure the combined signal intensity from all co-eluting analytes. 
+The ability of MS to simultaneously detect the masses of individual components re-defines the significance of certain LC attributes. 
+For those looking for mathematical descriptions of chromatographic quality, refer to the “Van Deemter equation”, which we do not cover here to maintain simplicity [@DOI:10.1016/0009-2509(56)80003-1]. 
+The following attributes are the most important to consider in LC-MS.
+
+#### Chromatographic Resolution 
+
+Chromatographic resolution is defined as the ability to fully resolve adjacent chromatographic peaks containing analytes with nearly equal affinities to the solid phase. 
+In mass spectrometry analytes are distinguished by mass even if they are not resolved by LC. 
+Thus in LC-MS, the more relevant, but closely related concept is the peak width at the half maximum (FWHM) of the peak. 
+A low FWHM indicates a sharp elution peak. In a sharp peak the entirety of the analyte population is electrosprayed into the mass spectrometer in a short time thus increasing the signal. 
+Low FWHM of high abundance species also confines their ionization suppression to narrow time windows, which means a lower number of co-eluting analytes are hidden. 
+Conversely, high FWHM means that the analyte signal is spread out over time, thus reducing sensitivity. 
+Furthermore, at a high FWHM, high abundance species mask analytes through ion suppression over a larger portion of the separation. 
+
+#### Peak Capacity
+
+Peak capacity is the number of peaks detectable over the analytical separation. 
+A long separation in which FWHM remains low would have a large peak capacity and thus allow identification of many species. 
+Unfortunately increasing the length of a reversed phase gradient also increases the FWHM due to an increase in diffusion, which results in a diminishing return for longer analytical methods. 
+A longer separation provides more time and opportunities for the mass spectrometer to sample each analyte to acquire fragmentation spectra required for identification and the selection of gradient length should consider both the desired throughput and the speed of the MS data acquisition strategy.
+
+#### Reproducibility and Robustness
+Reproducibility is defined as the ability to repeatedly obtain the same measurement for the same analytes each time that the analysis is repeated. 
+In liquid chromatography this means that each analyte should elute at nearly the same retention time (the time elapsed since the start of the analysis until the analyte’s elution from the chromatographic column) with the same peak width. 
+Robustness is the ability of the system to maintain reproducible performance despite nonoptimal conditions. 
+The most typical obstacles to robustness are mechanical wear of the system components and the analytical column, fouling of the system by contaminants introduced in the samples, and clogging due to accumulation of contaminants. 
+High flow methods tend to be more robust due to reduced impact of changes in dwell volumes, and the wider bore of the components used is more resilient to clogging. 
+However, higher flowrate comes at the cost of reduced ionization efficiency and sensitivity, thus nanoflow (100-300 nL/min flowrate) chromatography remains a widely utilized strategy in proteomics.
+
+#### Throughput and Instrument Utilization
+Throughput is the number of samples that are analyzed in a given timeframe, for example samples per day. 
+High throughput is required to analyze thousands of samples that truly represent biological diversity in a timely manner. 
+Increasing throughput means less data are collected for individual samples. 
+Furthermore, many steps in the LC process are required for sample analysis in which no useful data is collected including sample injection, and system cleaning and equilibration, which reduce the ratio of data collected to instrument operation time, or instrument utilization. 
+The ability to perform these steps while a different sample is analyzed, or parallelization, increases instrument utilization and the amount of data collected by several minutes which is a significant increase when several samples are analyzed per hour. 
+
+### Trapping and Pre-Columns
+
+Trapping and pre-columns are short chromatographic columns that are used to increase robustness of an LC-MS system. 
+A pre-column is connected directly to the front of the analytical column and is intended to be disposable and to absorb contaminants and protect the analytical column. 
+The trapping column is a connected indirectly to the analytical column through a valve. The valve can be switched to redirect the flow through the trapping column away from the analytical column. 
+This allows analytes to be loaded on the trapping column while analytes that are hydrophilic and poorly retained are washed away and do not contaminate the analytical column or the mass spectrometer. 
+This process is referred to as desalting, and once it is complete, the valve configuration is changed to connect the trapping column to the analytical column, and analytes captured on the trapping column can be eluted off the trap and through the analytical column for analysis by MS. 
+Certain trapping columns can be operated in both directions, which allows aggregates to be flushed away when the trapping column is cleaned in the reverse direction. 
+Additionally trapping columns are shorter and have less backpressure so they can be loaded with sample quickly at a fast flowrate. 
+Whereas loading the sample directly on the analytical column requires a slower flowrate. 
+Two trapping columns can be used in tandem to provide parallelization, while one trapping column is cleaned and loaded with samples the second trapping column is in line with the analytical column analyzing the sample that was loaded on it in the previous run [@DOI:10.1021/acs.analchem.2c02609, @DOI:10.1021/acs.analchem.3c00213].
+
+### Multi Dimensional LC
+
+Depth of profiling has previously been increased by combining two or more orthogonal LC separations. 
+Orthogonal in this context means that each separation sorts the analytes into different populations.3 
+For example, a separation based on positive charge (strong cation exchange, SCX) separates analytes based on positive charge, and when paired with reversed phase chromatography results a higher peak capacity and more analytes identified. 
+The first highly popular method was multidimensional protein identification technology (MudPIT), which used online separation by SCX followed by C18 reversed phase [@DOI:10.1038/85686]. 
+However, the resolution of peptide separation by SCX is low, leading to the presence of peptides in many fractions. 
+The currently accepted most popular method for two-dimensional separation combines iterative reversed phase at different high and then low pH to sort analytes by changes in hydrophobicity due to changes in amino acid side chain ionization. 
+Although the separations are not entirely orthogonal, multiple fraction concatenation across the high pH elution can produce entirely orthogonal peptide sets [@PMID:21500348]. 
+In recent years the focus of proteomics has shifted from deep profiling of fewer samples to rapid profiling of large cohorts. 
+Thus, lengthy multidimensional methods have been replaced with single shot experiments only using one dimension of high resolution reversed phase separation [@DOI:10.1021/acs.jproteome.2c00023]. 
+However peak capacity is regained by using ion mobility spectrometry (separation of ionized peptides in the gas phase).
 
 
 ## Experiment Design
