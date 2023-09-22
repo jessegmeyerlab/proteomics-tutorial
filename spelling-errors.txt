@@ -10,6 +10,7 @@ acidification
 Adventista
 Aebersold
 AFA
+agduboff
 Agencia
 Agilent
 AIF
@@ -21,8 +22,8 @@ aliquots
 alkylate
 alkylated
 alkylating
-Alkylation
-AlphaFold
+alkylation
+Alphafold
 AlphaPept
 aminooxy
 Aminoxy
@@ -58,7 +59,7 @@ BCA
 Benchmarking
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 biocuration
 Biognosys
@@ -74,7 +75,7 @@ biomolecules
 BioPlex
 biopolymers
 bioruptor
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -130,7 +131,7 @@ Clostridium
 Clostripain
 coIP
 coli
-Collisional
+collisional
 colorimetric
 colorimetry
 Combinatorial
@@ -148,7 +149,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -210,6 +211,7 @@ dschust
 DSSO
 dTAG
 DTT
+Duboff
 ECD
 edoud
 EDTA
@@ -238,7 +240,7 @@ ESI
 establishedmodel
 ETH
 ETISEQ
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 excluders
@@ -249,7 +251,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 Fc
 FCCS
 FCS
@@ -272,7 +274,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 fragi
 fragmeted
@@ -292,7 +294,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -309,10 +311,10 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 GOI
 Goodlett
@@ -383,7 +385,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -458,7 +460,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 MaxDIA
@@ -522,7 +524,7 @@ NN
 noncovalently
 nonenzymatic
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -603,7 +605,7 @@ premaure
 PRM
 Progenesis
 Pronase
-prot
+Prot
 protease
 proteases
 proteasome
@@ -655,13 +657,14 @@ rcf
 Reactome
 recombinase
 refered
-refseq
+RefSeq
 repressor
 reproducibility
 resolubilization
 resuspending
 reticulum
 rexprem
+rileynm
 RNAi
 Rosano
 RosettaFold
@@ -669,7 +672,7 @@ RPLC
 rtTA
 Scherrer
 Schuster
-SCIEX
+Sciex
 scrofa
 SCX
 SDS
@@ -769,7 +772,7 @@ Translational
 translationally
 transmembrane
 transversing
-trembl
+TrEMBL
 triazine
 Tribrid
 tricarboxylic
@@ -777,11 +780,11 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 tripleTOF
-tris
+Tris
 Tritirachium
-TRP
+Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tTA
@@ -806,7 +809,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 useable
 valine
