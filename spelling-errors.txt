@@ -22,11 +22,11 @@ aliquots
 alkylate
 alkylated
 alkylating
-alkylation
-Alphafold
+Alkylation
+AlphaFold
 AlphaPept
 aminooxy
-Aminoxy
+aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -63,7 +63,7 @@ betweenness
 bicinchoninic
 biocuration
 Biognosys
-bioID
+BioID
 bioinformatics
 bioluminescence
 bioluminescent
@@ -75,7 +75,7 @@ biomolecules
 BioPlex
 biopolymers
 bioruptor
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -149,7 +149,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -179,7 +179,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 determinining
 deubiquitinase
 deuteron
@@ -294,7 +294,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -302,7 +302,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -311,10 +311,10 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 GOI
 Goodlett
@@ -385,19 +385,19 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
 iRT
 isocratic
-Isoelectric
+isoelectric
 Isoform
 isoforms
 isogeneic
 isogenic
 isoleucine
-isothermal
+Isothermal
 isotopically
 isotype
 iST
@@ -539,7 +539,7 @@ OMSSA
 onotology
 OpenMS
 operon
-Orbitrap
+orbitrap
 orbitraps
 organismal
 Ortholog
@@ -571,7 +571,7 @@ phosphoenrichment
 phosphoimaging
 phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteome
 phosphoproteomic
 phosphoproteomics
@@ -605,7 +605,7 @@ premaure
 PRM
 Progenesis
 Pronase
-Prot
+prot
 protease
 proteases
 proteasome
@@ -672,7 +672,7 @@ RPLC
 rtTA
 Scherrer
 Schuster
-Sciex
+SCIEX
 scrofa
 SCX
 SDS
@@ -772,7 +772,7 @@ Translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
@@ -780,7 +780,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 tripleTOF
-Tris
+tris
 Tritirachium
 Trp
 trypsin
@@ -802,7 +802,7 @@ unamenable
 uncharacterized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef

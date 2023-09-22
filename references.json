@@ -12688,21 +12688,26 @@
   {
     "id": "emz5eXnO",
     "type": "book",
-    "collection-number": "463",
+    "abstract": "\"The second edition of this classic Guide to Protein Purification provides a complete update to existing methods in the field, reflecting the enormous advances made in the last two decades. In particular, proteomics, mass spectrometry, and DNA technology have revolutionized the field since the first edition's publication but through all of the advancements, the purification of proteins is still an indispensable first step in understanding their function. This volume examines the most reliable, robust methods for researchers in biochemistry, molecular and cell biology, genetics, pharmacology, biotechnology and sets a standard for best practices in the field. It relates how these traditional and new cutting-edge methods connect to the explosive advancements in the field. This \"Guide to\" gives imminently practical advice in order to avoid costly mistakes in choosing a method and brings in perspective from the premier researchers while presents a comprehensive overview of the field today. Gathers top global authors from industry, medicine, and research fields across a wide variety of disciplines including biochemistry, genetics, oncology, pharmacology, dermatology and immunology. Assembles chapters on both common and less-common relevant techniques. Provides robust methods as well as an analysis of the advancements in the field that, for an individual investigator, can be a demanding and time-consuming process.\"",
+    "call-number": "547.7",
+    "collection-number": "v. 463",
     "collection-title": "Methods in enzymology",
-    "edition": "2. ed",
-    "event-place": "San Diego, Calif.",
+    "edition": "2nd ed",
+    "event-place": "Amsterdam Boston",
     "ISBN": "9780123745361",
     "language": "eng",
-    "number-of-pages": "851",
-    "publisher": "Academic Press",
-    "publisher-place": "San Diego, Calif.",
-    "source": "K10plus ISBN",
+    "publisher": "Elsevier/Academic Press",
+    "publisher-place": "Amsterdam Boston",
+    "source": "BnF ISBN",
     "title": "Guide to protein purification",
-    "editor": [
+    "author": [
       {
         "family": "Burgess",
         "given": "Richard R."
+      },
+      {
+        "family": "Deutscher",
+        "given": "Murray P."
       }
     ],
     "issued": {
