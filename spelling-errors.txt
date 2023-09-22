@@ -24,7 +24,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -83,7 +83,7 @@ bioplex
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -143,7 +143,7 @@ coli
 collisional
 collisionally
 Colorimetric
-Colorimetry
+colorimetry
 columbic
 Combinatorial
 complementation
@@ -160,7 +160,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -176,7 +176,7 @@ Cytoscape
 cytotoxicity
 databses
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -207,7 +207,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
 disuccinimidyl
@@ -242,7 +242,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enrichments
-ensembl
+Ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -258,7 +258,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -272,7 +272,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 Fc
 FCCS
 FCS
@@ -294,7 +294,7 @@ FlyBase
 fo
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -319,7 +319,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -336,10 +336,10 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 GOI
 Goodlett
@@ -550,7 +550,7 @@ nanoflow
 nanomaterials
 NanoOrange
 NCBI
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -560,7 +560,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -607,12 +607,12 @@ phosphatases
 phosphine
 phosphoenrichment
 phosphoimaging
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteome
 phosphoproteomic
-phosphoproteomics
+Phosphoproteomics
 phosphorylated
 phosphorylations
 PhosphoSitePlus
@@ -639,12 +639,12 @@ PPIs
 PQD
 practioners
 pre
-Prefractionation
+prefractionation
 premaure
 PRM
 Progenesis
 Pronase
-Prot
+prot
 protease
 proteases
 proteasome
@@ -652,7 +652,7 @@ Proteinase
 proteinness
 proteoform
 proteoforms
-proteolysis
+Proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
@@ -693,7 +693,7 @@ rawDiag
 RawMeat
 rawrr
 rcf
-REACTOME
+Reactome
 recombinase
 refered
 RefSeq
@@ -715,7 +715,7 @@ RPLC
 rtTA
 Scherrer
 Schuster
-SCIEX
+Sciex
 scrofa
 SCX
 SDS
@@ -815,15 +815,15 @@ Translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-Tris
+tripleTOF
+tris
 Tritirachium
 TRP
 trypsin

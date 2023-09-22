@@ -7,21 +7,21 @@ keywords:
 lang: en-US
 date-meta: '2023-09-22'
 author-meta:
-- Devasahayam Arokia Balaya Rex
-- Martín L. Mayta
-- Dina Schuster
-- Amit Kumar Yadav
 - Emma H. Doud
 - Benjamin A. Neely
-- Germán L. Rosano
-- Oliver M. Crook
-- Nicholas M. Riley
-- Muralidharan Vanuopadath
 - Susan B. Egbert
-- Jesse G. Meyer
-- Anna G. Duboff
+- Dina Schuster
+- Muralidharan Vanuopadath
 - Norbert Volkmar
+- Martín L. Mayta
+- Jesse G. Meyer
 - Simion Kreimer
+- Amit Kumar Yadav
+- Nicholas M. Riley
+- Anna G. Duboff
+- Germán L. Rosano
+- Devasahayam Arokia Balaya Rex
+- Oliver M. Crook
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,33 +36,14 @@ header-includes: |
   <meta name="dc.date" content="2023-09-22" />
   <meta name="citation_publication_date" content="2023-09-22" />
   <meta property="article:published_time" content="2023-09-22" />
-  <meta name="dc.modified" content="2023-09-22T20:59:19+00:00" />
-  <meta property="article:modified_time" content="2023-09-22T20:59:19+00:00" />
+  <meta name="dc.modified" content="2023-09-22T23:46:33+00:00" />
+  <meta property="article:modified_time" content="2023-09-22T23:46:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Dina Schuster" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
-  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
-  <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
   <meta name="citation_author" content="Emma H. Doud" />
   <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
@@ -71,51 +52,70 @@ header-includes: |
   <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
   <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
   <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Germán L. Rosano" />
-  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
-  <meta name="twitter:creator" content="@GermanRosano" />
-  <meta name="citation_author" content="Oliver M. Crook" />
-  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
-  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
-  <meta name="twitter:creator" content="@OllyMCrook" />
-  <meta name="citation_author" content="Nicholas M. Riley" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
-  <meta name="twitter:creator" content="@riley_nm1" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Susan B. Egbert" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
   <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
   <meta name="twitter:creator" content="@lichenlady94" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Anna G. Duboff" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
+  <meta name="citation_author" content="Dina Schuster" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
+  <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Norbert Volkmar" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
   <meta name="twitter:creator" content="@NorbertVolkmar" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Simion Kreimer" />
   <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
   <meta name="twitter:creator" content="@KreimerSimion" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Nicholas M. Riley" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
+  <meta name="twitter:creator" content="@riley_nm1" />
+  <meta name="citation_author" content="Anna G. Duboff" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
+  <meta name="citation_author" content="Germán L. Rosano" />
+  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
+  <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Oliver M. Crook" />
+  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
+  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
+  <meta name="twitter:creator" content="@OllyMCrook" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1894800fd4235079f5907bfe1d138d5d7ff75084/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1894800fd4235079f5907bfe1d138d5d7ff75084/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1894800fd4235079f5907bfe1d138d5d7ff75084/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2716f053bf9d33b51a95dafdab063ebbaa97c507/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2716f053bf9d33b51a95dafdab063ebbaa97c507/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2716f053bf9d33b51a95dafdab063ebbaa97c507/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1894800fd4235079f5907bfe1d138d5d7ff75084/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/2716f053bf9d33b51a95dafdab063ebbaa97c507/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@1894800](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1894800fd4235079f5907bfe1d138d5d7ff75084)
+from [jessegmeyerlab/proteomics-tutorial@2716f05](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/2716f053bf9d33b51a95dafdab063ebbaa97c507)
 on September 22, 2023.
 </em></small>
 
@@ -148,59 +148,6 @@ on September 22, 2023.
 ## Authors
 
 
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Martín L. Mayta**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
-    <br>
-  <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Dina Schuster**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)
-    <br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
-  </small>
-
-+ **Amit Kumar Yadav**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)
-    <br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
-  </small>
 
 + **Emma H. Doud**
   <br>
@@ -229,45 +176,30 @@ on September 22, 2023.
      · Funded by NIST
   </small>
 
-+ **Germán L. Rosano**
++ **Susan B. Egbert**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
+    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ger225](https://github.com/ger225)
+    [lichenlady94](https://github.com/lichenlady94)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [GermanRosano](https://twitter.com/GermanRosano)
+    [lichenlady94](https://twitter.com/lichenlady94)
     <br>
   <small>
-     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
-     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
+     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
   </small>
 
-+ **Oliver M. Crook**
++ **Dina Schuster**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ococrook](https://github.com/ococrook)
+    [dschust-r](https://github.com/dschust-r)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [OllyMCrook](https://twitter.com/OllyMCrook)
+    [dina_sch](https://twitter.com/dina_sch)
     <br>
   <small>
-     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
-  </small>
-
-+ **Nicholas M. Riley**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-1536-2966](https://orcid.org/0000-0002-1536-2966)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [rileynm](https://github.com/rileynm)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [riley_nm1](https://twitter.com/riley_nm1)
-    <br>
-  <small>
-     Department of Chemistry, University of Washington
-     · Funded by Grant R00 GM147304
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
 + **Muralidharan Vanuopadath**
@@ -283,17 +215,30 @@ on September 22, 2023.
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
   </small>
 
-+ **Susan B. Egbert**
++ **Norbert Volkmar**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://github.com/lichenlady94)
+    [norbertvolkmar](https://github.com/norbertvolkmar)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://twitter.com/lichenlady94)
+    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
     <br>
   <small>
-     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
+  </small>
+
++ **Martín L. Mayta**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [martinmayta](https://github.com/martinmayta)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [MartinMayta2](https://twitter.com/MartinMayta2)
+    <br>
+  <small>
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 + **Jesse G. Meyer**
@@ -310,6 +255,45 @@ on September 22, 2023.
      · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
++ **Simion Kreimer**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [KreimerSimion](https://twitter.com/KreimerSimion)
+    <br>
+  <small>
+     Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
+  </small>
+
++ **Amit Kumar Yadav**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)
+    <br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
+  </small>
+
++ **Nicholas M. Riley**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-1536-2966](https://orcid.org/0000-0002-1536-2966)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [rileynm](https://github.com/rileynm)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [riley_nm1](https://twitter.com/riley_nm1)
+    <br>
+  <small>
+     Department of Chemistry, University of Washington
+     · Funded by Grant R00 GM147304
+  </small>
+
 + **Anna G. Duboff**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -322,28 +306,44 @@ on September 22, 2023.
      · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
   </small>
 
-+ **Norbert Volkmar**
++ **Germán L. Rosano**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
+    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [norbertvolkmar](https://github.com/norbertvolkmar)
+    [ger225](https://github.com/ger225)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
+    [GermanRosano](https://twitter.com/GermanRosano)
     <br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
+     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
-+ **Simion Kreimer**
++ **Devasahayam Arokia Balaya Rex**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [KreimerSimion](https://twitter.com/KreimerSimion)
+    [rexprem](https://twitter.com/rexprem)
     <br>
   <small>
-     Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Oliver M. Crook**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ococrook](https://github.com/ococrook)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [OllyMCrook](https://twitter.com/OllyMCrook)
+    <br>
+  <small>
+     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
   </small>
 
 
@@ -2309,7 +2309,7 @@ However peak capacity is regained by using ion mobility spectrometry (separation
 
 ### Tandem Mass Spectrometry
 
-Tandem MS, where precursor ions are selected and fragmented to generate an MS/MS spectrum containing peptide-derived product ions, is a fundamental process in modern proteomics [@DOI:10.1021/acs.jproteome.2c00838; @DOI: 10.1021/cr3003533].
+Tandem MS, where precursor ions are selected and fragmented to generate an MS/MS spectrum containing peptide-derived product ions, is a fundamental process in modern proteomics [@DOI:10.1021/acs.jproteome.2c00838; @DOI:10.1021/cr3003533].
 This is largely because intact peptide mass alone cannot unambiguously provide a peptide’s sequence [@DOI:10.1021/ac201624t]; however, MS/MS spectra provide more information due to predictable fragmentation behavior of peptide ions to generate sequence-informative fragments [@DOI:10.1073/pnas.83.17.6233; @DOI:10.1021/acs.jproteome.2c00838].
 Some more advanced proteomic acquisition methods use MS1-only feature detection in combination with retention time to maximize information used for downstream quantitation [@DOI:10.1021/acs.analchem.9b05095].
 In most of these, identifications are fundamentally based on MS/MS spectra, either acquired as part of a specific LC-MS/MS analysis that contains the MS/MS spectra themselves or on a spectral library of MS/MS spectra acquired previously [@DOI:10.1021/ac052197p; @DOI:10.1038/s41592-018-0003-5].
@@ -2335,11 +2335,11 @@ Other panels show common dissociation methods, including collision, electron, an
 Ultraviolet photodissociation (UVPD) can use a range of wavelengths (popular options shown) to introduce higher energy photons to peptide cations, causing vibrational and electronic excitation that can generate all major fragment ion types depending on wavelength used.
 ](images/Tandem_MS.svg){#fig:SPE tag="3" width="100%"}
 
-One of the earliest and most ubiquitous peptide fragmentation methods is collision-induced dissociation (CID, also called collisionally-activated dissociation, CAD) [@DOI:10.1016/S0076-6879(05)02005-7] (Figure XB).
-Here, collisions with inert gas molecules are used to increase the internal energy of peptide ions to reach bond dissociation energies that fragment them into products [@DOI:10.1002/(SICI)1096-9888(199705)32:5<461::AID-JMS515>3.0.CO;2-H].
+One of the earliest and most ubiquitous peptide fragmentation methods is collision-induced dissociation (CID, also called collisionally-activated dissociation, CAD) [@PMID:16401509] (Figure XB).
+Here, collisions with inert gas molecules are used to increase the internal energy of peptide ions to reach bond dissociation energies that fragment them into products.
 Various inert gases can be used; helium, nitrogen, and argon are the most common.
 Preferences for which gas is used is often a function of how much energy per collision is desired.
-Two main versions of CID are used in proteomics, with the most common being beam-type CID (beamCID, sometimes called higher-energy collisional dissociation, HCD) [@DOI:10.1063/1.471812; @ DOI: 10.1038/nmeth1060].
+Two main versions of CID are used in proteomics, with the most common being beam-type CID (beamCID, sometimes called higher-energy collisional dissociation, HCD) [@DOI:10.1063/1.471812; @ DOI:10.1038/nmeth1060].
 BeamCID typically uses nitrogen or argon as a collision gas, and peptide ions are accelerated in to a collision cell filled with several mTorr of bath gas.
 The kinetic energy used to accelerate precursor ions (often generated using direct current voltage differentials between the source of the ions and the collision cell) determines the energy imparted through collisions with the bath gas, which in turn governs their fragmentation behavior.
 In non-modified peptides, the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids, so the increase in internal energy from beamCID generates b- and y-type ions that represent this peptide bond cleavage, as shown in Biemann fragment ion nomenclature (Figure X).
@@ -2351,15 +2351,15 @@ The simplicity of beamCID, which requires simply an rf-only collision cell, has 
 
 A second form of CID is called resonant CID (resCID), where the internal energy of peptide ions is slowly increased through multiple low-energy collisions [@DOI:10.1002/(SICI)1096-9888(199705)32:5<461::AID-JMS515>3.0.CO;2-H].
 Here, helium gas is most often used, as it imparts less energy per collision, and activation typically happens in ion trap devices where supplemental frequencies can be used to excite ions.
-In other words, ions are trapped using axial rf-frequencies, and an additional rf-frequency is applied to the electrodes of the ion trap [@DOI:10.1016/S1044-0305(02)00384-7; @DOI:10.1002/mas.21549].
+In other words, ions are trapped using axial rf-frequencies, and an additional rf-frequency is applied to the electrodes of the ion trap [@DOI:10.1002/mas.21549].
 This supplemental rf is selected to have a frequency resonant with the fundamental frequency of the ions to be fragmented, as determined by the Mathieu equations, which excites the ions of interest so that they have increased kinetic energy as they move in the ion trap [@DOI:10.1115/1.4039144; @DOI:10.1006/rwsp.2000.0143].
-The increased kinetic energy creates more collisions with the background helium gas to slowly build up the internal energy of the precursor ions until the dissociation energy of the most labile bond is reached, causing fragmentation [@DOI:10.1016/S0076-6879(05)02005-7].
+The increased kinetic energy creates more collisions with the background helium gas to slowly build up the internal energy of the precursor ions until the dissociation energy of the most labile bond is reached, causing fragmentation.
 Once ions dissociate, the fragments have different m/z values than the precursor ions, meaning they fall out of resonance with the supplemental rf and are no longer activated.
 Thus, resCID typically fragments only the most labile bonds in precursor ions and does not have secondary fragmentation behavior.
 As above, for non-modified peptide ions, this typically generates sequence-informative b- and y-type product ions.
 For modified peptides where the bonds connecting the modification to an amino acid are more labile than peptide bonds, e.g., phosphopeptides and glycopeptides, resCID MS/MS spectra can be dominated by products ions only of the PTM-loss rather than sequence informative fragment ions, although many factors govern this behavior [@DOI:10.1021/pr0705136; @DOI:10.1021/ac0497104].
 Because of this, and because this method requires an ion trap device with the ability to apply supplemental rfs, resCID is less used than beamCID.
-For both beamCID and resCID, the mobile proton model has been widely accepted to explain fragmentation behavior [@DOI:10.1002/1096-9888(200012)35:12<1399::AID-JMS86>3.0.CO;2-R], and this largely predictable behavior has greatly helped in manual and algorithm-assisted spectral interpretation.
+For both beamCID and resCID, the mobile proton model has been widely accepted to explain fragmentation behavior [@PMID:11180630], and this largely predictable behavior has greatly helped in manual and algorithm-assisted spectral interpretation.
 
 Despite the utility and broad adoption of CID, there are alternative dissociation methods that have been explored for a variety of uses, including applications where CID is inadequate for the experimental question [@DOI:10.1021/ac802330b; @DOI:10.1038/nprot.2008.159; @DOI:10.1007/s00726-014-1726-y].
 The most popular of these alternative dissociation methods are electron-based dissociation (ExD) approaches, which include electron capture dissociation (ECD) and electron transfer dissociation (ETD).
@@ -2376,7 +2376,7 @@ ExD methods generally produce robust fragmentation for charge dense precursor io
 Alternatively, precursors with low charge density, i.e., higher m/z values, have relatively condensed secondary gas-phase structure that leads to non-covalent interactions.
 Even when ExD methods drive peptide backbone cleavage in these cases, product ions (i.e. c- and z-type fragments) are held together by the non-covalent interactions so that few (or no) sequence-informative product ions are produced.
 This process is called non-dissociative electron-capture/transfer (ECnoD/ETnoD)[@DOI:10.1021/ac050666h].
-Several strategies to mitigate ECnoD/ETnoD have been successfully explored, including supplemental activation of product ions with resCID (ETcaD [@DOI:10.1021/ac061457f]) or beamCID (EThcD [@DOI:10.1016/j.jasms.2009.05.009; @DOI:10.1021/ac3025366]), supplemental activation with infrared photons (AI-ECD [@DOI:10.1016/j.jasms.2008.12.015; @DOI:10.1021/ac000494i] and AI-ETD [@DOI:10.1021/acs.analchem.5b00881; @DOI:10.1002/anie.200903557]) or ultraviolet photons (ETuvPD[@DOI:10.1021/ac5036082]), and use of higher energy electrons [@DOI:10.1016/S0009-2614(02)00149-5; @DOI:10.1021/ja8087407; @DOI:10.1021/jasms.0c00425].
+Several strategies to mitigate ECnoD/ETnoD have been successfully explored, including supplemental activation of product ions with resCID (ETcaD [@DOI:10.1021/ac061457f]) or beamCID (EThcD [@DOI:10.1016/j.jasms.2009.05.009; @DOI:10.1021/ac3025366]), supplemental activation with infrared photons (AI-ECD [@DOI:10.1016/j.jasms.2008.12.015; @DOI:10.1021/ac000494i] and AI-ETD [@DOI:10.1021/acs.analchem.5b00881; @DOI:10.1002/anie.200903557]) or ultraviolet photons (ETuvPD[@DOI:10.1021/ac5036082]), and use of higher energy electrons [@URL:https://www.sciencedirect.com/science/article/abs/pii/S0009261402001495; @DOI:10.1021/ja8087407; @DOI:10.1021/jasms.0c00425].
 Despite their successes, these methods still require instrumentation capable of ExD in addition to extra hardware needed for a given strategy (e.g., a CO2 laser in AI-ETD [@DOI:10.1021/acs.analchem.7b00213]).
 As with ExD in general, recent advances in supplemental activation strategies for ExD are making these tools more accessible [@DOI:10.1021/acs.analchem.7b04810; @DOI:10.1002/mas.21560].
 
@@ -2384,7 +2384,7 @@ Photoactivation is another family of alternative dissociation strategies that ha
 Infrared multi-photon dissociation (IRMPD) is canonically the photodissociation method used in early proteomic applications [@DOI:10.1039/c3cs60444f], but ultraviolet photodissociation (UVPD) has been the more widely used approach in the recent decade [@DOI:10.1021/acs.chemrev.9b00440].
 IRMPD functions similarly to resCID; it is a slow heating approach that causes vibrational excitation due to absorption of low energy photons, generally 10.6 um photons from a CO2 laser [@DOI:10.1021/acs.chemrev.9b00395; @DOI:10.1016/j.jasms.2004.07.016].
 Predominant fragments are b- and y-type fragments, although secondary fragmentation occurs because fragment ions remain in the photon path after the initial dissociation event (Figure XD).
-Despite limited use in the past decade, recent work shows that IRMPD, or more generally activation with IR photons, may still have value in the proteomics toolkit [@DOI: 10.1021/acs.analchem.1c05398; @DOI: 10.1021/acs.analchem.0c02087].
+Despite limited use in the past decade, recent work shows that IRMPD, or more generally activation with IR photons, may still have value in the proteomics toolkit [@DOI:10.1021/acs.analchem.1c05398; @DOI:10.1021/acs.analchem.0c02087].
 UVPD has been explored with a number of wavelengths, including 157 nm, 193 nm, 213 nm, 266 nm, and 355 nm [@DOI:10.1002/anie.200460788; @DOI:10.1021/pr100515x; @DOI:10.1074/mcp.TIR119.001638; @DOI:10.1016/j.jasms.2008.10.019; @DOI:10.1002/rcm.4184; @DOI:10.1021/ac071241t].
 Higher-energy UVPD approaches, like 193 and 213 nm photons, are typically used for underivatized peptide and protein ions [@DOI:10.1021/acs.chemrev.9b00440], while others, like 266 and 355 nm, can be used for directed fragmentation at specific residues with natural chromophores (e.g., tyrosine) or exogenously added chromophore tags [@DOI:10.1021/ja076535a; @DOI:10.1002/anie.200900613].
 UVPD with 193 and 213 nm generate multiple fragment types, including sequence-informative a-, b-, c-, x-, y-, and z-ions in addition to other fragmentation pathways, which occur through vibrational and electronic excitation [@DOI:10.1007/s13361-017-1721-0].
@@ -2392,7 +2392,7 @@ UVPD has been explored for bottom-up proteomic applications, but its more impact
 The laser needed for UVPD (i.e., the photon wavelength desired) determines much about its implementation.
 193 nm photons are typically generated using an Excimer laser with ArF gas [@DOI:10.1021/ja4029654], while 213 nm photons can be generated with a solid-state laser that is easier to integrate into an instrument platform and maintain [@DOI:10.1021/jasms.0c00106; @DOI:10.1074/mcp.TIR119.001638].
 That said, 213 nm photons tend to provide more directed, preferential cleavage pathways compared to 193 nm photons that cleave more broadly in non-directed fashion [@DOI:10.1021/jasms.2c00288].
-Outside of ExD and photoactivation approaches, other alternative dissociation methods have been explored for various proteomic applications, although they are not as widely adopted at ExD and UVPD methods[@DOI:acs.analchem.9b04859].
+Outside of ExD and photoactivation approaches, other alternative dissociation methods have been explored for various proteomic applications, although they are not as widely adopted at ExD and UVPD methods[@DOI:10.1021/acs.analchem.9b04859].
 
 
 ## Experiment Design
