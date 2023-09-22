@@ -25,10 +25,10 @@ alkylate
 alkylated
 alkylating
 alkylation
-Alphafold
+AlphaFold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -79,11 +79,11 @@ biomarkers
 Biomedicine
 Biomolecular
 biomolecules
-BioPlex
+bioplex
 biopolymers
 bioruptor
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -127,10 +127,10 @@ chemistries
 chloroacetamide
 chromatogram
 chromatograms
-chromatographic
+Chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -140,10 +140,10 @@ Clostridium
 Clostripain
 coIP
 coli
-Collisional
+collisional
 collisionally
 Colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 complementation
@@ -160,7 +160,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -176,7 +176,7 @@ Cytoscape
 cytotoxicity
 databses
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -191,7 +191,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -207,7 +207,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
 disuccinimidyl
@@ -241,7 +241,7 @@ Endo
 endonuclease
 endopeptidase
 endoplasmic
-enrichments
+Enrichments
 ensembl
 enzymatically
 enzymogenesis
@@ -272,7 +272,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-FASTA
+fasta
 Fc
 FCCS
 FCS
@@ -294,7 +294,7 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -319,7 +319,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -336,7 +336,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -411,7 +411,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -490,7 +490,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -550,7 +550,7 @@ nanoflow
 nanomaterials
 NanoOrange
 NCBI
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -560,7 +560,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -575,7 +575,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 Ortholog
@@ -607,9 +607,9 @@ phosphatases
 phosphine
 phosphoenrichment
 phosphoimaging
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteome
 phosphoproteomic
 phosphoproteomics
@@ -618,7 +618,7 @@ phosphorylations
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -639,7 +639,7 @@ PPIs
 PQD
 practioners
 pre
-prefractionation
+Prefractionation
 premaure
 PRM
 Progenesis
@@ -652,13 +652,13 @@ Proteinase
 proteinness
 proteoform
 proteoforms
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
 proteomic
-Proteomics
+proteomics
 ProtParam
 protti
 proximities
@@ -811,7 +811,7 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -825,9 +825,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tTA
@@ -846,7 +846,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
