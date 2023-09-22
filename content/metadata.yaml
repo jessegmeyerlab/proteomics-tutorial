@@ -1,6 +1,6 @@
 ---
 
-title: "A Practical Beginner's Guide to Proteomics"
+title: "A Comprehensive Overview of Modern Proteomics"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -8,6 +8,15 @@ keywords:
   - manubot
 lang: en-US
 authors:
+
+
+  - name: Simion Kreimer
+    initials: SK
+    orcid: 0000-0001-6627-3771
+    twitter: KreimerSimion
+    email: Simion.Kreimer@cshs.org
+    affiliations:
+     - Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
 
   - github: rileynm
     name: Nicholas M. Riley
