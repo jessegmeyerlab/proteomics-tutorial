@@ -27,11 +27,11 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 Alphafold
 AlphaPept
 aminooxy
-Aminoxy
+aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -122,7 +122,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -135,10 +135,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -150,7 +150,7 @@ coIP
 coli
 collisional
 collisionally
-colorimetric
+Colorimetric
 colorimetry
 columbic
 Combinatorial
@@ -169,7 +169,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -202,7 +202,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 determinining
 deubiquitinase
 deuteron
@@ -218,10 +218,10 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -260,8 +260,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
-ensembl
+Enrichments
+Ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -291,7 +291,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 FC
 FCCS
 FCS
@@ -316,7 +316,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 fragi
 fragmentations
@@ -355,7 +355,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -445,7 +445,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -521,7 +521,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -656,7 +656,7 @@ phosphoenrichment
 phosphoimaging
 phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteome
 phosphoproteomic
 phosphoproteomics
@@ -687,7 +687,7 @@ PPI
 PPIs
 practioners
 Pre
-prefractionation
+Prefractionation
 premaure
 PRM
 Progenesis
@@ -725,9 +725,9 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
+QToF
 quadruople
-quadrupole
+Quadrupole
 quadrupoles
 Qual
 quantitate
@@ -750,7 +750,7 @@ recombinase
 redundance
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -760,7 +760,6 @@ reticulum
 rexprem
 rfs
 ribosylation
-Richad
 rileynm
 RNAi
 Roepstorff
@@ -771,7 +770,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -867,7 +866,7 @@ TMIMS
 TMT
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -887,10 +886,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
-tris
+TripleTOF
+Tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
@@ -921,7 +920,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
