@@ -9,7 +9,14 @@ keywords:
 lang: en-US
 authors:
 
-
+  - name: Yuming Jiang
+    initials: YJ
+    orcid: 0000-0001-7444-3849
+    twitter: yumingjiang94
+    email: Yuming.Jiang@cshs.org
+    affiliations:
+     - Department of Computational Biomedicine, Cedars Sinai Medical Center
+     
   - name: Simion Kreimer
     initials: SK
     orcid: 0000-0001-6627-3771
