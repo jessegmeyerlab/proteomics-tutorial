@@ -28,10 +28,10 @@ alkylate
 alkylated
 alkylating
 Alkylation
-AlphaFold
+Alphafold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -86,11 +86,11 @@ biomarkers
 Biomedicine
 Biomolecular
 biomolecules
-BioPlex
+bioplex
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -122,7 +122,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -169,7 +169,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -187,7 +187,7 @@ Daltonics
 Daly
 databses
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -202,7 +202,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -221,7 +221,7 @@ DiLeu
 Dimethyl
 dimethylated
 diol
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -246,7 +246,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -260,8 +260,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
-Ensembl
+enrichments
+ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -277,7 +277,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -325,7 +325,6 @@ FragPipe
 frameshift
 frondosa
 FRT
-FTICR
 functionalized
 futher
 FWHM
@@ -356,7 +355,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -438,7 +437,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -564,6 +563,8 @@ miniTurboID
 miRNA
 misfolding
 missense
+Mobie
+Mobilion
 mobilities
 MRM
 mRNA
@@ -591,7 +592,7 @@ nanoflow
 nanomaterials
 NanoOrange
 NCBI
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -619,7 +620,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 Ortholog
@@ -633,6 +634,7 @@ Pak
 palmitoylation
 parallelization
 PASEF
+pathlength
 PCR
 PDB
 peptidase
@@ -684,13 +686,13 @@ posttranslational
 PPI
 PPIs
 practioners
-pre
+Pre
 prefractionation
 premaure
 PRM
 Progenesis
 Pronase
-prot
+Prot
 protease
 proteases
 proteasome
@@ -758,6 +760,7 @@ reticulum
 rexprem
 rfs
 ribosylation
+Richad
 rileynm
 RNAi
 Roepstorff
@@ -864,7 +867,7 @@ TMIMS
 TMT
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -873,7 +876,7 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -884,12 +887,12 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 tris
 Tritirachium
-Trp
+TRP
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tTA
@@ -918,7 +921,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
