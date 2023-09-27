@@ -28,7 +28,7 @@ alkylate
 alkylated
 alkylating
 alkylation
-AlphaFold
+Alphafold
 AlphaPept
 aminooxy
 aminoxy
@@ -90,7 +90,7 @@ BioPlex
 biopolymers
 bioruptor
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -122,7 +122,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -187,7 +187,7 @@ Daltonics
 Daly
 databses
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -202,7 +202,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -218,7 +218,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
 dispersive
@@ -246,7 +246,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -277,7 +277,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -291,7 +291,7 @@ experiemnts
 Exploris
 FAIMS
 FASP
-FASTA
+fasta
 FC
 FCCS
 FCS
@@ -316,7 +316,7 @@ Folin
 Footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 fragi
 fragmentations
@@ -338,7 +338,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -437,7 +437,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -445,7 +445,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -521,7 +521,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -620,7 +620,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 Ortholog
@@ -654,18 +654,18 @@ phosphatases
 phosphine
 phosphoenrichment
 phosphoimaging
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteome
 phosphoproteomic
-phosphoproteomics
+Phosphoproteomics
 phosphorylated
 phosphorylations
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -687,7 +687,7 @@ PPI
 PPIs
 practioners
 Pre
-Prefractionation
+prefractionation
 premaure
 PRM
 Progenesis
@@ -700,7 +700,7 @@ Proteinase
 proteinness
 proteoform
 proteoforms
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
@@ -725,7 +725,7 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
+QToF
 quadruople
 quadrupole
 quadrupoles
@@ -750,7 +750,7 @@ recombinase
 redundance
 refered
 reflectron
-refseq
+RefSeq
 repressor
 reproducibility
 resCID
@@ -866,7 +866,7 @@ TMIMS
 TMT
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -875,7 +875,7 @@ transactivator
 transcriptional
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -889,9 +889,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tTA
@@ -913,7 +913,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
