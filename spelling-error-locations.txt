@@ -2558,11 +2558,6 @@ content/15.biological-interpretation.md:380:situ
 content/15.biological-interpretation.md:382:PPIs
 content/15.biological-interpretation.md:382:stoichiometry
 content/15.biological-interpretation.md:384:SPR
-content/16.sample-fractionation.md:2:fractionation
-content/16.sample-fractionation.md:6:fractionation
-content/16.sample-fractionation.md:7:SDS
-content/16.sample-fractionation.md:9:fractionation
-content/16.sample-fractionation.md:10:bRP
 content/18.liquid-chromatography.md:3:chromatographic
 content/18.liquid-chromatography.md:4:analytes
 content/18.liquid-chromatography.md:5:analytes
