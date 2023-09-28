@@ -7,22 +7,22 @@ keywords:
 lang: en-US
 date-meta: '2023-09-28'
 author-meta:
-- Germán L. Rosano
+- Simion Kreimer
 - Dina Schuster
-- Anna G. Duboff
+- Benjamin A. Neely
+- Norbert Volkmar
 - Yuming Jiang
+- Devasahayam Arokia Balaya Rex
 - Amit Kumar Yadav
-- Susan B. Egbert
+- Muralidharan Vanuopadath
+- Anna G. Duboff
+- Martín L. Mayta
 - Oliver M. Crook
 - Emma H. Doud
-- Devasahayam Arokia Balaya Rex
-- Norbert Volkmar
 - Nicholas M. Riley
-- Martín L. Mayta
 - Jesse G. Meyer
-- Benjamin A. Neely
-- Simion Kreimer
-- Muralidharan Vanuopadath
+- Susan B. Egbert
+- Germán L. Rosano
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -37,39 +37,58 @@ header-includes: |
   <meta name="dc.date" content="2023-09-28" />
   <meta name="citation_publication_date" content="2023-09-28" />
   <meta property="article:published_time" content="2023-09-28" />
-  <meta name="dc.modified" content="2023-09-28T15:55:57+00:00" />
-  <meta property="article:modified_time" content="2023-09-28T15:55:57+00:00" />
+  <meta name="dc.modified" content="2023-09-28T16:03:27+00:00" />
+  <meta property="article:modified_time" content="2023-09-28T16:03:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Germán L. Rosano" />
-  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
-  <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Simion Kreimer" />
+  <meta name="citation_author_institution" content="Smidt Heart Institute, Cedars Sinai Medical Center" />
+  <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
+  <meta name="twitter:creator" content="@KreimerSimion" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Anna G. Duboff" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
+  <meta name="citation_author" content="Benjamin A. Neely" />
+  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
+  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
+  <meta name="twitter:creator" content="@neely615" />
+  <meta name="citation_author" content="Norbert Volkmar" />
+  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
+  <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
+  <meta name="twitter:creator" content="@NorbertVolkmar" />
   <meta name="citation_author" content="Yuming Jiang" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0001-7444-3849" />
   <meta name="twitter:creator" content="@yumingjiang94" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Amit Kumar Yadav" />
   <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
   <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
   <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Susan B. Egbert" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
-  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
-  <meta name="twitter:creator" content="@lichenlady94" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Anna G. Duboff" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
   <meta name="citation_author" content="Oliver M. Crook" />
   <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
   <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
@@ -78,50 +97,31 @@ header-includes: |
   <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
   <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Norbert Volkmar" />
-  <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
-  <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
-  <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
-  <meta name="twitter:creator" content="@NorbertVolkmar" />
   <meta name="citation_author" content="Nicholas M. Riley" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
   <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
   <meta name="twitter:creator" content="@riley_nm1" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Benjamin A. Neely" />
-  <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
-  <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
-  <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Simion Kreimer" />
-  <meta name="citation_author_institution" content="Smidt Heart Institute, Cedars Sinai Medical Center" />
-  <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
-  <meta name="twitter:creator" content="@KreimerSimion" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Susan B. Egbert" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
+  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
+  <meta name="twitter:creator" content="@lichenlady94" />
+  <meta name="citation_author" content="Germán L. Rosano" />
+  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
+  <meta name="twitter:creator" content="@GermanRosano" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/faa57f7e9f83732ad29bb26b8a452295d91ed8a5/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/faa57f7e9f83732ad29bb26b8a452295d91ed8a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/faa57f7e9f83732ad29bb26b8a452295d91ed8a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2681366096b3f29794165b6c282031379af5be6/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2681366096b3f29794165b6c282031379af5be6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2681366096b3f29794165b6c282031379af5be6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -143,9 +143,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/faa57f7e9f83732ad29bb26b8a452295d91ed8a5/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d2681366096b3f29794165b6c282031379af5be6/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@faa57f7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/faa57f7e9f83732ad29bb26b8a452295d91ed8a5)
+from [jessegmeyerlab/proteomics-tutorial@d268136](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d2681366096b3f29794165b6c282031379af5be6)
 on September 28, 2023.
 </em></small>
 
@@ -155,18 +155,15 @@ on September 28, 2023.
 
 
 
-+ **Germán L. Rosano**
++ **Simion Kreimer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ger225](https://github.com/ger225)
+    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [GermanRosano](https://twitter.com/GermanRosano)
+    [KreimerSimion](https://twitter.com/KreimerSimion)
     <br>
   <small>
-     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
-     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
+     Smidt Heart Institute, Cedars Sinai Medical Center; Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
   </small>
 
 + **Dina Schuster**
@@ -182,16 +179,31 @@ on September 28, 2023.
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
   </small>
 
-+ **Anna G. Duboff**
++ **Benjamin A. Neely**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0009-0002-7316-3831](https://orcid.org/0009-0002-7316-3831)
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [agduboff](https://github.com/agduboff)
+    [neely](https://github.com/neely)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [neely615](https://twitter.com/neely615)
     <br>
   <small>
-     Department of Chemistry, University of Washington
-     · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
+  </small>
+
++ **Norbert Volkmar**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [norbertvolkmar](https://github.com/norbertvolkmar)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
+    <br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
   </small>
 
 + **Yuming Jiang**
@@ -205,6 +217,19 @@ on September 28, 2023.
     <br>
   <small>
      Department of Computational Biomedicine, Cedars Sinai Medical Center
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)
+    <br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 + **Amit Kumar Yadav**
@@ -221,17 +246,42 @@ on September 28, 2023.
      · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
-+ **Susan B. Egbert**
++ **Muralidharan Vanuopadath**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://github.com/lichenlady94)
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://twitter.com/lichenlady94)
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
     <br>
   <small>
-     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+  </small>
+
++ **Anna G. Duboff**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0009-0002-7316-3831](https://orcid.org/0009-0002-7316-3831)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [agduboff](https://github.com/agduboff)
+    <br>
+  <small>
+     Department of Chemistry, University of Washington
+     · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+  </small>
+
++ **Martín L. Mayta**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [martinmayta](https://github.com/martinmayta)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [MartinMayta2](https://twitter.com/MartinMayta2)
+    <br>
+  <small>
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 + **Oliver M. Crook**
@@ -260,32 +310,6 @@ on September 28, 2023.
      Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Norbert Volkmar**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [norbertvolkmar](https://github.com/norbertvolkmar)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
-    <br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
-  </small>
-
 + **Nicholas M. Riley**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -298,19 +322,6 @@ on September 28, 2023.
   <small>
      Department of Chemistry, University of Washington
      · Funded by Grant R00 GM147304
-  </small>
-
-+ **Martín L. Mayta**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
-    <br>
-  <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 + **Jesse G. Meyer**
@@ -327,42 +338,31 @@ on September 28, 2023.
      · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
-+ **Benjamin A. Neely**
++ **Susan B. Egbert**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
+    [lichenlady94](https://github.com/lichenlady94)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)
+    [lichenlady94](https://twitter.com/lichenlady94)
     <br>
   <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
+     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
   </small>
 
-+ **Simion Kreimer**
++ **Germán L. Rosano**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [KreimerSimion](https://twitter.com/KreimerSimion)
-    <br>
-  <small>
-     Smidt Heart Institute, Cedars Sinai Medical Center; Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
-  </small>
-
-+ **Muralidharan Vanuopadath**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    [ger225](https://github.com/ger225)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    [GermanRosano](https://twitter.com/GermanRosano)
     <br>
   <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
 
@@ -449,7 +449,7 @@ They perform various functions in living organisms ranging from having structura
 Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
 The human genome encodes more than 20,000 different proteins.
 Each protein is present at a different abundances.
-Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell and that their distribution is tissue-specific[@DOI:10.1038/msb.2011.82][@DOI:10.1016/j.cell.2020.08.036].
+Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell and that their distribution is tissue-specific[@DOI:10.1038/msb.2011.82; @DOI:10.1016/j.cell.2020.08.036].
 Due to genetic variations, as well as alternative splicing and post-translational modifications, multiple different proteoforms can be produced from one single gene[@DOI:10.1038/nmeth.2369].
 
 #### PTMs
@@ -466,10 +466,10 @@ The most commonly studied and biologically relevant post-translational modificat
 Post-translational modification of a protein can alter its function, activity, structure, location and interactions. 
 PTMs alter signal transduction pathways and gene expression control [@PMID:28656226] regulation of apoptosis [@PMID:23088365; @PMID:11368354] by phosphorylation. 
 Ubiquitination regulates protein degradation [@PMID:16738015], SUMOylation regulates chromatin structure, DNA repair, transcription, cell-cycle progression [@PMID:26601932; @PMID:29079793], and palmitoylation regulates maintenance of the structural organization of exosome-like extracellular vesicle membranes by [@PMID:30251702]. 
-Glycosylation is a ubiquitous modification that regulates a variety of T cell functions, such as cellular migration, T cell receptor signalling, cell survival, and apoptosis [@PMID:22288421, @PMID:18846099].
+Glycosylation is a ubiquitous modification that regulates a variety of T cell functions, such as cellular migration, T cell receptor signalling, cell survival, and apoptosis [@PMID:22288421; @PMID:18846099].
 Deregulation of PTMs is linked to cellular stress and diseases [@doi:10.1038/s41570-020-00223-8].
 
-Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labelled substrates, western blot with PTM-specific antibodies, and peptide and protein arrays [@PMID:11062466, @PMID:12323352]. 
+Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labelled substrates, western blot with PTM-specific antibodies, and peptide and protein arrays [@PMID:11062466; @PMID:12323352]. 
 While effective, these approaches have many limitations, such as inefficiency and difficulty in producing pan-specific antibodies. 
 MS-based proteomics approaches are currently the predominant tool for identifying and quantifying changes in PTMs. 
 
@@ -747,7 +747,7 @@ In the BCA method the peptide bonds of the protein reduce cupric ions [Cu2+] to 
 Subsequently, the BCA reagent binds to the cuprous ions, leading to the formation of a complex which absorbs 562 nm wavelength light.
 This permits a direct correlation between sample protein concentration and absorbance [@PMID:3843705; @PMID:7951748]. 
 The Bradford assay is another method for protein quantification also based on colorimetry principle. 
-It relies on the interaction between the Coomassie brilliant blue dye and the protein based on hydrophobic and electrostatic interactions. Dye binding shifts the absorption maxima from 470 nm to 595 nm [@PMID:942051, @PMID:32238597]. 
+It relies on the interaction between the Coomassie brilliant blue dye and the protein based on hydrophobic and electrostatic interactions. Dye binding shifts the absorption maxima from 470 nm to 595 nm [@PMID:942051; @PMID:32238597]. 
 Similarly, the Folin- Lowry method is a two-step colorimetric assay. 
 Step one is the biuret reaction wherein complexes of copper with the nitrogen in the protein molecule are formed. 
 In the second step, the complexed tyrosine and tryptophan amino acids react with Folin–Ciocalteu phenol reagent generating an intense, blue-green color absorbing light at 650–750 nm [@PMID:6744121]. 
@@ -807,7 +807,7 @@ Moreover, by providing an increased peptide diversity, the use of multiple prote
 A multi-protease approach can also improve the identification of N-Termini and signal peptides for small proteins [@DOI:10.1021/acs.jproteome.1c00115]. 
 Overall, integrating multiple-protease data can increase the number of proteins identified [@DOI:10.3390/ijms20225630; @DOI:10.1074/mcp.M113.035170], the number of identified post-translational modifications detected [@DOI:10.1021/acs.jproteome.9b00330; @DOI:10.1016/j.celrep.2015.05.029; @DOI:10.1074/mcp.M113.034710] and decrease the ambiguity of the protein group list [@DOI:10.1021/acs.jproteome.9b00330].
 
-Lysyl endopeptidase (Lys-C) obtained from  _Lysobacter enzymogenesis_ is a serine protease involved in cleaving carboxyl terminus of Lys [@PMID:6359954, @PMID:25823410].
+Lysyl endopeptidase (Lys-C) obtained from  _Lysobacter enzymogenesis_ is a serine protease involved in cleaving carboxyl terminus of Lys [@PMID:6359954; @PMID:25823410].
 Like trypsin, the optimum pH range required for its activity is from 7 to 9. 
 A major advantage of Lys-C is its resistance to denaturing agents, including 8 M urea - a chaotrope commonly used to denature proteins _prior_ to digestion [@PMID:27123950].
 Trypsin is less efficient at cleaving Lys than Arg, which could limit the quality of quantitation from tryptic peptides.
@@ -989,12 +989,12 @@ In order to study low abundance protein modifications, or to study rare proteins
 Protein phosphorylation is when a negatively charged phosphate group (PO 4-) is added on the side-chain hydroxyl groups of (Ser, S), threonine (Thr, T), and tyrosine (Tyr, Y), residues on target proteins. 
 Protein kinases catalyze the transfer of PO 4- group from ATP to the nucleophile (OH) group of serine (S), threonine (T), and tyrosine (Y) residues, while protein phosphatases catalyze the removal of PO 4 -. 
 Phosphorylation changes the charge of a protein, often altering protein conformation and therefore function [@PMID:26473910]. 
-Protein phosphorylation is one of the major post-translation modifications (PTM) that alters the stability, subcellular location, enzymatic activity complex formation, degradation of protein, and cell signalling of protein with a diverse role in cells [@PMID:31819260, @PMID:35227377]. 
+Protein phosphorylation is one of the major post-translation modifications (PTM) that alters the stability, subcellular location, enzymatic activity complex formation, degradation of protein, and cell signalling of protein with a diverse role in cells [@PMID:31819260; @PMID:35227377]. 
 Phosphorylation can regulate almost all cellular processes, including metabolism, growth, division, differentiation, apoptosis, and signal transduction pathways [@PMID:28656226]. 
 Rapid changes in protein phosphorylation are associated with several diseases [@PMID:11589691]. 
 
 Several methods are used to characterize phosphorylation using modification-specific enrichment techniques combined with advanced MS/MS methods and computational data analysis [@PMID:19743430]. 
-MS-based phosphoproteomics tools are pivotal for the comprehensive study for the structural and dynamics of cellular signalling networks [@PMID:32676006], but there are many challenges [PMID:24890697]. 
+MS-based phosphoproteomics tools are pivotal for the comprehensive study for the structural and dynamics of cellular signalling networks [@PMID:32676006], but there are many challenges [@PMID:24890697]. 
 For example, phosphopeptides are low stoichiometry compared to non-phosphorylated peptides, which makes them difficult to identify. 
 Phosphopeptides also exhibit low ionization efficiency [@PMID:28283928]. 
 To overcome these challenges, it is important to reduce sample complexity to detect large numbers of phosphorylation sites. 
@@ -1005,7 +1005,7 @@ As with any proteomics experiment, phosphoproteomics studies require protein ext
 Special consideration is required during protein extraction where the cell lysis buffer should include phosphatase inhibitors such as sodium orthovanadate, sodium pyrophosphatase and beta-glycerophosphate [@PMID:35011700]. 
 
 Enrichment can be done at the protein level before proteolysis. 
-Phosphoprotein enrichment typically involves the use of immobilized metal-affinity chromatography (IMAC) to selectively capture phosphorylated proteins based on their high-affinity binding to metal ions such as Ga(III), Fe(III), Zn(II) and Al(III) [@PMID:10424175, @PMID:16464107, @PMID:3085541, @PMID:17480206, @PMID:16252304]. 
+Phosphoprotein enrichment typically involves the use of immobilized metal-affinity chromatography (IMAC) to selectively capture phosphorylated proteins based on their high-affinity binding to metal ions such as Ga(III), Fe(III), Zn(II) and Al(III) [@PMID:10424175; @PMID:16464107; @PMID:3085541; @PMID:17480206; @PMID:16252304]. 
 
 Enrichment is more commonly done at the peptide level because there are several advantages over phosphoprotein enrichment. 
 First, peptides have simpler three-dimensional structures than proteins, which makes them easier to separate and analyze. 
@@ -1013,7 +1013,7 @@ Second, phosphopeptide enrichment is not hindered by small, lipophilic, and very
 Third, prefractionation techniques such as strong anionic ion-exchange chromatography (SAX), strong cationic ion-exchange chromatography (SCX) and hydrophilic interaction liquid chromatography (HILIC) are easier to use for peptide separation than they are for protein separation, and they are more sensitive than 2D-gel electrophoresis, allowing for the identification of less abundant phosphopeptides [@PMID:15966007]. 
 As a result, phosphopeptide enrichment has more yielded more experimental data than phosphoprotein enrichment [@PMID:17480206]. 
 
-Phosphopeptide enrichment often uses titanium dioxide (TiO2) [@PMID:15858219] and/or IMAC such as Fe3+ coupled to solid-phase materials [@PMID:3085541; @PMID:35011700, @PMID:26584922]. 
+Phosphopeptide enrichment often uses titanium dioxide (TiO2) [@PMID:15858219] and/or IMAC such as Fe3+ coupled to solid-phase materials [@PMID:3085541; @PMID:35011700; @PMID:26584922]. 
 Often organic acids such as glutamic acid, lactic acid, glycolic acid is added to compete with acidic non-phosphopeptides for binding to the metal-ions. 
 
 The use of Fe-IMAC column chromatography allows for the improved phosphopeptide from complex peptide mixtures [@PMID:25394399]. 
@@ -1053,7 +1053,7 @@ One benefit of this approach is that peptides are less likely to experience non-
 Initially peptide immunoaffinity precipitation was developed to enrich for phosphotyrosine-containing peptides. 
 This protocol was initially designed to enrich for phosphotyrosine-containing peptides [@PMID:15592455]. 
 Peptide immunoprecipitation yielded significantly greater coverage of the phosphotyrosine proteome than global phosphorylation enrichment strategies by enriching for a subset of the phosphoproteome.  
-Since then, peptide immunoaffinity precipitation has been used successfully to enrich for peptides with other phosphorylation motifs [@PMID:17525332, @PMID:20736484] as well as peptides with other modifications such as the diglycyl-lysine residue of ubiquitin modification after trypsin proteolysis [@PMID:21963094, @PMID:21906983, @PMID:21890473], acetyl-lysine [@PMID:19608861; @PMID:23201123; @PMID:25953088, @PMID:31087289; @DOI:10.1002/pmic.201800123], arginine methylation [@PMID:24129315], tyrosine nitration [@PMID:28714690], and tyrosine phosphorylation [@PMID:19770167, @PMID:15951569]. 
+Since then, peptide immunoaffinity precipitation has been used successfully to enrich for peptides with other phosphorylation motifs [@PMID:17525332; @PMID:20736484] as well as peptides with other modifications such as the diglycyl-lysine residue of ubiquitin modification after trypsin proteolysis [@PMID:21963094; @PMID:21906983; @PMID:21890473], acetyl-lysine [@PMID:19608861; @PMID:23201123; @PMID:25953088; @PMID:31087289; @DOI:10.1002/pmic.201800123], arginine methylation [@PMID:24129315], tyrosine nitration [@PMID:28714690], and tyrosine phosphorylation [@PMID:19770167; @PMID:15951569]. 
 
 The O-linked β-D-N-acetylglucosamine (O-GlcNac) is found on serine and threonine residues of nucleocytoplasmic proteins a one of PTMs is involved in involved in the occurrence and progression of cancers in multiple systems throughout the body [@PMID:36104770]. 
 Anti-O-GlcNAc monoclonal antibody enables enrichment from O-GlcNAcylated peptides of cells and tissues. 
@@ -1116,7 +1116,7 @@ The major drawback of this technique is that with SPE only a small fraction of t
 The material for SPE is available in various types, including (micro-) columns, cartridges, plates, micropipette tips, and functionalized magnetic beads (MBs) [@PMID:20606758; @PMID:20099258]. 
 Reversed-phase is the most widely used material for SPE in proteomic studies for the proteins and peptide fractionation and rarely, ion-exchange material. 
 For the separation of glycosylated proteins and peptides, the preferred material is normal phase such as HILIC [@PMID:22665312; @PMID:20536156]. 
-SPE materials which are less commonly used are silica- or polystyrene-based [@PMID:17625912; @PMID:15317408]. 
+SPE materials which are less commonly used are silica- or polystyrene-based ones [@PMID:17625912; @PMID:15317408]. 
 The other types of SPE methods are IEX, metal chelation, and affinity-based [@PMID:25692071].
 
 The basic idea behind the choice of binding and wash versus elution solutions for SPE is that that the binding and wash solutions should favor the interaction between the analytes of interest and the solid phase, whereas the elution solution should favor the interaction of the analyte with the liquid phase (**Figure 3**). 
@@ -1175,7 +1175,7 @@ Usually online RPLC is done at acidic pH to ensure peptide ionization, but it ca
 HILIC is similar in its principle to normal-phase chromatography. 
 It is used for the separation of hydrophilic peptides and polar analytes [@PMID:21879300]. 
 This separation is achieved by a stationary phase that is hydrophilic in nature, for example: cyano-, diol-, amino- bonded phases [@PMID:18428181], and an organic and hydrophobic mobile phase [@PMID:18264818]. 
-The elution of bonded peptides occurs by increasing the mobile phase polarity in a reversed elution order as compared to RPLC [@PMID:18264818; 15459207]. 
+The elution of bonded peptides occurs by increasing the mobile phase polarity in a reversed elution order as compared to RPLC [@PMID:18264818; @PMID:15459207]. 
 Thus, the peptides with less polarity elute before the more polar peptides. 
 HILIC can also be used for enrichment and targeted proteomic analysis of PTMs, such as glycosylation, N-acetylation and phosphorylation, which increase the polarity of peptides and therefore also their retention on HILIC [@PMID:20973639].
 
@@ -1572,7 +1572,7 @@ A few months later, Karas and Hillenkamp also demonstrated MALDI applied to prot
 It also created a controversy that the widely used method of MALDI from these two people had been overlooked, and the Nobel prize was awarded to Tanaka, whose system was rarely used[@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
 
 MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound.
-Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@URL:https://pubmed.ncbi.nlm.nih.gov/23681820/].
+Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@PMID:23681820].
 Subsequently, the analyte is placed in a vacuum chamber in which it is irradiated with a LASER, usually at 337nm [@DOI:10.1021/cr010375i].
 This laser energy is absorbed by the matrix, which then transfers that energy along with its free protons to the co-crystalized peptides without significantly breaking them.
 The matrix and co-crystallized sample generate plumes, and the volatile matrix imparts its protons to the peptides as it gets ionized first.
@@ -1767,7 +1767,7 @@ The entity that is recorded on a mass spectrometer is usually referred to as a p
 This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching. 
 The quantity of a precursor is estimated with various methods.
 The measured precursor quantities are combined to generate a peptide quantity. 
-Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification [@PMID:16009968] [@DOI:10.1016/j.jprot.2016.08.002].
+Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification [@PMID:16009968; @DOI:10.1016/j.jprot.2016.08.002].
 Protein inference is still a challenge in bottom-up proteomics. 
 
 Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
@@ -1829,7 +1829,7 @@ DDA data analysis either directly uses the vendor proprietary data format direct
 Tables 1 and 4 give weblinks and citations for these software tools.
 <!-- todo: need to make sure all these are listed in the table and cited -->
 <!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
-For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133] [@PMID:20013381][@DOI:10.1074/mcp.R112.019695]. 
+For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
 The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
 All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
 The search algorithm scores each query spectrum against its possible peptide matches [@DOI:10.1002/mas.21543]. 
@@ -2199,7 +2199,7 @@ Moreover, hubs are attractive targets for directed interventions, as their alter
 
 The route from one node to another is a path, and the shortest path is the one connecting them in the least amount of steps. 
 Closeness centrality is the inverse of the average length of a node's shortest paths to all other nodes in the network. 
-Nodes with a high closeness score have the shortest distances to all the others, so closeness centrality calculations detect nodes that can spread information very efficiently, as they are in a better position in the network for this task [@PMID:15616139; @URL:https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/building-and-analysing-ppins/topological-ppin-analysis/closeness-centrality/].
+Nodes with a high closeness score have the shortest distances to all the others, so closeness centrality calculations detect nodes that can spread information very efficiently, as they are in a better position in the network for this task [@PMID:15616139; @{URL:https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/building-and-analysing-ppins/topological-ppin-analysis/closeness-centrality/}].
 
 #### Betweenness centrality
 
@@ -2259,7 +2259,7 @@ For example, databses such as KEGG [@PMID:10592173], String [@PMID:33237311], Re
 For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
 Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
 GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
-We refer to a number of articles on the topics, including tools, reviews and best-practice [@PMID:25430566, @PMID:33290552 @DOI:10.1371/journal.pcbi.1009935].
+We refer to a number of articles on the topics, including tools, reviews and best-practice [@PMID:25430566; @PMID:33290552; @DOI:10.1371/journal.pcbi.1009935].
 The main points from such analysis is that we can obtain an insight about protein function by looking at whether our list of proteins have similar or the same annotations.
 A number of limitations should be taken into account for interpretation.
 The first is that proteins that are more abundant are more likely to be studied, measured and examined in the literature.
@@ -2316,9 +2316,9 @@ A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whet
   
 Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
 Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
-In Figure {fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
+In Figure {@fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
 
-### Other computational approaches: Network analysis, Isoform correlation analysis, Alphafold, BLAST, protein language models
+### Other computational approaches: Network analysis, Isoform correlation analysis, AlphaFold, BLAST, protein language models
 
 Additional computational analysis of a list of interesting proteins may uncover additional substructure, correlation or biologically useful hypothesis.
 Building a network between the proteins based on the experiments performed, might be a useful approach to identify additional structure.
@@ -2335,9 +2335,9 @@ These approaches can be used to identify specific proteoforms that are functiona
 
 For many, a protein’s structure reveals important functional details [@PMID:18429251].
 There are a plethora of approaches to predict a protein’s structure [@DOI:10.1073/pnas.1821309116; @DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
-Recently, AlphaFold and RosettaFold have become dominant methods for predicting protein structures with high resolution [@DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
+Recently, AlphaFold and RoseTTAFold have become dominant methods for predicting protein structures with high resolution [@DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
 If intrinsically disordered domains are of particular interest, methods explicitly designed for this task are recommended [@PMID:23203878].
-Once a structure is obtained more elaborate computational methods might be useful such as docking or molecular dynamics [@PMID:21534921, @DOI:10.2147/AABC.S70333].
+Once a structure is obtained more elaborate computational methods might be useful such as docking or molecular dynamics [@PMID:21534921; @DOI:10.2147/AABC.S70333].
 These approaches can give insight into how protein or molecules fit together and the dynamics of a protein's structure (conformational heterogeneity).
 A complete discussion of these topics is beyond the scope of this section.
 
@@ -2346,7 +2346,7 @@ Using BLAST, a sequence alignment tool, one can align two or more protein sequen
 For example, if a human protein of unknown function has a similar sequence to a yeast protein with known function this may be a starting place for the putative function of that protein.
 
 Novel approaches to representing the similarity of proteins have proved successful at predicting the functional properties of proteins.
-Protein language models seek to learn “representation” of proteins, these are usually numerical vectors that represent a protein sequence [@DOI:10.1038/s42256-022-00457-9, @DOI:10.1016/j.cels.2021.05.017].
+Protein language models seek to learn “representation” of proteins, these are usually numerical vectors that represent a protein sequence [@DOI:10.1038/s42256-022-00457-9; @DOI:10.1016/j.cels.2021.05.017].
 Abstractly, these vectors preserve protein similarity or a notion of “proteinness”. This usually means that two proteins that have a close vector may share similarities in protein function.
 These representations are also advantageous because they can easily become the inputs for machine learning algorithms to predict valuable protein properties; for example, thermal stability values [@PMID:32133759], protein-protein binding affinities [@DOI:10.1002/wcms.1448], secondary protein structure, and more.
 
@@ -2407,7 +2407,7 @@ Clustered regularly interspaced short palindromic repeats (CRISPR)/Cas-based gen
 When expressed in mammalian cells, the bacterially-derived Cas9 endonuclease can be guided with the help of a short guide RNA (gRNA) to a genomic location of interest, where it creates a DNA double strand break in a highly controlled manner (for a detailed discussion see [@DOI:10.1007/s00294-019-01040-3]).
 The cell's DNA double-stand break repair machinery then introduces base pair insertions or deletions (indels) via non-homologous-end-joining (NHEJ), thus causing missense, and frameshift mutations (i.e. resulting in premaure stop codons), leading to premature termination of gene expression or non-functional, aberrant gene products.
 Similarly, the concomitant provision of a complementary DNA donor template encoding a desired gene modification (i.e. insertion of a stretch of DNA or base pair modification) will trigger homology-directed repair (HDR), resulting in gene knockin or base editing [@DOI:10.1007/s00294-019-01040-3].     
-Practical considerations of CRISPR/Cas9-mediated gene knock-in and base editing will not be addressed in detail but are expertly discussed in [@DOI:10.1016/j.lfs.2022.120409], [@DOI:10.1007/s11427-021-2057-0], [@DOI:10.1007/s12033-022-00639-1], [@DOI:10.3390/genes14010129]. 
+Practical considerations of CRISPR/Cas9-mediated gene knock-in and base editing will not be addressed in detail but are expertly discussed in [@DOI:10.1016/j.lfs.2022.120409; @DOI:10.1007/s11427-021-2057-0; @DOI:10.1007/s12033-022-00639-1; @DOI:10.3390/genes14010129]. 
 
 The relative ease-of-use and high efficiency of the CRISPR/Cas9 gene editing technology has rendered it the method of choice for gene manipulation in many fields of cell biology. 
 However,it should be noted that CRISPR/Cas9-mediated gene deletion is not free from off-target effects ([@DOI:10.3390/cells9071608] for advice on how to minimise these off-target effects). 
@@ -2447,7 +2447,7 @@ The abundance of a protein in a complex sample (e.g. cell lysate or biological f
 
 Both protein stability as well as gene expression activity can be quantified independently. 
 Altered protein stability might be a direct consequence of specific or global changes in protein turnover. 
-Radioisotope labelling is a well-established, accurate way to monitor protein synthesis, maturation and turnover [@DOI:10.1002/0471140864.ps3003s78], [@DOI:10.1371/journal.pone.0155028]. 
+Radioisotope labelling is a well-established, accurate way to monitor protein synthesis, maturation and turnover [@DOI:10.1002/0471140864.ps3003s78; @DOI:10.1371/journal.pone.0155028]. 
 This ‘pulse-chase’ methodology relies on the incorporation (‘pulsing’) of radioisotopes (typically 35S-labelled cysteine and methionine) into de-novo synthesised proteins. 
 Upon withdrawal of the labelleled amino acids from the culture medium, the decay of signal is monitored over time (‘the chase’) by SDS-PAGE and phosphoimaging, resulting in a temporal readout of protein abundances. 
 The advantage of this technology is that a subpopulation (newly synthesised proteins) can be monitored directly, giving an accurate assessment of protein stability. 
@@ -2478,7 +2478,7 @@ Conventionally, two self-complementing transcription factor fragments are fused 
 The complemented transcription factor then induces the expression of a reporter gene that can be measured. 
 Multiple variations of this system abound for different model organisms, but they almost always involve transcriptional activation or repression of a reporter gene ([@DOI:10.4149/gpb_2021035] for a detailed discussion). 
 
-The yeast-2-hybrid system (Y2H) is deserving of mention here as it had been the very first 2-hybrid system established [@DOI:10.1038/340245a0] and has ever since proven to be extremely versatile (multiple auxotrophic reporters and markers of phenotypic sensitivity available), cheap, lends itself to functional high-throughput screening and variants have been developed that allow for the investigation of membrane-protein interactions (i.e. membrane Y2H) [@DOI:10.3390/ijms10062763], [@DOI:10.4149/gpb_2021035]. 
+The yeast-2-hybrid system (Y2H) is deserving of mention here as it had been the very first 2-hybrid system established [@DOI:10.1038/340245a0] and has ever since proven to be extremely versatile (multiple auxotrophic reporters and markers of phenotypic sensitivity available), cheap, lends itself to functional high-throughput screening and variants have been developed that allow for the investigation of membrane-protein interactions (i.e. membrane Y2H) [@DOI:10.3390/ijms10062763; @DOI:10.4149/gpb_2021035]. 
 
 Despite the many advantages the Y2H offers, critical drawbacks include the potential of misfolding of bait and prey proteins when fused to a complementation reporter, expression at non-physiological levels, the lack of control over posttranslational modifications that might be important for the PPI under investigation, and the potential requirement of kingdom- or species-specific folding factors for the bait/prey under investigation (i.e. when probing PPI of mammalian proteins in Y2H). 
 Principles of the Y2H technology have also been adapted to mammalian systems, which circumvent some of the aforementioned drawbacks of Y2H [@DOI:10.1016/j.drudis.2020.01.022]. 
@@ -2489,12 +2489,12 @@ Specific interactors are expected to be enriched compared to the negative contro
 AP is not solely restricted to detecting PPIs, but can also be adapted to protein interactions with other biomolecules such as RNA [@DOI:10.3390/ijms160922456]. 
 It should be noted that AP and Co-IP can return multiple potential binding partners, many of which might be artefactual due to loss of cellular compartmentalisation during sample preparation. 
 
-To reduce the probability of such artefacts and increase the confidence of a specific interaction, reciprocal affinity purification (by pulldown of each interaction partner) or in situ imaging might be performed (i.e. using fluorescence resonance energy transfer (FRET) [@DOI:10.1038/s41592-019-0530-8], split-protein systems [@DOI:10.1016/j.cbpa.2011.10.014], proximity ligation assay @DOI:10.1007/s00253-020-11049-1] and immunofluorescence microscopy). 
+To reduce the probability of such artefacts and increase the confidence of a specific interaction, reciprocal affinity purification (by pulldown of each interaction partner) or in situ imaging might be performed (i.e. using fluorescence resonance energy transfer (FRET) [@DOI:10.1038/s41592-019-0530-8], split-protein systems [@DOI:10.1016/j.cbpa.2011.10.014], proximity ligation assay [@DOI:10.1007/s00253-020-11049-1] and immunofluorescence microscopy). 
 
 Forster and bioluminescence resonance energy transfer (FRET / BRET) can be used for in situ visualisation of protein proximities and therefore PPIs. 
 In FRET, non-radiative energy transfer between donor and receptor chromophores (each fused to prey and bait proteins, respectively), results in the emission of a characteristic fluorescence signal only when both prey and bait are in very close proximity (1-10 nm distance) and a suitable light source for donor excitation is provided [@DOI:10.3390/ijms16046718]. 
 
-The underlying principle of BRET is similar to that of FRET but with the exception of using a chemical substrate which activates bioluminescent donor, such as luciferase, resulting in energy transfer to a fluorescent acceptor molecule [@DOI:10.1038/nmeth841], [@DOI:10.3390/mi13101789]. 
+The underlying principle of BRET is similar to that of FRET but with the exception of using a chemical substrate which activates bioluminescent donor, such as luciferase, resulting in energy transfer to a fluorescent acceptor molecule [@DOI:10.1038/nmeth841; @DOI:10.3390/mi13101789]. 
 The main advantages of BRET over FRET are independence from an external light source (which can result in photobleaching), but requires at least one of the POIs to be fused to the donor (while in FRET, donor and acceptor can be chemically conjugated to POI-specific antibodies) [@DOI:10.1038/nmeth841]. 
 FRET can be particularly useful in investigating cell surface protein interactions when using specific antibodies conjugated to donor and acceptor probes as antibodies are not cell-permeable and therefore restricted to targets presented on the cell surface in the absence of membrane permeabilization agents. 
 Other fluorescence-based PPI assays encompass Fluorescence correlation spectroscopy (FCS) and fluorescence cross-correlation spectroscopy (FCCS). 

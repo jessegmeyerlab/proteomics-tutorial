@@ -1526,7 +1526,6 @@ content/11.peptide-ionization.md:14:dihyrobenzic
 content/11.peptide-ionization.md:14:ferulic
 content/11.peptide-ionization.md:14:hydroxycinnamic
 content/11.peptide-ionization.md:14:hydroxycinnamic
-content/11.peptide-ionization.md:14:ncbi
 content/11.peptide-ionization.md:14:sinapinic
 content/11.peptide-ionization.md:15:analyte
 content/11.peptide-ionization.md:16:crystalized
@@ -2279,7 +2278,7 @@ content/15.biological-interpretation.md:163:differentially
 content/15.biological-interpretation.md:168:GSEA
 content/15.biological-interpretation.md:170:Kolmogorov
 content/15.biological-interpretation.md:170:Smirnov
-content/15.biological-interpretation.md:178:Alphafold
+content/15.biological-interpretation.md:178:AlphaFold
 content/15.biological-interpretation.md:178:Isoform
 content/15.biological-interpretation.md:186:isoforms
 content/15.biological-interpretation.md:186:proteome
@@ -2287,7 +2286,7 @@ content/15.biological-interpretation.md:188:isoforms
 content/15.biological-interpretation.md:190:proteoform
 content/15.biological-interpretation.md:191:proteoforms
 content/15.biological-interpretation.md:195:AlphaFold
-content/15.biological-interpretation.md:195:RosettaFold
+content/15.biological-interpretation.md:195:RoseTTAFold
 content/15.biological-interpretation.md:198:conformational
 content/15.biological-interpretation.md:207:proteinness
 content/15.biological-interpretation.md:214:spectrometry
