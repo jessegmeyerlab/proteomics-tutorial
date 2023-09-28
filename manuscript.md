@@ -7,22 +7,22 @@ keywords:
 lang: en-US
 date-meta: '2023-09-28'
 author-meta:
-- Martín L. Mayta
-- Devasahayam Arokia Balaya Rex
-- Simion Kreimer
-- Amit Kumar Yadav
-- Muralidharan Vanuopadath
+- Jesse G. Meyer
 - Nicholas M. Riley
 - Yuming Jiang
-- Dina Schuster
-- Susan B. Egbert
-- Oliver M. Crook
-- Benjamin A. Neely
-- Anna G. Duboff
-- Jesse G. Meyer
-- Germán L. Rosano
-- Norbert Volkmar
+- Simion Kreimer
 - Emma H. Doud
+- Anna G. Duboff
+- Martín L. Mayta
+- Germán L. Rosano
+- Muralidharan Vanuopadath
+- Dina Schuster
+- Benjamin A. Neely
+- Oliver M. Crook
+- Norbert Volkmar
+- Devasahayam Arokia Balaya Rex
+- Susan B. Egbert
+- Amit Kumar Yadav
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -37,36 +37,18 @@ header-includes: |
   <meta name="dc.date" content="2023-09-28" />
   <meta name="citation_publication_date" content="2023-09-28" />
   <meta property="article:published_time" content="2023-09-28" />
-  <meta name="dc.modified" content="2023-09-28T15:35:34+00:00" />
-  <meta property="article:modified_time" content="2023-09-28T15:35:34+00:00" />
+  <meta name="dc.modified" content="2023-09-28T15:42:47+00:00" />
+  <meta property="article:modified_time" content="2023-09-28T15:42:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Simion Kreimer" />
-  <meta name="citation_author_institution" content="Smidt Heart Institute, Cedars Sinai Medical Center" />
-  <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
-  <meta name="twitter:creator" content="@KreimerSimion" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="twitter:creator" content="@j_my_sci" />
   <meta name="citation_author" content="Nicholas M. Riley" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
   <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
@@ -75,53 +57,71 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0001-7444-3849" />
   <meta name="twitter:creator" content="@yumingjiang94" />
+  <meta name="citation_author" content="Simion Kreimer" />
+  <meta name="citation_author_institution" content="Smidt Heart Institute, Cedars Sinai Medical Center" />
+  <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
+  <meta name="twitter:creator" content="@KreimerSimion" />
+  <meta name="citation_author" content="Emma H. Doud" />
+  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
+  <meta name="twitter:creator" content="@fireinlab" />
+  <meta name="citation_author" content="Anna G. Duboff" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Germán L. Rosano" />
+  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
+  <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
-  <meta name="citation_author" content="Susan B. Egbert" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
-  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
-  <meta name="twitter:creator" content="@lichenlady94" />
-  <meta name="citation_author" content="Oliver M. Crook" />
-  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
-  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
-  <meta name="twitter:creator" content="@OllyMCrook" />
   <meta name="citation_author" content="Benjamin A. Neely" />
   <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
   <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
   <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Anna G. Duboff" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
-  <meta name="citation_author" content="Jesse G. Meyer" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
-  <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Germán L. Rosano" />
-  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
-  <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Oliver M. Crook" />
+  <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
+  <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
+  <meta name="twitter:creator" content="@OllyMCrook" />
   <meta name="citation_author" content="Norbert Volkmar" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
   <meta name="twitter:creator" content="@NorbertVolkmar" />
-  <meta name="citation_author" content="Emma H. Doud" />
-  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
-  <meta name="twitter:creator" content="@fireinlab" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Susan B. Egbert" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
+  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
+  <meta name="twitter:creator" content="@lichenlady94" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
   <link rel="canonical" href="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="og:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta property="twitter:url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e7f5d709b7e8a17fec687384c89e6b5952ae3749/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e7f5d709b7e8a17fec687384c89e6b5952ae3749/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e7f5d709b7e8a17fec687384c89e6b5952ae3749/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c62597318acb02f908a65ebd2e0accab167cecb/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c62597318acb02f908a65ebd2e0accab167cecb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c62597318acb02f908a65ebd2e0accab167cecb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -143,9 +143,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e7f5d709b7e8a17fec687384c89e6b5952ae3749/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c62597318acb02f908a65ebd2e0accab167cecb/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@e7f5d70](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e7f5d709b7e8a17fec687384c89e6b5952ae3749)
+from [jessegmeyerlab/proteomics-tutorial@1c62597](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1c62597318acb02f908a65ebd2e0accab167cecb)
 on September 28, 2023.
 </em></small>
 
@@ -155,68 +155,18 @@ on September 28, 2023.
 
 
 
-+ **Martín L. Mayta**
++ **Jesse G. Meyer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
+    [j_my_sci](https://twitter.com/j_my_sci)
     <br>
   <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Simion Kreimer**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [KreimerSimion](https://twitter.com/KreimerSimion)
-    <br>
-  <small>
-     Smidt Heart Institute, Cedars Sinai Medical Center; Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
-  </small>
-
-+ **Amit Kumar Yadav**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aky](https://github.com/aky)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [theoneamit](https://twitter.com/theoneamit)
-    <br>
-  <small>
-     Translational Health Science and Technology Institute
-     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
-  </small>
-
-+ **Muralidharan Vanuopadath**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
-    <br>
-  <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+     Department of Computational Biomedicine, Cedars Sinai Medical Center
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
   </small>
 
 + **Nicholas M. Riley**
@@ -246,57 +196,28 @@ on September 28, 2023.
      Department of Computational Biomedicine, Cedars Sinai Medical Center
   </small>
 
-+ **Dina Schuster**
++ **Simion Kreimer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dschust-r](https://github.com/dschust-r)
+    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [dina_sch](https://twitter.com/dina_sch)
+    [KreimerSimion](https://twitter.com/KreimerSimion)
     <br>
   <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+     Smidt Heart Institute, Cedars Sinai Medical Center; Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
   </small>
 
-+ **Susan B. Egbert**
++ **Emma H. Doud**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://github.com/lichenlady94)
+    [edoud1](https://github.com/edoud1)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://twitter.com/lichenlady94)
+    [fireinlab](https://twitter.com/fireinlab)
     <br>
   <small>
-     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
-  </small>
-
-+ **Oliver M. Crook**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ococrook](https://github.com/ococrook)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [OllyMCrook](https://twitter.com/OllyMCrook)
-    <br>
-  <small>
-     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
-  </small>
-
-+ **Benjamin A. Neely**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [neely](https://github.com/neely)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [neely615](https://twitter.com/neely615)
-    <br>
-  <small>
-     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
-     · Funded by NIST
+     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
   </small>
 
 + **Anna G. Duboff**
@@ -311,18 +232,17 @@ on September 28, 2023.
      · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
   </small>
 
-+ **Jesse G. Meyer**
++ **Martín L. Mayta**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    [martinmayta](https://github.com/martinmayta)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)
+    [MartinMayta2](https://twitter.com/MartinMayta2)
     <br>
   <small>
-     Department of Computational Biomedicine, Cedars Sinai Medical Center
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 + **Germán L. Rosano**
@@ -339,6 +259,59 @@ on September 28, 2023.
      · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
++ **Muralidharan Vanuopadath**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    <br>
+  <small>
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+  </small>
+
++ **Dina Schuster**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6611-8237](https://orcid.org/0000-0001-6611-8237)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dschust-r](https://github.com/dschust-r)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dina_sch](https://twitter.com/dina_sch)
+    <br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Benjamin A. Neely**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6120-7695](https://orcid.org/0000-0001-6120-7695)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [neely](https://github.com/neely)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [neely615](https://twitter.com/neely615)
+    <br>
+  <small>
+     Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston
+     · Funded by NIST
+  </small>
+
++ **Oliver M. Crook**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5669-8506](https://orcid.org/0000-0001-5669-8506)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ococrook](https://github.com/ococrook)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [OllyMCrook](https://twitter.com/OllyMCrook)
+    <br>
+  <small>
+     Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
+  </small>
+
 + **Norbert Volkmar**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -352,17 +325,44 @@ on September 28, 2023.
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
   </small>
 
-+ **Emma H. Doud**
++ **Devasahayam Arokia Balaya Rex**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [edoud1](https://github.com/edoud1)
+    [ArokiaRex](https://github.com/ArokiaRex)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [fireinlab](https://twitter.com/fireinlab)
+    [rexprem](https://twitter.com/rexprem)
     <br>
   <small>
-     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Susan B. Egbert**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [lichenlady94](https://github.com/lichenlady94)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [lichenlady94](https://twitter.com/lichenlady94)
+    <br>
+  <small>
+     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+  </small>
+
++ **Amit Kumar Yadav**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9445-8156](https://orcid.org/0000-0002-9445-8156)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aky](https://github.com/aky)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [theoneamit](https://twitter.com/theoneamit)
+    <br>
+  <small>
+     Translational Health Science and Technology Institute
+     · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
 
@@ -1213,27 +1213,32 @@ In this piece, our focus lies on introducing fundamental concepts and outlining 
 The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge ratio (m/z), and then detect them by their respective m/z and abundance. 
 The successful implementation and demonstration of this process requires participation of five fundamental systems (Figure X):
 
-#### 1)	The ion source, where gas phase ions are generated.
+#### 1)	The ion source.
+This is where gas phase ions are generated.
 Common methods of ionization in mass spectrometry includes electrospray ionization (ESI), matrix assisted laser desorption ionization (MALDI), atmospheric pressure chemical ionization (APCI), electron ionization (EI) and chemical ionization (CI) [@DOI:10.1016/j.aca.2015.07.012; @DOI:10.1080/05704928.2014.954046].
 For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter and no more redundance here.
 
-#### 2)	The mass analyzer, where gas phase ions are separated according to their mass-to-charge ratio (m/z) based on physics principles.
+#### 2)	The mass analyzer.
+This is where gas phase ions are separated according to their mass-to-charge ratio (m/z) based on physics principles.
 There are several types of mass analyzers applied in mass spectrometry, such as time-of-flight (TOF), quadrupole, ion trap, orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), and magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 10.1).
 For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
 Mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
 
-#### 3)	The detector, where separated ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
-Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC) [@DOI:10.11648/j.cbe.20180304.11], along with their strengths and limitations, are illustrated in Table 10.2.
+#### 3)	The detector.
+This is where separated ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
+Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with their strengths and limitations, are illustrated in Table 10.2.
 It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
-Instead, they detect ions in a fundamentally different way by detecting image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:pub2;10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
+Instead, they detect ions in a fundamentally different way by detecting image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
 In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.
 This signal is then processed to extract the frequencies of oscillation and fourier-transformed into a mass spectrum, which is quite different from other types of detectors that count individual ions or particles striking a surface.
 
-#### 4)	The vacuum system, which is designed to maintain a vacuum environment for ions’ movement inside the instrument, consists of different type of pumps including rough vacuum pumps (rotary vane pumps, scroll pumps) and high vacuum pumps (turbo molecular pumps, diffusion pumps).
+#### 4)	The vacuum system.
+This is designed to maintain a vacuum environment for ions’ movement inside the instrument, consists of different type of pumps including rough vacuum pumps (rotary vane pumps, scroll pumps) and high vacuum pumps (turbo molecular pumps, diffusion pumps).
 The reason for maintaining a high vacuum is to reduce the collision between ions and gas molecules during their travel, which can affect their trajectory.
 FT-ICR and Orbitrap instruments usually require higher vacuum in the 10-9 to 10-11 Torr level, while TOFs require medium vacuum in the 10-7  to 10-8 Torr range, and Quadrupole and Ion trap require a relative lower vacuum in the 10-5  to 10-6 Torr range. 
 
-#### 5)	The control system, which primary role is to regulate and coordinate the various parts of the mass spectrometer to ensure seamless functioning.
+#### 5)	The control system.
+This is needed to regulate and coordinate the various parts of the mass spectrometer to ensure seamless functioning.
 This typically includes ion source control, mass analyzer control, detector control, data acquisition control, interfacing with auxiliary systems (such as a liquid chromatograph and gas chromatograph), and modules for instrument diagnostics and calibration.
 
 ![**Diagram of typical mass spectrometer modules.**
@@ -1280,20 +1285,24 @@ In some tandem mass spectrometry, hexapole or octupole are also using to replace
 Lastly, the third quadrupole (Q3) acts as a secondary mass filter, similar to Q1, but with the purpose of selecting specific fragment ions produced in the collision cell while excluding other ions. 
 The chosen ions are then directed to the detector, where their abundance is measured (Figure 10.2). 
 This process, involving precursor ion selection, precursor ion fragmentation, and product ion detection, is a general operating principle in tandem mass spectrometry and determines what kind of scan mode you can utilize.
-A key characteristic and advantage of QqQ is the flexibility of choosing various scan modes[@DOI:10.1021/ac00219a003; @DOI:10.1002/jms.703;@DOI:10.1021/ac00106a008], such as the following.
+A key characteristic and advantage of QqQ is the flexibility of choosing various scan modes [@DOI:10.1021/ac00219a003; @DOI:10.1002/jms.703;@DOI:10.1021/ac00106a008], such as the following.
 
-#### 1. Product Ion Scan: Q1 is set to filter a specific precursor ion, which is then fragmented in Q2. 
+#### 1. Product Ion Scan: 
+Q1 is set to filter a specific precursor ion, which is then fragmented in Q2. 
 Q3 scans the full range of product ion masses. 
 This mode is usually used to identify the structure of a particular compound. 
 
-#### 2. Precursor Ion Scan: Q3 is set to filter a specific product ion. 
+#### 2. Precursor Ion Scan: 
+Q3 is set to filter a specific product ion. 
 Q1 scans the full range of precursor ions, that when fragmented in Q2, yield the selected product ion. 
 This mode is used to find compounds that yield a specific fragment ion, which can be particularly useful when looking for compounds with a common structural motif. 
 
-#### 3. Neutral Loss Scan: Both Q1 and Q3 scan the full range of ions, but with a mass difference equal to a specific "neutral loss". 
+#### 3. Neutral Loss Scan: 
+Both Q1 and Q3 scan the full range of ions, but with a mass difference equal to a specific "neutral loss". 
 This mode is used to identify compounds that, when fragmented, lose a specific neutral molecule.
 
-#### 4. Multiple Reaction Monitoring (MRM): Both Q1 and Q3 are set to filter specific ions (precursor and product, respectively). 
+#### 4. Multiple Reaction Monitoring (MRM): 
+Both Q1 and Q3 are set to filter specific ions (precursor and product, respectively). 
 This highly selective mode is used for quantitative analysis of specific compounds, offering excellent sensitivity and specificity[@DOI:10.1074/mcp.M500331-MCP200;@DOI:10.1007/s00216-003-2287-1].
 
 The triple quadrupole mass spectrometer is a highly versatile instrument, capable of both qualitative and quantitative analysis. 
@@ -1410,7 +1419,7 @@ The Fourier transformed data forms a mass spectrum where each peak corresponds t
 One of the most important advantages of FT-ICR mass spectrometry is its exceptionally high mass resolution and mass accuracy, even for large and complex molecules. 
 This enables precise identification and characterization of a wide range of compounds in complex mixtures [@DOI:10.1002/mas.21438; @DOI:10.1071/EN15230]. 
 Moreover, FT-ICR mass spectrometry can be used for multiple stages of mass analysis (MSn), including tandem mass spectrometry (MS/MS), providing detailed information about the structure of ions. 
-Another significant benefit of FT-ICR is its broad mass range, making it possible to identify macromolecules like proteins for top-down proteomics[@DOI:10.1002/mas.20015;@DOI:10.1021/acs.analchem.7b04747; ]. 
+Another significant benefit of FT-ICR is its broad mass range, making it possible to identify macromolecules like proteins for top-down proteomics [@DOI:10.1002/mas.20015;@DOI:10.1021/acs.analchem.7b04747]. 
 
 Despite its advantages, FT-ICR mass spectrometry is not without challenges. 
 The technique requires high-performance superconducting magnets, which are expensive for both initial purchase and further maintenance. 
@@ -1432,17 +1441,17 @@ At present, commercial FT-ICR mass spectrometers are available in both Thermo Fi
 ### 5. Ion mobility
 In the context of omics research, a fundamental task is the separation, identification, and quantification of molecules in complex mixtures. 
 Mass spectrometry alone can only provide two-dimensional data including mass-to-charge ratio and their intensity. 
-Liquid chromatography contributes to the separation of compounds and further provides the third dimension of information, retention time (RT), which make LC-MS evolves as the “golden standard” for proteomic analysis[@DOI:10.1021/ac8013669; @DOI:10.1016/j.drudis.2009.02.007]. 
+Liquid chromatography contributes to the separation of compounds and further provides the third dimension of information, retention time (RT), which make LC-MS evolves as the “golden standard” for proteomic analysis [@DOI:10.1021/ac8013669; @DOI:10.1016/j.drudis.2009.02.007]. 
 Despite the substantial improvements in mass spectrometry resolution and liquid chromatography consistency, accurately identifying extremely similar molecules such as isomers with LC-MS remains a challenge. 
 Ion mobility mass spectrometry (IM-MS), a technique that utilizes electric fields to transport analytes through a buffer gas, is beneficial for separating and identifying ions based on their size, shape, and charge state. 
-This technique provides the fourth dimension of information, collision cross section (CCS), which allows for more comprehensive characterization of molecules[@DOI:10.1021/ac504720m]. 
+This technique provides the fourth dimension of information, collision cross section (CCS), which allows for more comprehensive characterization of molecules [@DOI:10.1021/ac504720m]. 
 Apparently, multi-dimensional data is always beneficial for us to understand things comprehensively and accurately, thus getting closer to the truth. 
 
 In terms of mass spectrometry based proteomic analysis, adding CCS data can help us better separate, identify, and quantify peptides. 
 
 The core principle of ion mobility spectrometry is to separate ions in an inert gas under the influence of an electric field (E), and then measure the amount of time it takes for each ion to pass through drift tube, which is defined to be the steady-state drift velocity (Vd) correlated to the specific analyte’s mobility (K), as shown in Eq. 1. 
                            Vd = KE                                                                                        (Eq.1)
-While the primary measurement in IMS analyses is the mobility (K), for many analytical applications, it has become routine to convert K into the calculated collision cross-section value (CCS or Ω) using Mason-Schamp equation (Eq. 3)[@DOI:10.1007/s13361-019-02288-2;].  
+While the primary measurement in IMS analyses is the mobility (K), for many analytical applications, it has become routine to convert K into the calculated collision cross-section value (CCS or Ω) using Mason-Schamp equation (Eq. 3)[@DOI:10.1007/s13361-019-02288-2].  
                         Ω=(3/16 〖(2π/μKT)〗^(1/2)  ze)/N0K0                                                               (Eq.2)                    
 The components of the equation are defined as follows: e, charge of an electron; z, ion charge; N0, buffer gas density; μ, reduced mass of the collision partners; kb, Boltzmann’s constant; and T, the drift region temperature. 
 Although the Mason-Schamp equation isn't universally embraced, it is currently the primary formula the community uses to compute CCS. 
@@ -1450,7 +1459,7 @@ In basic terms, the CCS serves as a standard metric for the size in the gas phas
 However, according to the Eq.2, parameters including gas composition, working pressure, temperature within the mobility region, path of analyte movement, and the strength of the applied field can influence the final CCS value and may differ for each specific IMS platform. 
 Hence, direct comparison of CCS value between different platforms often requires calibration.  
 
-Generally, ion mobility techniques can be categorized into three separation concepts: (1) temporally dispersive, (2) spatially dispersive, and (3) ion confinement (trapping) and selective release (Figure 10.6 A)[@DOI:10.1021/ac8013669].
+Generally, ion mobility techniques can be categorized into three separation concepts: (1) temporally dispersive, (2) spatially dispersive, and (3) ion confinement (trapping) and selective release (Figure 10.6 A) [@DOI:10.1021/ac8013669].
 Temporally dispersive methods produce an arrival time spectrum based on differences in the time it takes for ions to traverse a similar gas-filled drift region under the influence of an electric field. 
 Time-dispersive technique inherently provides an extensive examination of all signals detected during a given observation window. 
 However, a fundamental limitation of this wide-ranging analysis is the diminished sensitivity linked to a single time dispersion occurrence, which usually requires many (10−100) events to be aggregated to achieve statistically significant ion mobility measurements. 
@@ -1460,7 +1469,7 @@ Types of spatially dispersive ion mobility include High Field Asymmetric Wavefor
 Ion confinement and release strategies are recently developed techniques which trap ions in a pressurized drift cell by electric field, and then releasing them based on mobility distinctions. 
 This technique relies on the ability to control the position of ions under elevated pressure conditions using precisely adjustable electrodynamic fields. 
 It requires a precise fabrication craft and more complicated control system. 
-While it has only been perfected recently, typical products like trapped ion mobility spectrometry (TIMS) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.trac.2019.03.030] and cyclic traveling wave IMS have become commercially available[@DOI:10.1021/acs.analchem.9b01838]. 
+While it has only been perfected recently, typical products like trapped ion mobility spectrometry (TIMS) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.trac.2019.03.030] and cyclic traveling wave IMS have become commercially available [@DOI:10.1021/acs.analchem.9b01838]. 
 Table 10.3 summarized typical ion mobility separation techniques, their separation concept, electric field direction, gas flow direction, strengths, and drawbacks. 
 Also, for three categories of ion mobility techniques, we have selected a typical technique from each for brief introduction. 
 
@@ -1482,7 +1491,7 @@ Table 10.3 Typical ion mobility separation techniques.
 (B) Schematic of drift tube ion mobility spectrometry. 
 (C) Schematic of high field asymmetric waveform ion mobility spectrometry (FAIMS). 
 (D) Schematic of trapped ion mobility spectrometry (TIMS).
-](images/MS_f106.svg){#fig:IMS-diagram tag="6" width="100%"}.
+](images/MS_f106.svg){#fig:IMS-diagram tag="6" width="100%"}
 
 #### 10.5.1. Drift Tube Ion Mobility Spectrometry (DTIMS)
 The principle of Drift Tube Ion Mobility Spectrometry (DTIMS) is based on the differential migration (time) of ions through a neutral buffer gas (commonly helium or nitrogen) under the influence of a weak uniform electric field (typically tens of V/cm). 
@@ -1511,7 +1520,7 @@ The asymmetric waveform electric field is typically characterized by a short, hi
 An ion's mobility within such an electric field is determined by its charge state, its physical structure, and the properties of the surrounding gas it moves through. 
 Once the ions are subjected to an asymmetric electric field, the ions will alternate between travelling toward one electrode or the other as the field oscillates in polarity, resulting in a curved trajectories between the electrodes. 
 Some ions move more in the high field relative to the low field, and vice versa (Figure 10.6 C). 
-To differentiate between ions, a so-called "compensation voltage" (CV), which is a DC offset voltage that compensates for the differential ion movement in the high and low fields, is applied[@DOI:10.1016/j.chroma.2004.08.119]. 
+To differentiate between ions, a so-called "compensation voltage" (CV), which is a DC offset voltage that compensates for the differential ion movement in the high and low fields, is applied [@DOI:10.1016/j.chroma.2004.08.119]. 
 In this case, only ions with a specific response to the changing electric field and those that match the applied compensation voltage (CV) will have a zero net movement and are able to traverse the drift region to the detector, while others hit the electrode plate and be neutralized. 
 By scanning or modulating the CV, different ion species can be selectively transmitted through the FAIMS device. 
 In contrast to drift tube IMS in which the ion stream is sampled in discrete packets and all ions reach the detector, FAIMS is a continuous filtration technique that allows uninterrupted sampling of the ion stream, but only for a selected subset of the ion population. 
@@ -1521,7 +1530,7 @@ Commercial FAIMS products from vendors including Thermo Fisher and WATERS are av
 
 
 #### 10.5.3 Trapped ion mobility spectrometry (TIMS)
-   Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy[@DOI:10.1016/j.ijms.2018.01.006]. 
+   Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
 The basic idea behind TIMS is a combination of traditional ion mobility spectrometry and ion trapping techniques. 
 Instead of driving ions through a drift tube filled with stationary gas, TIMS holds the ions stationary in a drift cell under a moving buffer gas and then release them by adjusting electric fields (voltages on electrodes). 
 This process was realized by applying two different electric fields: 
@@ -1538,7 +1547,7 @@ Importantly, like other ion mobility strategies, the resolving power of TIMS is 
 In TIMS, ions are trapped in a specific location while buffer gas continuously flows past them. 
 Thus, the resolving power achieved by TIMS depends on the "quantity" of gas, specifically the length of the gas column, that passes by the ions during the separation time. 
 This offers the direct benefit of allowing the analyzer to maintain a compact physical size (around 5 cm) and achieve a high resolving power (R ∼ 300), while the analytical gas column – the portion that flows during an analysis – can be extensive (up to 10 m) and tailored to the user's needs. 
-Moreover, by leveraging the "trapping" capability (trapping time) of TIMS and the high scanning speeds of TOF, platforms such as TIMS-Q-TOF can implement a full duty cycle acquisition protocol known as Parallel Accumulation-Serial Fragmentation (PASEF)[@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.mcpro.2021.100138]. 
+Moreover, by leveraging the "trapping" capability (trapping time) of TIMS and the high scanning speeds of TOF, platforms such as TIMS-Q-TOF can implement a full duty cycle acquisition protocol known as Parallel Accumulation-Serial Fragmentation (PASEF) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.mcpro.2021.100138]. 
 This is particularly meaningful for identifying more peptides within a given time frame, such as capture more precursors from co-eluted peptides in the same liquid chromatography peak. 
 Currently, Bruker is the primary provider of commercial mass spectrometers that utilizing TIMS-tof technology. (TIMS-tof pro, TIMS-tof pro2, SCP.  etc.). 
 
