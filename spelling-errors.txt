@@ -27,11 +27,11 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
-AlphaFold
+Alkylation
+Alphafold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -71,7 +71,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 biocuration
@@ -90,7 +90,7 @@ BioPlex
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -138,7 +138,7 @@ chromatograph
 Chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -149,7 +149,7 @@ Clostripain
 coli
 Collisional
 collisionally
-colorimetric
+Colorimetric
 colorimetry
 columbic
 Combinatorial
@@ -186,7 +186,7 @@ Daltonics
 Daly
 databses
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -220,7 +220,7 @@ DiLeu
 dimethyl
 dimethylated
 diol
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -245,7 +245,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -259,8 +259,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
-Ensembl
+Enrichments
+ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -291,7 +291,7 @@ Exploris
 FAIMS
 FASP
 fasta
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -337,7 +337,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -354,7 +354,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -444,7 +444,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -520,7 +520,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -591,7 +591,7 @@ nanoflow
 nanomaterials
 NanoOrange
 NCBI
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -601,7 +601,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -653,9 +653,9 @@ phosphatases
 phosphine
 phosphoenrichment
 phosphoimaging
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteome
 phosphoproteomic
 phosphoproteomics
@@ -686,12 +686,12 @@ PPI
 PPIs
 practioners
 pre
-Prefractionation
+prefractionation
 premaure
 PRM
 Progenesis
 Pronase
-Prot
+prot
 protease
 proteases
 proteasome
@@ -701,7 +701,7 @@ proteoform
 proteoforms
 proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 proteomic
@@ -749,7 +749,7 @@ recombinase
 redundance
 refered
 reflectron
-refseq
+RefSeq
 repressor
 reproducibility
 resCID
@@ -769,7 +769,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -874,18 +874,18 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 tris
 Tritirachium
 Trp
@@ -919,7 +919,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
