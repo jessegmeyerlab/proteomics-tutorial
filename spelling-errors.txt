@@ -27,11 +27,11 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 Alphafold
 AlphaPept
 aminooxy
-Aminoxy
+aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -122,7 +122,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -135,7 +135,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -147,9 +147,9 @@ clade
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
-Colorimetric
+colorimetric
 Colorimetry
 columbic
 Combinatorial
@@ -217,7 +217,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
 dispersive
@@ -259,8 +259,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
-Ensembl
+Enrichments
+ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -291,7 +291,7 @@ Exploris
 FAIMS
 FASP
 fasta
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -312,7 +312,7 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -444,7 +444,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -520,7 +520,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -601,7 +601,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -619,7 +619,7 @@ OMSSA
 onotology
 OpenMS
 operon
-Orbitrap
+orbitrap
 orbitraps
 organismal
 Ortholog
@@ -658,7 +658,7 @@ phosphopeptides
 phosphoprotein
 phosphoproteome
 phosphoproteomic
-Phosphoproteomics
+phosphoproteomics
 phosphorylated
 phosphorylations
 PhosphoSitePlus
@@ -691,7 +691,7 @@ premaure
 PRM
 Progenesis
 Pronase
-prot
+Prot
 protease
 proteases
 proteasome
@@ -724,9 +724,9 @@ QIT
 QqLIT
 QQQ
 qRT
-QToF
+QTOF
 quadruople
-Quadrupole
+quadrupole
 quadrupoles
 Qual
 quantitate
@@ -744,7 +744,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-Reactome
+REACTOME
 recombinase
 redundance
 refered
@@ -769,7 +769,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -884,10 +884,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
+TripleTOF
 tris
 Tritirachium
-Trp
+TRP
 trypsin
 tryptic
 TryTrypDB
@@ -911,7 +911,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
