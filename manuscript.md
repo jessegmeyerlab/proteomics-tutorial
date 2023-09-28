@@ -7,21 +7,21 @@ keywords:
 lang: en-US
 date-meta: '2023-09-28'
 author-meta:
-- Devasahayam Arokia Balaya Rex
-- Martín L. Mayta
-- Germán L. Rosano
-- Benjamin A. Neely
-- Nicholas M. Riley
-- Emma H. Doud
-- Amit Kumar Yadav
-- Susan B. Egbert
-- Anna G. Duboff
-- Jesse G. Meyer
-- Muralidharan Vanuopadath
-- Simion Kreimer
 - Yuming Jiang
+- Benjamin A. Neely
+- Jesse G. Meyer
+- Anna G. Duboff
+- Simion Kreimer
+- Amit Kumar Yadav
+- Devasahayam Arokia Balaya Rex
+- Germán L. Rosano
+- Martín L. Mayta
 - Oliver M. Crook
+- Muralidharan Vanuopadath
+- Emma H. Doud
 - Dina Schuster
+- Susan B. Egbert
+- Nicholas M. Riley
 - Norbert Volkmar
 header-includes: |
   <!--
@@ -37,77 +37,77 @@ header-includes: |
   <meta name="dc.date" content="2023-09-28" />
   <meta name="citation_publication_date" content="2023-09-28" />
   <meta property="article:published_time" content="2023-09-28" />
-  <meta name="dc.modified" content="2023-09-28T03:27:38+00:00" />
-  <meta property="article:modified_time" content="2023-09-28T03:27:38+00:00" />
+  <meta name="dc.modified" content="2023-09-28T03:36:07+00:00" />
+  <meta property="article:modified_time" content="2023-09-28T03:36:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
-  <meta name="citation_author" content="Martín L. Mayta" />
-  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
-  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
-  <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Germán L. Rosano" />
-  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
-  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
-  <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Yuming Jiang" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0001-7444-3849" />
+  <meta name="twitter:creator" content="@yumingjiang94" />
   <meta name="citation_author" content="Benjamin A. Neely" />
   <meta name="citation_author_institution" content="Chemical Sciences Division, National Institute of Standards and Technology, NIST Charleston" />
   <meta name="citation_author_orcid" content="0000-0001-6120-7695" />
   <meta name="twitter:creator" content="@neely615" />
-  <meta name="citation_author" content="Nicholas M. Riley" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
-  <meta name="twitter:creator" content="@riley_nm1" />
-  <meta name="citation_author" content="Emma H. Doud" />
-  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
-  <meta name="twitter:creator" content="@fireinlab" />
-  <meta name="citation_author" content="Amit Kumar Yadav" />
-  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
-  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
-  <meta name="twitter:creator" content="@theoneamit" />
-  <meta name="citation_author" content="Susan B. Egbert" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
-  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
-  <meta name="twitter:creator" content="@lichenlady94" />
-  <meta name="citation_author" content="Anna G. Duboff" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
-  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <meta name="twitter:creator" content="@j_my_sci" />
-  <meta name="citation_author" content="Muralidharan Vanuopadath" />
-  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
-  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Anna G. Duboff" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
   <meta name="citation_author" content="Simion Kreimer" />
   <meta name="citation_author_institution" content="Smidt Heart Institute, Cedars Sinai Medical Center" />
   <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0001-6627-3771" />
   <meta name="twitter:creator" content="@KreimerSimion" />
-  <meta name="citation_author" content="Yuming Jiang" />
-  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
-  <meta name="citation_author_orcid" content="0000-0001-7444-3849" />
-  <meta name="twitter:creator" content="@yumingjiang94" />
+  <meta name="citation_author" content="Amit Kumar Yadav" />
+  <meta name="citation_author_institution" content="Translational Health Science and Technology Institute" />
+  <meta name="citation_author_orcid" content="0000-0002-9445-8156" />
+  <meta name="twitter:creator" content="@theoneamit" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
+  <meta name="citation_author" content="Germán L. Rosano" />
+  <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
+  <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Martín L. Mayta" />
+  <meta name="citation_author_institution" content="School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina" />
+  <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
+  <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
+  <meta name="twitter:creator" content="@MartinMayta2" />
   <meta name="citation_author" content="Oliver M. Crook" />
   <meta name="citation_author_institution" content="Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom" />
   <meta name="citation_author_orcid" content="0000-0001-5669-8506" />
   <meta name="twitter:creator" content="@OllyMCrook" />
+  <meta name="citation_author" content="Muralidharan Vanuopadath" />
+  <meta name="citation_author_institution" content="School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9364-917X" />
+  <meta name="twitter:creator" content="@V_MuraleeDhar" />
+  <meta name="citation_author" content="Emma H. Doud" />
+  <meta name="citation_author_institution" content="Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0049-0073" />
+  <meta name="twitter:creator" content="@fireinlab" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0001-6611-8237" />
   <meta name="twitter:creator" content="@dina_sch" />
+  <meta name="citation_author" content="Susan B. Egbert" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
+  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
+  <meta name="twitter:creator" content="@lichenlady94" />
+  <meta name="citation_author" content="Nicholas M. Riley" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
+  <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
+  <meta name="twitter:creator" content="@riley_nm1" />
   <meta name="citation_author" content="Norbert Volkmar" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
@@ -119,9 +119,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b6811661068faa73c12a14f81cff6f50654657b3/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b6811661068faa73c12a14f81cff6f50654657b3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b6811661068faa73c12a14f81cff6f50654657b3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e93e90627ad708e2b2baf3b191e6e3d7093359f2/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e93e90627ad708e2b2baf3b191e6e3d7093359f2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e93e90627ad708e2b2baf3b191e6e3d7093359f2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -143,9 +143,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b6811661068faa73c12a14f81cff6f50654657b3/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e93e90627ad708e2b2baf3b191e6e3d7093359f2/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b681166](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b6811661068faa73c12a14f81cff6f50654657b3)
+from [jessegmeyerlab/proteomics-tutorial@e93e906](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e93e90627ad708e2b2baf3b191e6e3d7093359f2)
 on September 28, 2023.
 </em></small>
 
@@ -155,44 +155,17 @@ on September 28, 2023.
 
 
 
-+ **Devasahayam Arokia Balaya Rex**
++ **Yuming Jiang**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    [0000-0001-7444-3849](https://orcid.org/0000-0001-7444-3849)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
+    [jymbcrc](https://github.com/jymbcrc)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
+    [yumingjiang94](https://twitter.com/yumingjiang94)
     <br>
   <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-  </small>
-
-+ **Martín L. Mayta**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [martinmayta](https://github.com/martinmayta)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [MartinMayta2](https://twitter.com/MartinMayta2)
-    <br>
-  <small>
-     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-  </small>
-
-+ **Germán L. Rosano**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ger225](https://github.com/ger225)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [GermanRosano](https://twitter.com/GermanRosano)
-    <br>
-  <small>
-     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
-     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
+     Department of Computational Biomedicine, Cedars Sinai Medical Center
   </small>
 
 + **Benjamin A. Neely**
@@ -209,31 +182,41 @@ on September 28, 2023.
      · Funded by NIST
   </small>
 
-+ **Nicholas M. Riley**
++ **Jesse G. Meyer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-1536-2966](https://orcid.org/0000-0002-1536-2966)
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [rileynm](https://github.com/rileynm)
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [riley_nm1](https://twitter.com/riley_nm1)
+    [j_my_sci](https://twitter.com/j_my_sci)
+    <br>
+  <small>
+     Department of Computational Biomedicine, Cedars Sinai Medical Center
+     · Funded by Grant R21 AG074234; Grant R35 GM142502
+  </small>
+
++ **Anna G. Duboff**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0009-0002-7316-3831](https://orcid.org/0009-0002-7316-3831)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [agduboff](https://github.com/agduboff)
     <br>
   <small>
      Department of Chemistry, University of Washington
-     · Funded by Grant R00 GM147304
+     · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
   </small>
 
-+ **Emma H. Doud**
++ **Simion Kreimer**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [edoud1](https://github.com/edoud1)
+    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [fireinlab](https://twitter.com/fireinlab)
+    [KreimerSimion](https://twitter.com/KreimerSimion)
     <br>
   <small>
-     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
+     Smidt Heart Institute, Cedars Sinai Medical Center; Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
   </small>
 
 + **Amit Kumar Yadav**
@@ -250,80 +233,44 @@ on September 28, 2023.
      · Funded by Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India); Grant Translational Research Program (TRP) at THSTI funded by DBT
   </small>
 
-+ **Susan B. Egbert**
++ **Devasahayam Arokia Balaya Rex**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://github.com/lichenlady94)
+    [ArokiaRex](https://github.com/ArokiaRex)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://twitter.com/lichenlady94)
+    [rexprem](https://twitter.com/rexprem)
     <br>
   <small>
-     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
-+ **Anna G. Duboff**
++ **Germán L. Rosano**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0009-0002-7316-3831](https://orcid.org/0009-0002-7316-3831)
+    [0000-0002-8313-6813](https://orcid.org/0000-0002-8313-6813)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [agduboff](https://github.com/agduboff)
+    [ger225](https://github.com/ger225)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [GermanRosano](https://twitter.com/GermanRosano)
     <br>
   <small>
-     Department of Chemistry, University of Washington
-     · Funded by Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+     Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+     · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
-+ **Jesse G. Meyer**
++ **Martín L. Mayta**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926)
+    [0000-0002-7986-4551](https://orcid.org/0000-0002-7986-4551)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jessegmeyerlab](https://github.com/jessegmeyerlab)
+    [martinmayta](https://github.com/martinmayta)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [j_my_sci](https://twitter.com/j_my_sci)
+    [MartinMayta2](https://twitter.com/MartinMayta2)
     <br>
   <small>
-     Department of Computational Biomedicine, Cedars Sinai Medical Center
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
-  </small>
-
-+ **Muralidharan Vanuopadath**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vanuopadathmurali](https://github.com/vanuopadathmurali)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
-    <br>
-  <small>
-     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
-  </small>
-
-+ **Simion Kreimer**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6627-3771](https://orcid.org/0000-0001-6627-3771)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [KreimerSimion](https://twitter.com/KreimerSimion)
-    <br>
-  <small>
-     Smidt Heart Institute, Cedars Sinai Medical Center; Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
-  </small>
-
-+ **Yuming Jiang**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-7444-3849](https://orcid.org/0000-0001-7444-3849)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [jymbcrc](https://github.com/jymbcrc)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [yumingjiang94](https://twitter.com/yumingjiang94)
-    <br>
-  <small>
-     Department of Computational Biomedicine, Cedars Sinai Medical Center
+     School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
 + **Oliver M. Crook**
@@ -339,6 +286,32 @@ on September 28, 2023.
      Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
   </small>
 
++ **Muralidharan Vanuopadath**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9364-917X](https://orcid.org/0000-0002-9364-917X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vanuopadathmurali](https://github.com/vanuopadathmurali)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [V_MuraleeDhar](https://twitter.com/V_MuraleeDhar)
+    <br>
+  <small>
+     School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+  </small>
+
++ **Emma H. Doud**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0049-0073](https://orcid.org/0000-0003-0049-0073)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [edoud1](https://github.com/edoud1)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [fireinlab](https://twitter.com/fireinlab)
+    <br>
+  <small>
+     Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
+  </small>
+
 + **Dina Schuster**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -350,6 +323,33 @@ on September 28, 2023.
     <br>
   <small>
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland; Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
+  </small>
+
++ **Susan B. Egbert**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [lichenlady94](https://github.com/lichenlady94)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [lichenlady94](https://twitter.com/lichenlady94)
+    <br>
+  <small>
+     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+  </small>
+
++ **Nicholas M. Riley**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-1536-2966](https://orcid.org/0000-0002-1536-2966)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [rileynm](https://github.com/rileynm)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [riley_nm1](https://twitter.com/riley_nm1)
+    <br>
+  <small>
+     Department of Chemistry, University of Washington
+     · Funded by Grant R00 GM147304
   </small>
 
 + **Norbert Volkmar**
@@ -1239,9 +1239,9 @@ This typically includes ion source control, mass analyzer control, detector cont
 
 ![**Diagram of typical mass spectrometer modules.**
 Systems must have an ion source, mass analyzer, detector, vacuum system, and control system.
-](images/MS_f101.svg){#fig:MS-diagram tag="1" width="100%"}.
+](images/MS_f101.svg){#fig:MS-diagram tag="4" width="100%"}
 
-Table 10.1 Common mass analyzers.
+Table 10-1 Common mass analyzers.
 
 | Type     | Acronym  | Principle          | Characteristics      |
 |:--------:|:--------:|:------------------:|:--------------------:|
@@ -1305,7 +1305,7 @@ Consequently, they face difficulties in accurately identifying unknown molecules
 
 ![**Schematic diagram of typical QqQ system.**
 Three quadrupoles enable precursor selection, fragmentation, and the fragment ion selection.
-](images/MS_f102.svg){#fig:QQQ-diagram tag="2" width="100%"}.
+](images/MS_f102.svg){#fig:QQQ-diagram tag="2" width="100%"}
 
 ### 2. Q-TOF
 Even though quadrupoles face difficulties in accurately identifying unknown peptides within complex mixtures due to its mass resolution, they serve effectively as mass filters, making them an excellent choice for combining with other high-resolution mass analyzers to form tandem mass spectrometry systems. 
@@ -1358,7 +1358,7 @@ Waters Corporation: “SYNAPT G2-Si HDMS”, “Xevo G2-XS QToF ” and “SYNAP
 
 ![**Schematic diagram of a typical quadrupole time-of-flight mass spectrometer.**
 Like a QQQ, a Q-TOF will have two quadrupoles for selection and fragmentation followed by the TOF for the final higher resolution separation and detection.
-](images/MS_f103.svg){#fig:q-tof-diagram tag="3" width="100%"}.
+](images/MS_f103.svg){#fig:q-tof-diagram tag="3" width="100%"}
 
 ### 3. Q-Orbitrap
 Mass spectrometry that uses Orbitrap as the core mass analyzer is another critical pillar in the field of proteomics. 
@@ -1393,7 +1393,7 @@ Classic models from ThermoFisher include Orbitrap Ascend Tribrid, Orbitrap Eclip
 ![**Schematic diagram of orbitrap.**
 (A) Close up of a orbitrap.
 (B) General schematic of complete Q-Orbitrap system.
-](images/MS_f104.svg){#fig:QE-diagram tag="4" width="100%"}.
+](images/MS_f104.svg){#fig:QE-diagram tag="4" width="100%"}
 
 ### 4. Quadrupole Fourier Transform Ion Cyclotron Resonance (Q-FT-ICR)
 The Fourier Transform Ion Cyclotron Resonance (FT-ICR) mass spectrometer is a type of mass spectrometry that uses magnetic fields to separate ions based on their mass-to-charge ratio. 
@@ -1428,7 +1428,7 @@ At present, commercial FT-ICR mass spectrometers are available in both Thermo Fi
 ![**Schematic of FT-ICR.**
 (A) Typical FT-ICR cell.
 (B) Example of complete FT-ICR system.
-](images/MS_f105.svg){#fig:FT-ICR-diagram tag="5" width="100%"}.
+](images/MS_f105.svg){#fig:FT-ICR-diagram tag="5" width="100%"}
 
 ### 5. Ion mobility
 In the context of omics research, a fundamental task is the separation, identification, and quantification of molecules in complex mixtures. 

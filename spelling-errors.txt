@@ -31,7 +31,7 @@ alkylation
 Alphafold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -71,7 +71,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 biocuration
@@ -90,7 +90,7 @@ BioPlex
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -122,7 +122,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -138,7 +138,7 @@ chromatograph
 Chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -147,10 +147,10 @@ clade
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -217,10 +217,10 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-dimethyl
+Dimethyl
 dimethylated
 diol
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -245,7 +245,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -291,7 +291,7 @@ Exploris
 FAIMS
 FASP
 fasta
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -312,7 +312,7 @@ FlyBase
 fo
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -337,7 +337,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -345,7 +345,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -436,7 +436,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -444,7 +444,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -601,7 +601,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -654,7 +654,7 @@ phosphine
 phosphoenrichment
 phosphoimaging
 phosphopeptide
-phosphopeptides
+Phosphopeptides
 Phosphoprotein
 phosphoproteome
 phosphoproteomic
@@ -664,7 +664,7 @@ phosphorylations
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -722,9 +722,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
-QTOF
+QToF
 quadruople
 quadrupole
 quadrupoles
@@ -744,7 +744,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 redundance
 refered
@@ -769,7 +769,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -863,8 +863,8 @@ TiO
 TMIMS
 TMT
 TMTs
-tof
-TOFs
+TOF
+ToFs
 Torr
 TPP
 TQ
@@ -873,7 +873,7 @@ transactivator
 transcriptional
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -887,7 +887,7 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
@@ -911,14 +911,14 @@ uncharacterized
 underivatized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
