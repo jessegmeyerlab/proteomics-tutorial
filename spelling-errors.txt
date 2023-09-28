@@ -27,7 +27,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 Alphafold
 AlphaPept
 aminooxy
@@ -90,7 +90,7 @@ BioPlex
 biopolymers
 bioruptor
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -135,7 +135,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -150,7 +150,7 @@ coli
 Collisional
 collisionally
 colorimetric
-Colorimetry
+colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -217,10 +217,10 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -245,7 +245,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -259,8 +259,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
-ensembl
+enrichments
+Ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -276,7 +276,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -354,7 +354,7 @@ glycoforms
 glycolic
 glycopeptides
 glycoprotein
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -443,8 +443,8 @@ IPG
 IRMPD
 iRT
 isocratic
-Isoelectric
-isoform
+isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -591,7 +591,7 @@ nanoflow
 nanomaterials
 NanoOrange
 NCBI
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -653,9 +653,9 @@ phosphatases
 phosphine
 phosphoenrichment
 phosphoimaging
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteome
 phosphoproteomic
 phosphoproteomics
@@ -664,7 +664,7 @@ phosphorylations
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -685,13 +685,13 @@ posttranslational
 PPI
 PPIs
 practioners
-pre
-Prefractionation
+Pre
+prefractionation
 premaure
 PRM
 Progenesis
 Pronase
-Prot
+prot
 protease
 proteases
 proteasome
@@ -863,7 +863,7 @@ TiO
 TMIMS
 TMT
 TMTs
-TOF
+tof
 TOFs
 Torr
 TPP
@@ -877,7 +877,7 @@ Translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 triazine
 Tribrid
 tricarboxylic
@@ -885,7 +885,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-tris
+Tris
 Tritirachium
 TRP
 trypsin
