@@ -28,7 +28,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -72,7 +72,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -140,10 +140,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -152,7 +152,7 @@ clade
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 colorimetric
 colorimetry
@@ -207,7 +207,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 determinining
 deubiquitinase
 deuteron
@@ -266,11 +266,11 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -320,7 +320,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 fragi
 fragmentations
@@ -342,7 +342,7 @@ GermanRosano
 GF
 GFF
 Gillet
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -451,14 +451,14 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
 IRMPD
 iRT
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isogeneic
@@ -535,7 +535,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -622,7 +622,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -679,7 +679,7 @@ phosphoester
 phosphoimaging
 phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -690,7 +690,7 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -716,7 +716,7 @@ PPI
 PPIs
 practioners
 pre
-Prefractionation
+prefractionation
 premaure
 PRM
 Progenesis
@@ -731,7 +731,7 @@ proteinness
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
@@ -781,7 +781,7 @@ recombinase
 redundance
 refered
 reflectron
-refseq
+RefSeq
 repressor
 reproducibility
 resCID
@@ -901,7 +901,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -910,7 +910,7 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -925,9 +925,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tTA
@@ -949,7 +949,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
