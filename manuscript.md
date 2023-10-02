@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T18:59:33+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T18:59:33+00:00" />
+  <meta name="dc.modified" content="2023-10-02T19:02:04+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T19:02:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bc09bb3caeee4553c2be49a1eb78931d3657626f/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bc09bb3caeee4553c2be49a1eb78931d3657626f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/bc09bb3caeee4553c2be49a1eb78931d3657626f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/bc09bb3caeee4553c2be49a1eb78931d3657626f/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@123a771](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/123a77145de0b1636f3b6442babd3aedbb0d4a92)
+from [jessegmeyerlab/proteomics-tutorial@bc09bb3](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/bc09bb3caeee4553c2be49a1eb78931d3657626f)
 on October 2, 2023.
 </em></small>
 
@@ -465,10 +465,10 @@ They perform various functions in living organisms ranging from having structura
 Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
 The human genome encodes more than 20,000 different proteins.
 Each protein is present at a different abundances.
-Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell and that their distribution is tissue-specific[@DOI:10.1038/msb.2011.82][@DOI:10.1016/j.cell.2020.08.036].
-Due to genetic variations, as well as alternative splicing and post-translational modifications, multiple different proteoforms can be produced from one single gene (Figure 1) [@DOI:10.1038/nmeth.2369; https://doi.org/10.1038/s41587-023-01714-x]. 
+Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
+Due to genetic variations, as well as alternative splicing and post-translational modifications, multiple different proteoforms can be produced from one single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
 
-![**Proteome Complexity**
+![**Proteome Complexity.**
 There is more than one protein product from each gene product due to alternative splicing and post-translational modifications. 
 This means there are likely many more unique "proteoforms" than there are genes. 
 Some estimates are upwards of 1,000,000 unique possible protein sequences.](images/intro-centralDogma-proteoforms.png){#fig:proteoforms tag="1" width="100%"}
