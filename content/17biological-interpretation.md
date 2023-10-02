@@ -65,7 +65,7 @@ Nodes with a high betweenness centrality usually bridge different parts of the n
 These connector hubs (or bottlenecks) are also interesting for follow–up experiments because their removal can disconnect different regions of the network [@PMID:17447836].
 
 Centrality measurements add new layers of information and allow for ranking differentially expressed proteins apart from their fold-change in abundance. 
-Figure {@fig:simple-network}X depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
+**Figure 15** depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
 In Panel A, the fill color for the nodes indicates this metric, where it can be easily seen that A stands out. 
 However, protein A is a peripheral protein, only interacting with B. 
 In Panel B, nodes are colored according to node degree. 
@@ -76,7 +76,7 @@ Except for fold change, node A has the lowest indices, and it will be up to the 
 ![**Analysis of a simple network using different centrality measurements.** 
 Nodes are colored according to each metric using a yellow-to-red gradient (yellow: lowest value, red: highest value). 
 Network visualization and analysis were performed in Cytoscape.
-](images/Simple%20network.png){#fig:simple-network tag="4" width="100%"}
+](images/Simple%20network.png){#fig:simple-network tag="15" width="100%"}
 
 ### Network clustering
 
@@ -110,7 +110,6 @@ The simplest analysis to test whether this subset contains more of any particula
 For example, the Gene Ontology is split into the classes: Cellular Component, Molecular Function and Biological Function and we might be interested as to whether our proteins may be more likely to localize to a particular subcellular niche [@PMID:10802651].
 The Cellular Component terms could give us a starting point if this might be the case, by examining if Cellular Component annotations are enriched. 
 
-
 There are a number of databases and tools to perform such analysis, which can even be extended to examine whole pathways, networks, post-translational modification and literature representation.
 For example, databses such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
 For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
@@ -130,12 +129,12 @@ Our list of proteins could be divided into two groups: differentially abundant o
 This information can be summarised in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
 One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
 
-There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (Figure XI{fig:enrich_methods}), as follows.
+There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 16**), as follows.
 
 ![**Types of functional enrichment methods.** 
 In the volcano plot (left), proteins with altered values are colored blue or red according to arbitrarily chosen cut-off values for significance and fold change. 
 Black bars or thick-bordered nodes indicate members of a GO category.
-](images/enrich_methods_v4.png){#fig:enrich_methods tag="4" width="100%"}
+](images/enrich_methods_v4.png){#fig:enrich_methods tag="16" width="100%"}
 
 #### Over-representation analysis
   
