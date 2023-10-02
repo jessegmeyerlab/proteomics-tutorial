@@ -265,6 +265,8 @@ name: Daniel S. Himmelstein  # mandatory
 initials: DSH  # optional
 orcid: 0000-0002-3012-7446  # mandatory
 twitter: dhimmel  # optional
+mastodon: dhimmel  # optional: mastodon username
+mastodon-server: genomic.social  # optional: mastodon server (instance)
 email: daniel.himmelstein@gmail.com  # suggested
 corresponding: true  # optional, if set to true displays author's email for correspondence
 affiliations:  # as a list, strongly suggested
@@ -320,12 +322,40 @@ metadata:
   csl: https://github.com/citation-style-language/styles/raw/906cd6d43d0c136190ecfbb12f6af0ca794e3c5b/peerj.csl
 ```
 
+Instructions for generating additional manuscript output formats such as DOCX can be found in [`build/README.md`](build/README.md).
+
 ## Spellchecking
 
 When the `SPELLCHECK` environment variable is `true`, the pandoc [spellcheck filter](https://github.com/pandoc/lua-filters/tree/master/spellcheck) is run.
 Potential spelling errors will be printed in the continuous integration log along with the files and line numbers in which they appeared.
 Words in `build/assets/custom-dictionary.txt` are ignored during spellchecking.
 Spellchecking is currently only supported for English language manuscripts.
+
+## AI-assisted authoring
+
+The workflow [`ai-revision`](.github/workflows/ai-revision.yaml) is available to assist authors in writing their manuscripts.
+It uses large language models to revise the manuscript text, fixing spelling and grammar errors, and improving the sentence structure and the writing style with section-specific prompts.
+It is manually triggered by the user (it never runs automatically), and it generates a pull request with suggested revisions.
+Then the user can review these changes and merge the pull request if they are acceptable.
+More information about this tool is available in [this manuscript](https://greenelab.github.io/manubot-gpt-manuscript/).
+
+You need to change your repository settings to 1) provide a secret with name `OPENAI_API_KEY` containing your OpenAI API token, and 2) allow workflows to create pull requests.
+For 1), go to the settings page and, within "Secrets and variables," select "Actions."
+Next, create a repository secret with the name `OPENAI_API_KEY` and the value of the API token (you can also do this using "Organization secrets" if available).
+For 2), go to "Actions", "General", "Workflow permissions", and activate the checkbox "Allow GitHub Actions to create and approve pull requests."
+
+By default, the tool uses the model `text-davinci-003`.
+Make sure to check the [pricing](https://openai.com/api/pricing/) of the OpenAI API.
+With $0.02 per 1000 tokens using the most powerful AI models, the cost for a revision of a standard manuscript (around 35 paragraphs) should be around $0.50.
+The workflow allows specifying the branch and file names (in the `content/` directory) to revise, the language model to use, and the output branch name.
+Internally, the workflow uses the tool [Manubot AI Editor](https://github.com/manubot/manubot-ai-editor) to revise the manuscript.
+For more advanced users, the behavior of the Manubot AI Editor or the parameters used for the language model can be changed using environment variables.
+These variables can be changed in the workflow file (`ai-revision.yaml`).
+
+It is important to note that using language models in scientific writing is a matter of debate among researchers and journal editors.
+Therefore, it's advisable to follow the guidelines that journals and the research community propose.
+For example, the *Nature* journal has published [rules about using language models in scholarly writing](https://www.nature.com/articles/d41586-023-00191-1), such as not listing the tools as authors and documenting how they were used.
+Since a Manubot-based manuscript uses GitHub, one approach consists of linking the AI-generated pull request, which will transparently show the changes suggested by the AI tool.
 
 ## Manubot feedback
 
@@ -341,6 +371,14 @@ Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat 
 DOI: [10.1371/journal.pcbi.1007128](https://doi.org/10.1371/journal.pcbi.1007128) · PMID: [31233491](https://www.ncbi.nlm.nih.gov/pubmed/31233491)
 
 The Manubot version of this manuscript is available at <https://greenelab.github.io/meta-review/>.
+
+To cite the Manubot AI Editor or for more information on its design, see `@doi:10.1101/2023.01.21.525030`:
+
+> **A publishing infrastructure for AI-assisted academic authoring**<br>
+Milton Pividori, Casey S. Greene<br>
+*bioRxiv* (2023) <https://doi.org/grpf8m><br>
+DOI: [10.1101/2023.01.21.525030](https://doi.org/10.1101/2023.01.21.525030)
+
 
 ## Acknowledgments
 

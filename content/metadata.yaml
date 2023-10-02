@@ -1,5 +1,4 @@
 ---
-
 title: "A Comprehensive Overview of Modern Proteomics"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
@@ -16,6 +15,15 @@ authors:
     email: trentmpc@gmail.com
     affiliations:
      - Department of Pharmaceutical Chemistry, University of California-San Francisco
+
+  - github: jymbcrc
+    name: Yuming Jiang
+    initials: YJ
+    orcid: 0000-0001-7444-3849
+    twitter: yumingjiang94
+    email: Yuming.Jiang@cshs.org
+    affiliations:
+     - Department of Computational Biomedicine, Cedars Sinai Medical Center
 
   - name: Simion Kreimer
     initials: SK
