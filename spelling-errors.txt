@@ -72,7 +72,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -127,7 +127,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -140,7 +140,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 Chymotrypsin
@@ -155,7 +155,7 @@ coli
 collisional
 collisionally
 colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -173,7 +173,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -208,7 +208,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -224,10 +224,10 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -252,7 +252,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -266,7 +266,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enzymatically
 enzymogenesis
@@ -283,7 +283,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -296,8 +296,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-FC
+fasta
+Fc
 FCCS
 FCS
 Fenn
@@ -321,7 +321,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 fragi
 fragmentations
@@ -352,7 +352,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -365,10 +365,10 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -461,8 +461,8 @@ IPG
 IRMPD
 iRT
 isocratic
-isoelectric
-Isoform
+Isoelectric
+isoform
 isoforms
 isogeneic
 isogenic
@@ -538,7 +538,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -683,7 +683,7 @@ phosphoester
 phosphoimaging
 phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -694,7 +694,7 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -719,8 +719,8 @@ posttranslational
 PPI
 PPIs
 practioners
-pre
-prefractionation
+Pre
+Prefractionation
 premaure
 PRM
 Progenesis
@@ -737,7 +737,7 @@ proteoforms
 proteoglycans
 proteolysis
 proteolytic
-proteome
+Proteome
 ProteomeDiscoverer
 proteomes
 proteomic
@@ -758,11 +758,11 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
-QToF
+QTOF
 quadruople
-quadrupole
+Quadrupole
 quadrupoles
 Qual
 quantitate
@@ -805,7 +805,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -926,10 +926,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-Tris
+tripleTOF
+tris
 Tritirachium
-Trp
+TRP
 trypsin
 tryptic
 TryTrypDB

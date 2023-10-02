@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T19:28:13+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T19:28:13+00:00" />
+  <meta name="dc.modified" content="2023-10-02T19:31:23+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T19:31:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/764f6267b503745d796cdb0a915bd39f66d8cf24/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/764f6267b503745d796cdb0a915bd39f66d8cf24/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/764f6267b503745d796cdb0a915bd39f66d8cf24/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/764f6267b503745d796cdb0a915bd39f66d8cf24/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@764f626](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/764f6267b503745d796cdb0a915bd39f66d8cf24)
+from [jessegmeyerlab/proteomics-tutorial@7bf97c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7bf97c4000757069e8aac9196db6e2e01cb2cf1b)
 on October 2, 2023.
 </em></small>
 
@@ -2018,393 +2018,6 @@ On the orbitrap, the combination of FAIMS and DIA has enabled the identification
 
 
 
-## Biological Interpretation  {.page_break_before}
-
-The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
-This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits. 
-In this section, we aim to present a concise overview of how proteomic data can be effectively contextualised and used to generate new hypotheses.
-
-The simplest approach is to start manual lookup of every protein in the list to uncover groups that function together.
-Starting with a list of hundreds of protein changes, a smaller list can be prioritized by considering the level of significance and effect size.
-For example, proteins with the smallest p-values (significance) and largest abundance fold-changes (effect size).
-It is tempting to focus on proteins with the most extreme fold changes. 
-In this case, the assumption is that the more significant the fold change (in either direction, up- or down-regulation), the higher the impact of those proteins on cellular behavior. 
-This assumption is not always valid because protein signal in MS depends on abundance.
-The manual data interpretation approach is typically infeasible due to the number of proteins that would need to be individually looked up one-by-one.
-
-A better strategy is to use computational methods.
-These methods may consider the whole list of proteins including some ranking by significance or fold change. 
-One common interpretation method is to construct a protein network, which then lends itself to network analyses. 
-Another method is to consider functional enrichment through annotation databases.
-These databases offer insights by examining the enrichment of certain functional annotations amongst the interesting proteins.
-Secondly, one could consider other evolutionary, structurally or regulatory based methods to identify interpretation of the data.
-To fully interpret analysis, it may be required to perform or examine other data such as data from biophysical, biochemical and alternative proteomic approaches.
-Finally, the data can further be interpreted using multi-omic, native or clinical approaches.
-Below we summarize these approaches and point out potential pitfalls with these methods.
-
-### Constructing a protein network
-
-A network is a representation of the relations between objects. 
-Nodes are the entities of the network (e.g., users of a social platform, train stations, proteins), while edges are the connections between them (e.g., friendship, routes, and protein interactions, respectively). 
-In the case of protein-protein interactions, the evidence for the functional associations between proteins can be obtained experimentally. 
-For example, co-immunoprecipitation, crosslinking, and proximity labeling can be used to reveal physical interactions [@PMID:34046695]. 
-The data is presented in a table with nodes and edges (e.g., "protein A interacts with protein B") from which the network can be constructed. 
-A considerable wealth of protein-protein association data is stored in free databases like IntAct, which contain interactions derived from literature curation or direct user submissions [@PMID:34761267]. 
-Protein interactions can also be predicted by classifiers that consider many features, like orthology and co-localization, to produce a posterior odds ratio of interaction [@PMID:21572181; @PMID:33237311]. 
-Finally, large repositories like STRING (Search Tool for the Retrieval of Interacting Genes/Proteins) collect and integrate protein-protein interaction data from several databases [@PMID:33237311]. 
-STRING also provides a web-based interface to survey the data, and users only have to feed a search box with the identifiers of the protein(s) of interest. 
-STRING will retrieve the network and show the evidence supporting each interaction. 
-Importantly, these databases do not indicate the direction of the interaction, so they produce undirected networks. 
-If edges have directions (e.g., A influences B and not vice versa), then the network is directed. 
-Signaling pathways are examples of directed graphs. 
-
-### Network analysis
-
-Network analysis is a group of techniques that explore and investigate the network, yielding valuable knowledge about its structure and unveiling key players regulating the flow of information. 
-One of the first steps in network analysis relates to centrality measurements. 
-Centralities are indicators of the relative importance of a node corresponding to its position in the network, and each centrality measure provides new insights to interpret the data in new ways [@PMID:27616995; @PMID:30064421].
-
-#### Degree centrality
-  
-The degree of a node measures the number of edges incident to that node. 
-Nodes with a high degree interact with many other nodes, called first neighbors. 
-In particular, the node degree distribution in protein networks is highly skewed, with most nodes having a low degree and a few having high degrees, known as hubs.
-Hubs are usually regulatory proteins, being notable examples oncogenes and transcription factors. 
-Moreover, hubs are attractive targets for directed interventions, as their alteration has a profound effect on the stability of the network [@PMID:16751849]. 
-
-#### Closeness centrality
-
-The route from one node to another is a path, and the shortest path is the one connecting them in the least amount of steps. 
-Closeness centrality is the inverse of the average length of a node's shortest paths to all other nodes in the network. 
-Nodes with a high closeness score have the shortest distances to all the others, so closeness centrality calculations detect nodes that can spread information very efficiently, as they are in a better position in the network for this task [@PMID:15616139; @{URL:https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/building-and-analysing-ppins/topological-ppin-analysis/closeness-centrality/}].
-
-#### Betweenness centrality
-
-This centrality index is related to the amount of shortest paths transversing a node. 
-Nodes with a high betweenness centrality usually bridge different parts of the network and strongly influence the flow of information, as they lie in communication paths. 
-These connector hubs (or bottlenecks) are also interesting for follow–up experiments because their removal can disconnect different regions of the network [@PMID:17447836].
-
-Centrality measurements add new layers of information and allow for ranking differentially expressed proteins apart from their fold-change in abundance. 
-Figure {@fig:simple-network}X depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
-In Panel A, the fill color for the nodes indicates this metric, where it can be easily seen that A stands out. 
-However, protein A is a peripheral protein, only interacting with B. 
-In Panel B, nodes are colored according to node degree. 
-Clearly, protein F has the highest number of interactions and is also the closest to all other nodes, which can be appreciated when nodes are colored according to closeness centrality (Panel C). 
-On the other hand, protein G acts as a bridge between two regions of the network and thus, has the highest betweenness centrality (Panel D). 
-Except for fold change, node A has the lowest indices, and it will be up to the researcher to decide whether this protein warrants further examination.
-
-![**Analysis of a simple network using different centrality measurements.** 
-Nodes are colored according to each metric using a yellow-to-red gradient (yellow: lowest value, red: highest value). 
-Network visualization and analysis were performed in Cytoscape.
-](images/Simple%20network.png){#fig:simple-network tag="4" width="100%"}
-
-### Network clustering
-
-In the small network presented in Figure {@fig:simple-network}X, two groups of densely connected nodes exist. 
-This topology suggests that these communities (or "clusters") work together or participate in a protein complex. 
-Dividing a network into clusters helps identify underlying relationships among nodes, which is especially useful in large networks. 
-In a broad sense, network clustering groups nodes according to a topological property, generally interconnectedness. 
-There are many network clustering algorithms, each with its own merits and approaches [@PMID:20158874; @PMID:17087821]. 
-The MCL (Markov CLustering) algorithm is suitable for protein networks in most situations . 
-On the other hand, the Molecular COmplex DEtection (MCODE) algorithm helps detect very densely connected nodes, thus unveiling protein complexes [@PMID:12525261]. 
-In this regard, network clustering is useful for tentatively assigning the function of an uncharacterized protein. 
-If the protein appears in a cluster, its function should be closely related to the cluster members, a principle known as "guilty by association." [@PMID:26215734]
-
-### Network visualization
-
-A critical step in network analysis is to display the data in a structured and uncluttered graph. 
-Networks can rapidly become a hairball unamenable to interpretation. 
-Software platforms like Cytoscape can be used to visualize networks orderly by applying layout algorithms and format styles [@PMID:14597658]. 
-Since many of these platforms are open source, community-designed plugins enhance their capabilities. 
-In Cytoscape, the stringApp adds a search bar to query the STRING database with accession numbers or protein names [@PMID:36512705]. 
-The network is directly retrieved into Cytoscape, where its built-in network analyzer can be used to calculate centralities. 
-Moreover, user-defined information, like fold-change values, can be integrated and mapped into the network.
-
-### Functional term enrichment analysis: KEGG, String, GO, GSEA, ORA, Reactome, and others
-
-<!-- To-Do: this section is redundant with the next section -->
-
-Term enrichment analysis is performed to assess whether particular 'functional terms' are over-represented in a list of proteins (e.g. from a proteomics experiment) [@DOI:10.1007/978-1-4939-6783-4; @DOI:10.1016/j.ddtec.2021.06.007; @DOI:10.1152/physiolgenomics.00298.2007].
-For example, after a differential abundance analysis, we may wish to examine whether there is any shared function amongst the proteins which were determined to have significant changes.
-The simplest analysis to test whether this subset contains more of any particular functional terms than we would expect given the background of proteins.
-For example, the Gene Ontology is split into the classes: Cellular Component, Molecular Function and Biological Function and we might be interested as to whether our proteins may be more likely to localize to a particular subcellular niche [@PMID:10802651].
-The Cellular Component terms could give us a starting point if this might be the case, by examining if Cellular Component annotations are enriched. 
-
-
-There are a number of databases and tools to perform such analysis, which can even be extended to examine whole pathways, networks, post-translational modification and literature representation.
-For example, databses such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
-For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
-Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
-GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
-We refer to a number of articles on the topics, including tools, reviews and best-practice [@PMID:25430566; @PMID:33290552; @DOI:10.1371/journal.pcbi.1009935].
-The main points from such analysis is that we can obtain an insight about protein function by looking at whether our list of proteins have similar or the same annotations.
-A number of limitations should be taken into account for interpretation.
-The first is that proteins that are more abundant are more likely to be studied, measured and examined in the literature.
-Hence, abundant proteins will have more annotations than less abundant ones.
-One key part of the analysis is also to correctly select the background set; that is, the universe of protein which our list is being compared against.
-By including contaminates or proteins that are not expressed in our system within the list, the results may be unfaithful. 
-
-We may also have access to our own curated set of annotations derived either computational or experimental.
-One may be interested in seeing whether we have enrichment of these annotations amongst the differentially abundant proteins.
-Our list of proteins could be divided into two groups: differentially abundant or not. These groups could be divided into whether they have a particular annotation: yes or no.
-This information can be summarised in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
-One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
-
-There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (Figure XI{fig:enrich_methods}), as follows.
-
-![**Types of functional enrichment methods.** 
-In the volcano plot (left), proteins with altered values are colored blue or red according to arbitrarily chosen cut-off values for significance and fold change. 
-Black bars or thick-bordered nodes indicate members of a GO category.
-](images/enrich_methods_v4.png){#fig:enrich_methods tag="4" width="100%"}
-
-#### Over-representation analysis
-  
-In a modern proteomics analysis, usually thousands of proteins are identified and quantified. 
-Fold-change and significance thresholds are chosen (e.g., fold-change ≥ 2 and p ≤ 0.05) to obtain a list of proteins with altered levels among the tested conditions.
-In over-representation methods, a contingency table is created for every protein set to establish whether proteins with altered abundance show an enrichment or a depletion of the ontology term compared to the background observed proteome [@PMID:32695141]. 
-For example, suppose that 2000 proteins were quantified in a proteomics analysis, being 40 of these members of the set "tricarboxylic acid cycle (TCA)." 
-Also, let us assume that 200 proteins showed altered abundance, with 15 belonging to the TCA set. 
-Then, the contingency table can be constructed as follows:
-
-|                             | **Proteins with altered abundance** | **Proteins with unaltered abundance** | **Total** |
-|-----------------------------|:-----------------------------------:|:-------------------------------------:|:---------:|
-| **Proteins in TCA set**     |                  15                 |                   25                  |     40    |
-| **Proteins not in TCA set** |                 185                 |                  1775                 |    1960   |
-| **Total**                   |                 200                 |                  1800                 |    2000   |
-
-	                    
-Then, a suitable statistical test is conducted to ascertain if proteins with altered levels are enriched in members of the TCA cycle (in this case, they are; p < 0.00001).
-This is commonly achieved using Fisher's exact test [@DOI:10.2307/2340521].
-The process is then repeated for every set as desired. 
-Since multiple comparisons are tested, p values must be adjusted by a false discovery rate [@PMID:35263338].
-
-#### Functional class scoring
-  
-The caveat of over-representation methods is that they rely on a list of differentially expressed genes or proteins with altered abundance, selected due to arbitrarily chosen cut-off values. 
-For example, if we set a fold change cutoff of 2, a protein with a fold-change of 1.99 would not be included in the analysis. 
-Moreover, several proteins belonging to the same set may have altered levels but are below the fold change threshold. 
-However, moderate alterations of their abundance as a group could drive the observed phenotype, even more so than a single protein over the cut-off. 
-Functional class scoring strategies aim at countering these limitations by disregarding thresholds altogether. 
-GSEA (Gene Set Enrichment Analysis) is a widely used functional class scoring method in which all detected entities are first ranked according to a quantitative measurement (fold change, p-value, or their combination) [@PMID:16199517]. 
-Then,  the distribution of members of a set is obtained. 
-A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whether there is an enrichment of the category towards the top or bottom of the ranked list.
-
-#### Pathway topology-based methods 
-  
-Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
-Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
-In Figure {@fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
-
-### Other computational approaches: Network analysis, Isoform correlation analysis, AlphaFold, BLAST, protein language models
-
-Additional computational analysis of a list of interesting proteins may uncover additional substructure, correlation or biologically useful hypothesis.
-Building a network between the proteins based on the experiments performed, might be a useful approach to identify additional structure.
-For example, co-expression network analysis can be used to build a network from these proteins [@DOI:10.3410/f.727201931.793589848].
-In these networks, proteins are nodes and edges describe relationships between those proteins.
-Network-specific methods can then be applied, such as community detection algorithms which could uncover clusters of proteins with shared functions [@DOI:10.1101/2020.06.21.163543; @DOI:10.1016/j.physrep.2009.11.002].
-
-One way the proteome generates complexity is through alternative-splicing, which results in protein isoforms [@https://doi.org/10.7554/eLife.34477].
-
-Recently, a number of tools have been proposed to identify peptide isoforms that are quantitatively different across conditions by using a principle called peptide correlation analysis [@DOI:10.1101/2020.12.22.423928; @PMID:33325715].
-The idea is that the quantitative behavior of peptides should match each other.
-If there are subgroups that behave coherently within the group but not across groups suggest that peptide may have come from a different proteoform.
-These approaches can be used to identify specific proteoforms that are functional across different conditions.
-
-For many, a protein’s structure reveals important functional details [@PMID:18429251].
-There are a plethora of approaches to predict a protein’s structure [@DOI:10.1073/pnas.1821309116; @DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
-Recently, AlphaFold and RoseTTAFold have become dominant methods for predicting protein structures with high resolution [@DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
-If intrinsically disordered domains are of particular interest, methods explicitly designed for this task are recommended [@PMID:23203878].
-Once a structure is obtained more elaborate computational methods might be useful such as docking or molecular dynamics [@PMID:21534921; @DOI:10.2147/AABC.S70333].
-These approaches can give insight into how protein or molecules fit together and the dynamics of a protein's structure (conformational heterogeneity).
-A complete discussion of these topics is beyond the scope of this section.
-
-Another way to obtain insights into a protein function is to look for protein with similar sequences or motifs.
-Using BLAST, a sequence alignment tool, one can align two or more protein sequences and determine their level of similarity [@PMID:2231712].
-For example, if a human protein of unknown function has a similar sequence to a yeast protein with known function this may be a starting place for the putative function of that protein.
-
-Novel approaches to representing the similarity of proteins have proved successful at predicting the functional properties of proteins.
-Protein language models seek to learn “representation” of proteins, these are usually numerical vectors that represent a protein sequence [@DOI:10.1038/s42256-022-00457-9; @DOI:10.1016/j.cels.2021.05.017].
-Abstractly, these vectors preserve protein similarity or a notion of “proteinness”. This usually means that two proteins that have a close vector may share similarities in protein function.
-These representations are also advantageous because they can easily become the inputs for machine learning algorithms to predict valuable protein properties; for example, thermal stability values [@PMID:32133759], protein-protein binding affinities [@DOI:10.1002/wcms.1448], secondary protein structure, and more.
-
-## Orthogonal experimental methods
-
-### The importance of orthogonal experimental validation
-
-The computational workflows to interpret mass spectrometry data are sophisticated, powerful tools, but also show important limitations and caveats due to their dependence on limited prior knowledge, specific experimental parameters or data quality restraints (see section ‘Analysis of Raw Data’). 
-These inherent biases can give rise to ambiguous or spurious interpretation of the data even when these workflows are applied correctly and to the best of the experimenter’s knowledge.
-Therefore, researchers will oftentimes be asked by scientific journals to provide independent orthogonal validation of their proteomics data and not performing such can be a major roadblock in the publication process. 
-
-The aim of validating data obtained by proteomics approaches should always be two-fold by demonstrating that the conclusions arrived at by proteomics data acquisition and analysis are, firstly, valid and, secondly, relevant.
-Depending on the question at hand, researchers can draw on an overabundance of techniques to validate MS-derived hypotheses in appropriate cellular, organismal or in vitro models.
-In the the following paragraphs we aim to present only a high-level, stringent, non-exhaustive selection of orthogonal validation approaches and emphasise the importance of implementing assays that challenge assumptions gained from proteomics data analysis pipelines.
-
-Before embarking on orthogonal validation of any hit, the success of the experiment should be established by assessing (internal) positive controls. 
-Internal positive controls can be proteins whose behaviour under the experimental conditions applied can be deduced from prior knowledge (i.e. the scientific literature or public databases). 
-Once the expected changes in internal controls have been confirmed by computational analysis (see the above section), the orthogonal experimental validation of novel, perhaps unexpected findings can begin.   
-
-Orthogonal validation of new insights obtained from quantitative proteomics experiments can be a very time-consuming process and often requires familiarity with techniques not directly related to proteomics workflows. 
-Given these challenges, the method(s) of choice warrant(s) careful consideration and is highly context-dependent.
-Importantly, proteomics experiments in one way or another generally yield comprehensive lists of potentially interesting candidate proteins or pathways, the researcher will have to shortlist candidates to be taken forward to the validation stage of the project. 
-Which candidates should you validate by an orthogonal approach and which ones might not require further validation?
-
-In general, candidates representing abundant proteins that show high sequence coverage and are detected with high confidence might not necessarily need extensive orthogonal validation when compared with proteins of intermediate to low abundance that might be more challenging to faithfully quantify by proteomics alone (i.e. many membrane proteins or transcription factors). 
-Similarly, since the proteome is rarely comprehensively quantified in any single proteomics experiment, proteins of interest (POIs) that are critical for an observed biological change might not be part of the dataset. 
-In these cases, additional, targeted analyses might help to support or discredit proteomics-based hypotheses. 
-
-Validation techniques are as manifold as biological questions and discussions thereof may easily fill multiple textbooks. 
-The following sections are therefore merely meant to paint with a broad brush stroke a picture of useful methodolgies with which to validate and follow up MS-data derived observations. 
-As this is meant to orient the reader, whereever possible, we will explicitly point out useful literature reviews for a deeper dive into each of these techniques. 
-
-### General considerations 
-
-Once POIs have been selected based on prior agreed-upon selection criteria (i.e. (adjusted) p value and/or fold change thresholds), orthogonal validation experiments should ideally be conducted under physiologically relevant conditions to mitigate artifical and misleading outcomes. 
-Therefore, in vitro experiments, while useful to isolate and dissect particular aspects of a biological system, can give highly artificial results as conditions are far removed from the POI's native environment. 
-To investigate the biological function of a protein or pathway, direct genetic manipulation of the biological system at hand (e.g. modulating the expression of a POI by overexpression or knockout-/down experiments) can be minimally invasive when performed correctly.
-Should the POI be encoded by an essential gene, by definition, a complete and stable knockout might not be advisable [@DOI:10.1093/nar/gkt1131; @DOI:10.1016/j.cell.2022.10.017]. 
-In these extreme cases, attenuated expression (i.e. using RNA interference (RNAi) or controlled degradation, see below) rather than complete repression of a gene can be used to probe for protein function. 
-Epitope tagging and/or exogenous expression of a gene of interest can be a powerful approach in assessing PPIs and investigating proteins of low abundance. 
-However, overexpression artifacts are common [@DOI:10.1016/j.mrrev.2017.05.002]. 
-
-It is not always possible to fully avoid the pleiotropic effects of protein (over-)expression or depletion, but a number of mitigation strategies (i.e. inducible expression, the use of multiple independent RNAi strategies) will be discussed below.
-
-Extensive biochemical characterization of any overexpressed gene is critical to ensure it closely reflects the functions of its endogenous counterpart. 
-These assays might involve assessing protein localization (i.e. by imaging techniques such as microscopy and flow cytometry), protein abundance (i.e. by mass spectrometry or immunoblot analysis) and phenotypic assays where applicable and practical. 
-
-### Functional genomics techniques in the validation of MS hits
-
-Typical follow-up experiments to validate mass-spectrometry derived insights often involve the acute depletion or induction of a POI and assessing the impact on specific cellular phenotypes. 
-Here we present a selection of methodologies to effectively modulate gene expression and discuss important considerations when planning functional genomics experiments for target validation. 
-
-Gene deletion or knockdown to prevent production of a functional protein is a powerful means to interrogate the role of one or more proteins in the phenotype(s) under investigation. 
-To this end, well-established technologies deserving mention at this point are RNA interference (RNAi) in the form of siRNA/shRNA- or miRNA-mediated gene knockdown abd CRISPR/Cas9-or TALEN-mediated gene knockout [@DOI:10.1016/j.molcel.2015.04.028]. 
-Since each one of these technologies comes with their own unique advantages and caveats, the approach taken depends on the biological question at hand.
-
-Clustered regularly interspaced short palindromic repeats (CRISPR)/Cas-based gene deletion technologies allow for the targeting of individual genes with relative ease, high efficiency and specificity [@DOI:10.1126/science.1225829]. 
-When expressed in mammalian cells, the bacterially-derived Cas9 endonuclease can be guided with the help of a short guide RNA (gRNA) to a genomic location of interest, where it creates a DNA double strand break in a highly controlled manner (for a detailed discussion see [@DOI:10.1007/s00294-019-01040-3]).
-The cell's DNA double-stand break repair machinery then introduces base pair insertions or deletions (indels) via non-homologous-end-joining (NHEJ), thus causing missense, and frameshift mutations (i.e. resulting in premaure stop codons), leading to premature termination of gene expression or non-functional, aberrant gene products.
-Similarly, the concomitant provision of a complementary DNA donor template encoding a desired gene modification (i.e. insertion of a stretch of DNA or base pair modification) will trigger homology-directed repair (HDR), resulting in gene knockin or base editing [@DOI:10.1007/s00294-019-01040-3].     
-Practical considerations of CRISPR/Cas9-mediated gene knock-in and base editing will not be addressed in detail but are expertly discussed in [@DOI:10.1016/j.lfs.2022.120409; @DOI:10.1007/s11427-021-2057-0; @DOI:10.1007/s12033-022-00639-1; @DOI:10.3390/genes14010129]. 
-
-The relative ease-of-use and high efficiency of the CRISPR/Cas9 gene editing technology has rendered it the method of choice for gene manipulation in many fields of cell biology. 
-However,it should be noted that CRISPR/Cas9-mediated gene deletion is not free from off-target effects ([@DOI:10.3390/cells9071608] for advice on how to minimise these off-target effects). 
-Moreover, long-term depletion (or upregulation) of a POI itself can in some cases have dramatic systemic consequences and constitute an acute selection pressure leading to compensatory stress-induced adaptation that might obfuscate primary loss-of-function phenotypes and pose a substantial hurdle to the interpretability of biological data. 
-As these compensatory mechanisms often manifest with time, controlled, transient genetic manipulation (gene depletion or transgene expression) is advised. 
-Small interfering RNA (siRNA)-mediated knockdown by transient transfection is typically achieved at shorter time frames (24 – 96h), depending on the turnover of the POI. 
-On an even shorter time-scale, targeted, degron-based degradation systems enable depletion of a POI within minutes and further reduce off-target effects, but require the exogenous expression of a transgene and therefore some genetic manipulation. 
-A more comprehensive discussion of a selection of these systems (anchor-away, deGradFP, auxin-inducible degron (AID), dTAG technologies) and their advantages and potential pitfalls is presented in [@DOI:10.3390/biology9120421]. 
-
-Multiple eukaryotic and prokaryotic transcription-based systems have been developed that allow for the controlled biosynthesis or depletion of one or more POIs.
-Amongst these, a popular and dependable choice for mammalian cells are tetracycline-controlled operon systems, which allow up- or downregulation of a POI in the presence of the antibiotic tetracycline or its derivative doxycycline. 
-These systems rely on the insertion of a bacteria-derived Tet operon (TetO) between the promoter and coding sequence of a GOI. 
-In this configuration, the TetO binds a co-expressed Tet-repressor protein blocking transcription the of GOI. 
-When tetracycline is added to the cells, the repressor then dissociates from the operon, thus de-repressing the GOI. 
-Different variations of this potent system exist, allowing for more flexibility in experimental design. 
-For instance, in the Tet-OFF system, the Tet repressor is fused to a eukaryotic transactivator (the chimeric fusion construct is termed tTA) and addition of tetracycline, or the related doxycycline, abolishes TetO binding and thus suppresses transcriptional activation [@DOI:10.2174/1566523216666160524144041]. 
-Alternatively, a mutant form of tTA (rtTA) binds the TetO only in the presence of tetracycline, allowing for tetracycline-induced gene expression. 
-For a detailed discussion of these systems, we refer the reader to an excellent review [@DOI:10.3390/cells8080796].
-
-When generating stable expression cell lines, being able to precisely control the genomic integration site of the transgene reduces overall genetic heterogeneity in a cell population and thereby reduces potential off-target or pleiotropic effects.
-This ability is realised in the FlpIn-T-REx technology which harnesses Flp-recombinase mediated DNA recombination at a strictly defined genomic locus (the FRT site) [@DOI:10.1016/B978-0-12-418687-3.00008-2]. 
-Site-directed isogenic integration of any GOI at the FRT site, which is under a tetracycline-inducible promoter and a hygromycin resistance gene, allows for facile generation of tetracycline/doxycycline-inducible isogeneic expression cell lines with minimal leaky expression (for an example, see [@DOI:10.1007/978-1-61779-126-0_2]). 
-
-
-### Validation and interpretation of protein abundance changes
-
-To validate protein abundance changes observed by quantitative bottom-up proteomics or simply assess the success of targeted genetic manipulation as part of an orthogonal follow-up experiment (see above), the experimenter typically resorts to antibody-based techniques such as immunoblotting analysis or immunofluorescence and immunohistological imaging of POIs. 
-The latter also allows for validation of protein expression and localisation in intact tissue or cells. 
-However, these semi-quantitative methods are strongly influenced by the quality of the antibodies used and might not be sensitive enough to detect small changes in protein levels. 
-In this case, more accurate orthogonal quantitation of proteins might be achieved by stable isotope labelling (SILAC/TMT/iTRAQ) and/or SRM/PRM (see section 'Experiment Types'). 
-SDS-PAGE and immunoblot analysis are powerful and facile low-throughput tools to quickly validate protein abundance changes. 
-However, short of introducing epitope tags to the endogenous POI, the success of immunoblotting is contingent on the availability of specific antibodies, which can present a formidable problem when investigating poorly characterised proteins or working with model organisms for which the commercial availability of specific antibodies is limited (this is particularly problematic for ‘unconventional’ or even well-establishedmodel organisms such as yeast). 
-A detailed discussion of the strengths and pitfalls of immunoblotting for validation of semi-quantitative proteomics data can be found in an excellent review by Handler *et al.* [@DOI:10.1002/pmic.201800222].
-
-Protein abundance changes detected in a proteomics experiment can be the result of a range of different cellular processes. 
-The abundance of a protein in a complex sample (e.g. cell lysate or biological fluid) directly reflects a combination of the protein's intrinsic stability and the translational rate under the conditions of interest. 
-
-Both protein stability as well as gene expression activity can be quantified independently. 
-Altered protein stability might be a direct consequence of specific or global changes in protein turnover. 
-Radioisotope labelling is a well-established, accurate way to monitor protein synthesis, maturation and turnover [@DOI:10.1002/0471140864.ps3003s78; @DOI:10.1371/journal.pone.0155028]. 
-This ‘pulse-chase’ methodology relies on the incorporation (‘pulsing’) of radioisotopes (typically 35S-labelled cysteine and methionine) into de-novo synthesised proteins. 
-Upon withdrawal of the labelleled amino acids from the culture medium, the decay of signal is monitored over time (‘the chase’) by SDS-PAGE and phosphoimaging, resulting in a temporal readout of protein abundances. 
-The advantage of this technology is that a subpopulation (newly synthesised proteins) can be monitored directly, giving an accurate assessment of protein stability. 
-Once a change in protein stability has been validated, the underlying mechanisms can be addressed by inhibiting protein degradation pathways; prominently proteasome-mediated degradation (using specific proteasome inhibitors such as bortemzomib/velcade or MG132), autophagy (pharmacologically inhibiting autophagic flux) or degradation by proteases (using protease inhibitors). 
-The type of radiolabeling described above is relatively labor-intense, of low-throughput and has the obvious disadvantage of requiring radioactive material, which needs to be handled under strict safety precautions. 
-Moreover, it critically depends on the presence of one or more methionines and/or cysteines in the POIs. 
-
-It is also possible to measure protein stability within complex protein mixtures (i.e. cell lysates or biological fluids) using an array of specialized mass spectrometry techniques as discussed in [@DOI:10.1021/acs.chemrev.1c00857] and  [@DOI:10.1016/j.cbpa.2022.102225]. 
-
-For purified proteins, well-established in vitro spectrometric and calorimetric methods such as circular dichroism, differential scanning calorimetry or differential scanning fluorometry can be used, but the relatively high sample amounts might be restrictive. 
-
-Finally, gene expression changes can also be determined with high fidelity using quantitative real-time PCR (qRT-PCR) or RNA-Seq can measure changes in gene transcription or mRNA turnover (for an extensive discussion of both technologies, please see [@DOI:10.21775/cimb.016.001] and [@DOI:10.1038/nrg2484], respectively). 
-
-### Validation of protein-protein interactions
-
-The interaction of a protein with other proteins determines its function. 
-Protein-protein interactions (PPIs) can be either mostly static (i.e. core subunits of a protein complex) or dynamic, varying with cellular state (i.e. cell cycle phase or cellular stress responses, posttranslational modifications) or environmental factors (i.e. availability of nutrients, presence of extracellular ligands of cell-surface receptors). 
-Therefore, any given protein can typically bind a range of interaction partners in a spatially and temporally restricted manner, thus forming complex PPI networks (the interactome of a protein). 
-The method of choice to experimentally examine altered PPI states depends on the model system and biological question (i.e. purified proteins vs complex protein mixtures, monitoring of PPIs in live cells or cell lysate etc). 
-Popular methods for the validation of PPIs in vivo include protein fragment complementation (split protein systems), 2-hybrid assays (mammalian, yeast and bacterial), proximity ligation, proximity labelling and FRET / BRET. 
-Protein fragment complementation assays rely on the principle that the two self-associating halves of reporter proteins can be expressed in an inactive form but when in spatial proximity bind one another to complement the functional, active reporter. 
-When these split reporters are fused to two interacting proteins (so-called bait and prey proteins), the binding of bait to prey induces the spatial restriction needed to fully complement the reporter. Commonly used reporter complementation systems are split fluorescent proteins (i.e. GFP, YFP) [@DOI:10.3390/ijms20143479], ubiquitin [@DOI:10.1093/bfgp/1.3.230], luciferase [@DOI:10.1007/s00216-014-7980-8], TEV protease [@DOI:10.1016/j.jbiotec.2016.06.012], beta-lactamase [@DOI:10.1016/j.jinorgbio.2022.111986], beta-galactosidase, Gal4, or DHFR [@DOI:10.2174/1389203721666200213102829]. 
-The resulting functional readout of these complementation system depends on which split reporter is used. 
-In general, the split luciferase system shows enhanced sensitivity over fluorescence-based systems as background luminescence is low. 
-
-Two-hybrid assays are based on a similar functional complementation strategy as fragment complementation systems. 
-Conventionally, two self-complementing transcription factor fragments are fused to bait and prey proteins, respectively, leading to the restoration of a functional transcription factor only upon prey-bait interaction. 
-The complemented transcription factor then induces the expression of a reporter gene that can be measured. 
-Multiple variations of this system abound for different model organisms, but they almost always involve transcriptional activation or repression of a reporter gene ([@DOI:10.4149/gpb_2021035] for a detailed discussion). 
-
-The yeast-2-hybrid system (Y2H) is deserving of mention here as it had been the very first 2-hybrid system established [@DOI:10.1038/340245a0] and has ever since proven to be extremely versatile (multiple auxotrophic reporters and markers of phenotypic sensitivity available), cheap, lends itself to functional high-throughput screening and variants have been developed that allow for the investigation of membrane-protein interactions (i.e. membrane Y2H) [@DOI:10.3390/ijms10062763; @DOI:10.4149/gpb_2021035]. 
-
-Despite the many advantages the Y2H offers, critical drawbacks include the potential of misfolding of bait and prey proteins when fused to a complementation reporter, expression at non-physiological levels, the lack of control over posttranslational modifications that might be important for the PPI under investigation, and the potential requirement of kingdom- or species-specific folding factors for the bait/prey under investigation (i.e. when probing PPI of mammalian proteins in Y2H). 
-Principles of the Y2H technology have also been adapted to mammalian systems, which circumvent some of the aforementioned drawbacks of Y2H [@DOI:10.1016/j.drudis.2020.01.022]. 
-
-Perhaps the most commonly applied method of detecting and validating PPIs in vitro is affinity purification (AP, also known as affinity chromatography) of co-immunoprecipitation (Co-IP) either coupled with SDS-PAGE/immunoblotting or mass spectrometry to determine the identity of interacting proteins. 
-AP typically relies on the isolation of a transgenic POI by an epitope tag (using epitope-specific matrix-conjugated proteins (antibodies or epitope-binding proteins)), while Co-IP harnesses specific antibodies directly targeting the POI. 
-Specific interactors are expected to be enriched compared to the negative control (i.e an isotype control antibody, a knockout cell line or empty matrix). 
-AP is not solely restricted to detecting PPIs, but can also be adapted to protein interactions with other biomolecules such as RNA [@DOI:10.3390/ijms160922456]. 
-It should be noted that AP and Co-IP can return multiple potential binding partners, many of which might be artefactual due to loss of cellular compartmentalisation during sample preparation. 
-
-To reduce the probability of such artefacts and increase the confidence of a specific interaction, reciprocal affinity purification (by pulldown of each interaction partner) or in situ imaging might be performed (i.e. using fluorescence resonance energy transfer (FRET) [@DOI:10.1038/s41592-019-0530-8], split-protein systems [@DOI:10.1016/j.cbpa.2011.10.014], proximity ligation assay [@DOI:10.1007/s00253-020-11049-1] and immunofluorescence microscopy). 
-
-Forster and bioluminescence resonance energy transfer (FRET / BRET) can be used for in situ visualisation of protein proximities and therefore PPIs. 
-In FRET, non-radiative energy transfer between donor and receptor chromophores (each fused to prey and bait proteins, respectively), results in the emission of a characteristic fluorescence signal only when both prey and bait are in very close proximity (1-10 nm distance) and a suitable light source for donor excitation is provided [@DOI:10.3390/ijms16046718]. 
-
-The underlying principle of BRET is similar to that of FRET but with the exception of using a chemical substrate which activates bioluminescent donor, such as luciferase, resulting in energy transfer to a fluorescent acceptor molecule [@DOI:10.1038/nmeth841; @DOI:10.3390/mi13101789]. 
-The main advantages of BRET over FRET are independence from an external light source (which can result in photobleaching), but requires at least one of the POIs to be fused to the donor (while in FRET, donor and acceptor can be chemically conjugated to POI-specific antibodies) [@DOI:10.1038/nmeth841]. 
-FRET can be particularly useful in investigating cell surface protein interactions when using specific antibodies conjugated to donor and acceptor probes as antibodies are not cell-permeable and therefore restricted to targets presented on the cell surface in the absence of membrane permeabilization agents. 
-Other fluorescence-based PPI assays encompass Fluorescence correlation spectroscopy (FCS) and fluorescence cross-correlation spectroscopy (FCCS). 
-These methods use small volumes of fluorescently labelled proteins and can determine their diffusion coefficients, which change in when proteins form a complex [@DOI:10.1016/j.bpc.2019.106218]. 
-
-Proximity labelling methods (Proximity ligation and enzymatic proximity labelling (BirA, APEX2, HRP) can surveil labile or transient interaction in live cells in a high-throughput format when coupled with target identification by MS [@DOI:10.1016/j.jprot.2022.104620], [@DOI:10.1016/j.jid.2017.09.028]. 
-These approaches harness a biotin ligase (i.e. BirA, BioID2, AirID, BASU, APEX2, HRP) fused to a POI whose interactome is to be determined. In the presence of biotin (for BirA, BioID2, AirID, BASU, APEX2 and HRP) or a biotin-phenol derivative (for APEX2), the biotin ligase will activate the biotin(-phenol) which then covalently biotinylates any protein in close proximity. 
-The activated biotin has a short half-life, ensuring that the effective labelling radius is typically restricted to approximately 10 nm. 
-Biotinylated proteins are isolated by affinity purification with streptavidin-conjugated beads and identified by mass spectrometry or SDS-PAGE/immunoblotting. 
-TurboID, miniTurboID and ultraID, promiscuous biotin ligases faster than BirA, have been developed allowing for shorter treatment times and decreased background signal. 
-The choice of a biotin ligase variant depends on the POI and experimental setup, but in general HRP does not work in cytoplasmic environments where conditions are chemically reducing, but is suitable for labelling proteins extracellular face of the plasma membrane or in the endoplasmic reticulum and golgi apparatus. 
-While TurboID and similar variants have fast kinetics, they can cause depletion of endogenous biotin and therefore cytotoxicity. 
-A major drawback shared by all variants described above is that they necessitate fusion to the POI, which might alter its physiological behaviour and give rise to false positives or false negatives.
-Moreover, detecting a biotin-labelled protein does not unequivocally designate it as an interaction partner as spatial proximity to the POI-biotin ligase fusion protein without direct binding can result in biotinylation. 
-The inclusion of controls, such as expression of the biotinylating enzyme alone in the cellular compartment of interest, is therefore particularly important for enzymatic proximity labelling methods.
-
-The in situ proximity ligation assay (PLA) combines the specificity of antibodies with the signal amplification capacity of a DNA polymerase reaction. 
-Here, two antibodies, each conjugated to a short single-strand DNA (ssDNA) tag and each specific to one of the two proteins whose interaction is under investigation, are added to fixed cells or tissue. 
-Once bound to their respective targets and only when in direct proximity, the addition of two connector oligonucleotides complementary to each tag ssDNA tag and phi29 DNA polymerase, triggers isothermal rolling circle amplification, eventually resulting in the generation of continuous stretches of repetitive DNA. 
-These DNA products can then be visualised by in situ hybridisation with fluorescently labelled oligonucleotides (see [@DOI:10.1007/82_2013_334] for a detailed discussion). 
-PLA has the advantage of visualising the two interacting proteins in their native environment when high-resolution microscopy is used as a readout. 
-
-Chemical crosslinking (XL) of proteins can determine PPIs with amino-acid level resolution, and can thereby give valuable insights into the orientation of two or more proteins relative to one another [@DOI:10.1016/j.str.2022.03.003]. 
-Recent technical advances also enabled the visualisation of protein-RNA interaction [@DOI:10.1042/EBC20220177]. 
-Various XL chemistries are available (amine-reactive, sulfhydryl and photoreactive crosslinkers; reversible vs irreversible) and cross-linked proteins detected by mass spectrometry [@DOI:10.1016/j.cbpa.2020.07.008]. 
-In general, applying XL-MS to a mixture of interacting, purified proteins is preferable to in situ XL of complex protein mixtures (i.e. cell lysate) as detection and deconvolution of XL peptides is technically and computationally challenging.
-
-Surface plasmon resonance can accurately measure several key kinetics of PPIs with high accuracy (e.g. association and dissociation kinetics, stoichiometry, affinity) [@DOI:10.1016/bs.apcsb.2017.07.003]. 
-It relies on the quantification of refractive index changes of polarised light shone onto a sensor chip containing a prey protein immobilised on a metal surface (typically gold). 
-When prey and bait proteins interact, the mass concentration at the metal interface changes, altering the refractive index and SPR angle (intensity of the refracted light). 
- 
-
-
 ## Analysis of Raw Data {.page_break_before}
 
 The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis. 
@@ -2789,6 +2402,392 @@ Search algorithms can self-correct when a database is overly large such that hig
 Whether to employ a search space that is sample-specific (i.e., subset), species-specific (with only canonical proteins, described below), exhaustive species-specific (including all isoforms), or even larger clade-level protein sequence set (e.g., the over 14 million protein sequences associated with Fungi, taxon identifier 4751) is a complex issue that is experiment and software dependent. 
 Moreover, in cases where no species-specific protein sequence collection exists, homology-based searching can be used (as described in [@PMID:32786681]). 
 In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results. See more discussion of database choice in the following section. 
+
+
+## Biological Interpretation  {.page_break_before}
+
+The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
+This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits. 
+In this section, we aim to present a concise overview of how proteomic data can be effectively contextualised and used to generate new hypotheses.
+
+The simplest approach is to start manual lookup of every protein in the list to uncover groups that function together.
+Starting with a list of hundreds of protein changes, a smaller list can be prioritized by considering the level of significance and effect size.
+For example, proteins with the smallest p-values (significance) and largest abundance fold-changes (effect size).
+It is tempting to focus on proteins with the most extreme fold changes. 
+In this case, the assumption is that the more significant the fold change (in either direction, up- or down-regulation), the higher the impact of those proteins on cellular behavior. 
+This assumption is not always valid because protein signal in MS depends on abundance.
+The manual data interpretation approach is typically infeasible due to the number of proteins that would need to be individually looked up one-by-one.
+
+A better strategy is to use computational methods.
+These methods may consider the whole list of proteins including some ranking by significance or fold change. 
+One common interpretation method is to construct a protein network, which then lends itself to network analyses. 
+Another method is to consider functional enrichment through annotation databases.
+These databases offer insights by examining the enrichment of certain functional annotations amongst the interesting proteins.
+Secondly, one could consider other evolutionary, structurally or regulatory based methods to identify interpretation of the data.
+To fully interpret analysis, it may be required to perform or examine other data such as data from biophysical, biochemical and alternative proteomic approaches.
+Finally, the data can further be interpreted using multi-omic, native or clinical approaches.
+Below we summarize these approaches and point out potential pitfalls with these methods.
+
+### Constructing a protein network
+
+A network is a representation of the relations between objects. 
+Nodes are the entities of the network (e.g., users of a social platform, train stations, proteins), while edges are the connections between them (e.g., friendship, routes, and protein interactions, respectively). 
+In the case of protein-protein interactions, the evidence for the functional associations between proteins can be obtained experimentally. 
+For example, co-immunoprecipitation, crosslinking, and proximity labeling can be used to reveal physical interactions [@PMID:34046695]. 
+The data is presented in a table with nodes and edges (e.g., "protein A interacts with protein B") from which the network can be constructed. 
+A considerable wealth of protein-protein association data is stored in free databases like IntAct, which contain interactions derived from literature curation or direct user submissions [@PMID:34761267]. 
+Protein interactions can also be predicted by classifiers that consider many features, like orthology and co-localization, to produce a posterior odds ratio of interaction [@PMID:21572181; @PMID:33237311]. 
+Finally, large repositories like STRING (Search Tool for the Retrieval of Interacting Genes/Proteins) collect and integrate protein-protein interaction data from several databases [@PMID:33237311]. 
+STRING also provides a web-based interface to survey the data, and users only have to feed a search box with the identifiers of the protein(s) of interest. 
+STRING will retrieve the network and show the evidence supporting each interaction. 
+Importantly, these databases do not indicate the direction of the interaction, so they produce undirected networks. 
+If edges have directions (e.g., A influences B and not vice versa), then the network is directed. 
+Signaling pathways are examples of directed graphs. 
+
+### Network analysis
+
+Network analysis is a group of techniques that explore and investigate the network, yielding valuable knowledge about its structure and unveiling key players regulating the flow of information. 
+One of the first steps in network analysis relates to centrality measurements. 
+Centralities are indicators of the relative importance of a node corresponding to its position in the network, and each centrality measure provides new insights to interpret the data in new ways [@PMID:27616995; @PMID:30064421].
+
+#### Degree centrality
+  
+The degree of a node measures the number of edges incident to that node. 
+Nodes with a high degree interact with many other nodes, called first neighbors. 
+In particular, the node degree distribution in protein networks is highly skewed, with most nodes having a low degree and a few having high degrees, known as hubs.
+Hubs are usually regulatory proteins, being notable examples oncogenes and transcription factors. 
+Moreover, hubs are attractive targets for directed interventions, as their alteration has a profound effect on the stability of the network [@PMID:16751849]. 
+
+#### Closeness centrality
+
+The route from one node to another is a path, and the shortest path is the one connecting them in the least amount of steps. 
+Closeness centrality is the inverse of the average length of a node's shortest paths to all other nodes in the network. 
+Nodes with a high closeness score have the shortest distances to all the others, so closeness centrality calculations detect nodes that can spread information very efficiently, as they are in a better position in the network for this task [@PMID:15616139; @{URL:https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/building-and-analysing-ppins/topological-ppin-analysis/closeness-centrality/}].
+
+#### Betweenness centrality
+
+This centrality index is related to the amount of shortest paths transversing a node. 
+Nodes with a high betweenness centrality usually bridge different parts of the network and strongly influence the flow of information, as they lie in communication paths. 
+These connector hubs (or bottlenecks) are also interesting for follow–up experiments because their removal can disconnect different regions of the network [@PMID:17447836].
+
+Centrality measurements add new layers of information and allow for ranking differentially expressed proteins apart from their fold-change in abundance. 
+**Figure 15** depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
+In Panel A, the fill color for the nodes indicates this metric, where it can be easily seen that A stands out. 
+However, protein A is a peripheral protein, only interacting with B. 
+In Panel B, nodes are colored according to node degree. 
+Clearly, protein F has the highest number of interactions and is also the closest to all other nodes, which can be appreciated when nodes are colored according to closeness centrality (Panel C). 
+On the other hand, protein G acts as a bridge between two regions of the network and thus, has the highest betweenness centrality (Panel D). 
+Except for fold change, node A has the lowest indices, and it will be up to the researcher to decide whether this protein warrants further examination.
+
+![**Analysis of a simple network using different centrality measurements.** 
+Nodes are colored according to each metric using a yellow-to-red gradient (yellow: lowest value, red: highest value). 
+Network visualization and analysis were performed in Cytoscape.
+](images/Simple%20network.png){#fig:simple-network tag="15" width="100%"}
+
+### Network clustering
+
+In the small network presented in Figure {@fig:simple-network}X, two groups of densely connected nodes exist. 
+This topology suggests that these communities (or "clusters") work together or participate in a protein complex. 
+Dividing a network into clusters helps identify underlying relationships among nodes, which is especially useful in large networks. 
+In a broad sense, network clustering groups nodes according to a topological property, generally interconnectedness. 
+There are many network clustering algorithms, each with its own merits and approaches [@PMID:20158874; @PMID:17087821]. 
+The MCL (Markov CLustering) algorithm is suitable for protein networks in most situations . 
+On the other hand, the Molecular COmplex DEtection (MCODE) algorithm helps detect very densely connected nodes, thus unveiling protein complexes [@PMID:12525261]. 
+In this regard, network clustering is useful for tentatively assigning the function of an uncharacterized protein. 
+If the protein appears in a cluster, its function should be closely related to the cluster members, a principle known as "guilty by association." [@PMID:26215734]
+
+### Network visualization
+
+A critical step in network analysis is to display the data in a structured and uncluttered graph. 
+Networks can rapidly become a hairball unamenable to interpretation. 
+Software platforms like Cytoscape can be used to visualize networks orderly by applying layout algorithms and format styles [@PMID:14597658]. 
+Since many of these platforms are open source, community-designed plugins enhance their capabilities. 
+In Cytoscape, the stringApp adds a search bar to query the STRING database with accession numbers or protein names [@PMID:36512705]. 
+The network is directly retrieved into Cytoscape, where its built-in network analyzer can be used to calculate centralities. 
+Moreover, user-defined information, like fold-change values, can be integrated and mapped into the network.
+
+### Functional term enrichment analysis: KEGG, String, GO, GSEA, ORA, Reactome, and others
+
+<!-- To-Do: this section is redundant with the next section -->
+
+Term enrichment analysis is performed to assess whether particular 'functional terms' are over-represented in a list of proteins (e.g. from a proteomics experiment) [@DOI:10.1007/978-1-4939-6783-4; @DOI:10.1016/j.ddtec.2021.06.007; @DOI:10.1152/physiolgenomics.00298.2007].
+For example, after a differential abundance analysis, we may wish to examine whether there is any shared function amongst the proteins which were determined to have significant changes.
+The simplest analysis to test whether this subset contains more of any particular functional terms than we would expect given the background of proteins.
+For example, the Gene Ontology is split into the classes: Cellular Component, Molecular Function and Biological Function and we might be interested as to whether our proteins may be more likely to localize to a particular subcellular niche [@PMID:10802651].
+The Cellular Component terms could give us a starting point if this might be the case, by examining if Cellular Component annotations are enriched. 
+
+There are a number of databases and tools to perform such analysis, which can even be extended to examine whole pathways, networks, post-translational modification and literature representation.
+For example, databses such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
+For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
+Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
+GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
+We refer to a number of articles on the topics, including tools, reviews and best-practice [@PMID:25430566; @PMID:33290552; @DOI:10.1371/journal.pcbi.1009935].
+The main points from such analysis is that we can obtain an insight about protein function by looking at whether our list of proteins have similar or the same annotations.
+A number of limitations should be taken into account for interpretation.
+The first is that proteins that are more abundant are more likely to be studied, measured and examined in the literature.
+Hence, abundant proteins will have more annotations than less abundant ones.
+One key part of the analysis is also to correctly select the background set; that is, the universe of protein which our list is being compared against.
+By including contaminates or proteins that are not expressed in our system within the list, the results may be unfaithful. 
+
+We may also have access to our own curated set of annotations derived either computational or experimental.
+One may be interested in seeing whether we have enrichment of these annotations amongst the differentially abundant proteins.
+Our list of proteins could be divided into two groups: differentially abundant or not. These groups could be divided into whether they have a particular annotation: yes or no.
+This information can be summarised in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
+One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
+
+There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 16**), as follows.
+
+![**Types of functional enrichment methods.** 
+In the volcano plot (left), proteins with altered values are colored blue or red according to arbitrarily chosen cut-off values for significance and fold change. 
+Black bars or thick-bordered nodes indicate members of a GO category.
+](images/enrich_methods_v4.png){#fig:enrich_methods tag="16" width="100%"}
+
+#### Over-representation analysis
+  
+In a modern proteomics analysis, usually thousands of proteins are identified and quantified. 
+Fold-change and significance thresholds are chosen (e.g., fold-change ≥ 2 and p ≤ 0.05) to obtain a list of proteins with altered levels among the tested conditions.
+In over-representation methods, a contingency table is created for every protein set to establish whether proteins with altered abundance show an enrichment or a depletion of the ontology term compared to the background observed proteome [@PMID:32695141]. 
+For example, suppose that 2000 proteins were quantified in a proteomics analysis, being 40 of these members of the set "tricarboxylic acid cycle (TCA)." 
+Also, let us assume that 200 proteins showed altered abundance, with 15 belonging to the TCA set. 
+Then, the contingency table can be constructed as follows:
+
+|                             | **Proteins with altered abundance** | **Proteins with unaltered abundance** | **Total** |
+|-----------------------------|:-----------------------------------:|:-------------------------------------:|:---------:|
+| **Proteins in TCA set**     |                  15                 |                   25                  |     40    |
+| **Proteins not in TCA set** |                 185                 |                  1775                 |    1960   |
+| **Total**                   |                 200                 |                  1800                 |    2000   |
+
+	                    
+Then, a suitable statistical test is conducted to ascertain if proteins with altered levels are enriched in members of the TCA cycle (in this case, they are; p < 0.00001).
+This is commonly achieved using Fisher's exact test [@DOI:10.2307/2340521].
+The process is then repeated for every set as desired. 
+Since multiple comparisons are tested, p values must be adjusted by a false discovery rate [@PMID:35263338].
+
+#### Functional class scoring
+  
+The caveat of over-representation methods is that they rely on a list of differentially expressed genes or proteins with altered abundance, selected due to arbitrarily chosen cut-off values. 
+For example, if we set a fold change cutoff of 2, a protein with a fold-change of 1.99 would not be included in the analysis. 
+Moreover, several proteins belonging to the same set may have altered levels but are below the fold change threshold. 
+However, moderate alterations of their abundance as a group could drive the observed phenotype, even more so than a single protein over the cut-off. 
+Functional class scoring strategies aim at countering these limitations by disregarding thresholds altogether. 
+GSEA (Gene Set Enrichment Analysis) is a widely used functional class scoring method in which all detected entities are first ranked according to a quantitative measurement (fold change, p-value, or their combination) [@PMID:16199517]. 
+Then,  the distribution of members of a set is obtained. 
+A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whether there is an enrichment of the category towards the top or bottom of the ranked list.
+
+#### Pathway topology-based methods 
+  
+Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
+Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
+In Figure {@fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
+
+### Other computational approaches: Network analysis, Isoform correlation analysis, AlphaFold, BLAST, protein language models
+
+Additional computational analysis of a list of interesting proteins may uncover additional substructure, correlation or biologically useful hypothesis.
+Building a network between the proteins based on the experiments performed, might be a useful approach to identify additional structure.
+For example, co-expression network analysis can be used to build a network from these proteins [@DOI:10.3410/f.727201931.793589848].
+In these networks, proteins are nodes and edges describe relationships between those proteins.
+Network-specific methods can then be applied, such as community detection algorithms which could uncover clusters of proteins with shared functions [@DOI:10.1101/2020.06.21.163543; @DOI:10.1016/j.physrep.2009.11.002].
+
+One way the proteome generates complexity is through alternative-splicing, which results in protein isoforms [@https://doi.org/10.7554/eLife.34477].
+
+Recently, a number of tools have been proposed to identify peptide isoforms that are quantitatively different across conditions by using a principle called peptide correlation analysis [@DOI:10.1101/2020.12.22.423928; @PMID:33325715].
+The idea is that the quantitative behavior of peptides should match each other.
+If there are subgroups that behave coherently within the group but not across groups suggest that peptide may have come from a different proteoform.
+These approaches can be used to identify specific proteoforms that are functional across different conditions.
+
+For many, a protein’s structure reveals important functional details [@PMID:18429251].
+There are a plethora of approaches to predict a protein’s structure [@DOI:10.1073/pnas.1821309116; @DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
+Recently, AlphaFold and RoseTTAFold have become dominant methods for predicting protein structures with high resolution [@DOI:10.1038/s41586-021-03819-2; @PMID:34282049]. 
+If intrinsically disordered domains are of particular interest, methods explicitly designed for this task are recommended [@PMID:23203878].
+Once a structure is obtained more elaborate computational methods might be useful such as docking or molecular dynamics [@PMID:21534921; @DOI:10.2147/AABC.S70333].
+These approaches can give insight into how protein or molecules fit together and the dynamics of a protein's structure (conformational heterogeneity).
+A complete discussion of these topics is beyond the scope of this section.
+
+Another way to obtain insights into a protein function is to look for protein with similar sequences or motifs.
+Using BLAST, a sequence alignment tool, one can align two or more protein sequences and determine their level of similarity [@PMID:2231712].
+For example, if a human protein of unknown function has a similar sequence to a yeast protein with known function this may be a starting place for the putative function of that protein.
+
+Novel approaches to representing the similarity of proteins have proved successful at predicting the functional properties of proteins.
+Protein language models seek to learn “representation” of proteins, these are usually numerical vectors that represent a protein sequence [@DOI:10.1038/s42256-022-00457-9; @DOI:10.1016/j.cels.2021.05.017].
+Abstractly, these vectors preserve protein similarity or a notion of “proteinness”. This usually means that two proteins that have a close vector may share similarities in protein function.
+These representations are also advantageous because they can easily become the inputs for machine learning algorithms to predict valuable protein properties; for example, thermal stability values [@PMID:32133759], protein-protein binding affinities [@DOI:10.1002/wcms.1448], secondary protein structure, and more.
+
+## Orthogonal experimental methods
+
+### The importance of orthogonal experimental validation
+
+The computational workflows to interpret mass spectrometry data are sophisticated, powerful tools, but also show important limitations and caveats due to their dependence on limited prior knowledge, specific experimental parameters or data quality restraints (see section ‘Analysis of Raw Data’). 
+These inherent biases can give rise to ambiguous or spurious interpretation of the data even when these workflows are applied correctly and to the best of the experimenter’s knowledge.
+Therefore, researchers will oftentimes be asked by scientific journals to provide independent orthogonal validation of their proteomics data and not performing such can be a major roadblock in the publication process. 
+
+The aim of validating data obtained by proteomics approaches should always be two-fold by demonstrating that the conclusions arrived at by proteomics data acquisition and analysis are, firstly, valid and, secondly, relevant.
+Depending on the question at hand, researchers can draw on an overabundance of techniques to validate MS-derived hypotheses in appropriate cellular, organismal or in vitro models.
+In the the following paragraphs we aim to present only a high-level, stringent, non-exhaustive selection of orthogonal validation approaches and emphasise the importance of implementing assays that challenge assumptions gained from proteomics data analysis pipelines.
+
+Before embarking on orthogonal validation of any hit, the success of the experiment should be established by assessing (internal) positive controls. 
+Internal positive controls can be proteins whose behaviour under the experimental conditions applied can be deduced from prior knowledge (i.e. the scientific literature or public databases). 
+Once the expected changes in internal controls have been confirmed by computational analysis (see the above section), the orthogonal experimental validation of novel, perhaps unexpected findings can begin.   
+
+Orthogonal validation of new insights obtained from quantitative proteomics experiments can be a very time-consuming process and often requires familiarity with techniques not directly related to proteomics workflows. 
+Given these challenges, the method(s) of choice warrant(s) careful consideration and is highly context-dependent.
+Importantly, proteomics experiments in one way or another generally yield comprehensive lists of potentially interesting candidate proteins or pathways, the researcher will have to shortlist candidates to be taken forward to the validation stage of the project. 
+Which candidates should you validate by an orthogonal approach and which ones might not require further validation?
+
+In general, candidates representing abundant proteins that show high sequence coverage and are detected with high confidence might not necessarily need extensive orthogonal validation when compared with proteins of intermediate to low abundance that might be more challenging to faithfully quantify by proteomics alone (i.e. many membrane proteins or transcription factors). 
+Similarly, since the proteome is rarely comprehensively quantified in any single proteomics experiment, proteins of interest (POIs) that are critical for an observed biological change might not be part of the dataset. 
+In these cases, additional, targeted analyses might help to support or discredit proteomics-based hypotheses. 
+
+Validation techniques are as manifold as biological questions and discussions thereof may easily fill multiple textbooks. 
+The following sections are therefore merely meant to paint with a broad brush stroke a picture of useful methodolgies with which to validate and follow up MS-data derived observations. 
+As this is meant to orient the reader, whereever possible, we will explicitly point out useful literature reviews for a deeper dive into each of these techniques. 
+
+### General considerations 
+
+Once POIs have been selected based on prior agreed-upon selection criteria (i.e. (adjusted) p value and/or fold change thresholds), orthogonal validation experiments should ideally be conducted under physiologically relevant conditions to mitigate artifical and misleading outcomes. 
+Therefore, in vitro experiments, while useful to isolate and dissect particular aspects of a biological system, can give highly artificial results as conditions are far removed from the POI's native environment. 
+To investigate the biological function of a protein or pathway, direct genetic manipulation of the biological system at hand (e.g. modulating the expression of a POI by overexpression or knockout-/down experiments) can be minimally invasive when performed correctly.
+Should the POI be encoded by an essential gene, by definition, a complete and stable knockout might not be advisable [@DOI:10.1093/nar/gkt1131; @DOI:10.1016/j.cell.2022.10.017]. 
+In these extreme cases, attenuated expression (i.e. using RNA interference (RNAi) or controlled degradation, see below) rather than complete repression of a gene can be used to probe for protein function. 
+Epitope tagging and/or exogenous expression of a gene of interest can be a powerful approach in assessing PPIs and investigating proteins of low abundance. 
+However, overexpression artifacts are common [@DOI:10.1016/j.mrrev.2017.05.002]. 
+
+It is not always possible to fully avoid the pleiotropic effects of protein (over-)expression or depletion, but a number of mitigation strategies (i.e. inducible expression, the use of multiple independent RNAi strategies) will be discussed below.
+
+Extensive biochemical characterization of any overexpressed gene is critical to ensure it closely reflects the functions of its endogenous counterpart. 
+These assays might involve assessing protein localization (i.e. by imaging techniques such as microscopy and flow cytometry), protein abundance (i.e. by mass spectrometry or immunoblot analysis) and phenotypic assays where applicable and practical. 
+
+### Functional genomics techniques in the validation of MS hits
+
+Typical follow-up experiments to validate mass-spectrometry derived insights often involve the acute depletion or induction of a POI and assessing the impact on specific cellular phenotypes. 
+Here we present a selection of methodologies to effectively modulate gene expression and discuss important considerations when planning functional genomics experiments for target validation. 
+
+Gene deletion or knockdown to prevent production of a functional protein is a powerful means to interrogate the role of one or more proteins in the phenotype(s) under investigation. 
+To this end, well-established technologies deserving mention at this point are RNA interference (RNAi) in the form of siRNA/shRNA- or miRNA-mediated gene knockdown abd CRISPR/Cas9-or TALEN-mediated gene knockout [@DOI:10.1016/j.molcel.2015.04.028]. 
+Since each one of these technologies comes with their own unique advantages and caveats, the approach taken depends on the biological question at hand.
+
+Clustered regularly interspaced short palindromic repeats (CRISPR)/Cas-based gene deletion technologies allow for the targeting of individual genes with relative ease, high efficiency and specificity [@DOI:10.1126/science.1225829]. 
+When expressed in mammalian cells, the bacterially-derived Cas9 endonuclease can be guided with the help of a short guide RNA (gRNA) to a genomic location of interest, where it creates a DNA double strand break in a highly controlled manner (for a detailed discussion see [@DOI:10.1007/s00294-019-01040-3]).
+The cell's DNA double-stand break repair machinery then introduces base pair insertions or deletions (indels) via non-homologous-end-joining (NHEJ), thus causing missense, and frameshift mutations (i.e. resulting in premaure stop codons), leading to premature termination of gene expression or non-functional, aberrant gene products.
+Similarly, the concomitant provision of a complementary DNA donor template encoding a desired gene modification (i.e. insertion of a stretch of DNA or base pair modification) will trigger homology-directed repair (HDR), resulting in gene knockin or base editing [@DOI:10.1007/s00294-019-01040-3].     
+Practical considerations of CRISPR/Cas9-mediated gene knock-in and base editing will not be addressed in detail but are expertly discussed in [@DOI:10.1016/j.lfs.2022.120409; @DOI:10.1007/s11427-021-2057-0; @DOI:10.1007/s12033-022-00639-1; @DOI:10.3390/genes14010129]. 
+
+The relative ease-of-use and high efficiency of the CRISPR/Cas9 gene editing technology has rendered it the method of choice for gene manipulation in many fields of cell biology. 
+However,it should be noted that CRISPR/Cas9-mediated gene deletion is not free from off-target effects ([@DOI:10.3390/cells9071608] for advice on how to minimise these off-target effects). 
+Moreover, long-term depletion (or upregulation) of a POI itself can in some cases have dramatic systemic consequences and constitute an acute selection pressure leading to compensatory stress-induced adaptation that might obfuscate primary loss-of-function phenotypes and pose a substantial hurdle to the interpretability of biological data. 
+As these compensatory mechanisms often manifest with time, controlled, transient genetic manipulation (gene depletion or transgene expression) is advised. 
+Small interfering RNA (siRNA)-mediated knockdown by transient transfection is typically achieved at shorter time frames (24 – 96h), depending on the turnover of the POI. 
+On an even shorter time-scale, targeted, degron-based degradation systems enable depletion of a POI within minutes and further reduce off-target effects, but require the exogenous expression of a transgene and therefore some genetic manipulation. 
+A more comprehensive discussion of a selection of these systems (anchor-away, deGradFP, auxin-inducible degron (AID), dTAG technologies) and their advantages and potential pitfalls is presented in [@DOI:10.3390/biology9120421]. 
+
+Multiple eukaryotic and prokaryotic transcription-based systems have been developed that allow for the controlled biosynthesis or depletion of one or more POIs.
+Amongst these, a popular and dependable choice for mammalian cells are tetracycline-controlled operon systems, which allow up- or downregulation of a POI in the presence of the antibiotic tetracycline or its derivative doxycycline. 
+These systems rely on the insertion of a bacteria-derived Tet operon (TetO) between the promoter and coding sequence of a GOI. 
+In this configuration, the TetO binds a co-expressed Tet-repressor protein blocking transcription the of GOI. 
+When tetracycline is added to the cells, the repressor then dissociates from the operon, thus de-repressing the GOI. 
+Different variations of this potent system exist, allowing for more flexibility in experimental design. 
+For instance, in the Tet-OFF system, the Tet repressor is fused to a eukaryotic transactivator (the chimeric fusion construct is termed tTA) and addition of tetracycline, or the related doxycycline, abolishes TetO binding and thus suppresses transcriptional activation [@DOI:10.2174/1566523216666160524144041]. 
+Alternatively, a mutant form of tTA (rtTA) binds the TetO only in the presence of tetracycline, allowing for tetracycline-induced gene expression. 
+For a detailed discussion of these systems, we refer the reader to an excellent review [@DOI:10.3390/cells8080796].
+
+When generating stable expression cell lines, being able to precisely control the genomic integration site of the transgene reduces overall genetic heterogeneity in a cell population and thereby reduces potential off-target or pleiotropic effects.
+This ability is realised in the FlpIn-T-REx technology which harnesses Flp-recombinase mediated DNA recombination at a strictly defined genomic locus (the FRT site) [@DOI:10.1016/B978-0-12-418687-3.00008-2]. 
+Site-directed isogenic integration of any GOI at the FRT site, which is under a tetracycline-inducible promoter and a hygromycin resistance gene, allows for facile generation of tetracycline/doxycycline-inducible isogeneic expression cell lines with minimal leaky expression (for an example, see [@DOI:10.1007/978-1-61779-126-0_2]). 
+
+
+### Validation and interpretation of protein abundance changes
+
+To validate protein abundance changes observed by quantitative bottom-up proteomics or simply assess the success of targeted genetic manipulation as part of an orthogonal follow-up experiment (see above), the experimenter typically resorts to antibody-based techniques such as immunoblotting analysis or immunofluorescence and immunohistological imaging of POIs. 
+The latter also allows for validation of protein expression and localisation in intact tissue or cells. 
+However, these semi-quantitative methods are strongly influenced by the quality of the antibodies used and might not be sensitive enough to detect small changes in protein levels. 
+In this case, more accurate orthogonal quantitation of proteins might be achieved by stable isotope labelling (SILAC/TMT/iTRAQ) and/or SRM/PRM (see section 'Experiment Types'). 
+SDS-PAGE and immunoblot analysis are powerful and facile low-throughput tools to quickly validate protein abundance changes. 
+However, short of introducing epitope tags to the endogenous POI, the success of immunoblotting is contingent on the availability of specific antibodies, which can present a formidable problem when investigating poorly characterised proteins or working with model organisms for which the commercial availability of specific antibodies is limited (this is particularly problematic for ‘unconventional’ or even well-establishedmodel organisms such as yeast). 
+A detailed discussion of the strengths and pitfalls of immunoblotting for validation of semi-quantitative proteomics data can be found in an excellent review by Handler *et al.* [@DOI:10.1002/pmic.201800222].
+
+Protein abundance changes detected in a proteomics experiment can be the result of a range of different cellular processes. 
+The abundance of a protein in a complex sample (e.g. cell lysate or biological fluid) directly reflects a combination of the protein's intrinsic stability and the translational rate under the conditions of interest. 
+
+Both protein stability as well as gene expression activity can be quantified independently. 
+Altered protein stability might be a direct consequence of specific or global changes in protein turnover. 
+Radioisotope labelling is a well-established, accurate way to monitor protein synthesis, maturation and turnover [@DOI:10.1002/0471140864.ps3003s78; @DOI:10.1371/journal.pone.0155028]. 
+This ‘pulse-chase’ methodology relies on the incorporation (‘pulsing’) of radioisotopes (typically 35S-labelled cysteine and methionine) into de-novo synthesised proteins. 
+Upon withdrawal of the labelleled amino acids from the culture medium, the decay of signal is monitored over time (‘the chase’) by SDS-PAGE and phosphoimaging, resulting in a temporal readout of protein abundances. 
+The advantage of this technology is that a subpopulation (newly synthesised proteins) can be monitored directly, giving an accurate assessment of protein stability. 
+Once a change in protein stability has been validated, the underlying mechanisms can be addressed by inhibiting protein degradation pathways; prominently proteasome-mediated degradation (using specific proteasome inhibitors such as bortemzomib/velcade or MG132), autophagy (pharmacologically inhibiting autophagic flux) or degradation by proteases (using protease inhibitors). 
+The type of radiolabeling described above is relatively labor-intense, of low-throughput and has the obvious disadvantage of requiring radioactive material, which needs to be handled under strict safety precautions. 
+Moreover, it critically depends on the presence of one or more methionines and/or cysteines in the POIs. 
+
+It is also possible to measure protein stability within complex protein mixtures (i.e. cell lysates or biological fluids) using an array of specialized mass spectrometry techniques as discussed in [@DOI:10.1021/acs.chemrev.1c00857] and  [@DOI:10.1016/j.cbpa.2022.102225]. 
+
+For purified proteins, well-established in vitro spectrometric and calorimetric methods such as circular dichroism, differential scanning calorimetry or differential scanning fluorometry can be used, but the relatively high sample amounts might be restrictive. 
+
+Finally, gene expression changes can also be determined with high fidelity using quantitative real-time PCR (qRT-PCR) or RNA-Seq can measure changes in gene transcription or mRNA turnover (for an extensive discussion of both technologies, please see [@DOI:10.21775/cimb.016.001] and [@DOI:10.1038/nrg2484], respectively). 
+
+### Validation of protein-protein interactions
+
+The interaction of a protein with other proteins determines its function. 
+Protein-protein interactions (PPIs) can be either mostly static (i.e. core subunits of a protein complex) or dynamic, varying with cellular state (i.e. cell cycle phase or cellular stress responses, posttranslational modifications) or environmental factors (i.e. availability of nutrients, presence of extracellular ligands of cell-surface receptors). 
+Therefore, any given protein can typically bind a range of interaction partners in a spatially and temporally restricted manner, thus forming complex PPI networks (the interactome of a protein). 
+The method of choice to experimentally examine altered PPI states depends on the model system and biological question (i.e. purified proteins vs complex protein mixtures, monitoring of PPIs in live cells or cell lysate etc). 
+Popular methods for the validation of PPIs in vivo include protein fragment complementation (split protein systems), 2-hybrid assays (mammalian, yeast and bacterial), proximity ligation, proximity labelling and FRET / BRET. 
+Protein fragment complementation assays rely on the principle that the two self-associating halves of reporter proteins can be expressed in an inactive form but when in spatial proximity bind one another to complement the functional, active reporter. 
+When these split reporters are fused to two interacting proteins (so-called bait and prey proteins), the binding of bait to prey induces the spatial restriction needed to fully complement the reporter. Commonly used reporter complementation systems are split fluorescent proteins (i.e. GFP, YFP) [@DOI:10.3390/ijms20143479], ubiquitin [@DOI:10.1093/bfgp/1.3.230], luciferase [@DOI:10.1007/s00216-014-7980-8], TEV protease [@DOI:10.1016/j.jbiotec.2016.06.012], beta-lactamase [@DOI:10.1016/j.jinorgbio.2022.111986], beta-galactosidase, Gal4, or DHFR [@DOI:10.2174/1389203721666200213102829]. 
+The resulting functional readout of these complementation system depends on which split reporter is used. 
+In general, the split luciferase system shows enhanced sensitivity over fluorescence-based systems as background luminescence is low. 
+
+Two-hybrid assays are based on a similar functional complementation strategy as fragment complementation systems. 
+Conventionally, two self-complementing transcription factor fragments are fused to bait and prey proteins, respectively, leading to the restoration of a functional transcription factor only upon prey-bait interaction. 
+The complemented transcription factor then induces the expression of a reporter gene that can be measured. 
+Multiple variations of this system abound for different model organisms, but they almost always involve transcriptional activation or repression of a reporter gene ([@DOI:10.4149/gpb_2021035] for a detailed discussion). 
+
+The yeast-2-hybrid system (Y2H) is deserving of mention here as it had been the very first 2-hybrid system established [@DOI:10.1038/340245a0] and has ever since proven to be extremely versatile (multiple auxotrophic reporters and markers of phenotypic sensitivity available), cheap, lends itself to functional high-throughput screening and variants have been developed that allow for the investigation of membrane-protein interactions (i.e. membrane Y2H) [@DOI:10.3390/ijms10062763; @DOI:10.4149/gpb_2021035]. 
+
+Despite the many advantages the Y2H offers, critical drawbacks include the potential of misfolding of bait and prey proteins when fused to a complementation reporter, expression at non-physiological levels, the lack of control over posttranslational modifications that might be important for the PPI under investigation, and the potential requirement of kingdom- or species-specific folding factors for the bait/prey under investigation (i.e. when probing PPI of mammalian proteins in Y2H). 
+Principles of the Y2H technology have also been adapted to mammalian systems, which circumvent some of the aforementioned drawbacks of Y2H [@DOI:10.1016/j.drudis.2020.01.022]. 
+
+Perhaps the most commonly applied method of detecting and validating PPIs in vitro is affinity purification (AP, also known as affinity chromatography) of co-immunoprecipitation (Co-IP) either coupled with SDS-PAGE/immunoblotting or mass spectrometry to determine the identity of interacting proteins. 
+AP typically relies on the isolation of a transgenic POI by an epitope tag (using epitope-specific matrix-conjugated proteins (antibodies or epitope-binding proteins)), while Co-IP harnesses specific antibodies directly targeting the POI. 
+Specific interactors are expected to be enriched compared to the negative control (i.e an isotype control antibody, a knockout cell line or empty matrix). 
+AP is not solely restricted to detecting PPIs, but can also be adapted to protein interactions with other biomolecules such as RNA [@DOI:10.3390/ijms160922456]. 
+It should be noted that AP and Co-IP can return multiple potential binding partners, many of which might be artefactual due to loss of cellular compartmentalisation during sample preparation. 
+
+To reduce the probability of such artefacts and increase the confidence of a specific interaction, reciprocal affinity purification (by pulldown of each interaction partner) or in situ imaging might be performed (i.e. using fluorescence resonance energy transfer (FRET) [@DOI:10.1038/s41592-019-0530-8], split-protein systems [@DOI:10.1016/j.cbpa.2011.10.014], proximity ligation assay [@DOI:10.1007/s00253-020-11049-1] and immunofluorescence microscopy). 
+
+Forster and bioluminescence resonance energy transfer (FRET / BRET) can be used for in situ visualisation of protein proximities and therefore PPIs. 
+In FRET, non-radiative energy transfer between donor and receptor chromophores (each fused to prey and bait proteins, respectively), results in the emission of a characteristic fluorescence signal only when both prey and bait are in very close proximity (1-10 nm distance) and a suitable light source for donor excitation is provided [@DOI:10.3390/ijms16046718]. 
+
+The underlying principle of BRET is similar to that of FRET but with the exception of using a chemical substrate which activates bioluminescent donor, such as luciferase, resulting in energy transfer to a fluorescent acceptor molecule [@DOI:10.1038/nmeth841; @DOI:10.3390/mi13101789]. 
+The main advantages of BRET over FRET are independence from an external light source (which can result in photobleaching), but requires at least one of the POIs to be fused to the donor (while in FRET, donor and acceptor can be chemically conjugated to POI-specific antibodies) [@DOI:10.1038/nmeth841]. 
+FRET can be particularly useful in investigating cell surface protein interactions when using specific antibodies conjugated to donor and acceptor probes as antibodies are not cell-permeable and therefore restricted to targets presented on the cell surface in the absence of membrane permeabilization agents. 
+Other fluorescence-based PPI assays encompass Fluorescence correlation spectroscopy (FCS) and fluorescence cross-correlation spectroscopy (FCCS). 
+These methods use small volumes of fluorescently labelled proteins and can determine their diffusion coefficients, which change in when proteins form a complex [@DOI:10.1016/j.bpc.2019.106218]. 
+
+Proximity labelling methods (Proximity ligation and enzymatic proximity labelling (BirA, APEX2, HRP) can surveil labile or transient interaction in live cells in a high-throughput format when coupled with target identification by MS [@DOI:10.1016/j.jprot.2022.104620], [@DOI:10.1016/j.jid.2017.09.028]. 
+These approaches harness a biotin ligase (i.e. BirA, BioID2, AirID, BASU, APEX2, HRP) fused to a POI whose interactome is to be determined. In the presence of biotin (for BirA, BioID2, AirID, BASU, APEX2 and HRP) or a biotin-phenol derivative (for APEX2), the biotin ligase will activate the biotin(-phenol) which then covalently biotinylates any protein in close proximity. 
+The activated biotin has a short half-life, ensuring that the effective labelling radius is typically restricted to approximately 10 nm. 
+Biotinylated proteins are isolated by affinity purification with streptavidin-conjugated beads and identified by mass spectrometry or SDS-PAGE/immunoblotting. 
+TurboID, miniTurboID and ultraID, promiscuous biotin ligases faster than BirA, have been developed allowing for shorter treatment times and decreased background signal. 
+The choice of a biotin ligase variant depends on the POI and experimental setup, but in general HRP does not work in cytoplasmic environments where conditions are chemically reducing, but is suitable for labelling proteins extracellular face of the plasma membrane or in the endoplasmic reticulum and golgi apparatus. 
+While TurboID and similar variants have fast kinetics, they can cause depletion of endogenous biotin and therefore cytotoxicity. 
+A major drawback shared by all variants described above is that they necessitate fusion to the POI, which might alter its physiological behaviour and give rise to false positives or false negatives.
+Moreover, detecting a biotin-labelled protein does not unequivocally designate it as an interaction partner as spatial proximity to the POI-biotin ligase fusion protein without direct binding can result in biotinylation. 
+The inclusion of controls, such as expression of the biotinylating enzyme alone in the cellular compartment of interest, is therefore particularly important for enzymatic proximity labelling methods.
+
+The in situ proximity ligation assay (PLA) combines the specificity of antibodies with the signal amplification capacity of a DNA polymerase reaction. 
+Here, two antibodies, each conjugated to a short single-strand DNA (ssDNA) tag and each specific to one of the two proteins whose interaction is under investigation, are added to fixed cells or tissue. 
+Once bound to their respective targets and only when in direct proximity, the addition of two connector oligonucleotides complementary to each tag ssDNA tag and phi29 DNA polymerase, triggers isothermal rolling circle amplification, eventually resulting in the generation of continuous stretches of repetitive DNA. 
+These DNA products can then be visualised by in situ hybridisation with fluorescently labelled oligonucleotides (see [@DOI:10.1007/82_2013_334] for a detailed discussion). 
+PLA has the advantage of visualising the two interacting proteins in their native environment when high-resolution microscopy is used as a readout. 
+
+Chemical crosslinking (XL) of proteins can determine PPIs with amino-acid level resolution, and can thereby give valuable insights into the orientation of two or more proteins relative to one another [@DOI:10.1016/j.str.2022.03.003]. 
+Recent technical advances also enabled the visualisation of protein-RNA interaction [@DOI:10.1042/EBC20220177]. 
+Various XL chemistries are available (amine-reactive, sulfhydryl and photoreactive crosslinkers; reversible vs irreversible) and cross-linked proteins detected by mass spectrometry [@DOI:10.1016/j.cbpa.2020.07.008]. 
+In general, applying XL-MS to a mixture of interacting, purified proteins is preferable to in situ XL of complex protein mixtures (i.e. cell lysate) as detection and deconvolution of XL peptides is technically and computationally challenging.
+
+Surface plasmon resonance can accurately measure several key kinetics of PPIs with high accuracy (e.g. association and dissociation kinetics, stoichiometry, affinity) [@DOI:10.1016/bs.apcsb.2017.07.003]. 
+It relies on the quantification of refractive index changes of polarised light shone onto a sensor chip containing a prey protein immobilised on a metal surface (typically gold). 
+When prey and bait proteins interact, the mass concentration at the metal interface changes, altering the refractive index and SPR angle (intensity of the refracted light). 
+ 
 
 
 ## Acknowledgements {.page_break_before}
