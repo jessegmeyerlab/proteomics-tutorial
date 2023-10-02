@@ -8,14 +8,6 @@ keywords:
 lang: en-US
 authors:
 
-  - name: Trenton M. Peters-Clarke
-    initials: TMPC
-    orcid: 0000-0002-9153-2525
-    twitter: trentmpc
-    email: trentmpc@gmail.com
-    affiliations:
-     - Department of Pharmaceutical Chemistry, University of California-San Francisco
-
   - github: jymbcrc
     name: Yuming Jiang
     initials: YJ
@@ -25,35 +17,16 @@ authors:
     affiliations:
      - Department of Computational Biomedicine, Cedars Sinai Medical Center
 
-  - name: Simion Kreimer
-    initials: SK
-    orcid: 0000-0001-6627-3771
-    twitter: KreimerSimion
-    email: Simion.Kreimer@cshs.org
+  - github: dschust-r
+    name: Dina Schuster
+    initials: DS
+    orcid: 0000-0001-6611-8237
+    twitter: dina_sch
+    email: dschuster@ethz.ch
     affiliations:
-     - Smidt Heart Institute, Cedars Sinai Medical Center
-     - Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
-
-  - github: rileynm
-    name: Nicholas M. Riley
-    initials: NMR
-    orcid: 0000-0002-1536-2966
-    twitter: riley_nm1
-    email: nmriley@uw.edu
-    affiliations:
-      - Department of Chemistry, University of Washington
-    funders:
-      - Grant R00 GM147304
-
-  - github: agduboff
-    name: Anna G. Duboff
-    initials: AGD
-    orcid: 0009-0002-7316-3831
-    email: agduboff@uw.edu
-    affiliations:
-      - Department of Chemistry, University of Washington
-    funders:
-      - Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+      - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
+      - Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland
+      - Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
 
   - github: neely 
     name: Benjamin A. Neely
@@ -66,15 +39,70 @@ authors:
     funders:
       - NIST 
 
-
-  - github: vanuopadathmurali
-    name: Muralidharan Vanuopadath
-    initials: MV
-    orcid: 0000-0002-9364-917X
-    twitter: V_MuraleeDhar
-    email: muralidharanv@am.amrita.edu
+  - github: ger225
+    name: Germán L. Rosano
+    initials: GLR
+    orcid: 0000-0002-8313-6813 
+    twitter: GermanRosano
+    email: rosano@ibr-conicet.gov.ar
     affiliations:
-      - School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+      - Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+    funders:
+      - Grant PICT 2019-02971 (Agencia I+D+i)
+
+  - github: norbertvolkmar
+    name: Norbert Volkmar
+    initials: NV
+    orcid: 0000-0003-0766-5606
+    twitter: NorbertVolkmar    
+    email: norbertvolkmar22@gmail.com
+    affiliations:
+      - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
+      - DISCO Pharmaceuticals, Zurich 8093, Switzerland
+
+  - github: ArokiaRex
+    name: Devasahayam Arokia Balaya Rex
+    initials: DABR
+    orcid: 0000-0002-9556-3150
+    twitter: rexprem
+    email: rexprem@yenepoya.edu.in
+    affiliations:
+      - Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+
+  - github: lichenlady94
+    name: Susan B. Egbert
+    initials: SBE
+    orcid: 0000-0001-5458-1099
+    twitter: lichenlady94
+    email: sbegbert80@gmail.com
+    affiliations:
+      - Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+  
+  - name: Trenton M. Peters-Clarke
+    initials: TMPC
+    orcid: 0000-0002-9153-2525
+    twitter: trentmpc
+    email: trentmpc@gmail.com
+    affiliations:
+     - Department of Pharmaceutical Chemistry, University of California-San Francisco
+
+  - name: Simion Kreimer
+    initials: SK
+    orcid: 0000-0001-6627-3771
+    twitter: KreimerSimion
+    email: Simion.Kreimer@cshs.org
+    affiliations:
+     - Smidt Heart Institute, Cedars Sinai Medical Center
+     - Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center
+
+  - github: edoud1
+    name: Emma H. Doud
+    initials: EHD
+    orcid: 0000-0003-0049-0073 
+    twitter: fireinlab
+    email: edoud@iu.edu
+    affiliations:
+      - Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
       
   - github: ococrook
     name: Oliver M. Crook
@@ -84,20 +112,7 @@ authors:
     email: Oliver.Crook@stats.ox.ac.uk
     affiliations:
       - Oxford Protein Informatics Group, Department of Statistics, University of Oxford, Oxford OX1 3LB, United Kingdom
-      
-      
-  - github: dschust-r
-    name: Dina Schuster
-    initials: DS
-    orcid: 0000-0001-6611-8237
-    twitter: dina_sch
-    email: dschuster@ethz.ch
-    affiliations:
-      - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
-      - Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland
-      - Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen 5232, Switzerland
 
-  
   - github: aky
     name: Amit Kumar Yadav
     initials: AKY
@@ -109,17 +124,16 @@ authors:
     funders:
       - Grant BT/PR16456/BID/7/624/2016 (Department of Biotechnology, India)
       - Grant Translational Research Program (TRP) at THSTI funded by DBT
- 
 
-  - github: ArokiaRex
-    name: Devasahayam Arokia Balaya Rex
-    initials: DABR
-    orcid: 0000-0002-9556-3150
-    twitter: rexprem
-    email: rexprem@yenepoya.edu.in
+  - github: vanuopadathmurali
+    name: Muralidharan Vanuopadath
+    initials: MV
+    orcid: 0000-0002-9364-917X
+    twitter: V_MuraleeDhar
+    email: muralidharanv@am.amrita.edu
     affiliations:
-      - Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
-      
+      - School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+         
   - github: martinmayta
     name: Martín L. Mayta
     initials: MLM
@@ -130,46 +144,27 @@ authors:
       - School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina
       - Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
      
-
-  - github: edoud1
-    name: Emma H. Doud
-    initials: EHD
-    orcid: 0000-0003-0049-0073 
-    twitter: fireinlab
-    email: edoud@iu.edu
+  - github: agduboff
+    name: Anna G. Duboff
+    initials: AGD
+    orcid: 0009-0002-7316-3831
+    email: agduboff@uw.edu
     affiliations:
-      - Center for Proteome Analysis, Indiana University School of Medicine, Indianapolis, Indiana, USA
-      
-  - github: ger225
-    name: Germán L. Rosano
-    initials: GLR
-    orcid: 0000-0002-8313-6813 
-    twitter: GermanRosano
-    email: rosano@ibr-conicet.gov.ar
-    affiliations:
-      - Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
+      - Department of Chemistry, University of Washington
     funders:
-      - Grant PICT 2019-02971 (Agencia I+D+i)
-      
-  - github: lichenlady94
-    name: Susan B. Egbert
-    initials: SBE
-    orcid: 0000-0001-5458-1099
-    twitter: lichenlady94
-    email: sbegbert80@gmail.com
+      - Summer Research Acceleration Fellowship, Department of Chemistry, University of Washington
+  
+  - github: rileynm
+    name: Nicholas M. Riley
+    initials: NMR
+    orcid: 0000-0002-1536-2966
+    twitter: riley_nm1
+    email: nmriley@uw.edu
     affiliations:
-      - Department of Chemistry, University of Manitoba, Winnipeg, Cananda
+      - Department of Chemistry, University of Washington
+    funders:
+      - Grant R00 GM147304
 
-  - github: norbertvolkmar
-    name: Norbert Volkmar
-    initials: NV
-    orcid: 0000-0003-0766-5606
-    twitter: NorbertVolkmar    
-    email: norbertvolkmar22@gmail.com
-    affiliations:
-      - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
-      - DISCO Pharmaceuticals, Zurich 8093, Switzerland
-      
   - github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
@@ -186,4 +181,4 @@ authors:
       lastapproved:  !!str 2022-01-16
 
 # use this to randomize authors
-manubot-randomize-author-order: true
+manubot-randomize-author-order: false
