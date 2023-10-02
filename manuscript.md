@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T19:19:46+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T19:19:46+00:00" />
+  <meta name="dc.modified" content="2023-10-02T19:26:51+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T19:26:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/775ec854a1c514788f1ef488483ea6966e1bd223/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/775ec854a1c514788f1ef488483ea6966e1bd223/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/775ec854a1c514788f1ef488483ea6966e1bd223/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd6e8c7985569aa504f0feaeeb811621fe2f5933/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd6e8c7985569aa504f0feaeeb811621fe2f5933/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd6e8c7985569aa504f0feaeeb811621fe2f5933/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/775ec854a1c514788f1ef488483ea6966e1bd223/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/fd6e8c7985569aa504f0feaeeb811621fe2f5933/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@775ec85](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/775ec854a1c514788f1ef488483ea6966e1bd223)
+from [jessegmeyerlab/proteomics-tutorial@fd6e8c7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/fd6e8c7985569aa504f0feaeeb811621fe2f5933)
 on October 2, 2023.
 </em></small>
 
@@ -1409,159 +1409,6 @@ Typical bottom-up proteomics experiments make use of acidic analyte solutions wh
 
 
 
-## Data Acquisition {.page_break_before}
-
-<!-- Figures:
-1. show a plot of the polularity of MRM/DIA/DDA/ over time? 
--->
-
-Hybrid mass spectrometers used for modern proteome analysis offer the flexibility to collect data in many different ways. 
-Data acquisition strategies differ in the sequence of precursor scans and fragment ion scans, and in how analytes are chosen for MS/MS. 
-Constant innovation to develop better data collection methods improves our view of the proteome, but many method options may confuse newcomers. 
-This section provides an overview of the general classes of data collection methods. 
-
-Data acquisition strategies for proteomics fall into one of two groups.
-
-1. Data dependent acquisition (DDA), in which the exact scan sequence in each analysis depends on the data that the mass spectrometer observes.
-2. Data independent acquisition (DIA), in which the exact scan sequence in each analysis DOES NOT depend on the data; the collected scans are the same whether you inject yeast peptides, human peptides, or a solvent blank.  
-
-DDA and DIA can both be futher subdivided in to targeted and untargeted methods. 
-
-<!-- to do: figure showing the four basic types of data acquisition and their names, like four squares? -->
-
-### DDA
-
-In most cases, the peptide masses that will be observed are not known before doing the experiment. 
-Data collection methods must account for this.
-DDA was invented in the early 1990s, which enabled collecting MS/MS spectra for observed peptides as they eluting from the LC column [@DOI:10.1006/meth.1994.1031; @DOI:10.1021/ac00104a020; @PMID:24203425]. 
-
-#### Untargeted DDA
-A common method currently used in modern proteomics is untargeted DDA. 
-The MS collects precursor (MS1) scans iteratively until precursor mass envelopes meeting certain criteria are detected. 
-Criteria for selection are usually specific charge states and a minimum signal intensity.
-When those ions meet these criteria, the MS selects those masses for fragmentation.
-
-Because ions are selected as they are observed, repeated DDA of the same sample will produce a different set of identifications. 
-This stochasticity is the main drawback of DDA. 
-To ameliorate this issue, often strategies are used to transfer identifications between multiple sample analyses. 
-This transfer of IDs across runs is known as "match between runs", which was originally made famous by the processing software MaxQaunt [@DOI:10.1074/mcp.M113.031591; @DOI:10.1038/nprot.2016.136]. 
-There are several other similar tools and strategies, including the accurate mass and time approach [@DOI:10.1002/mas.20071], Q-MEND [@DOI:10.1021/pr0606880], IDEAL-Q [@DOI:10.1074/mcp.M900177-MCP200] and superHIRN [@DOI:10.1002/pmic.200700057].
-More recent work has introducted statistical assessment of MBR methods using a two-proteome model [@DOI:10.1021/acs.jproteome.9b00492].
-Statistically controlled MBR is currently available in the IonQuant tool [@DOI:10.1016/j.mcpro.2021.100077].
-
-Because DDA is required for quantification of proteins using isobaric tags like TMT, this stochasiticity of DDA limits the ability to compare quantities across batches. 
-For example, if you have 30 samples, you can use two sets of the 16-plex kit to label 15 samples in each set with one channel labeled by a pooled sample to enable comparison across the groups.
-When you collect DDA data from each of those sets, each set will have MS/MS data from an overlapping but different set of peptides. 
-If one set has MS/MS from a peptide but the other set does not, then that peptide cannot be quantified in the whole sample group. 
-This limits the number of quantified proteins in large TMT experiments with multiple batches. 
-<!-- mention intelligent DDA and real time search? -->
-
-#### Targeted DDA
-Targeted DDA is not common in modern proteomics. 
-In targeted DDA, in addition to general criteria like a minimum intensity and a certain charge state, the mass spectrometer looks for specific masses.
-These masses might be previously observed signals that were previously missed by MS/MS [@DOI:10.1021/pr800828p; @DOI:10.1074/mcp.M700029-MCP200].
-In these studies, the sample is first analyzed by LC-MS to detect precursor ion features with some software, and then subsequent analyses target those masses for fragmentation with inclusion lists until they are all fragmeted. 
-This was shown to increase proteome converage. 
-
-#### DDA methods for modifications
-Resonant CID [@DOI:10.1074/mcp.m111.009910] and beam-type HCD [@DOI:10.1021/pr100637q] are the most popular methods for unmodified and modified peptides due to their speed, accessibility, and efficiency. 
-Due to the weak phosphoester bond relative to the peptide backbone, resonant CID usually produces spectra that are dominated by only the neutral loss of the phosphate. 
-For this reason, the optimal dissociation methods for phosphopeptide identification and phosphosite localization include HCD or ExD-based methods, discussed later in more depth [@DOI:10.1021/acs.analchem.7b00212; @DOI:10.1021/pr301130k]. 
-ExD methods generate phosphopeptide MS/MS spectra with many c- and z•-type fragment ions for peptide sequencing and localization of labile phosphate modifications, typically disrupted with CID [@DOI:10.1073/pnas.0402700101]. 
-Gas-phase phosphate rearrangement induced by collisional activation represents a glaring challenge for the field and several have explored site localization in the face of rearrangement [@DOI:10.1021/ac801768s; @DOI:10.1002/pmic.201200384; @DOI:10.1074/mcp.m900619-mcp200].
-
-Advanced data acquisition schemes trigger predetermined MS/MS events when a specific fragment ion or neutral loss is detected in a spectrum. 
-Certain decision-tree strategies have arisen to increase data acquisition efficiency, including pseudo-MS3 scans which are triggered on detection of phosphate losses [@DOI:10.1021/ac0497104] and the use of site-specific x-type ions [@DOI:10.1021/pr200154t]. 
-For example, when linear ion traps were the main proteomics workhorses, resonant CID analysis of phosphopeptides would result in predominantly neutral loss of the phosphate with limited sequence ion information. 
-To gain sequence ions in these experiments, instruments could be set to isolate a loss of 98 Thompsons for MS3 activation [@DOI:10.1073/pnas.0404720101; @DOI:10.1002/pmic.200800283].
-The newer collisional dissociation technique HCD, or beam-type collisional activation, significantly improves the detection of peptide fragments with the phosphorylation intact on fragment ions, and thus, this neutral loss scanning technique is no longer common. 
-
-Recently developed approaches to phosphopeptide identification include DIA-based phosphoproteomics with Spectronaut [@DOI:10.1126/scisignal.aaa3139; @DOI:10.1007/978-1-0716-1641-3_6], “plug-and-play” high-resolution MS [@DOI:10.1038/nmeth.3811], SureQuant for phosphotyrosine [@DOI:10.1158/0008-5472.can-20-3804], PIQED for direct identification and quantification of phosphorylation from DIA without a prior spectral library [@DOI:10.1038/nmeth.4334], and FAIMS front-end separations which yield 15-20% more phosphosite identifications than non-FAIMS experiments [@DOI:10.1021/acs.analchem.8b02233]. 
-For quantification of phosphoproteins, Hogrebe et al. investigated several of the most common strategies and concluded that TMT-based MS2 strategies may be the current best approach [@DOI:10.1038/s41467-018-03309-6]. 
-
-Additionally, while less commonly modified than serine and threonine, histidine [@DOI:10.1038/nmeth.4580; @DOI:10.1021/ac0707838; @DOI:10.1038/s41592-022-01524-0], arginine [@DOI:10.1002/pmic.201200240], and tyrosine [@DOI:10.1073/pnas.2436191100; @DOI:10.1158/0008-5472.can-20-3804; @DOI:10.1016/j.cell.2006.09.026] phosphorylation also represent intriguing cell signaling biology. 
-Going forward, we expect that faster instruments will enable investigations of high phosphoproteomic depth and reproducibility in rapid timeframes, such that many proteomes can be analyzed for temporal and spatial insight.
-
-A similar product-dependent MS/MS triggering strategy was introduced for N-linked glycopeptides [@DOI:10.1021/pr300257c]. 
-Collisional dissociation of glycosylated peptides produces oxonium ions, for example at m/z 204.09 (HexNAc) or m/z 366.14 (HexHexNAc). 
-If oxonium ions from the fragmented glycan are detected among the most abundant fragment ions of the HCD spectra, then an ETD scan is triggered. 
-This ETD scan provides information about the peptide sequence, while the original HCD scan provides glycan structure information. 
-
-### DIA
-The simplest method to operate a mass spectrometer is to have predefined scans that are collected for each sample analysis.
-This is data-independent acquisition (DIA); the scans that are collected do not depend on the data that the instrument observes. 
-Thus, the scan sequence is repetitive, looping through binned windows of predetermined width, and/or a predetermined m/z range. 
-Although simple in terms of data collection, when the scan sequence includes MS/MS, sophisticated software is required to analyze the data. 
-Like DDA, DIA can also be either targeted or untargeted [@DOI:10.1080/14789450.2017.1322904]:
-The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or SWATH (Figure 4).
-
-![**Types of DIA.**
-A) SRM/MRM. 
-Peptides are ionized by ESI and although there are many peptides entering the mass spectrometer at any time, the first quadruople (Q1) isolates one mass, which is then fragmented by HCD. 
-Fragment masses from the peptide are then selected in the third quadruople (Q3). 
-This leads to very low noise and high sensitivity.
-B) PRM. 
-Like MRM, peptides are selected in the first quadruople, but this analysis is done on a high resolution instrument like an Orbitrap or TOF. 
-Selectivity is gained by exploiting the high mass accuracy and resolution to monitor multiple fragment ions. 
-C) uDIA/SWATH. 
-Like MRM and PRM, peptides are isolated with Q1, but in this case a much wider isolation window is used. 
-This usually results in co-isolation of many peptides simultaneously. 
-Fragments from many peptides are measured with high resolution and high mass accuracy.
-Special software is used to get peptide identities and quantities from the fragment ions. 
-](images/data-acquisition-DIA-types.svg){#fig:DIA-types tag="4" width="100%"}
-
-#### Targeted DIA
-The first type of targeted DIA is called SRM or MRM [@DOI:10.1016/j.ymeth.2013.05.004].
-The popularity of this method in the literature peaked in 2014, with just under 1,500 documents on pubmed that year resulting from a search for "MRM".
-In this strategy, the QQQ MS is set so that the first quadrupole selects the precursor mass of the peptide(s) of interest, the second quadrupole fragments the peptide, and the third quadruople monitors the product of specific fragments from that peptide. 
-This strategy is very sensitive and has the benefit of very low noise. 
-The fragments monitored in Q3 are chosen such that it is unlikely these fragments could arise from another peptide. 
-Usually at least a few transitions are monitored for each peptide in order to get multiple measures for that peptide. 
-
-An early example of MRM applied to quantify c-reactive protein was in 2004 [@DOI:10.1002/pmic.200300670].
-Around the same time, SRM was combined with antibody enrichment of peptides from target proteins [@DOI:10.1021/pr034086h].
-This approach was popular for analysis of plasma proteins [@DOI:10.1074/mcp.M500331-MCP200].
-These early examples led to many more studies that used QQQ MS instruments to get accurate quantitation of many proteins in one injection [@DOI:10.1016/j.aca.2017.01.059; @DOI:10.1586/erm.12.32]. 
-Scheduling MRM measurement when chromatography is stable additionally enabled better utilization of instrument duty cycle and therefore monitoring of more peptides per injection [@DOI:10.1074/mcp.M700132-MCP200].
-Efforts even developed libraries of transitions that allow quantification of any protein in model organisms [@DOI:10.1038/nmeth1108-913].
-
-Another similar targeted DIA method is called parallel reaction monitoring (PRM) [@DOI:10.1074/mcp.O112.020131].
-Instead of using a QQQ instrument, PRM uses a hybrid MS with a quadrupole and a high resolution mass analyzer, such as an Q-TOF or Q-Exactive. 
-The idea is that instead of monitoring specific fragments in Q3, the high mass accuracy can be used to filter peptide fragments for high selectivity and accurate quantification. 
-Studies have found that PRM and MRM/SRM have comparable dynamic range and linearity [@DOI:10.1016/j.jprot.2014.10.017].
-
-
-#### Untargeted DIA
-
-There were many implementations of uDIA over the years, starting in 2003 by Purvine et al from the Goodlett lab [@DOI:10.1002/pmic.200300362]. 
-In this first work they demonstrated uDIA using a Q-TOF with in source fragmentation, and showed that extracted ion chromatograms of precursor and fragment ions matched in shape suggesting that this could be used to identify and quantify peptides. 
-The following year, Venable et al from the Yates lab introduced uDIA with an ion trap [@DOI:10.1038/nmeth705].
-Subsequent methods include MSE [@DOI:10.1002/rcm.2550], PAcIFIC [@DOI:10.1021/ac900888s], all ions fragmentation (AIF) [@DOI:10.1074/mcp.M110.001537].
-Computational methods were also developed to automate interpretation of this data, such as DeMux [@DOI:10.1074/mcp.M110.001537], XDIA [@DOI:10.1093/bioinformatics/btq031], and ETISEQ [@DOI:10.1186/1471-2105-10-244].
-
-The paper that is often cited for uDIA that led to widespread adoption was by Gillet et al. from the Aebersold group in 2012 [@DOI:10.1074/mcp.O111.016717].
-In this paper they branded the idea as SWATH.
-Widespread adoption may have been facilitated by the co-marketing of this idea by ABSciex as a proteomics solution on their new 5600 Q-TOF (called "tripleTOF" despite containing only one TOF, likely a portmanteau of "triple quadrupole" and "Q-TOF"). 
-Importantly, in the Gillet et al. paper the authors described a computational method to extract information from SWATH where peptides of interest were queried against the data.
-They also demonstrated the application of SWATH to measure proteomic changes that happen in diauxic shift, and showed that SWATH can reveal modified peptides, in this case a methionine oxidation. 
-
-There are also many papers describing uDIA with orbitraps.
-One early example described combining random isolation windows together and then demultiplexing the chimeric spectra [@DOI:10.1038/nmeth.2528].
-In another landmark paper, over 6,000 proteins were identified from mouse tissue by at least 2 peptides [@DOI:10.1074/mcp.RA117.000314]. 
-In 2018, the new model orbitrap at that time (HF-X) enabled identification of nearly 6,000 human proteins in only 30 minutes. 
-Currently orbitraps have all but replaced the Sciex Q-TOFs for DIA data collection. 
-
-A new direction in uDIA is the addition of ion separation by ion mobility. 
-This has appeared in two forms.
-On the timsTOF, diaPASEF makes use of the trapped ion mobility to increase speed and sensitivity of analysis [@DOI:10.1038/s41592-020-00998-0].
-On the orbitrap, the combination of FAIMS and DIA has enabled the identification of over 10,000 proteins from one sample, which is a major milestone [@DOI:10.1021/acs.jproteome.2c00023].
-
-
-
-
-
-
-
 ## Types of Mass Spectrometers used for Proteomics {.page_break_before}
 ### Mass spectrometry
 Mass spectrometry is a science of ions; it serves as a sophisticated instrument for determining the masses of compounds and elements. 
@@ -2018,190 +1865,155 @@ That said, 213 nm photons tend to provide more directed, preferential cleavage p
 Outside of ExD and photoactivation approaches, other alternative dissociation methods have been explored for various proteomic applications, although they are not as widely adopted at ExD and UVPD methods[@DOI:10.1021/acs.analchem.9b04859].
 
 
-## Analysis of Raw Data {.page_break_before}
+## Data Acquisition {.page_break_before}
 
-The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis. 
-This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
+<!-- Figures:
+1. show a plot of the polularity of MRM/DIA/DDA/ over time? 
+-->
 
-In typical bottom-up proteomics experiments, proteins are digested into peptides and further analyzed with LC-MS/MS systems. 
-Peptides can have different PTMs and ionize differently depending on their length and amino acid distributions. 
-Therefore, mass spectrometers often record different charge and modification states of one single peptide. 
-The entity that is recorded on a mass spectrometer is usually referred to as a precursor ion (peptide with its modification and charge state). 
-This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching. 
-The quantity of a precursor is estimated with various methods.
-The measured precursor quantities are combined to generate a peptide quantity. 
-Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification [@PMID:16009968; @DOI:10.1016/j.jprot.2016.08.002].
-Protein inference is still a challenge in bottom-up proteomics. 
+Hybrid mass spectrometers used for modern proteome analysis offer the flexibility to collect data in many different ways. 
+Data acquisition strategies differ in the sequence of precursor scans and fragment ion scans, and in how analytes are chosen for MS/MS. 
+Constant innovation to develop better data collection methods improves our view of the proteome, but many method options may confuse newcomers. 
+This section provides an overview of the general classes of data collection methods. 
 
-Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
-The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:
+Data acquisition strategies for proteomics fall into one of two groups.
 
-#### DDA freeware 
+1. Data dependent acquisition (DDA), in which the exact scan sequence in each analysis depends on the data that the mass spectrometer observes.
+2. Data independent acquisition (DIA), in which the exact scan sequence in each analysis DOES NOT depend on the data; the collected scans are the same whether you inject yeast peptides, human peptides, or a solvent blank.  
 
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| MaxQuant |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|[MaxQuant](https://www.maxquant.org/)    |
-| MSFragger|   Kong et al., 2017[@DOI:10.1038/nmeth.4256]    |    [MSFragger](https://msfragger.nesvilab.org/) |
-| Mascot   |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
-| MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
-| X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198;@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
+DDA and DIA can both be futher subdivided in to targeted and untargeted methods. 
 
+<!-- to do: figure showing the four basic types of data acquisition and their names, like four squares? -->
 
-#### DIA freeware:
+### DDA
 
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| MaxDIA |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|        [MaxQuant](https://www.maxquant.org/)    |
-| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
-| DIA-NN|Demichev et al., 2019[@DOI:10.1038/s41592-019-0638-x]  |    [DIA-NN](https://github.com/vdemichev/DiaNN)     |
+In most cases, the peptide masses that will be observed are not known before doing the experiment. 
+Data collection methods must account for this.
+DDA was invented in the early 1990s, which enabled collecting MS/MS spectra for observed peptides as they eluting from the LC column [@DOI:10.1006/meth.1994.1031; @DOI:10.1021/ac00104a020; @PMID:24203425]. 
 
+#### Untargeted DDA
+A common method currently used in modern proteomics is untargeted DDA. 
+The MS collects precursor (MS1) scans iteratively until precursor mass envelopes meeting certain criteria are detected. 
+Criteria for selection are usually specific charge states and a minimum signal intensity.
+When those ions meet these criteria, the MS selects those masses for fragmentation.
 
-#### Targeted proteomics freeware:
+Because ions are selected as they are observed, repeated DDA of the same sample will produce a different set of identifications. 
+This stochasticity is the main drawback of DDA. 
+To ameliorate this issue, often strategies are used to transfer identifications between multiple sample analyses. 
+This transfer of IDs across runs is known as "match between runs", which was originally made famous by the processing software MaxQaunt [@DOI:10.1074/mcp.M113.031591; @DOI:10.1038/nprot.2016.136]. 
+There are several other similar tools and strategies, including the accurate mass and time approach [@DOI:10.1002/mas.20071], Q-MEND [@DOI:10.1021/pr0606880], IDEAL-Q [@DOI:10.1074/mcp.M900177-MCP200] and superHIRN [@DOI:10.1002/pmic.200700057].
+More recent work has introducted statistical assessment of MBR methods using a two-proteome model [@DOI:10.1021/acs.jproteome.9b00492].
+Statistically controlled MBR is currently available in the IonQuant tool [@DOI:10.1016/j.mcpro.2021.100077].
 
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
+Because DDA is required for quantification of proteins using isobaric tags like TMT, this stochasiticity of DDA limits the ability to compare quantities across batches. 
+For example, if you have 30 samples, you can use two sets of the 16-plex kit to label 15 samples in each set with one channel labeled by a pooled sample to enable comparison across the groups.
+When you collect DDA data from each of those sets, each set will have MS/MS data from an overlapping but different set of peptides. 
+If one set has MS/MS from a peptide but the other set does not, then that peptide cannot be quantified in the whole sample group. 
+This limits the number of quantified proteins in large TMT experiments with multiple batches. 
+<!-- mention intelligent DDA and real time search? -->
 
+#### Targeted DDA
+Targeted DDA is not common in modern proteomics. 
+In targeted DDA, in addition to general criteria like a minimum intensity and a certain charge state, the mass spectrometer looks for specific masses.
+These masses might be previously observed signals that were previously missed by MS/MS [@DOI:10.1021/pr800828p; @DOI:10.1074/mcp.M700029-MCP200].
+In these studies, the sample is first analyzed by LC-MS to detect precursor ion features with some software, and then subsequent analyses target those masses for fragmentation with inclusion lists until they are all fragmeted. 
+This was shown to increase proteome converage. 
 
-#### DDA non-freeware:
+#### DDA methods for modifications
+Resonant CID [@DOI:10.1074/mcp.m111.009910] and beam-type HCD [@DOI:10.1021/pr100637q] are the most popular methods for unmodified and modified peptides due to their speed, accessibility, and efficiency. 
+Due to the weak phosphoester bond relative to the peptide backbone, resonant CID usually produces spectra that are dominated by only the neutral loss of the phosphate. 
+For this reason, the optimal dissociation methods for phosphopeptide identification and phosphosite localization include HCD or ExD-based methods, discussed later in more depth [@DOI:10.1021/acs.analchem.7b00212; @DOI:10.1021/pr301130k]. 
+ExD methods generate phosphopeptide MS/MS spectra with many c- and z•-type fragment ions for peptide sequencing and localization of labile phosphate modifications, typically disrupted with CID [@DOI:10.1073/pnas.0402700101]. 
+Gas-phase phosphate rearrangement induced by collisional activation represents a glaring challenge for the field and several have explored site localization in the face of rearrangement [@DOI:10.1021/ac801768s; @DOI:10.1002/pmic.201200384; @DOI:10.1074/mcp.m900619-mcp200].
 
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| ProteomeDiscoverer ||[ProteomeDiscoverer](https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html)|
-| Mascot             |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
-| Spectromine   |           |    [Spectromine](ttps://biognosys.com/software/spectromine/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB)     |
-| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+Advanced data acquisition schemes trigger predetermined MS/MS events when a specific fragment ion or neutral loss is detected in a spectrum. 
+Certain decision-tree strategies have arisen to increase data acquisition efficiency, including pseudo-MS3 scans which are triggered on detection of phosphate losses [@DOI:10.1021/ac0497104] and the use of site-specific x-type ions [@DOI:10.1021/pr200154t]. 
+For example, when linear ion traps were the main proteomics workhorses, resonant CID analysis of phosphopeptides would result in predominantly neutral loss of the phosphate with limited sequence ion information. 
+To gain sequence ions in these experiments, instruments could be set to isolate a loss of 98 Thompsons for MS3 activation [@DOI:10.1073/pnas.0404720101; @DOI:10.1002/pmic.200800283].
+The newer collisional dissociation technique HCD, or beam-type collisional activation, significantly improves the detection of peptide fragments with the phosphorylation intact on fragment ions, and thus, this neutral loss scanning technique is no longer common. 
 
+Recently developed approaches to phosphopeptide identification include DIA-based phosphoproteomics with Spectronaut [@DOI:10.1126/scisignal.aaa3139; @DOI:10.1007/978-1-0716-1641-3_6], “plug-and-play” high-resolution MS [@DOI:10.1038/nmeth.3811], SureQuant for phosphotyrosine [@DOI:10.1158/0008-5472.can-20-3804], PIQED for direct identification and quantification of phosphorylation from DIA without a prior spectral library [@DOI:10.1038/nmeth.4334], and FAIMS front-end separations which yield 15-20% more phosphosite identifications than non-FAIMS experiments [@DOI:10.1021/acs.analchem.8b02233]. 
+For quantification of phosphoproteins, Hogrebe et al. investigated several of the most common strategies and concluded that TMT-based MS2 strategies may be the current best approach [@DOI:10.1038/s41467-018-03309-6]. 
 
-#### DIA non-freeware:
+Additionally, while less commonly modified than serine and threonine, histidine [@DOI:10.1038/nmeth.4580; @DOI:10.1021/ac0707838; @DOI:10.1038/s41592-022-01524-0], arginine [@DOI:10.1002/pmic.201200240], and tyrosine [@DOI:10.1073/pnas.2436191100; @DOI:10.1158/0008-5472.can-20-3804; @DOI:10.1016/j.cell.2006.09.026] phosphorylation also represent intriguing cell signaling biology. 
+Going forward, we expect that faster instruments will enable investigations of high phosphoproteomic depth and reproducibility in rapid timeframes, such that many proteomes can be analyzed for temporal and spatial insight.
 
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| Spectronaut |Bruderer et al., 2015[@DOI:10.1074/mcp.M114.044305]|[Spectronaut](https://biognosys.com/software/spectronaut/)|
-| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+A similar product-dependent MS/MS triggering strategy was introduced for N-linked glycopeptides [@DOI:10.1021/pr300257c]. 
+Collisional dissociation of glycosylated peptides produces oxonium ions, for example at m/z 204.09 (HexNAc) or m/z 366.14 (HexHexNAc). 
+If oxonium ions from the fragmented glycan are detected among the most abundant fragment ions of the HCD spectra, then an ETD scan is triggered. 
+This ETD scan provides information about the peptide sequence, while the original HCD scan provides glycan structure information. 
 
+### DIA
+The simplest method to operate a mass spectrometer is to have predefined scans that are collected for each sample analysis.
+This is data-independent acquisition (DIA); the scans that are collected do not depend on the data that the instrument observes. 
+Thus, the scan sequence is repetitive, looping through binned windows of predetermined width, and/or a predetermined m/z range. 
+Although simple in terms of data collection, when the scan sequence includes MS/MS, sophisticated software is required to analyze the data. 
+Like DDA, DIA can also be either targeted or untargeted [@DOI:10.1080/14789450.2017.1322904]:
+The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or SWATH (**Figure 14**).
 
-#### Data Summary and Interpretation
-|    Name    |            Publication     |                 Website              |
-|:----------:|:--------------------------:|:------------------------------------:|
-|Peptide Shaker|Vaudel _et al._, 2015[@DOI:10.1038/nbt.3109;@DOI:10.1021/acs.jproteome.1c00678]|[PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html), [Peptide Shaker Online](https://github.com/barsnes-group/peptide-shaker-online)|
+![**Types of DIA.**
+A) SRM/MRM. 
+Peptides are ionized by ESI and although there are many peptides entering the mass spectrometer at any time, the first quadruople (Q1) isolates one mass, which is then fragmented by HCD. 
+Fragment masses from the peptide are then selected in the third quadruople (Q3). 
+This leads to very low noise and high sensitivity.
+B) PRM. 
+Like MRM, peptides are selected in the first quadruople, but this analysis is done on a high resolution instrument like an Orbitrap or TOF. 
+Selectivity is gained by exploiting the high mass accuracy and resolution to monitor multiple fragment ions. 
+C) uDIA/SWATH. 
+Like MRM and PRM, peptides are isolated with Q1, but in this case a much wider isolation window is used. 
+This usually results in co-isolation of many peptides simultaneously. 
+Fragments from many peptides are measured with high resolution and high mass accuracy.
+Special software is used to get peptide identities and quantities from the fragment ions. 
+](images/data-acquisition-DIA-types.svg){#fig:DIA-types tag="14" width="100%"}
 
+#### Targeted DIA
+The first type of targeted DIA is called SRM or MRM [@DOI:10.1016/j.ymeth.2013.05.004].
+The popularity of this method in the literature peaked in 2014, with just under 1,500 documents on pubmed that year resulting from a search for "MRM".
+In this strategy, the QQQ MS is set so that the first quadrupole selects the precursor mass of the peptide(s) of interest, the second quadrupole fragments the peptide, and the third quadruople monitors the product of specific fragments from that peptide. 
+This strategy is very sensitive and has the benefit of very low noise. 
+The fragments monitored in Q3 are chosen such that it is unlikely these fragments could arise from another peptide. 
+Usually at least a few transitions are monitored for each peptide in order to get multiple measures for that peptide. 
 
-### Analysis of DDA data
-DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, Sequest (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, MaxQuant, MSGF+, X!Tandem, Morpheus, MSFragger, and OMSSA. 
-Tables 1 and 4 give weblinks and citations for these software tools.
-<!-- todo: need to make sure all these are listed in the table and cited -->
-<!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
-For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
-The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
-All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
-The search algorithm scores each query spectrum against its possible peptide matches [@DOI:10.1002/mas.21543]. 
-A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
-The scores reflect a _goodness-of-fit_ between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.
+An early example of MRM applied to quantify c-reactive protein was in 2004 [@DOI:10.1002/pmic.200300670].
+Around the same time, SRM was combined with antibody enrichment of peptides from target proteins [@DOI:10.1021/pr034086h].
+This approach was popular for analysis of plasma proteins [@DOI:10.1074/mcp.M500331-MCP200].
+These early examples led to many more studies that used QQQ MS instruments to get accurate quantitation of many proteins in one injection [@DOI:10.1016/j.aca.2017.01.059; @DOI:10.1586/erm.12.32]. 
+Scheduling MRM measurement when chromatography is stable additionally enabled better utilization of instrument duty cycle and therefore monitoring of more peptides per injection [@DOI:10.1074/mcp.M700132-MCP200].
+Efforts even developed libraries of transitions that allow quantification of any protein in model organisms [@DOI:10.1038/nmeth1108-913].
 
-For evaluating the matches, a decoy database is preferred as a null model for peptide matching.
-A randomized or reversed version of target database is used as a nonparametric null model.
-The decoy database can be searched separate from the target database (Kall's method)[@DOI:10.1021/pr700600n] or it can be combined with the target database before search (Elias and Gygi method)[@PMID:17327847].
-Using either separate method or concatenated database search method, an estimate of false hits can be calculated which is used to estimate the false discovery rate (FDR) [@DOI:10.1007/978-1-4939-3106-4_7]. 
-The FDR denotes the proportion of false hits in the population accepted as true.
-For Kall's method: the false hits are estimated to be the number of decoys above a given threshold. 
-It is assumed that the number of decoy hits that pass a threshold are the false hits. 
-A similar number of target population may also be false. 
-Therefore, the FDR is calculated as [@DOI:10.1021/acs.jproteome.6b00144]:
-
-$$FDR = \frac{Decoy PSMs + 1}{Target PSMs}$$
-
-For Elias and Gygi Method, the target population in which FDR is estimated changes.
-The target and decoy hits coming from a joint database compete against each other.
-For any spectrum, either a target or a decoy peptide can be the best hit.
-It is argued that the joint target-decoy population has decoy hits as confirmed false hits.
-However, due to the joint database search, the target database may also have equal number of false hits. 
-Thus, the number of false hits is multiplied by two for FDR estimation.
-
-$$FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}$$
-
-
-### Strategies for analysis of DIA data
-
-### Targeted proteomics data analysis
-
-### Quality control
-
-Quality control should be a central aspect of any mass spectrometry-based study to ensure reproducibility of generated results.
-There are two types of quality controls that can be conducted for any kind of mass spectrometry experiment.
-The first one is focused on monitoring the perfomance of the instruments themselves (e.g. HPLC and mass spectrometer), whereas the second one is focused on your experiments. 
-For further reading, we recommend to take a look at issue 11 on quality control published in the journal _Proteomics_ in 2011 [@DOI:10.1002/pmic.201190020], especially the review by Köcher _et al._ [@DOI:10.1002/pmic.201000578], as well as the review published by Bittremieux _et al._ in 2017 [@DOI:10.1002/mas.21544].
-
-#### Instrument Performance
-
-It is generally advisable to monitor instrument performance regularly. 
-Instrument calibrations in regular intervals help ensure that performance is maintained.
-Often basic calibration and sensitivity can be checked by direct infusion of a standard.
-During the calibration you can check injection times (for ion trap instruments) and intensity of the ions in the calibration mix.
-
-After ensuring good calibration and signal with the simple calibration mixture, it is advisable to analyze complex samples, such as tryptic digests of whole-cell lysates (e.g. HeLa cells, HEK cells, yeast, etc.) or tryptic digests of purified proteins.
-The additional check with a complex sample ensures all aspects of the system are working together correctly, especially the liquid chromatography and emitter.
-These digests should be analyzed after every instrument calibration and periodically between samples when acquiring more extensive batches.
-Data measured from tryptic digests should be analyzed by the software of your choice and the numbers of identified peptide precursors and proteins can be compared with previous controls for consistency.
-
-Another strategy is to analyze digested purified proteins, which easily enable discovery of retention time shifts and mass accuracy problems. 
-In case you are working with a Thermo mass spectrometer, you can open the acquired .raw file directly either in FreeStyle or in Qual Browser and look for specific m/z values of your peptides.
-Looking at the intensity of the extracted peaks will help identify sensitivity fluctuations. 
-
-Carry-over between different measurments can be identified from blank measurements which are subsequently analyzed with your search software of choice.
-Blank measurements can be injections of different buffers, water or the starting conditions of your liquid chromatography. 
-In case of increased detection of carry-over, injections with trifluoroethanol can be performed.
-
-Another factor to take into consideration is the stability of your electrospray.
-Electrospray stability tends to worsen over time as columns wear, as well as when measuring samples with residual contaminants, such as salts or detergents. 
-You will notice spray instabilities either in the total ion chromatogram (TIC) as thin spikes with short periods of no measured signal or if you install cameras at your ESI source.
-Suboptimal spray conditions will usually result in droplets forming on the emitter, being released into the mass spectrometer (also referred to as "spitting"). 
-Real-time quality control software (listed in the table below) can help you identify instrument issues right away.
-
-#### Data Quality Control
-
-Apart from instrument performance, any kind of data analysis should have proper quality control in place to identify problematic measurements and to exclude them if necessary. 
-It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time. 
-Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
-Decoy searches help monitor and control the false-discovery rate. 
-Inlcuding common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
-Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
-Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurments to identify potential measurement or normalization issues. 
-Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
-In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.
-
-#### Quality Control Software
-
-##### Raw file and real-time analysis
-
-|    Name    |         Supported instrument vendors        |            Website/Download           |            publication            |           Note               |
-|:----------:|:-------------------------------------------:|:-------------------------------------:|:---------------------------------:|:----------------------------:|
-| QuiC | Thermo Scientific, AB SCIEX, Agilent, Bruker, Waters |[QuiC](https://biognosys.com/resources/quic-manual/)|                      | requires Biognosys iRT peptides |
-| AlphaPept |  Thermo Scientific, Bruker              | [AlphaPept](https://github.com/MannLabs/alphapept) | [@DOI:10.1101/2021.07.23.453379]    |                      |
-| RawMeat 2.1 | Thermo Scientific | [RawMeat](https://proteomicsresource.washington.edu/protocols06/RawMeat_1007.exe) |      |          |
-| rawDiag | Thermo Scientific | [rawDiag](https://github.com/fgcz/rawDiag) |   [@DOI:10.1021/acs.jproteome.8b00173]        |                 |
-| rawrr | Thermo Scientific | [rawrr](https://github.com/fgcz/rawrr) |  [@DOI:10.1021/acs.jproteome.0c00866]    |                       |
-| rawBeans |  Thermo or mzML   | [rawBeans](https://bitbucket.org/incpm/prot-qc/downloads/)|   [@DOI:10.1021/acs.jproteome.0c00956]     |                  |
-| SIMPATIQCO | Thermo Scientific | [SIMPATIQCO](https://ms.imp.ac.at/index.php?action=simpatiqco) | [@DOI:10.1021/pr300163u]    |                     |
-| QC-ART |                     | [QC-ART](https://github.com/stanfill/QC-ART) | [@DOI:10.1074/mcp.RA118.000648] |                      |
-| SprayQc | Thermo Scientific, AB SCIEX, extensible to other instrumentation | [SprayQc](http://sourceforge.org/projects/sprayqc) | [@DOI:10.1021/pr201219e] |               |
-| Metriculator |         | [Metriculator](http://github.com/princelab/metriculator) | [@DOI:10.1093/bioinformatics/btt510] |            |
-| MassQC |               | [MassQC](https://massqc.proteomesoftware.com/) |                   |                     |
-| OpenMS |               | [OpenMS](https://www.openms.de/) |  [@DOI:10.1038/nmeth.3959]   |                  |
-
-##### Search result QC
-
-|    Name    |       Website/Download/publication        |              publication        |              Note           |
-|:----------:|:-----------------------------------------:|:-------------------------------:|:----------------------------:|
-| MSStats |[MSStats](https://github.com/Vitek-Lab/MSstats) |  [@DOI:10.1093/bioinformatics/btu305]|   can use output from MaxQuant, Proteome Discoverer, Skyline, Progenesis, Spectronaut |
-| MSStatsQC |[MSStatsQC](https://msstats.org/msstatsqc/)   |  [@DOI:10.1074/mcp.M116.064774]    |               |
-| PTXQC |[PTXQC](https://github.com/cbielow/PTXQC) |[@DOI:10.1021/acs.jproteome.5b00780] | requires MaxQuant search engine output | 
-| protti | [protti](https://github.com/jpquast/protti) | [@DOI:10.1093/bioadv/vbab041]      |                   |
-
-<!-- todo: this table is probably very incomplete. Add more tools -->
+Another similar targeted DIA method is called parallel reaction monitoring (PRM) [@DOI:10.1074/mcp.O112.020131].
+Instead of using a QQQ instrument, PRM uses a hybrid MS with a quadrupole and a high resolution mass analyzer, such as an Q-TOF or Q-Exactive. 
+The idea is that instead of monitoring specific fragments in Q3, the high mass accuracy can be used to filter peptide fragments for high selectivity and accurate quantification. 
+Studies have found that PRM and MRM/SRM have comparable dynamic range and linearity [@DOI:10.1016/j.jprot.2014.10.017].
 
 
-### Statistical hypothesis testing
+#### Untargeted DIA
+
+There were many implementations of uDIA over the years, starting in 2003 by Purvine et al from the Goodlett lab [@DOI:10.1002/pmic.200300362]. 
+In this first work they demonstrated uDIA using a Q-TOF with in source fragmentation, and showed that extracted ion chromatograms of precursor and fragment ions matched in shape suggesting that this could be used to identify and quantify peptides. 
+The following year, Venable et al from the Yates lab introduced uDIA with an ion trap [@DOI:10.1038/nmeth705].
+Subsequent methods include MSE [@DOI:10.1002/rcm.2550], PAcIFIC [@DOI:10.1021/ac900888s], all ions fragmentation (AIF) [@DOI:10.1074/mcp.M110.001537].
+Computational methods were also developed to automate interpretation of this data, such as DeMux [@DOI:10.1074/mcp.M110.001537], XDIA [@DOI:10.1093/bioinformatics/btq031], and ETISEQ [@DOI:10.1186/1471-2105-10-244].
+
+The paper that is often cited for uDIA that led to widespread adoption was by Gillet et al. from the Aebersold group in 2012 [@DOI:10.1074/mcp.O111.016717].
+In this paper they branded the idea as SWATH.
+Widespread adoption may have been facilitated by the co-marketing of this idea by ABSciex as a proteomics solution on their new 5600 Q-TOF (called "tripleTOF" despite containing only one TOF, likely a portmanteau of "triple quadrupole" and "Q-TOF"). 
+Importantly, in the Gillet et al. paper the authors described a computational method to extract information from SWATH where peptides of interest were queried against the data.
+They also demonstrated the application of SWATH to measure proteomic changes that happen in diauxic shift, and showed that SWATH can reveal modified peptides, in this case a methionine oxidation. 
+
+There are also many papers describing uDIA with orbitraps.
+One early example described combining random isolation windows together and then demultiplexing the chimeric spectra [@DOI:10.1038/nmeth.2528].
+In another landmark paper, over 6,000 proteins were identified from mouse tissue by at least 2 peptides [@DOI:10.1074/mcp.RA117.000314]. 
+In 2018, the new model orbitrap at that time (HF-X) enabled identification of nearly 6,000 human proteins in only 30 minutes. 
+Currently orbitraps have all but replaced the Sciex Q-TOFs for DIA data collection. 
+
+A new direction in uDIA is the addition of ion separation by ion mobility. 
+This has appeared in two forms.
+On the timsTOF, diaPASEF makes use of the trapped ion mobility to increase speed and sensitivity of analysis [@DOI:10.1038/s41592-020-00998-0].
+On the orbitrap, the combination of FAIMS and DIA has enabled the identification of over 10,000 proteins from one sample, which is a major milestone [@DOI:10.1021/acs.jproteome.2c00023].
+
+
+
 
 
 
@@ -2789,6 +2601,194 @@ Surface plasmon resonance can accurately measure several key kinetics of PPIs wi
 It relies on the quantification of refractive index changes of polarised light shone onto a sensor chip containing a prey protein immobilised on a metal surface (typically gold). 
 When prey and bait proteins interact, the mass concentration at the metal interface changes, altering the refractive index and SPR angle (intensity of the refracted light). 
  
+
+
+## Analysis of Raw Data {.page_break_before}
+
+The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis. 
+This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
+
+In typical bottom-up proteomics experiments, proteins are digested into peptides and further analyzed with LC-MS/MS systems. 
+Peptides can have different PTMs and ionize differently depending on their length and amino acid distributions. 
+Therefore, mass spectrometers often record different charge and modification states of one single peptide. 
+The entity that is recorded on a mass spectrometer is usually referred to as a precursor ion (peptide with its modification and charge state). 
+This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching. 
+The quantity of a precursor is estimated with various methods.
+The measured precursor quantities are combined to generate a peptide quantity. 
+Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification [@PMID:16009968; @DOI:10.1016/j.jprot.2016.08.002].
+Protein inference is still a challenge in bottom-up proteomics. 
+
+Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
+The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:
+
+#### DDA freeware 
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| MaxQuant |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|[MaxQuant](https://www.maxquant.org/)    |
+| MSFragger|   Kong et al., 2017[@DOI:10.1038/nmeth.4256]    |    [MSFragger](https://msfragger.nesvilab.org/) |
+| Mascot   |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
+| MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
+| X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198;@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
+
+
+#### DIA freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| MaxDIA |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|        [MaxQuant](https://www.maxquant.org/)    |
+| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
+| DIA-NN|Demichev et al., 2019[@DOI:10.1038/s41592-019-0638-x]  |    [DIA-NN](https://github.com/vdemichev/DiaNN)     |
+
+
+#### Targeted proteomics freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
+
+
+#### DDA non-freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| ProteomeDiscoverer ||[ProteomeDiscoverer](https://www.thermofisher.com/ch/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html)|
+| Mascot             |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
+| Spectromine   |           |    [Spectromine](ttps://biognosys.com/software/spectromine/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB)     |
+| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+
+
+#### DIA non-freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| Spectronaut |Bruderer et al., 2015[@DOI:10.1074/mcp.M114.044305]|[Spectronaut](https://biognosys.com/software/spectronaut/)|
+| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+
+
+#### Data Summary and Interpretation
+|    Name    |            Publication     |                 Website              |
+|:----------:|:--------------------------:|:------------------------------------:|
+|Peptide Shaker|Vaudel _et al._, 2015[@DOI:10.1038/nbt.3109;@DOI:10.1021/acs.jproteome.1c00678]|[PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html), [Peptide Shaker Online](https://github.com/barsnes-group/peptide-shaker-online)|
+
+
+### Analysis of DDA data
+DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, Sequest (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, MaxQuant, MSGF+, X!Tandem, Morpheus, MSFragger, and OMSSA. 
+Tables 1 and 4 give weblinks and citations for these software tools.
+<!-- todo: need to make sure all these are listed in the table and cited -->
+<!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
+For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
+The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
+All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
+The search algorithm scores each query spectrum against its possible peptide matches [@DOI:10.1002/mas.21543]. 
+A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
+The scores reflect a _goodness-of-fit_ between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.
+
+For evaluating the matches, a decoy database is preferred as a null model for peptide matching.
+A randomized or reversed version of target database is used as a nonparametric null model.
+The decoy database can be searched separate from the target database (Kall's method)[@DOI:10.1021/pr700600n] or it can be combined with the target database before search (Elias and Gygi method)[@PMID:17327847].
+Using either separate method or concatenated database search method, an estimate of false hits can be calculated which is used to estimate the false discovery rate (FDR) [@DOI:10.1007/978-1-4939-3106-4_7]. 
+The FDR denotes the proportion of false hits in the population accepted as true.
+For Kall's method: the false hits are estimated to be the number of decoys above a given threshold. 
+It is assumed that the number of decoy hits that pass a threshold are the false hits. 
+A similar number of target population may also be false. 
+Therefore, the FDR is calculated as [@DOI:10.1021/acs.jproteome.6b00144]:
+
+$$FDR = \frac{Decoy PSMs + 1}{Target PSMs}$$
+
+For Elias and Gygi Method, the target population in which FDR is estimated changes.
+The target and decoy hits coming from a joint database compete against each other.
+For any spectrum, either a target or a decoy peptide can be the best hit.
+It is argued that the joint target-decoy population has decoy hits as confirmed false hits.
+However, due to the joint database search, the target database may also have equal number of false hits. 
+Thus, the number of false hits is multiplied by two for FDR estimation.
+
+$$FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}$$
+
+
+### Strategies for analysis of DIA data
+
+### Targeted proteomics data analysis
+
+### Quality control
+
+Quality control should be a central aspect of any mass spectrometry-based study to ensure reproducibility of generated results.
+There are two types of quality controls that can be conducted for any kind of mass spectrometry experiment.
+The first one is focused on monitoring the perfomance of the instruments themselves (e.g. HPLC and mass spectrometer), whereas the second one is focused on your experiments. 
+For further reading, we recommend to take a look at issue 11 on quality control published in the journal _Proteomics_ in 2011 [@DOI:10.1002/pmic.201190020], especially the review by Köcher _et al._ [@DOI:10.1002/pmic.201000578], as well as the review published by Bittremieux _et al._ in 2017 [@DOI:10.1002/mas.21544].
+
+#### Instrument Performance
+
+It is generally advisable to monitor instrument performance regularly. 
+Instrument calibrations in regular intervals help ensure that performance is maintained.
+Often basic calibration and sensitivity can be checked by direct infusion of a standard.
+During the calibration you can check injection times (for ion trap instruments) and intensity of the ions in the calibration mix.
+
+After ensuring good calibration and signal with the simple calibration mixture, it is advisable to analyze complex samples, such as tryptic digests of whole-cell lysates (e.g. HeLa cells, HEK cells, yeast, etc.) or tryptic digests of purified proteins.
+The additional check with a complex sample ensures all aspects of the system are working together correctly, especially the liquid chromatography and emitter.
+These digests should be analyzed after every instrument calibration and periodically between samples when acquiring more extensive batches.
+Data measured from tryptic digests should be analyzed by the software of your choice and the numbers of identified peptide precursors and proteins can be compared with previous controls for consistency.
+
+Another strategy is to analyze digested purified proteins, which easily enable discovery of retention time shifts and mass accuracy problems. 
+In case you are working with a Thermo mass spectrometer, you can open the acquired .raw file directly either in FreeStyle or in Qual Browser and look for specific m/z values of your peptides.
+Looking at the intensity of the extracted peaks will help identify sensitivity fluctuations. 
+
+Carry-over between different measurments can be identified from blank measurements which are subsequently analyzed with your search software of choice.
+Blank measurements can be injections of different buffers, water or the starting conditions of your liquid chromatography. 
+In case of increased detection of carry-over, injections with trifluoroethanol can be performed.
+
+Another factor to take into consideration is the stability of your electrospray.
+Electrospray stability tends to worsen over time as columns wear, as well as when measuring samples with residual contaminants, such as salts or detergents. 
+You will notice spray instabilities either in the total ion chromatogram (TIC) as thin spikes with short periods of no measured signal or if you install cameras at your ESI source.
+Suboptimal spray conditions will usually result in droplets forming on the emitter, being released into the mass spectrometer (also referred to as "spitting"). 
+Real-time quality control software (listed in the table below) can help you identify instrument issues right away.
+
+#### Data Quality Control
+
+Apart from instrument performance, any kind of data analysis should have proper quality control in place to identify problematic measurements and to exclude them if necessary. 
+It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time. 
+Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
+Decoy searches help monitor and control the false-discovery rate. 
+Inlcuding common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
+Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
+Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurments to identify potential measurement or normalization issues. 
+Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
+In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.
+
+#### Quality Control Software
+
+##### Raw file and real-time analysis
+
+|    Name    |         Supported instrument vendors        |            Website/Download           |            publication            |           Note               |
+|:----------:|:-------------------------------------------:|:-------------------------------------:|:---------------------------------:|:----------------------------:|
+| QuiC | Thermo Scientific, AB SCIEX, Agilent, Bruker, Waters |[QuiC](https://biognosys.com/resources/quic-manual/)|                      | requires Biognosys iRT peptides |
+| AlphaPept |  Thermo Scientific, Bruker              | [AlphaPept](https://github.com/MannLabs/alphapept) | [@DOI:10.1101/2021.07.23.453379]    |                      |
+| RawMeat 2.1 | Thermo Scientific | [RawMeat](https://proteomicsresource.washington.edu/protocols06/RawMeat_1007.exe) |      |          |
+| rawDiag | Thermo Scientific | [rawDiag](https://github.com/fgcz/rawDiag) |   [@DOI:10.1021/acs.jproteome.8b00173]        |                 |
+| rawrr | Thermo Scientific | [rawrr](https://github.com/fgcz/rawrr) |  [@DOI:10.1021/acs.jproteome.0c00866]    |                       |
+| rawBeans |  Thermo or mzML   | [rawBeans](https://bitbucket.org/incpm/prot-qc/downloads/)|   [@DOI:10.1021/acs.jproteome.0c00956]     |                  |
+| SIMPATIQCO | Thermo Scientific | [SIMPATIQCO](https://ms.imp.ac.at/index.php?action=simpatiqco) | [@DOI:10.1021/pr300163u]    |                     |
+| QC-ART |                     | [QC-ART](https://github.com/stanfill/QC-ART) | [@DOI:10.1074/mcp.RA118.000648] |                      |
+| SprayQc | Thermo Scientific, AB SCIEX, extensible to other instrumentation | [SprayQc](http://sourceforge.org/projects/sprayqc) | [@DOI:10.1021/pr201219e] |               |
+| Metriculator |         | [Metriculator](http://github.com/princelab/metriculator) | [@DOI:10.1093/bioinformatics/btt510] |            |
+| MassQC |               | [MassQC](https://massqc.proteomesoftware.com/) |                   |                     |
+| OpenMS |               | [OpenMS](https://www.openms.de/) |  [@DOI:10.1038/nmeth.3959]   |                  |
+
+##### Search result QC
+
+|    Name    |       Website/Download/publication        |              publication        |              Note           |
+|:----------:|:-----------------------------------------:|:-------------------------------:|:----------------------------:|
+| MSStats |[MSStats](https://github.com/Vitek-Lab/MSstats) |  [@DOI:10.1093/bioinformatics/btu305]|   can use output from MaxQuant, Proteome Discoverer, Skyline, Progenesis, Spectronaut |
+| MSStatsQC |[MSStatsQC](https://msstats.org/msstatsqc/)   |  [@DOI:10.1074/mcp.M116.064774]    |               |
+| PTXQC |[PTXQC](https://github.com/cbielow/PTXQC) |[@DOI:10.1021/acs.jproteome.5b00780] | requires MaxQuant search engine output | 
+| protti | [protti](https://github.com/jpquast/protti) | [@DOI:10.1093/bioadv/vbab041]      |                   |
+
+<!-- todo: this table is probably very incomplete. Add more tools -->
+
+
+### Statistical hypothesis testing
+
+
 
 
 ## Experiment Design
