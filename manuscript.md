@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T04:36:20+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T04:36:20+00:00" />
+  <meta name="dc.modified" content="2023-10-02T04:42:14+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T04:42:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@0746522](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/074652281b943b17a0946804791cd184f69537ee)
+from [jessegmeyerlab/proteomics-tutorial@c8f2c2f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c8f2c2fd66223ee5771369c50efde3a9d297a6ef)
 on October 2, 2023.
 </em></small>
 
@@ -1027,7 +1027,7 @@ In order to study low abundance protein modifications, or to study rare proteins
 
 #### Glycosylation
 Mass spectrometry-based analysis of protein glycosylation has emerged as the premier technology to characterize such a universal and diverse class of biomolecules.
-Glycosylation is a heterogenous post-translational modification that decorates many proteins within the proteome, conferring broad changes in protein activity. [@DOI:10.1093/glycob/12.4.43R; @DOI:10.1016/j.cell.2006.08.019; @DOI:10.1101/9781621824213] 
+Glycosylation is a heterogenous post-translational modification that decorates many proteins within the proteome, conferring broad changes in protein activity. [@DOI:10.1093/glycob/12.4.43R; @DOI:10.1016/j.cell.2006.08.019; @PMID:35536922] 
 This PTM can take many forms.
 The covalent linkage of mono- or oligosaccharides to polypeptide backbones through a nitrogen atom of asparagine (N) or an oxygen atom of serine (S) or threonine (T) side-chains creates N- and O-glycans, respectively.  
 The heterogenity of proteoglycans is not directly tied to the genome, and thus cannot be inferred. 

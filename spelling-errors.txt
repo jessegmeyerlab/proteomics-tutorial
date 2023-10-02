@@ -28,7 +28,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -152,7 +152,7 @@ clade
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 colorimetric
 Colorimetry
@@ -193,7 +193,7 @@ Daniem
 Dasom
 databses
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -252,7 +252,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -266,12 +266,12 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enzymatically
 enzymogenesis
 Enzymology
-Epitope
+epitope
 equilibration
 Equus
 ERLIC
@@ -283,7 +283,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -296,7 +296,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
+fasta
 Fc
 FCCS
 FCS
@@ -318,7 +318,7 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -344,7 +344,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -352,7 +352,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -361,14 +361,14 @@ glycobiology
 glycoforms
 glycolic
 glycopeptide
-Glycopeptides
+glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -454,7 +454,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -538,7 +538,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -626,7 +626,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -682,7 +682,7 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphopeptide
-phosphopeptides
+Phosphopeptides
 phosphoprotein
 phosphoproteins
 phosphoproteome
@@ -699,7 +699,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 PIQED
@@ -719,8 +719,8 @@ posttranslational
 PPI
 PPIs
 practioners
-pre
-prefractionation
+Pre
+Prefractionation
 premaure
 PRM
 Progenesis
@@ -787,7 +787,7 @@ refered
 reflectron
 RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
@@ -904,8 +904,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-TOF
-TOFs
+tof
+ToFs
 Torr
 TPP
 TQ
@@ -914,7 +914,7 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -926,11 +926,11 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
+TripleTOF
 Tris
 Tritirachium
-Trp
-trypsin
+TRP
+Trypsin
 tryptic
 TryTrypDB
 TSA
