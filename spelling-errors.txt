@@ -28,11 +28,11 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -72,7 +72,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -127,7 +127,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -143,7 +143,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -152,10 +152,10 @@ clade
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
-Colorimetric
-Colorimetry
+colorimetric
+colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -193,7 +193,7 @@ Daniem
 Dasom
 databses
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -267,11 +267,11 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -297,7 +297,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -321,7 +321,7 @@ Folin
 Footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 fragi
 fragmentations
@@ -344,7 +344,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -352,7 +352,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -454,7 +454,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -462,7 +462,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -626,7 +626,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -645,7 +645,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 Ortholog
@@ -699,7 +699,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 PIQED
@@ -719,15 +719,15 @@ posttranslational
 PPI
 PPIs
 practioners
-Pre
+pre
 Prefractionation
 premaure
 PRM
 Progenesis
 proline
 Pronase
-Prot
-protease
+prot
+Protease
 proteases
 proteasome
 Proteinase
@@ -735,7 +735,7 @@ proteinness
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
@@ -760,7 +760,7 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
+QToF
 quadruople
 quadrupole
 quadrupoles
@@ -780,7 +780,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 redundance
 refered
@@ -930,7 +930,7 @@ tripleTOF
 Tris
 Tritirachium
 TRP
-trypsin
+Trypsin
 tryptic
 TryTrypDB
 TSA
