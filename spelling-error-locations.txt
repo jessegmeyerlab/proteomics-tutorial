@@ -35,11 +35,9 @@ content/02.introduction.md:35:practioners
 content/02.introduction.md:35:proteomics
 content/02.introduction.md:35:proteomics
 content/02.introduction.md:35:proteomics
-content/02.introduction.md:40:proteomics
-content/02.introduction.md:42:proteolysis
-content/02.introduction.md:44:Enrichments
+content/02.introduction.md:40:Proteolysis
+content/02.introduction.md:42:Enrichments
 content/02.introduction.md:46:Spectrometry
-content/02.introduction.md:51:Fractionation
 content/03.biochemistry-basics.md:5:biomolecules
 content/03.biochemistry-basics.md:5:biopolymers
 content/03.biochemistry-basics.md:7:pyrrolysine

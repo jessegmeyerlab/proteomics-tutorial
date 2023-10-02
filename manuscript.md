@@ -11,8 +11,8 @@ author-meta:
 - Dina Schuster
 - Benjamin A. Neely
 - Germán L. Rosano
-- Norbert Volkmar
 - Devasahayam Arokia Balaya Rex
+- Norbert Volkmar
 - Susan B. Egbert
 - Trenton M. Peters-Clarke
 - Simion Kreimer
@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T19:31:23+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T19:31:23+00:00" />
+  <meta name="dc.modified" content="2023-10-02T20:28:37+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T20:28:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -64,15 +64,15 @@ header-includes: |
   <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
   <meta name="twitter:creator" content="@GermanRosano" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Norbert Volkmar" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
   <meta name="twitter:creator" content="@NorbertVolkmar" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Susan B. Egbert" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
   <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7bf97c4000757069e8aac9196db6e2e01cb2cf1b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@7bf97c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7bf97c4000757069e8aac9196db6e2e01cb2cf1b)
+from [jessegmeyerlab/proteomics-tutorial@50944cc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/50944ccb6538b97821607a9fa54ddb035e7b9bcc)
 on October 2, 2023.
 </em></small>
 
@@ -214,19 +214,6 @@ on October 2, 2023.
      · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
   </small>
 
-+ **Norbert Volkmar**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [norbertvolkmar](https://github.com/norbertvolkmar)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
-    <br>
-  <small>
-     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
-  </small>
-
 + **Devasahayam Arokia Balaya Rex**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -238,6 +225,19 @@ on October 2, 2023.
     <br>
   <small>
      Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+  </small>
+
++ **Norbert Volkmar**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0766-5606](https://orcid.org/0000-0003-0766-5606)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [norbertvolkmar](https://github.com/norbertvolkmar)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [NorbertVolkmar](https://twitter.com/NorbertVolkmar)
+    <br>
+  <small>
+     Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
   </small>
 
 + **Susan B. Egbert**
@@ -434,25 +434,24 @@ The data analysis is usually the rate limiting step.
 Peptides must be identified, and proteins are inferred and quantities are assigned. 
 Changes in proteins across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.
 
-There are many variations on this workflow. The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners.
-
-
+There are many variations on this workflow. The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners. There are 16 sections in total:
 
 1. Biochemistry basics
-2. Types of experiments enabled by proteomics
+2. Types of experiments
 3. Protein extraction
-4. proteolysis
-5. Isotopic Labeling
+4. Proteolysis
+5. Peptide Quantification Methods
 6. Enrichments
 7. Peptide purification
-8. Mass Spectrometry
+8. Liquid Chromatography
 9. Peptide Ionization
-10. Data Acquisition
-11. Basic Data Analysis
-12. Biological Interpretation
-14. Sample Fractionation
-15. Tandem MS
-16. Experimental considerations and design
+10. Mass Spectrometry
+11. Peptide Fragmentation (MS/MS)
+12. Data Acquisition
+13. Raw Data Analysis
+14. Protein Databases
+15. Biological Interpretation
+16. Orthogonal Validation Experiments
 
 
 
