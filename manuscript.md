@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T19:07:32+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T19:07:32+00:00" />
+  <meta name="dc.modified" content="2023-10-02T19:16:44+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T19:16:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/51e6d691c39df77b409928cccbecfc5bedb2012f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/51e6d691c39df77b409928cccbecfc5bedb2012f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/51e6d691c39df77b409928cccbecfc5bedb2012f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2a0481b6496547252ff34e4cc696027d6e355449/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2a0481b6496547252ff34e4cc696027d6e355449/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2a0481b6496547252ff34e4cc696027d6e355449/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/51e6d691c39df77b409928cccbecfc5bedb2012f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/2a0481b6496547252ff34e4cc696027d6e355449/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@51e6d69](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/51e6d691c39df77b409928cccbecfc5bedb2012f)
+from [jessegmeyerlab/proteomics-tutorial@2a0481b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/2a0481b6496547252ff34e4cc696027d6e355449)
 on October 2, 2023.
 </em></small>
 
@@ -1253,369 +1253,104 @@ This improves retention of acidic peptides and reduces retention of basic peptid
 
 
 
-## Types of Mass Spectrometers used for Proteomics {.page_break_before}
-### Mass spectrometry
-Mass spectrometry is a science of ions; it serves as a sophisticated instrument for determining the masses of compounds and elements. 
-It can be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lower. 
-Since J.J. Thomson's initial exploration in 1912, the field of mass spectrometry has undergone numerous improvements, spanning from isotope assessment to the interpretation of biomacromolecules [@DOI:10.1021/ac8013065], all thanks to the combined efforts of diverse fields like chemistry, physics, electronic engineering, and computer science. 
-Nowadays, with the rapid improvement of sensitivity, mass resolution, tandem mass spectrometry methods and dissociation methods, mass spectrometers have evolved as a core tool for proteomics (and metabolomic) analysis.
-It is precisely the widespread application of mass spectrometry in proteomics analysis that has given rise to more instrument manufacturers and a greater diversity of mass spectrometer types. 
-This also brings a happy annoyance to many beginners or researchers in other fields who have no background in mass spectrometry: which manufacturer and which type of mass spectrometry should I choose to analyze my samples? 
-Here, to help new learners build a basic understanding faster, we will briefly introduce some basic concepts, common types of mass spectrometers, and their suitable application scenarios. 
+## Liquid Chromatography (LC) {.page_break_before}
 
-### Mass Spectrometer Structure and Basic Principles   
-The fundamental principle of mass spectrometry revolves around specific physical processes that can be described by various mathematical formulas. 
-Since this article serves as a guide for those new to the field, particularly those from a biology background, we've chosen to steer clear of delving too deeply into intricate mathematical and physical explanations. 
-However, for those keen on a deeper understanding, we've included references pertaining to these foundational principles. 
-In this piece, our focus lies on introducing fundamental concepts and outlining the typical workflow in mass spectrometry.
+Chromatography is the physical sorting of a mixture of molecular species that are dissolved in a mobile phase through the strength of binding, or affinity, to the chromatographic column’s stationary phase [@DOI:10.1016/j.aca.2009.03.041]. 
+The mobile phase is pressure driven through the column and molecular species, or analytes, that have a strong affinity to the stationary phase are retained, or slowed, while those with a weak affinity pass through quickly. 
+Thusly the analytes are separated by order of elution from the column. 
+Chromatography can exploit most physical properties of the analytes, including ionic charge (anion/cation exchange chromatography), hydrogen binding (hydrophilic interaction), and size (size exclusion chromatography, capillary electrophoresis). 
+In some chromatographic separations the mobile phase composition is adjusted by mixing two or more buffers at different ratios to influence the strength of affinity of individual analytes to the stationary phase and exquisitely regulate retention.
 
-The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge ratio (m/z), and then detect them by their respective m/z and abundance. 
-The successful implementation and demonstration of this process requires participation of five fundamental systems (Figure X):
+Mass spectrometers suffer from ion suppression, a phenomenon where the over-abundance of one or a few species within the ion population entering the mass spectrometer masks the presence of less abundant species [@DOI:10.1373/49.7.1041]. 
+Complex biological samples, such as tissue, cell lysate, or physiological fluids contain a wide dynamic range of molecule concentrations that span many orders of magnitude. 
+The physical separation of analytes from biological samples by LC reduces the complexity of the ion population presented to the mass spectrometer at a given time, thus allowing the instrument to carry out the necessary fragmentation scans to identify and quantify the detectable species. 
+Therefore, one major benefit of LC is that it allows detection of low abundant analytes in other elution windows. 
 
-#### 1)	The ion source.
-This is where gas phase ions are generated.
-Common methods of ionization in mass spectrometry includes electrospray ionization (ESI), matrix assisted laser desorption ionization (MALDI), atmospheric pressure chemical ionization (APCI), electron ionization (EI) and chemical ionization (CI) [@DOI:10.1016/j.aca.2015.07.012; @DOI:10.1080/05704928.2014.954046].
-For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter and no more redundance here.
+The field of proteomics predominantly separates peptides using reversed phase liquid chromatography [@DOI:10.1016/j.chroma.2012.06.098; @DOI:10.1016/j.aca.2010.02.001; @DOI:10.1016/j.chroma.2004.07.044]. 
+Reversed stationary phase is most commonly composed of microscopic (1-3 μm) silica beads coated with covalently bound long (e.g. C18) hydrophobic alkyl chains. 
+The hydrophobic side chains of certain residues and the peptide backbone bind to this stationary phase through non-polar interactions. 
+These interactions are strong in an aqueous solvent, but are disrupted when the organic composition of the solvent is increased. 
+Thus, in a reversed phase separation the proportion of non-polar, or organic, solvent in the mobile phase is gradually increased to release analytes from the stationary phase based on the strength of hydrophobic binding: weakly bound hydrophilic analytes elute with a low organic level in the mobile phase and strongly bound hydrophobic analytes only elute when the organic composition reaches a higher percentage. 
+By far the most popular combination of solvents for peptide analysis is water and acetonitrile with dilute acid modifier (such as 0.1% formic acid or 0.5% acetic acid). 
+The programmed rate at which the proportion of organic solvent is increased in the mobile phase is called the “gradient”, which you will often find described in the methods sections for reversed phase separations.
 
-#### 2)	The mass analyzer.
-This is where gas phase ions are separated according to their mass-to-charge ratio (m/z) based on physics principles.
-There are several types of mass analyzers applied in mass spectrometry, such as time-of-flight (TOF), quadrupole, ion trap, orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), and magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 10.1).
-For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
-Mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
+### Electrospray Ionization
 
-#### 3)	The detector.
-This is where separated ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
-Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with their strengths and limitations, are illustrated in Table 10.2.
-It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
-Instead, they detect ions in a fundamentally different way by detecting image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
-In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.
-This signal is then processed to extract the frequencies of oscillation and fourier-transformed into a mass spectrum, which is quite different from other types of detectors that count individual ions or particles striking a surface.
+LC is paired to MS through ESI, and LC parameters greatly influence ESI. 
+The analytes are eluted in a liquid mobile phase and must be released into the gas phase as charged ions for detection by mass spectrometry. 
+This is achieved by spraying the eluent from the chromatographic separation through a narrow nozzle under a high voltage potential (1,000-4,000 volts) between the nozzle, or emitter, and the mass spectrometer inlet. 
+The eluent is sprayed as a mist of small charged droplets that explode into smaller droplets as the solvent evaporates and the repelling columbic force of the charged analytes increases [@DOI:10.1080/14786448208628425]. 
+The droplets become progressively smaller until individual analyte molecules are ejected. 
+The ejected analytes are ionized by the retained charge and can thus be manipulated by the electric fields in the mass spectrometer to measure their mass and perform the necessary fragmentations to elucidate structure. 
+The chromatographic flowrate (the volume of mobile phase driven through the chromatographic column per unit time e.g. uL/min) dictates the efficiently of electrospray ionization (proportion of analytes eluting from the column that are ionized and into the gas phase) and is thus a key consideration for sensitivity of analysis [@DOI:10.1021/pr050424y]. 
+Reduced flowrates generate smaller droplets which degrade into ejected charged analytes rapidly, thus resulting in more detectable analytes and higher ionization efficiency. 
+Electrospray ionization efficiency is also aided by an inert sheath gas, high temperature, and reduced pressure between the nozzle and ion lensing elements, thus decent sensitivity can still be achieved at high flowrates. 
+For more detailed discussion of ionization, see the “Ionization” section. 
 
-#### 4)	The vacuum system.
-This is designed to maintain a vacuum environment for ions’ movement inside the instrument, consists of different type of pumps including rough vacuum pumps (rotary vane pumps, scroll pumps) and high vacuum pumps (turbo molecular pumps, diffusion pumps).
-The reason for maintaining a high vacuum is to reduce the collision between ions and gas molecules during their travel, which can affect their trajectory.
-FT-ICR and Orbitrap instruments usually require higher vacuum in the 10-9 to 10-11 Torr level, while TOFs require medium vacuum in the 10-7  to 10-8 Torr range, and Quadrupole and Ion trap require a relative lower vacuum in the 10-5  to 10-6 Torr range. 
+### Quality Attributes of Chromatographic Separation
 
-#### 5)	The control system.
-This is needed to regulate and coordinate the various parts of the mass spectrometer to ensure seamless functioning.
-This typically includes ion source control, mass analyzer control, detector control, data acquisition control, interfacing with auxiliary systems (such as a liquid chromatograph and gas chromatograph), and modules for instrument diagnostics and calibration.
+The quality of chromatographic separation defines the number of analytes that are identified and quantified by LC-MS analysis. 
+The theory around chromatographic separation was developed when LCs were paired with spectrophotometer detectors that only measure the combined signal intensity from all co-eluting analytes. 
+The ability of MS to simultaneously detect the masses of individual components re-defines the significance of certain LC attributes. 
+For those looking for mathematical descriptions of chromatographic quality, refer to the “Van Deemter equation”, which we do not cover here to maintain simplicity [@URL:https://www.sciencedirect.com/science/article/abs/pii/0009250956800031]. 
+The following attributes are the most important to consider in LC-MS.
 
-![**Diagram of typical mass spectrometer modules.**
-Systems must have an ion source, mass analyzer, detector, vacuum system, and control system.
-](images/MS_f101.svg){#fig:MS-diagram tag="4" width="100%"}
+#### Chromatographic Resolution 
 
-Table 10-1 Common mass analyzers.
+Chromatographic resolution is defined as the ability to fully resolve adjacent chromatographic peaks containing analytes with nearly equal affinities to the solid phase. 
+In mass spectrometry analytes are distinguished by mass even if they are not resolved by LC. 
+Thus in LC-MS, the more relevant, but closely related concept is the peak width at the half maximum (FWHM) of the peak. 
+A low FWHM indicates a sharp elution peak. In a sharp peak the entirety of the analyte population is electrosprayed into the mass spectrometer in a short time thus increasing the signal. 
+Low FWHM of high abundance species also confines their ionization suppression to narrow time windows, which means a lower number of co-eluting analytes are hidden. 
+Conversely, high FWHM means that the analyte signal is spread out over time, thus reducing sensitivity. 
+Furthermore, at a high FWHM, high abundance species mask analytes through ion suppression over a larger portion of the separation. 
 
-| Type     | Acronym  | Principle          | Characteristics      |
-|:--------:|:--------:|:------------------:|:--------------------:|
-| Time-of-flight | TOF | Time dispersion of a pulsed ion beam; separation by the time it takes for ions to travel a fixed distance|High-speed analysis, large mass range and good sensitivity. Suited for fast data acquisition and high-throughput applications. Modern TOF systems usually can achieve mass resolution well over 10,000 (m/Δm) or even higher. |
-| Linear quadrupole | Q | Continuous ion beam in linear radio frequency quadrupole field; separation due to instability of ion trajectories |High transmission efficiency, simple design, good sensitivity, and tunable mass range; relatively low mass resolution ranges from several hundreds to a thousand; often used in tandem mass spectrometry (MS/MS) experiments |
-| Quadrupole ion trap | QIT | Traps ions by electromagnetic fields; separation in three-dimensional radio frequency quadrupole field by resonant excitation |Efficient for fragmenting ions and structural elucidation, higher sensitivity, and relatively compact which good for benchtop instruments. Relatively a low mass resolution around 1,000 - 3,000. |
-| Fourier transform-ion cyclotron resonance | FT-ICR | Traps ions in a strong magnetic field by Lorentz force; separation by cyclotron frequency, image current detection and Fourier transformation of transient signal |Ultimate high mass resolution (up to 1,000,000), making it ideal for elemental and isotopic analysis. Large size, low speed, and expensive in terms of both initial purchase cost and ongoing operation and maintenance costs. |
-| Orbitrap | Orbitrap | Axial oscillation in inhomogeneous electric field; detection of frequency after Fourier transformation of transient signal |Extremely high resolution and accuracy (up to 500,000), capable of resolving complex mixtures with high sensitivity. Relatively low speed, expensive in terms of both initial purchase cost and ongoing operation and maintenance costs. Need high vacuum. |
+#### Peak Capacity
 
-Table 10.2 Common detectors.
+Peak capacity is the number of peaks detectable over the analytical separation. 
+A long separation in which FWHM remains low would have a large peak capacity and thus allow identification of many species. 
+Unfortunately increasing the length of a reversed phase gradient also increases the FWHM due to an increase in diffusion, which results in a diminishing return for longer analytical methods. 
+A longer separation provides more time and opportunities for the mass spectrometer to sample each analyte to acquire fragmentation spectra required for identification and the selection of gradient length should consider both the desired throughput and the speed of the MS data acquisition strategy.
 
-|   Type   | Principle |   Characteristics |
-|:--------:|:---------:|:-----------------:|
-| Electron Multiplier | Amplifies signals by utilizing a sequence of dynodes that emit secondary electrons when struck by an incident electron, creating a cascading effect. This results in an amplified output current at the final anode, proportional to the intensity of the initial signal. | Very good signal amplification to even one electron (may cause more noise dependent on gain), high sensitivity, need high vacuum and high voltage, expensive. Limited dynamic range, finite lifespan and need to be replaced periodically |
-| Faraday Cup | Charged particles, such as ions or electrons, enter the cup and transfer their charge to it, causing a change in electric potential that can be measured over time to infer the number of particles. | Suitable for particles and charge state detection. Simplicity and robustness, Wide dynamic range, no need for high voltage and high vacuum. Lower sensitivity. Sensitive to Secondary Emission directional sensitivity (direction of incoming particles)|
-| Microchannel Plate | Similar to electron multiplier, a two-dimensional matrix or "plate" of many tiny, parallel, hollow channels made from a type of glass that can generate secondary electron emissions upon incident particles striking the channel walls.  These secondary emissions create an electron avalanche down the channels and amplifies the original signal. | Signal Amplification (Not as good as electron multiplier, but lower noise), Spatial Resolution ability, shorter life expectancy due to channel aging and depletion of the secondary emission material, smaller and cheaper than electron multiplier |
-| Daly Detector | Directing ions onto a surface (Doorknob) to trigger the emission of electrons, which are then accelerated towards a phosphor screen to produce photons, that are subsequently detected and amplified by a photomultiplier tube, thereby converting the ion signal into a measurable electrical signal. | High gain, ruggedness, wide dynamic range, suitable for high mass and high energy ions. Limited mass resolution, larger size and need high voltage, finite lifespan. |
+#### Reproducibility and Robustness
+Reproducibility is defined as the ability to repeatedly obtain the same measurement for the same analytes each time that the analysis is repeated. 
+In liquid chromatography this means that each analyte should elute at nearly the same retention time (the time elapsed since the start of the analysis until the analyte’s elution from the chromatographic column) with the same peak width. 
+Robustness is the ability of the system to maintain reproducible performance despite nonoptimal conditions. 
+The most typical obstacles to robustness are mechanical wear of the system components and the analytical column, fouling of the system by contaminants introduced in the samples, and clogging due to accumulation of contaminants. 
+High flow methods tend to be more robust due to reduced impact of changes in dwell volumes, and the wider bore of the components used is more resilient to clogging. 
+However, higher flowrate comes at the cost of reduced ionization efficiency and sensitivity, thus nanoflow (100-300 nL/min flowrate) chromatography remains a widely utilized strategy in proteomics.
 
-### Types of mass spectrometers used for proteomics. 
-Typically, mass spectrometers are named based on the abbreviations of their principal or tandem mass analyzers. 
-This naming convention stems from the fact that the mass analyzer forms the core component of a mass spectrometer, and it also dictates key performance attributes such as mass resolution, scanning speed, sensitivity, and cycle time. 
-These performance metrics, in turn, determine what type of analysis we can conduct, its speed and its accuracy. 
-Next, we will focus on introducing several classic tandem mass spectrometry types commonly used in proteomics.
+#### Throughput and Instrument Utilization
+Throughput is the number of samples that are analyzed in a given timeframe, for example samples per day. 
+High throughput is required to analyze thousands of samples that truly represent biological diversity in a timely manner. 
+Increasing throughput means less data are collected for individual samples. 
+Furthermore, many steps in the LC process are required for sample analysis in which no useful data is collected including sample injection, and system cleaning and equilibration, which reduce the ratio of data collected to instrument operation time, or instrument utilization. 
+The ability to perform these steps while a different sample is analyzed, or parallelization, increases instrument utilization and the amount of data collected by several minutes which is a significant increase when several samples are analyzed per hour. 
 
-### 1. Triple quadrupole (QQQ).
-Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS), as suggested by the name, is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (Figure 10.2). 
-Each quadrupole is essentially a set of four parallel metal rods to which radio frequency (RF) and direct current (DC) voltages are applied to each opposing pair of rods. 
-The QqQ operate in a synchronized manner to isolate ions of interest (according to the Mathieu function), induce fragmentation, and then detect the resulting fragment ions. 
-Specifically, first quadrupole (Q1) is a mass filter, where ions of a specific mass-to-charge ratio (m/z) are selected from the incoming ion beam. 
-This is achieved by adjusting the voltage applied to the pair rods within the quadrupole, allowing ions with a particular m/z value to pass through while deflecting others. 
-The second quadrupole (Q2), also known as the collision cell, is where selected ions from Q1 are fragmented into product ions. 
-This fragmentation happens due to the collisions between inert gas molecules (nitrogen, argon, or helium) and ions, which causes the ions to break up (fragment) into smaller pieces (fragment ions). 
-For more detail about peptide fragmentation, see the Tandem Mass Spectrometry section.
-This process is known as collision-induced dissociation (CID) [@PMID:16401509; @DOI:10.1021/ac00106a008]. 
-The Q2 is usually only subjected to RF potential and does not filter ions; instead, it transmits the product ions to the third quadrupole. 
-In some tandem mass spectrometry, hexapole or octupole are also using to replace quadrupole as the collision cell. 
-Lastly, the third quadrupole (Q3) acts as a secondary mass filter, similar to Q1, but with the purpose of selecting specific fragment ions produced in the collision cell while excluding other ions. 
-The chosen ions are then directed to the detector, where their abundance is measured (Figure 10.2). 
-This process, involving precursor ion selection, precursor ion fragmentation, and product ion detection, is a general operating principle in tandem mass spectrometry and determines what kind of scan mode you can utilize.
-A key characteristic and advantage of QqQ is the flexibility of choosing various scan modes [@DOI:10.1021/ac00219a003; @DOI:10.1002/jms.703;@DOI:10.1021/ac00106a008], such as the following.
+### Trapping and Pre-Columns
 
-#### 1. Product Ion Scan: 
-Q1 is set to filter a specific precursor ion, which is then fragmented in Q2. 
-Q3 scans the full range of product ion masses. 
-This mode is usually used to identify the structure of a particular compound. 
+Trapping and pre-columns are short chromatographic columns that are used to increase robustness of an LC-MS system. 
+A pre-column is connected directly to the front of the analytical column and is intended to be disposable and to absorb contaminants and protect the analytical column. 
+The trapping column is a connected indirectly to the analytical column through a valve. The valve can be switched to redirect the flow through the trapping column away from the analytical column. 
+This allows analytes to be loaded on the trapping column while analytes that are hydrophilic and poorly retained are washed away and do not contaminate the analytical column or the mass spectrometer. 
+This process is referred to as desalting, and once it is complete, the valve configuration is changed to connect the trapping column to the analytical column, and analytes captured on the trapping column can be eluted off the trap and through the analytical column for analysis by MS. 
+Certain trapping columns can be operated in both directions, which allows aggregates to be flushed away when the trapping column is cleaned in the reverse direction. 
+Additionally trapping columns are shorter and have less backpressure so they can be loaded with sample quickly at a fast flowrate. 
+Whereas loading the sample directly on the analytical column requires a slower flowrate. 
+Two trapping columns can be used in tandem to provide parallelization, while one trapping column is cleaned and loaded with samples the second trapping column is in line with the analytical column analyzing the sample that was loaded on it in the previous run [@DOI:10.1021/acs.analchem.2c02609; @DOI:10.1021/acs.analchem.3c00213].
 
-#### 2. Precursor Ion Scan: 
-Q3 is set to filter a specific product ion. 
-Q1 scans the full range of precursor ions, that when fragmented in Q2, yield the selected product ion. 
-This mode is used to find compounds that yield a specific fragment ion, which can be particularly useful when looking for compounds with a common structural motif. 
+### Multi Dimensional LC
 
-#### 3. Neutral Loss Scan: 
-Both Q1 and Q3 scan the full range of ions, but with a mass difference equal to a specific "neutral loss". 
-This mode is used to identify compounds that, when fragmented, lose a specific neutral molecule.
-
-#### 4. Multiple Reaction Monitoring (MRM): 
-Both Q1 and Q3 are set to filter specific ions (precursor and product, respectively). 
-This highly selective mode is used for quantitative analysis of specific compounds, offering excellent sensitivity and specificity[@DOI:10.1074/mcp.M500331-MCP200;@DOI:10.1007/s00216-003-2287-1].
-
-The triple quadrupole mass spectrometer is a highly versatile instrument, capable of both qualitative and quantitative analysis. 
-Enke and Yost at Michigan State University developed the first commercial triple-quadrupole mass spectrometer in the late 1970s[@DOI:10.1021/ja00475a072]. 
-QqQ is particularly well-suited for targeted quantitative analysis due to its high sensitivity, selectivity, and dynamic range, which has made it a go-to instrument in areas such as drug metabolism studies, environmental monitoring, food safety analysis, pharmaceuticals, and clinical diagnostics [@DOI:10.1002/jms.659;@DOI:10.1016/j.cbi.2008.09.014;@DOI:10.1039/C3AY41104D;@DOI:10.1016/j.clinms.2019.09.002].  
-However, Quadrupole suffer from inherent limitations in mass resolution due to the constraints of principles and precision in mechanical manufacturing. 
-Consequently, they face difficulties in accurately identifying unknown molecules within complex mixtures and thus not appropriate for applications like structure analysis and biomarker discovery. 
-
-![**Schematic diagram of typical QqQ system.**
-Three quadrupoles enable precursor selection, fragmentation, and the fragment ion selection.
-](images/MS_f102.svg){#fig:QQQ-diagram tag="2" width="100%"}
-
-### 2. Q-TOF
-Even though quadrupoles face difficulties in accurately identifying unknown peptides within complex mixtures due to its mass resolution, they serve effectively as mass filters, making them an excellent choice for combining with other high-resolution mass analyzers to form tandem mass spectrometry systems. 
-One commonly used approach is Quadrupole-Time-of-Flight Mass Spectrometer (Q-TOF-MS), a 'hybrid' device, integrating quadrupole techniques with a time-of-flight mass analyzer.
-W.E. Stephens constructed and published the design of the first time-of-flight (TOF) analyzer in 1946 [@doi:10.1103/PhysRev.69.674.2; @DOI:10.1063/1.1770801]. 
-The principle of TOF is quite straightforward: ions of different mass-to-charge ratios (m/z) are imparted with the same initial kinetic energy (E = Uq = ½ mv2) and then separated over time as they travel along a field-free drift path of known length. 
-If all ions begin their flight simultaneously, or at least within a short enough time span, the lighter ions will reach the detector before the heavier ones due to their faster velocity (V)[@DOI:10.1063/1.1715212]. 
-Based on this principle, the m/z of different ions can be calculated according to the order in which they reach the detector. 
-Similarly, we can easily conclude that the longer of the drift path, the higher of the mass resolution can reach if keep the response time of detector the same. 
-In fact, in pursuit of higher mass resolution, researchers have indeed built time-of-flight (TOF) drift tubes that are tens of meters long. 
-However, apparently, this is not practical for widely application in a regular lab place. 
-An alternative way to expand drift length and achieve higher resolution is to apply reflector (often called a reflectron). 
-The principles and advantages of using a reflector can be summarized as follows.
-
-Under ideal circumstances within a TOF mass spectrometer, ions sharing the same m/z would reach the detector concurrently post-acceleration, thus generating a sharp peak on the mass spectrum.
-However, the inherent oscillation path variability of ions within the mass spectrometer makes it challenging to maintain uniform initial kinetic energy amongst all ions, leading to peak broadening and a substantial reduction in mass resolution.
-The reflector is designed to rectify this issue. Comprising a series of electrodes that set to different voltages, the reflector generates a retarding electric field that reverses ion trajectories back through the flight tube.
-Notably, the reflector is engineered such that ions carrying lower kinetic energy delve less into the reflector and have a reduced flight path, while those with higher kinetic energy permeate more deeply and follow a longer flight path.
-This equalizes the variances in initial kinetic energy, enabling ions of the same m/z to hit the detector almost simultaneously, thereby enhancing the resolution of TOF.
-
-Furthermore, the usage of reflector effectively expands the flight path length within the same physical confines, resulting in superior ion separation and consequently, higher resolution.
-This reflection comes at the cost of some ion loss, and therefore some sensitivity loss. 
-As such, reflecting TOFs are the basis of most commercial instruments currently in use.
-
-The construction of a Q-TOF bears significant resemblance to a triple-quadrupole mass spectrometer, with the critical distinction that the third quadrupole has been replaced by a time-of-flight tube. 
-Figure 10.3 delineates the schematic of a typical Quadrupole-Time-of-Flight (Q-TOF) mass spectrometer, which comprises three fundamental components: 
-
-#### 1. Quadrupole mass analyzer (Q).
-This part of the instrument is basically the same to the Q1 in QqQ, which select specific m/z values to pass through by applying a combination of DC and RF voltages across the rods.
-
-#### 2. Collision cell.
-Here, selected ions undergo collision-induced dissociation (CID) by interacting with a neutral gas, leading to their fragmentation into smaller constituents.
-This process yields structural information about the original molecules.
-Usually, quadrupole, hexapole, or even octopole are used as the collision cell for better focusing and transporting.
-
-#### 3. Time-of-Flight (TOF) mass analyzer.
-Upon exiting the collision cell, the fragmented ions are reaccelerated into the ion modulator region of the time-of-flight analyzer.
-There, they undergo pulsing by a strong electric field (typically 20 kV or higher) and get accelerated to a field free drift tube, and then reflected to the detector.
-
-TOFs generally offer mass resolutions surpassing 50,000, rendering it a reliable instrument for identifying unknown compounds.
-Moreover, the rapid travel time of ions in the vacuum tube (at the nanosecond level) confers the Q-TOF with distinctive benefits in short gradient and high-throughput analyses [@DOI:10.1101/657908;@DOI:10.1021/acs.jproteome.1c00446;@DOI:10.1074/mcp.M400161-MCP200].
-Another advantage of TOF is its broad mass range, which allows for the detection of large proteins, nanoclusters, and even large particles[@DOI:10.1021/acs.analchem.0c04339; @DOI:10.1146/annurev-anchem-071213-020015;@DOI:10.1039/D1MA00261A].
-However, it should be noted that due to ion numbers and detector limitations, mass resolution is typically difficult to maintain over a wide mass range. 
-
-Presently, Q-TOF related instruments are available from all leading instrument manufacturers, and the main models are listed below:
-Sciex: “TripleTOF® 6600+”, “TripleTOF® 5600+” System and “X500R QTOF” System.
-Bruker Corporation: “Impact II”, “timsTOF” series, “microTOF-Q III”, “ultrafleXtreme-MALDI-TOF/TOF” and “maXis II”.
-Agilent Technologies: “Agilent 6530 Accurate-Mass Q-TOF”, “Agilent 6545 Accurate-Mass Q-TOF”, and “Agilent 6550 iFunnel Q-TOF”.
-Waters Corporation: “SYNAPT G2-Si HDMS”, “Xevo G2-XS QToF ” and “SYNAPT XS”.
-
-![**Schematic diagram of a typical quadrupole time-of-flight mass spectrometer.**
-Like a QQQ, a Q-TOF will have two quadrupoles for selection and fragmentation followed by the TOF for the final higher resolution separation and detection.
-](images/MS_f103.svg){#fig:q-tof-diagram tag="3" width="100%"}
-
-### 3. Q-Orbitrap
-Mass spectrometry that uses Orbitrap as the core mass analyzer is another critical pillar in the field of proteomics. 
-In the late 20th century, Russian scientist Alexander Makarov invented the Orbitrap [@DOI:10.1021/ac991131p], which is a novel mass analyzer that operates based on the principle of electrodynamic ion trapping and Fourier Transform. 
-The orbitrap consists of two main components: an inner spindle-like electrode and a coaxial outer barrel-like electrode (Figure 10.4 A). 
-The ions are trapped in an orbit around the spindle electrode due to the electrostatic attraction. 
-Once inside, the ions begin oscillating along the central axis of the device, or "orbiting", due to the electric field formed by the inner and outer electrodes. 
-The oscillation frequency of an ion is inversely proportional to the square root of its mass-to-charge ratio. 
-The frequency at which each ion oscillates induces an image current on the detector, which can be measured and transformed into a mass spectrum using Fourier transform. 
-
-The biggest difference between Orbitrap and other mass spectrometers (TOF, Q) is that it does not use ions to hit an induction device like an electron multiplier. 
-One of the main advantages of the Orbitrap is its ultra-high mass resolution, often exceeding 240,000 or even higher. 
-This gives the Orbitrap a significant superiority in the identification of unknown molecules such as peptides and metabolites[@DOI:10.1146/annurev-anchem-071114-040325;@DOI:10.1016/j.chroma.2010.02.022]. 
-Moreover, Orbitrap spectrometers are also appreciated for their compact structure, small size, robustness, and reliability.
-Just like the Q-TOF, the Orbitrap is also usually used for tandem mass spectrometry. 
-Figure 10.4 B demonstrates a typical 2D schematic diagram of Q-Orbitrap. 
-Ions first pass through an ion optics module, which consists of a high-capacity ion transfer tube (HCTT), an electrodynamic ion funnel (EDIF), and an advanced active beam guide (AABG). 
-These are designed to capture ions, reduce ion losses, prevent neutrals and high-velocity clusters from entering the quadrupole, and increase sensitivity. 
-The ions are then segmented by the quadrupole for precursor ion selection, and the selected ions are trapped by the ion-routing multipole for higher energy collisional dissociation. 
-Finally, the fragmented ions are captured once again by the C-trap and injected into the Orbitrap batch-by-batch for accurate mass-to-charge analysis. 
-Overall, this process still follows the logical sequence of precursor ions selection, precursor ions fragmentation, and fragment ions detection. 
-
-Compared to a TOF, one disadvantage of the Orbitrap is its longer cycle time (AGC pre-scan, ion injection, ion isolation, ion activation and mass analysis, usually >100ms), which is a negative factor for the currently favored short gradient, high-throughput analysis. 
-Another minor flaw of Orbitrap is the challenge encountered when trying to pair it with MALDI. 
-This primarily stems from the fact that MALDI uses a pulsed ionization technique, whereas Orbitrap operates continuously.
-This mismatch can lead to inefficiencies and challenges in coupling the two techniques. 
-At present, the Orbitrap still dominates important applications in almost all aspects of proteomics including biomarker discovery[@DOI:10.1186/s12014-015-9102-9], post-translational modification (PTM) analysis[@DOI:10.1093/database/baab012; @DOI:10.1038/nmeth.4334], quantitative proteomics (LFQ, TMT, iTRAQ)[@DOI:10.1021/acs.analchem.2c02249; @DOI:10.1021/jasms.3c00072; @DOI:10.1038/s41592-020-00999-z], protein-protein interaction studies[@DOI:10.1016/j.tibtech.2016.02.014] and structural proteomics[@DOI:10.1038/s41467-021-27588-8; @DOI:10.1021/acs.analchem.1c03274]. 
-It can perform both top-down and bottom-up analyses owing to its broad mass range, and is suitable for both Data-Dependent Acquisition (DDA) and Data-Independent Acquisition (DIA) methods. 
-Right now, the Orbitrap is still under patent protection and only one company, ThermoFisher, is allowed to manufacture related products. 
-Classic models from ThermoFisher include Orbitrap Ascend Tribrid, Orbitrap Eclipse™ Tribrid™, Orbitrap Fusion™ Lumos™, Orbitrap Exploris series (120, 240, 480) and Q Exactive™ series. 
-
-![**Schematic diagram of orbitrap.**
-(A) Close up of a orbitrap.
-(B) General schematic of complete Q-Orbitrap system.
-](images/MS_f104.svg){#fig:QE-diagram tag="4" width="100%"}
-
-### 4. Quadrupole Fourier Transform Ion Cyclotron Resonance (Q-FT-ICR)
-The Fourier Transform Ion Cyclotron Resonance (FT-ICR) mass spectrometer is a type of mass spectrometry that uses magnetic fields to separate ions based on their mass-to-charge ratio. 
-FT-ICR was first invented in 1974 by Alan G. Marshall and Melvin B. Comisarow from the University of British Columbia [@URL:https://www.sciencedirect.com/science/article/abs/pii/0009261474891372] and is widely recognized for its high mass resolution and precision, making it a highly valuable tool in many scientific fields including proteomics, metabolomics, petroleum analysis, and environmental science. 
-The central feature of an FT-ICR mass spectrometer is a superconducting magnet coupled with an ICR cell (Figure 10.5A). 
-This magnet creates a strong and homogeneous magnetic field in which ions are injected. 
-Once the ions are inside ICR cell, under the influence of the strong magnetic field, they follow a circular path with a very small orbital radius at a specific frequency directly proportional to their mass-to-charge ratio. 
-At this point, no detectable image current signal is generated by detector plates located inside the ICR cell. 
-To improve the signal, a voltage is applied by excitation plates and resonance occurs when the frequency of the strong magnetic field matches the cyclotron frequency of the ions. 
-The ions absorb radio frequency energy, which increases the radius of their circular path, and consequently, the excited ions move closer to the detector plates and generate a current. 
-The resulting signal is an oscillating pattern or a time-domain signal. 
-
-Similar to Orbitrap, this time-domain signal is then transformed into a frequency-domain signal using Fourier transform, hence the name Fourier Transform ion cyclotron resonance (ICR). 
-The Fourier transformed data forms a mass spectrum where each peak corresponds to a specific ion present in the sample. 
-One of the most important advantages of FT-ICR mass spectrometry is its exceptionally high mass resolution and mass accuracy, even for large and complex molecules. 
-This enables precise identification and characterization of a wide range of compounds in complex mixtures [@DOI:10.1002/mas.21438; @DOI:10.1071/EN15230]. 
-Moreover, FT-ICR mass spectrometry can be used for multiple stages of mass analysis (MSn), including tandem mass spectrometry (MS/MS), providing detailed information about the structure of ions. 
-Another significant benefit of FT-ICR is its broad mass range, making it possible to identify macromolecules like proteins for top-down proteomics [@DOI:10.1002/mas.20015;@DOI:10.1021/acs.analchem.7b04747]. 
-
-Despite its advantages, FT-ICR mass spectrometry is not without challenges. 
-The technique requires high-performance superconducting magnets, which are expensive for both initial purchase and further maintenance. 
-This is because FT-ICR requires liquid nitrogen and liquid helium cooling systems to keep the magnet at a sufficiently low temperature to maintain its superconducting state. 
-Moreover, the device demands high vacuum conditions and careful temperature control to maintain the stability of the magnetic field and the ion trajectories. 
-A schematic representation of a Q-FT-ICR system is shown in Figure 10.5 B. 
-In congruence with the tandem mass spectrometers elucidated earlier, ions pass through an array of ion optics modules which designed for ion focusing and purification. 
-Following this, the ions are selectively filtered by the first quadrupole. 
-After this filtration, precursor ions undergo fragmentation in the collision cell, which can be a quadrupole, hexapole, or octopole. 
-The fragmented ions are subsequently re-concentrated by the ensuing focusing lens. 
-Ultimately, these fragmented ions are trapped, excited, and detected within the ICR cell. 
-At present, commercial FT-ICR mass spectrometers are available in both Thermo Fisher Scientific (“LTQ FT Ultra” and “LTQ FT Ultra Hybrid” systems) and Bruker Daltonics (“solariX” and “apex” series).
-
-![**Schematic of FT-ICR.**
-(A) Typical FT-ICR cell.
-(B) Example of complete FT-ICR system.
-](images/MS_f105.svg){#fig:FT-ICR-diagram tag="5" width="100%"}
-
-### 5. Ion mobility
-In the context of omics research, a fundamental task is the separation, identification, and quantification of molecules in complex mixtures. 
-Mass spectrometry alone can only provide two-dimensional data including mass-to-charge ratio and their intensity. 
-Liquid chromatography contributes to the separation of compounds and further provides the third dimension of information, retention time (RT), which make LC-MS evolves as the “golden standard” for proteomic analysis [@DOI:10.1021/ac8013669; @DOI:10.1016/j.drudis.2009.02.007]. 
-Despite the substantial improvements in mass spectrometry resolution and liquid chromatography consistency, accurately identifying extremely similar molecules such as isomers with LC-MS remains a challenge. 
-Ion mobility mass spectrometry (IM-MS), a technique that utilizes electric fields to transport analytes through a buffer gas, is beneficial for separating and identifying ions based on their size, shape, and charge state. 
-This technique provides the fourth dimension of information, collision cross section (CCS), which allows for more comprehensive characterization of molecules [@DOI:10.1021/ac504720m]. 
-Apparently, multi-dimensional data is always beneficial for us to understand things comprehensively and accurately, thus getting closer to the truth. 
-
-In terms of mass spectrometry based proteomic analysis, adding CCS data can help us better separate, identify, and quantify peptides. 
-
-The core principle of ion mobility spectrometry is to separate ions in an inert gas under the influence of an electric field (E), and then measure the amount of time it takes for each ion to pass through drift tube, which is defined to be the steady-state drift velocity (Vd) correlated to the specific analyte’s mobility (K), as shown in Eq. 1. 
-                           Vd = KE                                                                                        (Eq.1)
-While the primary measurement in IMS analyses is the mobility (K), for many analytical applications, it has become routine to convert K into the calculated collision cross-section value (CCS or Ω) using Mason-Schamp equation (Eq. 3)[@DOI:10.1007/s13361-019-02288-2].  
-                        Ω=(3/16 〖(2π/μKT)〗^(1/2)  ze)/N0K0                                                               (Eq.2)                    
-The components of the equation are defined as follows: e, charge of an electron; z, ion charge; N0, buffer gas density; μ, reduced mass of the collision partners; kb, Boltzmann’s constant; and T, the drift region temperature. 
-Although the Mason-Schamp equation isn't universally embraced, it is currently the primary formula the community uses to compute CCS. 
-In basic terms, the CCS serves as a standard metric for the size in the gas phase, generally expressed in units of square Angströms (Å2). 
-However, according to the Eq.2, parameters including gas composition, working pressure, temperature within the mobility region, path of analyte movement, and the strength of the applied field can influence the final CCS value and may differ for each specific IMS platform. 
-Hence, direct comparison of CCS value between different platforms often requires calibration.  
-
-Generally, ion mobility techniques can be categorized into three separation concepts: (1) temporally dispersive, (2) spatially dispersive, and (3) ion confinement (trapping) and selective release (Figure 10.6 A) [@DOI:10.1021/ac8013669].
-Temporally dispersive methods produce an arrival time spectrum based on differences in the time it takes for ions to traverse a similar gas-filled drift region under the influence of an electric field. 
-Time-dispersive technique inherently provides an extensive examination of all signals detected during a given observation window. 
-However, a fundamental limitation of this wide-ranging analysis is the diminished sensitivity linked to a single time dispersion occurrence, which usually requires many (10−100) events to be aggregated to achieve statistically significant ion mobility measurements. 
-In contrast, spatially dispersive methods separate ions based on mobility differences (charge, shape and size), leading them on distinct drift paths or trajectories, but without significant time differences. 
-A characteristic of spatially dispersive techniques is the scanning of voltage to obtain a broad-band ion mobility spectrum.
-Types of spatially dispersive ion mobility include High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS), uniform-field differential mobility analyzers (DMA), and the newly introduced scanned frequency ion mobility filter called transverse modulation ion mobility spectrometry (TMIMS). 
-Ion confinement and release strategies are recently developed techniques which trap ions in a pressurized drift cell by electric field, and then releasing them based on mobility distinctions. 
-This technique relies on the ability to control the position of ions under elevated pressure conditions using precisely adjustable electrodynamic fields. 
-It requires a precise fabrication craft and more complicated control system. 
-While it has only been perfected recently, typical products like trapped ion mobility spectrometry (TIMS) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.trac.2019.03.030] and cyclic traveling wave IMS have become commercially available [@DOI:10.1021/acs.analchem.9b01838]. 
-Table 10.3 summarized typical ion mobility separation techniques, their separation concept, electric field direction, gas flow direction, strengths, and drawbacks. 
-Also, for three categories of ion mobility techniques, we have selected a typical technique from each for brief introduction. 
-
-Table 10.3 Typical ion mobility separation techniques.
-
-| Separation concept | Ion mobility techniques | Ion movement direction | Electric field direction | Drift Gas direction | Characteristics |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:----------------------------:|
-| Temporally Dispersive | drift tube IMS (DTIMS) | → | → | # | High mobility resolution (need long drift tube), direct measurement of CCS. Low speed, large size, low sensitivity,  | 
-| Temporally Dispersive | traveling wave IMS (TWIMS) | → |→→→ | # | High mobility resolution, faster than DTIMS. Low sensitivity, large size, low sensitivity, traveling electric field waves. | 
-| Spatially Dispersive| high-field asymmetric IMS (FAIMS) | → |↑↓| → | Good as mass filter, Fast. No CCS measurement (Compensation voltage instead), low mobility resolution. | 
-| Spatially Dispersive| transverse modulation IMS (TMIMS) | →|→ and ↑↓ | # | Transverse Modulation, compact instrumentation, orthogonal Separation, fast and high resolution| 
-| Confinement and Selective Release | trapped ion mobility spectrometry (TIMS) | → | ← | → | High mobility resolution, compact instrumentation, high sensitivity, high speed, high ion utilization rate| 
-| Confinement and Selective Release | multi-pass cyclic traveling wave IMS | → |→→→ | # | High mobility resolution, improved Signal-to-Noise ratio and sensitivity, versatility (from small molecules to large biomolecules) and adjustability (number of passes can often be adjusted)|
-
-'#' means stationary drift gas; →, ←, ↑↓ indicates drift gas direction or electric force direction; →→→ represents a wave and gradient electric field.
-
-![**Ion Mobility.**
-(A) Conceptional diagram of three types of ion mobility strategies.
-(B) Schematic of drift tube ion mobility spectrometry. 
-(C) Schematic of high field asymmetric waveform ion mobility spectrometry (FAIMS). 
-(D) Schematic of trapped ion mobility spectrometry (TIMS).
-](images/MS_f106.svg){#fig:IMS-diagram tag="6" width="100%"}
-
-#### 10.5.1. Drift Tube Ion Mobility Spectrometry (DTIMS)
-The principle of Drift Tube Ion Mobility Spectrometry (DTIMS) is based on the differential migration (time) of ions through a neutral buffer gas (commonly helium or nitrogen) under the influence of a weak uniform electric field (typically tens of V/cm). 
-The mobility (K) of an ion is proportional to its drift velocity (V) and inversely proportional to the strength of the applied electric field (E). 
-For ions with same charge states, the drift velocities are primarily determined by their collisional interactions with a buffer gas, namely, mainly affected by their shape and size. 
-To illustrate this process, imagine two objects with identical mass: a solid metal ball and a feather. Due to its lower density, the feather should have a larger volume than the ball. 
-When both are dropped from the same height, the solid ball reaches the ground before the feather because of air resistance. 
-This observation doesn't contradict Newton's law of universal gravitation, as we have accounted for air resistance. 
-In the context of DTIMS, the buffer gas in the drift tube acts as the “air resistance”, while the uniform electric field represents the “gravity”. 
-Hence, ions with the same mass-to-charge ratio are separated based on their shape and size. 
-This capability allows DTIMS to distinguish between isomeric compounds with identical masses but different structural configurations, given that these isomers might have distinct interactions with the drift gas. 
-Also, follow the intuition of the free fall example, in DTIMS, smaller ions will move faster and hit the detector earlier than larger ions in DTIMS (Figure 10.6 B).  
-DTIMS possess the strengths including high resolving power and allows for straightforward measurement of an ion's CCS from first principles[@DOI:10.1007/978-1-0716-0030-6_2; @DOI:10.1002/9780470027318.a9292.pub2]. 
-However, DTIMS also suffers from disadvantages including: 1) separation time is too long for all ions passing through the drift tube, relative to the accumulation time, which decreases the duty cycle. 
-2) A longer drift tube or higher pressure is needed for greater resolving power. 
-However, this inevitably increases ion diffusion and ion losses unless ion focusing techniques are employed. 
-3) Segmentation and collision between ions and gas molecules during the traveling process in drift tube reduces the sensitivity. 
-Continual advancements in DTIMS design and application of ion focusing techniques further pushed the mobility resolution of same DTIMS platforms to 100 to 250 (t/Δt) range or even greater. 
-
-#### 10.5.2 High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS)
-   High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS) represents a distinct version of spatially dispersive ion mobility spectrometry (IMS). 
-This technique differentiates ions utilizing a pronounced asymmetric oscillating electric field combined with a moving gas.
-The principle of FAIMS is based on the different trajectories of ions as they move through a high asymmetric electric field, which are determined by their physical structure and charge states [@DOI:10.1586/epr.12.50; @DOI:10.1021/acs.analchem.0c00649;@DOI:10.1021/acs.analchem.8b02233]. 
-In FAIMS, gas-phase ions are carried by a flow of carrier gas between two electrodes in a direction orthogonal to the direction of asymmetric electric field (E). 
-The asymmetric waveform electric field is typically characterized by a short, high-voltage pulse of one polarity followed by a longer, lower-voltage pulse of the opposite polarity. 
-An ion's mobility within such an electric field is determined by its charge state, its physical structure, and the properties of the surrounding gas it moves through. 
-Once the ions are subjected to an asymmetric electric field, the ions will alternate between travelling toward one electrode or the other as the field oscillates in polarity, resulting in a curved trajectories between the electrodes. 
-Some ions move more in the high field relative to the low field, and vice versa (Figure 10.6 C). 
-To differentiate between ions, a so-called "compensation voltage" (CV), which is a DC offset voltage that compensates for the differential ion movement in the high and low fields, is applied [@DOI:10.1016/j.chroma.2004.08.119]. 
-In this case, only ions with a specific response to the changing electric field and those that match the applied compensation voltage (CV) will have a zero net movement and are able to traverse the drift region to the detector, while others hit the electrode plate and be neutralized. 
-By scanning or modulating the CV, different ion species can be selectively transmitted through the FAIMS device. 
-In contrast to drift tube IMS in which the ion stream is sampled in discrete packets and all ions reach the detector, FAIMS is a continuous filtration technique that allows uninterrupted sampling of the ion stream, but only for a selected subset of the ion population. 
-One of the good advantages of this continuous collection technique is greatly increase the signal-to-noise ratio for the ion(s) of interest by removing unwanted chemical noise, which make FAIMS more like a mass filter rather than ion mobility spectrometry. 
-The drawback of FAIMS is it cannot produce any CCS value and its low resolving power. 
-Commercial FAIMS products from vendors including Thermo Fisher and WATERS are available now.
-
-
-#### 10.5.3 Trapped ion mobility spectrometry (TIMS)
-   Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
-The basic idea behind TIMS is a combination of traditional ion mobility spectrometry and ion trapping techniques. 
-Instead of driving ions through a drift tube filled with stationary gas, TIMS holds the ions stationary in a drift cell under a moving buffer gas and then release them by adjusting electric fields (voltages on electrodes). 
-This process was realized by applying two different electric fields: 
-1) Radially confining pseudopotential.
-An RF (radio frequency) voltage is applied to the electrodes of the TIMS analyzer to generate a radially confining pseudopotential, which essentially no axial component and only use for “focusing” ions in the central region of TIMS tube, preventing them from diffusion or hitting electrodes. 
-2) Axially electric field.
-An axially electric field gradient, produced by superimposing DC potentials on tunnel electrodes, is applied for “trapping” ions based on the equilibrium between the force of drift gas and the opposing force from the electric field gradient, which is stronger at the entrance and becomes progressively weaker moving deeper into the tunnel.
-
-As a result, once ions entered the device, lower mobilities ones are trapped at positions where the magnitude of axially electric field is larger, while higher mobilities ones are confined to deeper positions of tunnel where axially electric field is lower. 
-Then, after enough ions have been accumulated in the TIMS tunnel, additional ions are prevented from entering the tunnel region and residing ions are trapped for a short time (usually few milliseconds) which can be defined by users. 
-Finally, the magnitude of axially electric field is decreased at a user defined rate so that ions are eluted as an order of mobilities value (K) from high to low (Figure 10.6D). 
-The axially electric field gradient is set by a resistor divider. 
-Importantly, like other ion mobility strategies, the resolving power of TIMS is highly dependent on the length of the gas column through which the ions traverse. 
-In TIMS, ions are trapped in a specific location while buffer gas continuously flows past them. 
-Thus, the resolving power achieved by TIMS depends on the "quantity" of gas, specifically the length of the gas column, that passes by the ions during the separation time. 
-This offers the direct benefit of allowing the analyzer to maintain a compact physical size (around 5 cm) and achieve a high resolving power (R ∼ 300), while the analytical gas column – the portion that flows during an analysis – can be extensive (up to 10 m) and tailored to the user's needs. 
-Moreover, by leveraging the "trapping" capability (trapping time) of TIMS and the high scanning speeds of TOF, platforms such as TIMS-Q-TOF can implement a full duty cycle acquisition protocol known as Parallel Accumulation-Serial Fragmentation (PASEF) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.mcpro.2021.100138]. 
-This is particularly meaningful for identifying more peptides within a given time frame, such as capture more precursors from co-eluted peptides in the same liquid chromatography peak. 
-Currently, Bruker is the primary provider of commercial mass spectrometers that utilizing TIMS-tof technology. (TIMS-tof pro, TIMS-tof pro2, SCP.  etc.). 
-
-#### 10.5.4 Structures for Lossless Ion Manipulation (SLIM)
-A final type of ion mobility invented by Richard Smith and team at Pacific Northwest National Labs is called SLIM [@DOI:10.1021/ac502054p]. 
-This technology uses printed circuit boards to confine ions in long path lengths for high resolution ion mobility.
-Ions can be passed through the board multiple times to achieve over 1 km of pathlength for IMS separation [@DOI:10.1021/acs.analchem.7b00185].
-This technology is currently under commercial development by Mobilion known as Mobie [@DOI:10.1021/jasms.0c00434].
-
+Depth of profiling has previously been increased by combining two or more orthogonal LC separations. 
+Orthogonal in this context means that each separation sorts the analytes into different populations [@DOI:10.1016/j.chroma.2005.09.080].
+For example, a separation based on positive charge (strong cation exchange, SCX) separates analytes based on positive charge, and when paired with reversed phase chromatography results a higher peak capacity and more analytes identified. 
+The first highly popular method was multidimensional protein identification technology (MudPIT), which used online separation by SCX followed by C18 reversed phase [@DOI:10.1038/85686]. 
+However, the resolution of peptide separation by SCX is low, leading to the presence of peptides in many fractions. 
+The currently accepted most popular method for two-dimensional separation combines iterative reversed phase at different high and then low pH to sort analytes by changes in hydrophobicity due to changes in amino acid side chain ionization. 
+Although the separations are not entirely orthogonal, multiple fraction concatenation across the high pH elution can produce entirely orthogonal peptide sets [@DOI:10.1002/pmic.201000722]. 
+In recent years the focus of proteomics has shifted from deep profiling of fewer samples to rapid profiling of large cohorts. 
+Thus, lengthy multidimensional methods have been replaced with single shot experiments only using one dimension of high resolution reversed phase separation [@DOI:10.1021/acs.jproteome.2c00023]. 
+However peak capacity is regained by using ion mobility spectrometry (separation of ionized peptides in the gas phase).
 
 
 ## Peptide Ionization {.page_break_before}
@@ -1628,9 +1363,9 @@ These two techniques were so impactful that the 2002 Nobel Prize in Chemistry wa
 The term, Matrix-assisted LASER desorption ionization (MALDI), was coined by Hillenkamp and Karas in 1985[@URL:https://pubs.acs.org/doi/abs/10.1021/ac00291a042]. 
 Karas and Hillenkamp discovered the MALDI technique first, although a similar ionization method was shown by Koichi Tanaka in 1988 [@DOI:10.1002/rcm.1290020802]. 
 A few months later, Karas and Hillenkamp also demonstrated MALDI applied to protein ionization [@DOI:10.1021/ac00171a028].
-It also created a controversy that the widely used method of MALDI from these two people had been overlooked, and the Nobel prize was awarded to Tanaka, whose system was rarely used[@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
+It also created a controversy that the widely used method of MALDI from these two people had been overlooked, and the Nobel prize was awarded to Tanaka, whose system was rarely used [@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
 
-MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound.
+MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound (**Figure 5**).
 Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@PMID:23681820].
 Subsequently, the analyte is placed in a vacuum chamber in which it is irradiated with a LASER, usually at 337nm [@DOI:10.1021/cr010375i].
 This laser energy is absorbed by the matrix, which then transfers that energy along with its free protons to the co-crystalized peptides without significantly breaking them.
@@ -1643,13 +1378,13 @@ Peptides ionized by MALDI almost always take up a single charge and thus observe
 #### MALDI Mechanism
 ![**MALDI**
 The analyte-matrix mixture is irradiated by a laser source, leading to ablation. 
-Desorption and proton transfer ionize the analyte molecules that can then be accelerated into a mass spectrometer.](images/MALDI.png){#fig:MALDI-mechanism tag="1" width="100%"}
+Desorption and proton transfer ionize the analyte molecules that can then be accelerated into a mass spectrometer.](images/MALDI.png){#fig:MALDI-mechanism tag="5" width="100%"}
 
 ### Electrospray Ionization
 ESI was first applied to peptides by John Fenn and coworkers in 1989 [@DOI:10.1126/science.2675315].
 Concepts related to electrospray Ionization (ESI) were published at least as early as 1882, when Lord Rayleigh described the number of charges that could assemble on the surface of a droplet [@DOI:10.1080/14786448208628425]. 
 ESI is usually coupled with reverse-phase liquid-chromatography of peptides directly interfaced to a mass spectrometer.
-A high voltage (~ 2 kV) is applied between the spray needle and the mass spectrometer.
+A high voltage (~ 2 kV) is applied between the spray needle and the mass spectrometer (**Figure 6**).
 As solvent exits the needle, it forms droplets that take on charge at the surface, and through a debated mechanism, those charges are imparted to peptide ions.
 The liquid phase is generally kept acidic to help impart protons easily to the analytes.
 
@@ -1660,7 +1395,7 @@ Evidence suggests that the distribution of peptide charge states can be maniupul
 
 #### Electrospray Mechanism
 ![**Electrospray Ionization** 
-Charged droplets are formed, their size is reduced due to evaporation until charge repulsion leads to Coulomb fission and results in charged analyte molecules.](images/ESI.png){#fig:ESI-mechanism tag="1" width="100%"}
+Charged droplets are formed, their size is reduced due to evaporation until charge repulsion leads to Coulomb fission and results in charged analyte molecules.](images/ESI.png){#fig:ESI-mechanism tag="6" width="100%"}
 
 The main goal of ESI is the production of gas-phase ions from electrolyte ions in solution. 
 During the process of ionization, the solution emerging from the electrospray needle or capillary is distorted into a Taylor cone and charged droplets are formed.
@@ -1824,6 +1559,371 @@ On the orbitrap, the combination of FAIMS and DIA has enabled the identification
 
 
 
+
+
+
+## Types of Mass Spectrometers used for Proteomics {.page_break_before}
+### Mass spectrometry
+Mass spectrometry is a science of ions; it serves as a sophisticated instrument for determining the masses of compounds and elements. 
+It can be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lower. 
+Since J.J. Thomson's initial exploration in 1912, the field of mass spectrometry has undergone numerous improvements, spanning from isotope assessment to the interpretation of biomacromolecules [@DOI:10.1021/ac8013065], all thanks to the combined efforts of diverse fields like chemistry, physics, electronic engineering, and computer science. 
+Nowadays, with the rapid improvement of sensitivity, mass resolution, tandem mass spectrometry methods and dissociation methods, mass spectrometers have evolved as a core tool for proteomics (and metabolomic) analysis.
+It is precisely the widespread application of mass spectrometry in proteomics analysis that has given rise to more instrument manufacturers and a greater diversity of mass spectrometer types. 
+This also brings a happy annoyance to many beginners or researchers in other fields who have no background in mass spectrometry: which manufacturer and which type of mass spectrometry should I choose to analyze my samples? 
+Here, to help new learners build a basic understanding faster, we will briefly introduce some basic concepts, common types of mass spectrometers, and their suitable application scenarios. 
+
+### Mass Spectrometer Structure and Basic Principles   
+The fundamental principle of mass spectrometry revolves around specific physical processes that can be described by various mathematical formulas. 
+Since this article serves as a guide for those new to the field, particularly those from a biology background, we've chosen to steer clear of delving too deeply into intricate mathematical and physical explanations. 
+However, for those keen on a deeper understanding, we've included references pertaining to these foundational principles. 
+In this piece, our focus lies on introducing fundamental concepts and outlining the typical workflow in mass spectrometry.
+
+The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge ratio (m/z), and then detect them by their respective m/z and abundance. 
+The successful implementation and demonstration of this process requires participation of five fundamental systems (**Figure 7**):
+
+#### 1)	The ion source.
+This is where gas phase ions are generated.
+Common methods of ionization in mass spectrometry includes electrospray ionization (ESI), matrix assisted laser desorption ionization (MALDI), atmospheric pressure chemical ionization (APCI), electron ionization (EI) and chemical ionization (CI) [@DOI:10.1016/j.aca.2015.07.012; @DOI:10.1080/05704928.2014.954046].
+For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter and no more redundance here.
+
+#### 2)	The mass analyzer.
+This is where gas phase ions are separated according to their mass-to-charge ratio (m/z) based on physics principles.
+There are several types of mass analyzers applied in mass spectrometry, such as time-of-flight (TOF), quadrupole, ion trap, orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), and magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 10.1).
+For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
+Mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
+
+#### 3)	The detector.
+This is where separated ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
+Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with their strengths and limitations, are illustrated in Table 10.2.
+It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
+Instead, they detect ions in a fundamentally different way by detecting image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
+In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.
+This signal is then processed to extract the frequencies of oscillation and fourier-transformed into a mass spectrum, which is quite different from other types of detectors that count individual ions or particles striking a surface.
+
+#### 4)	The vacuum system.
+This is designed to maintain a vacuum environment for ions’ movement inside the instrument, consists of different type of pumps including rough vacuum pumps (rotary vane pumps, scroll pumps) and high vacuum pumps (turbo molecular pumps, diffusion pumps).
+The reason for maintaining a high vacuum is to reduce the collision between ions and gas molecules during their travel, which can affect their trajectory.
+FT-ICR and Orbitrap instruments usually require higher vacuum in the 10-9 to 10-11 Torr level, while TOFs require medium vacuum in the 10-7  to 10-8 Torr range, and Quadrupole and Ion trap require a relative lower vacuum in the 10-5  to 10-6 Torr range. 
+
+#### 5)	The control system.
+This is needed to regulate and coordinate the various parts of the mass spectrometer to ensure seamless functioning.
+This typically includes ion source control, mass analyzer control, detector control, data acquisition control, interfacing with auxiliary systems (such as a liquid chromatograph and gas chromatograph), and modules for instrument diagnostics and calibration.
+
+![**Diagram of typical mass spectrometer modules.**
+Systems must have an ion source, mass analyzer, detector, vacuum system, and control system.
+](images/MS_f101.svg){#fig:MS-diagram tag="7" width="100%"}
+
+Table 10-1 Common mass analyzers.
+
+| Type     | Acronym  | Principle          | Characteristics      |
+|:--------:|:--------:|:------------------:|:--------------------:|
+| Time-of-flight | TOF | Time dispersion of a pulsed ion beam; separation by the time it takes for ions to travel a fixed distance|High-speed analysis, large mass range and good sensitivity. Suited for fast data acquisition and high-throughput applications. Modern TOF systems usually can achieve mass resolution well over 10,000 (m/Δm) or even higher. |
+| Linear quadrupole | Q | Continuous ion beam in linear radio frequency quadrupole field; separation due to instability of ion trajectories |High transmission efficiency, simple design, good sensitivity, and tunable mass range; relatively low mass resolution ranges from several hundreds to a thousand; often used in tandem mass spectrometry (MS/MS) experiments |
+| Quadrupole ion trap | QIT | Traps ions by electromagnetic fields; separation in three-dimensional radio frequency quadrupole field by resonant excitation |Efficient for fragmenting ions and structural elucidation, higher sensitivity, and relatively compact which good for benchtop instruments. Relatively a low mass resolution around 1,000 - 3,000. |
+| Fourier transform-ion cyclotron resonance | FT-ICR | Traps ions in a strong magnetic field by Lorentz force; separation by cyclotron frequency, image current detection and Fourier transformation of transient signal |Ultimate high mass resolution (up to 1,000,000), making it ideal for elemental and isotopic analysis. Large size, low speed, and expensive in terms of both initial purchase cost and ongoing operation and maintenance costs. |
+| Orbitrap | Orbitrap | Axial oscillation in inhomogeneous electric field; detection of frequency after Fourier transformation of transient signal |Extremely high resolution and accuracy (up to 500,000), capable of resolving complex mixtures with high sensitivity. Relatively low speed, expensive in terms of both initial purchase cost and ongoing operation and maintenance costs. Need high vacuum. |
+
+Table 10.2 Common detectors.
+
+|   Type   | Principle |   Characteristics |
+|:--------:|:---------:|:-----------------:|
+| Electron Multiplier | Amplifies signals by utilizing a sequence of dynodes that emit secondary electrons when struck by an incident electron, creating a cascading effect. This results in an amplified output current at the final anode, proportional to the intensity of the initial signal. | Very good signal amplification to even one electron (may cause more noise dependent on gain), high sensitivity, need high vacuum and high voltage, expensive. Limited dynamic range, finite lifespan and need to be replaced periodically |
+| Faraday Cup | Charged particles, such as ions or electrons, enter the cup and transfer their charge to it, causing a change in electric potential that can be measured over time to infer the number of particles. | Suitable for particles and charge state detection. Simplicity and robustness, Wide dynamic range, no need for high voltage and high vacuum. Lower sensitivity. Sensitive to Secondary Emission directional sensitivity (direction of incoming particles)|
+| Microchannel Plate | Similar to electron multiplier, a two-dimensional matrix or "plate" of many tiny, parallel, hollow channels made from a type of glass that can generate secondary electron emissions upon incident particles striking the channel walls.  These secondary emissions create an electron avalanche down the channels and amplifies the original signal. | Signal Amplification (Not as good as electron multiplier, but lower noise), Spatial Resolution ability, shorter life expectancy due to channel aging and depletion of the secondary emission material, smaller and cheaper than electron multiplier |
+| Daly Detector | Directing ions onto a surface (Doorknob) to trigger the emission of electrons, which are then accelerated towards a phosphor screen to produce photons, that are subsequently detected and amplified by a photomultiplier tube, thereby converting the ion signal into a measurable electrical signal. | High gain, ruggedness, wide dynamic range, suitable for high mass and high energy ions. Limited mass resolution, larger size and need high voltage, finite lifespan. |
+
+### Types of mass spectrometers used for proteomics. 
+Typically, mass spectrometers are named based on the abbreviations of their principal or tandem mass analyzers. 
+This naming convention stems from the fact that the mass analyzer forms the core component of a mass spectrometer, and it also dictates key performance attributes such as mass resolution, scanning speed, sensitivity, and cycle time. 
+These performance metrics, in turn, determine what type of analysis we can conduct, its speed and its accuracy. 
+Next, we will focus on introducing several classic tandem mass spectrometry types commonly used in proteomics.
+
+### 1. Triple quadrupole (QQQ).
+Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS), as suggested by the name, is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 8**). 
+Each quadrupole is essentially a set of four parallel metal rods to which radio frequency (RF) and direct current (DC) voltages are applied to each opposing pair of rods. 
+The QqQ operate in a synchronized manner to isolate ions of interest (according to the Mathieu function), induce fragmentation, and then detect the resulting fragment ions. 
+Specifically, first quadrupole (Q1) is a mass filter, where ions of a specific mass-to-charge ratio (m/z) are selected from the incoming ion beam. 
+This is achieved by adjusting the voltage applied to the pair rods within the quadrupole, allowing ions with a particular m/z value to pass through while deflecting others. 
+The second quadrupole (Q2), also known as the collision cell, is where selected ions from Q1 are fragmented into product ions. 
+This fragmentation happens due to the collisions between inert gas molecules (nitrogen, argon, or helium) and ions, which causes the ions to break up (fragment) into smaller pieces (fragment ions). 
+For more detail about peptide fragmentation, see the Tandem Mass Spectrometry section.
+This process is known as collision-induced dissociation (CID) [@PMID:16401509; @DOI:10.1021/ac00106a008]. 
+The Q2 is usually only subjected to RF potential and does not filter ions; instead, it transmits the product ions to the third quadrupole. 
+In some tandem mass spectrometry, hexapole or octupole are also using to replace quadrupole as the collision cell. 
+Lastly, the third quadrupole (Q3) acts as a secondary mass filter, similar to Q1, but with the purpose of selecting specific fragment ions produced in the collision cell while excluding other ions. 
+The chosen ions are then directed to the detector, where their abundance is measured (Figure 10.2). 
+This process, involving precursor ion selection, precursor ion fragmentation, and product ion detection, is a general operating principle in tandem mass spectrometry and determines what kind of scan mode you can utilize.
+A key characteristic and advantage of QqQ is the flexibility of choosing various scan modes [@DOI:10.1021/ac00219a003; @DOI:10.1002/jms.703;@DOI:10.1021/ac00106a008], such as the following.
+
+#### 1. Product Ion Scan: 
+Q1 is set to filter a specific precursor ion, which is then fragmented in Q2. 
+Q3 scans the full range of product ion masses. 
+This mode is usually used to identify the structure of a particular compound. 
+
+#### 2. Precursor Ion Scan: 
+Q3 is set to filter a specific product ion. 
+Q1 scans the full range of precursor ions, that when fragmented in Q2, yield the selected product ion. 
+This mode is used to find compounds that yield a specific fragment ion, which can be particularly useful when looking for compounds with a common structural motif. 
+
+#### 3. Neutral Loss Scan: 
+Both Q1 and Q3 scan the full range of ions, but with a mass difference equal to a specific "neutral loss". 
+This mode is used to identify compounds that, when fragmented, lose a specific neutral molecule.
+
+#### 4. Multiple Reaction Monitoring (MRM): 
+Both Q1 and Q3 are set to filter specific ions (precursor and product, respectively). 
+This highly selective mode is used for quantitative analysis of specific compounds, offering excellent sensitivity and specificity[@DOI:10.1074/mcp.M500331-MCP200;@DOI:10.1007/s00216-003-2287-1].
+
+The triple quadrupole mass spectrometer is a highly versatile instrument, capable of both qualitative and quantitative analysis. 
+Enke and Yost at Michigan State University developed the first commercial triple-quadrupole mass spectrometer in the late 1970s[@DOI:10.1021/ja00475a072]. 
+QqQ is particularly well-suited for targeted quantitative analysis due to its high sensitivity, selectivity, and dynamic range, which has made it a go-to instrument in areas such as drug metabolism studies, environmental monitoring, food safety analysis, pharmaceuticals, and clinical diagnostics [@DOI:10.1002/jms.659;@DOI:10.1016/j.cbi.2008.09.014;@DOI:10.1039/C3AY41104D;@DOI:10.1016/j.clinms.2019.09.002].  
+However, Quadrupole suffer from inherent limitations in mass resolution due to the constraints of principles and precision in mechanical manufacturing. 
+Consequently, they face difficulties in accurately identifying unknown molecules within complex mixtures and thus not appropriate for applications like structure analysis and biomarker discovery. 
+
+![**Schematic diagram of typical QqQ system.**
+Three quadrupoles enable precursor selection, fragmentation, and the fragment ion selection.
+](images/MS_f102.svg){#fig:QQQ-diagram tag="8" width="100%"}
+
+### 2. Q-TOF
+Even though quadrupoles face difficulties in accurately identifying unknown peptides within complex mixtures due to its mass resolution, they serve effectively as mass filters, making them an excellent choice for combining with other high-resolution mass analyzers to form tandem mass spectrometry systems. 
+One commonly used approach is Quadrupole-Time-of-Flight Mass Spectrometer (Q-TOF-MS), a 'hybrid' device, integrating quadrupole techniques with a time-of-flight mass analyzer.
+W.E. Stephens constructed and published the design of the first time-of-flight (TOF) analyzer in 1946 [@doi:10.1103/PhysRev.69.674.2; @DOI:10.1063/1.1770801]. 
+The principle of TOF is quite straightforward: ions of different mass-to-charge ratios (m/z) are imparted with the same initial kinetic energy (E = Uq = ½ mv2) and then separated over time as they travel along a field-free drift path of known length. 
+If all ions begin their flight simultaneously, or at least within a short enough time span, the lighter ions will reach the detector before the heavier ones due to their faster velocity (V)[@DOI:10.1063/1.1715212]. 
+Based on this principle, the m/z of different ions can be calculated according to the order in which they reach the detector. 
+Similarly, we can easily conclude that the longer of the drift path, the higher of the mass resolution can reach if keep the response time of detector the same. 
+In fact, in pursuit of higher mass resolution, researchers have indeed built time-of-flight (TOF) drift tubes that are tens of meters long. 
+However, apparently, this is not practical for widely application in a regular lab place. 
+An alternative way to expand drift length and achieve higher resolution is to apply reflector (often called a reflectron). 
+The principles and advantages of using a reflector can be summarized as follows.
+
+Under ideal circumstances within a TOF mass spectrometer, ions sharing the same m/z would reach the detector concurrently post-acceleration, thus generating a sharp peak on the mass spectrum.
+However, the inherent oscillation path variability of ions within the mass spectrometer makes it challenging to maintain uniform initial kinetic energy amongst all ions, leading to peak broadening and a substantial reduction in mass resolution.
+The reflector is designed to rectify this issue. Comprising a series of electrodes that set to different voltages, the reflector generates a retarding electric field that reverses ion trajectories back through the flight tube.
+Notably, the reflector is engineered such that ions carrying lower kinetic energy delve less into the reflector and have a reduced flight path, while those with higher kinetic energy permeate more deeply and follow a longer flight path.
+This equalizes the variances in initial kinetic energy, enabling ions of the same m/z to hit the detector almost simultaneously, thereby enhancing the resolution of TOF.
+
+Furthermore, the usage of reflector effectively expands the flight path length within the same physical confines, resulting in superior ion separation and consequently, higher resolution.
+This reflection comes at the cost of some ion loss, and therefore some sensitivity loss. 
+As such, reflecting TOFs are the basis of most commercial instruments currently in use.
+
+The construction of a Q-TOF bears significant resemblance to a triple-quadrupole mass spectrometer, with the critical distinction that the third quadrupole has been replaced by a time-of-flight tube. 
+**Figure 9** delineates the schematic of a typical Quadrupole-Time-of-Flight (Q-TOF) mass spectrometer, which comprises three fundamental components: 
+
+#### 1. Quadrupole mass analyzer (Q).
+This part of the instrument is basically the same to the Q1 in QqQ, which select specific m/z values to pass through by applying a combination of DC and RF voltages across the rods.
+
+#### 2. Collision cell.
+Here, selected ions undergo collision-induced dissociation (CID) by interacting with a neutral gas, leading to their fragmentation into smaller constituents.
+This process yields structural information about the original molecules.
+Usually, quadrupole, hexapole, or even octopole are used as the collision cell for better focusing and transporting.
+
+#### 3. Time-of-Flight (TOF) mass analyzer.
+Upon exiting the collision cell, the fragmented ions are reaccelerated into the ion modulator region of the time-of-flight analyzer.
+There, they undergo pulsing by a strong electric field (typically 20 kV or higher) and get accelerated to a field free drift tube, and then reflected to the detector.
+
+TOFs generally offer mass resolutions surpassing 50,000, rendering it a reliable instrument for identifying unknown compounds.
+Moreover, the rapid travel time of ions in the vacuum tube (at the nanosecond level) confers the Q-TOF with distinctive benefits in short gradient and high-throughput analyses [@DOI:10.1101/657908;@DOI:10.1021/acs.jproteome.1c00446;@DOI:10.1074/mcp.M400161-MCP200].
+Another advantage of TOF is its broad mass range, which allows for the detection of large proteins, nanoclusters, and even large particles[@DOI:10.1021/acs.analchem.0c04339; @DOI:10.1146/annurev-anchem-071213-020015;@DOI:10.1039/D1MA00261A].
+However, it should be noted that due to ion numbers and detector limitations, mass resolution is typically difficult to maintain over a wide mass range. 
+
+Presently, Q-TOF related instruments are available from all leading instrument manufacturers, and the main models are listed below:
+Sciex: “TripleTOF® 6600+”, “TripleTOF® 5600+” System and “X500R QTOF” System.
+Bruker Corporation: “Impact II”, “timsTOF” series, “microTOF-Q III”, “ultrafleXtreme-MALDI-TOF/TOF” and “maXis II”.
+Agilent Technologies: “Agilent 6530 Accurate-Mass Q-TOF”, “Agilent 6545 Accurate-Mass Q-TOF”, and “Agilent 6550 iFunnel Q-TOF”.
+Waters Corporation: “SYNAPT G2-Si HDMS”, “Xevo G2-XS QToF ” and “SYNAPT XS”.
+
+![**Schematic diagram of a typical quadrupole time-of-flight mass spectrometer.**
+Like a QQQ, a Q-TOF will have two quadrupoles for selection and fragmentation followed by the TOF for the final higher resolution separation and detection.
+](images/MS_f103.svg){#fig:q-tof-diagram tag="9" width="100%"}
+
+### 3. Q-Orbitrap
+Mass spectrometry that uses Orbitrap as the core mass analyzer is another critical pillar in the field of proteomics. 
+In the late 20th century, Russian scientist Alexander Makarov invented the Orbitrap [@DOI:10.1021/ac991131p], which is a novel mass analyzer that operates based on the principle of electrodynamic ion trapping and Fourier Transform. 
+The orbitrap consists of two main components: an inner spindle-like electrode and a coaxial outer barrel-like electrode (**Figure 10A**). 
+The ions are trapped in an orbit around the spindle electrode due to the electrostatic attraction. 
+Once inside, the ions begin oscillating along the central axis of the device, or "orbiting", due to the electric field formed by the inner and outer electrodes. 
+The oscillation frequency of an ion is inversely proportional to the square root of its mass-to-charge ratio. 
+The frequency at which each ion oscillates induces an image current on the detector, which can be measured and transformed into a mass spectrum using Fourier transform. 
+
+The biggest difference between Orbitrap and other mass spectrometers (TOF, Q) is that it does not use ions to hit an induction device like an electron multiplier. 
+One of the main advantages of the Orbitrap is its ultra-high mass resolution, often exceeding 240,000 or even higher. 
+This gives the Orbitrap a significant superiority in the identification of unknown molecules such as peptides and metabolites[@DOI:10.1146/annurev-anchem-071114-040325;@DOI:10.1016/j.chroma.2010.02.022]. 
+Moreover, Orbitrap spectrometers are also appreciated for their compact structure, small size, robustness, and reliability.
+Just like the Q-TOF, the Orbitrap is also usually used for tandem mass spectrometry. 
+**Figure 10B** demonstrates a typical 2D schematic diagram of Q-Orbitrap. 
+Ions first pass through an ion optics module, which consists of a high-capacity ion transfer tube (HCTT), an electrodynamic ion funnel (EDIF), and an advanced active beam guide (AABG). 
+These are designed to capture ions, reduce ion losses, prevent neutrals and high-velocity clusters from entering the quadrupole, and increase sensitivity. 
+The ions are then segmented by the quadrupole for precursor ion selection, and the selected ions are trapped by the ion-routing multipole for higher energy collisional dissociation. 
+Finally, the fragmented ions are captured once again by the C-trap and injected into the Orbitrap batch-by-batch for accurate mass-to-charge analysis. 
+Overall, this process still follows the logical sequence of precursor ions selection, precursor ions fragmentation, and fragment ions detection. 
+
+Compared to a TOF, one disadvantage of the Orbitrap is its longer cycle time (AGC pre-scan, ion injection, ion isolation, ion activation and mass analysis, usually >100ms), which is a negative factor for the currently favored short gradient, high-throughput analysis. 
+Another minor flaw of Orbitrap is the challenge encountered when trying to pair it with MALDI. 
+This primarily stems from the fact that MALDI uses a pulsed ionization technique, whereas Orbitrap operates continuously.
+This mismatch can lead to inefficiencies and challenges in coupling the two techniques. 
+At present, the Orbitrap still dominates important applications in almost all aspects of proteomics including biomarker discovery[@DOI:10.1186/s12014-015-9102-9], post-translational modification (PTM) analysis[@DOI:10.1093/database/baab012; @DOI:10.1038/nmeth.4334], quantitative proteomics (LFQ, TMT, iTRAQ)[@DOI:10.1021/acs.analchem.2c02249; @DOI:10.1021/jasms.3c00072; @DOI:10.1038/s41592-020-00999-z], protein-protein interaction studies[@DOI:10.1016/j.tibtech.2016.02.014] and structural proteomics[@DOI:10.1038/s41467-021-27588-8; @DOI:10.1021/acs.analchem.1c03274]. 
+It can perform both top-down and bottom-up analyses owing to its broad mass range, and is suitable for both Data-Dependent Acquisition (DDA) and Data-Independent Acquisition (DIA) methods. 
+Right now, the Orbitrap is still under patent protection and only one company, ThermoFisher, is allowed to manufacture related products. 
+Classic models from ThermoFisher include Orbitrap Ascend Tribrid, Orbitrap Eclipse™ Tribrid™, Orbitrap Fusion™ Lumos™, Orbitrap Exploris series (120, 240, 480) and Q Exactive™ series. 
+
+![**Schematic diagram of orbitrap.**
+(A) Close up of a orbitrap.
+(B) General schematic of complete Q-Orbitrap system.
+](images/MS_f104.svg){#fig:QE-diagram tag="10" width="100%"}
+
+### 4. Quadrupole Fourier Transform Ion Cyclotron Resonance (Q-FT-ICR)
+The Fourier Transform Ion Cyclotron Resonance (FT-ICR) mass spectrometer is a type of mass spectrometry that uses magnetic fields to separate ions based on their mass-to-charge ratio. 
+FT-ICR was first invented in 1974 by Alan G. Marshall and Melvin B. Comisarow from the University of British Columbia [@URL:https://www.sciencedirect.com/science/article/abs/pii/0009261474891372] and is widely recognized for its high mass resolution and precision, making it a highly valuable tool in many scientific fields including proteomics, metabolomics, petroleum analysis, and environmental science. 
+The central feature of an FT-ICR mass spectrometer is a superconducting magnet coupled with an ICR cell (**Figure 11A**). 
+This magnet creates a strong and homogeneous magnetic field in which ions are injected. 
+Once the ions are inside ICR cell, under the influence of the strong magnetic field, they follow a circular path with a very small orbital radius at a specific frequency directly proportional to their mass-to-charge ratio. 
+At this point, no detectable image current signal is generated by detector plates located inside the ICR cell. 
+To improve the signal, a voltage is applied by excitation plates and resonance occurs when the frequency of the strong magnetic field matches the cyclotron frequency of the ions. 
+The ions absorb radio frequency energy, which increases the radius of their circular path, and consequently, the excited ions move closer to the detector plates and generate a current. 
+The resulting signal is an oscillating pattern or a time-domain signal. 
+
+Similar to Orbitrap, this time-domain signal is then transformed into a frequency-domain signal using Fourier transform, hence the name Fourier Transform ion cyclotron resonance (ICR). 
+The Fourier transformed data forms a mass spectrum where each peak corresponds to a specific ion present in the sample. 
+One of the most important advantages of FT-ICR mass spectrometry is its exceptionally high mass resolution and mass accuracy, even for large and complex molecules. 
+This enables precise identification and characterization of a wide range of compounds in complex mixtures [@DOI:10.1002/mas.21438; @DOI:10.1071/EN15230]. 
+Moreover, FT-ICR mass spectrometry can be used for multiple stages of mass analysis (MSn), including tandem mass spectrometry (MS/MS), providing detailed information about the structure of ions. 
+Another significant benefit of FT-ICR is its broad mass range, making it possible to identify macromolecules like proteins for top-down proteomics [@DOI:10.1002/mas.20015;@DOI:10.1021/acs.analchem.7b04747]. 
+
+Despite its advantages, FT-ICR mass spectrometry is not without challenges. 
+The technique requires high-performance superconducting magnets, which are expensive for both initial purchase and further maintenance. 
+This is because FT-ICR requires liquid nitrogen and liquid helium cooling systems to keep the magnet at a sufficiently low temperature to maintain its superconducting state. 
+Moreover, the device demands high vacuum conditions and careful temperature control to maintain the stability of the magnetic field and the ion trajectories. 
+A schematic representation of a Q-FT-ICR system is shown in **Figure 11B**. 
+In congruence with the tandem mass spectrometers elucidated earlier, ions pass through an array of ion optics modules which designed for ion focusing and purification. 
+Following this, the ions are selectively filtered by the first quadrupole. 
+After this filtration, precursor ions undergo fragmentation in the collision cell, which can be a quadrupole, hexapole, or octopole. 
+The fragmented ions are subsequently re-concentrated by the ensuing focusing lens. 
+Ultimately, these fragmented ions are trapped, excited, and detected within the ICR cell. 
+At present, commercial FT-ICR mass spectrometers are available in both Thermo Fisher Scientific (“LTQ FT Ultra” and “LTQ FT Ultra Hybrid” systems) and Bruker Daltonics (“solariX” and “apex” series).
+
+![**Schematic of FT-ICR.**
+(A) Typical FT-ICR cell.
+(B) Example of complete FT-ICR system.
+](images/MS_f105.svg){#fig:FT-ICR-diagram tag="11" width="100%"}
+
+### 5. Ion mobility
+In the context of omics research, a fundamental task is the separation, identification, and quantification of molecules in complex mixtures. 
+Mass spectrometry alone can only provide two-dimensional data including mass-to-charge ratio and their intensity. 
+Liquid chromatography contributes to the separation of compounds and further provides the third dimension of information, retention time (RT), which make LC-MS evolves as the “golden standard” for proteomic analysis [@DOI:10.1021/ac8013669; @DOI:10.1016/j.drudis.2009.02.007]. 
+Despite the substantial improvements in mass spectrometry resolution and liquid chromatography consistency, accurately identifying extremely similar molecules such as isomers with LC-MS remains a challenge. 
+Ion mobility mass spectrometry (IM-MS), a technique that utilizes electric fields to transport analytes through a buffer gas, is beneficial for separating and identifying ions based on their size, shape, and charge state. 
+This technique provides the fourth dimension of information, collision cross section (CCS), which allows for more comprehensive characterization of molecules [@DOI:10.1021/ac504720m]. 
+Apparently, multi-dimensional data is always beneficial for us to understand things comprehensively and accurately, thus getting closer to the truth. 
+
+In terms of mass spectrometry based proteomic analysis, adding CCS data can help us better separate, identify, and quantify peptides. 
+
+The core principle of ion mobility spectrometry is to separate ions in an inert gas under the influence of an electric field (E), and then measure the amount of time it takes for each ion to pass through drift tube, which is defined to be the steady-state drift velocity (Vd) correlated to the specific analyte’s mobility (K), as shown in Eq. 1. 
+                           Vd = KE                                                                                        (Eq.1)
+While the primary measurement in IMS analyses is the mobility (K), for many analytical applications, it has become routine to convert K into the calculated collision cross-section value (CCS or Ω) using Mason-Schamp equation (Eq. 3)[@DOI:10.1007/s13361-019-02288-2].  
+                        Ω=(3/16 〖(2π/μKT)〗^(1/2)  ze)/N0K0                                                               (Eq.2)                    
+The components of the equation are defined as follows: e, charge of an electron; z, ion charge; N0, buffer gas density; μ, reduced mass of the collision partners; kb, Boltzmann’s constant; and T, the drift region temperature. 
+Although the Mason-Schamp equation isn't universally embraced, it is currently the primary formula the community uses to compute CCS. 
+In basic terms, the CCS serves as a standard metric for the size in the gas phase, generally expressed in units of square Angströms (Å2). 
+However, according to the Eq.2, parameters including gas composition, working pressure, temperature within the mobility region, path of analyte movement, and the strength of the applied field can influence the final CCS value and may differ for each specific IMS platform. 
+Hence, direct comparison of CCS value between different platforms often requires calibration.  
+
+Generally, ion mobility techniques can be categorized into three separation concepts: (1) temporally dispersive, (2) spatially dispersive, and (3) ion confinement (trapping) and selective release (**Figure 12A**) [@DOI:10.1021/ac8013669].
+Temporally dispersive methods produce an arrival time spectrum based on differences in the time it takes for ions to traverse a similar gas-filled drift region under the influence of an electric field. 
+Time-dispersive technique inherently provides an extensive examination of all signals detected during a given observation window. 
+However, a fundamental limitation of this wide-ranging analysis is the diminished sensitivity linked to a single time dispersion occurrence, which usually requires many (10−100) events to be aggregated to achieve statistically significant ion mobility measurements. 
+In contrast, spatially dispersive methods separate ions based on mobility differences (charge, shape and size), leading them on distinct drift paths or trajectories, but without significant time differences. 
+A characteristic of spatially dispersive techniques is the scanning of voltage to obtain a broad-band ion mobility spectrum.
+Types of spatially dispersive ion mobility include High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS), uniform-field differential mobility analyzers (DMA), and the newly introduced scanned frequency ion mobility filter called transverse modulation ion mobility spectrometry (TMIMS). 
+Ion confinement and release strategies are recently developed techniques which trap ions in a pressurized drift cell by electric field, and then releasing them based on mobility distinctions. 
+This technique relies on the ability to control the position of ions under elevated pressure conditions using precisely adjustable electrodynamic fields. 
+It requires a precise fabrication craft and more complicated control system. 
+While it has only been perfected recently, typical products like trapped ion mobility spectrometry (TIMS) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.trac.2019.03.030] and cyclic traveling wave IMS have become commercially available [@DOI:10.1021/acs.analchem.9b01838]. 
+Table 10.3 summarized typical ion mobility separation techniques, their separation concept, electric field direction, gas flow direction, strengths, and drawbacks. 
+Also, for three categories of ion mobility techniques, we have selected a typical technique from each for brief introduction. 
+
+Table 10.3 Typical ion mobility separation techniques.
+
+| Separation concept | Ion mobility techniques | Ion movement direction | Electric field direction | Drift Gas direction | Characteristics |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:----------------------------:|
+| Temporally Dispersive | drift tube IMS (DTIMS) | → | → | # | High mobility resolution (need long drift tube), direct measurement of CCS. Low speed, large size, low sensitivity,  | 
+| Temporally Dispersive | traveling wave IMS (TWIMS) | → |→→→ | # | High mobility resolution, faster than DTIMS. Low sensitivity, large size, low sensitivity, traveling electric field waves. | 
+| Spatially Dispersive| high-field asymmetric IMS (FAIMS) | → |↑↓| → | Good as mass filter, Fast. No CCS measurement (Compensation voltage instead), low mobility resolution. | 
+| Spatially Dispersive| transverse modulation IMS (TMIMS) | →|→ and ↑↓ | # | Transverse Modulation, compact instrumentation, orthogonal Separation, fast and high resolution| 
+| Confinement and Selective Release | trapped ion mobility spectrometry (TIMS) | → | ← | → | High mobility resolution, compact instrumentation, high sensitivity, high speed, high ion utilization rate| 
+| Confinement and Selective Release | multi-pass cyclic traveling wave IMS | → |→→→ | # | High mobility resolution, improved Signal-to-Noise ratio and sensitivity, versatility (from small molecules to large biomolecules) and adjustability (number of passes can often be adjusted)|
+
+'#' means stationary drift gas; →, ←, ↑↓ indicates drift gas direction or electric force direction; →→→ represents a wave and gradient electric field.
+
+![**Ion Mobility.**
+(A) Conceptional diagram of three types of ion mobility strategies.
+(B) Schematic of drift tube ion mobility spectrometry. 
+(C) Schematic of high field asymmetric waveform ion mobility spectrometry (FAIMS). 
+(D) Schematic of trapped ion mobility spectrometry (TIMS).
+](images/MS_f106.svg){#fig:IMS-diagram tag="12" width="100%"}
+
+#### 10.5.1. Drift Tube Ion Mobility Spectrometry (DTIMS)
+The principle of Drift Tube Ion Mobility Spectrometry (DTIMS) is based on the differential migration (time) of ions through a neutral buffer gas (commonly helium or nitrogen) under the influence of a weak uniform electric field (typically tens of V/cm). 
+The mobility (K) of an ion is proportional to its drift velocity (V) and inversely proportional to the strength of the applied electric field (E). 
+For ions with same charge states, the drift velocities are primarily determined by their collisional interactions with a buffer gas, namely, mainly affected by their shape and size. 
+To illustrate this process, imagine two objects with identical mass: a solid metal ball and a feather. Due to its lower density, the feather should have a larger volume than the ball. 
+When both are dropped from the same height, the solid ball reaches the ground before the feather because of air resistance. 
+This observation doesn't contradict Newton's law of universal gravitation, as we have accounted for air resistance. 
+In the context of DTIMS, the buffer gas in the drift tube acts as the “air resistance”, while the uniform electric field represents the “gravity”. 
+Hence, ions with the same mass-to-charge ratio are separated based on their shape and size. 
+This capability allows DTIMS to distinguish between isomeric compounds with identical masses but different structural configurations, given that these isomers might have distinct interactions with the drift gas. 
+Also, follow the intuition of the free fall example, in DTIMS, smaller ions will move faster and hit the detector earlier than larger ions in DTIMS (**Figure 12B**).  
+DTIMS possess the strengths including high resolving power and allows for straightforward measurement of an ion's CCS from first principles[@DOI:10.1007/978-1-0716-0030-6_2; @DOI:10.1002/9780470027318.a9292.pub2]. 
+However, DTIMS also suffers from disadvantages including: 1) separation time is too long for all ions passing through the drift tube, relative to the accumulation time, which decreases the duty cycle. 
+2) A longer drift tube or higher pressure is needed for greater resolving power. 
+However, this inevitably increases ion diffusion and ion losses unless ion focusing techniques are employed. 
+3) Segmentation and collision between ions and gas molecules during the traveling process in drift tube reduces the sensitivity. 
+Continual advancements in DTIMS design and application of ion focusing techniques further pushed the mobility resolution of same DTIMS platforms to 100 to 250 (t/Δt) range or even greater. 
+
+#### 10.5.2 High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS)
+   High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS) represents a distinct version of spatially dispersive ion mobility spectrometry (IMS). 
+This technique differentiates ions utilizing a pronounced asymmetric oscillating electric field combined with a moving gas.
+The principle of FAIMS is based on the different trajectories of ions as they move through a high asymmetric electric field, which are determined by their physical structure and charge states [@DOI:10.1586/epr.12.50; @DOI:10.1021/acs.analchem.0c00649;@DOI:10.1021/acs.analchem.8b02233]. 
+In FAIMS, gas-phase ions are carried by a flow of carrier gas between two electrodes in a direction orthogonal to the direction of asymmetric electric field (E). 
+The asymmetric waveform electric field is typically characterized by a short, high-voltage pulse of one polarity followed by a longer, lower-voltage pulse of the opposite polarity. 
+An ion's mobility within such an electric field is determined by its charge state, its physical structure, and the properties of the surrounding gas it moves through. 
+Once the ions are subjected to an asymmetric electric field, the ions will alternate between travelling toward one electrode or the other as the field oscillates in polarity, resulting in a curved trajectories between the electrodes. 
+Some ions move more in the high field relative to the low field, and vice versa (**Figure 12C**). 
+To differentiate between ions, a so-called "compensation voltage" (CV), which is a DC offset voltage that compensates for the differential ion movement in the high and low fields, is applied [@DOI:10.1016/j.chroma.2004.08.119]. 
+In this case, only ions with a specific response to the changing electric field and those that match the applied compensation voltage (CV) will have a zero net movement and are able to traverse the drift region to the detector, while others hit the electrode plate and be neutralized. 
+By scanning or modulating the CV, different ion species can be selectively transmitted through the FAIMS device. 
+In contrast to drift tube IMS in which the ion stream is sampled in discrete packets and all ions reach the detector, FAIMS is a continuous filtration technique that allows uninterrupted sampling of the ion stream, but only for a selected subset of the ion population. 
+One of the good advantages of this continuous collection technique is greatly increase the signal-to-noise ratio for the ion(s) of interest by removing unwanted chemical noise, which make FAIMS more like a mass filter rather than ion mobility spectrometry. 
+The drawback of FAIMS is it cannot produce any CCS value and its low resolving power. 
+Commercial FAIMS products from vendors including Thermo Fisher and WATERS are available now.
+
+
+#### 10.5.3 Trapped ion mobility spectrometry (TIMS)
+   Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
+The basic idea behind TIMS is a combination of traditional ion mobility spectrometry and ion trapping techniques. 
+Instead of driving ions through a drift tube filled with stationary gas, TIMS holds the ions stationary in a drift cell under a moving buffer gas and then release them by adjusting electric fields (voltages on electrodes). 
+This process was realized by applying two different electric fields: 
+1) Radially confining pseudopotential.
+An RF (radio frequency) voltage is applied to the electrodes of the TIMS analyzer to generate a radially confining pseudopotential, which essentially no axial component and only use for “focusing” ions in the central region of TIMS tube, preventing them from diffusion or hitting electrodes. 
+2) Axially electric field.
+An axially electric field gradient, produced by superimposing DC potentials on tunnel electrodes, is applied for “trapping” ions based on the equilibrium between the force of drift gas and the opposing force from the electric field gradient, which is stronger at the entrance and becomes progressively weaker moving deeper into the tunnel.
+
+As a result, once ions entered the device, lower mobilities ones are trapped at positions where the magnitude of axially electric field is larger, while higher mobilities ones are confined to deeper positions of tunnel where axially electric field is lower. 
+Then, after enough ions have been accumulated in the TIMS tunnel, additional ions are prevented from entering the tunnel region and residing ions are trapped for a short time (usually few milliseconds) which can be defined by users. 
+Finally, the magnitude of axially electric field is decreased at a user defined rate so that ions are eluted as an order of mobilities value (K) from high to low (**Figure 12D**). 
+The axially electric field gradient is set by a resistor divider. 
+Importantly, like other ion mobility strategies, the resolving power of TIMS is highly dependent on the length of the gas column through which the ions traverse. 
+In TIMS, ions are trapped in a specific location while buffer gas continuously flows past them. 
+Thus, the resolving power achieved by TIMS depends on the "quantity" of gas, specifically the length of the gas column, that passes by the ions during the separation time. 
+This offers the direct benefit of allowing the analyzer to maintain a compact physical size (around 5 cm) and achieve a high resolving power (R ∼ 300), while the analytical gas column – the portion that flows during an analysis – can be extensive (up to 10 m) and tailored to the user's needs. 
+Moreover, by leveraging the "trapping" capability (trapping time) of TIMS and the high scanning speeds of TOF, platforms such as TIMS-Q-TOF can implement a full duty cycle acquisition protocol known as Parallel Accumulation-Serial Fragmentation (PASEF) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.mcpro.2021.100138]. 
+This is particularly meaningful for identifying more peptides within a given time frame, such as capture more precursors from co-eluted peptides in the same liquid chromatography peak. 
+Currently, Bruker is the primary provider of commercial mass spectrometers that utilizing TIMS-tof technology. (TIMS-tof pro, TIMS-tof pro2, SCP.  etc.). 
+
+#### 10.5.4 Structures for Lossless Ion Manipulation (SLIM)
+A final type of ion mobility invented by Richard Smith and team at Pacific Northwest National Labs is called SLIM [@DOI:10.1021/ac502054p]. 
+This technology uses printed circuit boards to confine ions in long path lengths for high resolution ion mobility.
+Ions can be passed through the board multiple times to achieve over 1 km of pathlength for IMS separation [@DOI:10.1021/acs.analchem.7b00185].
+This technology is currently under commercial development by Mobilion known as Mobie [@DOI:10.1021/jasms.0c00434].
 
 
 
@@ -2598,106 +2698,6 @@ Surface plasmon resonance can accurately measure several key kinetics of PPIs wi
 It relies on the quantification of refractive index changes of polarised light shone onto a sensor chip containing a prey protein immobilised on a metal surface (typically gold). 
 When prey and bait proteins interact, the mass concentration at the metal interface changes, altering the refractive index and SPR angle (intensity of the refracted light). 
  
-
-
-## Liquid Chromatography (LC) {.page_break_before}
-
-Chromatography is the physical sorting of a mixture of molecular species that are dissolved in a mobile phase through the strength of binding, or affinity, to the chromatographic column’s stationary phase [@DOI:10.1016/j.aca.2009.03.041]. 
-The mobile phase is pressure driven through the column and molecular species, or analytes, that have a strong affinity to the stationary phase are retained, or slowed, while those with a weak affinity pass through quickly. 
-Thusly the analytes are separated by order of elution from the column. 
-Chromatography can exploit most physical properties of the analytes, including ionic charge (anion/cation exchange chromatography), hydrogen binding (hydrophilic interaction), and size (size exclusion chromatography, capillary electrophoresis). 
-In some chromatographic separations the mobile phase composition is adjusted by mixing two or more buffers at different ratios to influence the strength of affinity of individual analytes to the stationary phase and exquisitely regulate retention.
-
-Mass spectrometers suffer from ion suppression, a phenomenon where the over-abundance of one or a few species within the ion population entering the mass spectrometer masks the presence of less abundant species [@DOI:10.1373/49.7.1041]. 
-Complex biological samples, such as tissue, cell lysate, or physiological fluids contain a wide dynamic range of molecule concentrations that span many orders of magnitude. 
-The physical separation of analytes from biological samples by LC reduces the complexity of the ion population presented to the mass spectrometer at a given time, thus allowing the instrument to carry out the necessary fragmentation scans to identify and quantify the detectable species. 
-Therefore, one major benefit of LC is that it allows detection of low abundant analytes in other elution windows. 
-
-The field of proteomics predominantly separates peptides using reversed phase liquid chromatography [@DOI:10.1016/j.chroma.2012.06.098; @DOI:10.1016/j.aca.2010.02.001; @DOI:10.1016/j.chroma.2004.07.044]. 
-Reversed stationary phase is most commonly composed of microscopic (1-3 μm) silica beads coated with covalently bound long (e.g. C18) hydrophobic alkyl chains. 
-The hydrophobic side chains of certain residues and the peptide backbone bind to this stationary phase through non-polar interactions. 
-These interactions are strong in an aqueous solvent, but are disrupted when the organic composition of the solvent is increased. 
-Thus, in a reversed phase separation the proportion of non-polar, or organic, solvent in the mobile phase is gradually increased to release analytes from the stationary phase based on the strength of hydrophobic binding: weakly bound hydrophilic analytes elute with a low organic level in the mobile phase and strongly bound hydrophobic analytes only elute when the organic composition reaches a higher percentage. 
-By far the most popular combination of solvents for peptide analysis is water and acetonitrile with dilute acid modifier (such as 0.1% formic acid or 0.5% acetic acid). 
-The programmed rate at which the proportion of organic solvent is increased in the mobile phase is called the “gradient”, which you will often find described in the methods sections for reversed phase separations.
-
-### Electrospray Ionization
-
-LC is paired to MS through ESI, and LC parameters greatly influence ESI. 
-The analytes are eluted in a liquid mobile phase and must be released into the gas phase as charged ions for detection by mass spectrometry. 
-This is achieved by spraying the eluent from the chromatographic separation through a narrow nozzle under a high voltage potential (1,000-4,000 volts) between the nozzle, or emitter, and the mass spectrometer inlet. 
-The eluent is sprayed as a mist of small charged droplets that explode into smaller droplets as the solvent evaporates and the repelling columbic force of the charged analytes increases [@DOI:10.1080/14786448208628425]. 
-The droplets become progressively smaller until individual analyte molecules are ejected. 
-The ejected analytes are ionized by the retained charge and can thus be manipulated by the electric fields in the mass spectrometer to measure their mass and perform the necessary fragmentations to elucidate structure. 
-The chromatographic flowrate (the volume of mobile phase driven through the chromatographic column per unit time e.g. uL/min) dictates the efficiently of electrospray ionization (proportion of analytes eluting from the column that are ionized and into the gas phase) and is thus a key consideration for sensitivity of analysis [@DOI:10.1021/pr050424y]. 
-Reduced flowrates generate smaller droplets which degrade into ejected charged analytes rapidly, thus resulting in more detectable analytes and higher ionization efficiency. 
-Electrospray ionization efficiency is also aided by an inert sheath gas, high temperature, and reduced pressure between the nozzle and ion lensing elements, thus decent sensitivity can still be achieved at high flowrates. 
-For more detailed discussion of ionization, see the “Ionization” section. 
-
-### Quality Attributes of Chromatographic Separation
-
-The quality of chromatographic separation defines the number of analytes that are identified and quantified by LC-MS analysis. 
-The theory around chromatographic separation was developed when LCs were paired with spectrophotometer detectors that only measure the combined signal intensity from all co-eluting analytes. 
-The ability of MS to simultaneously detect the masses of individual components re-defines the significance of certain LC attributes. 
-For those looking for mathematical descriptions of chromatographic quality, refer to the “Van Deemter equation”, which we do not cover here to maintain simplicity [@URL:https://www.sciencedirect.com/science/article/abs/pii/0009250956800031]. 
-The following attributes are the most important to consider in LC-MS.
-
-#### Chromatographic Resolution 
-
-Chromatographic resolution is defined as the ability to fully resolve adjacent chromatographic peaks containing analytes with nearly equal affinities to the solid phase. 
-In mass spectrometry analytes are distinguished by mass even if they are not resolved by LC. 
-Thus in LC-MS, the more relevant, but closely related concept is the peak width at the half maximum (FWHM) of the peak. 
-A low FWHM indicates a sharp elution peak. In a sharp peak the entirety of the analyte population is electrosprayed into the mass spectrometer in a short time thus increasing the signal. 
-Low FWHM of high abundance species also confines their ionization suppression to narrow time windows, which means a lower number of co-eluting analytes are hidden. 
-Conversely, high FWHM means that the analyte signal is spread out over time, thus reducing sensitivity. 
-Furthermore, at a high FWHM, high abundance species mask analytes through ion suppression over a larger portion of the separation. 
-
-#### Peak Capacity
-
-Peak capacity is the number of peaks detectable over the analytical separation. 
-A long separation in which FWHM remains low would have a large peak capacity and thus allow identification of many species. 
-Unfortunately increasing the length of a reversed phase gradient also increases the FWHM due to an increase in diffusion, which results in a diminishing return for longer analytical methods. 
-A longer separation provides more time and opportunities for the mass spectrometer to sample each analyte to acquire fragmentation spectra required for identification and the selection of gradient length should consider both the desired throughput and the speed of the MS data acquisition strategy.
-
-#### Reproducibility and Robustness
-Reproducibility is defined as the ability to repeatedly obtain the same measurement for the same analytes each time that the analysis is repeated. 
-In liquid chromatography this means that each analyte should elute at nearly the same retention time (the time elapsed since the start of the analysis until the analyte’s elution from the chromatographic column) with the same peak width. 
-Robustness is the ability of the system to maintain reproducible performance despite nonoptimal conditions. 
-The most typical obstacles to robustness are mechanical wear of the system components and the analytical column, fouling of the system by contaminants introduced in the samples, and clogging due to accumulation of contaminants. 
-High flow methods tend to be more robust due to reduced impact of changes in dwell volumes, and the wider bore of the components used is more resilient to clogging. 
-However, higher flowrate comes at the cost of reduced ionization efficiency and sensitivity, thus nanoflow (100-300 nL/min flowrate) chromatography remains a widely utilized strategy in proteomics.
-
-#### Throughput and Instrument Utilization
-Throughput is the number of samples that are analyzed in a given timeframe, for example samples per day. 
-High throughput is required to analyze thousands of samples that truly represent biological diversity in a timely manner. 
-Increasing throughput means less data are collected for individual samples. 
-Furthermore, many steps in the LC process are required for sample analysis in which no useful data is collected including sample injection, and system cleaning and equilibration, which reduce the ratio of data collected to instrument operation time, or instrument utilization. 
-The ability to perform these steps while a different sample is analyzed, or parallelization, increases instrument utilization and the amount of data collected by several minutes which is a significant increase when several samples are analyzed per hour. 
-
-### Trapping and Pre-Columns
-
-Trapping and pre-columns are short chromatographic columns that are used to increase robustness of an LC-MS system. 
-A pre-column is connected directly to the front of the analytical column and is intended to be disposable and to absorb contaminants and protect the analytical column. 
-The trapping column is a connected indirectly to the analytical column through a valve. The valve can be switched to redirect the flow through the trapping column away from the analytical column. 
-This allows analytes to be loaded on the trapping column while analytes that are hydrophilic and poorly retained are washed away and do not contaminate the analytical column or the mass spectrometer. 
-This process is referred to as desalting, and once it is complete, the valve configuration is changed to connect the trapping column to the analytical column, and analytes captured on the trapping column can be eluted off the trap and through the analytical column for analysis by MS. 
-Certain trapping columns can be operated in both directions, which allows aggregates to be flushed away when the trapping column is cleaned in the reverse direction. 
-Additionally trapping columns are shorter and have less backpressure so they can be loaded with sample quickly at a fast flowrate. 
-Whereas loading the sample directly on the analytical column requires a slower flowrate. 
-Two trapping columns can be used in tandem to provide parallelization, while one trapping column is cleaned and loaded with samples the second trapping column is in line with the analytical column analyzing the sample that was loaded on it in the previous run [@DOI:10.1021/acs.analchem.2c02609; @DOI:10.1021/acs.analchem.3c00213].
-
-### Multi Dimensional LC
-
-Depth of profiling has previously been increased by combining two or more orthogonal LC separations. 
-Orthogonal in this context means that each separation sorts the analytes into different populations [@DOI:10.1016/j.chroma.2005.09.080].
-For example, a separation based on positive charge (strong cation exchange, SCX) separates analytes based on positive charge, and when paired with reversed phase chromatography results a higher peak capacity and more analytes identified. 
-The first highly popular method was multidimensional protein identification technology (MudPIT), which used online separation by SCX followed by C18 reversed phase [@DOI:10.1038/85686]. 
-However, the resolution of peptide separation by SCX is low, leading to the presence of peptides in many fractions. 
-The currently accepted most popular method for two-dimensional separation combines iterative reversed phase at different high and then low pH to sort analytes by changes in hydrophobicity due to changes in amino acid side chain ionization. 
-Although the separations are not entirely orthogonal, multiple fraction concatenation across the high pH elution can produce entirely orthogonal peptide sets [@DOI:10.1002/pmic.201000722]. 
-In recent years the focus of proteomics has shifted from deep profiling of fewer samples to rapid profiling of large cohorts. 
-Thus, lengthy multidimensional methods have been replaced with single shot experiments only using one dimension of high resolution reversed phase separation [@DOI:10.1021/acs.jproteome.2c00023]. 
-However peak capacity is regained by using ion mobility spectrometry (separation of ionized peptides in the gas phase).
 
 
 ## Tandem Mass Spectrometry and Peptide Fragmentation {.page_break_before}

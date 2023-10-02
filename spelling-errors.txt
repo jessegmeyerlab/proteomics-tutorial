@@ -32,7 +32,7 @@ Alkylation
 AlphaFold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -72,7 +72,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -127,7 +127,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -140,10 +140,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -155,7 +155,7 @@ coli
 Collisional
 collisionally
 colorimetric
-Colorimetry
+colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -193,7 +193,7 @@ Daniem
 Dasom
 databses
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -271,7 +271,7 @@ Ensembl
 enzymatically
 enzymogenesis
 Enzymology
-Epitope
+epitope
 equilibration
 Equus
 ERLIC
@@ -283,7 +283,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -296,7 +296,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
+fasta
 FC
 FCCS
 FCS
@@ -344,7 +344,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -361,14 +361,14 @@ glycobiology
 glycoforms
 glycolic
 glycopeptide
-Glycopeptides
+glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -454,7 +454,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -462,7 +462,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -538,7 +538,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -645,7 +645,7 @@ OMSSA
 onotology
 OpenMS
 operon
-Orbitrap
+orbitrap
 orbitraps
 organismal
 Ortholog
@@ -683,7 +683,7 @@ phosphoester
 phosphoimaging
 phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -694,7 +694,7 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -720,7 +720,7 @@ PPI
 PPIs
 practioners
 pre
-Prefractionation
+prefractionation
 premaure
 PRM
 Progenesis
@@ -758,7 +758,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QTOF
 quadruople
@@ -805,7 +805,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -837,7 +837,7 @@ sorbents
 SPE
 specificities
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -926,10 +926,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
+TripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
@@ -953,14 +953,14 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
