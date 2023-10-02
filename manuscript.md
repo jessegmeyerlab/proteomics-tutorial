@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T04:42:14+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T04:42:14+00:00" />
+  <meta name="dc.modified" content="2023-10-02T18:59:33+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T18:59:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c8f2c2fd66223ee5771369c50efde3a9d297a6ef/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/123a77145de0b1636f3b6442babd3aedbb0d4a92/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@c8f2c2f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c8f2c2fd66223ee5771369c50efde3a9d297a6ef)
+from [jessegmeyerlab/proteomics-tutorial@123a771](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/123a77145de0b1636f3b6442babd3aedbb0d4a92)
 on October 2, 2023.
 </em></small>
 
@@ -819,7 +819,7 @@ Peptides below a certain length are likely to happen many times in the whole pro
 In protein regions devoid of R/K, trypsin may also result in very long peptides that are then lost do to irreversible binding to the solid phase extraction device, or that become difficult to identify due to complicated fragmentation patterns. 
 Thus, parts of the true proteome sequences that are present are lost after trypsin digestion due to both production of very long and very short peptides. 
 
-Many alternative proteases are available with different specificities that complement trypsin to reveal different proteomic sequences [@PMID:12643544; @PMID:20113005], which can help distinguish protein isoforms [@PMID:27123950].
+Many alternative proteases are available with different specificities that complement trypsin to reveal different proteomic sequences [@PMID:12643544; @PMID:20113005], which can help distinguish protein isoforms [@PMID:27123950] (Figure 2).
 The enzyme choice mostly depends on the application.
 In general, for a mere protein identification mostly trypsin is the choice due to the reasons aforementioned.
 However, alternative enzymes can facilitate _de novo_ assembly when the genomic data information is limited in the public database repositories [@pmid:31615963; @pmid:30622160; @pmid:29990557; @doi:10.1016/j.actatropica.2022.106324; @DOI:10.1021/pr400173d].
@@ -827,6 +827,12 @@ Use of multiple proteases for proteome digestion also can improve the sensitivit
 Moreover, by providing an increased peptide diversity, the use of multiple proteases can expand sequence coverage and increase the probability of finding peptides which are unique to single proteins [@DOI:10.1021/acs.jproteome.9b00330; @DOI:10.1074/mcp.M113.034710; @DOI:10.1155/2014/960902]. 
 A multi-protease approach can also improve the identification of N-Termini and signal peptides for small proteins [@DOI:10.1021/acs.jproteome.1c00115]. 
 Overall, integrating multiple-protease data can increase the number of proteins identified [@DOI:10.3390/ijms20225630; @DOI:10.1074/mcp.M113.035170], the number of identified post-translational modifications detected [@DOI:10.1021/acs.jproteome.9b00330; @DOI:10.1016/j.celrep.2015.05.029; @DOI:10.1074/mcp.M113.034710] and decrease the ambiguity of the protein group list [@DOI:10.1021/acs.jproteome.9b00330].
+
+![**Multiple protease proteolysis improves protein inference**
+The use of other proteases beyond Trypsin such as Lysyl endopeptidase (Lys-C), Peptidyl-Asp metallopeptidase (Asp-N), Glutamyl peptidase I, (Glu-C), Chymotrypsin, Clostripain (Arg-C) or Peptidyl-Lys metalloendopeptidase (Lys-N) can generate a greater diversity of peptides. 
+This improves protein sequence coverage and allows for the correct identification of their N-termini. 
+Increasing the number of complimentary enzymes used will increase the number of proteins identified by single peptides and decreases the ambiguity of the assignment of protein groups. 
+Therefore, this will allow more protein isoforms and post-translational modifications to be identified than using Trypsin alone.](images/Proteolysis_v03.png){#fig:Multiple-protease-proteolysis tag="2" width="100%"}
 
 Lysyl endopeptidase (Lys-C) obtained from  _Lysobacter enzymogenesis_ is a serine protease involved in cleaving carboxyl terminus of Lys [@PMID:6359954; @PMID:25823410].
 Like trypsin, the optimum pH range required for its activity is from 7 to 9. 
@@ -872,7 +878,7 @@ Reports suggest that the peptides generated after Lys-N digestion produces more 
 Hence this can be used for analysing PTMs, identification of C-terminal peptides and also for _de novo_ sequencing strategies [@PMID:18425140; @PMID:20953479].
 
 Pepsin A, commonly known as pepsin, is an aspartic protease obtained from bovine or porcine pancreas [@PMID:12089768].
-Pepsin was one of several proteins crystalized by John Northrop, who shared the 1946 Nobel prize in chemistry for this work [@PMID:19872561;@PMID:19872562; @PMID:17758437;@URL:https://www.nobelprize.org/prizes/chemistry/1946/speedread/].
+Pepsin was one of several proteins crystalized by John Northrop, who shared the 1946 Nobel prize in chemistry for this work [@PMID:19872561;@PMID:19872562; @PMID:17758437;@URL:https://www.nobelprize.org/prizes/chemistry/1946/speedread].
 Pepsin works at an optimum pH range from 1 to 4 and specifically cleaves Trp, Phe, Tyr and  Leu [@PMID:25823410]. 
 Since it possess high enzyme activity and broad specificity at lower pH, it is preferred over other proteases for MS-based disulphide mapping [@PMID:12476442; @PMID:24980484].
 Pepsin is also used extensively for structural mass spectrometry studies with hydrogen-deuterium exchange (HDX) because the rate of back exchange of the amide deuteron is minimized at low pH [@DOI:10.1021/ac902477u; @DOI:10.1002/mas.21565].  
@@ -883,26 +889,32 @@ It is a member of the subtilisin family of proteases and is relatively unspecifi
 The optimal enzyme activity is between pH 7.5 and 12.
 Proteinase K is used at low concentrations for limited proteolysis (LiP) and the detection of protein structural changes in the eponymous technique LiP-MS [@PMID:29072706]. 
 
-![**Multiple protease proteolysis improves protein inference**
-The use of other proteases beyond Trypsin such as Lysyl endopeptidase (Lys-C), Peptidyl-Asp metallopeptidase (Asp-N), Glutamyl peptidase I, (Glu-C), Chymotrypsin, Clostripain (Arg-C) or Peptidyl-Lys metalloendopeptidase (Lys-N) can generate a greater diversity of peptides. 
-This improves protein sequence coverage and allows for the correct identification of their N-termini. 
-Increasing the number of complimentary enzymes used will increase the number of proteins identified by single peptides and decreases the ambiguity of the assignment of protein groups. 
-Therefore, this will allow more protein isoforms and post-translational modifications to be identified than using Trypsin alone.](images/Proteolysis_v03.png){#fig:Multiple-protease-proteolysis tag="1" width="100%"}
-
 Although different specificity is useful in theory to enable improved proteome sequence coverage, there are practical challenges because most of the standard workflow is optimized for tryptic peptides. 
 For example, peptides that lack a c-terminal positive charge due to arginine or lysine side chains can have a less pronounced y-ion series.
 This can lead to lower scoring peptide-spectra matches because some peptide identification algorithms preferentially score y ions higher. 
 
 
 ## Peptide Quantification {.page_break_before}
-<!-- todo: change the label of this file eventually to peptide quant instead of peptide labeling
- -->
 
 ### Label-free quantification (LFQ) of peptides
-LFQ of peptide precursors requires no additional steps in the protein extraction, digestion, and peptide purification workflow. 
+LFQ of peptide precursors requires no additional steps in the protein extraction, digestion, and peptide purification workflow (Figure. 
 Samples can be taken straight to the mass spectrometer and are injected one at a time, each sample necessitating their own LC-MS/MS experiment and raw file. 
 Quantification of peptides by LFQ is routinely performed by many commercial and freely available proteomics software (see Data Analysis section below). 
-In LFQ, peptide abundances across LC-MS/MS experiments are calculated by aligning windows of accurate peptide mass and retention time.
+In LFQ, peptide abundances across LC-MS/MS experiments are usually calculated by computing the area under the extracted ion chromatograms for signals that are specific to each peptide; this may involve aligning windows of accurate peptide mass and retention time.
+
+![**Quantitative strategies commonly used in proteomics.**
+A) Label-free quantitation. 
+Proteins are extracted from samples, enzymatically hydrolyzed into peptides and analyzed by mass spectrometry.
+Chromatographic peak areas from peptides are compared across samples that are analyzed sequentially. 
+B) Metabolic labelling. 
+Stable isotope labeling with amino acids in cell culture (SILAC) is based on feeding cells stable isotope labeled amino acids (“light” or “heavy”). 
+Samples grown with heavy or light amino acids are mixed before cell lysis.
+The relative intensities of the heavy and light peptide are used to compute protein changes between samples.
+C) Isobaric or chemical labelling. 
+Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
+These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
+Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
+](images/Summay_peptide-protein-labeling_.svg){#fig:quant-summary tag="3" width="100%"}
 
 ### Stable isotope labeling of peptides
 One approach to improve the throughput and quantitative completeness within a group of samples is sample multiplexing via stable isotope labeling.
@@ -999,25 +1011,6 @@ The performances of DiART including the mechanism of fragmentation, the number o
 Irrespective of the sequence of the peptide, reporter ions of high-intensity are produced by DiART tags in comparison to those with iTRAQ and thus, DiART labeling can be used to quantify more peptides as well as those with lower abundance, and with reliable results [@PMID:22404494]. 
 DiART serves as a cheaper alternative to TMT and iTRAQ while also having a comparable labeling efficiency. 
 It has been observed that these tags are useful in labeling huge protein quantities from cell lysates before TiO2 enrichment in quantitative phosphoproteomics studies [@PMID:24129742].
-
-
-<!-- todo: not sure if this is the best place for this figure about quantification strategies, do we need a whole section on quant? -->
-
-![**Quantitative strategies commonly used in proteomics.**
-A) Label-free quantitation. 
-Proteins are extracted from samples, enzymatically hydrolyzed into peptides and analyzed by mass spectrometry.
-Chromatographic peak areas from peptides are compared across samples that are analyzed sequentially. 
-B) Metabolic labelling. 
-Stable isotope labeling with amino acids in cell culture (SILAC) is based on feeding cells stable isotope labeled amino acids (“light” or “heavy”). 
-Samples grown with heavy or light amino acids are mixed before cell lysis.
-The relative intensities of the heavy and light peptide are used to compute protein changes between samples.
-C) Isobaric or chemical labelling. 
-Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
-These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
-Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
-](images/Summay_peptide-protein-labeling_.svg){#fig:quant-summary tag="2" width="100%"}
-
-
 
 
 ## Peptide/Protein Enrichment and Depletion {.page_break_before}
