@@ -28,7 +28,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -143,7 +143,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -155,7 +155,7 @@ coli
 collisional
 collisionally
 colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -173,7 +173,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -189,10 +189,11 @@ Cytoscape
 cytotoxicity
 Daltonics
 Daly
+Daniem
 Dasom
 databses
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -207,7 +208,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 determinining
 deubiquitinase
 deuteron
@@ -251,7 +252,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -266,7 +267,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enzymatically
 enzymogenesis
 Enzymology
@@ -282,7 +283,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -295,8 +296,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
-FC
+FASTA
+Fc
 FCCS
 FCS
 Fenn
@@ -317,7 +318,7 @@ FlyBase
 fo
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -342,6 +343,7 @@ GermanRosano
 GF
 GFF
 Gillet
+Gitter
 GlcNAc
 GlcNAcylated
 Glu
@@ -350,7 +352,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -359,14 +361,14 @@ glycobiology
 glycoforms
 glycolic
 glycopeptide
-glycopeptides
+Glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -396,6 +398,7 @@ HexHexNAc
 HexNAc
 HILIC
 Hillenkamp
+Himmelstein
 histidine
 histolyticum
 Hochberg
@@ -595,6 +598,7 @@ MSStats
 MSStatsQC
 mTorr
 mTRAQ
+Mücke
 MudPIT
 multiphoton
 multipole
@@ -641,7 +645,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 Ortholog
@@ -695,7 +699,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 PIQED
@@ -754,9 +758,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
-QTOF
+QToF
 quadruople
 quadrupole
 quadrupoles
@@ -783,7 +787,7 @@ refered
 reflectron
 RefSeq
 repressor
-reproducibility
+Reproducibility
 resCID
 resolubilization
 resuspending
@@ -801,7 +805,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -901,7 +905,7 @@ TMT
 TMTpro
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -910,7 +914,7 @@ transactivator
 transcriptional
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -922,12 +926,12 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tTA

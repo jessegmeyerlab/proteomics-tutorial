@@ -2949,3 +2949,9 @@ content/19.Peptide-Fragmentation.md:89:UVPD
 content/89.acknowledgements.md:3:Wilmarth
 content/89.acknowledgements.md:5:Dasom
 content/89.acknowledgements.md:5:Hwang
+content/89.acknowledgements.md:6:Daniem
+content/89.acknowledgements.md:6:Gitter
+content/89.acknowledgements.md:6:Himmelstein
+content/89.acknowledgements.md:7:Mücke
+content/89.acknowledgements.md:9:jessegmeyerlab
+content/89.acknowledgements.md:9:proteomics

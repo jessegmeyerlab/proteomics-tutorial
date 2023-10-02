@@ -38,8 +38,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-02" />
   <meta name="citation_publication_date" content="2023-10-02" />
   <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T04:07:56+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T04:07:56+00:00" />
+  <meta name="dc.modified" content="2023-10-02T04:36:20+00:00" />
+  <meta property="article:modified_time" content="2023-10-02T04:36:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,9 +124,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cc2b1ec3ee7d2f996a7b0366a319765df10e9d09/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cc2b1ec3ee7d2f996a7b0366a319765df10e9d09/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/cc2b1ec3ee7d2f996a7b0366a319765df10e9d09/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,9 +148,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/cc2b1ec3ee7d2f996a7b0366a319765df10e9d09/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/074652281b943b17a0946804791cd184f69537ee/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@cc2b1ec](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/cc2b1ec3ee7d2f996a7b0366a319765df10e9d09)
+from [jessegmeyerlab/proteomics-tutorial@0746522](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/074652281b943b17a0946804791cd184f69537ee)
 on October 2, 2023.
 </em></small>
 
@@ -2812,7 +2812,10 @@ This section should discuss trade offs and balancing them to design an experimen
 The authors thank Phil Wilmarth for helpful input. 
 Identification of certain commercial equipment, instruments, software, or materials does not imply recommendation or endorsement by the National Institute of Standards and Technology, nor does it imply that the products identified are necessarily the best available for the purpose.
 The authors thank Dasom Hwang for help with graphic design.
+The authors thank Anthony Gitter and Daniem Himmelstein for assistance using manubot. 
+The authors thank Jordan Burton and Pierre-Alexander Mücke for minor edits to the text. 
 This manuscript was written collaboratively using manubot [@DOI:10.1371/journal.pcbi.1007128].
+The live and evolving version where anyone can contribute can be found here https://github.com/jessegmeyerlab/proteomics-tutorial/tree/main. 
 
 
 ## References {.page_break_before}
