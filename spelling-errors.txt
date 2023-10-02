@@ -127,7 +127,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -140,10 +140,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -154,7 +154,7 @@ Clostripain
 coli
 collisional
 collisionally
-Colorimetric
+colorimetric
 colorimetry
 columbic
 Combinatorial
@@ -173,7 +173,7 @@ CRISPR
 crosslinked
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -252,7 +252,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -271,7 +271,7 @@ Ensembl
 enzymatically
 enzymogenesis
 Enzymology
-Epitope
+epitope
 equilibration
 Equus
 ERLIC
@@ -318,10 +318,10 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 fragi
 fragmentations
@@ -344,7 +344,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -365,10 +365,10 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -461,8 +461,8 @@ IPG
 IRMPD
 iRT
 isocratic
-Isoelectric
-isoform
+isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -538,7 +538,7 @@ Mammalia
 Mangalore
 maniupulated
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -626,7 +626,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 nuclease
 nucleocytoplasmic
@@ -645,7 +645,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 Ortholog
@@ -694,12 +694,12 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 PIQED
@@ -719,8 +719,8 @@ posttranslational
 PPI
 PPIs
 practioners
-Pre
-Prefractionation
+pre
+prefractionation
 premaure
 PRM
 Progenesis
@@ -737,7 +737,7 @@ proteoforms
 proteoglycans
 proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 proteomic
@@ -760,7 +760,7 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
+QToF
 quadruople
 quadrupole
 quadrupoles
@@ -805,7 +805,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -914,7 +914,7 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -960,7 +960,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
