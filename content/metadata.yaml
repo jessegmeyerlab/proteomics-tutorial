@@ -144,6 +144,13 @@ authors:
       - School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina
       - Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
      
+  - name: Robert L. Moritz
+    initials: RLM
+    orcid: 0000-0002-3216-9447
+    twitter: @r_l_moritz
+    email: rmoritz@systemsbiology.org
+    affiliations: Institute for Systems biology, Seattle, WA, USA, 98109
+  
   - github: agduboff
     name: Anna G. Duboff
     initials: AGD
