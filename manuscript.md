@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-06" />
   <meta name="citation_publication_date" content="2023-10-06" />
   <meta property="article:published_time" content="2023-10-06" />
-  <meta name="dc.modified" content="2023-10-06T23:39:43+00:00" />
-  <meta property="article:modified_time" content="2023-10-06T23:39:43+00:00" />
+  <meta name="dc.modified" content="2023-10-06T23:40:12+00:00" />
+  <meta property="article:modified_time" content="2023-10-06T23:40:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />

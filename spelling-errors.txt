@@ -30,7 +30,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -69,12 +69,12 @@ balancer
 Balaya
 BASU
 BCA
-BeamCID
+beamCID
 Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -130,7 +130,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -146,7 +146,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -156,7 +156,7 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 Colorimetric
 colorimetry
@@ -176,7 +176,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 cryo
 cryogels
 crystalized
@@ -227,11 +227,11 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -272,7 +272,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -288,7 +288,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -301,8 +301,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
-FC
+FASTA
+Fc
 FCCS
 FCS
 Fenn
@@ -326,7 +326,7 @@ Folin
 Footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -348,7 +348,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -369,7 +369,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -631,7 +631,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 Novor
 nuclease
@@ -653,8 +653,8 @@ OMSSA
 onotology
 OpenMS
 operon
-Orbitrap
-Orbitraps
+orbitrap
+orbitraps
 organismal
 orignal
 Ortholog
@@ -704,12 +704,12 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -730,13 +730,13 @@ posttranslational
 PPI
 PPIs
 practioners
-pre
+Pre
 Prefractionation
 PRM
 Progenesis
 proline
 Pronase
-Prot
+prot
 protease
 proteases
 proteasome
@@ -748,7 +748,7 @@ proteoforms
 proteoglycans
 proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 Proteomic
@@ -775,7 +775,7 @@ QIT
 QqLIT
 QQQ
 qRT
-QToF
+QTOF
 quadrupole
 quadrupoles
 Qual
@@ -818,7 +818,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -920,7 +920,7 @@ TMIMS
 TMT
 TMTpro
 TMTs
-tof
+TOF
 ToFs
 Torr
 TPP
@@ -934,7 +934,7 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -945,9 +945,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tTA
