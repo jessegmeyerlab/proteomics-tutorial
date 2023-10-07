@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-02'
+date-meta: '2023-10-06'
 author-meta:
 - Yuming Jiang
 - Dina Schuster
@@ -21,6 +21,7 @@ author-meta:
 - Amit Kumar Yadav
 - Muralidharan Vanuopadath
 - Martín L. Mayta
+- Robert L. Moritz
 - Anna G. Duboff
 - Nicholas M. Riley
 - Jesse G. Meyer
@@ -35,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta property="og:title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta property="twitter:title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta name="dc.date" content="2023-10-02" />
-  <meta name="citation_publication_date" content="2023-10-02" />
-  <meta property="article:published_time" content="2023-10-02" />
-  <meta name="dc.modified" content="2023-10-02T20:30:19+00:00" />
-  <meta property="article:modified_time" content="2023-10-02T20:30:19+00:00" />
+  <meta name="dc.date" content="2023-10-06" />
+  <meta name="citation_publication_date" content="2023-10-06" />
+  <meta property="article:published_time" content="2023-10-06" />
+  <meta name="dc.modified" content="2023-10-06T23:39:43+00:00" />
+  <meta property="article:modified_time" content="2023-10-06T23:39:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -107,6 +108,10 @@ header-includes: |
   <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
   <meta name="twitter:creator" content="@MartinMayta2" />
+  <meta name="citation_author" content="Robert L. Moritz" />
+  <meta name="citation_author_institution" content="Institute for Systems biology, Seattle, WA, USA, 98109" />
+  <meta name="citation_author_orcid" content="0000-0002-3216-9447" />
+  <meta name="twitter:creator" content="@r_l_moritz" />
   <meta name="citation_author" content="Anna G. Duboff" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
   <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
@@ -124,9 +129,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -148,10 +153,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/50944ccb6538b97821607a9fa54ddb035e7b9bcc/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@50944cc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/50944ccb6538b97821607a9fa54ddb035e7b9bcc)
-on October 2, 2023.
+from [jessegmeyerlab/proteomics-tutorial@b0d66c2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b0d66c2ca3f097598f3ba50e82be64db17aae5b5)
+on October 6, 2023.
 </em></small>
 
 
@@ -341,6 +346,17 @@ on October 2, 2023.
      School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
++ **Robert L. Moritz**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3216-9447](https://orcid.org/0000-0002-3216-9447)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [r_l_moritz](https://twitter.com/r_l_moritz)
+    <br>
+  <small>
+     Institute for Systems biology, Seattle, WA, USA, 98109
+  </small>
+
 + **Anna G. Duboff**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -390,9 +406,9 @@ on October 2, 2023.
 
 ## Abstract {.page_break_before}
 
-Proteomics is the large scale study of protein structure and function from biological systems.  
+Proteomics is the large scale study of protein structure and function from biological systems through protein identification and quantification.  
 "Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptide that are analyzed by mass spectrometry.
-Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of protein-protein interactions, absolute and relative protein quantification, post-translational modifications, and protein stability. 
+Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of proteoforms, protein-protein interactions, absolute and relative protein quantification, post-translational modifications, and protein stability. 
 To enable this range of different experiments, there are diverse strategies for proteome analysis. 
 The nuances of how proteomic workflows differ may be difficult to understand for new practitioners. 
 Here, we provide a comprehensive tutorial of different proteomics methods. 
@@ -402,15 +418,20 @@ We expect that this work will serve as a basic resource for new practitioners of
 
 ## Introduction {.page_break_before}
 
-Proteomics is the large scale study of protein structure and function. 
+Proteomics is the large-scale study of protein structure and function. 
 Proteins are translated from mRNAs that are transcribed from the genome. 
-Although the genome encodes potential cellular functions and states, the study of proteins is necessary to truly understand biology. 
-Currently, proteomic studies are facilitated by mass spectrometry, although alternative methods are being developed.
+Although the genome encodes potential cellular functions and states, the study of proteins in all their forms is necessary to truly understand biology. 
+
+Currently, proteomics can be performed with various methods. 
+Alternative methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely Somascan and Olink. 
+There are also nascent methods such as nanopores that are under development and not yet applicable to whole proteomes.
+Another approach uses parallel immobilization of peptides with total internal reflection microscopy and sequential edman degradation [@DOI:10.1038/nbt.4278].
+However, by far the most common method for proteomics is based on mass spectrometry with liquid chromatography.
 
 Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315; @DOI:10.1002/rcm.1290020802]. 
 Shortly afterward, the first computer algorithm for matching peptides to a database was introduced [@PMID:24226387]. 
 Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography [@DOI:10.1021/ac010617e]. 
-As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:https://doi.org/10.1038/nmeth1019]. 
+As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:10.1038/nmeth1019]. 
 <!-- Todo: figure 1: major milestones in proteomics technology since 1990 -->
 
 Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are cleaved into peptides before analysis: "top-down" and "bottom-up". 
@@ -424,17 +445,20 @@ However, due to myriad analytical challenges, the depth of protein coverage that
 In this tutorial we focus on the bottom-up proteomics workflow. 
 The most common version of this workflow is generally comprised of the following steps. 
 First, proteins in a biological sample must be extracted. 
-Usually this is done by denaturing and solubilizing the proteins while disrupting DNA and tissue. 
-Next, proteins are hydrolyzed into peptides, usually using a protease like trypsin. 
-Peptides from proteome hydrolysis must be purified.
-Most often this is done with reversed phase chromatography cartridges or tips. 
-The peptides are then almost always separated by liquid chromatography before they are ionized and introduced into a mass spectrometer. 
+Usually this is done by denaturing and solubilizing the proteins while mechanically disrupting DNA and tissue to minimize interference in the analysis procedures. 
+Next, proteins are hydrolyzed into peptides, usually using a protease like trypsin, which produces basic c-terminal amino acids to aid in fragment ion series production during tandem mass spectrometry. 
+Peptides from proteome hydrolysis must be purified,; most often this is done with reversed phase chromatography cartridges or tips. 
+The peptides are then almost always separated by liquid chromatography before they are ionized and introduced into a mass spectrometer, although recent reports describe LC-free proteomics by direct infusion [@DOI:10.1038/s41592-020-00999-z; @DOI:10.1021/acs.analchem.2c02249; @DOI:10.1101/2023.06.26.546628]. 
 The mass spectrometer then collects precursor and fragment ion data from those peptides. 
 The data analysis is usually the rate limiting step.
-Peptides must be identified, and proteins are inferred and quantities are assigned. 
+Peptides must be identified, and proteins are inferred, and quantities are assigned. 
 Changes in proteins across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.
 
-There are many variations on this workflow. The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. Even choice is important and every choice will affect the results. In this tutorial, we cover all of the required steps in detail to serve as a tutorial for new proteomics practioners. There are 16 sections in total:
+There are many variations to this workflow. 
+The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. 
+Even choice is important, and every choice will affect the results. 
+In this tutorial, we cover all the required steps in detail to serve as a comprehensive overview for new proteomics practioners. 
+There are 16 sections in total:
 
 1. Biochemistry basics
 2. Types of experiments
@@ -462,9 +486,10 @@ There are many variations on this workflow. The wide variety of experimental goa
 Proteins are large biomolecules or biopolymers made up of amino acids which are linked by peptide bonds. 
 They perform various functions in living organisms ranging from having structural roles to functional involvement in cellular signaling and the catalysis of chemical reactions (enzymes). 
 Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
-The human genome encodes more than 20,000 different proteins.
-Each protein is present at a different abundances.
-Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
+The human genome encodes approximately 19,778 of the predicted canonical proteins coded in the human genome [@PMID:36318223].
+Each protein is present at a different abundance depending on the cell type.
+Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell, and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
+Proteins can span more than 10 orders of magnitude in human blood, while a few protein make up most of the protein by weight in these fluids, making blood and plasma proteomics one of the most difficult matrices. 
 Due to genetic variations, as well as alternative splicing and post-translational modifications, multiple different proteoforms can be produced from one single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
 
 ![**Proteome Complexity.**
@@ -486,10 +511,10 @@ The most commonly studied and biologically relevant post-translational modificat
 Post-translational modification of a protein can alter its function, activity, structure, location and interactions. 
 PTMs alter signal transduction pathways and gene expression control [@PMID:28656226] regulation of apoptosis [@PMID:23088365; @PMID:11368354] by phosphorylation. 
 Ubiquitination regulates protein degradation [@PMID:16738015], SUMOylation regulates chromatin structure, DNA repair, transcription, cell-cycle progression [@PMID:26601932; @PMID:29079793], and palmitoylation regulates maintenance of the structural organization of exosome-like extracellular vesicle membranes by [@PMID:30251702]. 
-Glycosylation is a ubiquitous modification that regulates a variety of T cell functions, such as cellular migration, T cell receptor signalling, cell survival, and apoptosis [@PMID:22288421; @PMID:18846099].
+Glycosylation is a ubiquitous modification that regulates a variety of T cell functions, such as cellular migration, T cell receptor signaling, cell survival, and apoptosis [@PMID:22288421; @PMID:18846099].
 Deregulation of PTMs is linked to cellular stress and diseases [@doi:10.1038/s41570-020-00223-8].
 
-Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labelled substrates, western blot with PTM-specific antibodies, and peptide and protein arrays [@PMID:11062466; @PMID:12323352]. 
+Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labelled substrates, western blot with PTM-specific antibodies and superbinders, and peptide and protein arrays [@PMID:11062466; @PMID:12323352; @PMID:35613471]. 
 While effective, these approaches have many limitations, such as inefficiency and difficulty in producing pan-specific antibodies. 
 MS-based proteomics approaches are currently the predominant tool for identifying and quantifying changes in PTMs. 
 
@@ -507,9 +532,10 @@ The amino acid chain's folding: α-helix, β-sheet or turn.
 - Tertiary structure: 
 The three-dimensional structure of the protein. 
 
-- Quarternary structure: 
+- Quaternary structure: 
 The structure of several protein molecules/subunits in one complex.
 
+Of recent note, the development of AlphaFold, has enabled the high-accuracy three-dimensional structure of all human proteins and many hundreds of other species enabling the understanding pf protein fold and its relationship to function [@PMID:34265844; @PMID:37732824].
 
 
 ## Types of Experiments {.page_break_before}
@@ -571,8 +597,8 @@ The common steps in a XL-MS workflow are as follows [@DOI:10.1021/acs.analchem.7
 2. Add a cross-linking reagent to covalently connect adjacent protein regions (such as disuccinimidyl sulfoxide, DSSO) [@doi:10.1021/jasms.9b00085]  
 3. Proteolysis to produce peptides  
 4. MS/MS data collection  
-5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099])  
-6. Generate cross-link maps for structural modeling  
+5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099], KOJAK [@PMID:25812159; @PMID:36629399])  
+6. Generate cross-link maps for structural modeling and visualization [@PMID:27302480; @PMID:30525651]
 
 #### Hydrogen deuterium exchange mass spectrometry (HDX-MS)  
 HDX-MS works by detecting changes in peptide mass due to exchange of amide hydrogens of the protein backbone is with deuterium from D2O [@doi:10.1038/s41592-019-0459-y]. 
@@ -698,7 +724,7 @@ AVOID the use of tween-20, triton-X, NP-40, and PEGs as these compounds are chal
 For non-denaturing buffer conditions, which preserve tertiary and quaternary protein structures, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTM modifications throughout the extraction process. 
 Protease, phosphatase and deubiquitinase inhibitors are optional additives in less denaturing conditions or in experiments focused on specific post-translational modifications. 
 Keep in mind that protease inhibitors may impact digestion conditions and will need to be diluted or removed prior to trypsin addition. 
-For extraction of DNA or RNA binding proteins, addition of a small amount of nuclease or benzonase might be useful for degradation of any bound nucleic acids and result in a more consistent digestion [@PMID:23792921].
+For extraction of DNA or RNA binding proteins, addition of a small amount of nuclease or benzonase is useful for degradation of any bound nucleic acids and result in a more consistent digestion [@PMID:23792921].
 
 ### Mechanical or Sonic Disruption 
 #### Cell lysis 
@@ -706,7 +732,7 @@ One typical lysis buffer is 8 M urea in 100 mM Tris, pH 8.5; the pH based on opt
 Small mammalian cell pellets and exosomes will lyse almost instantly upon addition denaturing buffer. 
 If non-denaturing conditions are desired, osmotic swelling and subsequent shearing or sonication can be applied [@DOI:10.1080/10826068.2020.1728696].
 Efficiency of extraction and degradation of nucleic acids can be improved using various sonication methods: 1) probe sonicator with ice; 2) water bath sonicator with ice or cooling; 3) bioruptor® sonication device 4) Adaptive focused acoustics (AFA®) [@PMID:21060726]. 
-Key to these additional lysis techniques are to keep the temperature of the sample from rising significantly which can cause proteins to aggregate or degrade. 
+Key to these additional lysis techniques is to keep the temperature of the sample from rising significantly which can cause proteins to aggregate or degrade. 
 Some cell types may require additional force for effective lysis (see below). 
 For cells with cell walls (i.e. bacteria or yeast), lysozyme is often added in the lysis buffer. 
 Any added protein will be present in downstream results, however, so excessive addition of lysozyme is to be avoided unless tagged protein purification will occur. 
@@ -722,9 +748,9 @@ Cryo-fractionators homogenize samples in special bags that are frozen in liquid 
 After homogenization, samples can be sonicated by one of the methods above to fragment DNA and increase solubilization of proteins. 
 
 ### Measuring the efficiency of protein extraction 
-Following protein extraction, samples should be centrifuged (10-14,000 g for 10-30 min depending on sample type) to remove debris and any unlysed material prior to determinining protein concentration. 
+Following protein extraction, samples should be centrifuged (10-14,000 g for 10-30 min depending on sample type) to remove debris and any unlysed material prior to determining protein concentration. 
 The amount of remaining insoluble material should be noted throughout an experiment as a large change may indicate protein extraction issues. 
-Protein concentration can be calculated using a number of assays or tools [@PMID:18429326; @PMID:12703310]; generally absorbance measuremnts are facile, fast and affordable, such as Bradford or BCA assays. 
+Protein concentration can be calculated using a number of assays or tools [@PMID:18429326; @PMID:12703310]; generally absorbance measurements are facile, fast and affordable, such as Bradford or BCA assays. 
 Protein can also be estimated by tryptophan fluorescence, which has the benefit of not consuming sample [@DOI:10.1021/ac504689z].
 A nanodrop UV spectrophotometer may be used to measure absorbance at UV280. 
 Consistency in this method is important as each method will have inherent bias and error [@PMID:26342307; @PMID:30234128]. 
@@ -735,7 +761,7 @@ Typically, disulfide bonds in proteins are reduced and alkylated prior to proteo
 This allows better access to all residues during proteolysis and removes the crosslinked peptides created by S-S inter peptide linkages. 
 There are a variety of reagent options for these steps. 
 For reduction, the typical agents used are 5-15 mM concentration of tris(2-carboxyethyl)phosphine hydrochloride (TCEP-HCl), dithiothreitol (DTT), or 2-mercaptoethanol (2BME).
-TCEP-HCl is an efficient reducing agent, but it also significantly lowers sample pH, which can be abated by increasing sample buffer concentration or resuspending TCEP-HCl in an appropriate buffer system (i.e 1M HEPES pH 7.5).      
+TCEP-HCl is an efficient reducing agent, but it also significantly lowers sample pH, which can be abated by increasing sample buffer concentration or resuspending TCEP-HCl in an appropriate buffer system (i.e. 1M HEPES pH 7.5).      
 Following the reducing step, a slightly higher 10-20mM concentration of alkylating agent such as chloroacetamide/iodoacetamide or n-ethyl maleimide is used to cap the free thiols [@PMID:29019370; @PMID:15351294; @PMID:28539326]. 
 In order to monitor which cysteine residues are linked or modified in a protein, it is also possible to alkylate free cysteines with one reagent, reduce di-sulfide bonds (or other cysteine modifications) and alkylate with a different reagent [@PMID:32132231; @PMID:28445428; @PMID:23074338]. 
 Alkylation reactions are generally carried out in the dark at room temperature to avoid excessive off-target alkylation of other amino acids.
@@ -755,7 +781,7 @@ Any small-molecule removal protocol should be tested for efficiency prior to imp
 
 ### Protein quantification
 After proteins are isolated from the sample matrix, they are often quantified.
-Protein quantification is important to assess the yeild of an extraction procedure, and to adjust the scale of the downstream processing steps to match the amount of protein. 
+Protein quantification is important to assess the yield of an extraction procedure, and to adjust the scale of the downstream processing steps to match the amount of protein. 
 For example, when purifying peptides, the amount of sorbent should match the amount of material to be bound. 
 Presently, there is a wide variety of techniques to quantitate the amount of protein present in a given sample. 
 These methods can be broadly divided into three types as follows:
@@ -798,9 +824,9 @@ Extraction can be aided by the addition of detergents and/or chaotropes to the s
 ## Proteolysis {.page_break_before}
 
 Proteolysis is the defining step that differentiates bottom-up or shotgun proteomics from top-down proteomics. 
-Hydrolysis of proteins is extremely important because it defines the population of potentially identifyable peptides. 
-Generally peptides between a length of 7-35 amino acids are considered useful for mass spectrometry analysis.
-Peptides that are too long are difficult to identify by tandem mass spectrometry, or may be lost during sample preparation due to irreversible binding with solid-phase extraction sorbents.
+Hydrolysis of proteins is extremely important because it defines the population of potentially identifiable peptides. 
+Generally, peptides between a length of 7-35 amino acids are considered useful for mass spectrometry analysis.
+Peptides that are too long are difficult to identify by tandem mass spectrometry or may be lost during sample preparation due to irreversible binding with solid-phase extraction sorbents.
 Peptides that are too short are also not useful because they may match to many proteins during protein inference. 
 There are many choices of enzymes and chemicals that hydrolyze proteins into peptides. 
 This section summarizes potential choices and their strengths and weaknesses. 
@@ -883,7 +909,7 @@ Since it possess high enzyme activity and broad specificity at lower pH, it is p
 Pepsin is also used extensively for structural mass spectrometry studies with hydrogen-deuterium exchange (HDX) because the rate of back exchange of the amide deuteron is minimized at low pH [@DOI:10.1021/ac902477u; @DOI:10.1002/mas.21565].  
  
 Proteinase K was first isolated from the mold _Tritirachium album_ Limber [@PMID:4373242]. 
-The epithet 'K' is derived from its ability to efficiently hydrolyse keratin [@PMID:4373242].
+The epithet 'K' is derived from its ability to efficiently hydrolyze keratin [@PMID:4373242].
 It is a member of the subtilisin family of proteases and is relatively unspecific with a preference for proteolysis at hydrophobic and aromatic amino acid residues [@DOI:https://doi.org/10.1016/B978-0-12-382219-2.00714-6]. 
 The optimal enzyme activity is between pH 7.5 and 12.
 Proteinase K is used at low concentrations for limited proteolysis (LiP) and the detection of protein structural changes in the eponymous technique LiP-MS [@PMID:29072706]. 
@@ -953,8 +979,8 @@ The following are some of the isobaric labeling techniques:
 #### isobaric Tags for Relative and Absolute Quantitation (iTRAQ)
 The iTRAQ tagging method covalently labels the peptide N-terminus and side-chain primary amines with tags of different masses through the NHS-ester bond. 
 This is followed by mass spectrometry analysis [@PMID:15385600]. 
-Reporter ions for an 8plex iTRAQ are measured at roughly 113, 114, 115, 116, 117, 118, 119, and 121 Thompsons. 
-At the moment, two kinds of iTRAQ reagents are available: 4-plex and 8-plex. 
+Reporter ions for an 8plex iTRAQ are measured at roughly 113, 114, 115, 116, 117, 118, 119, and 121 Daltons. 
+Currently, two kinds of iTRAQ reagents are available: 4-plex and 8-plex. 
 Using 4-plex reagents, a maximum of four different biological conditions can be analyzed simultaneously, whereas using 8plex reagents, eight different biological conditions can be analysed [@PMID:20593797; @PMID:22594965].
 
 #### iTRAQ hydrazide (iTRAQH)
@@ -969,7 +995,7 @@ Thus, there is no need for enriching modified peptides before LC-MS/MS analysis.
 #### Tandem Mass Tag (TMT)
 TMT labeling is based on a similar principle as that of iTRAQ. 
 In the case of 6-plex-TMT, the masses of reporter groups are roughly 126, 127, 128, 129, 130, and 131 Thompsons [@PMID:26584918]. 
-TMT works best with MS which allow quantitation at MS3-level with higher accuracy (e.g.: Thermo’s Orbitrap Tribrid instruments) [@PMID:25337643; @DOI:10.1021/acs.analchem.3c01155] by limiting the ratio distortion of co-isolated precursors within isobaric multiplexed quantitative proteomics [@PMID:21963607; @DOI:10.1021/ac502040v].
+TMT works best with MS which allow quantitation at MS3-level with higher accuracy (e.g.: Thermo-Fisher’s Orbitrap Tribrid instruments) [@PMID:25337643; @DOI:10.1021/acs.analchem.3c01155] by limiting the ratio distortion of co-isolated precursors within isobaric multiplexed quantitative proteomics [@PMID:21963607; @DOI:10.1021/ac502040v].
 Infrared photoactivation of co-isolated TMT fragment ions generates more quantitative reporter ion generation and sensitivity relative to standard beam-type collisional activation [@DOI:10.1021/acs.analchem.1c05398] 
 TMT is widely used for quantitative protein biomarker discovery. 
 In addition, TMT labeling technique helps multiplex sample analysis enabling efficient use of instrument time. 
@@ -1019,7 +1045,7 @@ In order to study low abundance protein modifications, or to study rare proteins
 
 #### Glycosylation
 Mass spectrometry-based analysis of protein glycosylation has emerged as the premier technology to characterize such a universal and diverse class of biomolecules.
-Glycosylation is a heterogenous post-translational modification that decorates many proteins within the proteome, conferring broad changes in protein activity. [@DOI:10.1093/glycob/12.4.43R; @DOI:10.1016/j.cell.2006.08.019; @PMID:35536922] 
+Glycosylation is a heterogenous post-translational modification that decorates many proteins within the proteome, conferring broad changes in protein activity. [@DOI:10.1093/glycob/12.4.43R; @DOI:10.1016/j.cell.2006.08.019] 
 This PTM can take many forms.
 The covalent linkage of mono- or oligosaccharides to polypeptide backbones through a nitrogen atom of asparagine (N) or an oxygen atom of serine (S) or threonine (T) side-chains creates N- and O-glycans, respectively.  
 The heterogenity of proteoglycans is not directly tied to the genome, and thus cannot be inferred. 
@@ -1042,15 +1068,15 @@ We direct readers to several reviews on glycopeptide enrichment strategies [@DOI
 
 ### Phosphoproteomics  
 Protein phosphorylation, a hallmark of protein regulation, dictates protein interactions, signaling, and cellular viability. 
-This post-translational modificaiton (PTM) involves the installation of a negatively charged phosphate moiety (PO 4-) onto the hydroxyl side-chain of serine (Ser, S), threonine (Thr, T), and tyrosine (Tyr, Y), residues on target proteins. 
+This post-translational modification (PTM) involves the installation of a negatively charged phosphate moiety (PO 4-) onto the hydroxyl side-chain of serine (Ser, S), threonine (Thr, T), and tyrosine (Tyr, Y), residues on target proteins. 
 Protein kinases catalyze the transfer of PO 4- group from ATP to the nucleophile (OH) group of serine, threonine, and tyrosine residues, while protein phosphatases catalyze the removal of PO 4 -. 
 Phosphorylation changes the charge of a protein, often altering protein conformation and therefore function [@PMID:26473910]. 
-Protein phosphorylation is one of the major PTMs that alters the stability, subcellular location, enzymatic activity complex formation, degradation of protein, and cell signalling of protein with a diverse role in cells [@PMID:31819260, @PMID:35227377]. 
+Protein phosphorylation is one of the major PTMs that alters the stability, subcellular location, enzymatic activity complex formation, degradation of protein, and cell signaling of protein with a diverse role in cells [@PMID:31819260, @PMID:35227377]. 
 Phosphorylation can regulate almost all cellular processes, including metabolism, growth, division, differentiation, apoptosis, and signal transduction pathways [@PMID:28656226]. 
 Rapid changes in protein phosphorylation are associated with several diseases [@PMID:11589691]. 
 
 Several methods are used to characterize phosphorylation using modification-specific enrichment techniques combined with advanced MS/MS methods and computational data analysis [@PMID:19743430]. 
-MS-based phosphoproteomics tools are pivotal for the comprehensive study for the structural and dynamics of cellular signalling networks [@PMID:32676006], but there are many challenges [@PMID:24890697]. 
+MS-based phosphoproteomics tools are pivotal for the comprehensive study for the structural and dynamics of cellular signaling networks [@PMID:32676006], but there are many challenges [@PMID:24890697]. 
 For example, phosphopeptides are low stoichiometry compared to non-phosphorylated peptides, which makes them difficult to identify. 
 Phosphopeptides also exhibit low ionization efficiency [@PMID:28283928]. 
 To overcome these challenges, it is important to reduce sample complexity to detect large numbers of phosphorylation sites. 
@@ -1178,7 +1204,7 @@ SPE materials which are less commonly used are silica- or polystyrene-based ones
 The other types of SPE methods are IEX, metal chelation, and affinity-based [@PMID:25692071].
 
 The basic idea behind the choice of binding and wash versus elution solutions for SPE is that that the binding and wash solutions should favor the interaction between the analytes of interest and the solid phase, whereas the elution solution should favor the interaction of the analyte with the liquid phase (**Figure 4**). 
-For example, with reversed phase SPE, the solid phase is C18 or some other hydrophic chemistry. 
+For example, with reversed phase SPE, the solid phase is C18 or some other hydrophobic chemistry. 
 Binding of peptides to this solid phase is based on the hydrophobicity of peptides, mostly due to their peptide backbone, but also due to the presence of amino acid side chains like leucine and phenylalanine. 
 To encourage peptides to ‘like’ the stationary phase more than the liquid phase, the peptides are loaded in aqueous solution. 
 This will enable washing of the hydrophilic contaminants like salts, small polar buffer molecules, and polar denaturants like urea. 
@@ -1268,7 +1294,7 @@ Therefore, one major benefit of LC is that it allows detection of low abundant a
 The field of proteomics predominantly separates peptides using reversed phase liquid chromatography [@DOI:10.1016/j.chroma.2012.06.098; @DOI:10.1016/j.aca.2010.02.001; @DOI:10.1016/j.chroma.2004.07.044]. 
 Reversed stationary phase is most commonly composed of microscopic (1-3 μm) silica beads coated with covalently bound long (e.g. C18) hydrophobic alkyl chains. 
 The hydrophobic side chains of certain residues and the peptide backbone bind to this stationary phase through non-polar interactions. 
-These interactions are strong in an aqueous solvent, but are disrupted when the organic composition of the solvent is increased. 
+These interactions are strong in an aqueous solvent but are disrupted when the organic composition of the solvent is increased. 
 Thus, in a reversed phase separation the proportion of non-polar, or organic, solvent in the mobile phase is gradually increased to release analytes from the stationary phase based on the strength of hydrophobic binding: weakly bound hydrophilic analytes elute with a low organic level in the mobile phase and strongly bound hydrophobic analytes only elute when the organic composition reaches a higher percentage. 
 By far the most popular combination of solvents for peptide analysis is water and acetonitrile with dilute acid modifier (such as 0.1% formic acid or 0.5% acetic acid). 
 The programmed rate at which the proportion of organic solvent is increased in the mobile phase is called the “gradient”, which you will often find described in the methods sections for reversed phase separations.
@@ -1355,14 +1381,14 @@ However peak capacity is regained by using ion mobility spectrometry (separation
 ## Peptide Ionization {.page_break_before}
 Until the early 1990s, peptides analysis by mass spectrometry was challenging. 
 Hard ionization techniques in use at the time, like fast atom bombardment, were not directly applicable to peptides without destroying or breaking them.
-The soft ionization tehniques however, revolutionized the proteomics field and it became possible to routinely ionize and analyze peptides using MALDI and ESI techniques at high-throughput scale. 
-These two techniques were so impactful that the 2002 Nobel Prize in Chemistry was co-awarded to John Fenn (ESI) and Koichi Tanaka (MALDI) "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules" [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary]. 
+The soft ionization techniques however, revolutionized the proteomics field and it became possible to routinely ionize and analyze peptides using MALDI and ESI techniques at high-throughput scale. 
+These two techniques were so impactful that the 2002 Nobel Prize in Chemistry was co-awarded to John Fenn (ESI) and Koichi Tanaka (MALDI) "for their development of soft desorption ionization methods for mass spectrometric analyses of biological macromolecules" [@URL:https://www.nobelprize.org/prizes/chemistry/2002/summary]. 
 
 ### MALDI
-The term, Matrix-assisted LASER desorption ionization (MALDI), was coined by Hillenkamp and Karas in 1985[@URL:https://pubs.acs.org/doi/abs/10.1021/ac00291a042]. 
-Karas and Hillenkamp discovered the MALDI technique first, although a similar ionization method was shown by Koichi Tanaka in 1988 [@DOI:10.1002/rcm.1290020802]. 
+The term "Matrix-assisted LASER desorption" was coined by Hillenkamp and Karas in 1985, although this orignal paper only applied the technique to dipeptides [@URL:https://pubs.acs.org/doi/abs/10.1021/ac00291a042]. 
+It was Koichi Tanaka who first applied this idea to whole proteins in 1987 and then published it in 1988 [@DOI:10.1002/rcm.1290020802]. 
 A few months later, Karas and Hillenkamp also demonstrated MALDI applied to protein ionization [@DOI:10.1021/ac00171a028].
-It also created a controversy that the widely used method of MALDI from these two people had been overlooked, and the Nobel prize was awarded to Tanaka, whose system was rarely used [@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
+This resulted in controversy about who should have won the Nobel prize [@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
 
 MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound (**Figure 5**).
 Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@PMID:23681820].
@@ -1390,7 +1416,7 @@ The liquid phase is generally kept acidic to help impart protons easily to the a
 Tryptic peptides ionized by ESI usually carry one charge one the side chain of their c-terminal residue (Arg or Lys) and one charge at their n-terminal amine.
 Peptides can have more than one charge if they have a longer peptide backbone, have histidine residues, or have missed cleavages leaving extra Arg and Lys.
 In most cases, peptides ionized by ESI are observed at more than one charge state.
-Evidence suggests that the distribution of peptide charge states can be maniupulated through chemical additives [@PMID:22610994].
+Evidence suggests that the distribution of peptide charge states can be manipulated through chemical additives [@PMID:22610994].
 
 #### Electrospray Mechanism
 ![**Electrospray Ionization** 
@@ -1444,12 +1470,12 @@ Common types of ion detectors, including the Electron Multiplier (EM), Photomult
 It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
 Instead, they detect ions in a fundamentally different way by detecting image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
 In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.
-This signal is then processed to extract the frequencies of oscillation and fourier-transformed into a mass spectrum, which is quite different from other types of detectors that count individual ions or particles striking a surface.
+This signal is then processed to extract the frequencies of oscillation and Fourier-transformed into a mass spectrum, which is quite different from other types of detectors that count individual ions or particles striking a surface.
 
 #### 4)	The vacuum system.
 This is designed to maintain a vacuum environment for ions’ movement inside the instrument, consists of different type of pumps including rough vacuum pumps (rotary vane pumps, scroll pumps) and high vacuum pumps (turbo molecular pumps, diffusion pumps).
 The reason for maintaining a high vacuum is to reduce the collision between ions and gas molecules during their travel, which can affect their trajectory.
-FT-ICR and Orbitrap instruments usually require higher vacuum in the 10-9 to 10-11 Torr level, while TOFs require medium vacuum in the 10-7  to 10-8 Torr range, and Quadrupole and Ion trap require a relative lower vacuum in the 10-5  to 10-6 Torr range. 
+FT-ICR and Orbitrap instruments usually require higher vacuum in the 10-9 to 10-11 Torr level, while TOFs require medium vacuum in the 10-7  to 10-8 Torr range, and Quadrupole and Ion trap type insturment require a relatively lower vacuum in the 10-5  to 10-6 Torr range. 
 
 #### 5)	The control system.
 This is needed to regulate and coordinate the various parts of the mass spectrometer to ensure seamless functioning.
@@ -1487,15 +1513,15 @@ Next, we will focus on introducing several classic tandem mass spectrometry type
 ### 1. Triple quadrupole (QQQ).
 Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS), as suggested by the name, is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 8**). 
 Each quadrupole is essentially a set of four parallel metal rods to which radio frequency (RF) and direct current (DC) voltages are applied to each opposing pair of rods. 
-The QqQ operate in a synchronized manner to isolate ions of interest (according to the Mathieu function), induce fragmentation, and then detect the resulting fragment ions. 
-Specifically, first quadrupole (Q1) is a mass filter, where ions of a specific mass-to-charge ratio (m/z) are selected from the incoming ion beam. 
+The QqQ operates in a synchronized manner to isolate ions of interest (according to the Mathieu function), induce fragmentation, and then detect the resulting fragment ions. 
+Specifically, the first quadrupole (Q1) is a mass filter, where ions of a specific mass-to-charge ratio (m/z) are selected from the incoming ion beam. 
 This is achieved by adjusting the voltage applied to the pair rods within the quadrupole, allowing ions with a particular m/z value to pass through while deflecting others. 
 The second quadrupole (Q2), also known as the collision cell, is where selected ions from Q1 are fragmented into product ions. 
 This fragmentation happens due to the collisions between inert gas molecules (nitrogen, argon, or helium) and ions, which causes the ions to break up (fragment) into smaller pieces (fragment ions). 
 For more detail about peptide fragmentation, see the Tandem Mass Spectrometry section.
 This process is known as collision-induced dissociation (CID) [@PMID:16401509; @DOI:10.1021/ac00106a008]. 
 The Q2 is usually only subjected to RF potential and does not filter ions; instead, it transmits the product ions to the third quadrupole. 
-In some tandem mass spectrometry, hexapole or octupole are also using to replace quadrupole as the collision cell. 
+In some tandem mass spectrometry, hexapoles or octupoles are also used to replace a quadrupole as the collision cell. 
 Lastly, the third quadrupole (Q3) acts as a secondary mass filter, similar to Q1, but with the purpose of selecting specific fragment ions produced in the collision cell while excluding other ions. 
 The chosen ions are then directed to the detector, where their abundance is measured (Figure 10.2). 
 This process, involving precursor ion selection, precursor ion fragmentation, and product ion detection, is a general operating principle in tandem mass spectrometry and determines what kind of scan mode you can utilize.
@@ -1515,7 +1541,7 @@ This mode is used to find compounds that yield a specific fragment ion, which ca
 Both Q1 and Q3 scan the full range of ions, but with a mass difference equal to a specific "neutral loss". 
 This mode is used to identify compounds that, when fragmented, lose a specific neutral molecule.
 
-#### 4. Multiple Reaction Monitoring (MRM): 
+#### 4. Multiple/Selected Reaction Monitoring (M/SRM): 
 Both Q1 and Q3 are set to filter specific ions (precursor and product, respectively). 
 This highly selective mode is used for quantitative analysis of specific compounds, offering excellent sensitivity and specificity[@DOI:10.1074/mcp.M500331-MCP200;@DOI:10.1007/s00216-003-2287-1].
 
@@ -1536,7 +1562,7 @@ W.E. Stephens constructed and published the design of the first time-of-flight (
 The principle of TOF is quite straightforward: ions of different mass-to-charge ratios (m/z) are imparted with the same initial kinetic energy (E = Uq = ½ mv2) and then separated over time as they travel along a field-free drift path of known length. 
 If all ions begin their flight simultaneously, or at least within a short enough time span, the lighter ions will reach the detector before the heavier ones due to their faster velocity (V)[@DOI:10.1063/1.1715212]. 
 Based on this principle, the m/z of different ions can be calculated according to the order in which they reach the detector. 
-Similarly, we can easily conclude that the longer of the drift path, the higher of the mass resolution can reach if keep the response time of detector the same. 
+Similarly, we can easily conclude that the longer the drift path, the higher of the mass resolution can reach if keep the response time of detector the same. 
 In fact, in pursuit of higher mass resolution, researchers have indeed built time-of-flight (TOF) drift tubes that are tens of meters long. 
 However, apparently, this is not practical for widely application in a regular lab place. 
 An alternative way to expand drift length and achieve higher resolution is to apply reflector (often called a reflectron). 
@@ -1561,7 +1587,7 @@ This part of the instrument is basically the same to the Q1 in QqQ, which select
 #### 2. Collision cell.
 Here, selected ions undergo collision-induced dissociation (CID) by interacting with a neutral gas, leading to their fragmentation into smaller constituents.
 This process yields structural information about the original molecules.
-Usually, quadrupole, hexapole, or even octopole are used as the collision cell for better focusing and transporting.
+Usually, quadrupole, hexapole, or even octopoles are used as the collision cell for better focusing and transporting.
 
 #### 3. Time-of-Flight (TOF) mass analyzer.
 Upon exiting the collision cell, the fragmented ions are reaccelerated into the ion modulator region of the time-of-flight analyzer.
@@ -1628,7 +1654,7 @@ To improve the signal, a voltage is applied by excitation plates and resonance o
 The ions absorb radio frequency energy, which increases the radius of their circular path, and consequently, the excited ions move closer to the detector plates and generate a current. 
 The resulting signal is an oscillating pattern or a time-domain signal. 
 
-Similar to Orbitrap, this time-domain signal is then transformed into a frequency-domain signal using Fourier transform, hence the name Fourier Transform ion cyclotron resonance (ICR). 
+Similar to Orbitraps, this time-domain signal is then transformed into a frequency-domain signal using Fourier transform, hence the name Fourier Transform ion cyclotron resonance (ICR). 
 The Fourier transformed data forms a mass spectrum where each peak corresponds to a specific ion present in the sample. 
 One of the most important advantages of FT-ICR mass spectrometry is its exceptionally high mass resolution and mass accuracy, even for large and complex molecules. 
 This enables precise identification and characterization of a wide range of compounds in complex mixtures [@DOI:10.1002/mas.21438; @DOI:10.1071/EN15230]. 
@@ -1680,7 +1706,7 @@ However, a fundamental limitation of this wide-ranging analysis is the diminishe
 In contrast, spatially dispersive methods separate ions based on mobility differences (charge, shape and size), leading them on distinct drift paths or trajectories, but without significant time differences. 
 A characteristic of spatially dispersive techniques is the scanning of voltage to obtain a broad-band ion mobility spectrum.
 Types of spatially dispersive ion mobility include High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS), uniform-field differential mobility analyzers (DMA), and the newly introduced scanned frequency ion mobility filter called transverse modulation ion mobility spectrometry (TMIMS). 
-Ion confinement and release strategies are recently developed techniques which trap ions in a pressurized drift cell by electric field, and then releasing them based on mobility distinctions. 
+Ion confinement and release strategies are recently developed techniques which trap ions in a pressurized drift cell by electric field, and then release them based on mobility distinctions. 
 This technique relies on the ability to control the position of ions under elevated pressure conditions using precisely adjustable electrodynamic fields. 
 It requires a precise fabrication craft and more complicated control system. 
 While it has only been perfected recently, typical products like trapped ion mobility spectrometry (TIMS) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.trac.2019.03.030] and cyclic traveling wave IMS have become commercially available [@DOI:10.1021/acs.analchem.9b01838]. 
@@ -1744,9 +1770,9 @@ Commercial FAIMS products from vendors including Thermo Fisher and WATERS are av
 
 
 #### 10.5.3 Trapped ion mobility spectrometry (TIMS)
-   Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
+Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
 The basic idea behind TIMS is a combination of traditional ion mobility spectrometry and ion trapping techniques. 
-Instead of driving ions through a drift tube filled with stationary gas, TIMS holds the ions stationary in a drift cell under a moving buffer gas and then release them by adjusting electric fields (voltages on electrodes). 
+Instead of driving ions through a drift tube filled with stationary gas, TIMS holds the ions stationary in a drift cell under a moving buffer gas and then releases them by adjusting electric fields (voltages on electrodes). 
 This process was realized by applying two different electric fields: 
 1) Radially confining pseudopotential.
 An RF (radio frequency) voltage is applied to the electrodes of the TIMS analyzer to generate a radially confining pseudopotential, which essentially no axial component and only use for “focusing” ions in the central region of TIMS tube, preventing them from diffusion or hitting electrodes. 
@@ -1763,7 +1789,7 @@ Thus, the resolving power achieved by TIMS depends on the "quantity" of gas, spe
 This offers the direct benefit of allowing the analyzer to maintain a compact physical size (around 5 cm) and achieve a high resolving power (R ∼ 300), while the analytical gas column – the portion that flows during an analysis – can be extensive (up to 10 m) and tailored to the user's needs. 
 Moreover, by leveraging the "trapping" capability (trapping time) of TIMS and the high scanning speeds of TOF, platforms such as TIMS-Q-TOF can implement a full duty cycle acquisition protocol known as Parallel Accumulation-Serial Fragmentation (PASEF) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.mcpro.2021.100138]. 
 This is particularly meaningful for identifying more peptides within a given time frame, such as capture more precursors from co-eluted peptides in the same liquid chromatography peak. 
-Currently, Bruker is the primary provider of commercial mass spectrometers that utilizing TIMS-tof technology. (TIMS-tof pro, TIMS-tof pro2, SCP.  etc.). 
+Currently, Bruker is the primary provider of commercial mass spectrometers that utilize TIMS-tof technology. (TIMS-tof pro, TIMS-tof pro2, SCP.  etc.). 
 
 #### 10.5.4 Structures for Lossless Ion Manipulation (SLIM)
 A final type of ion mobility invented by Richard Smith and team at Pacific Northwest National Labs is called SLIM [@DOI:10.1021/ac502054p]. 
@@ -1808,7 +1834,7 @@ Here, collisions with inert gas molecules are used to increase the internal ener
 Various inert gases can be used; helium, nitrogen, and argon are the most common.
 Preferences for which gas is used is often a function of how much energy per collision is desired.
 Two main versions of CID are used in proteomics, with the most common being beam-type CID (beamCID, sometimes called higher-energy collisional dissociation, HCD) [@DOI:10.1063/1.471812; @DOI:10.1038/nmeth1060].
-BeamCID typically uses nitrogen or argon as a collision gas, and peptide ions are accelerated in to a collision cell filled with several mTorr of bath gas.
+BeamCID typically uses nitrogen or argon as a collision gas, and peptide ions are accelerated into a collision cell filled with several mTorr of bath gas.
 The kinetic energy used to accelerate precursor ions (often generated using direct current voltage differentials between the source of the ions and the collision cell) determines the energy imparted through collisions with the bath gas, which in turn governs their fragmentation behavior.
 
 In non-modified peptides, the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids, so the increase in internal energy from beamCID generates b- and y-type ions that represent this peptide bond cleavage, as shown in Biemann fragment ion nomenclature (Figure X).
@@ -1880,7 +1906,7 @@ Data acquisition strategies for proteomics fall into one of two groups.
 1. Data dependent acquisition (DDA), in which the exact scan sequence in each analysis depends on the data that the mass spectrometer observes.
 2. Data independent acquisition (DIA), in which the exact scan sequence in each analysis DOES NOT depend on the data; the collected scans are the same whether you inject yeast peptides, human peptides, or a solvent blank.  
 
-DDA and DIA can both be futher subdivided in to targeted and untargeted methods. 
+DDA and DIA can both be further subdivided in to targeted and untargeted methods. 
 
 <!-- to do: figure showing the four basic types of data acquisition and their names, like four squares? -->
 
@@ -1904,7 +1930,7 @@ There are several other similar tools and strategies, including the accurate mas
 More recent work has introducted statistical assessment of MBR methods using a two-proteome model [@DOI:10.1021/acs.jproteome.9b00492].
 Statistically controlled MBR is currently available in the IonQuant tool [@DOI:10.1016/j.mcpro.2021.100077].
 
-Because DDA is required for quantification of proteins using isobaric tags like TMT, this stochasiticity of DDA limits the ability to compare quantities across batches. 
+Because DDA is required for quantification of proteins using isobaric tags like TMT, this stochasticity of DDA limits the ability to compare quantities across batches. 
 For example, if you have 30 samples, you can use two sets of the 16-plex kit to label 15 samples in each set with one channel labeled by a pooled sample to enable comparison across the groups.
 When you collect DDA data from each of those sets, each set will have MS/MS data from an overlapping but different set of peptides. 
 If one set has MS/MS from a peptide but the other set does not, then that peptide cannot be quantified in the whole sample group. 
@@ -1915,8 +1941,8 @@ This limits the number of quantified proteins in large TMT experiments with mult
 Targeted DDA is not common in modern proteomics. 
 In targeted DDA, in addition to general criteria like a minimum intensity and a certain charge state, the mass spectrometer looks for specific masses.
 These masses might be previously observed signals that were previously missed by MS/MS [@DOI:10.1021/pr800828p; @DOI:10.1074/mcp.M700029-MCP200].
-In these studies, the sample is first analyzed by LC-MS to detect precursor ion features with some software, and then subsequent analyses target those masses for fragmentation with inclusion lists until they are all fragmeted. 
-This was shown to increase proteome converage. 
+In these studies, the sample is first analyzed by LC-MS to detect precursor ion features with some software, and then subsequent analyses target those masses for fragmentation with inclusion lists until they are all fragmented. 
+This was shown to increase proteome coverage. 
 
 #### DDA methods for modifications
 Resonant CID [@DOI:10.1074/mcp.m111.009910] and beam-type HCD [@DOI:10.1021/pr100637q] are the most popular methods for unmodified and modified peptides due to their speed, accessibility, and efficiency. 
@@ -1952,11 +1978,11 @@ The two targeted DIA methods are selected reaction monitoring (SRM) or multiple 
 
 ![**Types of DIA.**
 A) SRM/MRM. 
-Peptides are ionized by ESI and although there are many peptides entering the mass spectrometer at any time, the first quadruople (Q1) isolates one mass, which is then fragmented by HCD. 
-Fragment masses from the peptide are then selected in the third quadruople (Q3). 
+Peptides are ionized by ESI and although there are many peptides entering the mass spectrometer at any time, the first quadrupole (Q1) isolates one mass, which is then fragmented by HCD. 
+Fragment masses from the peptide are then selected in the third quadrupole (Q3). 
 This leads to very low noise and high sensitivity.
 B) PRM. 
-Like MRM, peptides are selected in the first quadruople, but this analysis is done on a high resolution instrument like an Orbitrap or TOF. 
+Like MRM, peptides are selected in the first quadrupole, but this analysis is done on a high-resolution instrument like an Orbitrap or TOF. 
 Selectivity is gained by exploiting the high mass accuracy and resolution to monitor multiple fragment ions. 
 C) uDIA/SWATH. 
 Like MRM and PRM, peptides are isolated with Q1, but in this case a much wider isolation window is used. 
@@ -1967,8 +1993,8 @@ Special software is used to get peptide identities and quantities from the fragm
 
 #### Targeted DIA
 The first type of targeted DIA is called SRM or MRM [@DOI:10.1016/j.ymeth.2013.05.004].
-The popularity of this method in the literature peaked in 2014, with just under 1,500 documents on pubmed that year resulting from a search for "MRM".
-In this strategy, the QQQ MS is set so that the first quadrupole selects the precursor mass of the peptide(s) of interest, the second quadrupole fragments the peptide, and the third quadruople monitors the product of specific fragments from that peptide. 
+The popularity of this method in the literature peaked in 2014, with just under 1,500 documents on PubMed that year resulting from a search for "MRM".
+In this strategy, the QQQ MS is set so that the first quadrupole selects the precursor mass of the peptide(s) of interest, the second quadrupole fragments the peptide, and the third quadrupole monitors the product of specific fragments from that peptide. 
 This strategy is very sensitive and has the benefit of very low noise. 
 The fragments monitored in Q3 are chosen such that it is unlikely these fragments could arise from another peptide. 
 Usually at least a few transitions are monitored for each peptide in order to get multiple measures for that peptide. 
@@ -1981,7 +2007,7 @@ Scheduling MRM measurement when chromatography is stable additionally enabled be
 Efforts even developed libraries of transitions that allow quantification of any protein in model organisms [@DOI:10.1038/nmeth1108-913].
 
 Another similar targeted DIA method is called parallel reaction monitoring (PRM) [@DOI:10.1074/mcp.O112.020131].
-Instead of using a QQQ instrument, PRM uses a hybrid MS with a quadrupole and a high resolution mass analyzer, such as an Q-TOF or Q-Exactive. 
+Instead of using a QQQ instrument, PRM uses a hybrid MS with a quadrupole and a high-resolution mass analyzer, such as an Q-TOF or Q-Exactive. 
 The idea is that instead of monitoring specific fragments in Q3, the high mass accuracy can be used to filter peptide fragments for high selectivity and accurate quantification. 
 Studies have found that PRM and MRM/SRM have comparable dynamic range and linearity [@DOI:10.1016/j.jprot.2014.10.017].
 
@@ -1989,7 +2015,7 @@ Studies have found that PRM and MRM/SRM have comparable dynamic range and linear
 #### Untargeted DIA
 
 There were many implementations of uDIA over the years, starting in 2003 by Purvine et al from the Goodlett lab [@DOI:10.1002/pmic.200300362]. 
-In this first work they demonstrated uDIA using a Q-TOF with in source fragmentation, and showed that extracted ion chromatograms of precursor and fragment ions matched in shape suggesting that this could be used to identify and quantify peptides. 
+In this first work they demonstrated uDIA using a Q-TOF with in source fragmentation and showed that extracted ion chromatograms of precursor and fragment ions matched in shape suggesting that this could be used to identify and quantify peptides. 
 The following year, Venable et al from the Yates lab introduced uDIA with an ion trap [@DOI:10.1038/nmeth705].
 Subsequent methods include MSE [@DOI:10.1002/rcm.2550], PAcIFIC [@DOI:10.1021/ac900888s], all ions fragmentation (AIF) [@DOI:10.1074/mcp.M110.001537].
 Computational methods were also developed to automate interpretation of this data, such as DeMux [@DOI:10.1074/mcp.M110.001537], XDIA [@DOI:10.1093/bioinformatics/btq031], and ETISEQ [@DOI:10.1186/1471-2105-10-244].
@@ -2019,14 +2045,14 @@ On the orbitrap, the combination of FAIMS and DIA has enabled the identification
 
 ## Analysis of Raw Data {.page_break_before}
 
-The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically-focused analysis. 
+The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically focused analysis. 
 This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
 
 In typical bottom-up proteomics experiments, proteins are digested into peptides and further analyzed with LC-MS/MS systems. 
 Peptides can have different PTMs and ionize differently depending on their length and amino acid distributions. 
 Therefore, mass spectrometers often record different charge and modification states of one single peptide. 
 The entity that is recorded on a mass spectrometer is usually referred to as a precursor ion (peptide with its modification and charge state). 
-This precursor ion is fragmented and the precursor or peptide sequences are obtained though spectral matching. 
+This precursor ion is fragmented, and the precursor or peptide sequences are obtained though spectral matching. 
 The quantity of a precursor is estimated with various methods.
 The measured precursor quantities are combined to generate a peptide quantity. 
 Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification [@PMID:16009968; @DOI:10.1016/j.jprot.2016.08.002].
@@ -2035,7 +2061,7 @@ Protein inference is still a challenge in bottom-up proteomics.
 Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
 The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:
 
-#### DDA freeware 
+#### 15-1 DDA freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
@@ -2044,25 +2070,24 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | Mascot   |Perkins et al., 1999[@PMID:10612281]             |    [Mascot](https://www.matrixscience.com/)     |
 | MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
 | X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198;@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
+| Comet    | Eng et al., 2012[@DOI:10.1002/pmic.201200439] | [Comet](https://uwpr.github.io/Comet/) |
 
-
-#### DIA freeware:
+#### 15-2 DIA freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
 | MaxDIA |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|        [MaxQuant](https://www.maxquant.org/)    |
 | Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
 | DIA-NN|Demichev et al., 2019[@DOI:10.1038/s41592-019-0638-x]  |    [DIA-NN](https://github.com/vdemichev/DiaNN)     |
+| EncyclopeDIA | Searle et al., 2018[@DOI:10.1038/s41467-018-07454-w] | [EncyclopeDIA](http://www.searlelab.org/software/encyclopedia/index.html) |
 
-
-#### Targeted proteomics freeware:
+#### 15-3 Targeted proteomics freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
 | Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
 
-
-#### DDA non-freeware:
+#### 15-4 DDA non-freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
@@ -2072,7 +2097,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
 
 
-#### DIA non-freeware:
+#### 15-5 DIA non-freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
@@ -2080,15 +2105,15 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
 
 
-#### Data Summary and Interpretation
+#### 15-6 Data Summary and Interpretation
 |    Name    |            Publication     |                 Website              |
 |:----------:|:--------------------------:|:------------------------------------:|
 |Peptide Shaker|Vaudel _et al._, 2015[@DOI:10.1038/nbt.3109;@DOI:10.1021/acs.jproteome.1c00678]|[PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html), [Peptide Shaker Online](https://github.com/barsnes-group/peptide-shaker-online)|
 
 
 ### Analysis of DDA data
-DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, Sequest (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, MaxQuant, MSGF+, X!Tandem, Morpheus, MSFragger, and OMSSA. 
-Tables 1 and 4 give weblinks and citations for these software tools.
+DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, SEQUEST (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, Comet, MaxQuant, MSGF+, X!Tandem, Morpheus, MS-Fragger, and OMSSA. 
+Tables 15-1 and 15-4 give weblinks and citations for these software tools.
 <!-- todo: need to make sure all these are listed in the table and cited -->
 <!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
 For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
@@ -2119,6 +2144,47 @@ Thus, the number of false hits is multiplied by two for FDR estimation.
 
 $$FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}$$
 
+### Integrated Platforms
+Given the complexity of proteomic data analysis and the requirement for many steps to get from raw data to quantified proteins, there are some integrated software enviroments that easily allow users to complete everything in one place. 
+
+#### Trans-Proteomic Pipeline (TPP)
+The Trans-Proteomic Pipeline (TPP) is a free and open-source mass spectrometry data analysis suite for end-to end analysis that remains in continual development to provide ever expansive data analysis capabilities since its inception over twenty years ago [@PMID:16729052; @PMID:20013374; @PMID:21082435; @PMID:21876204; @PMID:25418363; @PMID:25631240; @PMID:26419769; @PMID:29400476; @PMID:31290668; @PMID:36629399; @PMID:36648445].  
+The current release provides tools for mass spectrometry spectral processing, spectrum searching, search validation, abundance computation, protein inference, and statistical evaluation of the data to ensure controlled false-discovery rates. 
+Many of the tools include machine-learning modeling to extract the most information from datasets and build robust statistical models to compute probabilities that derived information is correct.
+
+One of the major advantages of TPP is its ability to be deployed in a wide variety of environments, from personal Windows laptops to extensive large Linux clusters for automated use within cloud computing environments. 
+While the command-line interfaces are appreciated by many power users, others prefer a graphical user interface (GUI), which is provided by the TPP GUI called Petunia, allowing users to use the TPP from any web browser on any platform. 
+Petunia has the advantages that the same exact GUI is available on a modest Windows laptop, a powerful expandable Linux server shared by a research group, or a remote cloud computing instance running on Amazon Web Services (AWS) [@PMID:25418363].
+
+The TPP incudes many statistical validation tools such as PeptideProphet [@PMID:12403597], ProteinProphet [@PMID:14632076], iProphet [@PMID:21876204], and PTMProphet [@PMID:31290668], where Bayesian machine learning techniques are applied to the various search engine scores to model the correct and incorrect assignment distributions and then use these models to assign a probability of being correct based on these learned models. 
+With these tools it is possible to validate search engine results on large-scale datasets and in short order, enabling users to select probability thresholds based on a selected tolerable false discovery rate (FDR). 
+The TPP is made fully interoperable via the open XML-based formats pepXML and protXML for different aspects of processing data-dependent acquisition (DDA), and Data-independent acquisition (DIA) proteomics data, resulting in a complete suite of tools for processing the increasingly larger datasets from start to finish. 
+
+DIA workflows are supported via the DISCO tool which reads mzML files containing the instrument-produced spectra and uses signal processing approaches to isolate the fragment ions in the multiplexed MS2 spectra that correlate with precursors in the MS1 and writes the results to new mzML files that may then be searched with standard DDA search engines and downstream tools, including target-decoy analysis. 
+This provides a comprehensive analysis of DIA data without the need for building a spectral library first.
+
+From its inception, the TPP has been and will always be free and open-source software, allowing anyone to use it without cost and to inspect its source code, alter the source code for their own needs, or even incorporate parts of it into their own products. 
+Others have performed these tasks and include various analysis routines as addons such as TAILS N-terminomics analysis [@PMID:23667905], quantitation analysis with PyQuant [@PMID:27231314], SimPhospho [@PMID:29596608], WinProphet [@PMID:31305071], ProtyQuant [@PMID:32956841], and inclusion of R-tolls for metaproteomic analysis [@PMID:36674563]. 
+As a collection of individual tools, they are easily amenable to pipelining in a very flexible manner to support a huge variety of combinations and workflows, and a custom program may easily be inserted into the pipeline to support technology development.
+
+##### Search engines supported by TPP
+The heart of MS proteomics DDA data continues to be the “search engine” that interprets collections of mass spectra to determine the peptide or peptides that yielded them. 
+Spectral library search engines and de novo search engines, which are less common, are also available and are included in software suites such as the Trans Proteomic Pipeline.
+A sequence search engine most commonly used is the open-source version of SEQUEST called Comet, which is actively maintained and updated with new functionality as needs arise. 
+For spectral library searching, SpectraST uses an approach where new spectra are matched against a library of previously identified spectra in the form of a spectral library [@PMID:18806791]. 
+This approach is much faster, more sensitive, and more specific than sequence database searching, although is only as good as the reference spectral library provided. 
+There is renewed interest in spectral libraries because of data-independent acquisition (DIA) approaches being increasingly deployed and therefore the quality and coverage of libraries is paramount and likely to improve in the coming years, aided by the standard spectral library format being developed by the PSI [@URL:https://psidev.info/mzSpecLib]. 
+For de novo sequence analysis, Novor [@PMID:26122521] and Casanovo [@DOI:10.1101/2022.02.07.479481] are very fast and capable de novo sequence search engines that are available. 
+
+For chemical crosslinking proteomics analysis, open-source programs such as Kojak [@PMID:25812159; @PMID:36629399] are available for standard or cleavable MS2-based crosslinking techniques. 
+Crosslinking-based MS analyses are employed to elucidate protein-protein interactions and facilitate protein structure and topology predictions. 
+Kojak is designed to identify two independent peptides covalently bonded with a crosslinker and fragmented in a single MS2 scan event using a database search approach. 
+Kojak algorithm also includes support for cleavable cross-linkers, and identification of cross-links between 15N-labeled homomultimers and is integrated into the Trans-Proteomic Pipeline, enabling access to dozens of additional tools, in particular, the PeptideProphet and iProphet tools for validation of cross-links improve the sensitivity and accuracy of correct cross-link identifications at user-defined thresholds. 
+Development of Kojak has continued over the last ten years culminating in many improvements and new features. 
+These improvements include support for additional open formats and standards, further refinement to the search algorithm for efficiency, E-values to normalize the scores of the results, support for cleavable cross-linkers, and methods to identify cross-links between homomultimer subunits. 
+
+For open modification database searching, programs such as Magnum (@PMID:35184559) are also now available which is specialized in identification of non-peptide masses that are bound to peptides. The tool is capable of identifying xenobiotic mass adducts, in addition to PTMs that were uncharacterized in the search parameters. 
+
 
 ### Strategies for analysis of DIA data
 
@@ -2128,7 +2194,7 @@ $$FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}$$
 
 Quality control should be a central aspect of any mass spectrometry-based study to ensure reproducibility of generated results.
 There are two types of quality controls that can be conducted for any kind of mass spectrometry experiment.
-The first one is focused on monitoring the perfomance of the instruments themselves (e.g. HPLC and mass spectrometer), whereas the second one is focused on your experiments. 
+The first one is focused on monitoring the performance of the instruments themselves (e.g. HPLC and mass spectrometer), whereas the second one is focused on your experiments. 
 For further reading, we recommend to take a look at issue 11 on quality control published in the journal _Proteomics_ in 2011 [@DOI:10.1002/pmic.201190020], especially the review by Köcher _et al._ [@DOI:10.1002/pmic.201000578], as well as the review published by Bittremieux _et al._ in 2017 [@DOI:10.1002/mas.21544].
 
 #### Instrument Performance
@@ -2147,7 +2213,7 @@ Another strategy is to analyze digested purified proteins, which easily enable d
 In case you are working with a Thermo mass spectrometer, you can open the acquired .raw file directly either in FreeStyle or in Qual Browser and look for specific m/z values of your peptides.
 Looking at the intensity of the extracted peaks will help identify sensitivity fluctuations. 
 
-Carry-over between different measurments can be identified from blank measurements which are subsequently analyzed with your search software of choice.
+Carry-over between different measurements can be identified from blank measurements which are subsequently analyzed with your search software of choice.
 Blank measurements can be injections of different buffers, water or the starting conditions of your liquid chromatography. 
 In case of increased detection of carry-over, injections with trifluoroethanol can be performed.
 
@@ -2163,9 +2229,9 @@ Apart from instrument performance, any kind of data analysis should have proper 
 It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time. 
 Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
 Decoy searches help monitor and control the false-discovery rate. 
-Inlcuding common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
+Including common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
 Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
-Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurments to identify potential measurement or normalization issues. 
+Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurements to identify potential measurement or normalization issues. 
 Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
 In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.
 
@@ -2407,7 +2473,7 @@ In each of these cases, proteomics practitioners must understand their specific 
 
 The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
 This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits. 
-In this section, we aim to present a concise overview of how proteomic data can be effectively contextualised and used to generate new hypotheses.
+In this section, we aim to present a concise overview of how proteomic data can be effectively contextualized and used to generate new hypotheses.
 
 The simplest approach is to start manual lookup of every protein in the list to uncover groups that function together.
 Starting with a list of hundreds of protein changes, a smaller list can be prioritized by considering the level of significance and effect size.
@@ -2431,7 +2497,7 @@ Below we summarize these approaches and point out potential pitfalls with these 
 
 A network is a representation of the relations between objects. 
 Nodes are the entities of the network (e.g., users of a social platform, train stations, proteins), while edges are the connections between them (e.g., friendship, routes, and protein interactions, respectively). 
-In the case of protein-protein interactions, the evidence for the functional associations between proteins can be obtained experimentally. 
+In the case of protein-protein interactions, evidence for the functional associations between proteins can be obtained experimentally. 
 For example, co-immunoprecipitation, crosslinking, and proximity labeling can be used to reveal physical interactions [@PMID:34046695]. 
 The data is presented in a table with nodes and edges (e.g., "protein A interacts with protein B") from which the network can be constructed. 
 A considerable wealth of protein-protein association data is stored in free databases like IntAct, which contain interactions derived from literature curation or direct user submissions [@PMID:34761267]. 
@@ -2516,7 +2582,7 @@ For example, the Gene Ontology is split into the classes: Cellular Component, Mo
 The Cellular Component terms could give us a starting point if this might be the case, by examining if Cellular Component annotations are enriched. 
 
 There are a number of databases and tools to perform such analysis, which can even be extended to examine whole pathways, networks, post-translational modification and literature representation.
-For example, databses such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
+For example, databases such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
 For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
 Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
 GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
@@ -2531,7 +2597,7 @@ By including contaminates or proteins that are not expressed in our system withi
 We may also have access to our own curated set of annotations derived either computational or experimental.
 One may be interested in seeing whether we have enrichment of these annotations amongst the differentially abundant proteins.
 Our list of proteins could be divided into two groups: differentially abundant or not. These groups could be divided into whether they have a particular annotation: yes or no.
-This information can be summarised in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
+This information can be summarized in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
 One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
 
 There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 16**), as follows.
@@ -2543,7 +2609,7 @@ Black bars or thick-bordered nodes indicate members of a GO category.
 
 #### Over-representation analysis
   
-In a modern proteomics analysis, usually thousands of proteins are identified and quantified. 
+In modern proteomics analysis, usually thousands of proteins are identified and quantified. 
 Fold-change and significance thresholds are chosen (e.g., fold-change ≥ 2 and p ≤ 0.05) to obtain a list of proteins with altered levels among the tested conditions.
 In over-representation methods, a contingency table is created for every protein set to establish whether proteins with altered abundance show an enrichment or a depletion of the ontology term compared to the background observed proteome [@PMID:32695141]. 
 For example, suppose that 2000 proteins were quantified in a proteomics analysis, being 40 of these members of the set "tricarboxylic acid cycle (TCA)." 
@@ -2582,7 +2648,7 @@ In Figure {@fig:enrich_methods}XI, it can be shown that topology-based methods c
 ### Other computational approaches: Network analysis, Isoform correlation analysis, AlphaFold, BLAST, protein language models
 
 Additional computational analysis of a list of interesting proteins may uncover additional substructure, correlation or biologically useful hypothesis.
-Building a network between the proteins based on the experiments performed, might be a useful approach to identify additional structure.
+Building a network between the proteins based on the experiments performed might be a useful approach to identify additional structure.
 For example, co-expression network analysis can be used to build a network from these proteins [@DOI:10.3410/f.727201931.793589848].
 In these networks, proteins are nodes and edges describe relationships between those proteins.
 Network-specific methods can then be applied, such as community detection algorithms which could uncover clusters of proteins with shared functions [@DOI:10.1101/2020.06.21.163543; @DOI:10.1016/j.physrep.2009.11.002].
@@ -2621,10 +2687,10 @@ Therefore, researchers will oftentimes be asked by scientific journals to provid
 
 The aim of validating data obtained by proteomics approaches should always be two-fold by demonstrating that the conclusions arrived at by proteomics data acquisition and analysis are, firstly, valid and, secondly, relevant.
 Depending on the question at hand, researchers can draw on an overabundance of techniques to validate MS-derived hypotheses in appropriate cellular, organismal or in vitro models.
-In the the following paragraphs we aim to present only a high-level, stringent, non-exhaustive selection of orthogonal validation approaches and emphasise the importance of implementing assays that challenge assumptions gained from proteomics data analysis pipelines.
+In the following paragraphs we aim to present only a high-level, stringent, non-exhaustive selection of orthogonal validation approaches and emphasize the importance of implementing assays that challenge assumptions gained from proteomics data analysis pipelines.
 
 Before embarking on orthogonal validation of any hit, the success of the experiment should be established by assessing (internal) positive controls. 
-Internal positive controls can be proteins whose behaviour under the experimental conditions applied can be deduced from prior knowledge (i.e. the scientific literature or public databases). 
+Internal positive controls can be proteins whose behavior under the experimental conditions applied can be deduced from prior knowledge (i.e. the scientific literature or public databases). 
 Once the expected changes in internal controls have been confirmed by computational analysis (see the above section), the orthogonal experimental validation of novel, perhaps unexpected findings can begin.   
 
 Orthogonal validation of new insights obtained from quantitative proteomics experiments can be a very time-consuming process and often requires familiarity with techniques not directly related to proteomics workflows. 
@@ -2632,28 +2698,28 @@ Given these challenges, the method(s) of choice warrant(s) careful consideration
 Importantly, proteomics experiments in one way or another generally yield comprehensive lists of potentially interesting candidate proteins or pathways, the researcher will have to shortlist candidates to be taken forward to the validation stage of the project. 
 Which candidates should you validate by an orthogonal approach and which ones might not require further validation?
 
-In general, candidates representing abundant proteins that show high sequence coverage and are detected with high confidence might not necessarily need extensive orthogonal validation when compared with proteins of intermediate to low abundance that might be more challenging to faithfully quantify by proteomics alone (i.e. many membrane proteins or transcription factors). 
+In general, candidates representing abundant proteins that show high sequence coverage and are detected with high confidence might not necessarily need extensive orthogonal validation when compared with proteins of intermediate to low abundance that might be more challenging to faithfully quantify by proteomics alone (i.e., many membrane proteins or transcription factors). 
 Similarly, since the proteome is rarely comprehensively quantified in any single proteomics experiment, proteins of interest (POIs) that are critical for an observed biological change might not be part of the dataset. 
 In these cases, additional, targeted analyses might help to support or discredit proteomics-based hypotheses. 
 
 Validation techniques are as manifold as biological questions and discussions thereof may easily fill multiple textbooks. 
-The following sections are therefore merely meant to paint with a broad brush stroke a picture of useful methodolgies with which to validate and follow up MS-data derived observations. 
-As this is meant to orient the reader, whereever possible, we will explicitly point out useful literature reviews for a deeper dive into each of these techniques. 
+The following sections are therefore merely meant to paint with a broad brush stroke a picture of useful methodologies with which to validate and follow up MS-data derived observations. 
+As this is meant to orient the reader, wherever possible, we will explicitly point out useful literature reviews for a deeper dive into each of these techniques. 
 
 ### General considerations 
 
-Once POIs have been selected based on prior agreed-upon selection criteria (i.e. (adjusted) p value and/or fold change thresholds), orthogonal validation experiments should ideally be conducted under physiologically relevant conditions to mitigate artifical and misleading outcomes. 
+Once POIs have been selected based on prior agreed-upon selection criteria (i.e. (adjusted) p value and/or fold change thresholds), orthogonal validation experiments should ideally be conducted under physiologically relevant conditions to mitigate artificial and misleading outcomes. 
 Therefore, in vitro experiments, while useful to isolate and dissect particular aspects of a biological system, can give highly artificial results as conditions are far removed from the POI's native environment. 
-To investigate the biological function of a protein or pathway, direct genetic manipulation of the biological system at hand (e.g. modulating the expression of a POI by overexpression or knockout-/down experiments) can be minimally invasive when performed correctly.
+To investigate the biological function of a protein or pathway, direct genetic manipulation of the biological system at hand (e.g., modulating the expression of a POI by overexpression or knockout-/down experiments) can be minimally invasive when performed correctly.
 Should the POI be encoded by an essential gene, by definition, a complete and stable knockout might not be advisable [@DOI:10.1093/nar/gkt1131; @DOI:10.1016/j.cell.2022.10.017]. 
-In these extreme cases, attenuated expression (i.e. using RNA interference (RNAi) or controlled degradation, see below) rather than complete repression of a gene can be used to probe for protein function. 
+In these extreme cases, attenuated expression (i.e., using RNA interference (RNAi) or controlled degradation, see below) rather than complete repression of a gene can be used to probe for protein function. 
 Epitope tagging and/or exogenous expression of a gene of interest can be a powerful approach in assessing PPIs and investigating proteins of low abundance. 
 However, overexpression artifacts are common [@DOI:10.1016/j.mrrev.2017.05.002]. 
 
-It is not always possible to fully avoid the pleiotropic effects of protein (over-)expression or depletion, but a number of mitigation strategies (i.e. inducible expression, the use of multiple independent RNAi strategies) will be discussed below.
+It is not always possible to fully avoid the pleiotropic effects of protein (over-)expression or depletion, but a number of mitigation strategies (i.e., inducible expression, the use of multiple independent RNAi strategies) will be discussed below.
 
 Extensive biochemical characterization of any overexpressed gene is critical to ensure it closely reflects the functions of its endogenous counterpart. 
-These assays might involve assessing protein localization (i.e. by imaging techniques such as microscopy and flow cytometry), protein abundance (i.e. by mass spectrometry or immunoblot analysis) and phenotypic assays where applicable and practical. 
+These assays might involve assessing protein localization (i.e., by imaging techniques such as microscopy and flow cytometry), protein abundance (i.e., by mass spectrometry or immunoblot analysis) and phenotypic assays where applicable and practical. 
 
 ### Functional genomics techniques in the validation of MS hits
 
@@ -2662,20 +2728,20 @@ Here we present a selection of methodologies to effectively modulate gene expres
 
 Gene deletion or knockdown to prevent production of a functional protein is a powerful means to interrogate the role of one or more proteins in the phenotype(s) under investigation. 
 To this end, well-established technologies deserving mention at this point are RNA interference (RNAi) in the form of siRNA/shRNA- or miRNA-mediated gene knockdown abd CRISPR/Cas9-or TALEN-mediated gene knockout [@DOI:10.1016/j.molcel.2015.04.028]. 
-Since each one of these technologies comes with their own unique advantages and caveats, the approach taken depends on the biological question at hand.
+Since each one of these technologies comes with its own unique advantages and caveats, the approach taken depends on the biological question at hand.
 
 Clustered regularly interspaced short palindromic repeats (CRISPR)/Cas-based gene deletion technologies allow for the targeting of individual genes with relative ease, high efficiency and specificity [@DOI:10.1126/science.1225829]. 
 When expressed in mammalian cells, the bacterially-derived Cas9 endonuclease can be guided with the help of a short guide RNA (gRNA) to a genomic location of interest, where it creates a DNA double strand break in a highly controlled manner (for a detailed discussion see [@DOI:10.1007/s00294-019-01040-3]).
-The cell's DNA double-stand break repair machinery then introduces base pair insertions or deletions (indels) via non-homologous-end-joining (NHEJ), thus causing missense, and frameshift mutations (i.e. resulting in premaure stop codons), leading to premature termination of gene expression or non-functional, aberrant gene products.
-Similarly, the concomitant provision of a complementary DNA donor template encoding a desired gene modification (i.e. insertion of a stretch of DNA or base pair modification) will trigger homology-directed repair (HDR), resulting in gene knockin or base editing [@DOI:10.1007/s00294-019-01040-3].     
+The cell's DNA double-stand break repair machinery then introduces base pair insertions or deletions (indels) via non-homologous-end-joining (NHEJ), thus causing missense, and frameshift mutations (i.e. resulting in premature stop codons), leading to premature termination of gene expression or non-functional, aberrant gene products.
+Similarly, the concomitant provision of a complementary DNA donor template encoding a desired gene modification (i.e. insertion of a stretch of DNA or base pair modification) will trigger homology-directed repair (HDR), resulting in gene knock in or base editing [@DOI:10.1007/s00294-019-01040-3].     
 Practical considerations of CRISPR/Cas9-mediated gene knock-in and base editing will not be addressed in detail but are expertly discussed in [@DOI:10.1016/j.lfs.2022.120409; @DOI:10.1007/s11427-021-2057-0; @DOI:10.1007/s12033-022-00639-1; @DOI:10.3390/genes14010129]. 
 
 The relative ease-of-use and high efficiency of the CRISPR/Cas9 gene editing technology has rendered it the method of choice for gene manipulation in many fields of cell biology. 
-However,it should be noted that CRISPR/Cas9-mediated gene deletion is not free from off-target effects ([@DOI:10.3390/cells9071608] for advice on how to minimise these off-target effects). 
+However, it should be noted that CRISPR/Cas9-mediated gene deletion is not free from off-target effects ([@DOI:10.3390/cells9071608] for advice on how to minimize these off-target effects). 
 Moreover, long-term depletion (or upregulation) of a POI itself can in some cases have dramatic systemic consequences and constitute an acute selection pressure leading to compensatory stress-induced adaptation that might obfuscate primary loss-of-function phenotypes and pose a substantial hurdle to the interpretability of biological data. 
 As these compensatory mechanisms often manifest with time, controlled, transient genetic manipulation (gene depletion or transgene expression) is advised. 
 Small interfering RNA (siRNA)-mediated knockdown by transient transfection is typically achieved at shorter time frames (24 – 96h), depending on the turnover of the POI. 
-On an even shorter time-scale, targeted, degron-based degradation systems enable depletion of a POI within minutes and further reduce off-target effects, but require the exogenous expression of a transgene and therefore some genetic manipulation. 
+On an even shorter timescale, targeted, degron-based degradation systems enable depletion of a POI within minutes and further reduce off-target effects, but require the exogenous expression of a transgene and therefore some genetic manipulation. 
 A more comprehensive discussion of a selection of these systems (anchor-away, deGradFP, auxin-inducible degron (AID), dTAG technologies) and their advantages and potential pitfalls is presented in [@DOI:10.3390/biology9120421]. 
 
 Multiple eukaryotic and prokaryotic transcription-based systems have been developed that allow for the controlled biosynthesis or depletion of one or more POIs.
@@ -2696,11 +2762,11 @@ Site-directed isogenic integration of any GOI at the FRT site, which is under a 
 ### Validation and interpretation of protein abundance changes
 
 To validate protein abundance changes observed by quantitative bottom-up proteomics or simply assess the success of targeted genetic manipulation as part of an orthogonal follow-up experiment (see above), the experimenter typically resorts to antibody-based techniques such as immunoblotting analysis or immunofluorescence and immunohistological imaging of POIs. 
-The latter also allows for validation of protein expression and localisation in intact tissue or cells. 
+The latter also allows for validation of protein expression and localization in intact tissue or cells. 
 However, these semi-quantitative methods are strongly influenced by the quality of the antibodies used and might not be sensitive enough to detect small changes in protein levels. 
 In this case, more accurate orthogonal quantitation of proteins might be achieved by stable isotope labelling (SILAC/TMT/iTRAQ) and/or SRM/PRM (see section 'Experiment Types'). 
 SDS-PAGE and immunoblot analysis are powerful and facile low-throughput tools to quickly validate protein abundance changes. 
-However, short of introducing epitope tags to the endogenous POI, the success of immunoblotting is contingent on the availability of specific antibodies, which can present a formidable problem when investigating poorly characterised proteins or working with model organisms for which the commercial availability of specific antibodies is limited (this is particularly problematic for ‘unconventional’ or even well-establishedmodel organisms such as yeast). 
+However, short of introducing epitope tags to the endogenous POI, the success of immunoblotting is contingent on the availability of specific antibodies, which can present a formidable problem when investigating poorly characterized proteins or working with model organisms for which the commercial availability of specific antibodies is limited (this is particularly problematic for ‘unconventional’ or even well-established model organisms such as yeast). 
 A detailed discussion of the strengths and pitfalls of immunoblotting for validation of semi-quantitative proteomics data can be found in an excellent review by Handler *et al.* [@DOI:10.1002/pmic.201800222].
 
 Protein abundance changes detected in a proteomics experiment can be the result of a range of different cellular processes. 
@@ -2709,9 +2775,9 @@ The abundance of a protein in a complex sample (e.g. cell lysate or biological f
 Both protein stability as well as gene expression activity can be quantified independently. 
 Altered protein stability might be a direct consequence of specific or global changes in protein turnover. 
 Radioisotope labelling is a well-established, accurate way to monitor protein synthesis, maturation and turnover [@DOI:10.1002/0471140864.ps3003s78; @DOI:10.1371/journal.pone.0155028]. 
-This ‘pulse-chase’ methodology relies on the incorporation (‘pulsing’) of radioisotopes (typically 35S-labelled cysteine and methionine) into de-novo synthesised proteins. 
-Upon withdrawal of the labelleled amino acids from the culture medium, the decay of signal is monitored over time (‘the chase’) by SDS-PAGE and phosphoimaging, resulting in a temporal readout of protein abundances. 
-The advantage of this technology is that a subpopulation (newly synthesised proteins) can be monitored directly, giving an accurate assessment of protein stability. 
+This ‘pulse-chase’ methodology relies on the incorporation (‘pulsing’) of radioisotopes (typically 35S-labelled cysteine and methionine) into de-novo synthesized proteins. 
+Upon withdrawal of the labeled amino acids from the culture medium, the decay of signal is monitored over time (‘the chase’) by SDS-PAGE and phosphoimaging, resulting in a temporal readout of protein abundances. 
+The advantage of this technology is that a subpopulation (newly synthesized proteins) can be monitored directly, giving an accurate assessment of protein stability. 
 Once a change in protein stability has been validated, the underlying mechanisms can be addressed by inhibiting protein degradation pathways; prominently proteasome-mediated degradation (using specific proteasome inhibitors such as bortemzomib/velcade or MG132), autophagy (pharmacologically inhibiting autophagic flux) or degradation by proteases (using protease inhibitors). 
 The type of radiolabeling described above is relatively labor-intense, of low-throughput and has the obvious disadvantage of requiring radioactive material, which needs to be handled under strict safety precautions. 
 Moreover, it critically depends on the presence of one or more methionines and/or cysteines in the POIs. 
@@ -2748,11 +2814,11 @@ Perhaps the most commonly applied method of detecting and validating PPIs in vit
 AP typically relies on the isolation of a transgenic POI by an epitope tag (using epitope-specific matrix-conjugated proteins (antibodies or epitope-binding proteins)), while Co-IP harnesses specific antibodies directly targeting the POI. 
 Specific interactors are expected to be enriched compared to the negative control (i.e an isotype control antibody, a knockout cell line or empty matrix). 
 AP is not solely restricted to detecting PPIs, but can also be adapted to protein interactions with other biomolecules such as RNA [@DOI:10.3390/ijms160922456]. 
-It should be noted that AP and Co-IP can return multiple potential binding partners, many of which might be artefactual due to loss of cellular compartmentalisation during sample preparation. 
+It should be noted that AP and Co-IP can return multiple potential binding partners, many of which might be artefactual due to loss of cellular compartmentalization during sample preparation. 
 
 To reduce the probability of such artefacts and increase the confidence of a specific interaction, reciprocal affinity purification (by pulldown of each interaction partner) or in situ imaging might be performed (i.e. using fluorescence resonance energy transfer (FRET) [@DOI:10.1038/s41592-019-0530-8], split-protein systems [@DOI:10.1016/j.cbpa.2011.10.014], proximity ligation assay [@DOI:10.1007/s00253-020-11049-1] and immunofluorescence microscopy). 
 
-Forster and bioluminescence resonance energy transfer (FRET / BRET) can be used for in situ visualisation of protein proximities and therefore PPIs. 
+Forster and bioluminescence resonance energy transfer (FRET / BRET) can be used for in situ visualization of protein proximities and therefore PPIs. 
 In FRET, non-radiative energy transfer between donor and receptor chromophores (each fused to prey and bait proteins, respectively), results in the emission of a characteristic fluorescence signal only when both prey and bait are in very close proximity (1-10 nm distance) and a suitable light source for donor excitation is provided [@DOI:10.3390/ijms16046718]. 
 
 The underlying principle of BRET is similar to that of FRET but with the exception of using a chemical substrate which activates bioluminescent donor, such as luciferase, resulting in energy transfer to a fluorescent acceptor molecule [@DOI:10.1038/nmeth841; @DOI:10.3390/mi13101789]. 
@@ -2768,23 +2834,24 @@ Biotinylated proteins are isolated by affinity purification with streptavidin-co
 TurboID, miniTurboID and ultraID, promiscuous biotin ligases faster than BirA, have been developed allowing for shorter treatment times and decreased background signal. 
 The choice of a biotin ligase variant depends on the POI and experimental setup, but in general HRP does not work in cytoplasmic environments where conditions are chemically reducing, but is suitable for labelling proteins extracellular face of the plasma membrane or in the endoplasmic reticulum and golgi apparatus. 
 While TurboID and similar variants have fast kinetics, they can cause depletion of endogenous biotin and therefore cytotoxicity. 
-A major drawback shared by all variants described above is that they necessitate fusion to the POI, which might alter its physiological behaviour and give rise to false positives or false negatives.
+
+A major drawback shared by all variants described above is that they necessitate fusion to the POI, which might alter its physiological behavior and give rise to false positives or false negatives.
 Moreover, detecting a biotin-labelled protein does not unequivocally designate it as an interaction partner as spatial proximity to the POI-biotin ligase fusion protein without direct binding can result in biotinylation. 
 The inclusion of controls, such as expression of the biotinylating enzyme alone in the cellular compartment of interest, is therefore particularly important for enzymatic proximity labelling methods.
 
-The in situ proximity ligation assay (PLA) combines the specificity of antibodies with the signal amplification capacity of a DNA polymerase reaction. 
+The *in situ* proximity ligation assay (PLA) combines the specificity of antibodies with the signal amplification capacity of a DNA polymerase reaction. 
 Here, two antibodies, each conjugated to a short single-strand DNA (ssDNA) tag and each specific to one of the two proteins whose interaction is under investigation, are added to fixed cells or tissue. 
 Once bound to their respective targets and only when in direct proximity, the addition of two connector oligonucleotides complementary to each tag ssDNA tag and phi29 DNA polymerase, triggers isothermal rolling circle amplification, eventually resulting in the generation of continuous stretches of repetitive DNA. 
-These DNA products can then be visualised by in situ hybridisation with fluorescently labelled oligonucleotides (see [@DOI:10.1007/82_2013_334] for a detailed discussion). 
-PLA has the advantage of visualising the two interacting proteins in their native environment when high-resolution microscopy is used as a readout. 
+These DNA products can then be visualized by in situ hybridization with fluorescently labelled oligonucleotides (see [@DOI:10.1007/82_2013_334] for a detailed discussion). 
+PLA has the advantage of visualizing the two interacting proteins in their native environment when high-resolution microscopy is used as a readout. 
 
 Chemical crosslinking (XL) of proteins can determine PPIs with amino-acid level resolution, and can thereby give valuable insights into the orientation of two or more proteins relative to one another [@DOI:10.1016/j.str.2022.03.003]. 
-Recent technical advances also enabled the visualisation of protein-RNA interaction [@DOI:10.1042/EBC20220177]. 
+Recent technical advances also enabled the visualization of protein-RNA interaction [@DOI:10.1042/EBC20220177]. 
 Various XL chemistries are available (amine-reactive, sulfhydryl and photoreactive crosslinkers; reversible vs irreversible) and cross-linked proteins detected by mass spectrometry [@DOI:10.1016/j.cbpa.2020.07.008]. 
 In general, applying XL-MS to a mixture of interacting, purified proteins is preferable to in situ XL of complex protein mixtures (i.e. cell lysate) as detection and deconvolution of XL peptides is technically and computationally challenging.
 
 Surface plasmon resonance can accurately measure several key kinetics of PPIs with high accuracy (e.g. association and dissociation kinetics, stoichiometry, affinity) [@DOI:10.1016/bs.apcsb.2017.07.003]. 
-It relies on the quantification of refractive index changes of polarised light shone onto a sensor chip containing a prey protein immobilised on a metal surface (typically gold). 
+It relies on the quantification of refractive index changes of polarized light shone onto a sensor chip containing a prey protein immobilized on a metal surface (typically gold). 
 When prey and bait proteins interact, the mass concentration at the metal interface changes, altering the refractive index and SPR angle (intensity of the refracted light). 
  
 
