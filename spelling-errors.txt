@@ -30,7 +30,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -130,7 +130,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -143,7 +143,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -158,8 +158,8 @@ Clostripain
 coli
 Collisional
 collisionally
-Colorimetric
-Colorimetry
+colorimetric
+colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -176,7 +176,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 Cryo
 cryogels
 crystalized
@@ -197,7 +197,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -212,7 +212,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -272,7 +272,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -288,7 +288,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -302,7 +302,7 @@ Exploris
 FAIMS
 FASP
 fasta
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -323,10 +323,10 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -372,7 +372,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -544,7 +544,7 @@ MaLP
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -590,7 +590,7 @@ MOAC
 Mobie
 Mobilion
 mobilities
-Moritz
+moritz
 MRM
 mRNA
 mRNAs
@@ -604,7 +604,6 @@ mTorr
 mTRAQ
 Mücke
 MudPIT
-multiphoton
 multipole
 MuraleeDhar
 Muralidharan
@@ -621,7 +620,7 @@ NanoOrange
 nanopores
 NCBI
 neary
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -631,7 +630,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 novo
 Novor
 nuclease
@@ -653,8 +652,8 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
-Orbitraps
+Orbitrap
+orbitraps
 organismal
 orignal
 Ortholog
@@ -693,7 +692,7 @@ phosphoester
 phosphoimaging
 phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -751,7 +750,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-proteomic
+Proteomic
 proteomics
 ProtParam
 protti
@@ -793,12 +792,12 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-Reactome
+REACTOME
 recombinase
 redundance
 refered
 reflectron
-refseq
+RefSeq
 repressor
 reproducibility
 resCID
@@ -947,7 +946,7 @@ Tris
 Tritirachium
 Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tTA
@@ -969,14 +968,14 @@ uncharacterized
 underivatized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
@@ -1002,7 +1001,6 @@ Wilcoxon
 Wilmarth
 WinProphet
 WormBase
-XA
 XDIA
 xenobiotic
 Xevo

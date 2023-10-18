@@ -1797,7 +1797,6 @@ content/13.Peptide-Fragmentation.md:3:Spectrometry
 content/13.Peptide-Fragmentation.md:5:proteomics
 content/13.Peptide-Fragmentation.md:6:peptide’s
 content/13.Peptide-Fragmentation.md:7:proteomic
-content/13.Peptide-Fragmentation.md:14:XA
 content/13.Peptide-Fragmentation.md:15:Biemann
 content/13.Peptide-Fragmentation.md:15:Fohlman
 content/13.Peptide-Fragmentation.md:15:Roepstorff
@@ -1807,7 +1806,6 @@ content/13.Peptide-Fragmentation.md:25:beamCID
 content/13.Peptide-Fragmentation.md:25:resCID
 content/13.Peptide-Fragmentation.md:26:ECD
 content/13.Peptide-Fragmentation.md:27:IRMPD
-content/13.Peptide-Fragmentation.md:27:multiphoton
 content/13.Peptide-Fragmentation.md:27:resCID
 content/13.Peptide-Fragmentation.md:28:photodissociation
 content/13.Peptide-Fragmentation.md:28:UVPD
