@@ -30,7 +30,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 aminooxy
@@ -74,7 +74,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -130,7 +130,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 CETSA
@@ -146,7 +146,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -156,10 +156,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 Colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -197,7 +197,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -212,7 +212,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -257,7 +257,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -272,12 +272,12 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
 Enzymology
-Epitope
+epitope
 equilibration
 Equus
 ERLIC
@@ -301,8 +301,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-Fc
+fasta
+FC
 FCCS
 FCS
 Fenn
@@ -323,10 +323,10 @@ FlyBase
 fo
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -356,7 +356,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -372,7 +372,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosylations
 glycosyltransferases
 GOI
@@ -461,7 +461,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -469,7 +469,7 @@ iProphet
 IRMPD
 iRT
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isogeneic
@@ -544,7 +544,7 @@ MaLP
 Mammalia
 Mangalore
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -590,7 +590,7 @@ MOAC
 Mobie
 Mobilion
 mobilities
-moritz
+Moritz
 MRM
 mRNA
 mRNAs
@@ -621,7 +621,7 @@ NanoOrange
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -692,7 +692,7 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphopeptide
-Phosphopeptides
+phosphopeptides
 phosphoprotein
 phosphoproteins
 phosphoproteome
@@ -709,7 +709,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -730,7 +730,7 @@ posttranslational
 PPI
 PPIs
 practioners
-Pre
+pre
 prefractionation
 PRM
 Progenesis
@@ -751,7 +751,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-Proteomic
+proteomic
 proteomics
 ProtParam
 protti
@@ -798,7 +798,7 @@ recombinase
 redundance
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -818,7 +818,7 @@ rtTA
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -920,8 +920,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-TOF
-ToFs
+tof
+TOFs
 Torr
 TPP
 TQ
@@ -930,7 +930,7 @@ transactivator
 transcriptional
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -945,9 +945,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tTA
@@ -976,7 +976,7 @@ UniRef
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
