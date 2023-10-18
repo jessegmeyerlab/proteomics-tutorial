@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-06'
+date-meta: '2023-10-18'
 author-meta:
 - Yuming Jiang
 - Dina Schuster
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta property="og:title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta property="twitter:title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta name="dc.date" content="2023-10-06" />
-  <meta name="citation_publication_date" content="2023-10-06" />
-  <meta property="article:published_time" content="2023-10-06" />
-  <meta name="dc.modified" content="2023-10-06T23:40:12+00:00" />
-  <meta property="article:modified_time" content="2023-10-06T23:40:12+00:00" />
+  <meta name="dc.date" content="2023-10-18" />
+  <meta name="citation_publication_date" content="2023-10-18" />
+  <meta property="article:published_time" content="2023-10-18" />
+  <meta name="dc.modified" content="2023-10-18T21:54:01+00:00" />
+  <meta property="article:modified_time" content="2023-10-18T21:54:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -129,9 +129,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7dd0c96ed78152ec51027227a5afd6047a5e14c4/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7dd0c96ed78152ec51027227a5afd6047a5e14c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7dd0c96ed78152ec51027227a5afd6047a5e14c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -153,10 +153,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b0d66c2ca3f097598f3ba50e82be64db17aae5b5/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7dd0c96ed78152ec51027227a5afd6047a5e14c4/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b0d66c2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b0d66c2ca3f097598f3ba50e82be64db17aae5b5)
-on October 6, 2023.
+from [jessegmeyerlab/proteomics-tutorial@7dd0c96](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7dd0c96ed78152ec51027227a5afd6047a5e14c4)
+on October 18, 2023.
 </em></small>
 
 
@@ -647,16 +647,19 @@ This may be useful when attempting to discover a mechanism for some treatment th
 For additional information about LiP-MS, please refer to this document: [@url:https://www.eubopen.org/sites/www.eubopen.org/files/attachments/2022/LiP-MS%20protocol.pdf]
 
 ### Protein stability and small molecule binding  
+#### Cellular Thermal Shift Assay (CETSA) [@PMID:23828940; @doi:10.1016/j.cbpa.2019.11.004]
+CETSA involves subjecting a protein sample to a thermal shift assay (TSA), in which the protein is exposed to a range of temperatures, and the resulting changes in protein stability by quantifying protein remaining in the soluble fraction.
+This is done in live cells immediately before lysis, or in non-denaturing lysates. 
+The original paper reported this method using immunoaffinity approaches for detecting changes in soluble protein.
+The assay is capable of detecting shifts in the thermal equilibrium of cellular proteins in response to a variety of perturbations, but most commonly in response to drug treatments. 
+
 #### Thermal proteome profiling (TPP) [@doi:10.15252/msb.20199232; @doi:10.1016/j.cbpa.2022.102225; @doi:10.1021/jacs.1c10621; @doi:10.1002/9781118970195.ch11]
-Thermal proteome profiling (TPP) involves subjecting a protein sample to a thermal shift assay (TSA), in which the protein is exposed to a range of temperatures, and the resulting changes in protein stability are monitored using mass spectrometry.
+Thermal proteome profiling (TPP) is the same ideas as CETSA extended to use an unbiased mass spectrometry readout of many proteins. 
+By measuring changes in thermal stability of thousands of proteins, binding to an unknown or unexpected protein can be discovered. 
 During a typical TPP experiment, a protein sample is first treated with a drug of interest to stabilize protein-ligand interactions. 
 The sample is then divided into multiple aliquots, which are subjected to different temperatures in order to induce thermal denaturation. 
 The resulting drug induced changes in protein stability curves are detected using mass spectrometry. 
 By comparing protein stability curves across the temperatures between treatment conditions, TPP can provide insight into the proteins that bind a ligand.
-
-#### Cellular Thermal Shift Assay (CETSA) [@doi:10.1016/j.cbpa.2019.11.004]
-CETSA is the same idea as TPP, but specifically for studies of protein stability in live cells. 
-The assay is capable of detecting shifts in the thermal equilibrium of cellular proteins in response to a variety of perturbations, but most commonly in response to drug treatments. 
 
 ### Protein-protein interactions (PPIs)  
 

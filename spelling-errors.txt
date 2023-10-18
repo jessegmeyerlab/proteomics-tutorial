@@ -34,7 +34,7 @@ alkylation
 AlphaFold
 AlphaPept
 aminooxy
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -130,7 +130,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -146,7 +146,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -176,8 +176,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
-cryo
+crosslinking
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -212,7 +212,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -257,7 +257,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -277,7 +277,7 @@ enviroments
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -323,7 +323,7 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -348,7 +348,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -356,7 +356,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -369,7 +369,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -461,7 +461,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -590,7 +590,7 @@ MOAC
 Mobie
 Mobilion
 mobilities
-Moritz
+moritz
 MRM
 mRNA
 mRNAs
@@ -631,7 +631,7 @@ noncovalently
 nonenzymatic
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 novo
 Novor
 nuclease
@@ -654,7 +654,7 @@ onotology
 OpenMS
 operon
 orbitrap
-orbitraps
+Orbitraps
 organismal
 orignal
 Ortholog
@@ -692,8 +692,8 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphopeptide
-phosphopeptides
-Phosphoprotein
+Phosphopeptides
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -704,12 +704,12 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -731,12 +731,12 @@ PPI
 PPIs
 practioners
 Pre
-Prefractionation
+prefractionation
 PRM
 Progenesis
 proline
 Pronase
-prot
+Prot
 protease
 proteases
 proteasome
@@ -775,8 +775,8 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
-quadrupole
+QToF
+Quadrupole
 quadrupoles
 Qual
 quantitate
@@ -930,11 +930,11 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
-trembl
+TrEMBL
 trentmpc
 triazine
 Tribrid
@@ -945,9 +945,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tTA
@@ -969,7 +969,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
