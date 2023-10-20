@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-20" />
   <meta name="citation_publication_date" content="2023-10-20" />
   <meta property="article:published_time" content="2023-10-20" />
-  <meta name="dc.modified" content="2023-10-20T20:54:00+00:00" />
-  <meta property="article:modified_time" content="2023-10-20T20:54:00+00:00" />
+  <meta name="dc.modified" content="2023-10-20T23:11:33+00:00" />
+  <meta property="article:modified_time" content="2023-10-20T23:11:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -129,9 +129,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -153,9 +153,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@9ee191c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/9ee191c20c5bca5055dff19ee2a604c9922482e4)
+from [jessegmeyerlab/proteomics-tutorial@d65d763](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b)
 on October 20, 2023.
 </em></small>
 
@@ -2294,7 +2294,7 @@ Finally, it is critical to understand that sequence collections from these three
 
 Key terminology may vary between resources, so these terms are defined here. 
 The term “taxon identifier” is used across resources and is based on the NCBI taxonomy database. 
-Every taxonomic node has a number, e.g., Homo sapiens (genus species) is 9606 and Mammalia (class) is 40674. 
+Every taxonomic node has a number, e.g., *Homo sapiens* (genus species) is 9606 and Mammalia (class) is 40674. 
 This can be useful when retrieving and describing protein sequence collections. 
 Another term used is “annotation”, which has different meanings in different contexts. 
 Broadly, a “genome annotation” is the result of an annotation pipeline to predict coding sequences, and often a gene name/symbol if possible. 
@@ -2316,7 +2316,7 @@ There are other sources of protein sequences, as described by UniProt [@URL:http
 These include the Protein Data Bank (PDB), direct protein sequencing, sequences derived from the literature, gene prediction (from sources such as Ensembl) or in-house prediction by UniProt itself. 
 Protein sequences can then be manually curated into the Swiss-Prot database using multiple outlined steps (described in detail by UniProt here [@URL:https://www.uniprot.org/help/manual_curation]) and is why Swiss-Prot is also termed “reviewed”. 
 Note that more than one TrEMBL entry may be removed and replaced by a single Swiss-Prot entry during curation. 
-A search of “organism:9606” at UniProtKB will retrieve both the Swiss-Prot/reviewed and TrEMBL/unreviewed sequences for Homo sapiens. 
+A search of “taxonomy_id:9606” at UniProtKB will retrieve both the Swiss-Prot/reviewed and TrEMBL/unreviewed sequences for Homo sapiens. 
 The entries do not overlap, so users often either use just Swiss-Prot or Swiss-Prot combined with TrEMBL, the latter being the most exhaustive option. 
 With ever-increasing numbers of high-quality genome assemblies processed with robust automated annotation pipelines, TrEMBL entries will contain higher quality protein sequences than in the past. 
 In other words, if a mammal species has 20 000 to 40 000 entries in UniProtKB and many of these are TrEMBL, users should be comfortable using all the protein entries to define their search space (more on this later when discussing proteomes at UniProtKB). 
@@ -2342,23 +2342,33 @@ Specifying “canonical” will select only one protein sequence per Swiss-Prot 
 Recently, an option to “download one protein sequence per gene (FASTA)” has been added. 
 These FASTA files include Swiss-Prot and TrEMBL sequences to number about 20 000 protein sequences for a wide range of higher eukaryotic organisms.
 
-The number of additional isoforms varies considerably by species. 
-In the human, mouse, and rat proteomes of the total number of entries, 26 %, 40 % and 72 % are canonical, respectively. 
+The number of additional isoforms in a proteome varies considerably by species. 
+In the human, mouse, and rat proteomes of the total number of entries, 25 %, 40 % and 48 % are canonical, respectively. 
 The choice of including isoforms is related to the search algorithm and experimental goals. 
 For instance, if differentiating isoforms is relevant, they should be included otherwise they will not be detected. 
-In cases where isoforms are present in the FASTA (evident by shared protein names) but these cannot be removed prior to downloading (e.g., California sea lion, Zalophus californianus, proteome UP000515165, release 2022_01), non-redundant FASTA files can be manually generated (i.e., “remove_duplicates.py” via [@URL:https://github.com/pwilmart/fasta_utilities]). 
+In cases where isoforms are present in the FASTA (evident by shared protein names) but these cannot be removed prior to downloading (e.g., California sea lion, *Zalophus californianus*, proteome UP000515165, release 2023_04 has no options for downloading one protein sequence per gene), non-redundant FASTA files can be manually generated (i.e., “remove_duplicates.py” via [@URL:https://github.com/pwilmart/fasta_utilities]). 
 If possible, retrieving canonical protein sequences via proteomes is the most straight forward approach and in general appropriate for most search algorithms, versus the method of searching and downloading Swiss-Prot and/or TrEMBL entries.
 
 Though FASTA files are the typical input of many search algorithms, UniProt also offers an XML and GFF format download. 
 In contrast to the flat FASTA file format, the XML format includes sequence information as well as associated information like PTMs, which is used in some search algorithms like MetaMorpheus [@PMID:26418581].
 
-Once a protein sequence collection has been selected and retrieved, there is the evergreen question of how to name and report this to others in a way that allows them to reproduce the retrieval. The minimum reporting information is the taxon identified and number of sequences used [@URL:https://www.psidev.info/sites/default/files/2018-03/MIAPE_MSI_1.1.pdf; @PMID:23500130]. The following naming format (and those below) augments this and is suggested for UniProtKB FASTA files (the use of underscores or hyphens is not critical): 
+Once a protein sequence collection has been selected and retrieved, there is the evergreen question of how to name and report this to others in a way that allows them to reproduce the retrieval. 
+The minimum reporting information is the taxon identified and number of sequences used [@URL:https://www.psidev.info/sites/default/files/2018-03/MIAPE_MSI_1.1.pdf; @PMID:23500130]. 
+The following naming format (and those below) augments this and is suggested for UniProtKB FASTA files (the use of underscores or hyphens is not critical):
+
 [common or scientific name]-[taxon id]-uniprot-[swiss-prot/trembl/proteome]-[UP# if used]-[canonical/canonical plus isoform]-[release]
-example of a Homo sapiens (human) protein fasta from UniProtKB:
 
-Human-9606-uniprot-proteome-UP000005640-canonical-2022_01.fasta
+example of a *Homo sapiens* (human) protein fasta from UniProtKB:
 
-The importance of the taxon identifier has already been described above and is a consistent identifier across time and shared across resources. The choices of Swiss-Prot and TrEMBL in some combination was discussed above, and Proteome can be “proteome”, “reference proteome” or “pan-proteome”. The proteome identifier (‘UP’ followed by 9 digits) is conserved across releases, and release information should also be included. A confusing issue to newcomers is what the term “release” means. This is a year_month format (e.g., 2022_01), but it is not the date a FASTA file was downloaded or created, nor does it imply there are monthly updates. This release “date” is a traceable release identifier that is listed on UniProt’s website. Including all this information ensures that the exact provenance of a FASTA file is known and allows the FASTA file to be regenerated.
+Human-9606-uniprot-proteome-UP000005640-canonical-2023_04.fasta
+
+The importance of the taxon identifier has already been described above and is a consistent identifier across time and shared across resources. 
+The choices of Swiss-Prot and TrEMBL in some combination was discussed above, and Proteome can be “proteome”, “reference proteome” or “pan-proteome”. 
+The proteome identifier (‘UP’ followed by 9 digits) is conserved across releases, and release information should also be included. 
+A confusing issue to newcomers is what the term “release” means. 
+This is a year_month format (e.g., 2023_04), but it is not the date a FASTA file was downloaded or created, nor does it imply there are monthly updates. 
+This release “date” is a traceable release identifier that is listed on UniProt’s website. 
+Including all this information ensures that the exact provenance of a FASTA file is known and allows the FASTA file to be regenerated.
 
 ##### RefSeq
 NCBI is a clearing house of numerous types of data and databases. 
@@ -2370,24 +2380,28 @@ We recommend exploring the resources available from NCBI [@URL:https://www.ncbi.
 RefSeq is akin to the “proteome” sequence collection from UniProtKB, where a release is based on a single genome assembly. 
 If a more complete genome assembly is deposited or additional secondary evidence (e.g., RNA sequencing) is deposited, RefSeq can update the annotation with a new annotation release. 
 Every annotation release will have an annotation report that contains information on the underlying genome assembly, the new genome annotation, secondary evidence used, and various statistics about what was updated. 
-The current annotation release is referred to as the “reference annotation”, but each annotation is numbered sequentially starting at 100 (the first release). 
+The current annotation release is referred to as the “reference annotation”, but each annotation is numbered sequentially starting at 100 (the first release), though a recent naming change has abandoned the sequential release numbering and instead is the RefSeq assembly “-RS” and then the year month when it was annotated (e.g., the current human reference annotation is GCF_000001405.40-RS_2023_10). 
 Certain species are on scheduled re-annotation, like human and mouse, while other species are updated as needed based on new data and community feedback (ex. release 100 of taxon 9704 was in 2018, but a more contiguous genome assembly resulted in re-annotation to release 101 in 2020). 
 This general process for new and existing species is described in Heck and Neely [@PMID:32786681].
 
 Since RefSeq is genome assembly-centric, its protein sequence collections are retrieved for each species. 
 This contrasts with being able to use a higher-level taxon identifier like 40674 (Mammalia) in UniProt to retrieve a single FASTA. 
-To accomplish this same search in NCBI Datasets requires a Mammalia search, followed by browsing all 2083 genomes and then filtering the results to reference genomes with annotations, and those resulting 188 could be bulk downloaded, though this will still be 188 individual FASTA files. 
+To accomplish this same search in NCBI Datasets requires a Mammalia search, followed by browsing all 2847 genomes and then filtering the results to reference genomes with RefSeq annotations, and those resulting 223 could be bulk downloaded, though this will still be 223 individual FASTA files. 
 It is possible to download a single FASTA from an upper-level taxon identifier using the NCBI Taxonomy Browser, though this service may be redundant with the new NCBI Datasets portal. 
 Given the constant development of NCBI Datasets, these functionalities may change, but the general RefSeq philosophy of single species FASTA should be kept in mind. 
 Likewise, when retrieving genome annotations there is no ability to specify canonical entries only, but it is possible to use computational tools to remove redundant entries (“remove_duplicates.py” from [@URL:https://github.com/pwilmart/fasta_utilities]). 
 
 Similar to the UniProtKB FASTA file naming suggestion, the following naming format is suggested for RefSeq protein sequence collection FASTA (the use of underscores or hyphens is not critical): 
+
 [common or scientific name]-[taxon id]-refseq-[release number]
-example of a Equus caballus (horse) protein FASTA from RefSeq:
+
+Example of a *Equus caballus* (horse) protein FASTA from RefSeq:
+
 Equus_caballus-9796-refseq-103.fasta
+
 The release number starts at 100 and is consecutively numbered. 
-Note, the human releases only recently began following this consecutive numbering for Release 110, and previously had a much longer number to be included (e.g., NCBI Release 109.20211119). 
-Also, in a few species (Human and Chinese hamster, currently), there is a reference and an alternate assembly, both with an available annotation. 
+Note, the human releases previously had a much longer number to be included (e.g., NCBI Release 109.20211119), then began following a consecutive numbering for Release 110, but have now switched to the new format related to assembly and annotation date. 
+Also, in a few species (Human, Chinese hamster, and Dog, currently), there is a reference and an alternate assembly, both with an available annotation. 
 In these cases, including the underlying assembly identifier would be needed. Note that when you retrieve the protein FASTA from NCBI it will include two more identifiers that aren’t required in the file name since it can be determined from the taxon identifier and release number. 
 These are the genome assembly used (this is generated by the depositor and follows no naming scheme) and the RefSeq identifier (GCF followed by a number string). 
 These aren’t essential for FASTA naming, but are for comparing between UniProt, RefSeq and Ensembl when the same underlying assembly is used (or not, indicating how up to date one is versus the other).
@@ -2411,7 +2425,7 @@ Similar to the UniProt file naming suggestion, the following naming format is su
 
 [common or scientific name]-[taxon id]-ensembl-[abinitio/all]-[rapid]-[release number]
 
-example of a Sus scrofa (pig) protein FASTA from Ensembl:
+Example of a *Sus scrofa* (pig) protein FASTA from Ensembl:
 
 Pig-9823-ensembl-all-106.fasta
 
@@ -2448,7 +2462,7 @@ This list of known frequently contaminating proteins can either be automatically
 Recently the Hao Lab has revisited these common contaminant sequences in an effort to update the protein sequences, test their utility on experimental data, and add or remove entries [@DOI:10.1101/2022.04.27.489766]. 
 
 In addition to these environmentally unintended contaminants, there are known contaminants that also have available protein sequence collections (or can be generated using the steps above) and should be included in the search space. 
-These can include the media cells were grown in (e.g., fetal bovine serum [@PMID:20641139; @PMID:33532042], food fed to cells/animals (e.g., Caenorhabditis elegans grown on Escherichia coli) or known non-specific binders in affinity purification (i.e., CRAPome [@PMID:23921808]). 
+These can include the media cells were grown in (e.g., fetal bovine serum [@PMID:20641139; @PMID:33532042], food fed to cells/animals (e.g., *Caenorhabditis elegans* grown on *Escherichia coli*) or known non-specific binders in affinity purification (i.e., CRAPome [@PMID:23921808]). 
 The common Repository of Fetal Bovine Serum Proteins (cRFP)[@PMID:31475827] are protein lists of common protein contaminants and fetal serum bovine sequences used to reduced the number of falsely identified proteins in cell culture experiments.
 Cells washed or cultured in contaminant free media before harvest or the collection of secreted proteins depletes most high abundance contaminant proteins but the sequence similarity between contaminant and secreted proteins can cause false identifications and overestimation of the true protein abundance leading to wasted resources and time on validating false leads.
 As emphasized throughout this section, accurately defining the search space is essential for accurate results and, especially in the case of contaminants, requires knowledge of the experiment and sample processing to adequately define possible background proteins.
