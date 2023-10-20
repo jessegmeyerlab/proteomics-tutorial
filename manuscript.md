@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-18'
+date-meta: '2023-10-20'
 author-meta:
 - Yuming Jiang
 - Dina Schuster
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta property="og:title" content="A Comprehensive Overview of Modern Proteomics" />
   <meta property="twitter:title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta name="dc.date" content="2023-10-18" />
-  <meta name="citation_publication_date" content="2023-10-18" />
-  <meta property="article:published_time" content="2023-10-18" />
-  <meta name="dc.modified" content="2023-10-18T23:08:38+00:00" />
-  <meta property="article:modified_time" content="2023-10-18T23:08:38+00:00" />
+  <meta name="dc.date" content="2023-10-20" />
+  <meta name="citation_publication_date" content="2023-10-20" />
+  <meta property="article:published_time" content="2023-10-20" />
+  <meta name="dc.modified" content="2023-10-20T20:54:00+00:00" />
+  <meta property="article:modified_time" content="2023-10-20T20:54:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -129,9 +129,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/64aad8b1b00194f51a784817608b3fc2639b6ec1/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/64aad8b1b00194f51a784817608b3fc2639b6ec1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/64aad8b1b00194f51a784817608b3fc2639b6ec1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -153,10 +153,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/64aad8b1b00194f51a784817608b3fc2639b6ec1/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/9ee191c20c5bca5055dff19ee2a604c9922482e4/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@64aad8b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/64aad8b1b00194f51a784817608b3fc2639b6ec1)
-on October 18, 2023.
+from [jessegmeyerlab/proteomics-tutorial@9ee191c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/9ee191c20c5bca5055dff19ee2a604c9922482e4)
+on October 20, 2023.
 </em></small>
 
 
@@ -963,7 +963,7 @@ Commercial isobaric tags include tandem mass tags (TMT) [@DOI:10.1021/ac0262560]
 10- and 11-plex TMT kits were recently supplanted by proline-based TMT tags (TMTpro), originally introduced as 16-plex kits in 2019 [@DOI:10.1021/acs.analchem.9b04474] and upgraded to an 18-plex platform in 2021 [@DOI:10.1021/acs.jproteome.1c00168]. 
 
 The isobaric tag labeling-based peptide quantitation strategy uses derivatization of every peptide sample with a different isotopic incorporation from a set of isobaric mass tags. 
-All isobaric tags have a common structural theme consisting of 1) an amine-reactive groups (usually triazine ester or N-hydroxysuccinimide [NHS] esters) which react with peptide N-termini and ε-amino group of the lysine side chain of peptides, 2) a balancer group, and 3) a reporter ion group.  
+All isobaric tags have a common structural theme consisting of 1) an amine-reactive groups (usually triazine ester or N-hydroxysuccinimide [NHS] esters) which react with peptide N-termini and ε-amino group of the lysine side chain of peptides, 2) a balancer group, and 3) a reporter ion group (**Figure 4**).  
 Peptide labeling is followed by pooling the labelled samples, which undergo MS and MS/MS analysis simultaneously. 
 As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor m/z value in an MS1 scan and identical retention time of liquid chromatography analysis. 
 The modified parent ions undergo fragmentation during MS/MS analysis generating two kinds of fragment ions: (a) reporter ions and (b) peptide fragment ions. 
@@ -975,7 +975,8 @@ Because the size of the reporter ions is small and sometimes the mass difference
 There are examples, however, of using isobaric tags with pulsed q dissociation on linear ion traps (LTQs) [@PMID:22397766]. 
 Suitable instruments are the Thermo Q-Exactive, Exploris, Tribrid, and Astral lines, or TOFs such as the TripleTOF or timsTOFs [@DOI:10.1038/s41467-022-34919-w; @PMID:30967486]. 
 
-<!-- todo: put the isobaric tagging figure Rex made here and refer to it -->
+![**Example chemical structure of isobaric tage "Tandem Mass Tags (TMT)".**
+](images/TMT.png){#fig:DIA-types tag="4" width="100%"}
 
 The following are some of the isobaric labeling techniques:
 
@@ -1206,7 +1207,7 @@ For the separation of glycosylated proteins and peptides, the preferred material
 SPE materials which are less commonly used are silica- or polystyrene-based ones [@PMID:17625912; @PMID:15317408]. 
 The other types of SPE methods are IEX, metal chelation, and affinity-based [@PMID:25692071].
 
-The basic idea behind the choice of binding and wash versus elution solutions for SPE is that that the binding and wash solutions should favor the interaction between the analytes of interest and the solid phase, whereas the elution solution should favor the interaction of the analyte with the liquid phase (**Figure 4**). 
+The basic idea behind the choice of binding and wash versus elution solutions for SPE is that that the binding and wash solutions should favor the interaction between the analytes of interest and the solid phase, whereas the elution solution should favor the interaction of the analyte with the liquid phase (**Figure 5**). 
 For example, with reversed phase SPE, the solid phase is C18 or some other hydrophobic chemistry. 
 Binding of peptides to this solid phase is based on the hydrophobicity of peptides, mostly due to their peptide backbone, but also due to the presence of amino acid side chains like leucine and phenylalanine. 
 To encourage peptides to ‘like’ the stationary phase more than the liquid phase, the peptides are loaded in aqueous solution. 
@@ -1222,7 +1223,7 @@ This can be performed with the aid of positive or negative pressure to ensure a 
 In this step molecules bind the adsorbent and interferences pass through. 
 Next, the column is washed with the mobile phase to eliminate the contaminants while ensuring the analyte remains bound. 
 Finally, peptides are eluted in an appropriate buffer solution with polarity or charge that competes with interaction with the solid phase. 
-](images/SPE_v03.png){#fig:SPE tag="4" width="100%"}
+](images/SPE_v03.png){#fig:SPE tag="5" width="100%"}
 
 #### Specific Types of peptide purification
 There are many additional peptide purification methods that are commonly used in proteomics currently. 
@@ -1393,7 +1394,7 @@ It was Koichi Tanaka who first applied this idea to whole proteins in 1987 and t
 A few months later, Karas and Hillenkamp also demonstrated MALDI applied to protein ionization [@DOI:10.1021/ac00171a028].
 This resulted in controversy about who should have won the Nobel prize [@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
 
-MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound (**Figure 5**).
+MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound (**Figure 6**).
 Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@PMID:23681820].
 Subsequently, the analyte is placed in a vacuum chamber in which it is irradiated with a LASER, usually at 337nm [@DOI:10.1021/cr010375i].
 This laser energy is absorbed by the matrix, which then transfers that energy along with its free protons to the co-crystalized peptides without significantly breaking them.
@@ -1406,13 +1407,13 @@ Peptides ionized by MALDI almost always take up a single charge and thus observe
 #### MALDI Mechanism
 ![**MALDI**
 The analyte-matrix mixture is irradiated by a laser source, leading to ablation. 
-Desorption and proton transfer ionize the analyte molecules that can then be accelerated into a mass spectrometer.](images/MALDI.png){#fig:MALDI-mechanism tag="5" width="100%"}
+Desorption and proton transfer ionize the analyte molecules that can then be accelerated into a mass spectrometer.](images/MALDI.png){#fig:MALDI-mechanism tag="6" width="100%"}
 
 ### Electrospray Ionization
 ESI was first applied to peptides by John Fenn and coworkers in 1989 [@DOI:10.1126/science.2675315].
 Concepts related to electrospray Ionization (ESI) were published at least as early as 1882, when Lord Rayleigh described the number of charges that could assemble on the surface of a droplet [@DOI:10.1080/14786448208628425]. 
 ESI is usually coupled with reverse-phase liquid-chromatography of peptides directly interfaced to a mass spectrometer.
-A high voltage (~ 2 kV) is applied between the spray needle and the mass spectrometer (**Figure 6**).
+A high voltage (~ 2 kV) is applied between the spray needle and the mass spectrometer (**Figure 7**).
 As solvent exits the needle, it forms droplets that take on charge at the surface, and through a debated mechanism, those charges are imparted to peptide ions.
 The liquid phase is generally kept acidic to help impart protons easily to the analytes.
 
@@ -1423,7 +1424,7 @@ Evidence suggests that the distribution of peptide charge states can be manipula
 
 #### Electrospray Mechanism
 ![**Electrospray Ionization** 
-Charged droplets are formed, their size is reduced due to evaporation until charge repulsion leads to Coulomb fission and results in charged analyte molecules.](images/ESI.png){#fig:ESI-mechanism tag="6" width="100%"}
+Charged droplets are formed, their size is reduced due to evaporation until charge repulsion leads to Coulomb fission and results in charged analyte molecules.](images/ESI.png){#fig:ESI-mechanism tag="7" width="100%"}
 
 The main goal of ESI is the production of gas-phase ions from electrolyte ions in solution. 
 During the process of ionization, the solution emerging from the electrospray needle or capillary is distorted into a Taylor cone and charged droplets are formed.
@@ -1454,7 +1455,7 @@ However, for those keen on a deeper understanding, we've included references per
 In this piece, our focus lies on introducing fundamental concepts and outlining the typical workflow in mass spectrometry.
 
 The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge ratio (m/z), and then detect them by their respective m/z and abundance. 
-The successful implementation and demonstration of this process requires participation of five fundamental systems (**Figure 7**):
+The successful implementation and demonstration of this process requires participation of five fundamental systems (**Figure 8**):
 
 #### 1)	The ion source.
 This is where gas phase ions are generated.
@@ -1486,7 +1487,7 @@ This typically includes ion source control, mass analyzer control, detector cont
 
 ![**Diagram of typical mass spectrometer modules.**
 Systems must have an ion source, mass analyzer, detector, vacuum system, and control system.
-](images/MS_f101.svg){#fig:MS-diagram tag="7" width="100%"}
+](images/MS_f101.svg){#fig:MS-diagram tag="8" width="100%"}
 
 Table 10-1 Common mass analyzers.
 
@@ -1514,7 +1515,7 @@ These performance metrics, in turn, determine what type of analysis we can condu
 Next, we will focus on introducing several classic tandem mass spectrometry types commonly used in proteomics.
 
 ### 1. Triple quadrupole (QQQ).
-Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS), as suggested by the name, is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 8**). 
+Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS), as suggested by the name, is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 9**). 
 Each quadrupole is essentially a set of four parallel metal rods to which radio frequency (RF) and direct current (DC) voltages are applied to each opposing pair of rods. 
 The QqQ operates in a synchronized manner to isolate ions of interest (according to the Mathieu function), induce fragmentation, and then detect the resulting fragment ions. 
 Specifically, the first quadrupole (Q1) is a mass filter, where ions of a specific mass-to-charge ratio (m/z) are selected from the incoming ion beam. 
@@ -1526,7 +1527,7 @@ This process is known as collision-induced dissociation (CID) [@PMID:16401509; @
 The Q2 is usually only subjected to RF potential and does not filter ions; instead, it transmits the product ions to the third quadrupole. 
 In some tandem mass spectrometry, hexapoles or octupoles are also used to replace a quadrupole as the collision cell. 
 Lastly, the third quadrupole (Q3) acts as a secondary mass filter, similar to Q1, but with the purpose of selecting specific fragment ions produced in the collision cell while excluding other ions. 
-The chosen ions are then directed to the detector, where their abundance is measured (Figure 10.2). 
+The chosen ions are then directed to the detector, where their abundance is measured (**Figure 9**). 
 This process, involving precursor ion selection, precursor ion fragmentation, and product ion detection, is a general operating principle in tandem mass spectrometry and determines what kind of scan mode you can utilize.
 A key characteristic and advantage of QqQ is the flexibility of choosing various scan modes [@DOI:10.1021/ac00219a003; @DOI:10.1002/jms.703;@DOI:10.1021/ac00106a008], such as the following.
 
@@ -1556,7 +1557,7 @@ Consequently, they face difficulties in accurately identifying unknown molecules
 
 ![**Schematic diagram of typical QqQ system.**
 Three quadrupoles enable precursor selection, fragmentation, and the fragment ion selection.
-](images/MS_f102.svg){#fig:QQQ-diagram tag="8" width="100%"}
+](images/MS_f102.svg){#fig:QQQ-diagram tag="9" width="100%"}
 
 ### 2. Q-TOF
 Even though quadrupoles face difficulties in accurately identifying unknown peptides within complex mixtures due to its mass resolution, they serve effectively as mass filters, making them an excellent choice for combining with other high-resolution mass analyzers to form tandem mass spectrometry systems. 
@@ -1582,7 +1583,7 @@ This reflection comes at the cost of some ion loss, and therefore some sensitivi
 As such, reflecting TOFs are the basis of most commercial instruments currently in use.
 
 The construction of a Q-TOF bears significant resemblance to a triple-quadrupole mass spectrometer, with the critical distinction that the third quadrupole has been replaced by a time-of-flight tube. 
-**Figure 9** delineates the schematic of a typical Quadrupole-Time-of-Flight (Q-TOF) mass spectrometer, which comprises three fundamental components: 
+**Figure 10** delineates the schematic of a typical Quadrupole-Time-of-Flight (Q-TOF) mass spectrometer, which comprises three fundamental components: 
 
 #### 1. Quadrupole mass analyzer (Q).
 This part of the instrument is basically the same to the Q1 in QqQ, which select specific m/z values to pass through by applying a combination of DC and RF voltages across the rods.
@@ -1609,12 +1610,12 @@ Waters Corporation: “SYNAPT G2-Si HDMS”, “Xevo G2-XS QToF ” and “SYNAP
 
 ![**Schematic diagram of a typical quadrupole time-of-flight mass spectrometer.**
 Like a QQQ, a Q-TOF will have two quadrupoles for selection and fragmentation followed by the TOF for the final higher resolution separation and detection.
-](images/MS_f103.svg){#fig:q-tof-diagram tag="9" width="100%"}
+](images/MS_f103.svg){#fig:q-tof-diagram tag="10" width="100%"}
 
 ### 3. Q-Orbitrap
 Mass spectrometry that uses Orbitrap as the core mass analyzer is another critical pillar in the field of proteomics. 
 In the late 20th century, Russian scientist Alexander Makarov invented the Orbitrap [@DOI:10.1021/ac991131p], which is a novel mass analyzer that operates based on the principle of electrodynamic ion trapping and Fourier Transform. 
-The orbitrap consists of two main components: an inner spindle-like electrode and a coaxial outer barrel-like electrode (**Figure 10A**). 
+The orbitrap consists of two main components: an inner spindle-like electrode and a coaxial outer barrel-like electrode (**Figure 11A**). 
 The ions are trapped in an orbit around the spindle electrode due to the electrostatic attraction. 
 Once inside, the ions begin oscillating along the central axis of the device, or "orbiting", due to the electric field formed by the inner and outer electrodes. 
 The oscillation frequency of an ion is inversely proportional to the square root of its mass-to-charge ratio. 
@@ -1625,7 +1626,7 @@ One of the main advantages of the Orbitrap is its ultra-high mass resolution, of
 This gives the Orbitrap a significant superiority in the identification of unknown molecules such as peptides and metabolites[@DOI:10.1146/annurev-anchem-071114-040325;@DOI:10.1016/j.chroma.2010.02.022]. 
 Moreover, Orbitrap spectrometers are also appreciated for their compact structure, small size, robustness, and reliability.
 Just like the Q-TOF, the Orbitrap is also usually used for tandem mass spectrometry. 
-**Figure 10B** demonstrates a typical 2D schematic diagram of Q-Orbitrap. 
+**Figure 11B** demonstrates a typical 2D schematic diagram of Q-Orbitrap. 
 Ions first pass through an ion optics module, which consists of a high-capacity ion transfer tube (HCTT), an electrodynamic ion funnel (EDIF), and an advanced active beam guide (AABG). 
 These are designed to capture ions, reduce ion losses, prevent neutrals and high-velocity clusters from entering the quadrupole, and increase sensitivity. 
 The ions are then segmented by the quadrupole for precursor ion selection, and the selected ions are trapped by the ion-routing multipole for higher energy collisional dissociation. 
@@ -1644,12 +1645,12 @@ Classic models from ThermoFisher include Orbitrap Ascend Tribrid, Orbitrap Eclip
 ![**Schematic diagram of orbitrap.**
 (A) Close up of a orbitrap.
 (B) General schematic of complete Q-Orbitrap system.
-](images/MS_f104.svg){#fig:QE-diagram tag="10" width="100%"}
+](images/MS_f104.svg){#fig:QE-diagram tag="11" width="100%"}
 
 ### 4. Quadrupole Fourier Transform Ion Cyclotron Resonance (Q-FT-ICR)
 The Fourier Transform Ion Cyclotron Resonance (FT-ICR) mass spectrometer is a type of mass spectrometry that uses magnetic fields to separate ions based on their mass-to-charge ratio. 
 FT-ICR was first invented in 1974 by Alan G. Marshall and Melvin B. Comisarow from the University of British Columbia [@URL:https://www.sciencedirect.com/science/article/abs/pii/0009261474891372] and is widely recognized for its high mass resolution and precision, making it a highly valuable tool in many scientific fields including proteomics, metabolomics, petroleum analysis, and environmental science. 
-The central feature of an FT-ICR mass spectrometer is a superconducting magnet coupled with an ICR cell (**Figure 11A**). 
+The central feature of an FT-ICR mass spectrometer is a superconducting magnet coupled with an ICR cell (**Figure 12A**). 
 This magnet creates a strong and homogeneous magnetic field in which ions are injected. 
 Once the ions are inside ICR cell, under the influence of the strong magnetic field, they follow a circular path with a very small orbital radius at a specific frequency directly proportional to their mass-to-charge ratio. 
 At this point, no detectable image current signal is generated by detector plates located inside the ICR cell. 
@@ -1668,7 +1669,7 @@ Despite its advantages, FT-ICR mass spectrometry is not without challenges.
 The technique requires high-performance superconducting magnets, which are expensive for both initial purchase and further maintenance. 
 This is because FT-ICR requires liquid nitrogen and liquid helium cooling systems to keep the magnet at a sufficiently low temperature to maintain its superconducting state. 
 Moreover, the device demands high vacuum conditions and careful temperature control to maintain the stability of the magnetic field and the ion trajectories. 
-A schematic representation of a Q-FT-ICR system is shown in **Figure 11B**. 
+A schematic representation of a Q-FT-ICR system is shown in **Figure 12B**. 
 In congruence with the tandem mass spectrometers elucidated earlier, ions pass through an array of ion optics modules which designed for ion focusing and purification. 
 Following this, the ions are selectively filtered by the first quadrupole. 
 After this filtration, precursor ions undergo fragmentation in the collision cell, which can be a quadrupole, hexapole, or octopole. 
@@ -1679,7 +1680,7 @@ At present, commercial FT-ICR mass spectrometers are available in both Thermo Fi
 ![**Schematic of FT-ICR.**
 (A) Typical FT-ICR cell.
 (B) Example of complete FT-ICR system.
-](images/MS_f105.svg){#fig:FT-ICR-diagram tag="11" width="100%"}
+](images/MS_f105.svg){#fig:FT-ICR-diagram tag="12" width="100%"}
 
 ### 5. Ion mobility
 In the context of omics research, a fundamental task is the separation, identification, and quantification of molecules in complex mixtures. 
@@ -1702,7 +1703,7 @@ In basic terms, the CCS serves as a standard metric for the size in the gas phas
 However, according to the Eq.2, parameters including gas composition, working pressure, temperature within the mobility region, path of analyte movement, and the strength of the applied field can influence the final CCS value and may differ for each specific IMS platform. 
 Hence, direct comparison of CCS value between different platforms often requires calibration.  
 
-Generally, ion mobility techniques can be categorized into three separation concepts: (1) temporally dispersive, (2) spatially dispersive, and (3) ion confinement (trapping) and selective release (**Figure 12A**) [@DOI:10.1021/ac8013669].
+Generally, ion mobility techniques can be categorized into three separation concepts: (1) temporally dispersive, (2) spatially dispersive, and (3) ion confinement (trapping) and selective release (**Figure 13A**) [@DOI:10.1021/ac8013669].
 Temporally dispersive methods produce an arrival time spectrum based on differences in the time it takes for ions to traverse a similar gas-filled drift region under the influence of an electric field. 
 Time-dispersive technique inherently provides an extensive examination of all signals detected during a given observation window. 
 However, a fundamental limitation of this wide-ranging analysis is the diminished sensitivity linked to a single time dispersion occurrence, which usually requires many (10−100) events to be aggregated to achieve statistically significant ion mobility measurements. 
@@ -1734,7 +1735,7 @@ Table 10.3 Typical ion mobility separation techniques.
 (B) Schematic of drift tube ion mobility spectrometry. 
 (C) Schematic of high field asymmetric waveform ion mobility spectrometry (FAIMS). 
 (D) Schematic of trapped ion mobility spectrometry (TIMS).
-](images/MS_f106.svg){#fig:IMS-diagram tag="12" width="100%"}
+](images/MS_f106.svg){#fig:IMS-diagram tag="13" width="100%"}
 
 #### 10.5.1. Drift Tube Ion Mobility Spectrometry (DTIMS)
 The principle of Drift Tube Ion Mobility Spectrometry (DTIMS) is based on the differential migration (time) of ions through a neutral buffer gas (commonly helium or nitrogen) under the influence of a weak uniform electric field (typically tens of V/cm). 
@@ -1746,7 +1747,7 @@ This observation doesn't contradict Newton's law of universal gravitation, as we
 In the context of DTIMS, the buffer gas in the drift tube acts as the “air resistance”, while the uniform electric field represents the “gravity”. 
 Hence, ions with the same mass-to-charge ratio are separated based on their shape and size. 
 This capability allows DTIMS to distinguish between isomeric compounds with identical masses but different structural configurations, given that these isomers might have distinct interactions with the drift gas. 
-Also, follow the intuition of the free fall example, in DTIMS, smaller ions will move faster and hit the detector earlier than larger ions in DTIMS (**Figure 12B**).  
+Also, follow the intuition of the free fall example, in DTIMS, smaller ions will move faster and hit the detector earlier than larger ions in DTIMS (**Figure 13B**).  
 DTIMS possess the strengths including high resolving power and allows for straightforward measurement of an ion's CCS from first principles[@DOI:10.1007/978-1-0716-0030-6_2; @DOI:10.1002/9780470027318.a9292.pub2]. 
 However, DTIMS also suffers from disadvantages including: 1) separation time is too long for all ions passing through the drift tube, relative to the accumulation time, which decreases the duty cycle. 
 2) A longer drift tube or higher pressure is needed for greater resolving power. 
@@ -1762,7 +1763,7 @@ In FAIMS, gas-phase ions are carried by a flow of carrier gas between two electr
 The asymmetric waveform electric field is typically characterized by a short, high-voltage pulse of one polarity followed by a longer, lower-voltage pulse of the opposite polarity. 
 An ion's mobility within such an electric field is determined by its charge state, its physical structure, and the properties of the surrounding gas it moves through. 
 Once the ions are subjected to an asymmetric electric field, the ions will alternate between travelling toward one electrode or the other as the field oscillates in polarity, resulting in a curved trajectories between the electrodes. 
-Some ions move more in the high field relative to the low field, and vice versa (**Figure 12C**). 
+Some ions move more in the high field relative to the low field, and vice versa (**Figure 13C**). 
 To differentiate between ions, a so-called "compensation voltage" (CV), which is a DC offset voltage that compensates for the differential ion movement in the high and low fields, is applied [@DOI:10.1016/j.chroma.2004.08.119]. 
 In this case, only ions with a specific response to the changing electric field and those that match the applied compensation voltage (CV) will have a zero net movement and are able to traverse the drift region to the detector, while others hit the electrode plate and be neutralized. 
 By scanning or modulating the CV, different ion species can be selectively transmitted through the FAIMS device. 
@@ -1784,7 +1785,7 @@ An axially electric field gradient, produced by superimposing DC potentials on t
 
 As a result, once ions entered the device, lower mobilities ones are trapped at positions where the magnitude of axially electric field is larger, while higher mobilities ones are confined to deeper positions of tunnel where axially electric field is lower. 
 Then, after enough ions have been accumulated in the TIMS tunnel, additional ions are prevented from entering the tunnel region and residing ions are trapped for a short time (usually few milliseconds) which can be defined by users. 
-Finally, the magnitude of axially electric field is decreased at a user defined rate so that ions are eluted as an order of mobilities value (K) from high to low (**Figure 12D**). 
+Finally, the magnitude of axially electric field is decreased at a user defined rate so that ions are eluted as an order of mobilities value (K) from high to low (**Figure 13D**). 
 The axially electric field gradient is set by a resistor divider. 
 Importantly, like other ion mobility strategies, the resolving power of TIMS is highly dependent on the length of the gas column through which the ions traverse. 
 In TIMS, ions are trapped in a specific location while buffer gas continuously flows past them. 
@@ -1813,9 +1814,9 @@ In most of these, identifications are fundamentally based on MS/MS spectra, eith
 True MS1-only methods that use only accurate mass and retention time for identification have been discussed, but these have yet to be widely adopted [@DOI:10.1021/acs.analchem.9b05095]. 
 
 The value of MS/MS spectra for peptide identification comes from predictable fragmentation behavior of peptide ions to generate sequence-informative fragments [@DOI:10.1073/pnas.83.17.6233; @DOI:10.1021/acs.jproteome.2c00838].
-Multiple dissociation methods exist to generate product ions in MS/MS spectra through various mechanisms (**Figure 13**).
+Multiple dissociation methods exist to generate product ions in MS/MS spectra through various mechanisms (**Figure 14**).
 In non-modified peptides, the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids.
-Depending on where peptides dissociate along the peptide backbone, the fragments are assigned different ion types (**Figure 13A**). 
+Depending on where peptides dissociate along the peptide backbone, the fragments are assigned different ion types (**Figure 14A**). 
 Fragment ion nomenclature was first developed by Roepstorff and Fohlman in 1984 [@DOI:10.1002/bms.1200111109] and then refined by Biemann in 1990 [@ISBN:978-0121820947].
 The main ion types are the peptides that contain the original peptide N-terminus (i.e., a, b, and c ions), or the original peptide C-terminus (i.e., x, y, and z ions). 
 The number associated with each fragment ion indicates how many amino acids from each end are included. 
@@ -1830,9 +1831,9 @@ Other panels show common dissociation methods, including collision, electron, an
 (C) Electron capture and electron transfer dissociation (ECD and ETD) generate mainly c/z-type fragments through electron-mediated radical driven cleavage of the peptide backbone. 
 (D) Infrared multi-photon dissociation (IRMPD) is a slow heating method similar in dissociation mechanism to resCID, but very different in implementation due to the IR lasers required (often with lower energy 10.6 micron photons). 
 Ultraviolet photodissociation (UVPD) can use a range of wavelengths (popular options shown) to introduce higher energy photons to peptide cations, causing vibrational and electronic excitation that can generate all major fragment ion types depending on wavelength used.
-](images/Tandem_MS.svg){#fig:SPE tag="13" width="100%"}
+](images/Tandem_MS.svg){#fig:SPE tag="14" width="100%"}
 
-One of the earliest and most ubiquitous peptide fragmentation methods is collision-induced dissociation (CID, also called collisionally-activated dissociation, CAD) [@PMID:16401509] (**Figure 13B**).
+One of the earliest and most ubiquitous peptide fragmentation methods is collision-induced dissociation (CID, also called collisionally-activated dissociation, CAD) [@PMID:16401509] (**Figure 14B**).
 Here, collisions with inert gas molecules are used to increase the internal energy of peptide ions to reach bond dissociation energies that fragment them into products.
 Various inert gases can be used; helium, nitrogen, and argon are the most common.
 Preferences for which gas is used is often a function of how much energy per collision is desired.
@@ -1840,7 +1841,7 @@ Two main versions of CID are used in proteomics, with the most common being beam
 BeamCID typically uses nitrogen or argon as a collision gas, and peptide ions are accelerated into a collision cell filled with several mTorr of bath gas.
 The kinetic energy used to accelerate precursor ions (often generated using direct current voltage differentials between the source of the ions and the collision cell) determines the energy imparted through collisions with the bath gas, which in turn governs their fragmentation behavior.
 
-Since in non-modified peptides the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids, the increase in internal energy from beamCID generates b- and y-type ions that represent this peptide bond cleavage, as shown in Biemann fragment ion nomenclature (**Figure 13A**).
+Since in non-modified peptides the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids, the increase in internal energy from beamCID generates b- and y-type ions that represent this peptide bond cleavage, as shown in Biemann fragment ion nomenclature (**Figure 14A**).
 b-type ions provide sequence information for fragments that have an intact N-terminus, while y-type ions denote fragment ions with an intact C-terminus.
 Collisions in beamCID cause near instantaneous generation of primary fragment ions.
 Because the increase in internal energy happens rapidly before energy can be redistributed, beamCID can generate fragments that are not necessarily derived from cleavage of the most labile bonds (e.g., PTM-modified peptides, discussed below), but spectra are often dominated by b/y-type ions from amide bond cleavage.
@@ -1861,7 +1862,7 @@ For both beamCID and resCID, the mobile proton model has been widely accepted to
 
 Despite the utility and broad adoption of CID, there are alternative dissociation methods that have been explored for a variety of uses, including applications where CID is inadequate for the experimental question [@DOI:10.1021/ac802330b; @DOI:10.1038/nprot.2008.159; @DOI:10.1007/s00726-014-1726-y].
 The most popular of these alternative dissociation methods are electron-based dissociation (ExD) approaches, which include electron capture dissociation (ECD) and electron transfer dissociation (ETD).
-In both of these, peptide cations capture thermal electrons (ECD [@DOI:10.1021/ja973478k]) or abstract an electron from a reagent anion (ETD [@DOI:10.1073/pnas.0402700101]) to generate radical-driven dissociation of the N-Ca bond that predominantly generates sequence-informative c- and z-type product ions (**Figure 13C**).
+In both of these, peptide cations capture thermal electrons (ECD [@DOI:10.1021/ja973478k]) or abstract an electron from a reagent anion (ETD [@DOI:10.1073/pnas.0402700101]) to generate radical-driven dissociation of the N-Ca bond that predominantly generates sequence-informative c- and z-type product ions (**Figure 14C**).
 The mechanisms of ExD methods have been widely explored [@DOI:10.1021/ja8019005; @DOI:10.1016/j.jasms.2004.11.001], and the preferential cleavage of N-Ca bonds along the peptide backbone have been particularly useful for PTM-modified species because the modifications remain largely intact even during peptide backbone bond fragmentation.
 ExD methods have shown promise for analysis of numerous PTMs, including phosphorylation, glycosylation, ADP-ribosylation, and more [@DOI:10.1021/acs.analchem.7b04810; @DOI:10.1002/mas.21560].
 
@@ -1881,7 +1882,7 @@ As with ExD in general, recent advances in supplemental activation strategies fo
 Photoactivation is another family of alternative dissociation strategies that has been steadily gaining popularity [@DOI:10.1021/acs.analchem.9b04859; @DOI:10.1039/c3cs60444f].
 Infrared multi-photon dissociation (IRMPD) is canonically the photodissociation method used in early proteomic applications [@DOI:10.1039/c3cs60444f], but ultraviolet photodissociation (UVPD) has been the more widely used approach in the recent decade [@DOI:10.1021/acs.chemrev.9b00440].
 IRMPD functions similarly to resCID; it is a slow heating approach that causes vibrational excitation due to absorption of low energy photons, generally 10.6 μm photons from a CO<sub>2</sub> laser [@DOI:10.1021/acs.chemrev.9b00395; @DOI:10.1016/j.jasms.2004.07.016].
-Predominant fragments are b- and y-type fragments, although secondary fragmentation occurs because fragment ions remain in the photon path after the initial dissociation event (**Figure 13D**).
+Predominant fragments are b- and y-type fragments, although secondary fragmentation occurs because fragment ions remain in the photon path after the initial dissociation event (**Figure 14D**).
 Despite limited use in the past decade, recent work shows that IRMPD, or more generally activation with IR photons, may still have value in the proteomics toolkit [@DOI:10.1021/acs.analchem.1c05398; @DOI:10.1021/acs.analchem.0c02087].
 UVPD has been explored with a number of wavelengths, including 157 nm, 193 nm, 213 nm, 266 nm, and 355 nm [@DOI:10.1002/anie.200460788; @DOI:10.1021/pr100515x; @DOI:10.1074/mcp.TIR119.001638; @DOI:10.1016/j.jasms.2008.10.019; @DOI:10.1002/rcm.4184; @DOI:10.1021/ac071241t].
 Higher-energy UVPD approaches, like 193 and 213 nm photons, are typically used for underivatized peptide and protein ions [@DOI:10.1021/acs.chemrev.9b00440], while others, like 266 and 355 nm, can be used for directed fragmentation at specific residues with natural chromophores (e.g., tyrosine) or exogenously added chromophore tags [@DOI:10.1021/ja076535a; @DOI:10.1002/anie.200900613].
@@ -1895,10 +1896,6 @@ Outside of ExD and photoactivation approaches, other alternative dissociation me
 
 ## Data Acquisition {.page_break_before}
 
-<!-- Figures:
-1. show a plot of the polularity of MRM/DIA/DDA/ over time? 
--->
-
 Hybrid mass spectrometers used for modern proteome analysis offer the flexibility to collect data in many different ways. 
 Data acquisition strategies differ in the sequence of precursor scans and fragment ion scans, and in how analytes are chosen for MS/MS. 
 Constant innovation to develop better data collection methods improves our view of the proteome, but many method options may confuse newcomers. 
@@ -1910,8 +1907,6 @@ Data acquisition strategies for proteomics fall into one of two groups.
 2. Data independent acquisition (DIA), in which the exact scan sequence in each analysis DOES NOT depend on the data; the collected scans are the same whether you inject yeast peptides, human peptides, or a solvent blank.  
 
 DDA and DIA can both be further subdivided in to targeted and untargeted methods. 
-
-<!-- to do: figure showing the four basic types of data acquisition and their names, like four squares? -->
 
 ### DDA
 
@@ -1977,7 +1972,7 @@ This is data-independent acquisition (DIA); the scans that are collected do not 
 Thus, the scan sequence is repetitive, looping through binned windows of predetermined width, and/or a predetermined m/z range. 
 Although simple in terms of data collection, when the scan sequence includes MS/MS, sophisticated software is required to analyze the data. 
 Like DDA, DIA can also be either targeted or untargeted [@DOI:10.1080/14789450.2017.1322904]:
-The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or SWATH (**Figure 14**).
+The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or SWATH (**Figure 15**).
 
 ![**Types of DIA.**
 A) SRM/MRM. 
@@ -1992,7 +1987,7 @@ Like MRM and PRM, peptides are isolated with Q1, but in this case a much wider i
 This usually results in co-isolation of many peptides simultaneously. 
 Fragments from many peptides are measured with high resolution and high mass accuracy.
 Special software is used to get peptide identities and quantities from the fragment ions. 
-](images/data-acquisition-DIA-types.svg){#fig:DIA-types tag="14" width="100%"}
+](images/data-acquisition-DIA-types.svg){#fig:DIA-types tag="15" width="100%"}
 
 #### Targeted DIA
 The first type of targeted DIA is called SRM or MRM [@DOI:10.1016/j.ymeth.2013.05.004].
@@ -2048,8 +2043,15 @@ On the orbitrap, the combination of FAIMS and DIA has enabled the identification
 
 ## Analysis of Raw Data {.page_break_before}
 
-The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically focused analysis. 
+The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically focused analysis (**Figure 15**). 
 This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
+
+![**Proteomics Data Analysis and Biological Interpretation.**
+The process begins with protein identification and quantification using tools such as Proteome Discoverer, MS Fragger, MaxQuant, and Skyline. 
+Quality control measures ensure data integrity, leading to a biological interpretation of the results. 
+Differential expression analyses may include relative abundance charts, heat maps, and volcano plots. 
+Functional analysis encompasses gene ontology, protein-protein interactions, and signaling pathways.
+](images/Fig_12_Biological_interpretation.png){#fig:DIA-types tag="16" width="100%"}
 
 In typical bottom-up proteomics experiments, proteins are digested into peptides and further analyzed with LC-MS/MS systems. 
 Peptides can have different PTMs and ionize differently depending on their length and amino acid distributions. 
@@ -2539,7 +2541,7 @@ Nodes with a high betweenness centrality usually bridge different parts of the n
 These connector hubs (or bottlenecks) are also interesting for follow–up experiments because their removal can disconnect different regions of the network [@PMID:17447836].
 
 Centrality measurements add new layers of information and allow for ranking differentially expressed proteins apart from their fold-change in abundance. 
-**Figure 15** depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
+**Figure 16** depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
 In Panel A, the fill color for the nodes indicates this metric, where it can be easily seen that A stands out. 
 However, protein A is a peripheral protein, only interacting with B. 
 In Panel B, nodes are colored according to node degree. 
@@ -2550,11 +2552,11 @@ Except for fold change, node A has the lowest indices, and it will be up to the 
 ![**Analysis of a simple network using different centrality measurements.** 
 Nodes are colored according to each metric using a yellow-to-red gradient (yellow: lowest value, red: highest value). 
 Network visualization and analysis were performed in Cytoscape.
-](images/Simple%20network.png){#fig:simple-network tag="15" width="100%"}
+](images/Simple%20network.png){#fig:simple-network tag="16" width="100%"}
 
 ### Network clustering
 
-In the small network presented in Figure {@fig:simple-network}X, two groups of densely connected nodes exist. 
+In the small network presented in Figure 16, two groups of densely connected nodes exist. 
 This topology suggests that these communities (or "clusters") work together or participate in a protein complex. 
 Dividing a network into clusters helps identify underlying relationships among nodes, which is especially useful in large networks. 
 In a broad sense, network clustering groups nodes according to a topological property, generally interconnectedness. 
@@ -2603,12 +2605,12 @@ Our list of proteins could be divided into two groups: differentially abundant o
 This information can be summarized in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
 One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
 
-There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 16**), as follows.
+There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 17**), as follows.
 
 ![**Types of functional enrichment methods.** 
 In the volcano plot (left), proteins with altered values are colored blue or red according to arbitrarily chosen cut-off values for significance and fold change. 
 Black bars or thick-bordered nodes indicate members of a GO category.
-](images/enrich_methods_v4.png){#fig:enrich_methods tag="16" width="100%"}
+](images/enrich_methods_v4.png){#fig:enrich_methods tag="17" width="100%"}
 
 #### Over-representation analysis
   
@@ -2646,7 +2648,7 @@ A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whet
   
 Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
 Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
-In Figure {@fig:enrich_methods}XI, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
+In Figure 17, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
 
 ### Other computational approaches: Network analysis, Isoform correlation analysis, AlphaFold, BLAST, protein language models
 
