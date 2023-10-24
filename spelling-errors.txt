@@ -6,7 +6,6 @@ acceptor
 acetivorans
 acetonitrile
 acetylation
-acetylations
 acetylglucosamine
 acidification
 addons
@@ -33,7 +32,6 @@ alkylating
 alkylation
 AlphaFold
 AlphaPept
-aminooxy
 aminoxy
 aminoxyTMT
 Amit
@@ -69,12 +67,12 @@ balancer
 Balaya
 BASU
 BCA
-BeamCID
+beamCID
 Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -104,6 +102,8 @@ BirA
 Bittremieux
 biuret
 BME
+BONCAT
+BONPlex
 boronic
 bortemzomib
 Bruderer
@@ -130,7 +130,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 CETSA
@@ -146,7 +146,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -170,6 +170,7 @@ Coomassie
 Coulombic
 covalently
 CpaA
+cPILOT
 CRAPome
 cRFP
 CRISPR
@@ -177,7 +178,7 @@ crosslinked
 crosslinker
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -197,7 +198,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -212,7 +213,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -227,7 +228,7 @@ diglycyl
 dihydroxybenzoic
 dihyrobenzic
 DiLeu
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
@@ -237,6 +238,7 @@ disulfide
 disulphide
 dithiothreitol
 DMA
+Dodecyl
 Doud
 downregulation
 doxycycline
@@ -301,8 +303,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
-Fc
+FASTA
+FC
 FCCS
 FCS
 Fenn
@@ -310,6 +312,7 @@ Fenton
 ferulic
 FG
 FGs
+fibroblasts
 fireinlab
 flowrate
 flowrates
@@ -323,10 +326,10 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -369,11 +372,10 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
-glycosylations
 glycosyltransferases
 GOI
 Goodlett
@@ -406,6 +408,7 @@ Hillenkamp
 Himmelstein
 histidine
 histolyticum
+hoc
 Hochberg
 Hogrebe
 homomultimer
@@ -422,9 +425,9 @@ hydrophobicity
 hydroxycinnamic
 hydroxyl
 hydroxysuccinimide
-hydrphobic
 hygromycin
 hypergeometric
+hyperplexing
 ICR
 IEC
 IEF
@@ -461,7 +464,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -469,8 +472,8 @@ iProphet
 IRMPD
 iRT
 isocratic
-Isoelectric
-isoform
+isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -489,6 +492,7 @@ Karas
 KE
 KEGG
 Kerala
+keratinocytes
 keratins
 kinases
 Knowledgebase
@@ -516,7 +520,7 @@ ligase
 ligases
 linkers
 Linn
-lipidations
+lipidation
 lipophilic
 Lowry
 LTQ
@@ -541,6 +545,7 @@ Makarov
 MALDI
 maleimide
 MaLP
+Maltoside
 Mammalia
 Mangalore
 Martín
@@ -565,6 +570,7 @@ metabolomics
 metalloendopeptidase
 metallopeptidase
 metalloprotease
+metalloproteinases
 MetaMorpheus
 metaproteomic
 metastable
@@ -573,7 +579,6 @@ methionine
 methionines
 methylated
 methylation
-methylations
 Metriculator
 MGF
 MIAPE
@@ -586,6 +591,7 @@ miniTurboID
 miRNA
 misfolding
 missense
+MITNCAT
 MOAC
 Mobie
 Mobilion
@@ -605,6 +611,7 @@ mTRAQ
 Mücke
 MudPIT
 multipole
+multitagging
 MuraleeDhar
 Muralidharan
 mv
@@ -620,7 +627,7 @@ NanoOrange
 nanopores
 NCBI
 neary
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -661,7 +668,6 @@ orthology
 orthovanadate
 overexpressed
 overexpression
-oxidations
 oxonium
 Pak
 palmitoylation
@@ -692,23 +698,22 @@ phosphoester
 phosphoimaging
 phosphopeptide
 Phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
 phosphoproteomics
 phosphorylated
-phosphorylations
 phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -728,9 +733,8 @@ PomBase
 posttranslational
 PPI
 PPIs
-practioners
 pre
-Prefractionation
+prefractionation
 PRM
 Progenesis
 proline
@@ -772,7 +776,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QTOF
 quadrupole
@@ -785,6 +789,7 @@ quinoline
 radiative
 radiolabeling
 Radiolysis
+rapamycin
 Rapigest
 rawBeans
 rawDiag
@@ -823,6 +828,7 @@ scrofa
 SCX
 SDS
 Searle
+secretomes
 selenocysteine
 SEQUEST
 Ser
@@ -878,7 +884,6 @@ subpopulation
 subtilisin
 subunits
 succinylation
-succinylations
 sulfhydryl
 sulfoxide
 SUMOylation
@@ -930,7 +935,7 @@ transactivator
 transcriptional
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -942,10 +947,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
-tris
+TripleTOF
+Tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
@@ -958,7 +963,6 @@ Tyr
 tyrosine
 ubiquitin
 Ubiquitination
-ubiquitinations
 uDIA
 ug
 Ulilysin
@@ -969,7 +973,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef

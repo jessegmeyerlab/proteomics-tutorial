@@ -1,17 +1,17 @@
 ---
-title: A Comprehensive Overview of Modern Proteomics
+title: A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-20'
+date-meta: '2023-10-24'
 author-meta:
 - Yuming Jiang
+- Devasahayam Arokia Balaya Rex
 - Dina Schuster
 - Benjamin A. Neely
 - Germán L. Rosano
-- Devasahayam Arokia Balaya Rex
 - Norbert Volkmar
 - Susan B. Egbert
 - Trenton M. Peters-Clarke
@@ -32,15 +32,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta name="citation_title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta property="og:title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta property="twitter:title" content="A Comprehensive Overview of Modern Proteomics" />
-  <meta name="dc.date" content="2023-10-20" />
-  <meta name="citation_publication_date" content="2023-10-20" />
-  <meta property="article:published_time" content="2023-10-20" />
-  <meta name="dc.modified" content="2023-10-20T23:11:33+00:00" />
-  <meta property="article:modified_time" content="2023-10-20T23:11:33+00:00" />
+  <meta name="dc.title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta name="dc.date" content="2023-10-24" />
+  <meta name="citation_publication_date" content="2023-10-24" />
+  <meta property="article:published_time" content="2023-10-24" />
+  <meta name="dc.modified" content="2023-10-24T15:25:51+00:00" />
+  <meta property="article:modified_time" content="2023-10-24T15:25:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,6 +51,10 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0001-7444-3849" />
   <meta name="twitter:creator" content="@yumingjiang94" />
+  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
+  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
+  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
+  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Dina Schuster" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich 8093, Switzerland" />
@@ -65,10 +69,6 @@ header-includes: |
   <meta name="citation_author_institution" content="Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-8313-6813" />
   <meta name="twitter:creator" content="@GermanRosano" />
-  <meta name="citation_author" content="Devasahayam Arokia Balaya Rex" />
-  <meta name="citation_author_institution" content="Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India" />
-  <meta name="citation_author_orcid" content="0000-0002-9556-3150" />
-  <meta name="twitter:creator" content="@rexprem" />
   <meta name="citation_author" content="Norbert Volkmar" />
   <meta name="citation_author_institution" content="Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland" />
   <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
@@ -129,9 +129,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -153,10 +153,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@d65d763](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d65d763704d7ee0dbec4edc39d8d5f55cd392c0b)
-on October 20, 2023.
+from [jessegmeyerlab/proteomics-tutorial@4ab33c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/4ab33c4a13176907ca4b2a608cd3093f0c587290)
+on October 24, 2023.
 </em></small>
 
 
@@ -176,6 +176,19 @@ on October 20, 2023.
     <br>
   <small>
      Department of Computational Biomedicine, Cedars Sinai Medical Center
+  </small>
+
++ **Devasahayam Arokia Balaya Rex**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ArokiaRex](https://github.com/ArokiaRex)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rexprem](https://twitter.com/rexprem)
+    <br>
+  <small>
+     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 + **Dina Schuster**
@@ -217,19 +230,6 @@ on October 20, 2023.
   <small>
      Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
      · Funded by Grant PICT 2019-02971 (Agencia I+D+i)
-  </small>
-
-+ **Devasahayam Arokia Balaya Rex**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-9556-3150](https://orcid.org/0000-0002-9556-3150)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArokiaRex](https://github.com/ArokiaRex)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rexprem](https://twitter.com/rexprem)
-    <br>
-  <small>
-     Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
   </small>
 
 + **Norbert Volkmar**
@@ -428,27 +428,27 @@ There are also nascent methods such as nanopores that are under development and 
 Another approach uses parallel immobilization of peptides with total internal reflection microscopy and sequential edman degradation [@DOI:10.1038/nbt.4278].
 However, by far the most common method for proteomics is based on mass spectrometry with liquid chromatography.
 
-Modern proteomics started around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315; @DOI:10.1002/rcm.1290020802]. 
+Modern proteomics started in the late 1980s with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315; @DOI:10.1002/rcm.1290020802]. 
 Shortly afterward, the first computer algorithm for matching peptides to a database was introduced [@PMID:24226387]. 
 Another major milestone that allowed identification of over 1000 proteins were actually improvements to chromatography [@DOI:10.1021/ac010617e]. 
-As the volume of data exploded, methods for statistical analysis transitioned use from the wild west to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and the false discovery rate [@DOI:10.1038/nmeth1019]. 
+As the volume of data exploded, methods for statistical analysis transitioned from the wild west of ad hoc empirical analysis to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and false discovery rate [@DOI:10.1038/nmeth1019]. 
 <!-- Todo: figure 1: major milestones in proteomics technology since 1990 -->
 
 Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are cleaved into peptides before analysis: "top-down" and "bottom-up". 
 Bottom-up proteomics (also refered to as shotgun proteomics) is defined by the hydrolysis of proteins into peptide pieces [@DOI:10.1038/nature19949]. 
-Therefore, bottom-up proteomics does not actually measure proteins, but must infer their presence [@DOI:10.1021/ac0341261]. 
+Therefore, bottom-up proteomics does not actually measure proteins, but must infer their presence from identified peptides [@DOI:10.1021/ac0341261]. 
 Sometimes proteins are inferred from only one peptide sequence representing a small fraction of the total protein sequence predicted from the genome. 
-In contrast, top-down proteomics attempts to measure all proteins intact [@DOI:10.1039/C9MO00154A]. 
+In contrast, top-down proteomics attempts to measure intact proteins [@DOI:10.1039/C9MO00154A]. 
 The potential benefit of top-down proteomics is the ability to measure proteoforms [@DOI:10.1126/science.aat1884]. 
 However, due to myriad analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is generally less than that of bottom-up proteomics [@DOI:10.1021/jasms.1c00099; @DOI:10.1021/acs.analchem.7b04747]. 
 
 In this tutorial we focus on the bottom-up proteomics workflow. 
 The most common version of this workflow is generally comprised of the following steps. 
 First, proteins in a biological sample must be extracted. 
-Usually this is done by denaturing and solubilizing the proteins while mechanically disrupting DNA and tissue to minimize interference in the analysis procedures. 
-Next, proteins are hydrolyzed into peptides, usually using a protease like trypsin, which produces basic c-terminal amino acids to aid in fragment ion series production during tandem mass spectrometry. 
-Peptides from proteome hydrolysis must be purified,; most often this is done with reversed phase chromatography cartridges or tips. 
-The peptides are then almost always separated by liquid chromatography before they are ionized and introduced into a mass spectrometer, although recent reports describe LC-free proteomics by direct infusion [@DOI:10.1038/s41592-020-00999-z; @DOI:10.1021/acs.analchem.2c02249; @DOI:10.1101/2023.06.26.546628]. 
+Usually this is achieved by denaturing and solubilizing the proteins while mechanically disrupting DNA and tissue to minimize interference in the analysis procedures. 
+Next, proteins are hydrolyzed into peptides, typically using a protease like trypsin, which produces basic c-terminal amino acids to aid in fragment ion series production during tandem mass spectrometry. 
+Peptides from proteome hydrolysis must be purified; most often this is accomplished with reversed phase chromatography cartridges or tips. 
+The peptides are then almost always separated by liquid chromatography before they are ionized and introduced into a mass spectrometer, although recent reports also describe LC-free proteomics by direct infusion [@DOI:10.1038/s41592-020-00999-z; @DOI:10.1021/acs.analchem.2c02249; @DOI:10.1101/2023.06.26.546628]. 
 The mass spectrometer then collects precursor and fragment ion data from those peptides. 
 The data analysis is usually the rate limiting step.
 Peptides must be identified, and proteins are inferred, and quantities are assigned. 
@@ -456,8 +456,8 @@ Changes in proteins across conditions are determined with statistical tests, and
 
 There are many variations to this workflow. 
 The wide variety of experimental goals that are achievable with proteomics technology leads to a wide variety of potential proteomics workflows. 
-Even choice is important, and every choice will affect the results. 
-In this tutorial, we cover all the required steps in detail to serve as a comprehensive overview for new proteomics practioners. 
+Every choice is important, and each choice will affect the results. 
+In this tutorial, we cover all the required steps in detail to serve as a comprehensive overview for new proteomics practitioners. 
 There are 16 sections in total:
 
 1. Biochemistry basics
@@ -484,13 +484,13 @@ There are 16 sections in total:
 ### Proteins
 
 Proteins are large biomolecules or biopolymers made up of amino acids which are linked by peptide bonds. 
-They perform various functions in living organisms ranging from having structural roles to functional involvement in cellular signaling and the catalysis of chemical reactions (enzymes). 
+They perform various functions in living organisms ranging from structural roles to functional involvement in cellular signaling and the catalysis of chemical reactions (enzymes). 
 Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
 The human genome encodes approximately 19,778 of the predicted canonical proteins coded in the human genome [@PMID:36318223].
 Each protein is present at a different abundance depending on the cell type.
 Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20 000 000 copies per cell, and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
 Proteins can span more than 10 orders of magnitude in human blood, while a few protein make up most of the protein by weight in these fluids, making blood and plasma proteomics one of the most difficult matrices. 
-Due to genetic variations, as well as alternative splicing and post-translational modifications, multiple different proteoforms can be produced from one single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
+Due to genetic variations, alternative splicing and post-translational modifications (PTMs), multiple different proteoforms can be produced from a single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
 
 ![**Proteome Complexity.**
 There is more than one protein product from each gene product due to alternative splicing and post-translational modifications. 
@@ -499,14 +499,14 @@ Some estimates are upwards of 1,000,000 unique possible protein sequences.](imag
 
 #### PTMs
 
-After protein biosynthesis, enzymatic and nonenzymatic processes change the protein sequence through proteolysis or chemical modification of the amino acid side chains (Figure X). 
-PTMs are an important biological process contributing to the diversity and control of the cellular proteome. 
+After protein biosynthesis, enzymatic and nonenzymatic processes change the protein sequence through proteolysis or covalent chemical modification of the amino acid side chains. 
+PTMs are important biological regulators contributing to the diversity and function of the cellular proteome. 
 Proteins can be post-translationally modified through enzymatic and non-enzymatic reactions _in vivo_ and _in vitro_ [@doi:10.1093/database/baab012]. 
-PTMs can be reversible or irreversible, and they change protein function in several ways, for example, by altering substrate–enzyme(s) interactions or altering protein-protein interactions [@PMID:33826699; @PMID:24217768]. 
+PTMs can be reversible or irreversible, and they change protein function in several ways, for example, by altering substrate–enzyme(s) interactions, subcellular localization or protein-protein interactions [@PMID:33826699; @PMID:24217768]. 
 
-More than 400 PTMs have been discovered in both prokaryotic and eukaryotic cells. 
+More than biological 400 PTMs have been discovered in both prokaryotic and eukaryotic cells. 
 These modifications are crucial in controlling protein functions and signal transduction pathways [@PMID:23887885]. 
-The most commonly studied and biologically relevant post-translational modifications include ubiquitinations (Lys, Cys, Ser, Thr, N-term), succinylations (Lys), methylations (Arg, Lys, His, Glu, Asn, Cys), disulfide bonds (Cys-Cys), methylation (Arg, Lys), oxidations (any amino acid, but especially Met, Trp, His, Cys), phosphorylations (Ser, Thr, Tyr, His), acetylations (Lys, N-term), glycosylations (Arg, Asp, Cys, Ser, Thr, Tyr, Trp) and lipidations.
+The most commonly studied and biologically relevant post-translational modifications include ubiquitination (Lys, Cys, Ser, Thr, N-term), succinylation (Lys), methylation (Arg, Lys, His, Glu, Asn, Cys), disulfide bonds (Cys-Cys), oxidation (any amino acid, but especially Met, Trp, His, Cys), phosphorylation (Ser, Thr, Tyr, His), acetylation (Lys, N-term), glycosylation (Arg, Asp, Cys, Ser, Thr, Tyr, Trp) and lipidation.
 
 Post-translational modification of a protein can alter its function, activity, structure, location and interactions. 
 PTMs alter signal transduction pathways and gene expression control [@PMID:28656226] regulation of apoptosis [@PMID:23088365; @PMID:11368354] by phosphorylation. 
@@ -535,7 +535,7 @@ The three-dimensional structure of the protein.
 - Quaternary structure: 
 The structure of several protein molecules/subunits in one complex.
 
-Of recent note, the development of AlphaFold, has enabled the high-accuracy three-dimensional structure of all human proteins and many hundreds of other species enabling the understanding pf protein fold and its relationship to function [@PMID:34265844; @PMID:37732824].
+Of recent note, the development of AlphaFold, has enabled the high-accuracy three-dimensional structure of all human proteins and many other species enabling the study of protein folding and its relationship to function [@PMID:34265844; @PMID:37732824].
 
 
 ## Types of Experiments {.page_break_before}
@@ -546,7 +546,7 @@ The following sections give an overview of some common proteomics experiments.
 
 ### Protein abundance changes
 A common experiment is unbiased mapping of proteins along with detection of changes in their abundance across sample groups. 
-This is achieved using one of the quantitative methods mentioned elsewhere in this manuscript such as LFQ or TMT. 
+This is achieved using methods such as label free quantification (LFQ) or tandem mass tags (TMT), which are described in more detail in subsequent sections. 
 In these experiments, data should be collected from at least three biological replicates of each condition to estimate the variance of measuring each protein. 
 Depending on the experiment design, different statistical tests are used to ask if there are changes in the measured protein abundances between groups. 
 If there are only two groups, the quantities might be compared with a t-test or with a Wilcoxon signed-rank test. 
@@ -556,7 +556,7 @@ With either testing scheme, the p-values from the first set of tests must be cor
 A common method for p value correction is the Benjamini-Hochberg method [@DOI:10.1111/j.2517-6161.1995.tb02031.x]. 
 These types of experiments have revealed wide ranges of proteomic remodeling from various biological systems. 
 
-### Post-Translational Modifications (PTMs)
+### PTMs
 Proteins are modified after they are translated with various chemical groups, or even by proteolytic cleavage such as n-terminal methionine removal. 
 There are several proteomics methods that are developed specific to each type of modification. 
 See also the section on Protein/Peptide Enrichment and Depletion.
@@ -605,7 +605,7 @@ HDX-MS works by detecting changes in peptide mass due to exchange of amide hydro
 The rate of exchange depends on the protein solvent accessible surface area, dynamics, and the properties of the amino acid sequence [@doi:10.1038/s41592-019-0459-y; @doi:10.1039/C0CS00113A; @PMID:5333290; @doi:10.1017/S0033583500005217].
 Although using D2O as a solvent to make deuterium labeled sample is simple, HDX-MS requires a number of controls to ensure that experimental conditions capture the dynamics of interest [@doi:10.1038/s41592-019-0459-y; @doi:10.1586/epr.10.109; @doi:/10.1007/s13361-012-0377-z; @doi:10.4155/bio.15.46]. 
 If the peptide dissociation process is tuned appropriately, residue-level quantification of changes in solvent accessibility are possible within a measured peptide [@DOI:10.1021/ac0710782].
-If done correctly, HDX can produce precise protein structure measurements with high reproducibility.
+HDX can produce precise protein structure measurements with high reproducibility.
 Masson *et al.* gave recommendations on how to prep samples, conduct data analysis, and present findings in a detailed stepwise manner that will be useful to have if you are new to using this technique [@doi:10.1038/s41592-019-0459-y].
 
 #### Radical Footprinting  
@@ -626,9 +626,9 @@ FPOP is an example of a radical footprinting method.
 In FPOP, a laser-based hydroxyl radical protein footprinting MS method that relies on the irreversible labeling of solvent-exposed amino acid side chains by hydroxyl radicals in order to understand structure of proteins.
 A laser produces 248 nm light that causes hydrogen peroxide to break into a pair of hydroxyl radicals [@doi:10.1016/j.jasms.2005.09.008; @doi:10.1016/j.ijms.2006.08.018]. 
 The flow rate of solution through the capillary and laser frequency are adjusted so that each protein molecule is irradiated only once. 
-After they are irradiated, the sample is collected to a tube that has catalase and free methionine in the buffer so that the H2O2 and hydroxyl radical are quenched to prevent further unwarranted oxidation, which may then modify residues that become exposed due unfolding after the initial labeling. 
+After they are irradiated, the sample is collected to a tube that has catalase and free methionine in the buffer so that the H2O2 and hydroxyl radical are quenched to prevent further unwarranted oxidation, which may then modify residues that become exposed due to unfolding after the initial labeling. 
 Control samples are made by running the sample through the flow system without any irradiation. 
-Another experimental control is done by adding a radical scavenger to tune the extent of protein oxidation [@doi:10.1002/pro.3408; @doi:10.1021/ac901054w].
+Another experimental control involves the addition of a radical scavenger to tune the extent of protein oxidation [@doi:10.1002/pro.3408; @doi:10.1021/ac901054w].
 FPOP has wide application for proteins including measurements of fast protein folding and transient dynamics.
 
 #### Protein Painting [@doi:10.1038/ncomms5413; @doi:10.1074/jbc.RA118.007310]  
@@ -641,10 +641,10 @@ A lack of proteolysis in a region is interpreted as solvent accessibility, which
 #### LiP-MS (limited proteolysis mass spectrometry) [@doi:10.1016/j.tibs.2020.05.006; @DOI:10.1038/nprot.2017.100; @doi:10.1038/s41596-022-00771-x; @doi:10.1038/nprot.2017.100]  
 Limited proteolysis coupled to mass spectrometry (LiP-MS) is a method that tracks structural changes in complex proteomes in response to arbitrary stimuli.
 The idea is to detect changes in protease-accessible protein regions due to the perturbation.
-For example, a drug binding may make a disordered region protected from non-specific proteolysis. 
+For example, a drug binding may render a disordered region protected from non-specific proteolysis. 
 LiP-MS can therefore provide a somewhat unbiased view of structural changes at the proteome scale.
 This may be useful when attempting to discover a mechanism for some treatment that causes a phenotype. 
-For additional information about LiP-MS, please refer to this document: [@url:https://www.eubopen.org/sites/www.eubopen.org/files/attachments/2022/LiP-MS%20protocol.pdf]
+For additional information about LiP-MS, please refer to this article: [@url:https://www.eubopen.org/sites/www.eubopen.org/files/attachments/2022/LiP-MS%20protocol.pdf]
 
 ### Protein stability and small molecule binding  
 #### Cellular Thermal Shift Assay (CETSA) [@PMID:23828940; @doi:10.1016/j.cbpa.2019.11.004]
@@ -694,12 +694,12 @@ For more information on BioID, please refer to this chapter: [@doi:10.1007/978-1
 ## Protein Extraction {.page_break_before}
 
 Protein extraction from the sample of interest is the initial phase of any mass spectrometry-based proteomics experiment. 
-Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, post translational modification enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments) long term project goals (reproducibility, multiple sample types, low abundance samples) as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or immune or affinity enrichment of a specific classes of modifications.) 
-The 2009 version of Methods in Enzymology: guide to Protein Purification [@isbn:978-0-12-374536-1] serves as a deep dive into how molecular biologists and biochemists traditionally thought about protein extraction. 
-The Protein Protocols handbook [@isbn:978-1-59745-198-7] and the excellent review by Linn [@PMID:19892162] are good sources of general proteomics protocols for a scientist new to the field.
+Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, PTM enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments) long term project goals (reproducibility, multiple sample types, low abundance samples) as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or immune or affinity enrichment of a specific classes of modifications.) 
+The 2009 version of Methods in Enzymology: guide to Protein Purification [@isbn:978-0-12-374536-1] serves as a deep dive into how molecular biologists and biochemists traditionally carried out protein extraction. 
+The Protein Protocols handbook [@isbn:978-1-59745-198-7] and the excellent review by Linn [@PMID:19892162] are good sources of general proteomics protocols.
 Any change in extraction conditions should be expected to create potential changes in downstream results. 
-Be sure to think about and optimize the protein extraction step first and stick with a protocol that works for your needs. 
-If a collaborator is attempting to reproduce your results, make sure they begin with the same extraction protocols. 
+Be sure to plan and optimize the protein extraction step first and stick with a protocol that works for your needs. 
+To reproduce the results of another study, one should begin with the same extraction protocols. 
 
 ### Buffer choice 
 #### General proteomics 
@@ -709,23 +709,23 @@ Unfortunately, there is no one correct answer.
 For global proteomics experiments where maximizing the number of protein or peptide identifications is a goal, a buffer of neutral pH (50-100 mM PBS, Tris, HEPES, ammonium bicarbonate, triethanolamine bicarbonate; pH 7.5-8.5) is used in conjunction with a chaotrope or surfactant to denature and solubilize proteins (e.g., 8 M urea, 6 M guanidine, 5% SDS) [@PMID:16152629; @PMID:20722421]. 
 Often other salts like 50-150 mM NaCl are also added. 
 Complete denaturation of the proteins in the sample in a timely fashion is an advantage as it generally prevents changes to protein status by endogenous proteases, kinases, phosphotases, and other enzymes.
-If intact protein separations are planned (based on size or isoelectric point) choose a denaturant compatible with those methods, such as SDS[@PMID:31249407]. 
+If intact protein separations are planned (based on size or isoelectric point), choose a denaturant compatible with those methods, such as SDS [@PMID:31249407]. 
 Compatibility with protease (typically trypsin) and peptide cleanup steps will need to be considered. 
 8 M urea must be diluted to 2 M or less for trypsin and chymotrypsin digestions, while guanidine and SDS should be removed either through protein precipitation, through filter-assisted sample preparation (FASP), or similar solid phase digestion techniques. 
-Note that some buffers can potentially introduce modifications onto proteins such as carbamylation from urea at high temperatures [@PMID:24161613]. 
+Note that some buffers can potentially introduce modifications to proteins such as carbamylation from urea at high temperatures [@PMID:24161613]. 
 
 #### Protein-protein interactions 
-Denaturing conditions will efficiently extract proteins – but they will denature/disrupt most protein-protein interactions. 
+Denaturing conditions will efficiently extract proteins, but will denature proteins and therefore disrupt most protein-protein interactions. 
 If you are working on an immune- or affinity purification of a specific protein and expect to analyze enzymatic activity, structural features, and/or protein-protein interactions, a non-denaturing lysis buffer should be utilized [@PMID:21364760; @PMID:10504710]. 
-Check the calculated pI and hydrophobicity (the Expasy.org resource ProtParam is useful fo this) for a good idea of starting pH/conductivity, but you may need to perform a stability screen. 
+Check the calculated pI and hydrophobicity (the Expasy.org resource ProtParam is useful fo this) for a good idea of starting pH/conductivity, but a stability screen may be needed. 
 In general, a good starting point for the buffer will still be close to neutral pH with 50-250 mM NaCl, but specific proteins may require pH as low as 2 or as high as 9 for stable extraction. 
-A low percent of mass spec compatible detergent may also be used.
+A low percent of mass spectrometry compatible detergent may also be used, such as n-Dodecyl-beta-Maltoside.
 Newer mass spectrometry compatible detergents are also useful for protein extraction and ease of downstream processing – including Rapigest® (Waters), N-octyl-β-glucopyranoside, Azo [@PMID:33232116], PPS silent surfactant [@PMID:21280217], sodium laurate [@PMID:23555778], and sodium deoxycholate[@PMID:17022626]. 
 AVOID the use of tween-20, triton-X, NP-40, and PEGs as these compounds are challenging to remove after digestion [@PMID:29726681]. 
 
 #### Optional additives 
 For non-denaturing buffer conditions, which preserve tertiary and quaternary protein structures, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTM modifications throughout the extraction process. 
-Protease, phosphatase and deubiquitinase inhibitors are optional additives in less denaturing conditions or in experiments focused on specific post-translational modifications. 
+Protease, phosphatase and deubiquitinase inhibitors are optional additives in less denaturing conditions or in experiments focused on specific PTMs. 
 Keep in mind that protease inhibitors may impact digestion conditions and will need to be diluted or removed prior to trypsin addition. 
 For extraction of DNA or RNA binding proteins, addition of a small amount of nuclease or benzonase is useful for degradation of any bound nucleic acids and result in a more consistent digestion [@PMID:23792921].
 
@@ -763,10 +763,10 @@ Extraction buffer components will need to be compatible with any assay chosen; a
 Typically, disulfide bonds in proteins are reduced and alkylated prior to proteolysis in order to disrupt structures and simplify peptide analysis. 
 This allows better access to all residues during proteolysis and removes the crosslinked peptides created by S-S inter peptide linkages. 
 There are a variety of reagent options for these steps. 
-For reduction, the typical agents used are 5-15 mM concentration of tris(2-carboxyethyl)phosphine hydrochloride (TCEP-HCl), dithiothreitol (DTT), or 2-mercaptoethanol (2BME).
+For reduction, the typical agents used are 5-15 mM concentration of tris(2-carboxyethyl)phosphine hydrochloride (TCEP-HCl), dithiothreitol (DTT), or 2-beta-mercaptoethanol (2BME).
 TCEP-HCl is an efficient reducing agent, but it also significantly lowers sample pH, which can be abated by increasing sample buffer concentration or resuspending TCEP-HCl in an appropriate buffer system (i.e. 1M HEPES pH 7.5).      
 Following the reducing step, a slightly higher 10-20mM concentration of alkylating agent such as chloroacetamide/iodoacetamide or n-ethyl maleimide is used to cap the free thiols [@PMID:29019370; @PMID:15351294; @PMID:28539326]. 
-In order to monitor which cysteine residues are linked or modified in a protein, it is also possible to alkylate free cysteines with one reagent, reduce di-sulfide bonds (or other cysteine modifications) and alkylate with a different reagent [@PMID:32132231; @PMID:28445428; @PMID:23074338]. 
+In order to monitor which cysteine residues are linked or modified in a protein, it is also possible to alkylate free cysteine residues with one reagent, reduce di-sulfide bonds (or other cysteine modifications) and alkylate with a different reagent [@PMID:32132231; @PMID:28445428; @PMID:23074338]. 
 Alkylation reactions are generally carried out in the dark at room temperature to avoid excessive off-target alkylation of other amino acids.
 
 ### Removal of buffer/interfering small molecules
@@ -776,7 +776,7 @@ The most common types are 1) acetone, 2) trichloroacetic acid (TCA), and 3) meth
 Proteins are generally insoluble in most pure organic solvents, so cold ethanol or methanol are sometimes used. 
 Pellets should be washed with organic solvent for complete removal especially of detergents. 
 Alternatively, solid phase based digestion methods such as S-trap [@PMID:33750040], FASP [@PMID:19377485; @PMID:30259475], SP3 [@PMID:3117935; @PMID:28948796] and on column/bead can allow for proteins to be applied to a solid phase and buffers removed prior to proteolysis [@PMID:29754492]. 
-Specialty detergent removal columns exist (Pierce/Thermo Fisher Scientific) but add expense and time consuming steps to the process. 
+Specialty detergent removal columns exist (Pierce/Thermo Fisher Scientific) but add expense and time-consuming steps to the process. 
 Relatively low concentrations of specific detergents, such as 1% deoxycholate (DOC), or chaotropes (i.e. 1M urea) are compatible with proteolysis by trypsin/Lys-C.
 Often proteolysis-compatible concentrations of these detergents and chaotropes are achieved by diluting the sample in appropriate buffer (i.e. 100 mM ammonium bicarbonate, pH 8.5) after cell or tissue lysis in a higher concentration. 
 DOC can then be easily removed by precipitation or phase separation [@PMID:18183947] following digestion by acidification of the sample to pH 2-3.   
@@ -805,7 +805,7 @@ Another simple but less reliable protein quantification method of UV-Vis Absorba
 
 #### Fluorescence-based methods:
 Colorimetric assays are inexpensive and require common lab equipment, but colorimetric detection is less sensitive than fluorescence. 
-Protein in proteomic samples can be quantified using intrinsic fluorescence of tryptophan based on the assumption that approximately 1% of all amino acids in the proteome are tryptophan [@PMID:25837572]. 
+Total protein in proteomic samples can be quantified using intrinsic fluorescence of tryptophan based on the assumption that approximately 1% of all amino acids in the proteome are tryptophan [@PMID:25837572]. 
 
 NanoOrange is an assay for the quantitative measurement of proteins in solution using the NanoOrange reagent, a merocyanine dye that produces a large increase in fluorescence quantum yield when it interacts with detergent-coated proteins. 
 Fluorescence is measured using 485-nm excitation and 590-nm emission wavelengths. 
@@ -816,10 +816,10 @@ As the number of accessible amines in a protein is modulated by its concentratio
 
 
 ### Summary 
-Often you will be given protein extraction conditions from molecular biologists or biochemistry which you will have to make work with downstream mass spectrometry applications. 
+Learning the fundamentals and mechanisms of how and why sample preparation steps are performed is vital because it enables flexibility to perform proteomics from a wide range of samples. 
 For bottom-up proteomics, the overreaching goal is efficient and consistent extraction and digestion. 
-A range of mechanical and non-mechanical extraction protocols have been developed and the use any one specific technique is generally dictated by sample type or assay requirements (i.e. native versus non-native extraction).
-Extraction can be aided by the addition of detergents and/or chaotropes to the sample, but care should be taken that these additives do not interfere with the sample digestion step or downstream mass-spectrometry applications. 
+A range of mechanical and non-mechanical extraction protocols have been developed and the choice of technique is generally dictated by sample type or assay requirements (i.e. native versus non-native extraction).
+Extraction can be aided by the addition of detergents and/or chaotropes to the sample, but care should be taken that these additives do not interfere with the sample digestion step or downstream mass-spectrometry analysis. 
 
 
 
@@ -836,25 +836,25 @@ This section summarizes potential choices and their strengths and weaknesses.
 
 Trypsin is the most common choice of protease for proteome hydrolysis [@DOI:10.1002/mas.21376].
 Trypsin is favorable because of its specificity, availability, efficiency and low cost. 
-Trypsin cleaves at the C-terminus of basic amino acids, Arg and Lys. 
+Trypsin cleaves at the C-terminus of basic amino acids, Arg and Lys, if not immediately followed by proline. 
 Many of the peptides generated from trypsin are short in length (less than ~ 20 amino acids), which is ideal for chromatographic separation, MS-based peptide fragmentation and identification by database search.
 The main drawback of trypsin is that majority (56%) of the tryptic peptides are ≤ 6 amino acids, and hence using trypsin alone limits the observable proteome [@PMID:20113005; @PMID:25823410; @PMID:30687733].
 This limits the number of identifiable protein isoforms and post-translational modifications.
 
 Although trypsin is the most common protease used for proteomics, in theory it can only cover a fraction of the proteome predicted from the genome [@DOI:10.1155/2014/960902]. 
 This is due to production of peptides that are too short to be unique, for example due to R and K immediately next to each other. 
-Peptides below a certain length are likely to happen many times in the whole proteome, meaning that even if we identify them we cannot know their origin protein. 
-In protein regions devoid of R/K, trypsin may also result in very long peptides that are then lost do to irreversible binding to the solid phase extraction device, or that become difficult to identify due to complicated fragmentation patterns. 
+Peptides below a certain length are likely to occur many times in the whole proteome, meaning that even if we identify them we cannot know their protein of origin. 
+In protein regions devoid of R/K, trypsin may also result in very long peptides that are then lost due to irreversible binding to the solid phase extraction device, or that become difficult to identify due to complicated fragmentation patterns. 
 Thus, parts of the true proteome sequences that are present are lost after trypsin digestion due to both production of very long and very short peptides. 
 
-Many alternative proteases are available with different specificities that complement trypsin to reveal different proteomic sequences [@PMID:12643544; @PMID:20113005], which can help distinguish protein isoforms [@PMID:27123950] (Figure 2).
+Many alternative proteases are available with different specificities that complement trypsin to reveal different protein sequences [@PMID:12643544; @PMID:20113005], which can help distinguish protein isoforms [@PMID:27123950] (Figure 2).
 The enzyme choice mostly depends on the application.
-In general, for a mere protein identification mostly trypsin is the choice due to the reasons aforementioned.
+In general, for a mere protein identification, trypsin is often chosen due to the aforementioned reasons.
 However, alternative enzymes can facilitate _de novo_ assembly when the genomic data information is limited in the public database repositories [@pmid:31615963; @pmid:30622160; @pmid:29990557; @doi:10.1016/j.actatropica.2022.106324; @DOI:10.1021/pr400173d].
 Use of multiple proteases for proteome digestion also can improve the sensitivity and accuracy of protein quantification [@PMID:30336047].
 Moreover, by providing an increased peptide diversity, the use of multiple proteases can expand sequence coverage and increase the probability of finding peptides which are unique to single proteins [@DOI:10.1021/acs.jproteome.9b00330; @DOI:10.1074/mcp.M113.034710; @DOI:10.1155/2014/960902]. 
 A multi-protease approach can also improve the identification of N-Termini and signal peptides for small proteins [@DOI:10.1021/acs.jproteome.1c00115]. 
-Overall, integrating multiple-protease data can increase the number of proteins identified [@DOI:10.3390/ijms20225630; @DOI:10.1074/mcp.M113.035170], the number of identified post-translational modifications detected [@DOI:10.1021/acs.jproteome.9b00330; @DOI:10.1016/j.celrep.2015.05.029; @DOI:10.1074/mcp.M113.034710] and decrease the ambiguity of the protein group list [@DOI:10.1021/acs.jproteome.9b00330].
+Overall, integrating multiple-protease data can increase the number of proteins identified [@DOI:10.3390/ijms20225630; @DOI:10.1074/mcp.M113.035170], increase the identified post-translational modifications [@DOI:10.1021/acs.jproteome.9b00330; @DOI:10.1016/j.celrep.2015.05.029; @DOI:10.1074/mcp.M113.034710] and decrease the ambiguity of the inferred protein groups [@DOI:10.1021/acs.jproteome.9b00330].
 
 ![**Multiple protease proteolysis improves protein inference**
 The use of other proteases beyond Trypsin such as Lysyl endopeptidase (Lys-C), Peptidyl-Asp metallopeptidase (Asp-N), Glutamyl peptidase I, (Glu-C), Chymotrypsin, Clostripain (Arg-C) or Peptidyl-Lys metalloendopeptidase (Lys-N) can generate a greater diversity of peptides. 
@@ -868,7 +868,7 @@ A major advantage of Lys-C is its resistance to denaturing agents, including 8 M
 Trypsin is less efficient at cleaving Lys than Arg, which could limit the quality of quantitation from tryptic peptides.
 Hence, to achieve complete protein digestion with minimal missed cleavages, Lys-C is often used simultaneously with trypsin digestion [@PMID:23017020].
 
-Alpha-lytic protease (aLP) is also secreted by the soil bacterial _Lysobacter enzymogenesis_ [@PMID:3053694].
+Alpha-lytic protease (aLP) is another protease secreted by the soil bacterial _Lysobacter enzymogenesis_ [@PMID:3053694].
 Wild-type aLP (WaLP) and an active site mutant of aLP, M190A (MaLP), have been used to expand proteome coverage [@DOI:10.1074/mcp.m113.034710].
 Based on observed peptide sequences from yeast proteome digestion, WaLP showed a specificity for small aliphatic amino acids like alanine, valine, and glycine, but also threonine and serine. 
 MaLP showed specificity for slightly larger amino acids like methionine, phenylalanine, and surprisingly, a preference for leucine over isoleucine. 
@@ -885,7 +885,7 @@ Studies also suggest that Asp-N cleaves at the amino terminus of glutamate when 
 Asp-N often leaves many missed cleavages [@PMID:27123950].
 
 Chymotrypsin or chymotrypsinogen A is a serine protease obtained from porcine or bovine pancreas with an optimum pH range from 7.8 to 8.0 [@PMID:3555886]. 
-It cleaves at the C-terminus of hydrphobic amino acids Phe, Trp, Tyr and barely Met and Leu residues.
+It cleaves at the C-terminus of hydrophobic amino acids Phe, Trp, Tyr and barely Met and Leu residues.
 Since the transmembrane region of membrane proteins commonly lacks tryptic cleavage sites, this enzyme works well with membrane proteins having more hydrophobic residues [@PMID:24870543; @PMID:24696503; @PMID:27123950].
 The chymotryptic peptides generated after proteolysis will cover the proteome space orthogonal to that of tryptic peptides both in a quantitative and qualitative manner [@PMID:24290761; @PMID:22669647; @PMID:24696503]
 
@@ -901,8 +901,8 @@ In addition, it can also cleave modified amino acids such as methylated or dimet
 
 Peptidyl-Lys metalloendopeptidase, or Lys-N, is an metalloprotease obtained from _Grifola frondosa_ [@PMID:19195997]. 
 It cleaves N-terminally of Lys and has an optimal activity at pH 9.0.
-Unlike trypsin, Lys-N is more resistant to denaturing agents and can be heated up to 70 °C [@PMID:25823410].
-Reports suggest that the peptides generated after Lys-N digestion produces more of c-type ions in a ETD-based mass spectrometer [@PMID:18425140]. 
+Unlike trypsin, Lys-N is more resistant to denaturing agents and can be heated up to 70°C [@PMID:25823410].
+Peptides generated from Lys-N digestion produce more c-type ions using ETD fragmentation [@PMID:18425140]. 
 Hence this can be used for analysing PTMs, identification of C-terminal peptides and also for _de novo_ sequencing strategies [@PMID:18425140; @PMID:20953479].
 
 Pepsin A, commonly known as pepsin, is an aspartic protease obtained from bovine or porcine pancreas [@PMID:12089768].
@@ -917,7 +917,7 @@ It is a member of the subtilisin family of proteases and is relatively unspecifi
 The optimal enzyme activity is between pH 7.5 and 12.
 Proteinase K is used at low concentrations for limited proteolysis (LiP) and the detection of protein structural changes in the eponymous technique LiP-MS [@PMID:29072706]. 
 
-Although different specificity is useful in theory to enable improved proteome sequence coverage, there are practical challenges because most of the standard workflow is optimized for tryptic peptides. 
+Although different specificity is useful in theory to enable improved proteome sequence coverage, there are practical challenges because most standard workflows are optimized for tryptic peptides. 
 For example, peptides that lack a c-terminal positive charge due to arginine or lysine side chains can have a less pronounced y-ion series.
 This can lead to lower scoring peptide-spectra matches because some peptide identification algorithms preferentially score y ions higher. 
 
@@ -925,10 +925,11 @@ This can lead to lower scoring peptide-spectra matches because some peptide iden
 ## Peptide Quantification {.page_break_before}
 
 ### Label-free quantification (LFQ) of peptides
-LFQ of peptide precursors requires no additional steps in the protein extraction, digestion, and peptide purification workflow (Figure. 
+LFQ of peptide precursors requires no additional steps in the protein extraction, digestion, and peptide purification workflow (**Figure 3**). 
 Samples can be taken straight to the mass spectrometer and are injected one at a time, each sample necessitating their own LC-MS/MS experiment and raw file. 
 Quantification of peptides by LFQ is routinely performed by many commercial and freely available proteomics software (see Data Analysis section below). 
-In LFQ, peptide abundances across LC-MS/MS experiments are usually calculated by computing the area under the extracted ion chromatograms for signals that are specific to each peptide; this may involve aligning windows of accurate peptide mass and retention time.
+In LFQ, peptide abundances across LC-MS/MS experiments are usually calculated by computing the area under the extracted ion chromatograms for signals that are specific to each peptide; this involves aligning windows of accurate peptide mass and retention time.
+LFQ can be performed using precursor MS1 signals from DDA, or using multiple fragment ion signals from DIA (see Data Acquisition section).
 
 ![**Quantitative strategies commonly used in proteomics.**
 A) Label-free quantitation. 
@@ -969,7 +970,7 @@ As the isobaric tags are used, peptides labeled with these tags give a single MS
 The modified parent ions undergo fragmentation during MS/MS analysis generating two kinds of fragment ions: (a) reporter ions and (b) peptide fragment ions. 
 Each reporter ions’ relative intensity is directly proportional to the peptide abundance in each of the starting samples that were pooled. 
 As usual, the b- and y-type fragment ion peaks are still used to identify amino acid sequences of peptides, from which proteins can be inferred. 
-Since it is possible to label most tryptic peptides with an isobaric mass tag at least at the n-termini, numerous peptides from the same protein can be detected and quantified, thus leading to an increase in the confidence in both protein identification and quantification [@PMID:25337643, @DOI:10.1146/annurev-biodatasci-080917-013516]. 
+Since it is possible to label most tryptic peptides with an isobaric mass tag at least at the N-termini, numerous peptides from the same protein can be detected and quantified, thus leading to an increase in the confidence in both protein identification and quantification [@PMID:25337643, @DOI:10.1146/annurev-biodatasci-080917-013516]. 
 
 Because the size of the reporter ions is small and sometimes the mass difference between reporter ions is small (i.e., a ~6 mDa difference when using 13C versus 15N), these methods neary exclusively employ high-resolution mass analyzers, not classical ion traps [@PMID:26584918]. 
 There are examples, however, of using isobaric tags with pulsed q dissociation on linear ion traps (LTQs) [@PMID:22397766]. 
@@ -984,7 +985,7 @@ The following are some of the isobaric labeling techniques:
 The iTRAQ tagging method covalently labels the peptide N-terminus and side-chain primary amines with tags of different masses through the NHS-ester bond. 
 This is followed by mass spectrometry analysis [@PMID:15385600]. 
 Reporter ions for an 8plex iTRAQ are measured at roughly 113, 114, 115, 116, 117, 118, 119, and 121 Daltons. 
-Currently, two kinds of iTRAQ reagents are available: 4-plex and 8-plex. 
+Currently, two kinds of iTRAQ reagents are available: 4-plex and 8-plex [@DOI:10.1007/978-1-4939-3106-4_18]. 
 Using 4-plex reagents, a maximum of four different biological conditions can be analyzed simultaneously, whereas using 8plex reagents, eight different biological conditions can be analysed [@PMID:20593797; @PMID:22594965].
 
 #### iTRAQ hydrazide (iTRAQH)
@@ -1015,7 +1016,7 @@ The commercially available IodoTMT reagents are iodoTMTzero and iodoTMT 6-plex [
 Also referred to as glyco-TMTs, these reagents have chemistry similar to iTRAQH. 
 The stable isotope-labeled glyco-TMTs are utilized for quantitating N-linked glycans. 
 They are derived from the original TMT reagents with an addition of carbonyl-reactive groups, which involve either hydrazide or aminoxy chemistry as functional groups. 
-These aminooxy TMTs show a better performance as compared to its iTRAQH counterparts in terms of efficiency of labeling and quantification. 
+These aminoxy TMTs show a better performance as compared to its iTRAQH counterparts in terms of efficiency of labeling and quantification. 
 The glyco-TMT compounds consist of stable isotopes thus enabling (i) isobaric quantification using MS/MS spectra and (ii) quantification in MS1 spectra using heavy/light pairs. 
 Aminoxy TMT6-128 and TMT6-131 along with the hydrazide TMT2-126 and TMT2-127 reagents can be used for isobaric quantification. 
 In the quantification at MS1 level, the light TMT0 and the heavy TMT6 reagents have a difference in mass of 5.0105 Da which is sufficient to separate the isotopic patterns of all common N-glycans. 
@@ -1040,6 +1041,18 @@ The performances of DiART including the mechanism of fragmentation, the number o
 Irrespective of the sequence of the peptide, reporter ions of high-intensity are produced by DiART tags in comparison to those with iTRAQ and thus, DiART labeling can be used to quantify more peptides as well as those with lower abundance, and with reliable results [@PMID:22404494]. 
 DiART serves as a cheaper alternative to TMT and iTRAQ while also having a comparable labeling efficiency. 
 It has been observed that these tags are useful in labeling huge protein quantities from cell lysates before TiO2 enrichment in quantitative phosphoproteomics studies [@PMID:24129742].
+
+#### Hyperplexing or higher-order multiplexing
+Some studies have combined metabolic labels (i.e., SILAC) with chemical tags (i.e., iTRAQ or TMT) to expand the multiplexing capacity of proteomics experiments referred to as hyperplexing [@PMID:22457332; @PMCID:PMC5292868; @DOI:10.1126/scisignal.2002548] or higher order multiplexing [@PMID:31074990; @PMID:32455206; @PMID:36854207]. 
+This technique combines MS1 and MS2-based quantitative methods to achieve enhanced multiplexing by multiplying the channels used in each dimension. 
+This allows for the quantitation of proteomes across multiple samples in a single MS run. 
+The technique uses two types of mass encoding to label different biological samples. 
+The labeled samples are then mixed together, which increases the MS1 peptide signal. 
+Protein turnover rates were studied using SILAC-iTRAQ multitagging [@DOI:10.1021/pr9007738], while various cPILOT studies employed MS1 dimethyl labeling with iTRAQ [@PMID:25588721; @PMID:25620666; @PMID:24124127; @PMID:27152368]. 
+SILAC-TMT hyperplexing was used to study the temporal response to rapamycin in yeast [@PMID:22457332]. 
+SILAC-iTRAQ-TAILS method was developed to study matrix metalloproteinases in the secretomes of keratinocytes and fibroblasts [@PMID:25871442]. 
+TMT-SILAC hyperplexing was used to study synthesis and degradation rates in human fibroblasts [@PMID:27765818]. 
+Variants of SILAC-iTRAQ and BONCAT, namely BONPlex [@PMID:27672675] and MITNCAT [@PMID:30466063] were also developed to study temporal proteome dynamics.
 
 
 ## Peptide/Protein Enrichment and Depletion {.page_break_before}
