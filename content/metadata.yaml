@@ -1,5 +1,5 @@
 ---
-title: "A Comprehensive Overview of Modern Proteomics"
+title: "A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -17,6 +17,15 @@ authors:
     affiliations:
      - Department of Computational Biomedicine, Cedars Sinai Medical Center
 
+  - github: ArokiaRex
+    name: Devasahayam Arokia Balaya Rex
+    initials: DABR
+    orcid: 0000-0002-9556-3150
+    twitter: rexprem
+    email: rexprem@yenepoya.edu.in
+    affiliations:
+      - Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
+      
   - github: dschust-r
     name: Dina Schuster
     initials: DS
@@ -49,15 +58,6 @@ authors:
       - Mass Spectrometry Unit, Institute of Molecular and Cellular Biology of Rosario, Rosario, Argentina
     funders:
       - Grant PICT 2019-02971 (Agencia I+D+i)
-  
-  - github: ArokiaRex
-    name: Devasahayam Arokia Balaya Rex
-    initials: DABR
-    orcid: 0000-0002-9556-3150
-    twitter: rexprem
-    email: rexprem@yenepoya.edu.in
-    affiliations:
-      - Center for Systems Biology and Molecular Medicine, Yenepoya Research Centre, Yenepoya (Deemed to be University), Mangalore 575018, India
  
   - github: norbertvolkmar
     name: Norbert Volkmar
