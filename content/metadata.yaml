@@ -133,7 +133,9 @@ authors:
     email: muralidharanv@am.amrita.edu
     affiliations:
       - School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
-         
+    funders:
+      - Department of Health Research, Indian Council of Medical Research, Government of India (File No.R.12014/31/2022-HR)
+
   - github: martinmayta
     name: Martín L. Mayta
     initials: MLM
