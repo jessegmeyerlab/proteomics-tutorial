@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-24'
+date-meta: '2023-10-25'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-10-24" />
-  <meta name="citation_publication_date" content="2023-10-24" />
-  <meta property="article:published_time" content="2023-10-24" />
-  <meta name="dc.modified" content="2023-10-24T15:25:51+00:00" />
-  <meta property="article:modified_time" content="2023-10-24T15:25:51+00:00" />
+  <meta name="dc.date" content="2023-10-25" />
+  <meta name="citation_publication_date" content="2023-10-25" />
+  <meta property="article:published_time" content="2023-10-25" />
+  <meta name="dc.modified" content="2023-10-25T16:07:28+00:00" />
+  <meta property="article:modified_time" content="2023-10-25T16:07:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -129,9 +129,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -153,10 +153,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/4ab33c4a13176907ca4b2a608cd3093f0c587290/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@4ab33c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/4ab33c4a13176907ca4b2a608cd3093f0c587290)
-on October 24, 2023.
+from [jessegmeyerlab/proteomics-tutorial@06b8495](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/06b849505def55078d05422dc0f5966119a66800)
+on October 25, 2023.
 </em></small>
 
 
@@ -331,6 +331,7 @@ on October 24, 2023.
     <br>
   <small>
      School of Biotechnology, Amrita Vishwa Vidyapeetham, Kollam-690 525, Kerala, India
+     · Funded by Department of Health Research, Indian Council of Medical Research, Government of India (File No.R.12014/31/2022-HR)
   </small>
 
 + **Martín L. Mayta**

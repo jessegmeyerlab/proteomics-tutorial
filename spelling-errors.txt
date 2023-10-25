@@ -94,7 +94,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -143,7 +143,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -158,7 +158,7 @@ Clostripain
 coli
 Collisional
 collisionally
-Colorimetric
+colorimetric
 colorimetry
 columbic
 Combinatorial
@@ -177,7 +177,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 Cryo
 cryogels
 crystalized
@@ -198,7 +198,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -232,7 +232,7 @@ dimethyl
 dimethylated
 diol
 dipeptides
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -259,7 +259,7 @@ Egbert
 EI
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -274,12 +274,12 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -329,7 +329,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -351,7 +351,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -472,7 +472,7 @@ iProphet
 IRMPD
 iRT
 isocratic
-isoelectric
+Isoelectric
 Isoform
 isoforms
 isogeneic
@@ -660,7 +660,7 @@ onotology
 OpenMS
 operon
 orbitrap
-Orbitraps
+orbitraps
 organismal
 orignal
 Ortholog
@@ -698,7 +698,7 @@ phosphoester
 phosphoimaging
 phosphopeptide
 Phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -713,7 +713,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -754,7 +754,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-Proteomic
+proteomic
 proteomics
 ProtParam
 protti
@@ -935,7 +935,7 @@ transactivator
 transcriptional
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -950,9 +950,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tTA
@@ -973,14 +973,14 @@ uncharacterized
 underivatized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
