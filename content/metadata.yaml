@@ -69,6 +69,14 @@ authors:
       - Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland
       - DISCO Pharmaceuticals, Zurich 8093, Switzerland
 
+  - github: amandamomenzadeh
+    name: Amanda Momenzadeh
+    initials: AM
+    orcid: 0000-0002-8614-0690
+    email: amanda.momenzadeh@cshs.org
+    affiliations: 
+      - Department of Computational Biomedicine, Cedars Sinai Medical Center, Los Angeles, California, USA
+  
   - github: lichenlady94
     name: Susan B. Egbert
     initials: SBE
