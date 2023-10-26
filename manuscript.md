@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-25'
+date-meta: '2023-10-26'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -13,6 +13,7 @@ author-meta:
 - Benjamin A. Neely
 - Germán L. Rosano
 - Norbert Volkmar
+- Amanda Momenzadeh
 - Susan B. Egbert
 - Trenton M. Peters-Clarke
 - Simion Kreimer
@@ -36,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-10-25" />
-  <meta name="citation_publication_date" content="2023-10-25" />
-  <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T16:07:28+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T16:07:28+00:00" />
+  <meta name="dc.date" content="2023-10-26" />
+  <meta name="citation_publication_date" content="2023-10-26" />
+  <meta property="article:published_time" content="2023-10-26" />
+  <meta name="dc.modified" content="2023-10-26T20:57:46+00:00" />
+  <meta property="article:modified_time" content="2023-10-26T20:57:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -74,6 +75,9 @@ header-includes: |
   <meta name="citation_author_institution" content="DISCO Pharmaceuticals, Zurich 8093, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-0766-5606" />
   <meta name="twitter:creator" content="@NorbertVolkmar" />
+  <meta name="citation_author" content="Amanda Momenzadeh" />
+  <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center, Los Angeles, California, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-8614-0690" />
   <meta name="citation_author" content="Susan B. Egbert" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
   <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
@@ -129,9 +133,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3a23799ef04210b88daafcb8cd86b20d2f3a8688/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3a23799ef04210b88daafcb8cd86b20d2f3a8688/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3a23799ef04210b88daafcb8cd86b20d2f3a8688/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -153,10 +157,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/06b849505def55078d05422dc0f5966119a66800/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/3a23799ef04210b88daafcb8cd86b20d2f3a8688/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@06b8495](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/06b849505def55078d05422dc0f5966119a66800)
-on October 25, 2023.
+from [jessegmeyerlab/proteomics-tutorial@3a23799](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3a23799ef04210b88daafcb8cd86b20d2f3a8688)
+on October 26, 2023.
 </em></small>
 
 
@@ -243,6 +247,17 @@ on October 25, 2023.
     <br>
   <small>
      Department of Biology, Institute of Molecular Systems Biology, ETH Zurich, Zurich 8093, Switzerland; DISCO Pharmaceuticals, Zurich 8093, Switzerland
+  </small>
+
++ **Amanda Momenzadeh**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8614-0690](https://orcid.org/0000-0002-8614-0690)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [amandamomenzadeh](https://github.com/amandamomenzadeh)
+    <br>
+  <small>
+     Department of Computational Biomedicine, Cedars Sinai Medical Center, Los Angeles, California, USA
   </small>
 
 + **Susan B. Egbert**
@@ -2285,7 +2300,184 @@ In case you are analyzing different conditions, you can perform hierarchical clu
 <!-- todo: this table is probably very incomplete. Add more tools -->
 
 
-### Statistical hypothesis testing
+### Quantitative Proteomic Data Analysis Best Practices 
+This section aims to provide an overview of the best practices when conducting large scale proteomics quantitative data analysis. 
+The proteome is more complex than the genome and transcriptome due to PTMs and splicing, therefore careful selection of data analysis techniques is required to make capture the true biological signals in the data [@DOI:10.1016/j.jprot.2018.12.004]. 
+A well-established workflow for proteomic data analysis does not currently exist [@DOI:10.1016/j.jprot.2018.12.004]. 
+Analyzing proteomic data requires knowledge of a multitude of pre-processing techniques where order matters, and it can be challenging knowing where to start. 
+This review will cover tools to reduce bias due to nonbiological variability, statistical methods to identify differential expression and machine learning (ML) methods for supervised or unsupervised interpretation of proteomic data. 
+
+#### Data Transformation
+Peptide or protein quantities are generally assumed to be logarithm (log) transformed before any subsequent processing [@DOI:10.1016/j.biosystems.2022.104661; @DOI:10.1021/pr050300l;  @DOI:10.1093/bib/bbw095; @DOI:10.1186/1471-2105-13-S16-S5]. 
+Log transformation allows data to more closely conform to a normal distribution and reduces the effect of highly abundant proteins [@DOI:10.1021/pr050300l]. 
+Many normalization techniques also assume data to be symmetric, so log transformation should precede any downstream analysis in these cases [@DOI:10.1021/pr050300l]. 
+If there are missing values present, a simple approach would be to use log(1+x) to avoid taking the log of zero. 
+After the transformation, zero quantities will remain as zero and the other quantities should be large enough that adding one will have a minor effect. 
+
+#### Data Normalization 
+Data normalization, the process for adjusting data to be comparable between samples, should be performed prior to batch correction and any subsequent data analysis [@DOI:10.1021/pr401264n; @DOI:10.1021/pr050300l]. 
+Normalization removes systematic bias in peptide/protein abundances that could mask true biological discoveries or give rise to false conclusions [@DOI:10.1038/s41587-022-01440-w]. 
+Bias may be due to factors such as measurement errors and protein degradation [@DOI:10.1021/pr050300l], although the causes for these variations are often unknown [@DOI:10.1186/1471-2105-13-S16-S5]. 
+As data scaling methods should be kept at a minimum [@DOI:10.15252/msb.202110240], a normalization technique well suited to address the nuances specific to one’s data should be selected. 
+The assumptions for a given normalization technique should not be violated, otherwise choosing the wrong technique can lead to misleading conclusions [@DOI:10.1093/bib/bbx008].  
+There are a multitude of data normalization techniques and knowing the most suitable one for a dataset can be challenging. 
+
+Visualization of peptide or protein intensity distributions among samples is an important step prior to selecting a normalization technique. 
+Normalization is suggested to be done on the peptide level [@DOI:10.15252/msb.202110240].  
+If the technical variability causes the peptide/protein abundances from each sample to be different by a constant factor, and thus intensities are graphically similar across samples, then a central tendency normalization method such as mean, median or quantile normalization may be sufficient [@DOI:10.15252/msb.202110240; @DOI:10.1021/pr050300l]. 
+However, if there is a linear relationship between bias and the peptide/protein abundances, a different method may be more appropriate. 
+To visualize linear and nonlinear trends due to bias, we can plot the data in a ratio versus intensity, or a M (minus) versus A (average), plot [@DOI:10.1021/pr050300l; @DOI:10.1093/bioinformatics/19.2.185].  
+Linear regression normalization is an available technique if bias is linearly dependent on peptide/protein abundance magnitudes [@DOI:10.1093/bib/bbw095; @DOI: 10.1021/pr050300l]. 
+Alternatively, local regression (LOESS) normalization assumes nonlinearity between protein intensity and bias [@DOI:10.1093/bib/bbw095]. 
+Another method, removal of unwanted variation (RUV), uses information from negative controls and a linear mixed effect model to estimate unwanted noise, which is then removed from the data [@DOI:10.1038/nbt.2931].
+
+If sample distributions are drastically different, for example due to different treatments or samples are obtained from various tissues, one must use a method that preserves the heterogeneity in the data, including information present in outliers, meanwhile reducing systematic bias [@DOI:10.15252/msb.202110240]. 
+For example, Hidden Markov Model (HMM)-assisted normalization [@DOI:10.15252/msb.202110240], RobNorm [@DOI:10.1093/bioinformatics/btaa904] or EigenMS [@DOI:10.1093/bioinformatics/btp426] may be suitable for this type of data. 
+These techniques assume error is only due to the batch and order of processing. 
+The first method that addresses correlation of errors between compounds by using the information from the variation of one variable to predict another is systematic error removal using random forest (SERRF) [@DOI:10.1021/acs.analchem.8b05592]. 
+SERRF, among 14 normalization methods, was the most effective in significantly reducing systematic error [@DOI:10.1021/acs.analchem.8b05592].
+
+Studies aiming to compare these methods for omics data normalization have come to different conclusions. 
+Ranking of different normalization methods can be done by assessing the percent decrease in median log2(standard deviation) and log2 pooled estimate of variance (PEV) in comparison to the raw data [@DOI:10.1074/ mcp.M800514-MCP200]. 
+One study found linear regression ranked the highest compared to central tendency, LOESS and quantile normalization for peptide abundance normalization for replicate samples with and without biological differences [@DOI:10.1021/pr050300l]. 
+A paper comparing multiple normalization methods using a large proteomic dataset found that mean/median centering, quantile normalization and RUV had the highest known associations between proteins and clinical variables [@DOI:10.1016/j.biosystems.2022.104661]. 
+Rather than individually implementing normalization techniques, which can be challenging for non-domain experts, there are several R and Python packages that automate mass spectrometry data analysis and visualization. 
+These tools assist with making an appropriate selection of a normalization technique. 
+For example, NormalyzerDE, an R package, includes several popular methods for normalization and differential expression analysis of LC-MS data [@DOI:10.1021/acs.jproteome.8b00523]. 
+AlphaPeptStats [@DOI:10.1093/bioinformatics/btad461], a Python package, allows for comprehensive mass spectrometry data analysis, including normalization, imputation, batch correction, visualization, statistical analysis and graphical representations including heatmaps, volcano plots, and scatter plots. 
+AlphaPeptStats allows for analysis of label-free proteomics data from several platforms (MaxQuant, AlphaPept, DIA-NN, Spectronaut, FragPipe) in Python but also has web version that does not require installation. 
+
+#### Data Imputation
+Missing peptide intensities, which are common in proteomic data, may need to be addressed, although this is a controversial topic in the field. 
+Normalization should be performed before imputation since bias may not be removed to detect group differences if imputation occurs prior to normalization [@DOI:10.1186/1471-2105-13-S16-S5]. 
+Reasons for missing data include the peptide not being biologically present, being present but at too low of a quantity to be detected, or present at quantifiable abundance but misidentified or incorrectly undetected [@DOI:10.1186/1471-2105-13-S16-S5]. 
+If the quantity is not at the detectable limit, the quantity is called censored and these values are missing not at random [@DOI:10.1186/1471-2105-13-S16-S5]. 
+Imputing these censored values will lead to bias as the imputed values will be overestimated [@DOI:10.1186/1471-2105-13-S16-S5]. 
+However, if the quantity is present at detectable limits but was missed due to a problem with the instrument, this peptide is missing completely at random (MCAR) [@DOI:10.1186/1471-2105-13-S16-S5]. 
+While imputation of values that are MCAR using observed values would be a reasonable approach, censored peptides should not be imputed because their missingness is informative [@DOI:10.1186/1471-2105-13-S16-S5]. 
+Peptides MCAR are a less frequent problem compared to censored peptides [@DOI:10.1186/1471-2105-13-S16-S5]. 
+Understanding why the peptide is missing can be challenging [@DOI:10.1186/1471-2105-13-S16-S5], however there are techniques such as maximum likelihood model [@DOI:10.1093/bioinformatics/btp3620] or logistic regression [@DOI:10.1007/s12561-009-9013-2] that may distinguish censored versus MCAR values.
+
+Commonly used imputation methods for omics data are random forest (RF) imputation[@DOI:10.1093/bioinformatics/btr597], k-nearest neighbors (kNN) imputation [@DOI:10.1093/bioinformatics/17.6.520], and single value decomposition (SVD) [@DOI:10.1093/bioinformatics/btm069]. 
+Using the mean or median of the non-missing values for a variable is an easy approach to imputation but may lead to underestimating the true biological differences [@DOI:10.1186/1471-2105-13-S16-S5]. 
+Choice of the appropriate imputation method is critical as how these missing values are filled in has a substantial impact on downstream analysis and conclusions [@DOI:10.1038/s41598-017-19120-0]. 
+In one study, RF imputation was the most accurate among nine imputation methods across several combinations of types and rates of missingness and does not require preprocessing (e.g., does not require normal distribution) for metabolomics data [@DOI:10.1186/s12859-019-3110-0]. 
+Another study found RF, among eight imputation methods, had the lowest normalized root mean squared error (NRMSE) between imputed values and the actual values when MCAR values were randomly replaced with missing values, followed by SVD and KNN using metabolomics data [@DOI:10.1038/s41598-017-19120-0]. 
+Lastly, a study found RF also had the lowest NRMSE when comparing seven imputation methods using a large-scale label-free proteomics dataset [@DOI:10.1038/s41598-021-81279-4].
+
+
+### Batch Correction 
+Normalization is assumed to occur prior to batch effect correction [@DOI:10.15252/msb.202110240].
+Batch effect correction is still a critical step after normalization as proteins may still be affected by batch effects and diagnosing a batch effect may be easier once data is normalized [@DOI:10.15252/msb.202110240]. 
+Prior to performing any statistical analysis of data, we must start with distinguishing signals in the data due to biological versus batch effects. 
+A batch effect occurs when differences in preparation of samples and how data was acquired between batches results in altered quantities of peptides (or genes or metabolites) which results in reduced statistical power in detecting true differences [@DOI:10.15252/msb.202110240; @DOI:10.15252/msb.202110240]. 
+This non-biological variability originates from the time of sample collection to peptide/protein quantification [@DOI:10.1016/j.biosystems.2022.104661] and is often a problem when working with large numbers of samples, involving multiple plates run by different technicians, on different instruments and/or using different reagent batches [@DOI:10.1016/j.tibtech.2017.02.012]. 
+Results from these different batches ultimately need to be aggregated and data analysis to be performed on the whole dataset, so it may be difficult to measure and then control for exact changes due to non-biological variability once the data has been aggregated [@DOI:10.1016/j.biosystems.2022.104661]. 
+Batch correction methods remove technical variability, however they should not remove any true biological effect [@DOI:10.1016/j.tibtech.2017.02.012; @DOI:10.1016/j.biosystems.2022.104661]. 
+Although it is agreed upon that these biases should be accounted for to prevent misleading conclusions, there is no one gold standard batch correction method. 
+
+Batch effects can manifest as continuous, such as from MS signal drift, or as discrete, such as a shift that affects the entire batch [@DOI:10.15252/msb.202110240]. 
+To visualize batch effects, one can plot the average intensity per sample in the order each was measured by the MS to see if intensities are shifted in a certain batch [@DOI:10.15252/msb.202110240]. 
+Measuring protein-protein correlations is another method to check for batch effects; if proteins within a batch are more correlated compared to those from other batches, there are likely batch effects[@DOI:10.15252/msb.202110240]. 
+Prior to batch correction, one should ensure the experimental design is not irreversibly flawed due to batch effects and whether a change in design should be implemented. 
+Studies spanning multiple days and experiments involving samples from different centers are vulnerable to batch effects [@DOI:10.1038/nrg2825]. 
+One example of technical variability that may irreversibly flaw an experiment would be running samples at varying time points, or ‘as they came in’ [@DOI:10.1093/bfgp/3.4.322]. 
+This problem can be circumvented by balancing biological groups in each batch [@DOI:10.1093/bfgp/3.4.322]. 
+Additionally, collection of samples at different institutions introduces non-biological variability due to differences in a multitude of conditions such as collection protocols, storage, and transportation [@DOI:10.1016/j.biosystems.2022.104661]. 
+A solution to this problem would be to evenly distribute samples between centers or batches [@DOI:10.1016/j.biosystems.2022.104661]. 
+
+There are several batch correction methods, the most popular method being Combating Batch Effects When Combining Batches of Gene Expression Microarray Data (ComBat), originally designed for genomics data [@DOI:10.1093/biostatistics/kxj037; @DOI:10.1016/j.tibtech.2017.02.012]. 
+ComBat uses Bayesian inference to estimate batch effects across features in a batch and applies a modified mean shift, but requires peptides to be present in all batches which can lead to loss of a large number of peptides [@DOI:10.15252/msb.202110240, @DOI:10.1016/j.tibtech.2017.02.012]. 
+Out of six batch correction methods using microarray data, ComBat was the best in reducing batch effects across several performance metrics and was effective using high dimensional data with small sample sizes [@DOI:10.1371/journal.pone.0017238]. 
+ComBat may be more suitable for small datasets when the source of batch effects are known [@DOI:10.1016/j.tibtech.2017.02.012]. 
+However if potential batch variables are not known or processing time or group does not adequately control for batch effects, surrogate variable analysis (SVA) may be used where the source of batch effect is estimated from the data [@DOI:10.1016/j.tibtech.2017.02.012; @DOI:10.1038/nrg2825]. 
+A third option for batch effect correction uses negative control proteins to estimate unwanted variation, called “Remove Unwanted Variation, 2-step” (RUV-2) [@DOI:10.1093/biostatistics/kxr034].
+There are many additional batch effect correction methods for single cell data, such as mutual nearest neighbors [@DOI:10.1038/nbt.4091], or Scanorama, which generalizes mutual nearest neighbors matching [@DOI:10.1038/s41587-019-0113-3].
+
+### Quality Control 
+Prior to conducting any statistical analysis, the raw data matrix should be compared to the data after the above-described pre-processing steps have been performed to ensure bias is removed. 
+We can compare data using boxplots of peptide intensities from the raw data matrix versus corrected data in sample running order to look at batch associated patterns; after correction, we should see uniform intensities across batches [@DOI:10.15252/msb.202110240]. 
+We can also use clustering methods such as Principal Component analysis (PCA), Uniform Manifold Approximation and Projection (UMAP), or t-SNE (t-Distribute Stochastic Neighbor Embedding) and plot protein quantities colored by batches or technical versus biological samples to see how proteins cluster in space based on similarity. 
+We can measure the variability each PC contributes; we want to see similar variability among all PCs, however if see one PC contributing to overall variability highly then means variables are dependent [@DOI: 10.1002/pmic.202100103]. 
+tSNE and UMAP allow for non-linear transformations and allow for clusters to be more visually distinct [@DOI: 10.1002/pmic.202100103]. 
+Grouping of similar samples by batch or other non-biological factors, such as time or plate, indicates bias [@DOI:10.15252/msb.202110240]. 
+Quantitative measures of whether batch effects have been removed are principal variance components analysis (PVCA), which provides information on factors driving variance between biological and technical differences, and checking correlation of samples between different batches, within the same batch and between replicates. 
+When batch effects are present, samples in the same batch will have higher correlation than samples from different batches and between replicates [@DOI:10.15252/msb.202110240]. 
+Once batch effects are removed, proteins in the same batch should be correlated at the same level with proteins from other batches [@DOI:10.15252/msb.202110240]. 
+Similarity between technical replicates can be measured using pooled median absolute deviation (PMAD), pooled coefficient of variation (PCV) and pooled estimate of variance (PEV); high similarity would mean batch effects are removed and there is low non-biological effects [@DOI:10.1093/bib/bbw095].
+
+Lastly, it is also important to show that batch correction leads to improvement in finding true biological differences between samples. 
+We can show the positive effect that batch correction has on the data by demonstrating reproducibility after batch correction. 
+One way to provide evidence for reproducibility is to show that prior to batch correction, there was no overlap between differentially expressed proteins between groups in one batch with those found between the same groups in another batch and, after batch correction, the differentially expressed proteins between the groups become the same between batches [@DOI:10.15252/msb.202110240]. 
+This applies generally datasets with large numbers (e.g., hundreds) of samples to allow for meaningful statistical comparisons [@DOI:10.15252/msb.202110240].
+
+### Statistical Analysis
+Once the above pre-processing steps have been applied to the dataset, we can investigate which proteins discriminate between groups. 
+There is an urgent need for biomarkers for disease prediction and there is large potential for protein based biomarker candidates [@DOI:10.1016/j.cels.2021.06.006]. 
+However, omics datasets are often limited due to having many more features than number of samples, which is termed the ‘curse of dimensionality’[@DOI:10.1016/j.jprot.2018.12.004]. 
+Attributes that are redundant or not informative can reduce the accuracy of a model [@DOI:10.1089/omi.2013.0017]. 
+
+Univariate statistical tests including t-tests and analysis of variance (ANOVA) provide p-values to allow ranking the importance of variables [@DOI:10.1016/j.jprot.2018.12.004]. 
+T-tests are used in pairwise comparisons, and ANOVA is used when there are multiple groups to ask whether any group is different from the rest. 
+After ANOVA, the Tukey’s posthoc test can reveal which pairwise differences are present among the multiple groups that were compared. 
+Wilcoxon rank-sum tests can be used if the data are still not normal after the above approaches and therefore violates the assumptions required for a t-test.
+Kruskal-Wallis test is the non-parametric version of ANOVA useful for three or more groups when assumptions of ANOVA are violated.  
+
+Data can be reduced using a feature selection method, which includes either feature subset selection, where irrelevant features are removed, or feature extraction, where there is a transformation that generates new, aggregated variables and do not lead to loss of information [@DOI:10.1016/j.jprot.2018.12.004]. 
+An example of a commonly used multivariate feature extraction method using proteomic data is principal component analysis (PCA) [@DOI:10.1016/j.jprot.2018.12.004]. 
+
+Proteomics data analyses commonly involve multiple testing, which can lead to false positives (i.e., a p-value will appear significant by chance) [@DOI:10.1002/pmic.202100103] and multiple testing correction should be applied to main the overall false positive rate at less than a specified cut-off [@DOI:10.1016/j.jprot.2018.12.004]. 
+Benjamini-Hochberg correction is less stringent than the Bonferroni correction, which leads to too many false negatives, and thus is a more commonly used multiple testing correction method [@DOI:10.1016/j.jprot.2018.12.004]. 
+
+Volcano plots allow visualization of differentially abundant proteins by displaying the negative log of the adjusted p-value as a function of the log fold change, a measure of effect size, for each protein. 
+Points with larger y axis values are more statistically significant and those further away from zero on the x axis have a larger fold change.  
+There are two methods for identifying differentially expressed proteins. 
+The first method involves a combined adjusted p-value cut-off (y axis) and fold change cut-off (x axis) to create a ‘square cut-off’[@DOI:10.1002/pmic.202100103]. 
+The second involves a non-linear cut-off, where a systematic error is added to all the standard deviations used in the t-tests [@DOI:10.1002/pmic.202100103]. 
+
+There are other statistical tests to consider for quantitative proteomics data. 
+Another popular statistical method in proteomics when dealing with high dimensional data is lasso linear regression, which removes regression coefficients from the model by applying a penalty parameter [@DOI:10.1016/j.euprot.2015.08.001]. 
+Bayesian models are an emerging technique for protein based biomarker discovery that are more powerful than standard t-tests [@DOI:10.1016/j.euprot.2015.08.001] and have outperformed linear models [@DOI:10.1016/j.euprot.2015.08.001; @DOI:10.1186/1471-2105-11-177]. 
+Bayesian models incorporate external information into the prior distribution; for example, knowledge of peptides that usually have more technical variability are assigned a less informative prior [@DOI:10.1016/j.euprot.2015.08.001]. 
+Prior to implementing machine learning (ML), one can start with the simpler models, such as linear regression or naïve Bayes [@DOI:10.1016/j.cels.2021.06.006].  
+
+### Machine Learning Tools 
+Despite ML methods being highly effective in finding signals in a high dimensional feature space to distinguish between classes [@DOI:10.1016/j.cels.2021.06.006], the application of ML to proteomic data analysis is still in its early stages [@DOI:10.1016/j.cels.2021.06.006] as only 2% of proteomics studies involve ML [@DOI:10.1016/j.xcrp.2022.101069]. 
+
+Supervised classification is the most common type of ML used for proteomic biomarker discovery, where an algorithm has been trained on variables to predict the class labels of unseen test data [@DOI:10.1089/omi.2013.0017]. 
+Supervised means the class labels, such as disease versus controls, is known [@DOI:10.1016/j.xcrp.2022.101069]. 
+Decision trees are common model choice due to their many advantages: variables are not assumed to be linearly related, models are able to rank more important variables on their own, and interactions between variables do not need to be pre-specified by the user [@DOI:10.1016/j.euprot.2015.08.001]. 
+There are three phases of model development and evaluation [@DOI: 10.1038/s41598-022-09954-8]. 
+In the first step, the dataset is split into training and testing splits, commonly 70% training and 30% testing. 
+Second, the model is constructed using only the training data, which is further subdivided into training and test sets. 
+During this process, an internal validation strategy, or cross-validation (CV), is employed [@DOI:10.1016/j.jprot.2018.12.004]. 
+Commonly used CV methods in proteomics are k-fold and leave-one-out cross-validation[@DOI:10.1016/j.jprot.2018.12.004]. 
+The final step is to evaluate the model on the testing set that was held-out in step one. 
+There should not be overlap between the training and testing data, and the testing data should only be evaluated once after all training has been completed. 
+The dataset used for training and testing should be representative of the population that is to be eventually tested. 
+If underrepresented groups are lacking from models during training, these models will not generalize to these populations [@DOI:10.3233/JAD-201318]. 
+Proteomic data and patient specific factors derived from the electronic health record (EHR) like age, race, and smoking status can be employed as inputs to a model [@DOI:10.1016/j.cels.2021.06.006]. 
+However, addition of EHR data may not be informative in some instances; in studying Alzheimer’s Disease, adding these patient specific variables were informative for non-Hispanic white participants, but not for African Americans [@DOI:10.3233/JAD-201318]. 
+
+A common mistake in proteomics ML studies is allowing the test data to leak into the feature selection step [@DOI:10.1021/acs.jproteome.2c00117; @DOI:10.1016/j.xcrp.2022.101069]. 
+It has been reported that 80% of ML studies on the gut microbiome performed feature selection using all the data, including test data [@DOI:10.1021/acs.jproteome.2c00117]. 
+Including the testing data in the feature selection step leads to development of an artificially inflated model [@DOI:10.1021/acs.jproteome.2c00117] that is overfit on the training data and performs poorly on new data [@DOI: 10.1016/j.cels.2021.06.006].  
+Feature selection should occur only on the training set and final model performance should be reported using the unseen testing set. 
+The number of samples should be ten times the number of features to make statistically valid comparisons, however this may not be possible in many cases [@DOI:10.1021/acs.jproteome.2c00117, @DOI:10.1038/nrc1322].  
+If a study is limited by its number of samples, one can perform classification without feature selection [@DOI:10.1016/j.xcrp.2022.101069, @DOI:10.1021/acs.jproteome.2c00117]. 
+
+Pitfalls also arise when a ML classifier is trained using an imbalanced dataset [@DOI:10.1038/s41598-022-09954-8]. 
+Proteomics biomarker studies commonly have imbalanced groups, where the number of samples in one group is drastically different from another group. 
+Most ML algorithms assume balanced number of samples per class and not accounting for these differences can lead to reduced performance and construction of a biased classifier [@DOI:10.1371/journal.pone.0271260]. 
+
+Care should be practiced when choosing an appropriate metric when dealing with imbalanced data. 
+A high accuracy may be meaningless in the case of imbalanced classification; the number of correction predictions will be high even with a blind guess for the majority class [@DOI:10.1093/jamia/ocac093]. 
+F1 score, Matthews correlation coefficient (MCC), and area under the precision recall curve (AUPR) are preferred metrics for imbalanced data classification [@DOI:10.1016/j.healun.2021.01.1160; @DOI:10.1371/journal.pone.0118432].  
+MCC, for example, is preferred since it is only high if the model predicts correctly on both the positive and negative classes [@DOI:10.1038/s41598-022-09954-8]. 
+Over- and under-sampling to equalize the number of samples in classes are potential methods to address class imbalance, but can be ineffective or even detrimental to the performance of the model [@DOI:10.1371/journal.pone.0271260]. 
+These sampling methods may lead to a poorly calibrated model that overestimates the probability of the minority class samples and reduce the model’s applicability to clinical practice [@DOI:10.1093/jamia/ocac093]. 
+
+
 
 
 
