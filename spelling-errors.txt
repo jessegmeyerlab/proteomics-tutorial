@@ -148,10 +148,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -161,9 +161,9 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
-Colorimetric
+colorimetric
 Colorimetry
 columbic
 Combinatorial
@@ -182,8 +182,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
-Cryo
+crosslinking
+cryo
 cryogels
 crystalized
 crystallizable
@@ -218,7 +218,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -234,11 +234,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -282,12 +282,12 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
 Enzymology
-Epitope
+epitope
 equilibration
 Equus
 ERLIC
@@ -298,7 +298,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -312,7 +312,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -334,10 +334,10 @@ FlyBase
 fo
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -359,7 +359,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -367,7 +367,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -436,7 +436,7 @@ hydroxyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 IEC
 IEF
@@ -504,7 +504,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 Köcher
 Koichi
@@ -561,7 +561,7 @@ Maltoside
 Mammalia
 Mangalore
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -575,7 +575,6 @@ MCAR
 MCC
 MCL
 MCODE
-mcp
 mDa
 mDIA
 mercaptoethanol
@@ -615,7 +614,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 mRNAs
@@ -659,7 +658,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 NormalyzerDE
 novo
 Novor
@@ -724,9 +723,9 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -736,12 +735,12 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -764,7 +763,7 @@ posttranslational
 PPI
 PPIs
 pre
-prefractionation
+Prefractionation
 preprocessing
 PRM
 Progenesis
@@ -780,7 +779,7 @@ ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-proteolysis
+Proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
@@ -808,9 +807,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
-QTOF
+QToF
 quadrupole
 quadrupoles
 Qual
@@ -830,7 +829,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 redundance
 refered
@@ -858,7 +857,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -989,7 +988,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-tris
+Tris
 Tritirachium
 Trp
 trypsin
@@ -1005,7 +1004,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1025,7 +1024,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
