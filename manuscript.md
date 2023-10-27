@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-27" />
   <meta name="citation_publication_date" content="2023-10-27" />
   <meta property="article:published_time" content="2023-10-27" />
-  <meta name="dc.modified" content="2023-10-27T22:56:33+00:00" />
-  <meta property="article:modified_time" content="2023-10-27T22:56:33+00:00" />
+  <meta name="dc.modified" content="2023-10-27T23:02:49+00:00" />
+  <meta property="article:modified_time" content="2023-10-27T23:02:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -133,9 +133,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7654ce8f96453157c829fad31068d528a873de81/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7654ce8f96453157c829fad31068d528a873de81/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7654ce8f96453157c829fad31068d528a873de81/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -157,9 +157,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7654ce8f96453157c829fad31068d528a873de81/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@1c4159e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1c4159ec02e0dd86eb23fab19355352c0f0a5813)
+from [jessegmeyerlab/proteomics-tutorial@7654ce8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7654ce8f96453157c829fad31068d528a873de81)
 on October 27, 2023.
 </em></small>
 
@@ -558,41 +558,45 @@ Of recent note, the development of AlphaFold, has enabled the high-accuracy thre
 
 ## Types of Experiments {.page_break_before}
 A wide range of questions are addressable with proteomics technology, which translates to a wide range of variations of proteomics workflows. 
-Sometimes identifying what proteins are present is desired, and sometimes the quantities of as many proteins as possible are desired. 
-Proteomics experiments can be both qualitative and quantitative. 
-The following sections give an overview of some common proteomics experiments.
+In some workflows, the identification of proteins in a given sample is desired. 
+For other experiments, the quantification of as many proteins as possible is essential for the success of the study. 
+Therefore, proteomic experiments can be both qualitative and quantitative. 
+The following sections give an overview of several common proteomics experiments.
 
 ### Protein abundance changes
-A common experiment is unbiased mapping of proteins along with detection of changes in their abundance across sample groups. 
+A common experiment is a discovery-based, unbiased mapping of proteins along with detection of changes in their abundance across sample groups. 
 This is achieved using methods such as label free quantification (LFQ) or tandem mass tags (TMT), which are described in more detail in subsequent sections. 
 In these experiments, data should be collected from at least three biological replicates of each condition to estimate the variance of measuring each protein. 
-Depending on the experiment design, different statistical tests are used to ask if there are changes in the measured protein abundances between groups. 
+Depending on the experiment design, different statistical tests are used to calculate changes in measured protein abundances between groups. 
 If there are only two groups, the quantities might be compared with a t-test or with a Wilcoxon signed-rank test. 
 The latter is a non-parametric version of the t-test. 
 If there are more than two sample groups, then often Analysis of Variance (ANOVA) is used instead. 
 With either testing scheme, the p-values from the first set of tests must be corrected for multiple tests. 
-A common method for p value correction is the Benjamini-Hochberg method [@DOI:10.1111/j.2517-6161.1995.tb02031.x]. 
+A common method for p-value correction is the Benjamini-Hochberg method [@DOI:10.1111/j.2517-6161.1995.tb02031.x]. 
 These types of experiments have revealed wide ranges of proteomic remodeling from various biological systems. 
 
 ### PTMs
-Proteins are modified after they are translated with various chemical groups, or even by proteolytic cleavage such as n-terminal methionine removal. 
+Proteins may become decorated with various chemical moieties during or after translation [@DOI:10.1042/BCJ20220251], or through proteolytic cleavage [@DOI:10.1016/j.cbpa.2009.07.026]. 
 There are several proteomics methods that are developed specific to each type of modification. 
 See also the section on Protein/Peptide Enrichment and Depletion.
 
 #### Phosphoproteomics
-Phosphoproteomics is the study of the phosphorylation of proteins. 
+Phosphoproteomics is the study of the phosphorylation of proteins, wherein a phosphate group is covalently attached to a protein side-chain (most commonly serine, threonine, or tyrosine). 
 Currently, there are two techniques that are useful for phosphoproteomics: mass spectrometry and western blotting. 
-A key challenge with phosphoproteomics is sensitivity; it is important to ensure that there is sufficient amount of protein before completing a phosphoproteomics project, typically at least 1 mg of total protein per sample. 
 After proteolysis of the proteome, phosphopeptides need to be enriched to be detected by mass spectrometry.
 Various methods of enrichment have been developed [@doi:10.1073/pnas.0609836104; @doi:10.1038/msb4100182; @doi:10.4049/jimmunol.176.5.2833; @doi:10.1126/scisignal.2000007].  
 See the Peptide/Protein Enrichment and Depletion section for more details.
-Despite advancement in technology of phosphoproteomics, the following challenges still exist: limited sample amounts, highly complex samples, and huge dynamic range [@doi:10.1016/j.copbio.2008.06.006]. 
+A key challenge of phosphoproteomics is sensitivity.
+It is important to ensure that there is sufficient amount of protein before completing a phosphoproteomics project as typical enrichment workflows may extract only ~1% of the proteome.
+Many phosphoproteomics workflows start with at least 1 mg of total protein per sample. 
+Newer, more sensitive instrumentation is enabling detection of protein phosphosites from much less material, down to the nanogram-level of peptide loading on the the LC-MS system.
+Despite advancement in technology throughput the phosphoproteomics workflow, the following challenges still exist: limited sample amounts, highly complex samples, and wide dynamic range [@doi:10.1016/j.copbio.2008.06.006]. 
 Additionally, phosphoproteomic analysis is often time-consuming and requires the use of expensive equipment such as enrichment kits.
 
 #### Glycoproteomics
 One PTM gaining interest due to its ubiquity and emerging functional roles is glycosylation. 
-Protein glycosylation sites can be N-linked glycosylation sites (asparagine-linked), O-linked glycosylation sites (serine/threonine-linked). 
-Understanding the function of protein glycosylation will help us understand numerous biological processes since this is a universal protein modification across all domains of life [@doi:10.1038/s43586-022-00128-4; @doi:10.1093/glycob/cww086; @doi:10.1016/j.cell.2006.08.019; @doi:10.1146/annurev-neuro-071714-034019].
+Protein glycosylation sites can be N-linked (asparagine-linked), O-linked (serine/threonine-linked). 
+Understanding the function of protein glycosylation will help us understand numerous biological processes since this is a universal protein modification across all domains of life, especially at the cell surface [@doi:10.1038/s43586-022-00128-4; @doi:10.1093/glycob/cww086; @doi:10.1016/j.cell.2006.08.019; @doi:10.1146/annurev-neuro-071714-034019].
 
 Studies of phosphorylation and glycosylation share several experimental pipeline steps including sample preparation. 
 Protein clean-up approaches for glycoproteomics may differ from other proteomics experiments because glycopeptides are more hydrophilic than most peptides. 
@@ -604,7 +608,7 @@ Mass spectrometry has improved over the past decade so that now more strategies 
 ### Structural techniques
 Several proteomics methods have been developed to reveal protein structure information for simple and complex systems.
 
-#### XL-MS (Cross-linking mass spectrometry)  
+#### Cross-linking mass spectrometry (XL-MS)  
 XL-MS is an emerging technology for the field of proteomics. 
 It can be used to determine changes in protein-protein interactions. 
 XL-MS covalently locks interacting proteins together to preserve interactions and proximity during MS analysis. 
