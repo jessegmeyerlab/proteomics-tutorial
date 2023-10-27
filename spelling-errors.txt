@@ -29,7 +29,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
@@ -75,7 +75,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -148,10 +148,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -163,7 +163,7 @@ Clostripain
 coli
 Collisional
 collisionally
-Colorimetric
+colorimetric
 Colorimetry
 columbic
 Combinatorial
@@ -182,7 +182,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 Cryo
 cryogels
 crystalized
@@ -203,7 +203,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -218,7 +218,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -238,7 +238,7 @@ dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -267,7 +267,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -281,7 +281,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enviroments
 enzymatically
@@ -311,7 +311,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 FC
 FCCS
 FCS
@@ -367,7 +367,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -380,7 +380,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -436,7 +436,7 @@ hydroxyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 IEC
 IEF
@@ -481,7 +481,7 @@ iProphet
 IRMPD
 iRT
 isocratic
-Isoelectric
+isoelectric
 isoform
 isoforms
 isogeneic
@@ -596,7 +596,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 micropipette
@@ -658,7 +658,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -724,8 +724,8 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-phosphopeptide
-phosphopeptides
+Phosphopeptide
+Phosphopeptides
 Phosphoprotein
 phosphoproteins
 phosphoproteome
@@ -736,7 +736,7 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -763,7 +763,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-Pre
+pre
 Prefractionation
 preprocessing
 PRM
@@ -782,7 +782,7 @@ proteoforms
 proteoglycans
 proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 Proteomic
@@ -808,7 +808,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
 QToF
 Quadrupole
@@ -966,7 +966,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -976,7 +976,7 @@ transcriptional
 transcriptome
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -988,10 +988,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
 Tryptic
 TryTrypDB
@@ -1005,7 +1005,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1017,7 +1017,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1025,7 +1025,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
