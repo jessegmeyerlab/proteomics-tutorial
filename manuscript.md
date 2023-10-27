@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-27" />
   <meta name="citation_publication_date" content="2023-10-27" />
   <meta property="article:published_time" content="2023-10-27" />
-  <meta name="dc.modified" content="2023-10-27T21:19:25+00:00" />
-  <meta property="article:modified_time" content="2023-10-27T21:19:25+00:00" />
+  <meta name="dc.modified" content="2023-10-27T21:42:07+00:00" />
+  <meta property="article:modified_time" content="2023-10-27T21:42:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -133,9 +133,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -157,9 +157,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@e0a10c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6)
+from [jessegmeyerlab/proteomics-tutorial@b1d749a](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b1d749a20fad149e93718eca4d39cabcd655ad91)
 on October 27, 2023.
 </em></small>
 
@@ -1104,7 +1104,7 @@ We direct readers to several reviews on glycopeptide enrichment strategies [@DOI
 ### Phosphoproteomics  
 Protein phosphorylation, a hallmark of protein regulation, dictates protein interactions, signaling, and cellular viability. 
 This post-translational modification (PTM) involves the installation of a negatively charged phosphate moiety (PO 4-) onto the hydroxyl side-chain of serine (Ser, S), threonine (Thr, T), and tyrosine (Tyr, Y), residues on target proteins. 
-Protein kinases catalyze the transfer of PO 4- group from ATP to the nucleophile (OH) group of serine, threonine, and tyrosine residues, while protein phosphatases catalyze the removal of PO 4 -. 
+Protein kinases catalyze the transfer of PO 4- group from ATP to the nucleophile (OH) group of serine, threonine, and tyrosine residues, while protein phosphatases catalyze the removal of PO4-. 
 Phosphorylation changes the charge of a protein, often altering protein conformation and therefore function [@PMID:26473910]. 
 Protein phosphorylation is one of the major PTMs that alters the stability, subcellular location, enzymatic activity complex formation, degradation of protein, and cell signaling of protein with a diverse role in cells [@PMID:31819260, @PMID:35227377]. 
 Phosphorylation can regulate almost all cellular processes, including metabolism, growth, division, differentiation, apoptosis, and signal transduction pathways [@PMID:28656226]. 
@@ -1166,8 +1166,8 @@ A novel phosphopeptide enrichment technique using sequential enrichment with mag
 •	Do not use milk as a blocking agent when western blotting for phosphorylation because milk contains the phosphoprotein casein and can lead to a higher background due to non-specific binding.  
 
 ### Antibody enrichments of modifications  
-Western blot analysis is used to detect the PTMs in a protein by using antibodies [@PMID:25059473]. 
-As an extension of this, pan-PTM antibodies have been used to isolate peptides bearing the PTM of interest [@PMID:8633009]. 
+Western blot analysis is used to detect the PTMs in a protein through the use of antibodies [@PMID:25059473]. 
+As an extension, pan-PTM antibodies have been used to isolate peptides bearing the PTM of interest [@PMID:8633009]. 
 One benefit of this approach is that peptides are less likely to experience non-specific binding than proteins [@PMID:19743430]. 
 Initially peptide immunoaffinity precipitation was developed to enrich for phosphotyrosine-containing peptides. 
 This protocol was initially designed to enrich for phosphotyrosine-containing peptides [@PMID:15592455]. 
@@ -1179,10 +1179,11 @@ Anti-O-GlcNAc monoclonal antibody enables enrichment from O-GlcNAcylated peptide
 These antibodies have high sensitivity and specificity toward O-GlcNAc-modified peptides and do not identify O-GalNAc or GlcNAc in extended glycans [@PMID:34678516].
 
 ### Abundant protein depletion (Blood samples)
-The range abundances of proteins in the blood/plasma proteome exceeds 10 orders of magnitude. 
-Due to this wide dynamic range, detection of proteins with medium and low abundance by proteomic analyses is difficult [@PMID:20677825]. 
-Identifying protein biomarkers from biological samples such as blood is often obstructed by proteins present at higher concentrations. 
-The removal of these high abundant proteins enables the detection of less abundant and unique proteins. 
+Many plasma proteomics studies involve the analysis of untreated, unenriched plasma (i.e., neat plasma) [@DOI:10.1021/acs.jproteome.7b00623; @DOI:10.1016/j.cels.2020.10.003].
+However, the abundance range of proteins in the blood/plasma proteome exceeds 10 orders of magnitude. 
+Due to this wide dynamic range, detection of proteins with medium and low abundance by proteomic analyses is difficult [@PMID:20677825], and identifying protein biomarkers from biological samples such as blood is often obstructed by proteins present at higher concentrations. 
+In fact, the top 14 most abundant proteins in human plasma constitute over 99% of the total protein mass.
+The removal of these high-abundant proteins enables the detection of less abundant and unique proteins. 
 The ability to deplete abundant proteins with specificity, reproducibility, and selectivity is extremely important in proteomic studies [@PMID:16052628].
 
 The following are some of the methods used for abundant protein depletion:  
@@ -1213,10 +1214,10 @@ It is extremely simple and cost-effective.
 However, it is less specific with a risk of protein loss, difficulty in protein resolubilization as well as time consuming [@PMID:31617391].
 
 #### New technologies: 
-Newer methods of highly abundant protein depletion are based on the interaction between polymers such as bacterial cellulose nanofibers [@PMID:30219335], cryogels [@PMID:30999704; @PMID:23668981] and nanomaterials [@DOI:10.1016/j.procbio.2010.07.007].  
+Newer methods of highly abundant protein depletion are based on the interaction between polymers such as bacterial cellulose nanofibers [@PMID:30219335], cryogels [@PMID:23668981], and nanomaterials [@DOI:10.1016/j.procbio.2010.07.007].  
 These techniques are highly specific, relatively cheap, and very stable. 
 They can also be reused since they have larger binding capacity and less cross-reactivity [@PMID:31617391].
-
+Protein enrichment/depletion strategies which make use of protein coronas [@DOI:10.1038/s41467-020-17033-7; @DOI:10.1101/2023.08.28.555225] or extracellular vesicle enrichment [@DOI:10.1101/2023.06.10.544439] are enabling researchers to probe deeper into the plasma, serum, lymph, and cerebrospinal fluid proteomes.
 
 
 ## Peptide Purification and Fractionation {.page_break_before}
