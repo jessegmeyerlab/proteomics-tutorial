@@ -44,6 +44,7 @@ Amrita
 analyte
 analyte’s
 analytes
+analzer
 Angströms
 ANOVA
 anthracyclines
@@ -75,7 +76,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -97,7 +98,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -149,10 +150,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -162,10 +163,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
-colorimetric
-colorimetry
+Colorimetric
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -184,8 +185,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
-cryo
+Crosslinking
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -200,7 +201,6 @@ cytometry
 Cytoscape
 cytotoxicity
 Daltonics
-Daltons
 Daly
 Daniem
 Dasom
@@ -236,7 +236,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
@@ -284,7 +284,7 @@ endopeptidase
 endoplasmic
 Enke
 Enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -339,7 +339,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -361,7 +361,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -378,7 +378,7 @@ glycobiology
 glycoforms
 glycolic
 glycopeptide
-Glycopeptides
+glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
@@ -438,7 +438,7 @@ hydroxyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 IEC
 IEF
@@ -484,7 +484,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -563,7 +563,7 @@ Maltoside
 Mammalia
 Mangalore
 Martín
-MartinMayta
+martinmayta
 Masson
 MassQC
 Mathieu
@@ -598,7 +598,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 micropipette
@@ -616,7 +616,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 mRNAs
@@ -660,7 +660,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -684,7 +684,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 Orbitraps
 organismal
 orignal
@@ -725,9 +725,9 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -737,7 +737,7 @@ phosphosite
 PhosphoSitePlus
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -749,6 +749,7 @@ pipelining
 PIQED
 PLA
 Plata
+platfroms
 pleiotropic
 plex
 plexDIA
@@ -764,7 +765,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-Pre
+pre
 Prefractionation
 preprocessing
 PRM
@@ -809,7 +810,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
 QTOF
 quadrupole
@@ -831,13 +832,13 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-Reactome
+REACTOME
 recombinase
 refered
 reflectron
-refseq
+RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
@@ -936,7 +937,6 @@ SVA
 SVD
 SYNAPT
 Synchrotron
-tage
 TALEN
 Tanaka
 TCA
@@ -959,7 +959,6 @@ timeframe
 timeframes
 TIMS
 timsTOF
-timsTOFs
 TiO
 TMIMS
 TMT
@@ -1005,7 +1004,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1026,7 +1025,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable

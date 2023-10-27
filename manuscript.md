@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-27" />
   <meta name="citation_publication_date" content="2023-10-27" />
   <meta property="article:published_time" content="2023-10-27" />
-  <meta name="dc.modified" content="2023-10-27T21:52:44+00:00" />
-  <meta property="article:modified_time" content="2023-10-27T21:52:44+00:00" />
+  <meta name="dc.modified" content="2023-10-27T22:56:33+00:00" />
+  <meta property="article:modified_time" content="2023-10-27T22:56:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -133,9 +133,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -157,9 +157,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1c4159ec02e0dd86eb23fab19355352c0f0a5813/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@158e48b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16)
+from [jessegmeyerlab/proteomics-tutorial@1c4159e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1c4159ec02e0dd86eb23fab19355352c0f0a5813)
 on October 27, 2023.
 </em></small>
 
@@ -987,14 +987,14 @@ Peptide labeling is followed by pooling the labelled samples, which undergo MS a
 As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor m/z value in an MS1 scan and identical retention time of liquid chromatography analysis. 
 The modified parent ions undergo fragmentation during MS/MS analysis generating two kinds of fragment ions: (a) reporter ions and (b) peptide fragment ions. 
 Each reporter ions’ relative intensity is directly proportional to the peptide abundance in each of the starting samples that were pooled. 
-As usual, the b- and y-type fragment ion peaks are still used to identify amino acid sequences of peptides, from which proteins can be inferred. 
+As usual, b- and y-type fragment ion peaks are still used to identify amino acid sequences of peptides, from which proteins can be inferred. 
 Since it is possible to label most tryptic peptides with an isobaric mass tag at least at the N-termini, numerous peptides from the same protein can be detected and quantified, thus leading to an increase in the confidence in both protein identification and quantification [@PMID:25337643, @DOI:10.1146/annurev-biodatasci-080917-013516]. 
 
 Because the size of the reporter ions is small and sometimes the mass difference between reporter ions is small (i.e., a ~6 mDa difference when using 13C versus 15N), these methods neary exclusively employ high-resolution mass analyzers, not classical ion traps [@PMID:26584918]. 
 There are examples, however, of using isobaric tags with pulsed q dissociation on linear ion traps (LTQs) [@PMID:22397766]. 
-Suitable instruments are the Thermo Q-Exactive, Exploris, Tribrid, and Astral lines, or TOFs such as the TripleTOF or timsTOFs [@DOI:10.1038/s41467-022-34919-w; @PMID:30967486]. 
+Suitable instruments are the Thermo Q-Exactive, Exploris, Tribrid, and Astral lines, or Q-TOFs such as the TripleTOF or timsTOF platforms [@DOI:10.1038/s41467-022-34919-w; @PMID:30967486]. 
 
-![**Example chemical structure of isobaric tage "Tandem Mass Tags (TMT)".**
+![**Example chemical structure of isobaric tags "Tandem Mass Tags (TMT)".**
 ](images/TMT.png){#fig:DIA-types tag="4" width="100%"}
 
 The following are some of the isobaric labeling techniques:
@@ -1002,9 +1002,9 @@ The following are some of the isobaric labeling techniques:
 #### isobaric Tags for Relative and Absolute Quantitation (iTRAQ)
 The iTRAQ tagging method covalently labels the peptide N-terminus and side-chain primary amines with tags of different masses through the NHS-ester bond. 
 This is followed by mass spectrometry analysis [@PMID:15385600]. 
-Reporter ions for an 8plex iTRAQ are measured at roughly 113, 114, 115, 116, 117, 118, 119, and 121 Daltons. 
+Reporter ions for an 8-plex iTRAQ are measured at roughly 113, 114, 115, 116, 117, 118, 119, and 121 m/z. 
 Currently, two kinds of iTRAQ reagents are available: 4-plex and 8-plex [@DOI:10.1007/978-1-4939-3106-4_18]. 
-Using 4-plex reagents, a maximum of four different biological conditions can be analyzed simultaneously, whereas using 8plex reagents, eight different biological conditions can be analysed [@PMID:20593797; @PMID:22594965].
+Using 4-plex reagents, a maximum of four different biological conditions can be analyzed simultaneously (i.e., multiplexed), whereas using 8-plex reagents enables the simultaneous analysis of eight different biological conditions [@PMID:20593797; @PMID:22594965].
 
 #### iTRAQ hydrazide (iTRAQH)
 iTRAQH is an isobaric tagging reagent for the selective labeling and relative quantification of carbonyl (CO) groups in proteins [@PMID:22926130]. 
@@ -1017,14 +1017,18 @@ Thus, there is no need for enriching modified peptides before LC-MS/MS analysis.
 
 #### Tandem Mass Tag (TMT)
 TMT labeling is based on a similar principle as that of iTRAQ. 
-In the case of 6-plex-TMT, the masses of reporter groups are roughly 126, 127, 128, 129, 130, and 131 Thompsons [@PMID:26584918]. 
-TMT works best with MS which allow quantitation at MS3-level with higher accuracy (e.g.: Thermo-Fisher’s Orbitrap Tribrid instruments) [@PMID:25337643; @DOI:10.1021/acs.analchem.3c01155] by limiting the ratio distortion of co-isolated precursors within isobaric multiplexed quantitative proteomics [@PMID:21963607; @DOI:10.1021/ac502040v].
-Infrared photoactivation of co-isolated TMT fragment ions generates more quantitative reporter ion generation and sensitivity relative to standard beam-type collisional activation [@DOI:10.1021/acs.analchem.1c05398] 
+In the case of 6-plex-TMT, the masses of reporter groups are roughly 126, 127, 128, 129, 130, and 131 Da [@PMID:26584918]. 
+TMT works best with MS platforms which allow quantitation at the MS3 level (e.g., Thermo Fisher Orbitrap Tribrid instruments) [@PMID:25337643; @DOI:10.1021/acs.analchem.3c01155]. 
+In experiments performed on Q-Orbitrap or Q-TOF platforms, MS2-based sequence identification (via b- and y-type ions) and quantitation (via low m/z reporter ion intensities) is performed.
+In experiments performed on Q-Orbitrap-LIT platfroms, MS3-based quantitation can be performed wherein the top ~10 most abundant b- and y-type ions are synchronously co-isolated in the linear ion trap and fragmented once more before product ions are scanned out in the Orbitrap mass analzer.
+Adding an additional layer of gas-phase purification limits the ratio distortion of co-isolated precursors within isobaric multiplexed quantitative proteomics [@PMID:21963607; @DOI:10.1021/ac502040v].
+Infrared photoactivation of co-isolated TMT fragment ions generates more quantitative reporter ion generation and sensitivity relative to standard beam-type collisional activation [@DOI:10.1021/acs.analchem.1c05398].
+High-field asymmetric waveform spectrometry (FAIMS) also aids the accuracy of TMT-based quantitation on Tribrid systems [@DOI:https://doi.org/10.1021/acs.analchem.8b05399].
 TMT is widely used for quantitative protein biomarker discovery. 
 In addition, TMT labeling technique helps multiplex sample analysis enabling efficient use of instrument time. 
 TMT labelling also controls for technical variation because after samples are mixed the ratios are locked in, and any sample loss would be equal across channels. 
-A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT six plex, TMT 10-plex, and TMT 11-plex are available along with the recent addition of TMT 16-plex [@DOI:10.1021/acs.analchem.9b04474] and now TMT 18-plex [@DOI:10.1021/acs.jproteome.1c00168]. 
-These TMT reagents have a similar chemical structure, which allows the efficient transition from method development to multiplex quantification [@PMID:30967486].
+A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT 6-plex, TMT 10-plex, and TMT 11-plex. The recent addition of TMTpro tags, slight adaptations of the TMT structure based on proline, allow for higher plexing with TMTpro 16-plex [@DOI:10.1021/acs.analchem.9b04474] and now TMTpro 18-plex [@DOI:10.1021/acs.jproteome.1c00168]. 
+These TMT reagents have a similar chemical structure, which allows the efficient transition from method development to multiplexed peptide quantification [@PMID:30967486].
 
 #### iodoTMT
 IodoTMT reagents are isobaric reagents used for tagging cysteine residues of peptides. 
@@ -1048,8 +1052,8 @@ The N,N-Dimethyl leucine, also referred to as DiLeu, is an tandem mass tag reage
 Each incorporated label produces a 145.1 Da mass shift. 
 A maximum of four samples can be simultaneously analyzed using DiLeu at a highly reduced cost. 
 MS/MS analysis shows intense reporter ions i.e., dimethylated leucine a1 ions at 115, 116, 117, and 118 m/z. 
-The DiLeu tag labeling efficiency is similar to that of the iTRAQ. 
-Although, DiLeu-labeled peptides offer increased confidence for identification of peptides and more reliable quantification as they undergo better fragmentation thus generating higher reporter ion intensities [@PMID:20218596].
+The labeling efficiency of DiLeu tags are similar to that of the iTRAQ tags. 
+Although, DiLeu-labeled peptides offer increased confidence of identification of peptides and more reliable quantification as they undergo better fragmentation, generating higher reporter ion intensities [@PMID:20218596].
 
 #### Deuterium isobaric Amine Reactive Tag (DiART)
 DiART is an isobaric tagging method used in quantitative proteomics [@PMID:22404494; @PMID:20715779]. 
@@ -1061,8 +1065,8 @@ DiART serves as a cheaper alternative to TMT and iTRAQ while also having a compa
 It has been observed that these tags are useful in labeling huge protein quantities from cell lysates before TiO2 enrichment in quantitative phosphoproteomics studies [@PMID:24129742].
 
 #### Hyperplexing or higher-order multiplexing
-Some studies have combined metabolic labels (i.e., SILAC) with chemical tags (i.e., iTRAQ or TMT) to expand the multiplexing capacity of proteomics experiments referred to as hyperplexing [@PMID:22457332; @PMCID:PMC5292868; @DOI:10.1126/scisignal.2002548] or higher order multiplexing [@PMID:31074990; @PMID:32455206; @PMID:36854207]. 
-This technique combines MS1 and MS2-based quantitative methods to achieve enhanced multiplexing by multiplying the channels used in each dimension. 
+Some studies have combined metabolic labels (i.e., SILAC) with chemical tags (i.e., iTRAQ or TMT) to expand the multiplexing capacity of proteomics experiments referred to as hyperplexing [@DOI:10.1126/scisignal.2002548; @DOI:10.1021/acs.analchem.3c00906] or higher order multiplexing [@PMID:31074990; @PMID:32455206; @PMID:36854207]. 
+This technique combines MS1- and MS2-based quantitative methods to achieve enhanced multiplexing by multiplying the channels used in each dimension. 
 This allows for the quantitation of proteomes across multiple samples in a single MS run. 
 The technique uses two types of mass encoding to label different biological samples. 
 The labeled samples are then mixed together, which increases the MS1 peptide signal. 
