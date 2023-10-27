@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-27" />
   <meta name="citation_publication_date" content="2023-10-27" />
   <meta property="article:published_time" content="2023-10-27" />
-  <meta name="dc.modified" content="2023-10-27T21:15:39+00:00" />
-  <meta property="article:modified_time" content="2023-10-27T21:15:39+00:00" />
+  <meta name="dc.modified" content="2023-10-27T21:19:25+00:00" />
+  <meta property="article:modified_time" content="2023-10-27T21:19:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -133,9 +133,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d1d4f9366ec30517532fcba1db654a10ca827e02/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d1d4f9366ec30517532fcba1db654a10ca827e02/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d1d4f9366ec30517532fcba1db654a10ca827e02/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -157,9 +157,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d1d4f9366ec30517532fcba1db654a10ca827e02/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@d1d4f93](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d1d4f9366ec30517532fcba1db654a10ca827e02)
+from [jessegmeyerlab/proteomics-tutorial@e0a10c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e0a10c44dc2f0bc5c926778d3f8deceaa4e68ec6)
 on October 27, 2023.
 </em></small>
 
@@ -1896,6 +1896,7 @@ The most popular of these alternative dissociation methods are electron-based di
 In both of these, peptide cations capture thermal electrons (ECD [@DOI:10.1021/ja973478k]) or abstract an electron from a reagent anion (ETD [@DOI:10.1073/pnas.0402700101]) to generate radical-driven dissociation of the N-Ca bond that predominantly generates sequence-informative c- and z-type product ions (**Figure 14C**).
 The mechanisms of ExD methods have been widely explored [@DOI:10.1021/ja8019005; @DOI:10.1016/j.jasms.2004.11.001], and the preferential cleavage of N-Ca bonds along the peptide backbone have been particularly useful for PTM-modified species because the modifications remain largely intact even during peptide backbone bond fragmentation.
 ExD methods have shown promise for analysis of numerous PTMs, including phosphorylation, glycosylation, ADP-ribosylation, and more [@DOI:10.1021/acs.analchem.7b04810; @DOI:10.1002/mas.21560].
+Electron-based dissociation is also more suitable than collision-based dissociation for MS analyses of intact proteins [@DOI:https://doi.org/10.1021/ja011335z; @DOI:https://doi.org/10.1021/acs.analchem.5b00162] and larger oligonucleotides [@DOI:10.1002/mas.21442; @DOI:10.1021/acs.analchem.9b05388; @DOI:10.1021/jacs.1c10757; @DOI:10.1002/ange.201206232; @DOI:10.1021/acs.analchem.2c03030; @DOI:10.1021/acs.bioconjchem.3c00254]
 
 Two fundamental challenges exist with ExD methods.
 First, ExD implementation requires instruments that can manipulate cations and anions (or free electrons) within the same scan sequence and can trap both simultaneously for electron capture/transfer events to occur.
