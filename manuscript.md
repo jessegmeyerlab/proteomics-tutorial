@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-27" />
   <meta name="citation_publication_date" content="2023-10-27" />
   <meta property="article:published_time" content="2023-10-27" />
-  <meta name="dc.modified" content="2023-10-27T21:42:07+00:00" />
-  <meta property="article:modified_time" content="2023-10-27T21:42:07+00:00" />
+  <meta name="dc.modified" content="2023-10-27T21:52:44+00:00" />
+  <meta property="article:modified_time" content="2023-10-27T21:52:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -133,9 +133,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -157,9 +157,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b1d749a20fad149e93718eca4d39cabcd655ad91/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b1d749a](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b1d749a20fad149e93718eca4d39cabcd655ad91)
+from [jessegmeyerlab/proteomics-tutorial@158e48b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/158e48b14ea85fd74b15e09a8f8fa1bbdf5a9a16)
 on October 27, 2023.
 </em></small>
 
@@ -1473,9 +1473,9 @@ Typical bottom-up proteomics experiments make use of acidic analyte solutions wh
 ## Types of Mass Spectrometers used for Proteomics {.page_break_before}
 ### Mass spectrometry
 Mass spectrometry is a science of ions; it serves as a sophisticated instrument for determining the masses of compounds and elements. 
-It can be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lower. 
+It can be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lighter. 
 Since J.J. Thomson's initial exploration in 1912, the field of mass spectrometry has undergone numerous improvements, spanning from isotope assessment to the interpretation of biomacromolecules [@DOI:10.1021/ac8013065], all thanks to the combined efforts of diverse fields like chemistry, physics, electronic engineering, and computer science. 
-Nowadays, with the rapid improvement of sensitivity, mass resolution, tandem mass spectrometry methods and dissociation methods, mass spectrometers have evolved as a core tool for proteomics (and metabolomic) analysis.
+Nowadays, with the rapid improvement of sensitivity, mass resolution, tandem mass spectrometry methods and ion dissociation methods, mass spectrometers have evolved as a core tool for proteomic (and metabolomic) analysis.
 It is precisely the widespread application of mass spectrometry in proteomics analysis that has given rise to more instrument manufacturers and a greater diversity of mass spectrometer types. 
 This also brings a happy annoyance to many beginners or researchers in other fields who have no background in mass spectrometry: which manufacturer and which type of mass spectrometry should I choose to analyze my samples? 
 Here, to help new learners build a basic understanding faster, we will briefly introduce some basic concepts, common types of mass spectrometers, and their suitable application scenarios. 
@@ -1484,34 +1484,38 @@ Here, to help new learners build a basic understanding faster, we will briefly i
 The fundamental principle of mass spectrometry revolves around specific physical processes that can be described by various mathematical formulas. 
 Since this article serves as a guide for those new to the field, particularly those from a biology background, we've chosen to steer clear of delving too deeply into intricate mathematical and physical explanations. 
 However, for those keen on a deeper understanding, we've included references pertaining to these foundational principles. 
-In this piece, our focus lies on introducing fundamental concepts and outlining the typical workflow in mass spectrometry.
+Our focus lies on introducing fundamental concepts and outlining the typical workflow in mass spectrometry.
 
-The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge ratio (m/z), and then detect them by their respective m/z and abundance. 
+The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge (m/z) ratio, and then detect them by their respective m/z and abundance. 
 The successful implementation and demonstration of this process requires participation of five fundamental systems (**Figure 8**):
 
 #### 1)	The ion source.
-This is where gas phase ions are generated.
+The ion source is where gas phase ions are generated.
 Common methods of ionization in mass spectrometry includes electrospray ionization (ESI), matrix assisted laser desorption ionization (MALDI), atmospheric pressure chemical ionization (APCI), electron ionization (EI) and chemical ionization (CI) [@DOI:10.1016/j.aca.2015.07.012; @DOI:10.1080/05704928.2014.954046].
-For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter and no more redundance here.
+For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter in more detail.
 
 #### 2)	The mass analyzer.
-This is where gas phase ions are separated according to their mass-to-charge ratio (m/z) based on physics principles.
-There are several types of mass analyzers applied in mass spectrometry, such as time-of-flight (TOF), quadrupole, ion trap, orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), and magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 10.1).
+The mass analyzer is where gas phase ions are separated according to their m/z ratio based on physics principles.
+There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, Orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 12.1).
 For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
-Mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
+The mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
 
 #### 3)	The detector.
-This is where separated ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
-Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with their strengths and limitations, are illustrated in Table 10.2.
+The detector is where ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
+Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with a summary of their strengths and limitations, are illustrated in Table 12.2.
 It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
-Instead, they detect ions in a fundamentally different way by detecting image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
+Instead, these analyzers detect an image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
 In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.
 This signal is then processed to extract the frequencies of oscillation and Fourier-transformed into a mass spectrum, which is quite different from other types of detectors that count individual ions or particles striking a surface.
+Longer transients generate higher resolution spectra.
 
 #### 4)	The vacuum system.
-This is designed to maintain a vacuum environment for ions’ movement inside the instrument, consists of different type of pumps including rough vacuum pumps (rotary vane pumps, scroll pumps) and high vacuum pumps (turbo molecular pumps, diffusion pumps).
-The reason for maintaining a high vacuum is to reduce the collision between ions and gas molecules during their travel, which can affect their trajectory.
-FT-ICR and Orbitrap instruments usually require higher vacuum in the 10-9 to 10-11 Torr level, while TOFs require medium vacuum in the 10-7  to 10-8 Torr range, and Quadrupole and Ion trap type insturment require a relatively lower vacuum in the 10-5  to 10-6 Torr range. 
+This is designed to maintain a high-vacuum environment for ions’ transmission inside the instrument. 
+The vacuum system consists of different type of pumps including roughing vacuum pumps (rotary vane pumps, scroll pumps) and high-vacuum pumps (turbo molecular pumps, diffusion pumps).
+Maintaining a high vacuum is essential to reduce collisions between analyte ions and inert gas molecules during their transmission from one region of the mass spectrometer to another, or during oscillations within a mass analyzer.
+Collisions within the vacuum chamber may lead to unstable ion trajectories and poorer transmission efficiency, in turn leading to lower resolving powers and poorer sensitivities.
+Even so, some inert gas is intentionally plumbed into the mass spectrometer either for collisional activated dissociation (CAD), typically with nitrogen, helium, or argon, or to dampen ions' energy so that they don't fly out of the back of the instrument.
+FT-ICR and Orbitrap mass analyzers require higher vacuum in the 10-9 to 10-11 Torr range, while TOFs require medium vacuum in the 10-7 to 10-8 Torr range, and quadrupole and ion trap insturments require a relatively low vacuum in the 10-5 to 10-6 Torr range. 
 
 #### 5)	The control system.
 This is needed to regulate and coordinate the various parts of the mass spectrometer to ensure seamless functioning.
@@ -1546,11 +1550,11 @@ This naming convention stems from the fact that the mass analyzer forms the core
 These performance metrics, in turn, determine what type of analysis we can conduct, its speed and its accuracy. 
 Next, we will focus on introducing several classic tandem mass spectrometry types commonly used in proteomics.
 
-### 1. Triple quadrupole (QQQ).
-Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS), as suggested by the name, is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 9**). 
+### 1. Triple quadrupole (QqQ).
+Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS) is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 9**). 
 Each quadrupole is essentially a set of four parallel metal rods to which radio frequency (RF) and direct current (DC) voltages are applied to each opposing pair of rods. 
-The QqQ operates in a synchronized manner to isolate ions of interest (according to the Mathieu function), induce fragmentation, and then detect the resulting fragment ions. 
-Specifically, the first quadrupole (Q1) is a mass filter, where ions of a specific mass-to-charge ratio (m/z) are selected from the incoming ion beam. 
+The QqQ operates in a synchronized manner to isolate ions of interest (according to the Mathieu function) in the first quadrupole, induce fragmentation with inert gas in the second, and then detect the resulting product ions in the third quadrupole. 
+Specifically, the first quadrupole (Q1) is a mass filter, where ions of a specific m/z are selected from the incoming ion beam. 
 This is achieved by adjusting the voltage applied to the pair rods within the quadrupole, allowing ions with a particular m/z value to pass through while deflecting others. 
 The second quadrupole (Q2), also known as the collision cell, is where selected ions from Q1 are fragmented into product ions. 
 This fragmentation happens due to the collisions between inert gas molecules (nitrogen, argon, or helium) and ions, which causes the ions to break up (fragment) into smaller pieces (fragment ions). 
@@ -1561,6 +1565,7 @@ In some tandem mass spectrometry, hexapoles or octupoles are also used to replac
 Lastly, the third quadrupole (Q3) acts as a secondary mass filter, similar to Q1, but with the purpose of selecting specific fragment ions produced in the collision cell while excluding other ions. 
 The chosen ions are then directed to the detector, where their abundance is measured (**Figure 9**). 
 This process, involving precursor ion selection, precursor ion fragmentation, and product ion detection, is a general operating principle in tandem mass spectrometry and determines what kind of scan mode you can utilize.
+While discovery-based proteomics approaches can be performed on triple-quadrupole systems, selected ion monitoring (SRM), also refered to as multiple reaction monitoring (MRM) has contirbuted to their popularity.
 A key characteristic and advantage of QqQ is the flexibility of choosing various scan modes [@DOI:10.1021/ac00219a003; @DOI:10.1002/jms.703;@DOI:10.1021/ac00106a008], such as the following.
 
 #### 1. Product Ion Scan: 
@@ -1788,7 +1793,7 @@ However, this inevitably increases ion diffusion and ion losses unless ion focus
 Continual advancements in DTIMS design and application of ion focusing techniques further pushed the mobility resolution of same DTIMS platforms to 100 to 250 (t/Δt) range or even greater. 
 
 #### 10.5.2 High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS)
-   High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS) represents a distinct version of spatially dispersive ion mobility spectrometry (IMS). 
+High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS) represents a distinct version of spatially dispersive ion mobility spectrometry. 
 This technique differentiates ions utilizing a pronounced asymmetric oscillating electric field combined with a moving gas.
 The principle of FAIMS is based on the different trajectories of ions as they move through a high asymmetric electric field, which are determined by their physical structure and charge states [@DOI:10.1586/epr.12.50; @DOI:10.1021/acs.analchem.0c00649;@DOI:10.1021/acs.analchem.8b02233]. 
 In FAIMS, gas-phase ions are carried by a flow of carrier gas between two electrodes in a direction orthogonal to the direction of asymmetric electric field (E). 
@@ -1800,13 +1805,13 @@ To differentiate between ions, a so-called "compensation voltage" (CV), which is
 In this case, only ions with a specific response to the changing electric field and those that match the applied compensation voltage (CV) will have a zero net movement and are able to traverse the drift region to the detector, while others hit the electrode plate and be neutralized. 
 By scanning or modulating the CV, different ion species can be selectively transmitted through the FAIMS device. 
 In contrast to drift tube IMS in which the ion stream is sampled in discrete packets and all ions reach the detector, FAIMS is a continuous filtration technique that allows uninterrupted sampling of the ion stream, but only for a selected subset of the ion population. 
-One of the good advantages of this continuous collection technique is greatly increase the signal-to-noise ratio for the ion(s) of interest by removing unwanted chemical noise, which make FAIMS more like a mass filter rather than ion mobility spectrometry. 
-The drawback of FAIMS is it cannot produce any CCS value and its low resolving power. 
-Commercial FAIMS products from vendors including Thermo Fisher and WATERS are available now.
+One of the primary advantages of this continuous collection technique is greatly increase the signal-to-noise ratio for the ion(s) of interest by removing unwanted chemical noise, which make FAIMS more similar to a m/z filter than other ion mobility spectrometry tools. 
+Drawbacks of FAIMS are that it does not produce any CCS values and it has relatively low resolution separations. 
+Commercial FAIMS products from vendors including Thermo Fisher and Waters are available now.
 
 
 #### 10.5.3 Trapped ion mobility spectrometry (TIMS)
-Trapped ion mobility spectrometry (TIMS) is a typical type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
+Trapped ion mobility spectrometry (TIMS) is a common type of ion mobility which uses ion refinement and release strategy [@DOI:10.1016/j.ijms.2018.01.006]. 
 The basic idea behind TIMS is a combination of traditional ion mobility spectrometry and ion trapping techniques. 
 Instead of driving ions through a drift tube filled with stationary gas, TIMS holds the ions stationary in a drift cell under a moving buffer gas and then releases them by adjusting electric fields (voltages on electrodes). 
 This process was realized by applying two different electric fields: 
@@ -1828,10 +1833,10 @@ This is particularly meaningful for identifying more peptides within a given tim
 Currently, Bruker is the primary provider of commercial mass spectrometers that utilize TIMS-tof technology. (TIMS-tof pro, TIMS-tof pro2, SCP.  etc.). 
 
 #### 10.5.4 Structures for Lossless Ion Manipulation (SLIM)
-A final type of ion mobility invented by Richard Smith and team at Pacific Northwest National Labs is called SLIM [@DOI:10.1021/ac502054p]. 
-This technology uses printed circuit boards to confine ions in long path lengths for high resolution ion mobility.
-Ions can be passed through the board multiple times to achieve over 1 km of pathlength for IMS separation [@DOI:10.1021/acs.analchem.7b00185].
-This technology is currently under commercial development by Mobilion known as Mobie [@DOI:10.1021/jasms.0c00434].
+A final type of ion mobility spectrometry discussed here is Structures for Lossless Ion Manipulation (SLIM), invented by Richard Smith and colleagues at Pacific Northwest National Labs [@DOI:10.1021/ac502054p]. 
+SLIM uses printed circuit boards to confine ions in long path lengths for high resolution ion mobility.
+Ions can be passed through the board multiple times to achieve path lengths of several meters to over 1 km for high-resolution IMS separation [@DOI:10.1021/acs.analchem.7b00185; @DOI:10.1021/acs.analchem.7b00185].
+This technology is currently under commercial development by Mobilion, in a platform named "Mobie" [@DOI:10.1021/jasms.0c00434].
 
 
 
