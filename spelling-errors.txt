@@ -75,7 +75,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -97,7 +97,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -163,7 +163,7 @@ Clostripain
 coli
 Collisional
 collisionally
-colorimetric
+Colorimetric
 Colorimetry
 columbic
 Combinatorial
@@ -183,7 +183,7 @@ crosslinked
 crosslinker
 crosslinkers
 crosslinking
-cryo
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -282,7 +282,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -311,7 +311,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
+fasta
 FC
 FCCS
 FCS
@@ -334,7 +334,7 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -359,7 +359,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -380,7 +380,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -504,7 +504,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 Köcher
 Koichi
@@ -614,7 +614,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 mRNAs
@@ -646,7 +646,7 @@ NanoOrange
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -682,7 +682,7 @@ OMSSA
 onotology
 OpenMS
 operon
-Orbitrap
+orbitrap
 orbitraps
 organismal
 orignal
@@ -710,6 +710,7 @@ Peptidyl
 pepXML
 permeabilization
 peroxidase
+petersclarke
 PEV
 PGC
 pharmacologically
@@ -723,7 +724,7 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-Phosphopeptide
+phosphopeptide
 phosphopeptides
 Phosphoprotein
 phosphoproteins
@@ -740,7 +741,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -762,7 +763,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-pre
+Pre
 Prefractionation
 preprocessing
 PRM
@@ -779,9 +780,9 @@ ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
-proteome
+Proteome
 ProteomeDiscoverer
 proteomes
 Proteomic
@@ -810,7 +811,7 @@ QqLIT
 QqQ
 qRT
 QToF
-quadrupole
+Quadrupole
 quadrupoles
 Qual
 quantile
@@ -829,7 +830,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-Reactome
+REACTOME
 recombinase
 redundance
 refered
@@ -857,7 +858,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -975,7 +976,7 @@ transcriptional
 transcriptome
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -990,9 +991,9 @@ trifluoroethanol
 TripleTOF
 Tris
 Tritirachium
-Trp
+TRP
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1004,7 +1005,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 uDIA
 ug
 Ulilysin
