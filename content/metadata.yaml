@@ -86,11 +86,12 @@ authors:
     affiliations:
       - Department of Chemistry, University of Manitoba, Winnipeg, Cananda
   
-  - name: Trenton M. Peters-Clarke
+  - github: petersclarke
+    name: Trenton M. Peters-Clarke
     initials: TMPC
     orcid: 0000-0002-9153-2525
     twitter: trentmpc
-    email: trentmpc@gmail.com
+    email: trenton.petersclarke@ucsf.edu
     affiliations:
      - Department of Pharmaceutical Chemistry, University of California-San Francisco
 
