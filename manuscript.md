@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-30" />
   <meta name="citation_publication_date" content="2023-10-30" />
   <meta property="article:published_time" content="2023-10-30" />
-  <meta name="dc.modified" content="2023-10-30T20:52:14+00:00" />
-  <meta property="article:modified_time" content="2023-10-30T20:52:14+00:00" />
+  <meta name="dc.modified" content="2023-10-30T20:53:51+00:00" />
+  <meta property="article:modified_time" content="2023-10-30T20:53:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/069fb7f5e16cead43b547074273c7e90764453e8/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/069fb7f5e16cead43b547074273c7e90764453e8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/069fb7f5e16cead43b547074273c7e90764453e8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/069fb7f5e16cead43b547074273c7e90764453e8/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@069fb7f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/069fb7f5e16cead43b547074273c7e90764453e8)
+from [jessegmeyerlab/proteomics-tutorial@6f48aa7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6f48aa724ca6e8dad0acdeb23fc93016cd0974df)
 on October 30, 2023.
 </em></small>
 
@@ -720,11 +720,11 @@ For more information on BioID, please refer to [@doi:10.1007/978-1-4939-8814-3_1
 ## Protein Extraction {.page_break_before}
 
 Protein extraction from the sample of interest is the initial phase of any mass spectrometry-based proteomics experiment. 
-Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, PTM enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments) long term project goals (reproducibility, multiple sample types, low abundance samples) as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or immune or affinity enrichment of a specific classes of modifications.) 
+Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, PTM enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments), long term project goals (reproducibility, multiple sample types, low abundance samples), as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or affinity enrichment of specific classes of modifications.) 
 The 2009 version of Methods in Enzymology: guide to Protein Purification [@isbn:978-0-12-374536-1] serves as a deep dive into how molecular biologists and biochemists traditionally carried out protein extraction. 
 The Protein Protocols handbook [@isbn:978-1-59745-198-7] and the excellent review by Linn [@PMID:19892162] are good sources of general proteomics protocols.
 Any change in extraction conditions should be expected to create potential changes in downstream results. 
-Be sure to plan and optimize the protein extraction step first and stick with a protocol that works for your needs. 
+Be sure to plan and optimize the protein extraction step first and use a protocol that works for your needs. 
 To reproduce the results of another study, one should begin with the same extraction protocols. 
 
 ### Buffer choice 
@@ -736,7 +736,11 @@ For global proteomics experiments where maximizing the number of protein or pept
 Often other salts like 50-150 mM NaCl are also added. 
 Complete denaturation of the proteins in the sample in a timely fashion is an advantage as it generally prevents changes to protein status by endogenous proteases, kinases, phosphotases, and other enzymes.
 If intact protein separations are planned (based on size or isoelectric point), choose a denaturant compatible with those methods, such as SDS [@PMID:31249407]. 
-Compatibility with protease (typically trypsin) and peptide cleanup steps will need to be considered. 
+Compatibility with the protease (typically trypsin) and peptide cleanup steps will need to be considered. 
+Of note, detergents can be incompatible with LC-MS workflows as they can cause ion suppression and column clogging. 
+It is therefore advisable to remove detergents using detergent-removal kits or precipitation techniques (i.e. deoxycholate precipitates at low pH and can easily be removed by filtration or centrifugation). 
+For more information, see section "Removal of buffer/interfering small molecules". 
+Alternatively, mass-specrtrometry-compatible detergents may be used (i.e. n-dodecyl-beta-maltoside). 
 8 M urea must be diluted to 2 M or less for trypsin and chymotrypsin digestions, while guanidine and SDS should be removed either through protein precipitation, through filter-assisted sample preparation (FASP), or similar solid phase digestion techniques. 
 Note that some buffers can potentially introduce modifications to proteins such as carbamylation from urea at high temperatures [@PMID:24161613]. 
 
@@ -745,9 +749,9 @@ Denaturing conditions will efficiently extract proteins, but will denature prote
 If you are working on an immune- or affinity purification of a specific protein and expect to analyze enzymatic activity, structural features, and/or protein-protein interactions, a non-denaturing lysis buffer should be utilized [@PMID:21364760; @PMID:10504710]. 
 Check the calculated pI and hydrophobicity (the Expasy.org resource ProtParam is useful fo this) for a good idea of starting pH/conductivity, but a stability screen may be needed. 
 In general, a good starting point for the buffer will still be close to neutral pH with 50-250 mM NaCl, but specific proteins may require pH as low as 2 or as high as 9 for stable extraction. 
-A low percent of mass spectrometry compatible detergent may also be used, such as n-Dodecyl-beta-Maltoside.
+A low percent of mass spectrometry compatible detergent may also be used, such as n-dodecyl-beta-maltoside.
 Newer mass spectrometry compatible detergents are also useful for protein extraction and ease of downstream processing – including Rapigest® (Waters), N-octyl-β-glucopyranoside, Azo [@PMID:33232116], PPS silent surfactant [@PMID:21280217], sodium laurate [@PMID:23555778], and sodium deoxycholate[@PMID:17022626]. 
-AVOID the use of tween-20, triton-X, NP-40, and PEGs as these compounds are challenging to remove after digestion [@PMID:29726681]. 
+Avoid the use of tween-20, triton-X, NP-40, and PEGs as these compounds are challenging to remove after digestion [@PMID:29726681]. 
 
 #### Optional additives 
 For non-denaturing buffer conditions, which preserve tertiary and quaternary protein structures, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTM modifications throughout the extraction process. 
@@ -757,7 +761,7 @@ For extraction of DNA or RNA binding proteins, addition of a small amount of nuc
 
 ### Mechanical or Sonic Disruption 
 #### Cell lysis 
-One typical lysis buffer is 8 M urea in 100 mM Tris, pH 8.5; the pH based on optimum trypsin activity [@PMID:25664860]
+One typical lysis buffer is 8 M urea in 100 mM Tris, pH 8.5; the pH is based on optimum trypsin activity [@PMID:25664860]
 Small mammalian cell pellets and exosomes will lyse almost instantly upon addition denaturing buffer. 
 If non-denaturing conditions are desired, osmotic swelling and subsequent shearing or sonication can be applied [@DOI:10.1080/10826068.2020.1728696].
 Efficiency of extraction and degradation of nucleic acids can be improved using various sonication methods: 1) probe sonicator with ice; 2) water bath sonicator with ice or cooling; 3) bioruptor® sonication device 4) Adaptive focused acoustics (AFA®) [@PMID:21060726]. 
