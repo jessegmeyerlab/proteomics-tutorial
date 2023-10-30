@@ -29,12 +29,12 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
-Aminoxy
+aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -99,7 +99,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -137,7 +137,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 cerebrospinal
@@ -151,10 +151,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -164,7 +164,7 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 Colorimetric
 colorimetry
@@ -238,7 +238,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
@@ -271,7 +271,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -285,7 +285,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enviroments
 enzymatically
@@ -341,7 +341,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -363,7 +363,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -384,7 +384,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -440,7 +440,7 @@ hydroxyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 IEC
 IEF
@@ -485,8 +485,8 @@ iProphet
 IRMPD
 iRT
 isocratic
-Isoelectric
-isoform
+isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -508,7 +508,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 Köcher
 Koichi
@@ -601,7 +601,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 micropipette
@@ -651,7 +651,7 @@ NanoOrange
 nanopores
 NCBI
 neary
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -729,9 +729,9 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-Phosphopeptide
-Phosphopeptides
-Phosphoprotein
+phosphopeptide
+phosphopeptides
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -747,7 +747,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -767,7 +767,7 @@ polymerase
 polypeptide
 PomBase
 posthoc
-posttranslational
+Posttranslational
 PPI
 PPIs
 pre
@@ -792,7 +792,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-Proteomic
+proteomic
 proteomics
 ProtParam
 protti
@@ -817,7 +817,7 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
+QToF
 quadrupole
 quadrupoles
 Qual
@@ -837,13 +837,13 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 refered
 reflectron
 RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
@@ -864,7 +864,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -972,7 +972,7 @@ TMT
 TMTpro
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -982,7 +982,7 @@ transcriptional
 transcriptome
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -999,7 +999,7 @@ Tris
 Tritirachium
 Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1011,7 +1011,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1024,7 +1024,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1032,7 +1032,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable

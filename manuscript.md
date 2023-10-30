@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-30" />
   <meta name="citation_publication_date" content="2023-10-30" />
   <meta property="article:published_time" content="2023-10-30" />
-  <meta name="dc.modified" content="2023-10-30T20:53:51+00:00" />
-  <meta property="article:modified_time" content="2023-10-30T20:53:51+00:00" />
+  <meta name="dc.modified" content="2023-10-30T20:56:31+00:00" />
+  <meta property="article:modified_time" content="2023-10-30T20:56:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6f48aa724ca6e8dad0acdeb23fc93016cd0974df/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@6f48aa7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6f48aa724ca6e8dad0acdeb23fc93016cd0974df)
+from [jessegmeyerlab/proteomics-tutorial@65b385f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/65b385feceff0678f7c44d88121eed4abb8112ae)
 on October 30, 2023.
 </em></small>
 
@@ -561,7 +561,7 @@ Of recent note, the development of AlphaFold, has enabled the high-accuracy thre
 
 
 ## Types of Experiments {.page_break_before}
-A wide range of questions are addressable with proteomics technology, which translates to a wide range of variations of proteomics workflows. 
+A wide range of questions are addressable with proteomics technology, which translates to a wide range of variations of proteomics workflows.
 In some workflows, the identification of proteins in a given sample is desired. 
 For other experiments, the quantification of as many proteins as possible is essential for the success of the study. 
 Therefore, proteomic experiments can be both qualitative and quantitative. 
