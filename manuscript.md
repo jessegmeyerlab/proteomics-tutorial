@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-30" />
   <meta name="citation_publication_date" content="2023-10-30" />
   <meta property="article:published_time" content="2023-10-30" />
-  <meta name="dc.modified" content="2023-10-30T20:45:40+00:00" />
-  <meta property="article:modified_time" content="2023-10-30T20:45:40+00:00" />
+  <meta name="dc.modified" content="2023-10-30T20:48:36+00:00" />
+  <meta property="article:modified_time" content="2023-10-30T20:48:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7725eb04f565589b7beb77f6af02b978f2281e23/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7725eb04f565589b7beb77f6af02b978f2281e23/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7725eb04f565589b7beb77f6af02b978f2281e23/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e98ded333c0253efd5aee78438c8b36b05e309d4/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e98ded333c0253efd5aee78438c8b36b05e309d4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e98ded333c0253efd5aee78438c8b36b05e309d4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7725eb04f565589b7beb77f6af02b978f2281e23/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e98ded333c0253efd5aee78438c8b36b05e309d4/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@7725eb0](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7725eb04f565589b7beb77f6af02b978f2281e23)
+from [jessegmeyerlab/proteomics-tutorial@e98ded3](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e98ded333c0253efd5aee78438c8b36b05e309d4)
 on October 30, 2023.
 </em></small>
 
@@ -1105,7 +1105,7 @@ One must take into account which class or classes of glycopeptides they are inte
 Glycopeptides can be enriched via glycan affinity, for example to glycan-binding proteins, chemical properties like charge or hydrophilicity, chemical coupling of glycans to stationary phases, and by bioorthogonal, chemical biology approaches.
 Glycan affinity-based enrichment strategies include the use of lectins, antibodies, inactivated enzymes, immobilized metal affinity chromatography (IMAC), and metal oxide affinity chromatography (MOAC).
 The enrichment of glycopeptides by their chemical properties, for example by biopolymer charge and hydrophobicity, include hydrophilic interaction chromatography (HILIC), electrostatic repulsion-hydrophilic interaction chromatography (ERLIC), and porous graphitic carbon (PGC).
-One variation of ERLIC combines strong anion exchange, electrostatic repulsion, and hydrophilic interaction chromatography (SAX-ERLIC) has risen in popularity thanks to robustness and commercially available enrichment kits [@DOI:10.1007/978-1-0716-1241-5_8; @DOI:10.1016/j.celrep.2023.112368].
+One variation of ERLIC combines strong anion exchange, electrostatic repulsion, and hydrophilic interaction chromatography (SAX-ERLIC) has risen in popularity thanks to robustness and commercially available enrichment kits [@DOI:10.1007/978-1-0716-1241-5_8; @DOI:10.1021/acs.jproteome.6b00849].
 
 Chemical coupling methods most often used to enrich the glycoproteome employ hydrazide chemistry for sialylated glycopeptides.
 Glycan are cleaved from the stationary phase by PNGase F.

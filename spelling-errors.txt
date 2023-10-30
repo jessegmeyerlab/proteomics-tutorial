@@ -29,7 +29,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
@@ -77,7 +77,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -151,7 +151,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 Chymotrypsin
@@ -164,10 +164,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
-Colorimetric
-colorimetry
+colorimetric
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -186,8 +186,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
-cryo
+Crosslinking
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -206,7 +206,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -237,7 +237,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
@@ -270,7 +270,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -284,7 +284,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enviroments
 enzymatically
@@ -301,7 +301,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -315,7 +315,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -337,10 +337,10 @@ FlyBase
 fo
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -370,7 +370,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -386,7 +386,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -476,7 +476,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -484,8 +484,8 @@ iProphet
 IRMPD
 iRT
 isocratic
-isoelectric
-isoform
+Isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -565,7 +565,7 @@ Maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -600,7 +600,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 micropipette
@@ -618,7 +618,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -662,7 +662,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -686,7 +686,7 @@ OMSSA
 onotology
 OpenMS
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 orignal
@@ -727,13 +727,13 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
-phosphoproteomics
+Phosphoproteomics
 phosphorylated
 phosphosite
 PhosphoSitePlus
@@ -768,14 +768,14 @@ posthoc
 posttranslational
 PPI
 PPIs
-pre
-Prefractionation
+Pre
+prefractionation
 preprocessing
 PRM
 Progenesis
 proline
 Pronase
-prot
+Prot
 protease
 proteases
 proteasome
@@ -790,7 +790,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-proteomic
+Proteomic
 proteomics
 ProtParam
 protti
@@ -813,9 +813,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
-QTOF
+QToF
 Quadrupole
 quadrupoles
 Qual
@@ -841,7 +841,7 @@ refered
 reflectron
 RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
@@ -969,7 +969,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -992,7 +992,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-Tris
+tris
 Tritirachium
 Trp
 trypsin
@@ -1021,7 +1021,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1029,7 +1029,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
