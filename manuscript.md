@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-30'
+date-meta: '2023-11-01'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-10-30" />
-  <meta name="citation_publication_date" content="2023-10-30" />
-  <meta property="article:published_time" content="2023-10-30" />
-  <meta name="dc.modified" content="2023-10-30T20:56:31+00:00" />
-  <meta property="article:modified_time" content="2023-10-30T20:56:31+00:00" />
+  <meta name="dc.date" content="2023-11-01" />
+  <meta name="citation_publication_date" content="2023-11-01" />
+  <meta property="article:published_time" content="2023-11-01" />
+  <meta name="dc.modified" content="2023-11-01T17:25:50+00:00" />
+  <meta property="article:modified_time" content="2023-11-01T17:25:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/65b385feceff0678f7c44d88121eed4abb8112ae/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@65b385f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/65b385feceff0678f7c44d88121eed4abb8112ae)
-on October 30, 2023.
+from [jessegmeyerlab/proteomics-tutorial@c5f6c06](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c5f6c06eb50367c76883b2c62c02b717963a824c)
+on November 1, 2023.
 </em></small>
 
 
@@ -424,8 +424,8 @@ on October 30, 2023.
 ## Abstract {.page_break_before}
 
 Proteomics is the large scale study of protein structure and function from biological systems through protein identification and quantification.  
-"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptide that are analyzed by mass spectrometry.
-Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of proteoforms, protein-protein interactions, absolute and relative protein quantification, post-translational modifications, and protein stability. 
+"Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptides that are analyzed by mass spectrometry.
+Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of proteoforms, protein-protein interactions, protein structural alterations, absolute and relative protein quantification, post-translational modifications, and protein stability. 
 To enable this range of different experiments, there are diverse strategies for proteome analysis. 
 The nuances of how proteomic workflows differ may be difficult to understand for new practitioners. 
 Here, we provide a comprehensive tutorial of different proteomics methods. 
@@ -442,7 +442,7 @@ Although the genome encodes potential cellular functions and states, the study o
 Currently, proteomics can be performed with various methods. 
 Mass spectrometry has emerged within the past few decades as the premier tool for comprehensive proteome analysis.
 The ability of mass spectrometry (MS) to detect charged chemicals enables the identification of peptide sequences and modifications for diverse biological investigations.
-Alternative methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely Somascan and Olink. 
+Alternative (commercial) methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely [SomaScan](https://somalogic.com/somascan-platform/https://somalogic.com/somascan-platform/) and [Olink](https://olink.com/). 
 There are also nascent methods such as nanopores that are under development and not yet applicable to whole proteomes.
 Another approach uses parallel immobilization of peptides with total internal reflection microscopy and sequential edman degradation [@DOI:10.1038/nbt.4278].
 However, by far the most common method for proteomics is based on mass spectrometry coupled to liquid chromatography (LC).
@@ -471,7 +471,7 @@ The peptides are then almost always separated by LC before they are ionized and 
 The mass spectrometer then collects precursor and fragment ion data from those peptides. 
 Data analysis is usually the rate limiting step.
 Peptides must be identified from the tandem mass spectra, protein groups are inferred from a proteome database, and then quantitative values are assigned. 
-Changes in proteins across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.
+Changes in protein abundances across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.
 
 There are many variations to this workflow. 
 The diversity of experimental goals that are achievable with proteomics technology drives a wide variety of workflows. 
@@ -525,7 +525,7 @@ Post-translational modifications (PTMs) are important biological regulators cont
 Proteins can be post-translationally modified through enzymatic and non-enzymatic reactions _in vivo_ and _in vitro_ [@doi:10.1093/database/baab012]. 
 PTMs can be reversible or irreversible, and they change protein function in several ways, for example by altering substrate–enzyme interactions, subcellular localization or protein-protein interactions [@PMID:33826699; @PMID:24217768]. 
 
-More than biological 400 PTMs have been discovered in both prokaryotic and eukaryotic cells. 
+More than 400 biological PTMs have been discovered in both prokaryotic and eukaryotic cells. 
 There are many more chemical artifact PTMs that occur during sample preparation, such as carbamylation. 
 These modifications are crucial in controlling protein functions and signal transduction pathways [@PMID:23887885]. 
 The most commonly studied and biologically relevant post-translational modifications include ubiquitination (Lys, Cys, Ser, Thr, N-term), succinylation (Lys), methylation (Arg, Lys, His, Glu, Asn, Cys), disulfide bonds (Cys-Cys), oxidation (any amino acid, but especially Met, Trp, His, Cys), phosphorylation (Ser, Thr, Tyr, His), acetylation (Lys, N-term), glycosylation (Arg, Asp, Cys, Ser, Thr, Tyr, Trp) and lipidation [@DOI:10.1042/BCJ20220251].
@@ -614,7 +614,7 @@ Several proteomics methods have been developed to reveal protein structure infor
 
 #### Cross-linking mass spectrometry (XL-MS)  
 XL-MS is an emerging technology in the field of proteomics. 
-It can be used to determine changes in protein-protein interactions. 
+It can be used to determine changes in protein-protein interactions and/or protein structure. 
 XL-MS covalently locks interacting proteins together to preserve interactions and proximity during MS analysis. 
 XL-MS is different from traditional MS in that it requires the identification of chimeric MS/MS spectra from cross-linked peptides [@doi:10.1016/j.ymeth.2015.06.010; @doi:10.1021/jasms.9b00085].
 
@@ -623,13 +623,14 @@ The common steps in a XL-MS workflow are as follows [@DOI:10.1021/acs.analchem.7
 2. Add a cross-linking reagent to covalently connect adjacent protein regions (such as disuccinimidyl sulfoxide, DSSO) [@doi:10.1021/jasms.9b00085]  
 3. Proteolysis to produce peptides  
 4. MS/MS data collection  
-5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099], KOJAK [@PMID:25812159; @PMID:36629399])  
+5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099], KOJAK [@PMID:25812159; @PMID:36629399], xQuest [@doi:10.1038/nmeth.1192], XlinkX [@doi:doi.org/10.1038/nmeth.3603])  
 6. Generate cross-link maps for structural modeling and visualization [@PMID:27302480; @PMID:30525651]
+(optional: 7. Use detected cross-links for protein-protein docking [@doi:10.1021/ja026939x])
 
 #### Hydrogen deuterium exchange mass spectrometry (HDX-MS)  
-HDX-MS works by detecting changes in peptide mass due to exchange of amide hydrogens of the protein backbone is with deuterium from D2O [@doi:10.1038/s41592-019-0459-y]. 
+HDX-MS works by detecting changes in peptide mass due to exchange of amide hydrogens of the protein backbone is with deuterium from D<sub>2</sub>O [@doi:10.1038/s41592-019-0459-y]. 
 The rate of exchange depends on the protein solvent accessible surface area, dynamics, and the properties of the amino acid sequence [@doi:10.1038/s41592-019-0459-y; @doi:10.1039/C0CS00113A; @PMID:5333290; @doi:10.1017/S0033583500005217].
-Although using D2O as a solvent to make deuterium labeled sample is simple, HDX-MS requires a number of controls to ensure that experimental conditions capture the dynamics of interest [@doi:10.1038/s41592-019-0459-y; @doi:10.1586/epr.10.109; @doi:/10.1007/s13361-012-0377-z; @doi:10.4155/bio.15.46]. 
+Although using D<sub>2</sub>O as a solvent to make deuterium labeled sample is simple, HDX-MS requires a number of controls to ensure that experimental conditions capture the dynamics of interest [@doi:10.1038/s41592-019-0459-y; @doi:10.1586/epr.10.109; @doi:/10.1007/s13361-012-0377-z; @doi:10.4155/bio.15.46]. 
 If the peptide dissociation process is tuned appropriately, residue-level quantification of changes in solvent accessibility are possible within a measured peptide [@DOI:10.1021/ac0710782].
 HDX can produce precise protein structure measurements with high reproducibility.
 Masson *et al.* gave recommendations on how to prep samples, conduct data analysis, and present findings in a detailed stepwise manner that will be useful to have if you are new to using this technique [@doi:10.1038/s41592-019-0459-y].
@@ -666,10 +667,11 @@ A lack of proteolysis in a region is interpreted as solvent accessibility, which
 
 #### LiP-MS (Limited Proteolysis Mass Spectrometry) [@doi:10.1016/j.tibs.2020.05.006; @DOI:10.1038/nprot.2017.100; @doi:10.1038/s41596-022-00771-x; @doi:10.1038/nprot.2017.100]  
 Limited proteolysis coupled to mass spectrometry (LiP-MS) is a method that tracks structural changes in complex proteomes in response to a variety of perturbations or stimuli.
-The underlying tenet of LiP-MS is that a stimuli-induced change in native protein structure (i.e. introduction of a PTM, ligand/substrate binding, or changes in osmolarity or ambient temperature) can be detected by a change in accessibility of a broad-specificity protease (i.e. proteinase K) to the region(s) of the protein where the structural change occurs.
+The underlying tenet of LiP-MS is that a stimuli-induced change in native protein structure (i.e. protein-protein interaction, introduction of a PTM, ligand/substrate binding, or changes in osmolarity or ambient temperature) can be detected by a change in accessibility of a broad-specificity protease (i.e. proteinase K) to the region(s) of the protein where the structural change occurs.
 For example, small molecule binding may render a disordered region protected from non-specific proteolysis by directly blocking access of the protease to the cleavage site. 
 LiP-MS can therefore provide a somewhat unbiased view of structural changes at the proteome scale.
-Importantly, LiP-MS necessitates cell lysates or individual proteins be maintained in their native state prior to or during perturbation and protease treatment.  
+Importantly, LiP-MS necessitates cell lysates or individual proteins be maintained in their native state prior to or during perturbation and protease treatment.
+LiP-MS can also be applied to membrane suspensions, to facilitate the study of membrane proteins without the need for purification or detergents [@doi:10.1073/pnas.2300309120].  
 For additional information about LiP-MS, please refer to the following article: [@url:https://www.eubopen.org/sites/www.eubopen.org/files/attachments/2022/LiP-MS%20protocol.pdf]
 
 ### Protein stability and small molecule binding  
@@ -720,7 +722,7 @@ For more information on BioID, please refer to [@doi:10.1007/978-1-4939-8814-3_1
 ## Protein Extraction {.page_break_before}
 
 Protein extraction from the sample of interest is the initial phase of any mass spectrometry-based proteomics experiment. 
-Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, PTM enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments), long term project goals (reproducibility, multiple sample types, low abundance samples), as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or affinity enrichment of specific classes of modifications.) 
+Thought should be given to any planned downstream assays, specific needs of proteolysis (LiP-MS, PTM enrichments, enzymatic reactions, glycan purification or hydrogen-deuterium exchange experiments), long term project goals (reproducibility, multiple sample types, low abundance samples), as well as to the initial experimental question (coverage of a specific protein, subcellular proteomics, global proteomics, protein-protein interactions or affinity enrichment of specific classes of modifications). 
 The 2009 version of Methods in Enzymology: guide to Protein Purification [@isbn:978-0-12-374536-1] serves as a deep dive into how molecular biologists and biochemists traditionally carried out protein extraction. 
 The Protein Protocols handbook [@isbn:978-1-59745-198-7] and the excellent review by Linn [@PMID:19892162] are good sources of general proteomics protocols.
 Any change in extraction conditions should be expected to create potential changes in downstream results. 
@@ -732,8 +734,8 @@ To reproduce the results of another study, one should begin with the same extrac
 
 A common question to proteomics core facilities is, “What is the best buffer for protein extraction?”
 Unfortunately, there is no one correct answer. 
-For global proteomics experiments where maximizing the number of protein or peptide identifications is a goal, a buffer of neutral pH (50-100 mM PBS, Tris, HEPES, ammonium bicarbonate, triethanolamine bicarbonate; pH 7.5-8.5) is used in conjunction with a chaotrope or surfactant to denature and solubilize proteins (e.g., 8 M urea, 6 M guanidine, 5% SDS) [@PMID:16152629; @PMID:20722421]. 
-Often other salts like 50-150 mM NaCl are also added. 
+For global proteomics experiments where maximizing the number of protein or peptide identifications is a goal, a buffer of neutral pH (50-100 mM phosphate buffered saline (PBS), tris(hydroxymethyl)aminomethane (Tris), 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid (HEPES), ammonium bicarbonate, triethanolamine bicarbonate; pH 7.5-8.5) is used in conjunction with a chaotrope or surfactant to denature and solubilize proteins (e.g., 8 M urea, 6 M guanidine, 5% sodium dodecyl sulfate (SDS)) [@PMID:16152629; @PMID:20722421]. 
+Often other salts like 50-150 mM sodium chloride (NaCl) are also added. 
 Complete denaturation of the proteins in the sample in a timely fashion is an advantage as it generally prevents changes to protein status by endogenous proteases, kinases, phosphotases, and other enzymes.
 If intact protein separations are planned (based on size or isoelectric point), choose a denaturant compatible with those methods, such as SDS [@PMID:31249407]. 
 Compatibility with the protease (typically trypsin) and peptide cleanup steps will need to be considered. 
@@ -747,14 +749,14 @@ Note that some buffers can potentially introduce modifications to proteins such 
 #### Protein-protein interactions 
 Denaturing conditions will efficiently extract proteins, but will denature proteins and therefore disrupt most protein-protein interactions. 
 If you are working on an immune- or affinity purification of a specific protein and expect to analyze enzymatic activity, structural features, and/or protein-protein interactions, a non-denaturing lysis buffer should be utilized [@PMID:21364760; @PMID:10504710]. 
-Check the calculated pI and hydrophobicity (the Expasy.org resource ProtParam is useful fo this) for a good idea of starting pH/conductivity, but a stability screen may be needed. 
+Check the calculated isoelectric point (pI) and hydrophobicity (the Expasy.org resource ProtParam is useful fo this) for a good idea of starting pH/conductivity, but a stability screen may be needed. 
 In general, a good starting point for the buffer will still be close to neutral pH with 50-250 mM NaCl, but specific proteins may require pH as low as 2 or as high as 9 for stable extraction. 
 A low percent of mass spectrometry compatible detergent may also be used, such as n-dodecyl-beta-maltoside.
 Newer mass spectrometry compatible detergents are also useful for protein extraction and ease of downstream processing – including Rapigest® (Waters), N-octyl-β-glucopyranoside, Azo [@PMID:33232116], PPS silent surfactant [@PMID:21280217], sodium laurate [@PMID:23555778], and sodium deoxycholate[@PMID:17022626]. 
-Avoid the use of tween-20, triton-X, NP-40, and PEGs as these compounds are challenging to remove after digestion [@PMID:29726681]. 
+Avoid the use of tween-20, triton-X, NP-40, and polyethylene glycols (PEGs) as these compounds are challenging to remove after digestion [@PMID:29726681]. 
 
 #### Optional additives 
-For non-denaturing buffer conditions, which preserve tertiary and quaternary protein structures, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTM modifications throughout the extraction process. 
+For non-denaturing buffer conditions, which preserve tertiary and quaternary protein structures, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTMs throughout the extraction process. 
 Protease, phosphatase and deubiquitinase inhibitors are optional additives in less denaturing conditions or in experiments focused on specific PTMs. 
 Keep in mind that protease inhibitors may impact digestion conditions and will need to be diluted or removed prior to trypsin addition. 
 For extraction of DNA or RNA binding proteins, addition of a small amount of nuclease or benzonase is useful for degradation of any bound nucleic acids and result in a more consistent digestion [@PMID:23792921].
@@ -1351,7 +1353,7 @@ Thus, in a reversed phase separation the proportion of non-polar, or organic, so
 By far the most popular combination of solvents for peptide analysis is water and acetonitrile with dilute acid modifier (such as 0.1% formic acid or 0.5% acetic acid). 
 The programmed rate at which the proportion of organic solvent is increased in the mobile phase is called the “gradient”, which you will often find described in the methods sections for reversed phase separations.
 
-### Electrospray Ionization
+### Electrospray Ionization (ESI)
 
 LC is paired to MS through ESI, and LC parameters greatly influence ESI. 
 The analytes are eluted in a liquid mobile phase and must be released into the gas phase as charged ions for detection by mass spectrometry. 
@@ -1465,7 +1467,7 @@ A high voltage (~ 2 kV) is applied between the spray needle and the mass spectro
 As solvent exits the needle, it forms droplets that take on charge at the surface, and through a debated mechanism, those charges are imparted to peptide ions.
 The liquid phase is generally kept acidic to help impart protons easily to the analytes.
 
-Tryptic peptides ionized by ESI usually carry one charge one the side chain of their c-terminal residue (Arg or Lys) and one charge at their n-terminal amine.
+Tryptic peptides ionized by ESI usually carry one charge one the side chain of their C-terminal residue (Arg or Lys) and one charge at their n-terminal amine.
 Peptides can have more than one charge if they have a longer peptide backbone, have histidine residues, or have missed cleavages leaving extra Arg and Lys.
 In most cases, peptides ionized by ESI are observed at more than one charge state.
 Evidence suggests that the distribution of peptide charge states can be manipulated through chemical additives [@PMID:22610994].
@@ -1488,7 +1490,7 @@ Typical bottom-up proteomics experiments make use of acidic analyte solutions wh
 
 ## Types of Mass Spectrometers used for Proteomics {.page_break_before}
 ### Mass spectrometry
-Mass spectrometry is a science of ions; it serves as a sophisticated instrument for determining the masses of compounds and elements. 
+Mass spectrometry is a science of ions; mass spectrometers serve as sophisticated instruments for determining the masses of compounds and elements. 
 It can be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lighter. 
 Since J.J. Thomson's initial exploration in 1912, the field of mass spectrometry has undergone numerous improvements, spanning from isotope assessment to the interpretation of biomacromolecules [@DOI:10.1021/ac8013065], all thanks to the combined efforts of diverse fields like chemistry, physics, electronic engineering, and computer science. 
 Nowadays, with the rapid improvement of sensitivity, mass resolution, tandem mass spectrometry methods and ion dissociation methods, mass spectrometers have evolved as a core tool for proteomic (and metabolomic) analysis.
@@ -1507,11 +1509,11 @@ The successful implementation and demonstration of this process requires partici
 
 #### 1)	The ion source.
 The ion source is where gas phase ions are generated.
-Common methods of ionization in mass spectrometry includes electrospray ionization (ESI), matrix assisted laser desorption ionization (MALDI), atmospheric pressure chemical ionization (APCI), electron ionization (EI) and chemical ionization (CI) [@DOI:10.1016/j.aca.2015.07.012; @DOI:10.1080/05704928.2014.954046].
+Common methods of ionization in mass spectrometry include electrospray ionization (ESI), matrix assisted laser desorption ionization (MALDI), atmospheric pressure chemical ionization (APCI), electron ionization (EI) and chemical ionization (CI) [@DOI:10.1016/j.aca.2015.07.012; @DOI:10.1080/05704928.2014.954046].
 For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter in more detail.
 
 #### 2)	The mass analyzer.
-The mass analyzer is where gas phase ions are separated according to their m/z ratio based on physics principles.
+The mass analyzer is where gas phase ions are separated according to their m/z ratio based on physical principles.
 There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, Orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 12.1).
 For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
 The mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
@@ -1696,7 +1698,7 @@ Right now, the Orbitrap is still under patent protection and only one company, T
 Classic models from ThermoFisher include Orbitrap Ascend Tribrid, Orbitrap Eclipse™ Tribrid™, Orbitrap Fusion™ Lumos™, Orbitrap Exploris series (120, 240, 480) and Q Exactive™ series. 
 
 ![**Schematic diagram of orbitrap.**
-(A) Close up of a orbitrap.
+(A) Close up of an Orbitrap.
 (B) General schematic of complete Q-Orbitrap system.
 ](images/MS_f104.svg){#fig:QE-diagram tag="11" width="100%"}
 
@@ -2026,7 +2028,7 @@ This is data-independent acquisition (DIA); the scans that are collected do not 
 Thus, the scan sequence is repetitive, looping through binned windows of predetermined width, and/or a predetermined m/z range. 
 Although simple in terms of data collection, when the scan sequence includes MS/MS, sophisticated software is required to analyze the data. 
 Like DDA, DIA can also be either targeted or untargeted [@DOI:10.1080/14789450.2017.1322904]:
-The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or SWATH (**Figure 15**).
+The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or "SWATH" (Sequential Window Acquisition of All Theoretical Mass Spectra) (**Figure 15**).
 
 ![**Types of DIA.**
 A) SRM/MRM. 
@@ -2101,7 +2103,7 @@ The goal of basic data analysis is to convert raw spectral data into identities 
 This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
 
 ![**Proteomics Data Analysis and Biological Interpretation.**
-The process begins with protein identification and quantification using tools such as Proteome Discoverer, MS Fragger, MaxQuant, and Skyline. 
+The process begins with protein identification and quantification using tools such as Proteome Discoverer, Spectronaut, Spectromine, MS Fragger, MaxQuant, and Skyline. 
 Quality control measures ensure data integrity, leading to a biological interpretation of the results. 
 Differential expression analyses may include relative abundance charts, heat maps, and volcano plots. 
 Functional analysis encompasses gene ontology, protein-protein interactions, and signaling pathways.
@@ -3095,7 +3097,7 @@ Once bound to their respective targets and only when in direct proximity, the ad
 These DNA products can then be visualized by in situ hybridization with fluorescently labelled oligonucleotides (see [@DOI:10.1007/82_2013_334] for a detailed discussion). 
 PLA has the advantage of visualizing the two interacting proteins in their native environment when high-resolution microscopy is used as a readout. 
 
-Chemical crosslinking (XL) of proteins can determine PPIs with amino-acid level resolution, and can thereby give valuable insights into the orientation of two or more proteins relative to one another [@DOI:10.1016/j.str.2022.03.003]. 
+Chemical cross-linking (XL) of proteins can determine PPIs with amino-acid level resolution, and can thereby give valuable insights into the orientation of two or more proteins relative to one another [@DOI:10.1016/j.str.2022.03.003]. 
 Recent technical advances also enabled the visualization of protein-RNA interaction [@DOI:10.1042/EBC20220177]. 
 Various XL chemistries are available (amine-reactive, sulfhydryl and photoreactive crosslinkers; reversible vs irreversible) and cross-linked proteins detected by mass spectrometry [@DOI:10.1016/j.cbpa.2020.07.008]. 
 In general, applying XL-MS to a mixture of interacting, purified proteins is preferable to in situ XL of complex protein mixtures (i.e. cell lysate) as detection and deconvolution of XL peptides is technically and computationally challenging.

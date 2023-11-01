@@ -34,8 +34,9 @@ AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
-aminoxy
-aminoxyTMT
+aminomethane
+Aminoxy
+AminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -77,7 +78,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-Betweenness
+betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -99,7 +100,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -164,10 +165,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 Colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -187,7 +188,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 Cryo
 cryogels
 crystalized
@@ -222,7 +223,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -238,7 +239,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
@@ -285,7 +286,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
+enrichments
 Ensembl
 enviroments
 enzymatically
@@ -302,7 +303,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -316,7 +317,7 @@ Exploris
 FAIMS
 FASP
 fasta
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -338,7 +339,7 @@ FlyBase
 fo
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 Fractionation
@@ -371,7 +372,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -379,12 +380,13 @@ glyco
 glycobiology
 glycoforms
 glycolic
+glycols
 glycopeptide
 glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -436,11 +438,13 @@ hydrogens
 hydrophilicity
 hydrophobicity
 hydroxycinnamic
+hydroxyethyl
 hydroxyl
+hydroxymethyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 IEC
 IEF
@@ -486,7 +490,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -508,7 +512,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 Köcher
 Koichi
@@ -619,7 +623,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -688,7 +692,7 @@ onotology
 OpenMS
 operon
 Orbitrap
-Orbitraps
+orbitraps
 organismal
 orignal
 Ortholog
@@ -731,7 +735,7 @@ phosphoester
 phosphoimaging
 phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -742,15 +746,16 @@ PhosphoSitePlus
 phosphosites
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
+piperazineethanesulfonic
 PIQED
 PLA
 Plata
@@ -771,7 +776,7 @@ Posttranslational
 PPI
 PPIs
 pre
-prefractionation
+Prefractionation
 preprocessing
 PRM
 Progenesis
@@ -792,7 +797,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-proteomic
+Proteomic
 proteomics
 ProtParam
 protti
@@ -815,10 +820,10 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QToF
-quadrupole
+Quadrupole
 quadrupoles
 Qual
 quantile
@@ -892,7 +897,7 @@ solubilization
 solubilize
 solubilizing
 solvate
-Somascan
+SomaScan
 sonicate
 sonicated
 sonication
@@ -1024,7 +1029,7 @@ underivatized
 undirected
 unenriched
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
@@ -1061,6 +1066,8 @@ WormBase
 XDIA
 xenobiotic
 Xevo
+XlinkX
+xQuest
 Yadav
 Yenepoya
 YFP
