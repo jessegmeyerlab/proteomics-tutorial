@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-01'
+date-meta: '2023-11-02'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-11-01" />
-  <meta name="citation_publication_date" content="2023-11-01" />
-  <meta property="article:published_time" content="2023-11-01" />
-  <meta name="dc.modified" content="2023-11-01T17:25:50+00:00" />
-  <meta property="article:modified_time" content="2023-11-01T17:25:50+00:00" />
+  <meta name="dc.date" content="2023-11-02" />
+  <meta name="citation_publication_date" content="2023-11-02" />
+  <meta property="article:published_time" content="2023-11-02" />
+  <meta name="dc.modified" content="2023-11-02T14:51:45+00:00" />
+  <meta property="article:modified_time" content="2023-11-02T14:51:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c5f6c06eb50367c76883b2c62c02b717963a824c/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@c5f6c06](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c5f6c06eb50367c76883b2c62c02b717963a824c)
-on November 1, 2023.
+from [jessegmeyerlab/proteomics-tutorial@6e509ad](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60)
+on November 2, 2023.
 </em></small>
 
 
@@ -1873,10 +1873,8 @@ Multiple dissociation methods exist to generate product ions in MS/MS spectra th
 In non-modified peptides, the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids.
 Depending on where peptides dissociate along the peptide backbone, the fragments are assigned different ion types (**Figure 14A**). 
 Fragment ion nomenclature was first developed by Roepstorff and Fohlman in 1984 [@DOI:10.1002/bms.1200111109] and then refined by Biemann in 1990 [@ISBN:978-0121820947].
-The main ion types are the peptides that contain the original peptide N-terminus (i.e., a, b, and c ions), or the original peptide C-terminus (i.e., x, y, and z ions). 
-The number associated with each fragment ion indicates how many amino acids from each end are included. 
-The most common ions from collisional methods are the b and y ions, which result from fragmentation of the amide between the carbonyl and nitrogen.
-The most common ions from electron transfer methods are c and z ions, which occur between the nitrogen and the alpha-carbon of the peptide backbone. 
+The main ion types are the fragments that contain the original peptide N-terminus (i.e., a-, b-, and c-type ions), or the original peptide C-terminus (i.e., x-, y-, and z-type ions). 
+The number associated with each fragment ion indicates how many amino acids from each terminus are included. 
 
 ![**Peptide Fragmentation Methods.**
 (A) Sequence-informative fragment ions are termed a/x-, b/y-, and c/z-type fragments depending on which bond along the peptide backbone breaks. 
@@ -1899,9 +1897,9 @@ The kinetic energy used to accelerate precursor ions (often generated using dire
 Since in non-modified peptides the most labile bonds are typically peptide bonds (i.e., amide bonds) between amino acids, the increase in internal energy from beamCID generates b- and y-type ions that represent this peptide bond cleavage, as shown in Biemann fragment ion nomenclature (**Figure 14A**).
 b-type ions provide sequence information for fragments that have an intact N-terminus, while y-type ions denote fragment ions with an intact C-terminus.
 Collisions in beamCID cause near instantaneous generation of primary fragment ions.
-Because the increase in internal energy happens rapidly before energy can be redistributed, beamCID can generate fragments that are not necessarily derived from cleavage of the most labile bonds (e.g., PTM-modified peptides, discussed below), but spectra are often dominated by b/y-type ions from amide bond cleavage.
+Because the increase in internal energy happens rapidly before energy can be redistributed, beamCID can generate fragments that are not necessarily derived from cleavage of the most labile bonds (e.g., PTM-modified peptides, discussed below), but spectra are often dominated by b/y-type ions from amide bond cleavage (**Figure 14B**).
 BeamCID can also generate secondary fragments, such as immonium ions from side chain losses [@DOI:10.1021/ac8006076] or a-type fragment ions that come from water loss from b-type ions due to multiple collision events (note: a-type ions can form as primary fragmentation products in other dissociation methods).
-The simplicity of beamCID, which requires simply an rf-only collision cell, has made it widely implemented on most instrument platforms used in modern proteomics.
+The simplicity of beamCID, which simply requires an rf-only collision cell, has made it widely implemented on most instrument platforms used in modern proteomics.
 
 A second form of CID is called resonant CID (resCID), where the internal energy of peptide ions is slowly increased through multiple low-energy collisions.
 Here, helium gas is most often used, as it imparts less energy per collision, and activation typically happens in ion trap devices where supplemental frequencies can be used to excite ions.
@@ -1912,10 +1910,10 @@ Once ions dissociate, the fragments have different m/z values than the precursor
 Thus, resCID typically fragments only the most labile bonds in precursor ions and does not have secondary fragmentation behavior.
 As above, for non-modified peptide ions, this typically generates sequence-informative b- and y-type product ions.
 For modified peptides where the bonds connecting the modification to an amino acid are more labile than peptide bonds (e.g., phosphopeptides and glycopeptides), resCID MS/MS spectra can be dominated by product ions only of the PTM-loss rather than sequence-informative fragment ions, although many factors govern this behavior [@DOI:10.1021/pr0705136; @DOI:10.1021/ac0497104].
-Because of this, and because this method requires an ion trap device with the ability to apply supplemental rfs, resCID is less used than beamCID.
+Because of this, and because this method requires an ion trap device with the ability to apply supplemental rfs, resCID is less prevalent than beamCID.
 For both beamCID and resCID, the mobile proton model has been widely accepted to explain fragmentation behavior [@PMID:11180630], and this largely predictable behavior has greatly helped in manual and algorithm-assisted spectral interpretation.
 
-Despite the utility and broad adoption of CID, there are alternative dissociation methods that have been explored for a variety of uses, including applications where CID is inadequate for the experimental question [@DOI:10.1021/ac802330b; @DOI:10.1038/nprot.2008.159; @DOI:10.1007/s00726-014-1726-y].
+Despite the utility and broad adoption of CID, alternative dissociation methods have been explored for a variety of uses, including applications where CID is inadequate for the experimental question [@DOI:10.1021/ac802330b; @DOI:10.1038/nprot.2008.159; @DOI:10.1007/s00726-014-1726-y].
 The most popular of these alternative dissociation methods are electron-based dissociation (ExD) approaches, which include electron capture dissociation (ECD) and electron transfer dissociation (ETD).
 In both of these, peptide cations capture thermal electrons (ECD [@DOI:10.1021/ja973478k]) or abstract an electron from a reagent anion (ETD [@DOI:10.1073/pnas.0402700101]) to generate radical-driven dissociation of the N-Ca bond that predominantly generates sequence-informative c- and z-type product ions (**Figure 14C**).
 The mechanisms of ExD methods have been widely explored [@DOI:10.1021/ja8019005; @DOI:10.1016/j.jasms.2004.11.001], and the preferential cleavage of N-Ca bonds along the peptide backbone have been particularly useful for PTM-modified species because the modifications remain largely intact even during peptide backbone bond fragmentation.
@@ -1924,7 +1922,7 @@ Electron-based dissociation is also more suitable than collision-based dissociat
 
 Two fundamental challenges exist with ExD methods.
 First, ExD implementation requires instruments that can manipulate cations and anions (or free electrons) within the same scan sequence and can trap both simultaneously for electron capture/transfer events to occur.
-This has been successfully accomplished on a number of instruments, including FT-ICR, ion trap, ToFs with quadrupole ion traps, and hybrid Orbitrap instruments, but it is not a ubiquitous feature of all platforms.
+This has been successfully accomplished on a number of instruments, including FT-ICR systems, ion traps, ToFs with quadrupole ion traps, and hybrid Orbitrap instruments, but it is not a ubiquitous feature of all platforms.
 That said, several exciting advances in recent years have made ExD methods more accessible on numerous instrument configurations [@DOI:10.1021/acs.analchem.7b04810; @DOI:10.1002/mas.21560; @DOI:10.1021/acs.analchem.8b01901; @DOI:10.1021/acs.jproteome.7b00622; @DOI:10.1021/jasms.0c00425].
 A second challenge is the dependence of ExD dissociation efficiency on precursor ion charge density [@DOI:10.1074/mcp.M700073-MCP200].
 ExD methods generally produce robust fragmentation for charge dense precursor ions (i.e., those with relatively low m/z values and higher z). 
