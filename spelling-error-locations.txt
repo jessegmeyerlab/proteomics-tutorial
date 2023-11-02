@@ -351,7 +351,7 @@ content/05.protein-extraction.md:16:tris
 content/05.protein-extraction.md:16:Tris
 content/05.protein-extraction.md:17:NaCl
 content/05.protein-extraction.md:18:kinases
-content/05.protein-extraction.md:18:phosphotases
+content/05.protein-extraction.md:18:phosphatases
 content/05.protein-extraction.md:18:proteases
 content/05.protein-extraction.md:19:denaturant
 content/05.protein-extraction.md:19:isoelectric
@@ -371,7 +371,6 @@ content/05.protein-extraction.md:25:trypsin
 content/05.protein-extraction.md:26:carbamylation
 content/05.protein-extraction.md:30:lysis
 content/05.protein-extraction.md:31:Expasy
-content/05.protein-extraction.md:31:fo
 content/05.protein-extraction.md:31:hydrophobicity
 content/05.protein-extraction.md:31:isoelectric
 content/05.protein-extraction.md:31:ProtParam
@@ -395,7 +394,9 @@ content/05.protein-extraction.md:39:phosphatase
 content/05.protein-extraction.md:39:Protease
 content/05.protein-extraction.md:39:PTMs
 content/05.protein-extraction.md:40:protease
-content/05.protein-extraction.md:40:trypsin
+content/05.protein-extraction.md:40:protease
+content/05.protein-extraction.md:40:Protease
+content/05.protein-extraction.md:40:proteolysis
 content/05.protein-extraction.md:41:benzonase
 content/05.protein-extraction.md:41:nuclease
 content/05.protein-extraction.md:44:lysis
