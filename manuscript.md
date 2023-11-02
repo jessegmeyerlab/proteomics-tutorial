@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-02" />
   <meta name="citation_publication_date" content="2023-11-02" />
   <meta property="article:published_time" content="2023-11-02" />
-  <meta name="dc.modified" content="2023-11-02T15:34:10+00:00" />
-  <meta property="article:modified_time" content="2023-11-02T15:34:10+00:00" />
+  <meta name="dc.modified" content="2023-11-02T15:45:15+00:00" />
+  <meta property="article:modified_time" content="2023-11-02T15:45:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c78fdc09268a733e76844adf11ec960c0c979caa/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c78fdc09268a733e76844adf11ec960c0c979caa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c78fdc09268a733e76844adf11ec960c0c979caa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c78fdc09268a733e76844adf11ec960c0c979caa/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@c78fdc0](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c78fdc09268a733e76844adf11ec960c0c979caa)
+from [jessegmeyerlab/proteomics-tutorial@e5f6b3f](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e5f6b3ffa5361698f372d6134dc026741aabe872)
 on November 2, 2023.
 </em></small>
 
@@ -507,13 +507,13 @@ They perform various functions in living organisms ranging from structural roles
 Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
 The human genome encodes approximately 19,778 of the predicted canonical proteins coded in the human genome [@PMID:36318223].
 Each protein is present at a different abundance depending on the cell type.
-Previous studies have shown that the concentration range of proteins can span over a range of at least seven orders of magnitude to up to 20,000,000 copies per cell, and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
-Protein abundances can span more than 10 orders of magnitude in human blood, while a few protein make up most of the protein by weight in these fluids, making blood and plasma proteomics one of the most difficult matrices. 
-Due to genetic variation, alternative splicing during gene transcription, and co- and post-translational modifications (PTMs), multiple different proteoforms can be produced from a single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
+Previous studies have shown that the concentration range of proteins can span at least seven orders of magnitude to up to 20,000,000 copies per cell, and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
+Protein abundances can span more than ten orders of magnitude in human blood, while a few proteins make up most of the protein by weight in these fluids, making blood and plasma proteomics one of the most challenging matrices. 
+Due to genetic variation, alternative splicing, and co- and post-translational modifications (PTMs), multiple different proteoforms can be produced from a single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
 
 ![**Proteome Complexity.**
 Each gene may be expressed in the form of multiple protein products, or proteoforms, through alternative splicing and incorporation of post-translational modifications.
-As such, there are many more unique proteoforms than there are genes.
+As such, there are many more unique proteoforms than genes.
 While there exist 20,000 - 23,000 coding genes in the human genome, upwards of 1,000,000 unique human proteoforms may exist.
 The study of the structure, function, and spatial and temporal regulation of these proteins is the subject of mass spectrometry-based proteomics](images/intro-centralDogma-proteoforms.png){#fig:proteoforms tag="1" width="100%"}
 
@@ -531,17 +531,17 @@ The most commonly studied and biologically relevant post-translational modificat
 
 Post-translational modification of a protein can alter its function, activity, structure, spatiotemporal status and interaction with proteins or small molecules. 
 PTMs alter signal transduction pathways and gene expression control [@PMID:28656226] regulation of apoptosis [@PMID:23088365; @PMID:11368354] by phosphorylation. 
-Ubiquitination regulates protein degradation [@PMID:16738015], SUMOylation regulates chromatin structure, DNA repair, transcription, cell-cycle progression [@PMID:26601932; @PMID:29079793], and palmitoylation regulates maintenance of the structural organization of exosome-like extracellular vesicle membranes by [@PMID:30251702]. 
-Glycosylation is a ubiquitous modification that regulates a variety of T cell functions, such as cellular migration, T cell receptor signaling, cell survival, and apoptosis [@PMID:22288421; @PMID:18846099].
+Ubiquitination generally regulates protein degradation [@PMID:16738015], SUMOylation regulates chromatin structure, DNA repair, transcription, and cell-cycle progression [@PMID:26601932; @PMID:29079793], and palmitoylation regulates the maintenance of the structural organization of exosome-like extracellular vesicle membranes by [@PMID:30251702]. 
+Glycosylation is a ubiquitous modification that regulates various T cell functions, such as cellular migration, T cell receptor signaling, cell survival, and apoptosis [@PMID:22288421; @PMID:18846099].
 Deregulation of PTMs is linked to cellular stress and diseases [@doi:10.1038/s41570-020-00223-8].
 
-Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labelled substrates, western blot with PTM-specific antibodies and superbinders, and peptide and protein arrays [@PMID:11062466; @PMID:12323352; @PMID:35613471]. 
+Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labeled substrates, western blot with PTM-specific antibodies and superbinders, and peptide and protein arrays [@PMID:11062466; @PMID:12323352; @PMID:35613471]. 
 While effective, these approaches have many limitations, such as inefficiency and difficulty in producing pan-specific antibodies. 
 MS-based proteomics approaches are currently the predominant tool for identifying and quantifying changes in PTMs. 
 
 #### Protein Structure
 
-Almost all proteins (except for intrinsically disordered proteins[@doi:10.1146/annurev-biochem-072711-164947]) fold into three-dimensional (3D) structures either by themselves or assisted through chaperones[@doi:10.1007/s12013-021-00970-5]. 
+Almost all proteins (except for intrinsically disordered proteins[@doi:10.1146/annurev-biochem-072711-164947]) fold into three-dimensional (3D) structures either by themselves or assisted by molecular chaperones [@doi:10.1007/s12013-021-00970-5]. 
 There are four levels relevant to the folding of any protein: 
 
 - Primary structure: 
