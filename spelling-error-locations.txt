@@ -23,7 +23,7 @@ content/02.introduction.md:10:somascan
 content/02.introduction.md:10:SomaScan
 content/02.introduction.md:11:nanopores
 content/02.introduction.md:11:proteomes
-content/02.introduction.md:12:edman
+content/02.introduction.md:12:Edman
 content/02.introduction.md:13:proteomics
 content/02.introduction.md:13:spectrometry
 content/02.introduction.md:15:biomolecules
@@ -53,7 +53,7 @@ content/02.introduction.md:33:trypsin
 content/02.introduction.md:34:proteome
 content/02.introduction.md:34:RPLC
 content/02.introduction.md:35:proteomics
-content/02.introduction.md:38:proteome
+content/02.introduction.md:37:proteome
 content/02.introduction.md:42:proteomics
 content/02.introduction.md:45:proteomics
 content/02.introduction.md:51:Proteolysis

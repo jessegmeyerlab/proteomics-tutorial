@@ -138,7 +138,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 cerebrospinal
@@ -165,10 +165,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
-colorimetric
-colorimetry
+Colorimetric
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -208,7 +208,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -223,7 +223,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -263,7 +263,7 @@ dynodes
 ECD
 ECnoD
 EDIF
-edman
+Edman
 edoud
 EDTA
 Egbert
@@ -303,7 +303,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -316,8 +316,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-FC
+fasta
+Fc
 FCCS
 FCS
 Fenn
@@ -342,7 +342,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -372,7 +372,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -382,14 +382,14 @@ glycoforms
 glycolic
 glycols
 glycopeptide
-glycopeptides
+Glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -444,7 +444,7 @@ hydroxymethyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 IEC
 IEF
@@ -481,7 +481,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -489,7 +489,7 @@ iProphet
 IRMPD
 iRT
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isogeneic
@@ -570,7 +570,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 Masson
 MassQC
 Mathieu
@@ -623,7 +623,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -667,7 +667,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-NorbertVolkmar
+norbertvolkmar
 NormalyzerDE
 novo
 Novor
@@ -692,7 +692,7 @@ onotology
 OpenMS
 operon
 Orbitrap
-Orbitraps
+orbitraps
 organismal
 orignal
 Ortholog
@@ -733,9 +733,9 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -746,7 +746,7 @@ PhosphoSitePlus
 phosphosites
 phosphotases
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -782,7 +782,7 @@ PRM
 Progenesis
 proline
 Pronase
-prot
+Prot
 protease
 proteases
 proteasome
@@ -798,7 +798,7 @@ proteome
 ProteomeDiscoverer
 proteomes
 Proteomic
-proteomics
+Proteomics
 ProtParam
 protti
 protXML
@@ -822,7 +822,7 @@ QIT
 QqLIT
 QqQ
 qRT
-QToF
+QTOF
 quadrupole
 quadrupoles
 Qual
@@ -869,7 +869,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -977,7 +977,7 @@ TMT
 TMTpro
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -987,11 +987,11 @@ transcriptional
 transcriptome
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
-trembl
+TrEMBL
 trentmpc
 triazine
 Tribrid
@@ -1000,7 +1000,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-Tris
+tris
 Tritirachium
 Trp
 trypsin
@@ -1029,7 +1029,7 @@ underivatized
 undirected
 unenriched
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
@@ -1037,7 +1037,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
