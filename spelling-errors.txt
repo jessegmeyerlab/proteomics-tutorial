@@ -35,7 +35,7 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -100,7 +100,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -165,7 +165,7 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 colorimetric
 colorimetry
@@ -188,8 +188,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
-Cryo
+crosslinking
+cryo
 cryogels
 crystalized
 crystallizable
@@ -208,7 +208,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -223,7 +223,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -239,11 +239,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -286,8 +286,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
-Ensembl
+enrichments
+ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -317,7 +317,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -364,7 +364,7 @@ GF
 GFF
 Gillet
 Gitter
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -372,7 +372,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -481,7 +481,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -490,7 +490,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -512,7 +512,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 Köcher
 Koichi
@@ -667,7 +667,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -739,19 +739,19 @@ phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
-Phosphoproteomics
+phosphoproteomics
 phosphorylated
 phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotases
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -772,7 +772,7 @@ polymerase
 polypeptide
 PomBase
 posthoc
-posttranslational
+Posttranslational
 PPI
 PPIs
 Pre
@@ -783,7 +783,7 @@ Progenesis
 proline
 Pronase
 prot
-Protease
+protease
 proteases
 proteasome
 Proteinase
@@ -820,9 +820,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
-QTOF
+QToF
 quadrupole
 quadrupoles
 Qual
@@ -846,7 +846,7 @@ Reactome
 recombinase
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -910,7 +910,7 @@ specificities
 specrtrometry
 SpectraST
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -976,8 +976,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-tof
-TOFs
+TOF
+ToFs
 Torr
 TPP
 TQ
@@ -991,7 +991,7 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -1016,7 +1016,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1029,7 +1029,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1037,7 +1037,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable

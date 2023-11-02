@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-02" />
   <meta name="citation_publication_date" content="2023-11-02" />
   <meta property="article:published_time" content="2023-11-02" />
-  <meta name="dc.modified" content="2023-11-02T14:51:45+00:00" />
-  <meta property="article:modified_time" content="2023-11-02T14:51:45+00:00" />
+  <meta name="dc.modified" content="2023-11-02T15:22:42+00:00" />
+  <meta property="article:modified_time" content="2023-11-02T15:22:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7033c7970581103ac75ecb714f88bd9d8cd370aa/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7033c7970581103ac75ecb714f88bd9d8cd370aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7033c7970581103ac75ecb714f88bd9d8cd370aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7033c7970581103ac75ecb714f88bd9d8cd370aa/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@6e509ad](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6e509ad69d4c2ab65e7a4697ea3dfb3dd7616b60)
+from [jessegmeyerlab/proteomics-tutorial@7033c79](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7033c7970581103ac75ecb714f88bd9d8cd370aa)
 on November 2, 2023.
 </em></small>
 
@@ -427,10 +427,9 @@ Proteomics is the large scale study of protein structure and function from biolo
 "Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptides that are analyzed by mass spectrometry.
 Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of proteoforms, protein-protein interactions, protein structural alterations, absolute and relative protein quantification, post-translational modifications, and protein stability. 
 To enable this range of different experiments, there are diverse strategies for proteome analysis. 
-The nuances of how proteomic workflows differ may be difficult to understand for new practitioners. 
-Here, we provide a comprehensive tutorial of different proteomics methods. 
-Our tutorial covers all necessary steps starting from protein extraction and ending with biological interpretation. 
-We expect that this work will serve as a basic resource for new practitioners of the field of shotgun or bottom-up proteomics. 
+The nuances of how proteomic workflows differ may be challenging to understand for new practitioners. 
+Here, we provide a comprehensive overview of different proteomics methods from biochemistry basics and protein extraction to biological interpretation and orthogonal validation. 
+We expect this work to serve as a basic resource for new practitioners in the field of shotgun or bottom-up proteomics. 
 
 
 ## Introduction {.page_break_before}
