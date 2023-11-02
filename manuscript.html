@@ -71,8 +71,8 @@
   <meta name="dc.date" content="2023-11-02" />
   <meta name="citation_publication_date" content="2023-11-02" />
   <meta property="article:published_time" content="2023-11-02" />
-  <meta name="dc.modified" content="2023-11-02T15:45:15+00:00" />
-  <meta property="article:modified_time" content="2023-11-02T15:45:15+00:00" />
+  <meta name="dc.modified" content="2023-11-02T16:08:49+00:00" />
+  <meta property="article:modified_time" content="2023-11-02T16:08:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -163,9 +163,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f85ca0c9f362127c50cdab1641cdbefc0b0deb6/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f85ca0c9f362127c50cdab1641cdbefc0b0deb6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f85ca0c9f362127c50cdab1641cdbefc0b0deb6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -182,9 +182,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e5f6b3ffa5361698f372d6134dc026741aabe872/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f85ca0c9f362127c50cdab1641cdbefc0b0deb6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e5f6b3ffa5361698f372d6134dc026741aabe872">jessegmeyerlab/proteomics-tutorial@e5f6b3f</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3f85ca0c9f362127c50cdab1641cdbefc0b0deb6">jessegmeyerlab/proteomics-tutorial@3f85ca0</a>
 on November 2, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -550,17 +550,17 @@ In these experiments, data should be collected from at least three biological re
 Depending on the experiment design, different statistical tests are used to calculate changes in measured protein abundances between groups.
 If there are only two groups, the quantities might be compared with a t-test or with a Wilcoxon signed-rank test.
 The latter is a non-parametric version of the t-test.
-If there are more than two sample groups, then often Analysis of Variance (ANOVA) is used instead.
+If there are more than two sample groups, then Analysis of Variance (ANOVA) is used instead.
 With either testing scheme, the p-values from the first set of tests must be corrected for multiple tests.
 A common method for p-value correction is the Benjamini-Hochberg method <span class="citation" data-cites="UeFCwwR7">[<a href="#ref-UeFCwwR7" role="doc-biblioref">49</a>]</span>.
 These types of experiments have revealed wide ranges of proteomic remodeling from various biological systems.</p>
 <h3 id="posttranslational-modifications-ptms">Posttranslational Modifications (PTMs)</h3>
-<p>Proteins may become decorated with various chemical moieties during or after translation <span class="citation" data-cites="yYHlJgbC">[<a href="#ref-yYHlJgbC" role="doc-biblioref">31</a>]</span>, or through proteolytic cleavage <span class="citation" data-cites="13Yxz6MsM">[<a href="#ref-13Yxz6MsM" role="doc-biblioref">50</a>]</span>.
-There are several proteomics methods that are developed specific to each type of modification.
+<p>Proteins may become decorated with various chemical modifications during or after translation <span class="citation" data-cites="yYHlJgbC">[<a href="#ref-yYHlJgbC" role="doc-biblioref">31</a>]</span>, or through proteolytic cleavage such as N-terminal methionine removal <span class="citation" data-cites="13Yxz6MsM">[<a href="#ref-13Yxz6MsM" role="doc-biblioref">50</a>]</span>.
+Several proteomics methods are available to detect and quantify each specific type of modification.
 See also the section on Protein/Peptide Enrichment and Depletion.</p>
 <h4 id="phosphoproteomics">Phosphoproteomics</h4>
-<p>Phosphoproteomics is the study of the phosphorylation of proteins, wherein a phosphate group is covalently attached to a protein side-chain (most commonly serine, threonine, or tyrosine).
-Currently, there are two techniques that are useful for phosphoproteomics: mass spectrometry and western blotting.
+<p>Phosphoproteomics is the study of protein phosphorylation, wherein a phosphate group is covalently attached to a protein side-chain (most commonly serine, threonine, or tyrosine).
+Although western blotting can measure one phosphorylation site at a time, mass spectrometry-based proteomics can measure thousands of sites from a sample at the same time.
 After proteolysis of the proteome, phosphopeptides need to be enriched to be detected by mass spectrometry.
 Various methods of enrichment have been developed <span class="citation" data-cites="E5n1UfBA N0xHE81w 4q5oxW6 1E7oJsvFz">[<a href="#ref-E5n1UfBA" role="doc-biblioref">51</a>,<a href="#ref-N0xHE81w" role="doc-biblioref">52</a>,<a href="#ref-4q5oxW6" role="doc-biblioref">53</a>,<a href="#ref-1E7oJsvFz" role="doc-biblioref">54</a>]</span>.<br />
 See the Peptide/Protein Enrichment and Depletion section for more details.
@@ -568,18 +568,18 @@ A key challenge of phosphoproteomics is sensitivity.
 It is important to ensure that there is sufficient amount of protein before completing a phosphoproteomics project as typical enrichment workflows may extract only ~1% of the proteome.
 Many phosphoproteomics workflows start with at least 1 mg of total protein per sample.
 Newer, more sensitive instrumentation is enabling detection of protein phosphosites from much less material, down to the nanogram-level of peptide loading on the the LC-MS system.
-Despite advancement in technology throughput the phosphoproteomics workflow, the following challenges still exist: limited sample amounts, highly complex samples, and wide dynamic range <span class="citation" data-cites="EiFGJCed">[<a href="#ref-EiFGJCed" role="doc-biblioref">55</a>]</span>.
+Despite advancement in phosphoproteomics technology, the following challenges still exist: limited sample amounts, highly complex samples, and wide dynamic range <span class="citation" data-cites="EiFGJCed">[<a href="#ref-EiFGJCed" role="doc-biblioref">55</a>]</span>.
 Additionally, phosphoproteomic analysis is often time-consuming and requires the use of expensive equipment such as enrichment kits.</p>
 <h4 id="glycoproteomics">Glycoproteomics</h4>
-<p>One PTM gaining interest due to its ubiquity and emerging functional roles is glycosylation.
+<p>Glycosylation is gaining interest due to its ubiquity and emerging functional roles.
 Protein glycosylation sites can be N-linked (asparagine-linked) or O-linked (serine/threonine-linked).
 Understanding the function of protein glycosylation will help us understand numerous biological processes since this is a universal protein modification across all domains of life, especially at the cell surface <span class="citation" data-cites="PNr94DXb MH9QSnbc nSDlzuSO buMJaA2S">[<a href="#ref-PNr94DXb" role="doc-biblioref">56</a>,<a href="#ref-MH9QSnbc" role="doc-biblioref">57</a>,<a href="#ref-nSDlzuSO" role="doc-biblioref">58</a>,<a href="#ref-buMJaA2S" role="doc-biblioref">59</a>]</span>.</p>
 <p>Studies of phosphorylation and glycosylation share several experimental pipeline steps including sample preparation.
 Protein clean-up approaches for glycoproteomics may differ from other proteomics experiments because glycopeptides are more hydrophilic than most peptides.
-Some approaches mentioned in literature include: filter-aided sample preparation (FASP), suspension traps (S-traps), and protein aggregation capture (PAC) <span class="citation" data-cites="PNr94DXb Iygi3cGd 1FU2NfVYY yO8bBfo8 7zlczgkb t0hz9mu6 VTprpeAT">[<a href="#ref-PNr94DXb" role="doc-biblioref">56</a>,<a href="#ref-Iygi3cGd" role="doc-biblioref">60</a>,<a href="#ref-1FU2NfVYY" role="doc-biblioref">61</a>,<a href="#ref-yO8bBfo8" role="doc-biblioref">62</a>,<a href="#ref-7zlczgkb" role="doc-biblioref">63</a>,<a href="#ref-t0hz9mu6" role="doc-biblioref">64</a>,<a href="#ref-VTprpeAT" role="doc-biblioref">65</a>]</span>.
+Some approaches mentioned in the literature include: filter-aided sample preparation (FASP), suspension traps (S-traps), and protein aggregation capture (PAC) <span class="citation" data-cites="PNr94DXb Iygi3cGd 1FU2NfVYY yO8bBfo8 7zlczgkb t0hz9mu6 VTprpeAT">[<a href="#ref-PNr94DXb" role="doc-biblioref">56</a>,<a href="#ref-Iygi3cGd" role="doc-biblioref">60</a>,<a href="#ref-1FU2NfVYY" role="doc-biblioref">61</a>,<a href="#ref-yO8bBfo8" role="doc-biblioref">62</a>,<a href="#ref-7zlczgkb" role="doc-biblioref">63</a>,<a href="#ref-t0hz9mu6" role="doc-biblioref">64</a>,<a href="#ref-VTprpeAT" role="doc-biblioref">65</a>]</span>.
 Multiple proteases may be used to increase the sequence coverage and detect more modification sites, such as: trypsin, chymotrypsin, Pepsin, WaLP/MaLP <span class="citation" data-cites="yeQvImXS">[<a href="#ref-yeQvImXS" role="doc-biblioref">66</a>]</span>, GluC, AspN, Pronase, Proteinase K, OgpA, StcEz, BT4244, AM0627, AM1514, AM0608, Pic, ZmpC, CpaA, IMPa, PNGase F, Endo F, Endo H, and OglyZOR <span class="citation" data-cites="PNr94DXb">[<a href="#ref-PNr94DXb" role="doc-biblioref">56</a>]</span>.
-Mass spectrometry has improved over the past decade so that now more strategies are available for glycoprotein structure elucidation and also for glycosylation site quantification <span class="citation" data-cites="PNr94DXb">[<a href="#ref-PNr94DXb" role="doc-biblioref">56</a>]</span>.
-See also section “AminoxyTMT Isobaric Mass Tags” for more on quantitative glycoproteomics.</p>
+Mass spectrometry has improved over the past decade, and now many strategies are available for glycoprotein structure elucidation and glycosylation site quantification <span class="citation" data-cites="PNr94DXb">[<a href="#ref-PNr94DXb" role="doc-biblioref">56</a>]</span>.
+See also the section on “AminoxyTMT Isobaric Mass Tags” as an example quantitative glycoproteomics method.</p>
 <h3 id="structural-techniques">Structural techniques</h3>
 <p>Several proteomics methods have been developed to reveal protein structure information for simple and complex systems.</p>
 <h4 id="cross-linking-mass-spectrometry-xl-ms">Cross-linking mass spectrometry (XL-MS)</h4>
@@ -596,16 +596,16 @@ XL-MS is different from traditional MS in that it requires the identification of
 6. Generate cross-link maps for structural modeling and visualization <span class="citation" data-cites="1F05pgVZ9 1EF7o7CB4">[<a href="#ref-1F05pgVZ9" role="doc-biblioref">76</a>,<a href="#ref-1EF7o7CB4" role="doc-biblioref">77</a>]</span>
 (optional: 7. Use detected cross-links for protein-protein docking <span class="citation" data-cites="RInMQu7q">[<a href="#ref-RInMQu7q" role="doc-biblioref">78</a>]</span>)</p>
 <h4 id="hydrogen-deuterium-exchange-mass-spectrometry-hdx-ms">Hydrogen deuterium exchange mass spectrometry (HDX-MS)</h4>
-<p>HDX-MS works by detecting changes in peptide mass due to exchange of amide hydrogens of the protein backbone is with deuterium from D<sub>2</sub>O <span class="citation" data-cites="1Dqlo9aRm">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>]</span>.
-The rate of exchange depends on the protein solvent accessible surface area, dynamics, and the properties of the amino acid sequence <span class="citation" data-cites="1Dqlo9aRm cZM0UPqp SZzVEJCj H647Pppu">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>,<a href="#ref-cZM0UPqp" role="doc-biblioref">80</a>,<a href="#ref-SZzVEJCj" role="doc-biblioref">81</a>,<a href="#ref-H647Pppu" role="doc-biblioref">82</a>]</span>.
-Although using D<sub>2</sub>O as a solvent to make deuterium labeled sample is simple, HDX-MS requires a number of controls to ensure that experimental conditions capture the dynamics of interest <span class="citation" data-cites="1Dqlo9aRm 1CHLgMzps 19wzQMZwm m2HWEBQZ">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>,<a href="#ref-1CHLgMzps" role="doc-biblioref">83</a>,<a href="#ref-19wzQMZwm" role="doc-biblioref">84</a>,<a href="#ref-m2HWEBQZ" role="doc-biblioref">85</a>]</span>.
+<p>HDX-MS works by detecting changes in peptide mass due to exchange of amide hydrogens of the protein backbone with deuterium from D<sub>2</sub>O <span class="citation" data-cites="1Dqlo9aRm">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>]</span>.
+The exchange rate depends on the protein solvent accessible surface area, dynamics, and the properties of the amino acid sequence <span class="citation" data-cites="1Dqlo9aRm cZM0UPqp SZzVEJCj H647Pppu">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>,<a href="#ref-cZM0UPqp" role="doc-biblioref">80</a>,<a href="#ref-SZzVEJCj" role="doc-biblioref">81</a>,<a href="#ref-H647Pppu" role="doc-biblioref">82</a>]</span>.
+Although using D<sub>2</sub>O to make deuterium-labeled samples is simple, HDX-MS requires several controls to ensure that experimental conditions capture the dynamics of interest <span class="citation" data-cites="1Dqlo9aRm 1CHLgMzps 19wzQMZwm m2HWEBQZ">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>,<a href="#ref-1CHLgMzps" role="doc-biblioref">83</a>,<a href="#ref-19wzQMZwm" role="doc-biblioref">84</a>,<a href="#ref-m2HWEBQZ" role="doc-biblioref">85</a>]</span>.
 If the peptide dissociation process is tuned appropriately, residue-level quantification of changes in solvent accessibility are possible within a measured peptide <span class="citation" data-cites="whtWKxfa">[<a href="#ref-whtWKxfa" role="doc-biblioref">86</a>]</span>.
 HDX can produce precise protein structure measurements with high reproducibility.
-Masson <em>et al.</em> gave recommendations on how to prep samples, conduct data analysis, and present findings in a detailed stepwise manner that will be useful to have if you are new to using this technique <span class="citation" data-cites="1Dqlo9aRm">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>]</span>.</p>
+Masson <em>et al.</em> gave recommendations on how to prep samples, conduct data analysis, and present findings in a detailed stepwise manner <span class="citation" data-cites="1Dqlo9aRm">[<a href="#ref-1Dqlo9aRm" role="doc-biblioref">79</a>]</span>.</p>
 <h4 id="radical-footprinting">Radical Footprinting</h4>
-<p>This technique uses hydroxyl radical footprinting and MS in order to elucidate protein structures, assembly, and interactions within a large macromolecule <span class="citation" data-cites="17FfyYJKn dyFOYdP5">[<a href="#ref-17FfyYJKn" role="doc-biblioref">87</a>,<a href="#ref-dyFOYdP5" role="doc-biblioref">88</a>]</span>.
+<p>This technique uses hydroxyl radical footprinting and MS to elucidate protein structures, assembly, and interactions within a large macromolecule <span class="citation" data-cites="17FfyYJKn dyFOYdP5">[<a href="#ref-17FfyYJKn" role="doc-biblioref">87</a>,<a href="#ref-dyFOYdP5" role="doc-biblioref">88</a>]</span>.
 In addition to proteomics applications, various approaches to make hydroxide radicals have also been applied for footprinting studies in nucleic acid/ligand interactions <span class="citation" data-cites="8tWrfuT2 b8XE9cl8 14ACSyAnR">[<a href="#ref-8tWrfuT2" role="doc-biblioref">89</a>,<a href="#ref-b8XE9cl8" role="doc-biblioref">90</a>,<a href="#ref-14ACSyAnR" role="doc-biblioref">91</a>]</span>.
-This chapter is very useful in learning more on this topic <span class="citation" data-cites="muDfX3XR">[<a href="#ref-muDfX3XR" role="doc-biblioref">92</a>]</span>.</p>
+This chapter is very useful in learning more about this topic: <span class="citation" data-cites="muDfX3XR">[<a href="#ref-muDfX3XR" role="doc-biblioref">92</a>]</span>.</p>
 <p>There are several methods of producing radicals for protein footprinting:<br />
 1. Fenton and Fenton‐like Chemistry <span class="citation" data-cites="17FfyYJKn zy4wero bAhX0GGr">[<a href="#ref-17FfyYJKn" role="doc-biblioref">87</a>,<a href="#ref-zy4wero" role="doc-biblioref">93</a>,<a href="#ref-bAhX0GGr" role="doc-biblioref">94</a>]</span><br />
 2. Electron-Pulse Radiolysis <span class="citation" data-cites="17FfyYJKn GyzG2odq">[<a href="#ref-17FfyYJKn" role="doc-biblioref">87</a>,<a href="#ref-GyzG2odq" role="doc-biblioref">95</a>]</span><br />
@@ -618,14 +618,14 @@ This chapter is very useful in learning more on this topic <span class="citation
 In FPOP, a laser-based hydroxyl radical protein footprinting MS method that relies on the irreversible labeling of solvent-exposed amino acid side chains by hydroxyl radicals in order to understand structure of proteins.
 A laser produces 248 nm light that causes hydrogen peroxide to break into a pair of hydroxyl radicals <span class="citation" data-cites="pFnbzp8Y cMJbHB1a">[<a href="#ref-pFnbzp8Y" role="doc-biblioref">99</a>,<a href="#ref-cMJbHB1a" role="doc-biblioref">101</a>]</span>.
 The flow rate of solution through the capillary and laser frequency are adjusted such that each protein molecule is irradiated only once.
-After they are irradiated, the sample is collected to a tube that contins catalase and free methionine in the buffer, quenching the H2O2 and hydroxyl radical and preventing further unwarranted oxidation.
+After they are irradiated, the sample is collected in a tube that contins catalase and free methionine in the buffer, quenching the H2O2 and hydroxyl radicals and preventing secondary modification of residues that become exposed due to unfolding after the initial labeling.
 Control samples are made by running the sample through the flow system without any irradiation.
 Another experimental control involves the addition of a radical scavenger to tune the extent of protein oxidation <span class="citation" data-cites="LgS9wDAM sqSJTywu">[<a href="#ref-LgS9wDAM" role="doc-biblioref">102</a>,<a href="#ref-sqSJTywu" role="doc-biblioref">103</a>]</span>.
 FPOP has wide application for proteins including measurements of fast protein folding and transient dynamics.</p>
 <h4 id="protein-painting-doi10.1038ncomms5413-doi10.1074jbc.ra118.007310">Protein Painting <span class="citation" data-cites="sZQji0TC 17xQ2aw0Q">[<a href="#ref-sZQji0TC" role="doc-biblioref">104</a>,<a href="#ref-17xQ2aw0Q" role="doc-biblioref">105</a>]</span></h4>
-<p>Protein painting uses “molecular paints” to noncovalently coat the solvent accessible surface of proteins.
+<p>Protein painting uses “molecular paints” to noncovalently coat the solvent-accessible surface of proteins.
 These paint molecules will coat the protein surfaces but will not have access to the hydrophobic cores or protein-protein interface regions that solvents cannot access.
-If the “paint” covers free amines of lysine side chains, the parts that are painted will not be subjected to trypsin cleavage, while the unpainted areas will.
+If the “paint” covers free amines of lysine side chains, the painted parts will not be subjected to trypsin cleavage, while the unpainted areas will.
 After proteolysis, the peptides samples will be subjected to MS.
 A lack of proteolysis in a region is interpreted as solvent accessibility, which gives rough structural information about complex protein mixtures or even a whole proteome.</p>
 <h4 id="lip-ms-limited-proteolysis-mass-spectrometry-doi10.1016j.tibs.2020.05.006-doi10.1038nprot.2017.100-doi10.1038s41596-022-00771-x-doi10.1038nprot.2017.100">LiP-MS (Limited Proteolysis Mass Spectrometry) <span class="citation" data-cites="gdTpkDDu xTQMmTt5 6IZfi1O xTQMmTt5">[<a href="#ref-gdTpkDDu" role="doc-biblioref">106</a>,<a href="#ref-xTQMmTt5" role="doc-biblioref">107</a>,<a href="#ref-xTQMmTt5" role="doc-biblioref">107</a>,<a href="#ref-6IZfi1O" role="doc-biblioref">108</a>]</span></h4>
@@ -646,24 +646,24 @@ The assay is capable of detecting shifts in the thermal equilibrium of cellular 
 <p>Thermal proteome profiling (TPP) follows the same principle as CETSA, but has been extended to use an unbiased mass spectrometry readout of many proteins.
 By measuring changes in thermal stability of thousands of proteins, binding to an unknown or unexpected protein can be discovered.
 During a typical TPP experiment, a protein sample is first treated with a drug of interest to stabilize protein-ligand interactions.
-The sample is then divided into multiple aliquots, which are subjected to different temperatures in order to induce thermal denaturation.
+The sample is then divided into multiple aliquots, which are subjected to different temperatures to induce thermal denaturation.
 The resulting drug-induced changes in protein stability curves are detected using mass spectrometry.
 By comparing protein stability curves across the temperatures between treatment conditions, TPP can provide insight into the proteins that bind a ligand.</p>
 <h3 id="protein-protein-interactions-ppis">Protein-protein interactions (PPIs)</h3>
 <h4 id="affinity-purification-coupled-to-mass-spectrometry-ap-ms-doi10.1002iub.1081-doi10.1038nrg3356-doi10.1038nmeth.2400">Affinity purification coupled to mass spectrometry (AP-MS) <span class="citation" data-cites="ieBDHPPg DORXXewQ 1BsZO9WFn">[<a href="#ref-ieBDHPPg" role="doc-biblioref">117</a>,<a href="#ref-DORXXewQ" role="doc-biblioref">118</a>,<a href="#ref-1BsZO9WFn" role="doc-biblioref">119</a>]</span></h4>
-<p>AP-MS is an approach that involves the purification of a target protein or protein complex using a specific antibody followed by mass spectrometry analysis to identify the interacting proteins.
+<p>AP-MS is an approach that involves purification of a target protein or protein complex using a specific antibody followed by mass spectrometry analysis to identify the interacting proteins.
 In a typical AP-MS experiment, a protein or protein complex of interest is first tagged with a specific epitope or affinity tag, such as a FLAG or HA tag, which is used to selectively capture the target protein using an antibody.
 The protein complex is then purified from the sample using a series of wash steps, and the interacting proteins are identified using mass spectrometry.
-The success of AP-MS experiments depends on a number of factors, including the quality of the antibody or tag used for purification, the specificity and efficiency of the resin used for capture, and the sensitivity and resolution of the mass spectrometer.
-In addition, careful experimental design and data analysis are critical for accurate identification and interpretation of protein-protein interactions.
+The success of AP-MS experiments depends on many factors, including the quality of the antibody or tag used for purification, the specificity and efficiency of the resin used for capture, and the sensitivity and resolution of the mass spectrometer.
+In addition, careful experimental design and data analysis are critical for accurately identifying and interpreting protein-protein interactions.
 AP-MS has been used to study a wide range of biological processes, including signal transduction pathways, protein complex dynamics, and protein post-translational modifications.
 AP-MS has been performed on a whole proteome scale as part of the BioPlex project <span class="citation" data-cites="yeZfXPV6 m46yvHfn VMc1jEkd">[<a href="#ref-yeZfXPV6" role="doc-biblioref">120</a>,<a href="#ref-m46yvHfn" role="doc-biblioref">121</a>,<a href="#ref-VMc1jEkd" role="doc-biblioref">122</a>]</span>.
-Despite its widespread use, AP-MS has some limitations, including the potential for non-specific interactions, the difficulty in interpreting complex data sets, and the possibility of missing important interacting partners due to limitations in sensitivity or specificity.
-However, with continued advances in technology and data analysis methods, AP-MS is likely to remain a valuable tool for the study of protein-protein interactions.</p>
+Despite its widespread use, AP-MS has some limitations, including the potential for non-specific interactions, the difficulty in interpreting complex data sets, and the possibility of missing important interacting partners due to constraints in sensitivity or specificity.
+However, with continued advances in technology and data analysis methods, AP-MS is likely to remain a valuable tool for studying protein-protein interactions.</p>
 <h4 id="apex-peroxidase-doi10.1038nbt.2375-doi10.1126science.1230593">APEX peroxidase <span class="citation" data-cites="LkwAXvyl 1BbkEbfDz">[<a href="#ref-LkwAXvyl" role="doc-biblioref">123</a>,<a href="#ref-1BbkEbfDz" role="doc-biblioref">124</a>]</span></h4>
 <p>APEX-MS is a labeling technique that utilizes a peroxidase genetically fused to a protein of interest.
 When biotin-phenol is transiently added in the presence of hydrogen peroxide, nearby proteins are covalently biotinylated <span class="citation" data-cites="D5NLgmhd">[<a href="#ref-D5NLgmhd" role="doc-biblioref">125</a>]</span>.
-APEX thereby enables discovery of interacting proteins in living cells.
+APEX thereby enables the discovery of interacting proteins in living cells.
 One of the major advantages of APEX is its ability to label proteins in their native environment, allowing for the identification of interactions that occur under physiological conditions.
 Despite its advantages, APEX has some limitations, including the potential for non-specific labeling, the difficulty in distinguishing between direct and indirect interactions, and the possibility of missing interactions that occur at low abundance or in regions of the cell that are not effectively labeled.</p>
 <h4 id="proximity-dependent-biotin-identification-bioid-doi10.1083jcb.201112098-doi10.1074mcp.r120.001941-doi10.1002pmic.201600123-doi10.1091mbc.e15-12-0844">Proximity-dependent biotin identification (BioID) <span class="citation" data-cites="zSgLeSta NFFhvScy 1FVEjFnHE jJJVaczi">[<a href="#ref-zSgLeSta" role="doc-biblioref">126</a>,<a href="#ref-NFFhvScy" role="doc-biblioref">127</a>,<a href="#ref-1FVEjFnHE" role="doc-biblioref">128</a>,<a href="#ref-jJJVaczi" role="doc-biblioref">129</a>]</span></h4>
