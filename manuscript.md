@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-02'
+date-meta: '2023-11-06'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -14,8 +14,8 @@ author-meta:
 - Germán L. Rosano
 - Norbert Volkmar
 - Amanda Momenzadeh
-- Susan B. Egbert
 - Trenton M. Peters-Clarke
+- Susan B. Egbert
 - Simion Kreimer
 - Emma H. Doud
 - Oliver M. Crook
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-11-02" />
-  <meta name="citation_publication_date" content="2023-11-02" />
-  <meta property="article:published_time" content="2023-11-02" />
-  <meta name="dc.modified" content="2023-11-02T16:21:16+00:00" />
-  <meta property="article:modified_time" content="2023-11-02T16:21:16+00:00" />
+  <meta name="dc.date" content="2023-11-06" />
+  <meta name="citation_publication_date" content="2023-11-06" />
+  <meta property="article:published_time" content="2023-11-06" />
+  <meta name="dc.modified" content="2023-11-06T18:55:17+00:00" />
+  <meta property="article:modified_time" content="2023-11-06T18:55:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -77,14 +77,14 @@ header-includes: |
   <meta name="citation_author" content="Amanda Momenzadeh" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center, Los Angeles, California, USA" />
   <meta name="citation_author_orcid" content="0000-0002-8614-0690" />
-  <meta name="citation_author" content="Susan B. Egbert" />
-  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
-  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
-  <meta name="twitter:creator" content="@lichenlady94" />
   <meta name="citation_author" content="Trenton M. Peters-Clarke" />
   <meta name="citation_author_institution" content="Department of Pharmaceutical Chemistry, University of California-San Francisco" />
   <meta name="citation_author_orcid" content="0000-0002-9153-2525" />
   <meta name="twitter:creator" content="@trentmpc" />
+  <meta name="citation_author" content="Susan B. Egbert" />
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Manitoba, Winnipeg, Cananda" />
+  <meta name="citation_author_orcid" content="0000-0001-5458-1099" />
+  <meta name="twitter:creator" content="@lichenlady94" />
   <meta name="citation_author" content="Simion Kreimer" />
   <meta name="citation_author_institution" content="Smidt Heart Institute, Cedars Sinai Medical Center" />
   <meta name="citation_author_institution" content="Advanced Clinical Biosystems Research Institute, Cedars Sinai Medical Center" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/aade522862af2629be17173dab4f874531a5f17e/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/aade522862af2629be17173dab4f874531a5f17e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/aade522862af2629be17173dab4f874531a5f17e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/aade522862af2629be17173dab4f874531a5f17e/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@aade522](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/aade522862af2629be17173dab4f874531a5f17e)
-on November 2, 2023.
+from [jessegmeyerlab/proteomics-tutorial@a530e15](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/a530e1563ef00569c36f9cc225aefd2327c420a9)
+on November 6, 2023.
 </em></small>
 
 
@@ -259,19 +259,6 @@ on November 2, 2023.
      Department of Computational Biomedicine, Cedars Sinai Medical Center, Los Angeles, California, USA
   </small>
 
-+ **Susan B. Egbert**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://github.com/lichenlady94)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [lichenlady94](https://twitter.com/lichenlady94)
-    <br>
-  <small>
-     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
-  </small>
-
 + **Trenton M. Peters-Clarke**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -283,6 +270,19 @@ on November 2, 2023.
     <br>
   <small>
      Department of Pharmaceutical Chemistry, University of California-San Francisco
+  </small>
+
++ **Susan B. Egbert**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5458-1099](https://orcid.org/0000-0001-5458-1099)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [lichenlady94](https://github.com/lichenlady94)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [lichenlady94](https://twitter.com/lichenlady94)
+    <br>
+  <small>
+     Department of Chemistry, University of Manitoba, Winnipeg, Cananda
   </small>
 
 + **Simion Kreimer**

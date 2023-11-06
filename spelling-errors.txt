@@ -29,13 +29,13 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
+Aminoxy
 AminoxyTMT
 Amit
 ammoniums
@@ -78,7 +78,7 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
-betweenness
+Betweenness
 bicinchoninic
 Biemann
 bioanalytical
@@ -100,7 +100,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -138,7 +138,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 cerebrospinal
@@ -155,7 +155,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -165,10 +165,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 colorimetric
-Colorimetry
+colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -208,7 +208,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -223,7 +223,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -286,8 +286,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
-ensembl
+Enrichments
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -303,7 +303,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -316,8 +316,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-Fc
+fasta
+FC
 FCCS
 FCS
 Fenn
@@ -338,7 +338,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -385,7 +385,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -443,7 +443,7 @@ hydroxymethyl
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 IEC
 IEF
@@ -480,7 +480,7 @@ interpretability
 interspaced
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -489,7 +489,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -511,7 +511,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 Köcher
 Koichi
@@ -604,7 +604,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 micropipette
@@ -622,7 +622,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -666,7 +666,7 @@ nonenzymatic
 nonlinearity
 nonoptimal
 nonparametric
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -738,7 +738,7 @@ Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
-phosphoproteomics
+Phosphoproteomics
 phosphorylated
 phosphosite
 PhosphoSitePlus
@@ -770,7 +770,7 @@ polymerase
 polypeptide
 PomBase
 posthoc
-posttranslational
+Posttranslational
 PPI
 PPIs
 pre
@@ -781,7 +781,7 @@ Progenesis
 proline
 Pronase
 Prot
-Protease
+protease
 proteases
 proteasome
 Proteinase
@@ -792,7 +792,7 @@ proteoforms
 proteoglycans
 Proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 Proteomic
@@ -820,7 +820,7 @@ QIT
 QqLIT
 QqQ
 qRT
-QTOF
+QToF
 quadrupole
 quadrupoles
 Qual
@@ -844,7 +844,7 @@ Reactome
 recombinase
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -867,7 +867,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -908,7 +908,7 @@ specificities
 specrtrometry
 SpectraST
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -974,8 +974,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-TOF
-ToFs
+tof
+TOFs
 Torr
 TPP
 TQ
@@ -989,7 +989,7 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -998,9 +998,9 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-Tris
+tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
@@ -1027,7 +1027,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
