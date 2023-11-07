@@ -159,7 +159,11 @@ authors:
     orcid: 0000-0002-3216-9447
     twitter: r_l_moritz
     email: rmoritz@systemsbiology.org
-    affiliations: Institute for Systems biology, Seattle, WA, USA, 98109
+    affiliations: 
+      - Institute for Systems biology, Seattle, WA, USA, 98109
+    funders: 
+      - National Institutes of Health Grants R01GM087221, R24GM127667, U19AG023122, S10OD026936
+      - National Science Foundation Award 1920268
   
   - github: agduboff
     name: Anna G. Duboff
@@ -180,7 +184,7 @@ authors:
     affiliations:
       - Department of Chemistry, University of Washington
     funders:
-      - Grant R00 GM147304
+      - National Institutes of Health Grant R00 GM147304
 
   - github: jessegmeyerlab
     name: Jesse G. Meyer
@@ -191,8 +195,8 @@ authors:
     affiliations:
       - Department of Computational Biomedicine, Cedars Sinai Medical Center
     funders:
-      - Grant R21 AG074234
-      - Grant R35 GM142502
+      - National Institutes of Health Grant R21 AG074234
+      - National Institutes of Health Grant R35 GM142502
     coi:
       string: "None"
       lastapproved:  !!str 2022-01-16
