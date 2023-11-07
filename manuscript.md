@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T15:59:50+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T15:59:50+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:14:24+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:14:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b7f85d7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b7f85d72aaf9d287657c497d9dbac5eda531bb16)
+from [jessegmeyerlab/proteomics-tutorial@e0b0631](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e0b06316e75e2e5922eec8ffd64d653e9c06e363)
 on November 7, 2023.
 </em></small>
 
@@ -424,59 +424,59 @@ on November 7, 2023.
 
 ## Abstract {.page_break_before}
 
-Proteomics is the large scale study of protein structure and function from biological systems through protein identification and quantification.  
+Proteomics is the large scale study of protein structure and function from biological systems through protein identification and quantification.
 "Shotgun proteomics" or "bottom-up proteomics" is the prevailing strategy, in which proteins are hydrolyzed into peptides that are analyzed by mass spectrometry.
 Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of proteoforms, protein-protein interactions, protein structural alterations, absolute and relative protein quantification, post-translational modifications, and protein stability. 
 To enable this range of different experiments, there are diverse strategies for proteome analysis. 
 The nuances of how proteomic workflows differ may be challenging to understand for new practitioners. 
-Here, we provide a comprehensive overview of different proteomics methods from biochemistry basics and protein extraction to biological interpretation and orthogonal validation. 
+Here, we provide a comprehensive overview of different proteomics methods to aid the novice and experienced researcher. We cover from biochemistry basics and protein extraction to biological interpretation and orthogonal validation. 
 We expect this work to serve as a basic resource for new practitioners in the field of shotgun or bottom-up proteomics. 
 
 
 ## Introduction {.page_break_before}
 
 Proteomics is the large-scale study of protein structure and function. 
-Proteins are translated from messenger RNA (mRNA) transcripts that are transcribed from the genome. 
+Proteins are translated from messenger RNA (mRNA) transcripts that are transcribed from the complementary DNA-based genome. 
 Although the genome encodes potential cellular functions and states, the study of proteins in all their forms is necessary to truly understand biology. 
 
 Currently, proteomics can be performed with various methods. 
 Mass spectrometry has emerged within the past few decades as the premier tool for comprehensive proteome analysis.
 The ability of mass spectrometry (MS) to detect charged chemicals enables the identification of peptide sequences and modifications for diverse biological investigations.
-Alternative (commercial) methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely [SomaScan](https://somalogic.com/somascan-platform/https://somalogic.com/somascan-platform/) and [Olink](https://olink.com/). 
-There are also nascent methods, such as nanopores, that are under development and not yet applicable to whole proteomes [@DOI:10.1038/s41565-023-01462-8; @DOI:10.1021/jacs.2c13465; @DOI:10.1038/nnano.2016.267; @DOI:10.1021/jacs.1c11758].
+Alternative (commercial) methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely [Olink](https://olink.com/) and [SomaScan](https://somalogic.com/somascan-platform/https://somalogic.com/somascan-platform/). 
+There are also nascent methods that are either recently commercialized or still under development and not yet applicable to whole proteomes, such as motif scanning using antibodies, variants of N-terminal degradation, and nanopores [@DOI:10.1038/s41565-023-01462-8; @DOI:10.1021/jacs.2c13465; @DOI:10.1038/nnano.2016.267; @DOI:10.1021/jacs.1c11758].
 Another approach uses parallel immobilization of peptides with total internal reflection microscopy and sequential Edman degradation [@DOI:10.1038/nbt.4278].
 However, by far the most common method for proteomics is based on mass spectrometry coupled to liquid chromatography (LC).
 
-Modern proteomics emerged in the late 1980s with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315; @DOI:10.1002/rcm.1290020802]. 
+Modern proteomics had its roots in the early 1980s with the analysis of peptides by mass spectrometry and low efficiency ion sources, but started ramping up around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, efficient transfer of large biomolecules into the gas phase without destroying them [@DOI:10.1126/science.2675315; @DOI:10.1002/rcm.1290020802]. 
 Shortly afterward, the first computer algorithm for matching peptides to a database was introduced [@PMID:24226387]. 
 Another major milestone that allowed identification of over 1,000 proteins were improvements to chromatography upstream of MS anlaysis [@DOI:10.1021/ac010617e]. 
 As the volume of data exploded, methods for statistical analysis transitioned from the wild west of ad hoc empirical analysis to modern informatics based on statistical models [@DOI:10.1021/ac0341261] and false discovery rate [@DOI:10.1038/nmeth1019]. 
 <!-- Todo: figure 1: major milestones in proteomics technology since 1990 -->
 
-Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are cleaved into peptides before analysis: "top-down" and "bottom-up". 
+Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are analyzed as a whole chain or cleaved into peptides before analysis: "top-down" versus "bottom-up". 
 Bottom-up proteomics (also refered to as shotgun proteomics) is defined by the intentional hydrolysis of proteins into peptide pieces using enzymes called proteases [@DOI:10.1038/nature19949]. 
-Therefore, bottom-up proteomics does not actually measure proteins, but must infer protein presence and abundance from identified peptides [@DOI:10.1021/ac0341261]. 
+Therefore, bottom-up proteomics does not actually measure proteins, but instead infers protein presence and abundance from identified peptides [@DOI:10.1021/ac0341261]. 
 Sometimes, proteins are inferred from only one peptide sequence representing a small fraction of the total protein sequence predicted from the genome. 
 In contrast, top-down proteomics attempts to measure intact proteins [@DOI:10.1021/ja973655h; @DOI:10.1038/nmeth.2369; @DOI:10.1021/ac0415657; @DOI:10.1039/C9MO00154A]. 
-The potential benefit of top-down proteomics is the ability to measure proteoforms [@DOI:10.1038/nmeth.2369; @DOI:10.1126/science.aat1884; @DOI:10.1038/nchembio.2576]. 
-However, due to myriad analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is generally less than that of bottom-up proteomics [@DOI:10.1021/acs.analchem.7b04747]. 
+The potential benefit of top-down proteomics is the ability to measure the many varied proteoforms [@DOI:10.1038/nmeth.2369; @DOI:10.1126/science.aat1884; @DOI:10.1038/nchembio.2576]. 
+However, due to myriad analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is considerably less than that of bottom-up proteomics [@DOI:10.1021/acs.analchem.7b04747]. 
 
 In this tutorial we focus on the bottom-up proteomics workflow. 
 The most common version of this workflow is generally comprised of the following steps. 
 First, proteins in a biological sample must be extracted. 
 Usually this is achieved by mechanically lysing cells or tissue while denaturing and solubilizing the proteins and disrupting DNA to minimize interference in analysis procedures. 
 Next, proteins are hydrolyzed into peptides, most often using the protease trypsin, which generates peptides with basic C-terminal amino acids (arginine and lysine) to aid in fragment ion series production during tandem mass spectrometry (MS/MS). 
-Peptides from proteome hydrolysis must be purified; this is often accomplished with reversed-phase liquid chromatography (RPLC) cartridges or tips. 
-The peptides are then almost always separated by LC before they are ionized and introduced into a mass spectrometer, although recent reports also describe LC-free proteomics by direct infusion [@DOI:10.1038/s41592-020-00999-z; @DOI:10.1021/acs.analchem.2c02249; @DOI:10.1101/2023.06.26.546628]. 
+Peptides can also be generated by chemical reactions that induce residue specific hydrolysis, such as cyanogen bromide that cleaves after methionine.
+Peptides from proteome hydrolysis must be purified; this is often accomplished with reversed-phase liquid chromatography (RPLC) cartridges or tips to remove interfering molecules in the sample such as salts and buffers. 
+The peptides are then almost always separated by reversed-phase LC before they are ionized and introduced into a mass spectrometer, although recent reports also describe LC-free proteomics by direct infusion [@DOI:10.1038/s41592-020-00999-z; @DOI:10.1021/acs.analchem.2c02249; @DOI:10.1101/2023.06.26.546628]. 
 The mass spectrometer then collects precursor and fragment ion data from those peptides.
 Peptides must be identified from the tandem mass spectra, protein groups are inferred from a proteome database, and then quantitative values are assigned. 
 Changes in protein abundances across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.
 Data interpretation is the rate limiting step; data collected in less than one week can take months or years to understand. 
 
 There are many variations to this workflow. 
-The diversity of experimental goals that are achievable with proteomics technology drives a wide variety of workflows. 
-Every choice is important, from instrument procurement to choice of data processing software and everything in between. 
-Each choice affects the results. 
+The diversity of experimental goals that are achievable with proteomics technology drives an expansive array of workflows. 
+Every choice is important as every choice will affect the results, from instrument procurement to choice of data processing software and everything in between. 
 In this tutorial, we detail all the required steps to serve as a comprehensive overview for new proteomics practitioners. 
 There are 16 sections in total:
 
