@@ -29,7 +29,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
@@ -78,7 +78,9 @@ Benchmarking
 benchtop
 Benjamini
 benzonase
+Bertin
 betweenness
+Beynon
 bicinchoninic
 Biemann
 bioanalytical
@@ -100,7 +102,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -138,7 +140,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -165,10 +167,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -188,8 +190,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
-cryo
+Crosslinking
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -209,7 +211,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -224,7 +226,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -240,11 +242,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -288,12 +290,12 @@ endopeptidase
 endoplasmic
 Enke
 Enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -339,10 +341,10 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -372,7 +374,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -389,7 +391,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -445,7 +447,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 IEC
 IEF
@@ -490,8 +492,8 @@ iProphet
 IRMPD
 iRT
 isocratic
-isoelectric
-isoform
+Isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -513,7 +515,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 Köcher
 Koichi
@@ -571,7 +573,8 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
+MaSDeS
 Masson
 MassQC
 Mathieu
@@ -624,7 +627,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -776,7 +779,8 @@ posttranslational
 PPI
 PPIs
 pre
-Prefractionation
+Precellys
+prefractionation
 preprocessing
 PRM
 Progenesis
@@ -792,12 +796,12 @@ ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
-proteome
+Proteome
 ProteomeDiscoverer
 proteomes
-proteomic
+Proteomic
 proteomics
 ProtParam
 protti
@@ -820,7 +824,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QTOF
 quadrupole
@@ -846,9 +850,9 @@ REACTOME
 recombinase
 refered
 reflectron
-refseq
+RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
@@ -869,7 +873,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -977,7 +981,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -991,7 +995,7 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -1000,7 +1004,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 tripleTOF
-Tris
+tris
 Tritirachium
 Trp
 trypsin
@@ -1016,7 +1020,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1029,7 +1033,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1037,7 +1041,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
