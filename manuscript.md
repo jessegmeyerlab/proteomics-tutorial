@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:20:44+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:20:44+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:24:36+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:24:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d806cc94fb7e8d4677607f7c76c6f47768938cdd/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d806cc94fb7e8d4677607f7c76c6f47768938cdd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/d806cc94fb7e8d4677607f7c76c6f47768938cdd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/d806cc94fb7e8d4677607f7c76c6f47768938cdd/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@4b99e86](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/4b99e861119999d869c0bbade9250b1395040806)
+from [jessegmeyerlab/proteomics-tutorial@d806cc9](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/d806cc94fb7e8d4677607f7c76c6f47768938cdd)
 on November 7, 2023.
 </em></small>
 
@@ -579,10 +579,11 @@ With either testing scheme, the p-values from the first set of tests must be cor
 A common method for p-value correction is the Benjamini-Hochberg method [@DOI:10.1111/j.2517-6161.1995.tb02031.x]. 
 These types of experiments have revealed wide ranges of proteomic remodeling from various biological systems. 
 
-### Posttranslational Modifications (PTMs)
+### PTMs
 Proteins may become decorated with various chemical modifications during or after translation [@DOI:10.1042/BCJ20220251], or through proteolytic cleavage such as N-terminal methionine removal [@DOI:10.1016/j.cbpa.2009.07.026]. 
 Several proteomics methods are available to detect and quantify each specific type of modification. 
 See also the section on Protein/Peptide Enrichment and Depletion.
+For a good online resource listing potential modifications, sites of attachment, and their mass differences, the website www.unimod.org is an excellent curated and freely accessible database.
 
 #### Phosphoproteomics
 Phosphoproteomics is the study of protein phosphorylation, wherein a phosphate group is covalently attached to a protein side-chain (most commonly serine, threonine, or tyrosine). 
@@ -623,7 +624,7 @@ The common steps in a XL-MS workflow are as follows [@DOI:10.1021/acs.analchem.7
 2. Add a cross-linking reagent to covalently connect adjacent protein regions (such as disuccinimidyl sulfoxide, DSSO) [@doi:10.1021/jasms.9b00085]  
 3. Proteolysis to produce peptides  
 4. MS/MS data collection  
-5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099], KOJAK [@PMID:25812159; @PMID:36629399], xQuest [@doi:10.1038/nmeth.1192], XlinkX [@doi:doi.org/10.1038/nmeth.3603])  
+5. Identify cross-linked peptide pairs using special software (i.e. pLink [@DOI:10.1038/nmeth.2099], Kojak [@PMID:25812159; @PMID:36629399], xQuest [@doi:10.1038/nmeth.1192], XlinkX [@doi:doi.org/10.1038/nmeth.3603])  
 6. Generate cross-link maps for structural modeling and visualization [@PMID:27302480; @PMID:30525651]
 (optional: 7. Use detected cross-links for protein-protein docking [@doi:10.1021/ja026939x])
 
