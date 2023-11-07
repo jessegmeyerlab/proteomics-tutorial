@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:44:57+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:44:57+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:59:32+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:59:32+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@7b73b65](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e)
+from [jessegmeyerlab/proteomics-tutorial@b512483](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b5124833058b4fc6ac0e1d33d06508ff520a7e61)
 on November 7, 2023.
 </em></small>
 
@@ -1399,7 +1399,7 @@ Furthermore, at a high FWHM, high abundance species mask analytes through ion su
 
 #### Peak Capacity
 
-Peak capacity is the number of peaks detectable over the analytical separation. 
+Peak capacity is defined as the maximal number of peaks that ideally can be completely resolved in a pre-established time window. 
 A long separation in which FWHM remains low would have a large peak capacity and thus allow identification of many species. 
 Unfortunately increasing the length of a reversed phase gradient also increases the FWHM due to an increase in diffusion, which results in a diminishing return for longer analytical methods. 
 A longer separation provides more time and opportunities for the mass spectrometer to sample each analyte to acquire fragmentation spectra required for identification and the selection of gradient length should consider both the desired throughput and the speed of the MS data acquisition strategy.
@@ -1409,8 +1409,9 @@ Reproducibility is defined as the ability to repeatedly obtain the same measurem
 In liquid chromatography this means that each analyte should elute at nearly the same retention time (the time elapsed since the start of the analysis until the analyte’s elution from the chromatographic column) with the same peak width. 
 Robustness is the ability of the system to maintain reproducible performance despite nonoptimal conditions. 
 The most typical obstacles to robustness are mechanical wear of the system components and the analytical column, fouling of the system by contaminants introduced in the samples, and clogging due to accumulation of contaminants. 
-High flow methods tend to be more robust due to reduced impact of changes in dwell volumes, and the wider bore of the components used is more resilient to clogging. 
-However, higher flowrate comes at the cost of reduced ionization efficiency and sensitivity, thus nanoflow (100-300 nL/min flowrate) chromatography remains a widely utilized strategy in proteomics.
+High flow methods tend to be more robust due to reduced impact of pump and plumbing configurations and changes in dwell volumes, and the wider bore of the components used is more resilient to clogging. 
+However, higher flowrate comes at the cost of reduced sensitivity due to reduced ionization efficiency at higher flow rates and increases in the overall peak volume at constant sample loading, thus nanoflow (100-300 nL/min flowrate) chromatography remains a widely utilized strategy in proteomics.
+For applications where sample is not limited, slightly higher amounts of applied samples can take advantage of robustness of higher flow rates in the microflow range using newer optimized electrospray sources [@PMID:37294184].
 
 #### Throughput and Instrument Utilization
 Throughput is the number of samples that are analyzed in a given timeframe, for example samples per day. 
