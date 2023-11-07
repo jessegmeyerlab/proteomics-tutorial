@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T17:12:26+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T17:12:26+00:00" />
+  <meta name="dc.modified" content="2023-11-07T17:23:04+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T17:23:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@28dd4d3](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1)
+from [jessegmeyerlab/proteomics-tutorial@707fcec](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/707fcec18445f103eae8689242c3af1dbcb7b8a4)
 on November 7, 2023.
 </em></small>
 
@@ -2716,8 +2716,6 @@ As emphasized throughout this section, accurately defining the search space is e
 
 
 ### Choosing the right database
-
-
 <!-- add greater exploration of how to choose a database -->
 
 Proteomics data analysis requires carefully matching the search space (defined by the database choice) with the expected proteins. 
@@ -2725,13 +2723,10 @@ A properly chosen database will minimize false positives and false negatives.
 Choosing a database that is too large will increase the number of false positives, or decoy hits, which in turn will reduce the total number of identifiable proteins.
 For this reason it is ill advised to search against all possible protein sequences ever predicted from any genomic sequence. 
 On the other hand, choosing a database that is too small may increase false negatives, or missed protein identifications, because in order for a protein to be identified it must be present in the database. 
-Thus, proteomics practitioners must do their best to predict the proteins that might be in their sample before they analyze their data.
-
-Proteomics data analysis requires carefully aligning the search space with the expected proteome and the statistical approach of the search algorithm. 
-Search algorithms can self-correct when a database is overly large such that higher identity thresholds are required for identification to minimize false positives (e.g., Mascot), while smaller experiment-specific search spaces (also referred to as “subsets”) can have unintended effects on false positives if not managed appropriately [@PMID:34236864; @PMID:30560673; @PMID:26125591] or may even improve protein identifications [@PMID:27975281]. 
+Some search algorithms can self-correct when a database is overly large such that higher identity thresholds are required for identification to minimize false positives (e.g., Mascot), while smaller experiment-specific search spaces (also referred to as “subsets”) can have unintended effects on false positives if not managed appropriately [@PMID:34236864; @PMID:30560673; @PMID:26125591] or may even improve protein identifications [@PMID:27975281]. 
 Whether to employ a search space that is sample-specific (i.e., subset), species-specific (with only canonical proteins, described below), exhaustive species-specific (including all isoforms), or even larger clade-level protein sequence set (e.g., the over 14 million protein sequences associated with Fungi, taxon identifier 4751) is a complex issue that is experiment and software dependent. 
 Moreover, in cases where no species-specific protein sequence collection exists, homology-based searching can be used (as described in [@PMID:32786681]). 
-In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results. See more discussion of database choice in the following section. 
+In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results.
 
 
 ## Biological Interpretation  {.page_break_before}

@@ -71,8 +71,8 @@
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T17:12:26+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T17:12:26+00:00" />
+  <meta name="dc.modified" content="2023-11-07T17:23:04+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T17:23:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -163,9 +163,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -182,9 +182,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1">jessegmeyerlab/proteomics-tutorial@28dd4d3</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/707fcec18445f103eae8689242c3af1dbcb7b8a4">jessegmeyerlab/proteomics-tutorial@707fcec</a>
 on November 7, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -2806,12 +2806,10 @@ A properly chosen database will minimize false positives and false negatives.
 Choosing a database that is too large will increase the number of false positives, or decoy hits, which in turn will reduce the total number of identifiable proteins.
 For this reason it is ill advised to search against all possible protein sequences ever predicted from any genomic sequence.
 On the other hand, choosing a database that is too small may increase false negatives, or missed protein identifications, because in order for a protein to be identified it must be present in the database.
-Thus, proteomics practitioners must do their best to predict the proteins that might be in their sample before they analyze their data.</p>
-<p>Proteomics data analysis requires carefully aligning the search space with the expected proteome and the statistical approach of the search algorithm.
-Search algorithms can self-correct when a database is overly large such that higher identity thresholds are required for identification to minimize false positives (e.g., Mascot), while smaller experiment-specific search spaces (also referred to as “subsets”) can have unintended effects on false positives if not managed appropriately <span class="citation" data-cites="qgZxt4hu 12o52Fhcj Lovg2liS">[<a href="#ref-qgZxt4hu" role="doc-biblioref">737</a>,<a href="#ref-12o52Fhcj" role="doc-biblioref">738</a>,<a href="#ref-Lovg2liS" role="doc-biblioref">739</a>]</span> or may even improve protein identifications <span class="citation" data-cites="nMWQwf9T">[<a href="#ref-nMWQwf9T" role="doc-biblioref">740</a>]</span>.
+Some search algorithms can self-correct when a database is overly large such that higher identity thresholds are required for identification to minimize false positives (e.g., Mascot), while smaller experiment-specific search spaces (also referred to as “subsets”) can have unintended effects on false positives if not managed appropriately <span class="citation" data-cites="qgZxt4hu 12o52Fhcj Lovg2liS">[<a href="#ref-qgZxt4hu" role="doc-biblioref">737</a>,<a href="#ref-12o52Fhcj" role="doc-biblioref">738</a>,<a href="#ref-Lovg2liS" role="doc-biblioref">739</a>]</span> or may even improve protein identifications <span class="citation" data-cites="nMWQwf9T">[<a href="#ref-nMWQwf9T" role="doc-biblioref">740</a>]</span>.
 Whether to employ a search space that is sample-specific (i.e., subset), species-specific (with only canonical proteins, described below), exhaustive species-specific (including all isoforms), or even larger clade-level protein sequence set (e.g., the over 14 million protein sequences associated with Fungi, taxon identifier 4751) is a complex issue that is experiment and software dependent.
 Moreover, in cases where no species-specific protein sequence collection exists, homology-based searching can be used (as described in <span class="citation" data-cites="17gB3bs6x">[<a href="#ref-17gB3bs6x" role="doc-biblioref">726</a>]</span>).
-In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results. See more discussion of database choice in the following section.</p>
+In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results.</p>
 <h2 class="page_break_before" id="biological-interpretation">Biological Interpretation</h2>
 <p>The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
 This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits.
@@ -5352,7 +5350,7 @@ oligonucleotide array data based on variance and bias</strong> <div class="csl-b
 <div class="csl-left-margin">726. </div><div class="csl-right-inline"><strong>Proteomics in Non-model Organisms: A New Analytical Frontier.</strong> <div class="csl-block">Michelle Heck, Benjamin A Neely</div> <em>Journal of proteome research</em> (2020-08-20) <a href="https://www.ncbi.nlm.nih.gov/pubmed/32786681">https://www.ncbi.nlm.nih.gov/pubmed/32786681</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.0c00448">10.1021/acs.jproteome.0c00448</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32786681">32786681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7874939">PMC7874939</a></div></div>
 </div>
 <div id="ref-69obv795" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">727. </div><div class="csl-right-inline"><a href="https://ensembl.org">https://ensembl.org</a></div>
+<div class="csl-left-margin">727. </div><div class="csl-right-inline"><strong>Ensembl genome browser 110</strong> <a href="https://useast.ensembl.org/index.html">https://useast.ensembl.org/index.html</a></div>
 </div>
 <div id="ref-1EGyqGdLr" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">728. </div><div class="csl-right-inline"><strong>Ensembl Genomes</strong> <a href="http://ensemblgenomes.org/">http://ensemblgenomes.org/</a></div>
