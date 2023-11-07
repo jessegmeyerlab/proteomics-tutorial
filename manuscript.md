@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T17:04:18+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T17:04:18+00:00" />
+  <meta name="dc.modified" content="2023-11-07T17:10:54+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T17:10:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@486ebee](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/486ebee325c8678f52d7bb4e7cecbaddeaff810d)
+from [jessegmeyerlab/proteomics-tutorial@50b2837](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/50b283729e2cad5a190b677b6f79901416516ee6)
 on November 7, 2023.
 </em></small>
 
@@ -1616,12 +1616,13 @@ This mode is used to identify compounds that, when fragmented, lose a specific n
 
 #### 4. Multiple/Selected Reaction Monitoring (M/SRM): 
 Both Q1 and Q3 are set to filter specific ions (precursor and product, respectively). 
-This highly selective mode is used for quantitative analysis of specific compounds, offering excellent sensitivity and specificity[@DOI:10.1074/mcp.M500331-MCP200;@DOI:10.1007/s00216-003-2287-1].
+This highly selective mode is used for quantitative analysis of specific compounds, offering excellent sensitivity and specificity [@DOI:10.1074/mcp.M500331-MCP200; @DOI:10.1007/s00216-003-2287-1].
 
 The triple quadrupole mass spectrometer is a highly versatile instrument, capable of both qualitative and quantitative analysis. 
-Enke and Yost at Michigan State University developed the first commercial triple-quadrupole mass spectrometer in the late 1970s[@DOI:10.1021/ja00475a072]. 
-QqQ is particularly well-suited for targeted quantitative analysis due to its high sensitivity, selectivity, and dynamic range, which has made it a go-to instrument in areas such as drug metabolism studies, environmental monitoring, food safety analysis, pharmaceuticals, and clinical diagnostics [@DOI:10.1002/jms.659;@DOI:10.1016/j.cbi.2008.09.014;@DOI:10.1039/C3AY41104D;@DOI:10.1016/j.clinms.2019.09.002].  
-However, Quadrupole suffer from inherent limitations in mass resolution due to the constraints of principles and precision in mechanical manufacturing. 
+Enke and Yost at Michigan State University developed the first commercial triple-quadrupole mass spectrometer in the late 1970s [@DOI:10.1021/ja00475a072]. 
+QqQ is particularly well-suited for targeted quantitative analysis due to its high sensitivity, selectivity, and dynamic range, which has made it a go-to instrument in areas such as drug metabolism studies, environmental monitoring, food safety analysis, pharmaceuticals, and clinical diagnostics [@DOI:10.1002/jms.659; @DOI:10.1016/j.cbi.2008.09.014; @DOI:10.1039/C3AY41104D; @DOI:10.1016/j.clinms.2019.09.002].  
+
+However, Quadrupoles suffer from inherent limitations in mass resolution due to the constraints of principles and precision in mechanical manufacturing. 
 Consequently, they face difficulties in accurately identifying unknown molecules within complex mixtures and thus not appropriate for applications like structure analysis and biomarker discovery. 
 
 ![**Schematic diagram of typical QqQ system.**
@@ -1667,8 +1668,8 @@ Upon exiting the collision cell, the fragmented ions are reaccelerated into the 
 There, they undergo pulsing by a strong electric field (typically 20 kV or higher) and get accelerated to a field free drift tube, and then reflected to the detector.
 
 TOFs generally offer mass resolutions surpassing 50,000, rendering it a reliable instrument for identifying unknown compounds.
-Moreover, the rapid travel time of ions in the vacuum tube (at the nanosecond level) confers the Q-TOF with distinctive benefits in short gradient and high-throughput analyses [@DOI:10.1101/657908;@DOI:10.1021/acs.jproteome.1c00446;@DOI:10.1074/mcp.M400161-MCP200].
-Another advantage of TOF is its broad mass range, which allows for the detection of large proteins, nanoclusters, and even large particles[@DOI:10.1021/acs.analchem.0c04339; @DOI:10.1146/annurev-anchem-071213-020015;@DOI:10.1039/D1MA00261A].
+Moreover, the rapid travel time of ions in the vacuum tube (at the nanosecond level) confers the Q-TOF with distinctive benefits in short gradient and high-throughput analyses [@DOI:10.1101/657908; @DOI:10.1021/acs.jproteome.1c00446; @DOI:10.1074/mcp.M400161-MCP200].
+Another advantage of TOF is its broad mass range, which allows for the detection of large proteins, nanoclusters, and even large particles [@DOI:10.1021/acs.analchem.0c04339; @DOI:10.1146/annurev-anchem-071213-020015;@DOI:10.1039/D1MA00261A].
 However, it should be noted that due to ion numbers and detector limitations, mass resolution is typically difficult to maintain over a wide mass range. 
 
 Presently, Q-TOF related instruments are available from all leading instrument manufacturers, and the main models are listed below:
@@ -1692,7 +1693,7 @@ The frequency at which each ion oscillates induces an image current on the detec
 
 The biggest difference between Orbitrap and other mass spectrometers (TOF, Q) is that it does not use ions to hit an induction device like an electron multiplier. 
 One of the main advantages of the Orbitrap is its ultra-high mass resolution, often exceeding 240,000 or even higher. 
-This gives the Orbitrap a significant superiority in the identification of unknown molecules such as peptides and metabolites[@DOI:10.1146/annurev-anchem-071114-040325;@DOI:10.1016/j.chroma.2010.02.022]. 
+This gives the Orbitrap a significant superiority in the identification of unknown molecules such as peptides and metabolites [@DOI:10.1146/annurev-anchem-071114-040325; @DOI:10.1016/j.chroma.2010.02.022]. 
 Moreover, Orbitrap spectrometers are also appreciated for their compact structure, small size, robustness, and reliability.
 Just like the Q-TOF, the Orbitrap is also usually used for tandem mass spectrometry. 
 **Figure 11B** demonstrates a typical 2D schematic diagram of Q-Orbitrap. 
@@ -1706,7 +1707,7 @@ Compared to a TOF, one disadvantage of the Orbitrap is its longer cycle time (AG
 Another minor flaw of Orbitrap is the challenge encountered when trying to pair it with MALDI. 
 This primarily stems from the fact that MALDI uses a pulsed ionization technique, whereas Orbitrap operates continuously.
 This mismatch can lead to inefficiencies and challenges in coupling the two techniques. 
-At present, the Orbitrap still dominates important applications in almost all aspects of proteomics including biomarker discovery[@DOI:10.1186/s12014-015-9102-9], post-translational modification (PTM) analysis[@DOI:10.1093/database/baab012; @DOI:10.1038/nmeth.4334], quantitative proteomics (LFQ, TMT, iTRAQ)[@DOI:10.1021/acs.analchem.2c02249; @DOI:10.1021/jasms.3c00072; @DOI:10.1038/s41592-020-00999-z], protein-protein interaction studies[@DOI:10.1016/j.tibtech.2016.02.014] and structural proteomics[@DOI:10.1038/s41467-021-27588-8; @DOI:10.1021/acs.analchem.1c03274]. 
+At present, the Orbitrap still dominates important applications in almost all aspects of proteomics including biomarker discovery [@DOI:10.1186/s12014-015-9102-9], post-translational modification (PTM) analysis [@DOI:10.1093/database/baab012; @DOI:10.1038/nmeth.4334], quantitative proteomics (LFQ, TMT, iTRAQ)[@DOI:10.1021/acs.analchem.2c02249; @DOI:10.1021/jasms.3c00072; @DOI:10.1038/s41592-020-00999-z], protein-protein interaction studies [@DOI:10.1016/j.tibtech.2016.02.014] and structural proteomics [@DOI:10.1038/s41467-021-27588-8; @DOI:10.1021/acs.analchem.1c03274]. 
 It can perform both top-down and bottom-up analyses owing to its broad mass range, and is suitable for both Data-Dependent Acquisition (DDA) and Data-Independent Acquisition (DIA) methods. 
 Right now, the Orbitrap is still under patent protection and only one company, ThermoFisher, is allowed to manufacture related products. 
 Classic models from ThermoFisher include Orbitrap Ascend Tribrid, Orbitrap Eclipse™ Tribrid™, Orbitrap Fusion™ Lumos™, Orbitrap Exploris series (120, 240, 480) and Q Exactive™ series. 
@@ -2020,7 +2021,7 @@ Gas-phase phosphate rearrangement induced by collisional activation represents a
 Advanced data acquisition schemes trigger predetermined MS/MS events when a specific fragment ion or neutral loss is detected in a spectrum. 
 Certain decision-tree strategies have arisen to increase data acquisition efficiency, including pseudo-MS3 scans which are triggered on detection of phosphate losses [@DOI:10.1021/ac0497104] and the use of site-specific x-type ions [@DOI:10.1021/pr200154t]. 
 For example, when linear ion traps were the main proteomics workhorses, resonant CID analysis of phosphopeptides would result in predominantly neutral loss of the phosphate with limited sequence ion information. 
-To gain sequence ions in these experiments, instruments could be set to isolate a loss of 98 Thompsons for MS3 activation [@DOI:10.1073/pnas.0404720101; @DOI:10.1002/pmic.200800283].
+To gain sequence ions in these experiments, instruments could be set to isolate a loss of 98 Daltons for MS3 activation [@DOI:10.1073/pnas.0404720101; @DOI:10.1002/pmic.200800283].
 The newer collisional dissociation technique HCD, or beam-type collisional activation, significantly improves the detection of peptide fragments with the phosphorylation intact on fragment ions, and thus, this neutral loss scanning technique is no longer common. 
 
 Recently developed approaches to phosphopeptide identification include DIA-based phosphoproteomics with Spectronaut [@DOI:10.1126/scisignal.aaa3139; @DOI:10.1007/978-1-0716-1641-3_6], “plug-and-play” high-resolution MS [@DOI:10.1038/nmeth.3811], SureQuant for phosphotyrosine [@DOI:10.1158/0008-5472.can-20-3804], PIQED for direct identification and quantification of phosphorylation from DIA without a prior spectral library [@DOI:10.1038/nmeth.4334], and FAIMS front-end separations which yield 15-20% more phosphosite identifications than non-FAIMS experiments [@DOI:10.1021/acs.analchem.8b02233]. 
