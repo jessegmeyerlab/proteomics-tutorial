@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-06'
+date-meta: '2023-11-07'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-11-06" />
-  <meta name="citation_publication_date" content="2023-11-06" />
-  <meta property="article:published_time" content="2023-11-06" />
-  <meta name="dc.modified" content="2023-11-06T18:55:33+00:00" />
-  <meta property="article:modified_time" content="2023-11-06T18:55:33+00:00" />
+  <meta name="dc.date" content="2023-11-07" />
+  <meta name="citation_publication_date" content="2023-11-07" />
+  <meta property="article:published_time" content="2023-11-07" />
+  <meta name="dc.modified" content="2023-11-07T15:59:50+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T15:59:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/a530e1563ef00569c36f9cc225aefd2327c420a9/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@a530e15](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/a530e1563ef00569c36f9cc225aefd2327c420a9)
-on November 6, 2023.
+from [jessegmeyerlab/proteomics-tutorial@b7f85d7](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b7f85d72aaf9d287657c497d9dbac5eda531bb16)
+on November 7, 2023.
 </em></small>
 
 
@@ -372,6 +372,7 @@ on November 6, 2023.
     <br>
   <small>
      Institute for Systems biology, Seattle, WA, USA, 98109
+     · Funded by National Institutes of Health Grants R01GM087221, R24GM127667, U19AG023122, S10OD026936; National Science Foundation Award 1920268
   </small>
 
 + **Anna G. Duboff**
@@ -397,7 +398,7 @@ on November 6, 2023.
     <br>
   <small>
      Department of Chemistry, University of Washington
-     · Funded by Grant R00 GM147304
+     · Funded by National Institutes of Health Grant R00 GM147304
   </small>
 
 + **Jesse G. Meyer**
@@ -411,7 +412,7 @@ on November 6, 2023.
     <br>
   <small>
      Department of Computational Biomedicine, Cedars Sinai Medical Center
-     · Funded by Grant R21 AG074234; Grant R35 GM142502
+     · Funded by National Institutes of Health Grant R21 AG074234; National Institutes of Health Grant R35 GM142502
   </small>
 
 
