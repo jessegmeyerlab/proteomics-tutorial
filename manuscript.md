@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:41:37+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:41:37+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:44:57+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:44:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@99ac618](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f)
+from [jessegmeyerlab/proteomics-tutorial@7b73b65](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7b73b6563089e53154a0d1d70bb2cf2b104d2c3e)
 on November 7, 2023.
 </em></small>
 
@@ -1321,11 +1321,13 @@ Numerous factors influence the capacity of chromatographic peaks, such as temper
 Usually online RPLC is done at acidic pH to ensure peptide ionization, but it can be paired with offline high pH RPLC and multiple fraction concatenation to produce orthogonal separation due to altered ionization of amino acids changing peptide hydrophobicity [@PMID:22462785].
 
 #### Hydrophilic interaction liquid chromatography (HILIC)
-HILIC is similar in its principle to normal-phase chromatography. 
+Inverse-gradient chromatography was the forerunner to HILIC [@PMID:3569294] 
+HILIC is similar in its principle to normal-phase chromatography where the stationary phase is polar and the intitial solvent conditions are nonpolar. 
+Gradient elution in HILIC is accomplished by increasing the polarity of the mobile phase, by decreasing the concentration of organic solvent, i.e., in the “opposite” direction compared to RPLC separations. 
+With charged HILIC stationary phases there is also a possibility of increasing the salt or buffer concentration during a gradient to disrupt electrostatic interactions with the solute [@PMID:18264818; @PMID:15459207]. 
+Thus, the peptides with less polarity elute before the more polar peptides. 
 It is used for the separation of hydrophilic peptides and polar analytes [@PMID:21879300]. 
 This separation is achieved by a stationary phase that is hydrophilic in nature, for example: cyano-, diol-, amino- bonded phases [@PMID:18428181], and an organic and hydrophobic mobile phase [@PMID:18264818]. 
-The elution of bonded peptides occurs by increasing the mobile phase polarity in a reversed elution order as compared to RPLC [@PMID:18264818; @PMID:15459207]. 
-Thus, the peptides with less polarity elute before the more polar peptides. 
 HILIC can also be used for enrichment and targeted proteomic analysis of PTMs, such as glycosylation, N-acetylation and phosphorylation, which increase the polarity of peptides and therefore also their retention on HILIC [@PMID:20973639].
 
 #### Isoelectric focusing (IEF)
