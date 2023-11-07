@@ -71,8 +71,8 @@
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T15:59:50+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T15:59:50+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:14:24+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:14:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -163,9 +163,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -182,9 +182,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b7f85d72aaf9d287657c497d9dbac5eda531bb16/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b7f85d72aaf9d287657c497d9dbac5eda531bb16">jessegmeyerlab/proteomics-tutorial@b7f85d7</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e0b06316e75e2e5922eec8ffd64d653e9c06e363">jessegmeyerlab/proteomics-tutorial@e0b0631</a>
 on November 7, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -422,51 +422,51 @@ Department of Computational Biomedicine, Cedars Sinai Medical Center
 <p>✉ — Correspondence possible via <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/issues">GitHub Issues</a></p>
 </div>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>Proteomics is the large scale study of protein structure and function from biological systems through protein identification and quantification.<br />
+<p>Proteomics is the large scale study of protein structure and function from biological systems through protein identification and quantification.
 “Shotgun proteomics” or “bottom-up proteomics” is the prevailing strategy, in which proteins are hydrolyzed into peptides that are analyzed by mass spectrometry.
 Proteomics studies can be applied to diverse studies ranging from simple protein identification to studies of proteoforms, protein-protein interactions, protein structural alterations, absolute and relative protein quantification, post-translational modifications, and protein stability.
 To enable this range of different experiments, there are diverse strategies for proteome analysis.
 The nuances of how proteomic workflows differ may be challenging to understand for new practitioners.
-Here, we provide a comprehensive overview of different proteomics methods from biochemistry basics and protein extraction to biological interpretation and orthogonal validation.
+Here, we provide a comprehensive overview of different proteomics methods to aid the novice and experienced researcher. We cover from biochemistry basics and protein extraction to biological interpretation and orthogonal validation.
 We expect this work to serve as a basic resource for new practitioners in the field of shotgun or bottom-up proteomics.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <p>Proteomics is the large-scale study of protein structure and function.
-Proteins are translated from messenger RNA (mRNA) transcripts that are transcribed from the genome.
+Proteins are translated from messenger RNA (mRNA) transcripts that are transcribed from the complementary DNA-based genome.
 Although the genome encodes potential cellular functions and states, the study of proteins in all their forms is necessary to truly understand biology.</p>
 <p>Currently, proteomics can be performed with various methods.
 Mass spectrometry has emerged within the past few decades as the premier tool for comprehensive proteome analysis.
 The ability of mass spectrometry (MS) to detect charged chemicals enables the identification of peptide sequences and modifications for diverse biological investigations.
-Alternative (commercial) methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely <a href="https://somalogic.com/somascan-platform/https://somalogic.com/somascan-platform/">SomaScan</a> and <a href="https://olink.com/">Olink</a>.
-There are also nascent methods, such as nanopores, that are under development and not yet applicable to whole proteomes <span class="citation" data-cites="tzsjhzo9 dZHIMQZQ XUmjaJtI vmYTdWAl">[<a href="#ref-tzsjhzo9" role="doc-biblioref">1</a>,<a href="#ref-dZHIMQZQ" role="doc-biblioref">2</a>,<a href="#ref-XUmjaJtI" role="doc-biblioref">3</a>,<a href="#ref-vmYTdWAl" role="doc-biblioref">4</a>]</span>.
+Alternative (commercial) methods based on affinity interactions of antibodies or DNA aptamers have been developed, namely <a href="https://olink.com/">Olink</a> and <a href="https://somalogic.com/somascan-platform/https://somalogic.com/somascan-platform/">SomaScan</a>.
+There are also nascent methods that are either recently commercialized or still under development and not yet applicable to whole proteomes, such as motif scanning using antibodies, variants of N-terminal degradation, and nanopores <span class="citation" data-cites="tzsjhzo9 dZHIMQZQ XUmjaJtI vmYTdWAl">[<a href="#ref-tzsjhzo9" role="doc-biblioref">1</a>,<a href="#ref-dZHIMQZQ" role="doc-biblioref">2</a>,<a href="#ref-XUmjaJtI" role="doc-biblioref">3</a>,<a href="#ref-vmYTdWAl" role="doc-biblioref">4</a>]</span>.
 Another approach uses parallel immobilization of peptides with total internal reflection microscopy and sequential Edman degradation <span class="citation" data-cites="rpZdECmv">[<a href="#ref-rpZdECmv" role="doc-biblioref">5</a>]</span>.
 However, by far the most common method for proteomics is based on mass spectrometry coupled to liquid chromatography (LC).</p>
-<p>Modern proteomics emerged in the late 1980s with the introduction of soft ionization methods that enabled, for the first time, transfer of large biomolecules into the gas phase without destroying them <span class="citation" data-cites="4Ajjx5fo 15Ye4Za7Y">[<a href="#ref-4Ajjx5fo" role="doc-biblioref">6</a>,<a href="#ref-15Ye4Za7Y" role="doc-biblioref">7</a>]</span>.
+<p>Modern proteomics had its roots in the early 1980s with the analysis of peptides by mass spectrometry and low efficiency ion sources, but started ramping up around the year 1990 with the introduction of soft ionization methods that enabled, for the first time, efficient transfer of large biomolecules into the gas phase without destroying them <span class="citation" data-cites="4Ajjx5fo 15Ye4Za7Y">[<a href="#ref-4Ajjx5fo" role="doc-biblioref">6</a>,<a href="#ref-15Ye4Za7Y" role="doc-biblioref">7</a>]</span>.
 Shortly afterward, the first computer algorithm for matching peptides to a database was introduced <span class="citation" data-cites="pG7zq91Q">[<a href="#ref-pG7zq91Q" role="doc-biblioref">8</a>]</span>.
 Another major milestone that allowed identification of over 1,000 proteins were improvements to chromatography upstream of MS anlaysis <span class="citation" data-cites="ujahSo3G">[<a href="#ref-ujahSo3G" role="doc-biblioref">9</a>]</span>.
 As the volume of data exploded, methods for statistical analysis transitioned from the wild west of ad hoc empirical analysis to modern informatics based on statistical models <span class="citation" data-cites="mw5jxASm">[<a href="#ref-mw5jxASm" role="doc-biblioref">10</a>]</span> and false discovery rate <span class="citation" data-cites="15RjczuIy">[<a href="#ref-15RjczuIy" role="doc-biblioref">11</a>]</span>.
 <!-- Todo: figure 1: major milestones in proteomics technology since 1990 --></p>
-<p>Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are cleaved into peptides before analysis: “top-down” and “bottom-up”.
+<p>Two strategies of mass spectrometry-based proteomics differ fundamentally by whether proteins are analyzed as a whole chain or cleaved into peptides before analysis: “top-down” versus “bottom-up”.
 Bottom-up proteomics (also refered to as shotgun proteomics) is defined by the intentional hydrolysis of proteins into peptide pieces using enzymes called proteases <span class="citation" data-cites="16QSCuG38">[<a href="#ref-16QSCuG38" role="doc-biblioref">12</a>]</span>.
-Therefore, bottom-up proteomics does not actually measure proteins, but must infer protein presence and abundance from identified peptides <span class="citation" data-cites="mw5jxASm">[<a href="#ref-mw5jxASm" role="doc-biblioref">10</a>]</span>.
+Therefore, bottom-up proteomics does not actually measure proteins, but instead infers protein presence and abundance from identified peptides <span class="citation" data-cites="mw5jxASm">[<a href="#ref-mw5jxASm" role="doc-biblioref">10</a>]</span>.
 Sometimes, proteins are inferred from only one peptide sequence representing a small fraction of the total protein sequence predicted from the genome.
 In contrast, top-down proteomics attempts to measure intact proteins <span class="citation" data-cites="UsGpigc0 6a8Xt7SG 6hFikhYz a6Z8FNxW">[<a href="#ref-UsGpigc0" role="doc-biblioref">13</a>,<a href="#ref-6a8Xt7SG" role="doc-biblioref">14</a>,<a href="#ref-6hFikhYz" role="doc-biblioref">15</a>,<a href="#ref-a6Z8FNxW" role="doc-biblioref">16</a>]</span>.
-The potential benefit of top-down proteomics is the ability to measure proteoforms <span class="citation" data-cites="6a8Xt7SG h00Trxkt oe85BKlv">[<a href="#ref-6a8Xt7SG" role="doc-biblioref">14</a>,<a href="#ref-h00Trxkt" role="doc-biblioref">17</a>,<a href="#ref-oe85BKlv" role="doc-biblioref">18</a>]</span>.
-However, due to myriad analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is generally less than that of bottom-up proteomics <span class="citation" data-cites="CwZoo7w">[<a href="#ref-CwZoo7w" role="doc-biblioref">19</a>]</span>.</p>
+The potential benefit of top-down proteomics is the ability to measure the many varied proteoforms <span class="citation" data-cites="6a8Xt7SG h00Trxkt oe85BKlv">[<a href="#ref-6a8Xt7SG" role="doc-biblioref">14</a>,<a href="#ref-h00Trxkt" role="doc-biblioref">17</a>,<a href="#ref-oe85BKlv" role="doc-biblioref">18</a>]</span>.
+However, due to myriad analytical challenges, the depth of protein coverage that is achievable by top-down proteomics is considerably less than that of bottom-up proteomics <span class="citation" data-cites="CwZoo7w">[<a href="#ref-CwZoo7w" role="doc-biblioref">19</a>]</span>.</p>
 <p>In this tutorial we focus on the bottom-up proteomics workflow.
 The most common version of this workflow is generally comprised of the following steps.
 First, proteins in a biological sample must be extracted.
 Usually this is achieved by mechanically lysing cells or tissue while denaturing and solubilizing the proteins and disrupting DNA to minimize interference in analysis procedures.
 Next, proteins are hydrolyzed into peptides, most often using the protease trypsin, which generates peptides with basic C-terminal amino acids (arginine and lysine) to aid in fragment ion series production during tandem mass spectrometry (MS/MS).
-Peptides from proteome hydrolysis must be purified; this is often accomplished with reversed-phase liquid chromatography (RPLC) cartridges or tips.
-The peptides are then almost always separated by LC before they are ionized and introduced into a mass spectrometer, although recent reports also describe LC-free proteomics by direct infusion <span class="citation" data-cites="pRTFSroJ DqzDdsRo 1339IM4Kb">[<a href="#ref-pRTFSroJ" role="doc-biblioref">20</a>,<a href="#ref-DqzDdsRo" role="doc-biblioref">21</a>,<a href="#ref-1339IM4Kb" role="doc-biblioref">22</a>]</span>.
+Peptides can also be generated by chemical reactions that induce residue specific hydrolysis, such as cyanogen bromide that cleaves after methionine.
+Peptides from proteome hydrolysis must be purified; this is often accomplished with reversed-phase liquid chromatography (RPLC) cartridges or tips to remove interfering molecules in the sample such as salts and buffers.
+The peptides are then almost always separated by reversed-phase LC before they are ionized and introduced into a mass spectrometer, although recent reports also describe LC-free proteomics by direct infusion <span class="citation" data-cites="pRTFSroJ DqzDdsRo 1339IM4Kb">[<a href="#ref-pRTFSroJ" role="doc-biblioref">20</a>,<a href="#ref-DqzDdsRo" role="doc-biblioref">21</a>,<a href="#ref-1339IM4Kb" role="doc-biblioref">22</a>]</span>.
 The mass spectrometer then collects precursor and fragment ion data from those peptides.
 Peptides must be identified from the tandem mass spectra, protein groups are inferred from a proteome database, and then quantitative values are assigned.
 Changes in protein abundances across conditions are determined with statistical tests, and results must be interpreted in the context of the relevant biology.
 Data interpretation is the rate limiting step; data collected in less than one week can take months or years to understand.</p>
 <p>There are many variations to this workflow.
-The diversity of experimental goals that are achievable with proteomics technology drives a wide variety of workflows.
-Every choice is important, from instrument procurement to choice of data processing software and everything in between.
-Each choice affects the results.
+The diversity of experimental goals that are achievable with proteomics technology drives an expansive array of workflows.
+Every choice is important as every choice will affect the results, from instrument procurement to choice of data processing software and everything in between.
 In this tutorial, we detail all the required steps to serve as a comprehensive overview for new proteomics practitioners.
 There are 16 sections in total:</p>
 <ol type="1">
@@ -5313,7 +5313,7 @@ oligonucleotide array data based on variance and bias</strong> <div class="csl-b
 <div class="csl-left-margin">717. </div><div class="csl-right-inline"><strong>Proteomics in Non-model Organisms: A New Analytical Frontier.</strong> <div class="csl-block">Michelle Heck, Benjamin A Neely</div> <em>Journal of proteome research</em> (2020-08-20) <a href="https://www.ncbi.nlm.nih.gov/pubmed/32786681">https://www.ncbi.nlm.nih.gov/pubmed/32786681</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.0c00448">10.1021/acs.jproteome.0c00448</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32786681">32786681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7874939">PMC7874939</a></div></div>
 </div>
 <div id="ref-69obv795" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">718. </div><div class="csl-right-inline"><a href="https://ensembl.org">https://ensembl.org</a></div>
+<div class="csl-left-margin">718. </div><div class="csl-right-inline"><strong>Ensembl genome browser 110</strong> <a href="https://useast.ensembl.org/index.html">https://useast.ensembl.org/index.html</a></div>
 </div>
 <div id="ref-1EGyqGdLr" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">719. </div><div class="csl-right-inline"><strong>Ensembl Genomes</strong> <a href="http://ensemblgenomes.org/">http://ensemblgenomes.org/</a></div>
