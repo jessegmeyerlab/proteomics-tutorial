@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:59:32+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:59:32+00:00" />
+  <meta name="dc.modified" content="2023-11-07T17:04:18+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T17:04:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5124833058b4fc6ac0e1d33d06508ff520a7e61/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/486ebee325c8678f52d7bb4e7cecbaddeaff810d/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b512483](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b5124833058b4fc6ac0e1d33d06508ff520a7e61)
+from [jessegmeyerlab/proteomics-tutorial@486ebee](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/486ebee325c8678f52d7bb4e7cecbaddeaff810d)
 on November 7, 2023.
 </em></small>
 
@@ -1454,9 +1454,9 @@ These two techniques were so impactful that the 2002 Nobel Prize in Chemistry wa
 
 ### MALDI
 The term "Matrix-assisted LASER desorption" was coined by Hillenkamp and Karas in 1985, although this orignal paper only applied the technique to dipeptides [@URL:https://pubs.acs.org/doi/abs/10.1021/ac00291a042]. 
-It was Koichi Tanaka who first applied this idea to whole proteins in 1987 and then published it in 1988 [@DOI:10.1002/rcm.1290020802]. 
-A few months later, Karas and Hillenkamp also demonstrated MALDI applied to protein ionization [@DOI:10.1021/ac00171a028].
-This resulted in controversy about who should have won the Nobel prize [@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm].
+It was Koichi Tanaka who first applied this idea to proteins above 10,000 Daltons in size and published a paper in the Proceedings of the 2nd Japan-China Joint Symposium on Mass spectrometry in 1987 (Tanaka, K., Ido, Y., Akita, S., Yoshida, Y. and Yoshida, T. (1987) Detection of high mass molecules by laser desorption time-of-flight mass spectrometry. Proceedings of the 2nd Japan-China Joint Symposium on Mass spectrometry, 185-187), and then in a follow-up paper published in 1988 [@DOI:10.1002/rcm.1290020802]. 
+A few months later, Karas and Hillenkamp also demonstrated MALDI applied to proteins above 10kDa with MALDI [@DOI:10.1021/ac00171a028].
+This resulted in some controversy about who should have won the Nobel prize [@URL:https://web.archive.org/web/20070517202246/http://cmbi.bjmu.edu.cn/news/0212/55.htm] as it was felt by the community that Hillenkamp and Karas had provided the technology several years before but it was Koichi Tanaka that was the first to apply the MALDI technology to proteins a year before Hillenkamp and Karas.
 
 MALDI first requires the peptide sample to be co-crystallized with a matrix molecule, which is usually a volatile, low molecular-weight, organic aromatic compound (**Figure 6**).
 Some examples of such compounds are cyno-hydroxycinnamic acid, dihyrobenzic acid, sinapinic acid, alpha-hydroxycinnamic acid, ferulic acid etc [@PMID:23681820].
