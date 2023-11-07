@@ -79,7 +79,7 @@ benchtop
 Benjamini
 benzonase
 Bertin
-Betweenness
+betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -102,7 +102,7 @@ biopolymer
 biopolymers
 bioruptor
 Biosystems
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -154,7 +154,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -167,10 +167,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
-Colorimetric
-Colorimetry
+colorimetric
+colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -227,7 +227,7 @@ denaturant
 denaturants
 deoxycholate
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -243,11 +243,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -276,7 +276,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -291,7 +291,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -307,7 +307,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -320,8 +320,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
-FC
+FASTA
+Fc
 FCCS
 FCS
 Fenn
@@ -342,7 +342,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -392,7 +392,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -448,7 +448,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 Ido
 IEC
@@ -487,7 +487,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -495,7 +495,7 @@ iProphet
 IRMPD
 iRT
 isocratic
-Isoelectric
+isoelectric
 Isoform
 isoforms
 isogeneic
@@ -519,7 +519,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 Köcher
 Koichi
@@ -613,7 +613,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 microflow
@@ -632,7 +632,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -665,7 +665,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -703,7 +703,7 @@ OMSSA
 onotology
 OpenMS
 operon
-Orbitrap
+orbitrap
 orbitraps
 organismal
 orignal
@@ -794,8 +794,8 @@ PRM
 Progenesis
 proline
 Pronase
-Prot
-Protease
+prot
+protease
 proteases
 proteasome
 Proteinase
@@ -835,8 +835,8 @@ QqLIT
 QQQ
 qRT
 QTOF
-Quadrupole
-quadrupoles
+quadrupole
+Quadrupoles
 Qual
 quantile
 quantitate
@@ -854,7 +854,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 refered
 reflectron
@@ -881,7 +881,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -989,7 +989,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -999,11 +999,11 @@ transcriptional
 transcriptome
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -1011,7 +1011,7 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
+TripleTOF
 Tris
 Tritirachium
 Trp
@@ -1028,7 +1028,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1049,7 +1049,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable

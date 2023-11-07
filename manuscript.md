@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T17:10:54+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T17:10:54+00:00" />
+  <meta name="dc.modified" content="2023-11-07T17:12:26+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T17:12:26+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/50b283729e2cad5a190b677b6f79901416516ee6/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@50b2837](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/50b283729e2cad5a190b677b6f79901416516ee6)
+from [jessegmeyerlab/proteomics-tutorial@28dd4d3](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/28dd4d34a116124ccb14a13b45eed3feb2d7cfd1)
 on November 7, 2023.
 </em></small>
 
@@ -2218,11 +2218,11 @@ Thus, the number of false hits is multiplied by two for FDR estimation.
 
 $$FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}$$
 
-### Integrated Platforms
+### Integrated MS Data Analysis Platforms
 Given the complexity of proteomic data analysis and the requirement for many steps to get from raw data to quantified proteins, there are some integrated software enviroments that easily allow users to complete everything in one place. 
 
 #### Trans-Proteomic Pipeline (TPP)
-The Trans-Proteomic Pipeline (TPP) is a free and open-source mass spectrometry data analysis suite for end-to end analysis that remains in continual development to provide ever expansive data analysis capabilities since its inception over twenty years ago [@PMID:16729052; @PMID:20013374; @PMID:21082435; @PMID:21876204; @PMID:25418363; @PMID:25631240; @PMID:26419769; @PMID:29400476; @PMID:31290668; @PMID:36629399; @PMID:36648445].  
+The Trans-Proteomic Pipeline (TPP) is a free and open-source mass spectrometry data analysis suite for end-to end analysis that remains in continual development to provide ever expansive data analysis capabilities since its inception over twenty years ago [@PMID:16729052; @PMID:20013374; @PMID:21082435; @PMID:21876204; @PMID:25418363; @PMID:25631240; @PMID:26419769; @PMID:29400476; @PMID:31290668; @PMID:36629399; @PMID:36648445]. 
 The current release provides tools for mass spectrometry spectral processing, spectrum searching, search validation, abundance computation, protein inference, and statistical evaluation of the data to ensure controlled false-discovery rates. 
 Many of the tools include machine-learning modeling to extract the most information from datasets and build robust statistical models to compute probabilities that derived information is correct.
 
@@ -2238,7 +2238,7 @@ DIA workflows are supported via the DISCO tool which reads mzML files containing
 This provides a comprehensive analysis of DIA data without the need for building a spectral library first.
 
 From its inception, the TPP has been and will always be free and open-source software, allowing anyone to use it without cost and to inspect its source code, alter the source code for their own needs, or even incorporate parts of it into their own products. 
-Others have performed these tasks and include various analysis routines as addons such as TAILS N-terminomics analysis [@PMID:23667905], quantitation analysis with PyQuant [@PMID:27231314], SimPhospho [@PMID:29596608], WinProphet [@PMID:31305071], ProtyQuant [@PMID:32956841], and inclusion of R-tolls for metaproteomic analysis [@PMID:36674563]. 
+Others have performed these tasks and include various analysis routines as addons such as TAILS N-terminomics analysis [@PMID:23667905], quantitation analysis with PyQuant [@PMID:27231314], SimPhospho [@PMID:29596608], WinProphet [@PMID:31305071], ProtyQuant [@PMID:32956841], and inclusion of R-tools for metaproteomic analysis [@PMID:36674563]. 
 As a collection of individual tools, they are easily amenable to pipelining in a very flexible manner to support a huge variety of combinations and workflows, and a custom program may easily be inserted into the pipeline to support technology development.
 
 ##### Search engines supported by TPP
