@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:30:03+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:30:03+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:41:37+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:41:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5a579ed31759d8ffdd0ff359ba85ccf484ccae7/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5a579ed31759d8ffdd0ff359ba85ccf484ccae7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5a579ed31759d8ffdd0ff359ba85ccf484ccae7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b5a579ed31759d8ffdd0ff359ba85ccf484ccae7/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b5a579e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b5a579ed31759d8ffdd0ff359ba85ccf484ccae7)
+from [jessegmeyerlab/proteomics-tutorial@99ac618](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/99ac6186db5629c50d2a0e4f3618fa8c0a568d9f)
 on November 7, 2023.
 </em></small>
 
@@ -1166,6 +1166,8 @@ Multiple IMAC steps can be used in parallel or sequentially to improve phosphope
 Lai et al., (2012) showed that the combined use of Fe3+-IMAC and Ti(4+)-IMAC chromatography enables complementary identification of more phosphorylation sites than either technique alone [@PMID:22886815]. 
 A novel phosphopeptide enrichment technique using sequential enrichment with magnetic Fe3O4 and TiO2 particles was developed to detect mono- and multi-phosphorylated peptides [@PMID:20411586]. 
 
+More recently, the use of  Src Homology 2 (SH2) domains as specific affinity reagents for phosphotyrosine is an emerging technology allowing an expanded fractionation of tyrosine phosphopeptides. Here, short chain protein domains have been constructed and affinity enhanced through yeast two hybrid screening to arrive at high affinity matrices capable of outperforming traditional IMAC approaches [@PMID:27880036; @PMID:37668982].
+
 #### General protocol for phosphoproteomics:  
 •	Collect cell line or tissue samples.  
 •	For cell samples, suspend the cell pellet in 2% SDS lysis buffer, heat at 90°C for 5 min, and sonicate.  
@@ -1241,7 +1243,10 @@ However, it is less specific with a risk of protein loss, difficulty in protein 
 Newer methods of highly abundant protein depletion are based on the interaction between polymers such as bacterial cellulose nanofibers [@PMID:30219335], cryogels [@PMID:23668981], and nanomaterials [@DOI:10.1016/j.procbio.2010.07.007].  
 These techniques are highly specific, relatively cheap, and very stable. 
 They can also be reused since they have larger binding capacity and less cross-reactivity [@PMID:31617391].
+
 Protein enrichment/depletion strategies which make use of protein coronas [@DOI:10.1038/s41467-020-17033-7; @DOI:10.1101/2023.08.28.555225] or extracellular vesicle enrichment [@DOI:10.1101/2023.06.10.544439] are enabling researchers to probe deeper into the plasma, serum, lymph, and cerebrospinal fluid proteomes.
+Automated nanoparticle (NP) protein corona-based proteomics workflows are a novel approach to perform deep blood-based proteomics analysis at unprecedented protein IDs above 6,000 proteins [@PMID:37693476]. 
+NPs can efficiently compress the dynamic range of protein abundances into a mass spectrometry accessible detection range and allow full automation of the protein preparation process providing a platform that can rival affinity based approaches with equivalent reproducibility and sensitivity [@PMID:32699280]. 
 
 
 ## Peptide Purification and Fractionation {.page_break_before}
