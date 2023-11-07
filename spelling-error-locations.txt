@@ -64,9 +64,11 @@ content/02.introduction.md:53:Enrichments
 content/02.introduction.md:57:Spectrometry
 content/03.biochemistry-basics.md:5:biomolecules
 content/03.biochemistry-basics.md:5:biopolymers
+content/03.biochemistry-basics.md:7:hydroxyproline
 content/03.biochemistry-basics.md:7:pyrrolysine
 content/03.biochemistry-basics.md:7:selenocysteine
 content/03.biochemistry-basics.md:11:proteomics
+content/03.biochemistry-basics.md:11:spectrometry
 content/03.biochemistry-basics.md:12:proteoforms
 content/03.biochemistry-basics.md:12:PTMs
 content/03.biochemistry-basics.md:12:translational
@@ -105,7 +107,7 @@ content/03.biochemistry-basics.md:30:Cys
 content/03.biochemistry-basics.md:30:disulfide
 content/03.biochemistry-basics.md:30:Glu
 content/03.biochemistry-basics.md:30:glycosylation
-content/03.biochemistry-basics.md:30:lipidation
+content/03.biochemistry-basics.md:30:lipidations
 content/03.biochemistry-basics.md:30:Lys
 content/03.biochemistry-basics.md:30:Lys
 content/03.biochemistry-basics.md:30:Lys
@@ -124,8 +126,8 @@ content/03.biochemistry-basics.md:30:Trp
 content/03.biochemistry-basics.md:30:Tyr
 content/03.biochemistry-basics.md:30:Tyr
 content/03.biochemistry-basics.md:30:ubiquitination
+content/03.biochemistry-basics.md:32:PTMs
 content/03.biochemistry-basics.md:32:spatiotemporal
-content/03.biochemistry-basics.md:32:translational
 content/03.biochemistry-basics.md:33:PTMs
 content/03.biochemistry-basics.md:34:exosome
 content/03.biochemistry-basics.md:34:palmitoylation
@@ -133,6 +135,7 @@ content/03.biochemistry-basics.md:34:SUMOylation
 content/03.biochemistry-basics.md:34:Ubiquitination
 content/03.biochemistry-basics.md:35:Glycosylation
 content/03.biochemistry-basics.md:36:PTMs
+content/03.biochemistry-basics.md:38:colorimetric
 content/03.biochemistry-basics.md:38:PTM
 content/03.biochemistry-basics.md:38:PTM
 content/03.biochemistry-basics.md:38:PTMs

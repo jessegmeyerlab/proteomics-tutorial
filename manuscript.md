@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:14:24+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:14:24+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:20:44+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:20:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e0b06316e75e2e5922eec8ffd64d653e9c06e363/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/4b99e861119999d869c0bbade9250b1395040806/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@e0b0631](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e0b06316e75e2e5922eec8ffd64d653e9c06e363)
+from [jessegmeyerlab/proteomics-tutorial@4b99e86](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/4b99e861119999d869c0bbade9250b1395040806)
 on November 7, 2023.
 </em></small>
 
@@ -503,13 +503,13 @@ There are 16 sections in total:
 
 ### Proteins
 
-Proteins are large biomolecules or biopolymers made up of amino acids which are linked by peptide bonds. 
+Proteins are large biomolecules or biopolymers made up of a backbone of amino acids which are linked by peptide bonds. 
 They perform various functions in living organisms ranging from structural roles to functional involvement in cellular signaling and the catalysis of chemical reactions (enzymes). 
-Proteins are made up of 20 different amino acids (not counting pyrrolysine and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
-The human genome encodes approximately 19,778 of the predicted canonical proteins coded in the human genome [@PMID:36318223].
-Each protein is present at a different abundance depending on the cell type.
+Proteins are made up of 20 different amino acids (not counting pyrrolysine, hydroxyproline, and selenocysteine, which only occur in specific organisms) and their sequence is encoded in their corresponding genes.
+The human genome encodes approximately 19,778 of the predicted canonical proteins coded in the human genome (see www.neXtProt.org) [@PMID:36318223].
+Each protein is present at a different abundance depending on the cell type or bodily fluid.
 Previous studies have shown that the concentration range of proteins can span at least seven orders of magnitude to up to 20,000,000 copies per cell, and that their distribution is tissue-specific [@DOI:10.1038/msb.2011.82;@DOI:10.1016/j.cell.2020.08.036].
-Protein abundances can span more than ten orders of magnitude in human blood, while a few proteins make up most of the protein by weight in these fluids, making blood and plasma proteomics one of the most challenging matrices. 
+Protein abundances can span more than ten orders of magnitude in human blood, while a few proteins make up most of the protein by weight in these fluids, making blood and plasma proteomics one of the most challenging matrices for mass spectrometry to analyze. 
 Due to genetic variation, alternative splicing, and co- and post-translational modifications (PTMs), multiple different proteoforms can be produced from a single gene (**Figure 1**) [@DOI:10.1038/nmeth.2369; @DOI:10.1038/s41587-023-01714-x]. 
 
 ![**Proteome Complexity.**
@@ -523,20 +523,20 @@ The study of the structure, function, and spatial and temporal regulation of the
 After protein biosynthesis, enzymatic and nonenzymatic processes change the protein sequence through proteolysis or covalent chemical modification of amino acid side chains. 
 Post-translational modifications (PTMs) are important biological regulators contributing to the diversity and function of the cellular proteome. 
 Proteins can be post-translationally modified through enzymatic and non-enzymatic reactions _in vivo_ and _in vitro_ [@doi:10.1093/database/baab012]. 
-PTMs can be reversible or irreversible, and they change protein function in several ways, for example by altering substrate–enzyme interactions, subcellular localization or protein-protein interactions [@PMID:33826699; @PMID:24217768]. 
+PTMs can be reversible or irreversible, and they change protein function in multiple ways, for example by altering substrate–enzyme interactions, subcellular localization or protein-protein interactions [@PMID:33826699; @PMID:24217768]. 
 
 More than 400 biological PTMs have been discovered in both prokaryotic and eukaryotic cells. 
 There are many more chemical artifact PTMs that occur during sample preparation, such as carbamylation. 
 These modifications are crucial in controlling protein functions and signal transduction pathways [@PMID:23887885]. 
-The most commonly studied and biologically relevant post-translational modifications include ubiquitination (Lys, Cys, Ser, Thr, N-term), succinylation (Lys), methylation (Arg, Lys, His, Glu, Asn, Cys), disulfide bonds (Cys-Cys), oxidation (any amino acid, but especially Met, Trp, His, Cys), phosphorylation (Ser, Thr, Tyr, His), acetylation (Lys, N-term), glycosylation (Arg, Asp, Cys, Ser, Thr, Tyr, Trp) and lipidation [@DOI:10.1042/BCJ20220251].
+The most commonly studied and biologically relevant post-translational modifications include phosphorylation (Ser, Thr, Tyr, His), glycosylation (Arg, Asp, Cys, Ser, Thr, Tyr, Trp), disulfide bonds (Cys-Cys), ubiquitination (Lys, Cys, Ser, Thr, N-term), succinylation (Lys), methylation (Arg, Lys, His, Glu, Asn, Cys), oxidation (especially Met, Trp, His, Cys), acetylation (Lys, N-term), and lipidations [@DOI:10.1042/BCJ20220251].
 
-Post-translational modification of a protein can alter its function, activity, structure, spatiotemporal status and interaction with proteins or small molecules. 
+Protein PTMs can alter its function, activity, structure, spatiotemporal status and interaction with proteins or small molecules. 
 PTMs alter signal transduction pathways and gene expression control [@PMID:28656226] regulation of apoptosis [@PMID:23088365; @PMID:11368354] by phosphorylation. 
 Ubiquitination generally regulates protein degradation [@PMID:16738015], SUMOylation regulates chromatin structure, DNA repair, transcription, and cell-cycle progression [@PMID:26601932; @PMID:29079793], and palmitoylation regulates the maintenance of the structural organization of exosome-like extracellular vesicle membranes by [@PMID:30251702]. 
 Glycosylation is a ubiquitous modification that regulates various T cell functions, such as cellular migration, T cell receptor signaling, cell survival, and apoptosis [@PMID:22288421; @PMID:18846099].
 Deregulation of PTMs is linked to cellular stress and diseases [@doi:10.1038/s41570-020-00223-8].
 
-Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with radioactive isotope-labeled substrates, western blot with PTM-specific antibodies and superbinders, and peptide and protein arrays [@PMID:11062466; @PMID:12323352; @PMID:35613471]. 
+Several non-MS methods exist to study PTMs, including in vitro PTM reaction tests with colorimetric assays, radioactive isotope-labeled substrates, western blot with PTM-specific antibodies and superbinders, and peptide and protein arrays [@PMID:11062466; @PMID:12323352; @PMID:35613471]. 
 While effective, these approaches have many limitations, such as inefficiency and difficulty in producing pan-specific antibodies. 
 MS-based proteomics approaches are currently the predominant tool for identifying and quantifying changes in PTMs. 
 
@@ -557,7 +557,7 @@ The three-dimensional structure of the protein.
 - Quaternary structure: 
 The structure of several protein molecules/subunits in one complex.
 
-Of recent note, the development of AlphaFold, has enabled the high-accuracy three-dimensional structural prediction of all human proteins and for proteins of many other species, enabling a more thorough study of protein folding and its relationship to function [@PMID:34265844; @PMID:37732824].
+Of recent note, the development of AlphaFold, has enabled the high-accuracy three-dimensional structural prediction of all human proteins and for proteins of many other species, enabling a more thorough study of protein folding and is used to predict the relationship between fold and function [@PMID:34265844; @PMID:37732824].
 
 
 ## Types of Experiments {.page_break_before}
