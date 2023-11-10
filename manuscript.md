@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-10" />
   <meta name="citation_publication_date" content="2023-11-10" />
   <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:35:51+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:35:51+00:00" />
+  <meta name="dc.modified" content="2023-11-10T18:43:22+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:43:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@e72df56](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e72df56db684dc7e2e93bbc2d199da8f4570236c)
+from [jessegmeyerlab/proteomics-tutorial@5147784](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/5147784cc7684c88e3584e6f67731ef467af5aca)
 on November 10, 2023.
 </em></small>
 
@@ -959,6 +959,39 @@ Proteinase K is used at low concentrations for limited proteolysis (LiP) and the
 Although different specificity is useful in theory to enable improved proteome sequence coverage, there are practical challenges because most standard workflows are optimized for tryptic peptides. 
 For example, peptides that lack a c-terminal positive charge due to arginine or lysine side chains can have a less pronounced y-ion series.
 This can lead to lower scoring peptide-spectra matches because some peptide identification algorithms preferentially score y ions higher. 
+
+### Peptide quantitation assays
+After peptide production from proteomes, it may be desirable to quantify the peptide yeild. 
+Quantitation of peptide assays is not as easy as protein lysate assays. 
+BCA protein assays perform poorly with peptide solutions and report erroneous values. 
+A simplistic measurement is to use a nanodrop device, but absorbance measurements from a drop of solution does not report accurate values either. 
+A more standardized and reliable approach is to Fluorescamine based assay for peptide solutions for higher accuracy [@PMID:5085985; @PMID:11673879]. 
+This assay is based on the reaction between a labeling reagent and the N-terminal primary amine in the peptide(s); therefore, samples must be free of amine-containing buffers (e.g., Tris-based buffer and/or amino acids).
+This procedure has performance similar to the Pierce Quantitative Fluorometric Peptide Assay (Cat 23290).
+
+#### Fluorescamine peptide digest assay (based on Udenfriend and Bantan-Polak papers cited above).
+This assay is scaled to small volume reactions.
+Use a black flat-bottom 384 well plate such as Corning 384-Well Solid Black (Cat No. 3577).
+Warm solubilized fluorescamine reagent to room temperature out of light.
+•	Dilute peptide digest standard from 1mg/ml down to 7.8ug/mL in same buffer as sample as 8 serial dilutions.
+•	Include buffer blank of the sample buffer.
+•	Dispense 35 uL of Fluorometric Peptide Assay Buffer (0.1M Sodium borate pH 8.0) to each well. 
+•	Dispense 5 uL of sample or 5 uL of peptide standards into designated wells.
+•	Dispense 10 uL of Fluorescamine reagent, mix 3x by pipetting up/down.
+•	Incubate 5 minutes at room temperature. 
+•	Measure fluorescence using filters at Excitation 390nm, Emission 475 nm on a BioTek Synergy plate reader.
+•	Excitation 360/40nm, Emission 460/40nm (fixed values)
+•	Gain: scale to high wells (select highest-concentration standards)
+•	Mirror: Top 400nm, Read Height: 7mm
+•	Calculate peptide concentrations using template with quadratic curve fitting and determine yield.
+
+Reagents:
+Fluorometric Peptide Assay Buffer: 0.1M sodium borate in Milli-Q H2O, adjust to pH 8.0 with HCl
+
+Making the Fluorescamine Reagent from Fluorescamine, pure, Thermo Scientific Chemicals 191675000 (100mg/100mL fluorescamine in 100% HPLC grade Acetonitrile).
+o	i.e., weigh out 25mg fluorescamine and dissolve in 25mL Acetonitrile.
+o	Cover in foil, store out of light at 4ºC until use.
+o	Keep powdered fluorescamine covered in foil out of light at room temperature.
 
 
 ## Peptide Quantification {.page_break_before}
