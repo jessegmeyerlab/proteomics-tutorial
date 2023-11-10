@@ -71,8 +71,8 @@
   <meta name="dc.date" content="2023-11-10" />
   <meta name="citation_publication_date" content="2023-11-10" />
   <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:22:41+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:22:41+00:00" />
+  <meta name="dc.modified" content="2023-11-10T18:28:24+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:28:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -163,9 +163,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -182,9 +182,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/252975c10d066caafa1d2bb356feca6d969cb93f">jessegmeyerlab/proteomics-tutorial@252975c</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/362414ebec463d8f5c090d0aa468a78dc9e26a04">jessegmeyerlab/proteomics-tutorial@362414e</a>
 on November 10, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -902,7 +902,7 @@ Samples grown with heavy or light amino acids are mixed before cell lysis.
 The relative intensities of the heavy and light peptide are used to compute protein changes between samples.
 C) Isobaric or chemical labelling.
 Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels.
-These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS.
+These isobaric tags produce unique reporter mass-to-charge (<em>m/z</em>) signals that are produced upon fragmentation with MS/MS.
 Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.</figcaption>
 </figure>
 </div>
@@ -924,7 +924,7 @@ Commercial isobaric tags include tandem mass tags (TMT) <span class="citation" d
 <p>The isobaric tag labeling-based peptide quantitation strategy uses derivatization of every peptide sample with a different isotopic incorporation from a set of isobaric mass tags.
 All isobaric tags have a common structural theme consisting of 1) an amine-reactive groups (usually triazine ester or N-hydroxysuccinimide [NHS] esters) which react with peptide N-termini and ε-amino group of the lysine side chain of peptides, 2) a balancer group, and 3) a reporter ion group (<strong>Figure 4</strong>).<br />
 Peptide labeling is followed by pooling the labelled samples, which undergo MS and MS/MS analysis simultaneously.
-As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor m/z value in an MS1 scan and identical retention time of liquid chromatography analysis.
+As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor <em>m/z</em> value in an MS1 scan and identical retention time of liquid chromatography analysis.
 The modified parent ions undergo fragmentation during MS/MS analysis generating two kinds of fragment ions: (a) reporter ions and (b) peptide fragment ions.
 Each reporter ions’ relative intensity is directly proportional to the peptide abundance in each of the starting samples that were pooled.
 As usual, b- and y-type fragment ion peaks are still used to identify amino acid sequences of peptides, from which proteins can be inferred.
@@ -955,6 +955,7 @@ This new strategy seems to be well suited for quantifying carbonylation at large
 Thus, there is no need for enriching modified peptides before LC-MS/MS analysis.</p>
 <h4 id="tandem-mass-tag-tmt">Tandem Mass Tag (TMT)</h4>
 <p>TMT labeling is based on a similar principle as that of iTRAQ.
+The TMT label is based on a glycine backbone and this limits the amount of sites for heavy atom incorporation
 In the case of 6-plex-TMT, the masses of reporter groups are roughly 126, 127, 128, 129, 130, and 131 Da <span class="citation" data-cites="kIpNiFeU">[<a href="#ref-kIpNiFeU" role="doc-biblioref">243</a>]</span>.
 TMT works best with MS platforms which allow quantitation at the MS3 level (e.g., Thermo Fisher Orbitrap Tribrid instruments) <span class="citation" data-cites="15rS5UMb9 9irghCdu">[<a href="#ref-15rS5UMb9" role="doc-biblioref">241</a>,<a href="#ref-9irghCdu" role="doc-biblioref">253</a>]</span>.
 In experiments performed on Q-Orbitrap or Q-TOF platforms, MS2-based sequence identification (via b- and y-type ions) and quantitation (via low m/z reporter ion intensities) is performed.
@@ -965,7 +966,8 @@ High-field asymmetric waveform spectrometry (FAIMS) also aids the accuracy of TM
 TMT is widely used for quantitative protein biomarker discovery.
 In addition, TMT labeling technique helps multiplex sample analysis enabling efficient use of instrument time.
 TMT labelling also controls for technical variation because after samples are mixed the ratios are locked in, and any sample loss would be equal across channels.
-A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT 6-plex, TMT 10-plex, and TMT 11-plex. The recent addition of TMTpro tags, slight adaptations of the TMT structure based on proline, allow for higher plexing with TMTpro 16-plex <span class="citation" data-cites="12bJg7wN8">[<a href="#ref-12bJg7wN8" role="doc-biblioref">239</a>]</span> and now TMTpro 18-plex <span class="citation" data-cites="1HEOHr3h0">[<a href="#ref-1HEOHr3h0" role="doc-biblioref">240</a>]</span>.
+A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT 6-plex, TMT 10-plex, and TMT 11-plex.
+The recent addition of TMTpro tags, slight adaptations of the TMT structure based on proline, allow for higher plexing with TMTpro 16-plex <span class="citation" data-cites="12bJg7wN8">[<a href="#ref-12bJg7wN8" role="doc-biblioref">239</a>]</span> and now TMTpro 18-plex <span class="citation" data-cites="1HEOHr3h0">[<a href="#ref-1HEOHr3h0" role="doc-biblioref">240</a>]</span>.
 These TMT reagents have a similar chemical structure, which allows the efficient transition from method development to multiplexed peptide quantification <span class="citation" data-cites="OlzbV8x4">[<a href="#ref-OlzbV8x4" role="doc-biblioref">246</a>]</span>.</p>
 <h4 id="iodotmt">iodoTMT</h4>
 <p>IodoTMT reagents are isobaric reagents used for tagging cysteine residues of peptides.
@@ -986,7 +988,7 @@ The labeled glycans from individual samples are subsequently pooled and then und
 <p>The N,N-Dimethyl leucine, also referred to as DiLeu, is an tandem mass tag reagent which is isobaric and has reporter ions of isotope-encoded dimethylated leucine <span class="citation" data-cites="WvWnJWa8">[<a href="#ref-WvWnJWa8" role="doc-biblioref">261</a>]</span>.
 Each incorporated label produces a 145.1 Da mass shift.
 A maximum of four samples can be simultaneously analyzed using DiLeu at a highly reduced cost.
-MS/MS analysis shows intense reporter ions i.e., dimethylated leucine a1 ions at 115, 116, 117, and 118 m/z.
+MS/MS analysis shows intense reporter ions i.e., dimethylated leucine a1 ions at 115, 116, 117, and 118 <em>m/z</em>.
 The labeling efficiency of DiLeu tags are similar to that of the iTRAQ tags.
 Although, DiLeu-labeled peptides offer increased confidence of identification of peptides and more reliable quantification as they undergo better fragmentation, generating higher reporter ion intensities <span class="citation" data-cites="WvWnJWa8">[<a href="#ref-WvWnJWa8" role="doc-biblioref">261</a>]</span>.</p>
 <h4 id="deuterium-isobaric-amine-reactive-tag-diart">Deuterium isobaric Amine Reactive Tag (DiART)</h4>
@@ -4612,7 +4614,7 @@ Kc167 cells</strong> <div class="csl-block">Bernd Bodenmiller, Johan Malmstrom, 
 <div class="csl-left-margin">481. </div><div class="csl-right-inline"><strong>Letter to the editors</strong> <div class="csl-block">P Roepstorff, J Fohlman</div> <em>Biological Mass Spectrometry</em> (1984-11) <a href="https://doi.org/fh4rbm">https://doi.org/fh4rbm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/bms.1200111109">10.1002/bms.1200111109</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/6525415">6525415</a></div></div>
 </div>
 <div id="ref-ivBdKZgo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">482. </div><div class="csl-right-inline"><strong>Mass Spectrometry</strong> <div class="csl-block">James A McCloskey (editor)</div> <em>Academic Pr</em> (1992) <div class="csl-block">ISBN: 9780121820947</div></div>
+<div class="csl-left-margin">482. </div><div class="csl-right-inline"><strong>Mass spectrometry</strong> <div class="csl-block">James A McCloskey</div> <em>Academic Press</em> (1990) <div class="csl-block">ISBN: 9780121820947</div></div>
 </div>
 <div id="ref-12yIRpFcQ" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">483. </div><div class="csl-right-inline"><strong>Evolution of ion internal energy during collisional excitation in the Paul ion trap: A stochastic approach</strong> <div class="csl-block">Douglas E Goeringer, Scott A McLuckey</div> <em>The Journal of Chemical Physics</em> (1996-02-08) <a href="https://doi.org/fj8nsp">https://doi.org/fj8nsp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1063/1.471812">10.1063/1.471812</a></div></div>
