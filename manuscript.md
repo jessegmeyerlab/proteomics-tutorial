@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-10" />
   <meta name="citation_publication_date" content="2023-11-10" />
   <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:22:41+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:22:41+00:00" />
+  <meta name="dc.modified" content="2023-11-10T18:28:24+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:28:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@252975c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/252975c10d066caafa1d2bb356feca6d969cb93f)
+from [jessegmeyerlab/proteomics-tutorial@362414e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/362414ebec463d8f5c090d0aa468a78dc9e26a04)
 on November 10, 2023.
 </em></small>
 
@@ -980,7 +980,7 @@ Samples grown with heavy or light amino acids are mixed before cell lysis.
 The relative intensities of the heavy and light peptide are used to compute protein changes between samples.
 C) Isobaric or chemical labelling. 
 Proteins are isolated separately from samples, enzymatically hydrolyzed into peptides, and then chemically tagged with isobaric stable isotope labels. 
-These isobaric tags produce unique reporter mass-to-charge (m/z) signals that are produced upon fragmentation with MS/MS. 
+These isobaric tags produce unique reporter mass-to-charge (*m/z*) signals that are produced upon fragmentation with MS/MS. 
 Peptide fragment ions are used to identify peptides, and the relative reporter ion signals are used for quantification.
 ](images/Summay_peptide-protein-labeling_.svg){#fig:quant-summary tag="3" width="100%"}
 
@@ -1005,7 +1005,7 @@ Commercial isobaric tags include tandem mass tags (TMT) [@DOI:10.1021/ac0262560]
 The isobaric tag labeling-based peptide quantitation strategy uses derivatization of every peptide sample with a different isotopic incorporation from a set of isobaric mass tags. 
 All isobaric tags have a common structural theme consisting of 1) an amine-reactive groups (usually triazine ester or N-hydroxysuccinimide [NHS] esters) which react with peptide N-termini and ε-amino group of the lysine side chain of peptides, 2) a balancer group, and 3) a reporter ion group (**Figure 4**).  
 Peptide labeling is followed by pooling the labelled samples, which undergo MS and MS/MS analysis simultaneously. 
-As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor m/z value in an MS1 scan and identical retention time of liquid chromatography analysis. 
+As the isobaric tags are used, peptides labeled with these tags give a single MS peak with the same precursor *m/z* value in an MS1 scan and identical retention time of liquid chromatography analysis. 
 The modified parent ions undergo fragmentation during MS/MS analysis generating two kinds of fragment ions: (a) reporter ions and (b) peptide fragment ions. 
 Each reporter ions’ relative intensity is directly proportional to the peptide abundance in each of the starting samples that were pooled. 
 As usual, b- and y-type fragment ion peaks are still used to identify amino acid sequences of peptides, from which proteins can be inferred. 
@@ -1038,6 +1038,7 @@ Thus, there is no need for enriching modified peptides before LC-MS/MS analysis.
 
 #### Tandem Mass Tag (TMT)
 TMT labeling is based on a similar principle as that of iTRAQ. 
+The TMT label is based on a glycine backbone and this limits the amount of sites for heavy atom incorporation
 In the case of 6-plex-TMT, the masses of reporter groups are roughly 126, 127, 128, 129, 130, and 131 Da [@PMID:26584918]. 
 TMT works best with MS platforms which allow quantitation at the MS3 level (e.g., Thermo Fisher Orbitrap Tribrid instruments) [@PMID:25337643; @DOI:10.1021/acs.analchem.3c01155]. 
 In experiments performed on Q-Orbitrap or Q-TOF platforms, MS2-based sequence identification (via b- and y-type ions) and quantitation (via low m/z reporter ion intensities) is performed.
@@ -1048,7 +1049,8 @@ High-field asymmetric waveform spectrometry (FAIMS) also aids the accuracy of TM
 TMT is widely used for quantitative protein biomarker discovery. 
 In addition, TMT labeling technique helps multiplex sample analysis enabling efficient use of instrument time. 
 TMT labelling also controls for technical variation because after samples are mixed the ratios are locked in, and any sample loss would be equal across channels. 
-A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT 6-plex, TMT 10-plex, and TMT 11-plex. The recent addition of TMTpro tags, slight adaptations of the TMT structure based on proline, allow for higher plexing with TMTpro 16-plex [@DOI:10.1021/acs.analchem.9b04474] and now TMTpro 18-plex [@DOI:10.1021/acs.jproteome.1c00168]. 
+A wide range of TMT reagents with different multiplexing capabilities are available, such as TMT zero, TMT duplex, TMT 6-plex, TMT 10-plex, and TMT 11-plex. 
+The recent addition of TMTpro tags, slight adaptations of the TMT structure based on proline, allow for higher plexing with TMTpro 16-plex [@DOI:10.1021/acs.analchem.9b04474] and now TMTpro 18-plex [@DOI:10.1021/acs.jproteome.1c00168]. 
 These TMT reagents have a similar chemical structure, which allows the efficient transition from method development to multiplexed peptide quantification [@PMID:30967486].
 
 #### iodoTMT
@@ -1072,7 +1074,7 @@ The labeled glycans from individual samples are subsequently pooled and then und
 The N,N-Dimethyl leucine, also referred to as DiLeu, is an tandem mass tag reagent which is isobaric and has reporter ions of isotope-encoded dimethylated leucine [@PMID:20218596]. 
 Each incorporated label produces a 145.1 Da mass shift. 
 A maximum of four samples can be simultaneously analyzed using DiLeu at a highly reduced cost. 
-MS/MS analysis shows intense reporter ions i.e., dimethylated leucine a1 ions at 115, 116, 117, and 118 m/z. 
+MS/MS analysis shows intense reporter ions i.e., dimethylated leucine a1 ions at 115, 116, 117, and 118 *m/z*. 
 The labeling efficiency of DiLeu tags are similar to that of the iTRAQ tags. 
 Although, DiLeu-labeled peptides offer increased confidence of identification of peptides and more reliable quantification as they undergo better fragmentation, generating higher reporter ion intensities [@PMID:20218596].
 

@@ -25741,18 +25741,17 @@
   {
     "id": "ivBdKZgo",
     "type": "book",
-    "collection-number": "193",
+    "call-number": "543.65",
+    "collection-number": "v. 193",
     "collection-title": "Methods in enzymology",
-    "edition": "2. [print.]",
     "event-place": "San Diego",
     "ISBN": "9780121820947",
     "language": "eng",
-    "number-of-pages": "960",
-    "publisher": "Academic Pr",
+    "publisher": "Academic Press",
     "publisher-place": "San Diego",
-    "source": "K10plus ISBN",
-    "title": "Mass Spectrometry",
-    "editor": [
+    "source": "BnF ISBN",
+    "title": "Mass spectrometry",
+    "author": [
       {
         "family": "McCloskey",
         "given": "James A."
@@ -25761,7 +25760,7 @@
     "issued": {
       "date-parts": [
         [
-          "1992"
+          "1990"
         ]
       ]
     },
