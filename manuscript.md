@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-07'
+date-meta: '2023-11-10'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-11-07" />
-  <meta name="citation_publication_date" content="2023-11-07" />
-  <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T17:23:04+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T17:23:04+00:00" />
+  <meta name="dc.date" content="2023-11-10" />
+  <meta name="citation_publication_date" content="2023-11-10" />
+  <meta property="article:published_time" content="2023-11-10" />
+  <meta name="dc.modified" content="2023-11-10T18:22:41+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:22:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/707fcec18445f103eae8689242c3af1dbcb7b8a4/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/252975c10d066caafa1d2bb356feca6d969cb93f/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@707fcec](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/707fcec18445f103eae8689242c3af1dbcb7b8a4)
-on November 7, 2023.
+from [jessegmeyerlab/proteomics-tutorial@252975c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/252975c10d066caafa1d2bb356feca6d969cb93f)
+on November 10, 2023.
 </em></small>
 
 
@@ -763,6 +763,7 @@ Avoid using tween-20, triton-X, NP-40, and polyethylene glycols (PEGs) as these 
 #### Optional additives 
 For non-denaturing buffer conditions, which preserve tertiary and quaternary protein structures, additional additives may not be necessary for successful extraction and to prevent proteolysis or PTMs throughout the extraction process. 
 Protease, phosphatase and deubiquitinase inhibitors are optional additives in less denaturing conditions or in experiments focused on specific PTMs. 
+For a broad range of inhibitors, a premixed tablet can be added to the lysis buffer, such as Roche cOmplete Mini Protease Inhibitor Cocktail tablets. 
 Protease inhibitors may impact desired proteolysis from the added protease, and will need to be diluted or removed prior to protease addition. 
 To improve extraction of DNA- or RNA-binding proteins, adding a small amount of nuclease or benzonase is useful for degradation of any bound nucleic acids and results in a more consistent digestion [@PMID:23792921].
 
