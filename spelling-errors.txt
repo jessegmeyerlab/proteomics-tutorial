@@ -140,7 +140,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -167,10 +167,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 Colorimetric
-colorimetry
+Colorimetry
 columbic
 Combinatorial
 Comisarow
@@ -190,11 +190,12 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 cryo
 cryogels
 crystalized
 crystallizable
+CubeBio
 cuprous
 curation
 cyano
@@ -212,7 +213,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -226,6 +227,7 @@ DeMux
 denaturant
 denaturants
 deoxycholate
+depletions
 derivatization
 desorption
 deubiquitinase
@@ -247,7 +249,7 @@ dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -276,7 +278,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -307,7 +309,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -345,7 +347,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -367,7 +369,8 @@ GF
 GFF
 Gillet
 Gitter
-GlcNAc
+GL
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -375,7 +378,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -392,7 +395,7 @@ glycoproteome
 Glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -496,7 +499,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -519,7 +522,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 Köcher
 Koichi
@@ -569,6 +572,7 @@ lytic
 MacLean
 macromolecule
 macromolecules
+MagReSyn
 Makarov
 MALDI
 maleimide
@@ -577,7 +581,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 MaSDeS
 Masson
 MassQC
@@ -613,7 +617,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -632,7 +636,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -665,7 +669,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -704,7 +708,7 @@ onotology
 OpenMS
 operon
 Orbitrap
-orbitraps
+Orbitraps
 organismal
 orignal
 Ortholog
@@ -745,19 +749,20 @@ phosphine
 phosphoenrichment
 phosphoester
 phosphoimaging
-Phosphopeptide
+phosphonate
+phosphopeptide
 phosphopeptides
 Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
-Phosphoproteomics
+phosphoproteomics
 phosphorylated
 phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -795,7 +800,7 @@ Progenesis
 proline
 Pronase
 Prot
-protease
+Protease
 proteases
 proteasome
 Proteinase
@@ -832,11 +837,11 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QToF
-Quadrupole
-Quadrupoles
+quadrupole
+quadrupoles
 Qual
 quantile
 quantitate
@@ -860,10 +865,11 @@ refered
 reflectron
 RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
+ReSyn
 reticulum
 rexprem
 rfs
@@ -881,7 +887,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -922,7 +928,7 @@ specificities
 specrtrometry
 SpectraST
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -937,6 +943,7 @@ StageTips
 Staphyloccous
 StcEz
 stepwise
+steric
 stochasticity
 stoichiometry
 streptavidin
@@ -989,7 +996,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -1011,8 +1018,8 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-tris
+tripleTOF
+Tris
 Tritirachium
 Trp
 trypsin
@@ -1028,7 +1035,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 uDIA
 ug
 Ulilysin
@@ -1041,7 +1048,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1049,7 +1056,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable

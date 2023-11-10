@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-10" />
   <meta name="citation_publication_date" content="2023-11-10" />
   <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:28:24+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:28:24+00:00" />
+  <meta name="dc.modified" content="2023-11-10T18:35:51+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:35:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/362414ebec463d8f5c090d0aa468a78dc9e26a04/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e72df56db684dc7e2e93bbc2d199da8f4570236c/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@362414e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/362414ebec463d8f5c090d0aa468a78dc9e26a04)
+from [jessegmeyerlab/proteomics-tutorial@e72df56](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e72df56db684dc7e2e93bbc2d199da8f4570236c)
 on November 10, 2023.
 </em></small>
 
@@ -1159,11 +1159,13 @@ As a result, phosphopeptide enrichment has yielded more experimental data than p
 Phosphopeptide enrichment is typically done after any isobaric labeling strategy, although several have investigated the importance of order at these stages.
 
 Phosphopeptide enrichment often uses titanium dioxide (TiO2) [@PMID:15858219] and/or IMAC such as Fe3+ coupled to solid-phase materials [@PMID:3085541; @PMID:35011700; @PMID:26584922]. 
+The most common cost-effective beads for phosphopeptide extraction with Ti are ReSyn and GL Sciences, and CubeBio for Fe-based beads. 
 Often organic acids such as glutamic acid, lactic acid, glycolic acid is added to compete with acidic non-phosphopeptides for binding to the metal-ions. 
 Carr and coworkers even demonstrated phosphoproteome analysis without any enrichment [@DOI:10.1006/abio.1996.0313].
 
 The use of Fe-IMAC column chromatography allows for the improved phosphopeptide from complex peptide mixtures [@PMID:25394399]. 
 Compared to other formats like StageTips or batch incubations with TiO2 or Ti-IMAC beads, Fe-IMAC columns have do not suffer from problems with poor binding or elution of phosphopeptides, and the efficiency of enrichment increases linearly with the amount of starting material [@PMID:28188522].
+Also with recent improvements to Ti based beads, the MagReSyn Ti-IMAC HP with Ti4+ attached with a flexible linker (to reduce steric hindrance) activated with phosphonate groups for Ti4+ chelation, and the MagReSyn Zr-IMAC HP, also with a flexible linker activated with phosphonate groups for Zr4+ chelation, have shown superior phosphopeptide extraction as compared to FE-IMAC.
 
 Multiple IMAC steps can be used in parallel or sequentially to improve phosphopeptide coverage. 
 Lai et al., (2012) showed that the combined use of Fe3+-IMAC and Ti(4+)-IMAC chromatography enables complementary identification of more phosphorylation sites than either technique alone [@PMID:22886815]. 
@@ -1229,7 +1231,8 @@ However, non-specific binding may occur due to co-absorption of other proteins [
 
 #### Immunodepletion: 
 This method is used for depletion of proteins having high abundance in plasma or serum on the basis of the specific interaction of these proteins with their respective antibodies (antigen-antibody interaction) [@PMID:27896769]. 
-It has high specificity and commercial kits are also readily available, but it is expensive, has limited sample loading and can result in non-specific binding [@PMID:31617391].
+Immunodepletion has high specificity and commercial kits based on columns (Agilent MARS column) or loose beads (Thermo-Fisher High-Select depletions beads) both deplete the Top 14 most abundant protein in blood and are also readily available but expensive.
+For some protocols, non-specific binding to these immunodepletion columns or beads by proteins of interest is highly dependent on washing conditions [@PMID:31617391].
 
 #### Combinatorial peptide ligand library: 
 This method is used for partial depletion of major proteins i.e., those with high abundance and for relative enrichment of lower and medium abundant proteins [@PMID:18451796]. 
