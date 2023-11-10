@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-10" />
   <meta name="citation_publication_date" content="2023-11-10" />
   <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:43:22+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:43:22+00:00" />
+  <meta name="dc.modified" content="2023-11-10T18:44:45+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:44:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/5147784cc7684c88e3584e6f67731ef467af5aca/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@5147784](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/5147784cc7684c88e3584e6f67731ef467af5aca)
+from [jessegmeyerlab/proteomics-tutorial@58efdde](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/58efddead5fb4688e4129630f1a1cc808c2097b0)
 on November 10, 2023.
 </em></small>
 
@@ -1352,7 +1352,7 @@ Increasing the salt concentration decreases the peptide retention time due to co
 However, SCX resolution is limited compared to reversed phase chromatography and will thus limit the suitability of this technique for complex mixtures [@PMID:15672457].
 
 #### Reversed-phase chromatography (RPLC)
-Reversed-phase chromatography is the most widely commonly used chromatographic technique which separates molecules in solution having neutral pH based on their hydrophobicity. 
+Reversed-phase chromatography is the most commonly used chromatographic technique which separates molecules in solution having neutral pH based on their hydrophobicity. 
 The separation occurs on the basis of the partition coefficient of analytes between the mobile phase and the hydrophobic stationary phase. 
 Highly polar peptides elute before the ones having less polarity because of the strong interaction with the hydrophobic functional groups forming a layer similar to a liquid around the silica resin [@PMID:20973639]. 
 RPLC has been widely used in separation of peptides because of its compatibility with gradient elution and aqueous samples and its retention mechanism, which modulates separation owing to changes in the properties like pH, additives and organic modifier [@PMID:20031138]. 

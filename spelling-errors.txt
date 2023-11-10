@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-acetonitrile
+Acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -29,14 +29,14 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
 Aminoxy
-AminoxyTMT
+aminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -74,7 +74,7 @@ Balaya
 Bantan
 BASU
 BCA
-beamCID
+BeamCID
 Benchmarking
 benchtop
 Benjamini
@@ -143,7 +143,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -170,7 +170,7 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 colorimetric
 colorimetry
@@ -216,7 +216,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -295,8 +295,8 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
-ensembl
+Enrichments
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -312,7 +312,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -340,7 +340,7 @@ flowrate
 flowrates
 Flp
 FlpIn
-Fluorescamine
+fluorescamine
 fluorescently
 fluorogenic
 fluorometers
@@ -349,7 +349,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -383,7 +383,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -393,7 +393,7 @@ glycoforms
 glycolic
 glycols
 glycopeptide
-glycopeptides
+Glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
@@ -676,7 +676,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -759,7 +759,7 @@ phosphoimaging
 phosphonate
 phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -774,7 +774,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -808,7 +808,7 @@ PRM
 Progenesis
 proline
 Pronase
-Prot
+prot
 protease
 proteases
 proteasome
@@ -818,12 +818,12 @@ ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-Proteomic
+proteomic
 Proteomics
 ProtParam
 protti
@@ -846,11 +846,11 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
 QTOF
-quadrupole
-quadrupoles
+Quadrupole
+Quadrupoles
 Qual
 quantile
 quantitate
@@ -868,7 +868,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 refered
 reflectron
@@ -938,7 +938,7 @@ specificities
 specrtrometry
 SpectraST
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -1006,7 +1006,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -1020,7 +1020,7 @@ Translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -1028,8 +1028,8 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-Tris
+tripleTOF
+tris
 Tritirachium
 TRP
 trypsin
@@ -1059,7 +1059,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
