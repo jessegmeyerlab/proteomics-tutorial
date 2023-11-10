@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-10" />
   <meta name="citation_publication_date" content="2023-11-10" />
   <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:44:45+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:44:45+00:00" />
+  <meta name="dc.modified" content="2023-11-10T18:50:04+00:00" />
+  <meta property="article:modified_time" content="2023-11-10T18:50:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/58efddead5fb4688e4129630f1a1cc808c2097b0/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@58efdde](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/58efddead5fb4688e4129630f1a1cc808c2097b0)
+from [jessegmeyerlab/proteomics-tutorial@43c3d89](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/43c3d89cccdfce510a3a196a9f0f6a4d848859fc)
 on November 10, 2023.
 </em></small>
 
@@ -1557,7 +1557,7 @@ Since this article serves as a guide for those new to the field, particularly th
 However, for those keen on a deeper understanding, we've included references pertaining to these foundational principles. 
 Our focus lies on introducing fundamental concepts and outlining the typical workflow in mass spectrometry.
 
-The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their mass-to-charge (m/z) ratio, and then detect them by their respective m/z and abundance. 
+The process of mass spectrometry (MS) is to generate gas phase ions from compounds in samples by any suitable method, to separate these ions by their *m/z* ratio, and then detect them by their respective *m/z* and abundance. 
 The successful implementation and demonstration of this process requires participation of five fundamental systems (**Figure 8**):
 
 #### 1)	The ion source.
@@ -1566,13 +1566,13 @@ Common methods of ionization in mass spectrometry include electrospray ionizatio
 For proteomic analysis, soft ionization methods such as ESI and MALDI are the most widely applied techniques [@DOI:10.1126/science.2675315;@DOI:10.1002/rcm.1290020802], which will be discussed in next chapter in more detail.
 
 #### 2)	The mass analyzer.
-The mass analyzer is where gas phase ions are separated according to their m/z ratio based on physical principles.
+The mass analyzer is where gas phase ions are separated according to their *m/z* ratio based on physical principles.
 There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, Orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 12.1).
 For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
 The mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
 
 #### 3)	The detector.
-The detector is where ions are detected and their respective m/z values and abundances are recorded, generating a mass spectrum.
+The detector is where ions are detected and their respective *m/z* values and abundances are recorded, generating a mass spectrum.
 Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with a summary of their strengths and limitations, are illustrated in Table 12.2.
 It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
 Instead, these analyzers detect an image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
@@ -1625,8 +1625,8 @@ Next, we will focus on introducing several classic tandem mass spectrometry type
 Triple quadrupole mass spectrometer (often abbreviated as QqQ, QQQ, TQ, or TQMS) is a type of tandem mass spectrometer where three quadrupole mass analyzers are combined in series (**Figure 9**). 
 Each quadrupole is essentially a set of four parallel metal rods to which radio frequency (RF) and direct current (DC) voltages are applied to each opposing pair of rods. 
 The QqQ operates in a synchronized manner to isolate ions of interest (according to the Mathieu function) in the first quadrupole, induce fragmentation with inert gas in the second, and then detect the resulting product ions in the third quadrupole. 
-Specifically, the first quadrupole (Q1) is a mass filter, where ions of a specific m/z are selected from the incoming ion beam. 
-This is achieved by adjusting the voltage applied to the pair rods within the quadrupole, allowing ions with a particular m/z value to pass through while deflecting others. 
+Specifically, the first quadrupole (Q1) is a mass filter, where ions of a specific *m/z* are selected from the incoming ion beam. 
+This is achieved by adjusting the voltage applied to the pair rods within the quadrupole, allowing ions with a particular *m/z* value to pass through while deflecting others. 
 The second quadrupole (Q2), also known as the collision cell, is where selected ions from Q1 are fragmented into product ions. 
 This fragmentation happens due to the collisions between inert gas molecules (nitrogen, argon, or helium) and ions, which causes the ions to break up (fragment) into smaller pieces (fragment ions). 
 For more detail about peptide fragmentation, see the Tandem Mass Spectrometry section.
@@ -1672,20 +1672,20 @@ Three quadrupoles enable precursor selection, fragmentation, and the fragment io
 Even though quadrupoles face difficulties in accurately identifying unknown peptides within complex mixtures due to its mass resolution, they serve effectively as mass filters, making them an excellent choice for combining with other high-resolution mass analyzers to form tandem mass spectrometry systems. 
 One commonly used approach is Quadrupole-Time-of-Flight Mass Spectrometer (Q-TOF-MS), a 'hybrid' device, integrating quadrupole techniques with a time-of-flight mass analyzer.
 W.E. Stephens constructed and published the design of the first time-of-flight (TOF) analyzer in 1946 [@doi:10.1103/PhysRev.69.674.2; @DOI:10.1063/1.1770801]. 
-The principle of TOF is quite straightforward: ions of different mass-to-charge ratios (m/z) are imparted with the same initial kinetic energy (E = Uq = ½ mv2) and then separated over time as they travel along a field-free drift path of known length. 
+The principle of TOF is quite straightforward: ions of different *m/z* are imparted with the same initial kinetic energy (E = Uq = ½ mv2) and then separated over time as they travel along a field-free drift path of known length. 
 If all ions begin their flight simultaneously, or at least within a short enough time span, the lighter ions will reach the detector before the heavier ones due to their faster velocity (V)[@DOI:10.1063/1.1715212]. 
-Based on this principle, the m/z of different ions can be calculated according to the order in which they reach the detector. 
+Based on this principle, the *m/z* of different ions can be calculated according to the order in which they reach the detector. 
 Similarly, we can easily conclude that the longer the drift path, the higher of the mass resolution can reach if keep the response time of detector the same. 
 In fact, in pursuit of higher mass resolution, researchers have indeed built time-of-flight (TOF) drift tubes that are tens of meters long. 
 However, apparently, this is not practical for widely application in a regular lab place. 
 An alternative way to expand drift length and achieve higher resolution is to apply reflector (often called a reflectron). 
 The principles and advantages of using a reflector can be summarized as follows.
 
-Under ideal circumstances within a TOF mass spectrometer, ions sharing the same m/z would reach the detector concurrently post-acceleration, thus generating a sharp peak on the mass spectrum.
+Under ideal circumstances within a TOF mass spectrometer, ions sharing the same *m/z* would reach the detector concurrently post-acceleration, thus generating a sharp peak on the mass spectrum.
 However, the inherent oscillation path variability of ions within the mass spectrometer makes it challenging to maintain uniform initial kinetic energy amongst all ions, leading to peak broadening and a substantial reduction in mass resolution.
 The reflector is designed to rectify this issue. Comprising a series of electrodes that set to different voltages, the reflector generates a retarding electric field that reverses ion trajectories back through the flight tube.
 Notably, the reflector is engineered such that ions carrying lower kinetic energy delve less into the reflector and have a reduced flight path, while those with higher kinetic energy permeate more deeply and follow a longer flight path.
-This equalizes the variances in initial kinetic energy, enabling ions of the same m/z to hit the detector almost simultaneously, thereby enhancing the resolution of TOF.
+This equalizes the variances in initial kinetic energy, enabling ions of the same *m/z* to hit the detector almost simultaneously, thereby enhancing the resolution of TOF.
 
 Furthermore, the usage of reflector effectively expands the flight path length within the same physical confines, resulting in superior ion separation and consequently, higher resolution.
 This reflection comes at the cost of some ion loss, and therefore some sensitivity loss. 
@@ -1695,7 +1695,7 @@ The construction of a Q-TOF bears significant resemblance to a triple-quadrupole
 **Figure 10** delineates the schematic of a typical Quadrupole-Time-of-Flight (Q-TOF) mass spectrometer, which comprises three fundamental components: 
 
 #### 1. Quadrupole mass analyzer (Q).
-This part of the instrument is basically the same to the Q1 in QqQ, which select specific m/z values to pass through by applying a combination of DC and RF voltages across the rods.
+This part of the instrument is basically the same to the Q1 in QqQ, which selects specific *m/z* values to pass through by applying a combination of DC and RF voltages across the rods.
 
 #### 2. Collision cell.
 Here, selected ions undergo collision-induced dissociation (CID) by interacting with a neutral gas, leading to their fragmentation into smaller constituents.
@@ -1878,7 +1878,8 @@ In this case, only ions with a specific response to the changing electric field 
 By scanning or modulating the CV, different ion species can be selectively transmitted through the FAIMS device. 
 In contrast to drift tube IMS in which the ion stream is sampled in discrete packets and all ions reach the detector, FAIMS is a continuous filtration technique that allows uninterrupted sampling of the ion stream, but only for a selected subset of the ion population. 
 One of the primary advantages of this continuous collection technique is greatly increase the signal-to-noise ratio for the ion(s) of interest by removing unwanted chemical noise, which make FAIMS more similar to a m/z filter than other ion mobility spectrometry tools. 
-Drawbacks of FAIMS are that it does not produce any CCS values and it has relatively low resolution separations. 
+FAIMS also has the advantage of operating at atmospheric pressure. 
+Drawbacks of FAIMS, however, are that it does not produce any CCS values and it has relatively low resolution separations. 
 Commercial FAIMS products from vendors including Thermo Fisher and Waters are available now.
 
 
