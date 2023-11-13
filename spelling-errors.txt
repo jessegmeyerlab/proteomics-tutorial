@@ -36,7 +36,7 @@ AlphaPeptStats
 amandamomenzadeh
 aminomethane
 Aminoxy
-aminoxyTMT
+AminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -143,7 +143,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 cerebrospinal
@@ -170,10 +170,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 colorimetric
-colorimetry
+Colorimetry
 columbic
 combinable
 Combinatorial
@@ -194,7 +194,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 cryo
 cryogels
 crystalized
@@ -297,7 +297,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -313,7 +313,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -341,7 +341,7 @@ flowrate
 flowrates
 Flp
 FlpIn
-fluorescamine
+Fluorescamine
 fluorescently
 fluorogenic
 fluorometers
@@ -353,7 +353,7 @@ Folin
 footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -376,7 +376,7 @@ GFF
 Gillet
 Gitter
 GL
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -384,7 +384,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -401,7 +401,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -458,7 +458,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 Ido
 IEC
@@ -473,7 +473,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-Immunodepletion
+immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -506,7 +506,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -530,7 +530,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 Köcher
 Koichi
@@ -589,7 +589,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 MaSDeS
 Masson
 MassQC
@@ -625,7 +625,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -645,7 +645,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -760,9 +760,9 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -772,12 +772,12 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -805,7 +805,7 @@ PPI
 PPIs
 pre
 Precellys
-prefractionation
+Prefractionation
 preprocessing
 PRM
 Progenesis
@@ -822,12 +822,12 @@ ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-proteolysis
+Proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-Proteomic
+proteomic
 proteomics
 proteotypic
 ProtParam
@@ -854,9 +854,9 @@ QIT
 QqLIT
 QQQ
 qRT
-QTOF
+QToF
 Quadrupole
-Quadrupoles
+quadrupoles
 Qual
 quantile
 quantitate
@@ -1015,7 +1015,7 @@ TMT
 TMTpro
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -1037,12 +1037,12 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
-Tris
+TripleTOF
+tris
 Tritirachium
 Trp
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1054,7 +1054,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 Udenfriend
 uDIA
 ug
