@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T19:09:46+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T19:09:46+00:00" />
+  <meta name="dc.modified" content="2023-11-13T20:10:46+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T20:10:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@8a9f122](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/8a9f12236bbe233200dde2f25507fca45a90f09d)
+from [jessegmeyerlab/proteomics-tutorial@c7f88fc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c7f88fcd7bee45b5e9d80440897abb5c86195337)
 on November 13, 2023.
 </em></small>
 
@@ -2303,10 +2303,18 @@ These improvements include support for additional open formats and standards, fu
 
 For open modification database searching, programs such as Magnum (@PMID:35184559) are also now available which is specialized in identification of non-peptide masses that are bound to peptides. The tool is capable of identifying xenobiotic mass adducts, in addition to PTMs that were uncharacterized in the search parameters. 
 
-
 ### Strategies for analysis of DIA data
+DIA data analysis is fundamentally different from DDA data analysis because, instead of a single MS/MS spectrum for each peptide, we can observe the elution of peptide fragments for any peptide over chromatography time.
+There are two general approaches for peptide identification from DIA data: peptide-centric and spectrum-centric.
 
-### Targeted proteomics data analysis
+Peptide-centric approaches looks for evidence of specific peptides that are in some assay library of MS/MS spectra. 
+That library could be predicted spectra (e.g., using Prosit) [@DOI:10.1038/s41592-019-0426-7], or previously measured spectra (e.g., from a organism-wide knowledge base) [@PMID:30172843].
+Examples of software that perform peptide-centric analysis include OpenSWATH [@DOI:10.1038/nbt.2841], Spectronaut [@DOI:10.1074/mcp.RA117.000314], csoDIAq [@DOI:10.1021/acs.analchem.1c02021], and DIA-NN [@DOI:10.1038/s41592-019-0638-x]. 
+
+Spectrum-centric approaches instead ask if there is evidence for any peptide based on analysis of the observed spectra. 
+Examples of spectrum-centric approaches include DIA-Umpire [@DOI:10.1038/nmeth.3255] and PECAN [@DOI:10.1038/nmeth.4390]. 
+Spectrum-centric approaches may assemble pseudo-MS/MS spectra from co-elution of fragments that can then be used with any DDA database search [@DOI:10.1038/nmeth.3255].
+Spectrum-centric may be less sensitive at peptide identification than peptide-centric approaches. 
 
 ### Quality control
 

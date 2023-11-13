@@ -35,8 +35,8 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-Aminoxy
-aminoxyTMT
+aminoxy
+AminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -80,7 +80,7 @@ benchtop
 Benjamini
 benzonase
 Bertin
-betweenness
+Betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -104,7 +104,7 @@ biopolymers
 bioruptor
 Biosystems
 BioTek
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -143,7 +143,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -170,9 +170,9 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
-colorimetric
+Colorimetric
 Colorimetry
 columbic
 combinable
@@ -194,11 +194,12 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 Cryo
 cryogels
 crystalized
 crystallizable
+csoDIAq
 CubeBio
 cuprous
 curation
@@ -313,7 +314,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -327,7 +328,7 @@ Exploris
 FAIMS
 FASP
 fasta
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -350,10 +351,10 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -376,7 +377,7 @@ GFF
 Gillet
 Gitter
 GL
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -394,7 +395,7 @@ glycoforms
 glycolic
 glycols
 glycopeptide
-Glycopeptides
+glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
@@ -473,7 +474,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-immunodepletion
+Immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -497,7 +498,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -505,8 +506,8 @@ iProphet
 IRMPD
 iRT
 isocratic
-Isoelectric
-isoform
+isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -530,7 +531,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 Köcher
 Koichi
@@ -625,7 +626,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -678,7 +679,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -691,7 +692,7 @@ nonlinearity
 nonoptimal
 nonparametric
 nonpolar
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -715,9 +716,10 @@ omics
 OMSSA
 onotology
 OpenMS
+OpenSWATH
 operon
 Orbitrap
-orbitraps
+Orbitraps
 organismal
 orignal
 Ortholog
@@ -777,7 +779,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -803,7 +805,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-Pre
+pre
 Precellys
 Prefractionation
 preprocessing
@@ -811,9 +813,10 @@ PRM
 Progenesis
 proline
 Pronase
+Prosit
 Prot
 ProtContLib
-Protease
+protease
 proteases
 proteasome
 Proteinase
@@ -822,12 +825,12 @@ ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-Proteomic
+proteomic
 proteomics
 proteotypic
 ProtParam
@@ -855,8 +858,8 @@ QqLIT
 QQQ
 qRT
 QTOF
-quadrupole
-Quadrupoles
+Quadrupole
+quadrupoles
 Qual
 quantile
 quantitate
@@ -874,7 +877,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-Reactome
+REACTOME
 recombinase
 refered
 reflectron
@@ -903,7 +906,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -946,7 +949,7 @@ specrtrometry
 SpectraST
 SpectroDive
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -1015,7 +1018,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -1025,7 +1028,7 @@ transcriptional
 transcriptome
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -1038,10 +1041,10 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 tripleTOF
-Tris
+tris
 Tritirachium
-Trp
-trypsin
+TRP
+Trypsin
 Tryptic
 TryTrypDB
 TSA
@@ -1076,7 +1079,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
