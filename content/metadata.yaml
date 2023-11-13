@@ -153,17 +153,7 @@ authors:
     affiliations:
       - School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina
       - Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
-     
-  - name: Robert L. Moritz
-    initials: RLM
-    orcid: 0000-0002-3216-9447
-    twitter: r_l_moritz
-    email: rmoritz@systemsbiology.org
-    affiliations: 
-      - Institute for Systems biology, Seattle, WA, USA, 98109
-    funders: 
-      - National Institutes of Health Grants R01GM087221, R24GM127667, U19AG023122, S10OD026936
-      - National Science Foundation Award 1920268
+
   
   - github: agduboff
     name: Anna G. Duboff
@@ -186,6 +176,17 @@ authors:
     funders:
       - National Institutes of Health Grant R00 GM147304
 
+  - name: Robert L. Moritz
+    initials: RLM
+    orcid: 0000-0002-3216-9447
+    twitter: r_l_moritz
+    email: rmoritz@systemsbiology.org
+    affiliations: 
+      - Institute for Systems biology, Seattle, WA, USA, 98109
+    funders: 
+      - National Institutes of Health Grants R01GM087221, R24GM127667, U19AG023122, S10OD026936
+      - National Science Foundation Award 1920268
+      
   - github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
