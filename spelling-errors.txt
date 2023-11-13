@@ -35,7 +35,7 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -74,13 +74,13 @@ Balaya
 Bantan
 BASU
 BCA
-BeamCID
+beamCID
 Benchmarking
 benchtop
 Benjamini
 benzonase
 Bertin
-Betweenness
+betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -104,7 +104,7 @@ biopolymers
 bioruptor
 Biosystems
 BioTek
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -143,7 +143,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -160,7 +160,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -170,7 +170,7 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 Colorimetric
 Colorimetry
@@ -194,7 +194,7 @@ crosslinked
 crosslinker
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -232,7 +232,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -281,7 +281,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -296,12 +296,12 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
 Enzymology
-Epitope
+epitope
 equilibration
 Equus
 ERLIC
@@ -312,7 +312,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -326,7 +326,7 @@ Exploris
 FAIMS
 FASP
 fasta
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -383,7 +383,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -400,7 +400,7 @@ glycoproteome
 Glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -457,7 +457,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -623,7 +623,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 microflow
@@ -643,7 +643,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -689,7 +689,7 @@ nonlinearity
 nonoptimal
 nonparametric
 nonpolar
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -715,7 +715,7 @@ onotology
 OpenMS
 operon
 Orbitrap
-orbitraps
+Orbitraps
 organismal
 orignal
 Ortholog
@@ -758,12 +758,12 @@ phosphoester
 phosphoimaging
 phosphonate
 phosphopeptide
-phosphopeptides
-phosphoprotein
+Phosphopeptides
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
-Phosphoproteomics
+phosphoproteomics
 phosphorylated
 phosphosite
 PhosphoSitePlus
@@ -800,7 +800,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-Pre
+pre
 Precellys
 prefractionation
 preprocessing
@@ -808,8 +808,9 @@ PRM
 Progenesis
 proline
 Pronase
-Prot
-Protease
+prot
+ProtContLib
+protease
 proteases
 proteasome
 Proteinase
@@ -846,10 +847,10 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
-QTOF
-Quadrupole
+QToF
+quadrupole
 Quadrupoles
 Qual
 quantile
@@ -1006,8 +1007,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-TOF
-ToFs
+tof
+TOFs
 Torr
 TPP
 TQ
@@ -1021,7 +1022,7 @@ translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -1030,7 +1031,7 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-Tris
+tris
 Tritirachium
 Trp
 trypsin
@@ -1046,7 +1047,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 Udenfriend
 uDIA
 ug
@@ -1060,7 +1061,7 @@ underivatized
 undirected
 unenriched
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1068,7 +1069,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable

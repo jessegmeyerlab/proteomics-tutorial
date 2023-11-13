@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T15:44:34+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T15:44:34+00:00" />
+  <meta name="dc.modified" content="2023-11-13T15:50:16+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T15:50:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@7660cd8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c)
+from [jessegmeyerlab/proteomics-tutorial@be0683e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/be0683e432405179a5421ea9ea27e8ce809ddf6d)
 on November 13, 2023.
 </em></small>
 
@@ -2566,7 +2566,7 @@ These sampling methods may lead to a poorly calibrated model that overestimates 
 
 
 
-## Databases {.page_break_before}
+## Protein Sequence Databases {.page_break_before}
 
 ### What are they and where do you get them?
 
@@ -2749,7 +2749,7 @@ cRAP is the contaminant protein list used in nearly all modern database searchin
 There is also another contaminant sequence collection distributed with MaxQuant. 
 Together, the cRAP and MaxQuant contaminant protein sequence collections are found in some form across most software, including MetaMorpheus and Philosopher (available in FragPipe) [@PMID:32669682]. 
 This list of known frequently contaminating proteins can either be automatically included by the software or can be retrieved as a FASTA to be used along with the primary search FASTA(s). 
-Recently the Hao Lab has revisited these common contaminant sequences in an effort to update the protein sequences, test their utility on experimental data, and add or remove entries [@DOI:10.1101/2022.04.27.489766]. 
+Recently the Hao Lab has revisited these common contaminant sequences in an effort to update the protein sequences (ProtContLib), test their utility on experimental data, and add or remove entries [@DOI:10.1101/2022.04.27.489766]. 
 
 In addition to these environmentally unintended contaminants, there are known contaminants that also have available protein sequence collections (or can be generated using the steps above) and should be included in the search space. 
 These can include the media cells were grown in (e.g., fetal bovine serum [@PMID:20641139; @PMID:33532042], food fed to cells/animals (e.g., *Caenorhabditis elegans* grown on *Escherichia coli*) or known non-specific binders in affinity purification (i.e., CRAPome [@PMID:23921808]). 
