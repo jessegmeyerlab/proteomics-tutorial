@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T16:50:49+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T16:50:49+00:00" />
+  <meta name="dc.modified" content="2023-11-13T19:09:46+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T19:09:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/8a9f12236bbe233200dde2f25507fca45a90f09d/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@f3f48d1](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/f3f48d19c8a05c08a245413576717fb6a72e2feb)
+from [jessegmeyerlab/proteomics-tutorial@8a9f122](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/8a9f12236bbe233200dde2f25507fca45a90f09d)
 on November 13, 2023.
 </em></small>
 
@@ -2152,7 +2152,7 @@ On the orbitrap, the combination of FAIMS and DIA has enabled the identification
 
 ## Analysis of Raw Data {.page_break_before}
 
-The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically focused analysis (**Figure 15**). 
+The goal of basic data analysis is to convert raw spectral data into identities and quantities of peptides and proteins that can be used for biologically focused analysis (**Figure 16**). 
 This step may often include measures of quality control, cross-run data normalization, quantification on different levels (precursor, peptide, protein), protein inference, PTM (post translational modification) localization and also first steps of data analysis, such as statistical hypothesis tests. 
 
 ![**Proteomics Data Analysis and Biological Interpretation.**

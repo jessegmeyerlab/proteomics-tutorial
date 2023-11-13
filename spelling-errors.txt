@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-acetonitrile
+Acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -29,14 +29,14 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
 Aminoxy
-AminoxyTMT
+aminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -104,7 +104,7 @@ biopolymers
 bioruptor
 Biosystems
 BioTek
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -157,7 +157,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -170,7 +170,7 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 colorimetric
 Colorimetry
@@ -194,8 +194,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
-cryo
+crosslinking
+Cryo
 cryogels
 crystalized
 crystallizable
@@ -217,7 +217,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -233,7 +233,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -297,7 +297,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -313,7 +313,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -326,8 +326,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-Fc
+fasta
+FC
 FCCS
 FCS
 Fenn
@@ -341,7 +341,7 @@ flowrate
 flowrates
 Flp
 FlpIn
-Fluorescamine
+fluorescamine
 fluorescently
 fluorogenic
 fluorometers
@@ -376,7 +376,7 @@ GFF
 Gillet
 Gitter
 GL
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -384,7 +384,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -394,14 +394,14 @@ glycoforms
 glycolic
 glycols
 glycopeptide
-glycopeptides
+Glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
-Glycosylation
+glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -458,7 +458,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -497,7 +497,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -505,7 +505,7 @@ iProphet
 IRMPD
 iRT
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isogeneic
@@ -530,7 +530,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 Köcher
 Koichi
@@ -625,7 +625,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 microflow
@@ -645,7 +645,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -760,9 +760,9 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -772,12 +772,12 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -803,7 +803,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-pre
+Pre
 Precellys
 Prefractionation
 preprocessing
@@ -827,7 +827,7 @@ proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
-proteomic
+Proteomic
 proteomics
 proteotypic
 ProtParam
@@ -854,9 +854,9 @@ QIT
 QqLIT
 QQQ
 qRT
-QToF
-Quadrupole
-quadrupoles
+QTOF
+quadrupole
+Quadrupoles
 Qual
 quantile
 quantitate
@@ -874,7 +874,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 refered
 reflectron
@@ -903,7 +903,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -1037,8 +1037,8 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-tris
+tripleTOF
+Tris
 Tritirachium
 Trp
 trypsin
@@ -1054,7 +1054,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 Udenfriend
 uDIA
 ug
@@ -1076,7 +1076,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
