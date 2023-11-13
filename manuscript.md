@@ -1,5 +1,5 @@
 ---
-title: A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry
+title: Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry
 keywords:
 - markdown
 - publishing
@@ -33,15 +33,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta name="dc.title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta name="citation_title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta property="og:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
+  <meta property="twitter:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T22:40:30+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T22:40:30+00:00" />
+  <meta name="dc.modified" content="2023-11-13T22:41:54+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T22:41:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@7914730](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7914730d02f87c1016eb66effcda829cc7a83bd2)
+from [jessegmeyerlab/proteomics-tutorial@1e8d748](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b)
 on November 13, 2023.
 </em></small>
 

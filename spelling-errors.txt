@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-acetonitrile
+Acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -35,8 +35,8 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
-aminoxyTMT
+Aminoxy
+AminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -80,7 +80,7 @@ benchtop
 Benjamini
 benzonase
 Bertin
-betweenness
+Betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -143,7 +143,7 @@ catalase
 cationic
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 cerebrospinal
@@ -157,7 +157,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -172,8 +172,8 @@ Clostripain
 coli
 collisional
 collisionally
-colorimetric
-colorimetry
+Colorimetric
+Colorimetry
 columbic
 combinable
 Combinatorial
@@ -194,7 +194,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-crosslinking
+Crosslinking
 Cryo
 cryogels
 crystalized
@@ -234,7 +234,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -250,11 +250,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -283,7 +283,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-electrospray
+Electrospray
 electrosprayed
 elegans
 eluent
@@ -297,7 +297,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enviroments
 enzymatically
@@ -327,7 +327,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 FC
 FCCS
 FCS
@@ -351,7 +351,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -385,7 +385,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -459,7 +459,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -508,7 +508,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -628,7 +628,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -648,7 +648,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -764,7 +764,7 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-phosphopeptide
+Phosphopeptide
 phosphopeptides
 phosphoprotein
 phosphoproteins
@@ -809,7 +809,7 @@ PPI
 PPIs
 pre
 Precellys
-prefractionation
+Prefractionation
 preprocessing
 PRM
 Progenesis
@@ -818,7 +818,7 @@ Pronase
 Prosit
 Prot
 ProtContLib
-Protease
+protease
 proteases
 proteasome
 Proteinase
@@ -861,8 +861,8 @@ QqLIT
 QqQ
 qRT
 QToF
-quadrupole
-Quadrupoles
+Quadrupole
+quadrupoles
 Qual
 quantile
 quantitate
@@ -884,9 +884,9 @@ Reactome
 recombinase
 refered
 reflectron
-refseq
+RefSeq
 repressor
-Reproducibility
+reproducibility
 resCID
 resolubilization
 resuspending
@@ -909,7 +909,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -1021,7 +1021,7 @@ TMT
 TMTpro
 TMTs
 TOF
-TOFs
+ToFs
 Torr
 TPP
 TQ
@@ -1044,11 +1044,11 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-tris
+Tris
 Tritirachium
-Trp
+TRP
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1082,7 +1082,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
