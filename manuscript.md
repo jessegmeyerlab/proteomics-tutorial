@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T22:05:33+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T22:05:33+00:00" />
+  <meta name="dc.modified" content="2023-11-13T22:10:58+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T22:10:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/534fe0db6358b6dfd150fcdd61b22286a6dcbdd6/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/534fe0db6358b6dfd150fcdd61b22286a6dcbdd6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/534fe0db6358b6dfd150fcdd61b22286a6dcbdd6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/534fe0db6358b6dfd150fcdd61b22286a6dcbdd6/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@e8907be](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e8907be8bbe0c534cbe16953935798790079e7d3)
+from [jessegmeyerlab/proteomics-tutorial@534fe0d](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/534fe0db6358b6dfd150fcdd61b22286a6dcbdd6)
 on November 13, 2023.
 </em></small>
 
@@ -2785,7 +2785,7 @@ In each of these cases, proteomics practitioners must understand their specific 
 ## Protein Knowledge Bases {.page_break_before}
 
 ### PeptideAtlas and SRMAtlas
-For the vast majority of shared raw mass spectrometry data, none of the data was compared in toto to derive at a knowledge base of all detectable proteins in an organism.
+For most shared raw mass spectrometry data, none of the data was compared in toto to derive at a knowledge base of all detectable proteins in an organism.
 In addition, given the vast array of software for MS data analysis, the results are not directly comparable, nor combinable given the problem of false discovery rates (FDR) that pile up when dataset results are combined.
 For example, if we combine 3 datasets that were each filtered to 1% FDR, the maximum FDR of the combined dataset is now 3% because it is unlikely that the random decoy hits are shared across each dataset. 
 To address this, in 2005 the PeptideAtlas concept was started to ingest as many publically available datasets as possible per organism, search the data through a single pipeline in total and arrive at a datasets with a total controlled 1% FDR at the protein level [@PMID:16052627; @PMID:16381952].

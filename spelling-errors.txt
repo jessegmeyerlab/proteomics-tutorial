@@ -29,14 +29,14 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
-AminoxyTMT
+Aminoxy
+aminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -80,7 +80,7 @@ benchtop
 Benjamini
 benzonase
 Bertin
-Betweenness
+betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -104,7 +104,7 @@ biopolymers
 bioruptor
 Biosystems
 BioTek
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -157,7 +157,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
 Chymotrypsin
@@ -170,9 +170,9 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
-colorimetric
+Colorimetric
 colorimetry
 columbic
 combinable
@@ -195,7 +195,7 @@ crosslinked
 crosslinker
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -218,7 +218,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -254,7 +254,7 @@ dimethyl
 dimethylated
 diol
 dipeptides
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -283,7 +283,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -303,7 +303,7 @@ enviroments
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -314,7 +314,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -328,7 +328,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-Fc
+FC
 FCCS
 FCS
 Fenn
@@ -354,7 +354,7 @@ Folin
 Footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -459,7 +459,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 Ido
 IEC
@@ -474,7 +474,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-Immunodepletion
+immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -498,7 +498,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -507,7 +507,7 @@ iProX
 IRMPD
 iRT
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isogeneic
@@ -681,7 +681,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -766,7 +766,7 @@ phosphoimaging
 phosphonate
 phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -776,7 +776,7 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -807,7 +807,7 @@ posthoc
 posttranslational
 PPI
 PPIs
-pre
+Pre
 Precellys
 Prefractionation
 preprocessing
@@ -833,7 +833,7 @@ proteome
 ProteomeDiscoverer
 proteomes
 Proteometools
-proteomic
+Proteomic
 proteomics
 proteotypic
 ProtParam
@@ -860,9 +860,9 @@ QIT
 QqLIT
 QqQ
 qRT
-QTOF
-Quadrupole
-Quadrupoles
+QToF
+quadrupole
+quadrupoles
 Qual
 quantile
 quantitate
@@ -909,7 +909,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -952,7 +952,7 @@ specrtrometry
 SpectraST
 SpectroDive
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -1020,7 +1020,7 @@ TMIMS
 TMT
 TMTpro
 TMTs
-tof
+TOF
 TOFs
 Torr
 TPP
@@ -1048,7 +1048,7 @@ Tris
 Tritirachium
 Trp
 trypsin
-tryptic
+Tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1060,7 +1060,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 Udenfriend
 uDIA
 ug
@@ -1082,7 +1082,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
