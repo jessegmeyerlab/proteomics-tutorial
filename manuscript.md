@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T22:01:52+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T22:01:52+00:00" />
+  <meta name="dc.modified" content="2023-11-13T22:05:33+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T22:05:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e8907be8bbe0c534cbe16953935798790079e7d3/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@db86e2b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/db86e2b0778a71e655bbcf31eb072ba1068f1a8a)
+from [jessegmeyerlab/proteomics-tutorial@e8907be](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e8907be8bbe0c534cbe16953935798790079e7d3)
 on November 13, 2023.
 </em></small>
 
@@ -1545,7 +1545,7 @@ Typical bottom-up proteomics experiments make use of acidic analyte solutions wh
 ## Types of Mass Spectrometers used for Proteomics {.page_break_before}
 ### Mass spectrometry
 Mass spectrometry is a science of ions; mass spectrometers serve as sophisticated instruments for determining the masses of compounds and elements. 
-It can be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lighter. 
+Mass spectrometers can therefore be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lighter. 
 Since J.J. Thomson's initial exploration in 1912, the field of mass spectrometry has undergone numerous improvements, spanning from isotope assessment to the interpretation of biomacromolecules [@DOI:10.1021/ac8013065], all thanks to the combined efforts of diverse fields like chemistry, physics, electronic engineering, and computer science. 
 Nowadays, with the rapid improvement of sensitivity, mass resolution, tandem mass spectrometry methods and ion dissociation methods, mass spectrometers have evolved as a core tool for proteomic (and metabolomic) analysis.
 It is precisely the widespread application of mass spectrometry in proteomics analysis that has given rise to more instrument manufacturers and a greater diversity of mass spectrometer types. 

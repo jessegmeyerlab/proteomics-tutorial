@@ -36,7 +36,7 @@ AlphaPeptStats
 amandamomenzadeh
 aminomethane
 aminoxy
-aminoxyTMT
+AminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -157,10 +157,10 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -170,10 +170,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
 colorimetric
-Colorimetry
+colorimetry
 columbic
 combinable
 Combinatorial
@@ -218,7 +218,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -234,7 +234,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -254,7 +254,7 @@ dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -298,7 +298,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -328,7 +328,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -385,7 +385,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -402,7 +402,7 @@ glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 GOI
 Goodlett
@@ -459,7 +459,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -498,7 +498,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -507,8 +507,8 @@ iProX
 IRMPD
 iRT
 isocratic
-Isoelectric
-Isoform
+isoelectric
+isoform
 isoforms
 isogeneic
 isogenic
@@ -592,7 +592,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 MaSDeS
 Masson
 MassQC
@@ -648,7 +648,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -720,8 +720,8 @@ onotology
 OpenMS
 OpenSWATH
 operon
-orbitrap
-orbitraps
+Orbitrap
+Orbitraps
 organismal
 orignal
 Ortholog
@@ -764,9 +764,9 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-Phosphopeptide
+phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -776,7 +776,7 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -809,7 +809,7 @@ PPI
 PPIs
 pre
 Precellys
-prefractionation
+Prefractionation
 preprocessing
 PRM
 Progenesis
@@ -833,7 +833,7 @@ proteome
 ProteomeDiscoverer
 proteomes
 Proteometools
-Proteomic
+proteomic
 proteomics
 proteotypic
 ProtParam
@@ -858,9 +858,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
-QToF
+QTOF
 Quadrupole
 Quadrupoles
 Qual
@@ -880,11 +880,11 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-REACTOME
+Reactome
 recombinase
 refered
 reflectron
-refseq
+RefSeq
 repressor
 reproducibility
 resCID
@@ -952,7 +952,7 @@ specrtrometry
 SpectraST
 SpectroDive
 spectrometric
-Spectrometry
+spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -1020,8 +1020,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-TOF
-ToFs
+tof
+TOFs
 Torr
 TPP
 TQ
@@ -1031,7 +1031,7 @@ transcriptional
 transcriptome
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -1044,11 +1044,11 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 tripleTOF
-tris
+Tris
 Tritirachium
 Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1060,7 +1060,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 Udenfriend
 uDIA
 ug
