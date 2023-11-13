@@ -22,9 +22,9 @@ author-meta:
 - Amit Kumar Yadav
 - Muralidharan Vanuopadath
 - Martín L. Mayta
-- Robert L. Moritz
 - Anna G. Duboff
 - Nicholas M. Riley
+- Robert L. Moritz
 - Jesse G. Meyer
 header-includes: |
   <!--
@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T15:50:16+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T15:50:16+00:00" />
+  <meta name="dc.modified" content="2023-11-13T16:49:37+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T16:49:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -111,10 +111,6 @@ header-includes: |
   <meta name="citation_author_institution" content="Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina" />
   <meta name="citation_author_orcid" content="0000-0002-7986-4551" />
   <meta name="twitter:creator" content="@MartinMayta2" />
-  <meta name="citation_author" content="Robert L. Moritz" />
-  <meta name="citation_author_institution" content="Institute for Systems biology, Seattle, WA, USA, 98109" />
-  <meta name="citation_author_orcid" content="0000-0002-3216-9447" />
-  <meta name="twitter:creator" content="@r_l_moritz" />
   <meta name="citation_author" content="Anna G. Duboff" />
   <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
   <meta name="citation_author_orcid" content="0009-0002-7316-3831" />
@@ -122,6 +118,10 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Chemistry, University of Washington" />
   <meta name="citation_author_orcid" content="0000-0002-1536-2966" />
   <meta name="twitter:creator" content="@riley_nm1" />
+  <meta name="citation_author" content="Robert L. Moritz" />
+  <meta name="citation_author_institution" content="Institute for Systems biology, Seattle, WA, USA, 98109" />
+  <meta name="citation_author_orcid" content="0000-0002-3216-9447" />
+  <meta name="twitter:creator" content="@r_l_moritz" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Computational Biomedicine, Cedars Sinai Medical Center" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/be0683e432405179a5421ea9ea27e8ce809ddf6d/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/f3f48d19c8a05c08a245413576717fb6a72e2feb/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@be0683e](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/be0683e432405179a5421ea9ea27e8ce809ddf6d)
+from [jessegmeyerlab/proteomics-tutorial@f3f48d1](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/f3f48d19c8a05c08a245413576717fb6a72e2feb)
 on November 13, 2023.
 </em></small>
 
@@ -363,18 +363,6 @@ on November 13, 2023.
      School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina; Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
   </small>
 
-+ **Robert L. Moritz**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-3216-9447](https://orcid.org/0000-0002-3216-9447)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [r_l_moritz](https://twitter.com/r_l_moritz)
-    <br>
-  <small>
-     Institute for Systems biology, Seattle, WA, USA, 98109
-     · Funded by National Institutes of Health Grants R01GM087221, R24GM127667, U19AG023122, S10OD026936; National Science Foundation Award 1920268
-  </small>
-
 + **Anna G. Duboff**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -399,6 +387,18 @@ on November 13, 2023.
   <small>
      Department of Chemistry, University of Washington
      · Funded by National Institutes of Health Grant R00 GM147304
+  </small>
+
++ **Robert L. Moritz**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3216-9447](https://orcid.org/0000-0002-3216-9447)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [r_l_moritz](https://twitter.com/r_l_moritz)
+    <br>
+  <small>
+     Institute for Systems biology, Seattle, WA, USA, 98109
+     · Funded by National Institutes of Health Grants R01GM087221, R24GM127667, U19AG023122, S10OD026936; National Science Foundation Award 1920268
   </small>
 
 + **Jesse G. Meyer**
@@ -2773,6 +2773,33 @@ Moreover, in cases where no species-specific protein sequence collection exists,
 In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results.
 
 
+## Protein Knowledge Bases {.page_break_before}
+
+### PeptideAtlas and SRMAtlas
+For the vast majority of shared raw mass spectrometry data, none of the data was compared in toto to derive at a knowledge base of all detectable proteins in an organism.
+In addition, given the vast array of software for MS data analysis, the results are not directly comparable, nor combinable given the problem of false discovery rates (FDR) that pile up when dataset results are combined.
+For example, if we combine 3 datasets that were each filtered to 1% FDR, the maximum FDR of the combined dataset is now 3% because it is unlikely that the random decoy hits are shared across each dataset. 
+To address this, in 2005 the PeptideAtlas concept was started to ingest as many publically available datasets as possible per organism, search the data through a single pipeline in total and arrive at a datasets with a total controlled 1% FDR at the protein level [@PMID:16052627; @PMID:16381952].
+The PeptideAtlas website (www.peptideatlas.org) is a therefore a multi-organism, publicly accessible compendium of peptides identified in large sets of tandem mass spectrometry proteomics experiments.
+Mass spectrometer output files are collected for human, mouse, yeast, and many other organisms of research interest, and searched using the latest search engines and genome derived protein sequences.
+All results of sequence and spectral library searching on PeptideAtlas are processed through the Trans Proteomic Pipeline to derive a probability of correct identification for all results in a uniform manner to insure a high quality database, along with false discovery rates at the whole atlas level.
+
+The most recognizable MS data compendium is the Human PeptideAtlas which is produced yearly since 2005 to derive all the peptide sequence knowledge of the current human proteome (Figure 17A). 
+As of 2023, the Human PeptideAtlas contains the knowledge of over 93% of the human proteome, with over 189K MS runs and 3.6B spectra searched resulting in 3.4m peptides identified and 17,245 proteins identified from the 19,600 total proteins possible.
+The number of proteins has been incrementally increases year over year as new public data becomes available (Figure 17B).
+
+![**The Human PeptideAtlas as of 2023.**
+A) The current total search space and identified elements of the 2023 Human PeptideAtlas. 
+B) Historical cumulative plot of the identified total proteins (blue vertical bars) and the unique proteins identified per dataset (red vertical bars) over the total period of 2005-2023.
+](images/peptide_atlas.jpg){#fig:peptide-atlas tag="17" width="100%"}
+
+For the presentation of selected reaction monitoring (SRM) targeted peptide assays, there are two components of the PeptideAtlas ecosystem where the PeptideAtlas SRM Experiment Library (PASSEL) is presented to enable submission, dissemination, and reuse of SRM experimental results from analysis of biological samples [@PMID:22318887; @PMID:24939129]. 
+The PASSEL system acts as a data repository by allowing researchers with SRM data to deposit their data in parallel with journal publication. and other users can search existing data to obtain the parameters for replication in their own laboratory. 
+Another unique component for SRM data repositories is the SRMAtlas website, which provides definitive coordinates for all possible proteins within an organism to conduct targeted SRM assays that conclusively identify the respective peptide in biological samples. 
+As an example, the Human SRMAtlas provides data on 166,174 synthetic proteotypic human peptides, providing multiple, independent assays to quantify any human protein and numerous spliced variants, non-synonymous mutations, and post-translational modifications [@PMID:27453469]. 
+The data are freely accessible as a resource at http://www.srmatlas.org/,
+
+
 ## Biological Interpretation  {.page_break_before}
 
 The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
@@ -2840,7 +2867,7 @@ Nodes with a high betweenness centrality usually bridge different parts of the n
 These connector hubs (or bottlenecks) are also interesting for follow–up experiments because their removal can disconnect different regions of the network [@PMID:17447836].
 
 Centrality measurements add new layers of information and allow for ranking differentially expressed proteins apart from their fold-change in abundance. 
-**Figure 16** depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
+**Figure 18** depicts a simple network consisting of proteins A to L, with A having the highest fold change (10) and L the lowest (2). 
 In Panel A, the fill color for the nodes indicates this metric, where it can be easily seen that A stands out. 
 However, protein A is a peripheral protein, only interacting with B. 
 In Panel B, nodes are colored according to node degree. 
@@ -2851,11 +2878,11 @@ Except for fold change, node A has the lowest indices, and it will be up to the 
 ![**Analysis of a simple network using different centrality measurements.** 
 Nodes are colored according to each metric using a yellow-to-red gradient (yellow: lowest value, red: highest value). 
 Network visualization and analysis were performed in Cytoscape.
-](images/Simple%20network.png){#fig:simple-network tag="16" width="100%"}
+](images/Simple%20network.png){#fig:simple-network tag="18" width="100%"}
 
 ### Network clustering
 
-In the small network presented in Figure 16, two groups of densely connected nodes exist. 
+In the small network presented in **Figure 18**, two groups of densely connected nodes exist. 
 This topology suggests that these communities (or "clusters") work together or participate in a protein complex. 
 Dividing a network into clusters helps identify underlying relationships among nodes, which is especially useful in large networks. 
 In a broad sense, network clustering groups nodes according to a topological property, generally interconnectedness. 
@@ -2904,12 +2931,12 @@ Our list of proteins could be divided into two groups: differentially abundant o
 This information can be summarized in a two-by-two table, to which we can apply a statistical test to examine whether that annotation is enriched within our differentially abundant proteins.
 One test that could be used is the hypergeometric test, and another would be a Fisher Exact test.
 
-There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 17**), as follows.
+There are many methods for performing functional enrichment analysis on the data, but they can mainly be classified into three categories (**Figure 19**), as follows.
 
 ![**Types of functional enrichment methods.** 
 In the volcano plot (left), proteins with altered values are colored blue or red according to arbitrarily chosen cut-off values for significance and fold change. 
 Black bars or thick-bordered nodes indicate members of a GO category.
-](images/enrich_methods_v4.png){#fig:enrich_methods tag="17" width="100%"}
+](images/enrich_methods_v4.png){#fig:enrich_methods tag="19" width="100%"}
 
 #### Over-representation analysis
   
@@ -2947,7 +2974,7 @@ A scoring scheme based on the Kolmogorov – Smirnov test is used to assess whet
   
 Both methods mentioned above do not consider the functional relationships among proteins put forth by network analysis; i.e., they assume functional independence.
 Topology-based enrichment methods incorporate this information by, for example, assigning an importance value to a set when its members also participate in a pathway or cluster together in a network [@PMID:24133454].
-In Figure 17, it can be shown that topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.   
+**Figure 19** shows how topology-based methods consider non-significant hits (grey nodes) that other strategies may not pick up, due to their position in a network.
 
 ### Other computational approaches: Network analysis, Isoform correlation analysis, AlphaFold, BLAST, protein language models
 
@@ -3169,6 +3196,14 @@ The authors thank Anthony Gitter and Daniem Himmelstein for assistance using man
 The authors thank Jordan Burton and Pierre-Alexander Mücke for minor edits to the text. 
 This manuscript was written collaboratively using manubot [@DOI:10.1371/journal.pcbi.1007128].
 The live and evolving version where anyone can contribute can be found here https://github.com/jessegmeyerlab/proteomics-tutorial/tree/main. 
+
+
+## Author contributions
+Author order was determined based on a count of sentences added to the document. 
+To give credit for figures, 33 lines were added to the total score for each figure. 
+Authors with similar numbers of lines added were assigned equal contribution.
+JGM was assigned last author as the project initiator and leader. 
+RLM was assigned second to last author based on their leadership role in curating all sections. 
 
 
 ## References {.page_break_before}

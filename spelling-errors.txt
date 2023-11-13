@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-Acetonitrile
+acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -29,7 +29,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
@@ -157,7 +157,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -170,11 +170,12 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
-Colorimetric
-Colorimetry
+colorimetric
+colorimetry
 columbic
+combinable
 Combinatorial
 Comisarow
 complementation
@@ -296,7 +297,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-ensembl
+Ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -325,7 +326,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 Fc
 FCCS
 FCS
@@ -340,7 +341,7 @@ flowrate
 flowrates
 Flp
 FlpIn
-Fluorescamine
+fluorescamine
 fluorescently
 fluorogenic
 fluorometers
@@ -375,7 +376,7 @@ GFF
 Gillet
 Gitter
 GL
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -397,7 +398,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -517,6 +518,7 @@ iteratively
 iTRAQ
 iTRAQH
 jessegmeyerlab
+JGM
 Jiang
 jymbcrc
 Kall’s
@@ -587,7 +589,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-MartinMayta
+martinmayta
 MaSDeS
 Masson
 MassQC
@@ -676,7 +678,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -689,7 +691,7 @@ nonlinearity
 nonoptimal
 nonparametric
 nonpolar
-NorbertVolkmar
+norbertvolkmar
 NormalyzerDE
 novo
 Novor
@@ -715,7 +717,7 @@ onotology
 OpenMS
 operon
 Orbitrap
-Orbitraps
+orbitraps
 organismal
 orignal
 Ortholog
@@ -735,6 +737,7 @@ PCR
 PCV
 PDB
 peptidase
+PeptideAtlas
 PeptideProphet
 peptide’s
 PeptideShaker
@@ -758,8 +761,8 @@ phosphoester
 phosphoimaging
 phosphonate
 phosphopeptide
-Phosphopeptides
-Phosphoprotein
+phosphopeptides
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -774,7 +777,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -808,9 +811,9 @@ PRM
 Progenesis
 proline
 Pronase
-prot
+Prot
 ProtContLib
-protease
+Protease
 proteases
 proteasome
 Proteinase
@@ -826,6 +829,7 @@ ProteomeDiscoverer
 proteomes
 Proteomic
 proteomics
+proteotypic
 ProtParam
 protti
 protXML
@@ -838,6 +842,7 @@ PTM
 PTMProphet
 PTMs
 PTXQC
+publically
 pulldown
 Purvine
 PVCA
@@ -849,8 +854,8 @@ QIT
 QqLIT
 QQQ
 qRT
-QToF
-quadrupole
+QTOF
+Quadrupole
 Quadrupoles
 Qual
 quantile
@@ -869,7 +874,7 @@ RawMeat
 rawrr
 rcf
 reaccelerated
-Reactome
+REACTOME
 recombinase
 refered
 reflectron
@@ -885,6 +890,7 @@ rexprem
 rfs
 ribosylation
 rileynm
+RLM
 RNAi
 RobNorm
 Roepstorff
@@ -897,7 +903,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -949,6 +955,7 @@ SPR
 SprayQc
 Src
 SRM
+SRMAtlas
 ssDNA
 stagetip
 StageTips
@@ -1007,8 +1014,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-tof
-TOFs
+TOF
+ToFs
 Torr
 TPP
 TQ
@@ -1022,7 +1029,7 @@ translational
 translationally
 transmembrane
 transversing
-trembl
+TrEMBL
 trentmpc
 triazine
 Tribrid
@@ -1030,12 +1037,12 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
-tris
+tripleTOF
+Tris
 Tritirachium
 Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1069,7 +1076,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
