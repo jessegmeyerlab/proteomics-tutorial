@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T20:10:46+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T20:10:46+00:00" />
+  <meta name="dc.modified" content="2023-11-13T20:21:30+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T20:21:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/c7f88fcd7bee45b5e9d80440897abb5c86195337/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@c7f88fc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/c7f88fcd7bee45b5e9d80440897abb5c86195337)
+from [jessegmeyerlab/proteomics-tutorial@03cc708](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/03cc7084856e6cd172de509afabb8a65c59d1755)
 on November 13, 2023.
 </em></small>
 
@@ -2805,7 +2805,10 @@ For the presentation of selected reaction monitoring (SRM) targeted peptide assa
 The PASSEL system acts as a data repository by allowing researchers with SRM data to deposit their data in parallel with journal publication. and other users can search existing data to obtain the parameters for replication in their own laboratory. 
 Another unique component for SRM data repositories is the SRMAtlas website, which provides definitive coordinates for all possible proteins within an organism to conduct targeted SRM assays that conclusively identify the respective peptide in biological samples. 
 As an example, the Human SRMAtlas provides data on 166,174 synthetic proteotypic human peptides, providing multiple, independent assays to quantify any human protein and numerous spliced variants, non-synonymous mutations, and post-translational modifications [@PMID:27453469]. 
-The data are freely accessible as a resource at http://www.srmatlas.org/,
+The data are freely accessible as a resource at http://www.srmatlas.org/.
+
+### Other knowledge bases
+There are many more proteomics knowledgebases, such as PRIDE [@DOI:10.1093/nar/gkj138; @DOI:10.1093/nar/gkab1038], the proteomics standards initiative (PSI) [@DOI:10.1021/acs.jproteome.7b00370], Massive [@PMID:30172843], Proteometools [@DOI:10.1038/nmeth.4153], Panorama [@DOI:10.1021/pr5006636], Chorus [@URL:https://chorusproject.org/pages/index.html], and iProX [@DOI:10.1093/nar/gky869].
 
 
 ## Biological Interpretation  {.page_break_before}
