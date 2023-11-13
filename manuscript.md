@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T21:54:05+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T21:54:05+00:00" />
+  <meta name="dc.modified" content="2023-11-13T22:01:52+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T22:01:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/db86e2b0778a71e655bbcf31eb072ba1068f1a8a/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@404215d](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/404215da589eb75bfb98cd34f2c923ec232964f9)
+from [jessegmeyerlab/proteomics-tutorial@db86e2b](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/db86e2b0778a71e655bbcf31eb072ba1068f1a8a)
 on November 13, 2023.
 </em></small>
 
@@ -1143,7 +1143,7 @@ In order to study low abundance protein modifications, or to study rare proteins
 Mass spectrometry-based analysis of protein glycosylation has emerged as the premier technology to characterize such a universal and diverse class of biomolecules.
 Glycosylation is a heterogenous post-translational modification that decorates many proteins within the proteome, conferring broad changes in protein activity. [@DOI:10.1093/glycob/12.4.43R; @DOI:10.1016/j.cell.2006.08.019] 
 This PTM can take many forms.
-The covalent linkage of mono- or oligosaccharides to polypeptide backbones through a nitrogen atom of asparagine (N) or an oxygen atom of serine (S) or threonine (T) side-chains creates N- and O-glycans, respectively.  
+The covalent linkage of mono- or oligosaccharides to polypeptide backbones through a nitrogen atom of asparagine (N) or an oxygen atom of serine (S) or threonine (T) side-chains creates N- and O-glycans, respectively.
 The heterogenity of proteoglycans is not directly tied to the genome, and thus cannot be inferred. 
 Rather, the abundance and activity of protein glycosylation is governed by glycosyltransferases and glycosidases which add and remove glycans, respectively. 
 The fields of glycobiology and bioanalytical chemistry are intricately intertwined with mass spectrometry at the center thanks in part to its power of detecting any modification that imparts a mass shift. 
