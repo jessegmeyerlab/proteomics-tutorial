@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T20:22:45+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T20:22:45+00:00" />
+  <meta name="dc.modified" content="2023-11-13T21:54:05+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T21:54:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/03cc7084856e6cd172de509afabb8a65c59d1755/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/404215da589eb75bfb98cd34f2c923ec232964f9/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@03cc708](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/03cc7084856e6cd172de509afabb8a65c59d1755)
+from [jessegmeyerlab/proteomics-tutorial@404215d](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/404215da589eb75bfb98cd34f2c923ec232964f9)
 on November 13, 2023.
 </em></small>
 
@@ -494,8 +494,9 @@ There are 16 sections in total:
 12. Data Acquisition
 13. Raw Data Analysis
 14. Protein Databases
-15. Biological Interpretation
-16. Orthogonal Validation Experiments
+15. Proteomics Knowledge Bases
+16. Biological Interpretation
+17. Orthogonal Validation Experiments
 
 
 
