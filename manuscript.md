@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T22:30:51+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T22:30:51+00:00" />
+  <meta name="dc.modified" content="2023-11-13T22:34:06+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T22:34:06+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e727b60e72ceacc80eb9d8dca3b02a9042f108b2/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e727b60e72ceacc80eb9d8dca3b02a9042f108b2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/e727b60e72ceacc80eb9d8dca3b02a9042f108b2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/e727b60e72ceacc80eb9d8dca3b02a9042f108b2/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@e727b60](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/e727b60e72ceacc80eb9d8dca3b02a9042f108b2)
+from [jessegmeyerlab/proteomics-tutorial@82dbe31](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/82dbe318e4607069c1f86f32390a1c9ca0b12d5b)
 on November 13, 2023.
 </em></small>
 
@@ -1406,7 +1406,7 @@ Thus, in a reversed phase separation the proportion of non-polar, or organic, so
 By far the most popular combination of solvents for peptide analysis is water and acetonitrile with dilute acid modifier (such as 0.1% formic acid or 0.5% acetic acid). 
 The programmed rate at which the proportion of organic solvent is increased in the mobile phase is called the “gradient”, which you will often find described in the methods sections for reversed phase separations.
 
-### Electrospray Ionization (ESI)
+### LC Considerations Related to Electrospray Ionization (ESI)
 
 LC is paired to MS through ESI, and LC parameters greatly influence ESI. 
 The analytes are eluted in a liquid mobile phase and must be released into the gas phase as charged ions for detection by mass spectrometry. 
@@ -1420,7 +1420,6 @@ Electrospray ionization efficiency is also aided by an inert sheath gas, high te
 For more detailed discussion of ionization, see the “Ionization” section. 
 
 ### Quality Attributes of Chromatographic Separation
-
 The quality of chromatographic separation defines the number of analytes that are identified and quantified by LC-MS analysis. 
 The theory around chromatographic separation was developed when LCs were paired with spectrophotometer detectors that only measure the combined signal intensity from all co-eluting analytes. 
 The ability of MS to simultaneously detect the masses of individual components re-defines the significance of certain LC attributes. 
@@ -1428,7 +1427,6 @@ For those looking for mathematical descriptions of chromatographic quality, refe
 The following attributes are the most important to consider in LC-MS.
 
 #### Chromatographic Resolution 
-
 Chromatographic resolution is defined as the ability to fully resolve adjacent chromatographic peaks containing analytes with nearly equal affinities to the solid phase. 
 In mass spectrometry analytes are distinguished by mass even if they are not resolved by LC. 
 Thus in LC-MS, the more relevant, but closely related concept is the peak width at the half maximum (FWHM) of the peak. 
@@ -1438,7 +1436,6 @@ Conversely, high FWHM means that the analyte signal is spread out over time, thu
 Furthermore, at a high FWHM, high abundance species mask analytes through ion suppression over a larger portion of the separation. 
 
 #### Peak Capacity
-
 Peak capacity is defined as the maximal number of peaks that ideally can be completely resolved in a pre-established time window. 
 A long separation in which FWHM remains low would have a large peak capacity and thus allow identification of many species. 
 Unfortunately increasing the length of a reversed phase gradient also increases the FWHM due to an increase in diffusion, which results in a diminishing return for longer analytical methods. 
