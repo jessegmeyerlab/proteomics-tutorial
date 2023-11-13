@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T22:34:06+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T22:34:06+00:00" />
+  <meta name="dc.modified" content="2023-11-13T22:40:30+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T22:40:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/82dbe318e4607069c1f86f32390a1c9ca0b12d5b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7914730d02f87c1016eb66effcda829cc7a83bd2/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@82dbe31](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/82dbe318e4607069c1f86f32390a1c9ca0b12d5b)
+from [jessegmeyerlab/proteomics-tutorial@7914730](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7914730d02f87c1016eb66effcda829cc7a83bd2)
 on November 13, 2023.
 </em></small>
 
@@ -3208,11 +3208,12 @@ The live and evolving version where anyone can contribute can be found here http
 
 
 ## Author contributions
-Author order was determined based on a count of sentences added to the document. 
-To give credit for figures, 33 lines were added to the total score for each figure. 
-Authors with similar numbers of lines added were assigned equal contribution.
 JGM was assigned last author as the project initiator and leader. 
 RLM was assigned second to last author based on their leadership role in curating all sections. 
+All other authors were ordered by estimating their contributions using a quantitative score. 
+The score for each author was a sum of the number of sentences added plus 33 lines for each figure added. 
+Scores were adjusted for confounding factors, such as split contributions between multiple contributors. 
+Authors with similar scores were assigned equal contributions. 
 
 
 ## References {.page_break_before}

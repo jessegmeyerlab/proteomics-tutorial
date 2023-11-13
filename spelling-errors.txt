@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-Acetonitrile
+acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -35,8 +35,8 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-Aminoxy
-AminoxyTMT
+aminoxy
+aminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -104,7 +104,7 @@ biopolymers
 bioruptor
 Biosystems
 BioTek
-biotinylated
+Biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -160,7 +160,7 @@ chromatograph
 Chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -172,7 +172,7 @@ Clostripain
 coli
 collisional
 collisionally
-Colorimetric
+colorimetric
 colorimetry
 columbic
 combinable
@@ -254,7 +254,7 @@ dimethyl
 dimethylated
 diol
 dipeptides
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -297,7 +297,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
+enrichments
 Ensembl
 enviroments
 enzymatically
@@ -314,7 +314,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -327,8 +327,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-Fc
+fasta
+FC
 FCCS
 FCS
 Fenn
@@ -351,7 +351,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -399,7 +399,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-Glycoproteomics
+glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -459,7 +459,7 @@ hydroxyproline
 hydroxysuccinimide
 hygromycin
 hypergeometric
-hyperplexing
+Hyperplexing
 ICR
 Ido
 IEC
@@ -474,7 +474,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-Immunodepletion
+immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -508,7 +508,7 @@ IRMPD
 iRT
 isocratic
 isoelectric
-isoform
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -592,7 +592,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 MaSDeS
 Masson
 MassQC
@@ -628,7 +628,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 microflow
@@ -648,7 +648,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -720,8 +720,8 @@ onotology
 OpenMS
 OpenSWATH
 operon
-orbitrap
-Orbitraps
+Orbitrap
+orbitraps
 organismal
 orignal
 Ortholog
@@ -781,7 +781,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -816,9 +816,9 @@ Progenesis
 proline
 Pronase
 Prosit
-prot
+Prot
 ProtContLib
-protease
+Protease
 proteases
 proteasome
 Proteinase
@@ -858,7 +858,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QToF
 quadrupole
@@ -884,9 +884,9 @@ Reactome
 recombinase
 refered
 reflectron
-RefSeq
+refseq
 repressor
-reproducibility
+Reproducibility
 resCID
 resolubilization
 resuspending
@@ -1035,7 +1035,7 @@ translational
 translationally
 transmembrane
 transversing
-trembl
+TrEMBL
 trentmpc
 triazine
 Tribrid
@@ -1044,11 +1044,11 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-Tris
+tris
 Tritirachium
 Trp
-Trypsin
-tryptic
+trypsin
+Tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1060,7 +1060,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 Udenfriend
 uDIA
 ug
@@ -1074,7 +1074,7 @@ underivatized
 undirected
 unenriched
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
@@ -1082,7 +1082,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable
