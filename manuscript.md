@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-13" />
   <meta name="citation_publication_date" content="2023-11-13" />
   <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T15:37:37+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T15:37:37+00:00" />
+  <meta name="dc.modified" content="2023-11-13T15:44:34+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T15:44:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@9934674](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/9934674c87f8e2cff959c2eeb0483f9fce8be49f)
+from [jessegmeyerlab/proteomics-tutorial@7660cd8](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/7660cd8307bc52e3554f737fa6fbd2f7cdeca85c)
 on November 13, 2023.
 </em></small>
 
@@ -2218,8 +2218,12 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | Spectronaut |Bruderer et al., 2015[@DOI:10.1074/mcp.M114.044305]|[Spectronaut](https://biognosys.com/software/spectronaut/)|
 | PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
 
-
 #### 15-6 Data Summary and Interpretation
+|    Name    |            Publication     |                 Website              |
+|:----------:|:--------------------------:|:------------------------------------:|
+|SpectroDive| |[Biognosys](https://biognosys.com/software/spectrodive/)|
+
+#### 15-7 Data Summary and Interpretation
 |    Name    |            Publication     |                 Website              |
 |:----------:|:--------------------------:|:------------------------------------:|
 |Peptide Shaker|Vaudel _et al._, 2015[@DOI:10.1038/nbt.3109;@DOI:10.1021/acs.jproteome.1c00678]|[PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html), [Peptide Shaker Online](https://github.com/barsnes-group/peptide-shaker-online)|
@@ -2324,7 +2328,7 @@ These digests should be analyzed after every instrument calibration and periodic
 Data measured from tryptic digests should be analyzed by the software of your choice and the numbers of identified peptide precursors and proteins can be compared with previous controls for consistency.
 
 Another strategy is to analyze digested purified proteins, which easily enable discovery of retention time shifts and mass accuracy problems. 
-In case you are working with a Thermo mass spectrometer, you can open the acquired .raw file directly either in FreeStyle or in Qual Browser and look for specific m/z values of your peptides.
+In case you are working with a Thermo mass spectrometer, you can open the acquired .raw file directly either in FreeStyle or in Qual Browser and look for specific *m/z* values of your peptides.
 Looking at the intensity of the extracted peaks will help identify sensitivity fluctuations. 
 
 Carry-over between different measurements can be identified from blank measurements which are subsequently analyzed with your search software of choice.
