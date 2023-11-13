@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-10'
+date-meta: '2023-11-13'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="A Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-11-10" />
-  <meta name="citation_publication_date" content="2023-11-10" />
-  <meta property="article:published_time" content="2023-11-10" />
-  <meta name="dc.modified" content="2023-11-10T18:50:04+00:00" />
-  <meta property="article:modified_time" content="2023-11-10T18:50:04+00:00" />
+  <meta name="dc.date" content="2023-11-13" />
+  <meta name="citation_publication_date" content="2023-11-13" />
+  <meta property="article:published_time" content="2023-11-13" />
+  <meta name="dc.modified" content="2023-11-13T15:37:37+00:00" />
+  <meta property="article:modified_time" content="2023-11-13T15:37:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/43c3d89cccdfce510a3a196a9f0f6a4d848859fc/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/9934674c87f8e2cff959c2eeb0483f9fce8be49f/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@43c3d89](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/43c3d89cccdfce510a3a196a9f0f6a4d848859fc)
-on November 10, 2023.
+from [jessegmeyerlab/proteomics-tutorial@9934674](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/9934674c87f8e2cff959c2eeb0483f9fce8be49f)
+on November 13, 2023.
 </em></small>
 
 
@@ -1961,7 +1961,7 @@ Here, helium gas is most often used, as it imparts less energy per collision, an
 In other words, ions are trapped using axial rf-frequencies, and an additional rf-frequency is applied to the electrodes of the ion trap [@DOI:10.1002/mas.21549].
 This supplemental rf is selected to have a frequency resonant with the fundamental frequency of the ions to be fragmented, as determined by the Mathieu equations, which excites the ions of interest so that they have increased kinetic energy as they move in the ion trap [@DOI:10.1115/1.4039144; @DOI:10.1006/rwsp.2000.0143].
 The increased kinetic energy creates more collisions with the background helium gas to slowly build up the internal energy of the precursor ions until the dissociation energy of the most labile bond is reached, causing fragmentation.
-Once ions dissociate, the fragments have different m/z values than the precursor ions, meaning they fall out of resonance with the supplemental rf and are no longer activated.
+Once ions dissociate, the fragments have different *m/z* values than the precursor ions, meaning they fall out of resonance with the supplemental rf and are no longer activated.
 Thus, resCID typically fragments only the most labile bonds in precursor ions and does not have secondary fragmentation behavior.
 As above, for non-modified peptide ions, this typically generates sequence-informative b- and y-type product ions.
 For modified peptides where the bonds connecting the modification to an amino acid are more labile than peptide bonds (e.g., phosphopeptides and glycopeptides), resCID MS/MS spectra can be dominated by product ions only of the PTM-loss rather than sequence-informative fragment ions, although many factors govern this behavior [@DOI:10.1021/pr0705136; @DOI:10.1021/ac0497104].
@@ -1980,8 +1980,8 @@ First, ExD implementation requires instruments that can manipulate cations and a
 This has been successfully accomplished on a number of instruments, including FT-ICR systems, ion traps, ToFs with quadrupole ion traps, and hybrid Orbitrap instruments, but it is not a ubiquitous feature of all platforms.
 That said, several exciting advances in recent years have made ExD methods more accessible on numerous instrument configurations [@DOI:10.1021/acs.analchem.7b04810; @DOI:10.1002/mas.21560; @DOI:10.1021/acs.analchem.8b01901; @DOI:10.1021/acs.jproteome.7b00622; @DOI:10.1021/jasms.0c00425].
 A second challenge is the dependence of ExD dissociation efficiency on precursor ion charge density [@DOI:10.1074/mcp.M700073-MCP200].
-ExD methods generally produce robust fragmentation for charge dense precursor ions (i.e., those with relatively low m/z values and higher z). 
-Alternatively, precursors with low charge density (i.e., higher m/z values) have relatively condensed secondary gas-phase structure that leads to non-covalent interactions.
+ExD methods generally produce robust fragmentation for charge dense precursor ions (i.e., those with relatively low *m/z* values and higher z). 
+Alternatively, precursors with low charge density (i.e., higher *m/z* values) have relatively condensed secondary gas-phase structure that leads to non-covalent interactions.
 Even in the cases when ExD methods drive peptide backbone cleavage, product ions (i.e., c- and z-type fragments) are held together by the non-covalent interactions so that few (or no) sequence-informative product ions are produced.
 This process is called non-dissociative electron-capture/transfer (ECnoD/ETnoD) [@DOI:10.1021/ac050666h].
 Several strategies to mitigate ECnoD/ETnoD have been successfully explored, including supplemental activation of product ions with resCID (ETcaD [@DOI:10.1021/ac061457f]) or beamCID (EThcD [@DOI:10.1016/j.jasms.2009.05.009; @DOI:10.1021/ac3025366]), supplemental activation with infrared photons (AI-ECD [@DOI:10.1016/j.jasms.2008.12.015; @DOI:10.1021/ac000494i] and AI-ETD [@DOI:10.1021/acs.analchem.5b00881; @DOI:10.1002/anie.200903557; @DOI:10.1021/acs.analchem.0c02087; @DOI:10.1021/jasms.1c00284]) or ultraviolet photons (ETuvPD [@DOI:10.1021/ac5036082]), and use of higher energy electrons [@URL:https://www.sciencedirect.com/science/article/abs/pii/S0009261402001495; @DOI:10.1021/ja8087407; @DOI:10.1021/jasms.0c00425].
@@ -2071,14 +2071,14 @@ Additionally, while less commonly modified than serine and threonine, histidine 
 Going forward, we expect that faster instruments will enable investigations of high phosphoproteomic depth and reproducibility in rapid timeframes, such that many proteomes can be analyzed for temporal and spatial insight.
 
 A similar product-dependent MS/MS triggering strategy was introduced for N-linked glycopeptides [@DOI:10.1021/pr300257c]. 
-Collisional dissociation of glycosylated peptides produces oxonium ions, for example at m/z 204.09 (HexNAc) or m/z 366.14 (HexHexNAc). 
+Collisional dissociation of glycosylated peptides produces oxonium ions, for example at *m/z* 204.09 (HexNAc) or *m/z* 366.14 (HexHexNAc). 
 If oxonium ions from the fragmented glycan are detected among the most abundant fragment ions of the HCD spectra, then an ETD scan is triggered. 
 This ETD scan provides information about the peptide sequence, while the original HCD scan provides glycan structure information. 
 
 ### DIA
 The simplest method to operate a mass spectrometer is to have predefined scans that are collected for each sample analysis.
 This is data-independent acquisition (DIA); the scans that are collected do not depend on the data that the instrument observes. 
-Thus, the scan sequence is repetitive, looping through binned windows of predetermined width, and/or a predetermined m/z range. 
+Thus, the scan sequence is repetitive, looping through binned windows of predetermined width, and/or a predetermined *m/z* range. 
 Although simple in terms of data collection, when the scan sequence includes MS/MS, sophisticated software is required to analyze the data. 
 Like DDA, DIA can also be either targeted or untargeted [@DOI:10.1080/14789450.2017.1322904]:
 The two targeted DIA methods are selected reaction monitoring (SRM) or multiple reaction monitoring (MRM), and untargeted DIA (uDIA) is often referred to simply as "DIA" or "SWATH" (Sequential Window Acquisition of All Theoretical Mass Spectra) (**Figure 15**).
