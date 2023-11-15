@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-Acetonitrile
+acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -29,7 +29,7 @@ alkyl
 alkylate
 alkylated
 alkylating
-Alkylation
+alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
@@ -160,7 +160,7 @@ chromatograph
 chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -170,10 +170,10 @@ cleavable
 Clostridium
 Clostripain
 coli
-collisional
+Collisional
 collisionally
 Colorimetric
-Colorimetry
+colorimetry
 columbic
 combinable
 Combinatorial
@@ -218,7 +218,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -234,7 +234,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -250,7 +250,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
@@ -283,7 +283,7 @@ EI
 EigenMS
 electrodynamic
 electrophoresis
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -314,7 +314,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 Exactive
 exchangers
 Excimer
@@ -342,7 +342,7 @@ flowrate
 flowrates
 Flp
 FlpIn
-Fluorescamine
+fluorescamine
 fluorescently
 fluorogenic
 fluorometers
@@ -385,7 +385,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-Glycan
+glycan
 glycans
 glycerophosphate
 glycine
@@ -474,7 +474,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-immunodepletion
+Immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -498,7 +498,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -532,7 +532,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-kNN
+KNN
 Knowledgebase
 knowledgebases
 Köcher
@@ -648,7 +648,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -681,7 +681,7 @@ nanoparticle
 nanopores
 NCBI
 neary
-neely
+Neely
 NHEJ
 NHS
 NIST
@@ -764,7 +764,7 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-Phosphopeptide
+phosphopeptide
 phosphopeptides
 phosphoprotein
 phosphoproteins
@@ -776,12 +776,12 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -829,7 +829,7 @@ proteoforms
 proteoglycans
 proteolysis
 proteolytic
-proteome
+Proteome
 ProteomeDiscoverer
 proteomes
 Proteometools
@@ -860,7 +860,7 @@ QIT
 QqLIT
 QqQ
 qRT
-QToF
+QTOF
 Quadrupole
 quadrupoles
 Qual
@@ -884,7 +884,7 @@ Reactome
 recombinase
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -1020,8 +1020,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-TOF
-ToFs
+tof
+TOFs
 Torr
 TPP
 TQ
@@ -1043,12 +1043,12 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 Tris
 Tritirachium
-TRP
-trypsin
-tryptic
+Trp
+Trypsin
+Tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1082,7 +1082,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable

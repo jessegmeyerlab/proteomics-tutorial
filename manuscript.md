@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-11-13'
+date-meta: '2023-11-15'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -37,11 +37,11 @@ header-includes: |
   <meta name="citation_title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2023-11-13" />
-  <meta name="citation_publication_date" content="2023-11-13" />
-  <meta property="article:published_time" content="2023-11-13" />
-  <meta name="dc.modified" content="2023-11-13T22:41:54+00:00" />
-  <meta property="article:modified_time" content="2023-11-13T22:41:54+00:00" />
+  <meta name="dc.date" content="2023-11-15" />
+  <meta name="citation_publication_date" content="2023-11-15" />
+  <meta property="article:published_time" content="2023-11-15" />
+  <meta name="dc.modified" content="2023-11-15T16:34:52+00:00" />
+  <meta property="article:modified_time" content="2023-11-15T16:34:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,10 +156,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@1e8d748](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/1e8d748ba03cdbd180efc9b3c723d79ca3d11a1b)
-on November 13, 2023.
+from [jessegmeyerlab/proteomics-tutorial@3f79fc6](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3f79fc6c27330c6d73fe1a225580a1497a073d5d)
+on November 15, 2023.
 </em></small>
 
 
@@ -478,7 +478,8 @@ There are many variations to this workflow.
 The diversity of experimental goals that are achievable with proteomics technology drives an expansive array of workflows. 
 Every choice is important as every choice will affect the results, from instrument procurement to choice of data processing software and everything in between. 
 In this tutorial, we detail all the required steps to serve as a comprehensive overview for new proteomics practitioners. 
-There are 16 sections in total:
+
+There are 17 sections in total:
 
 1. Biochemistry basics
 2. Types of experiments
@@ -1565,13 +1566,13 @@ For proteomic analysis, soft ionization methods such as ESI and MALDI are the mo
 
 #### 2)	The mass analyzer.
 The mass analyzer is where gas phase ions are separated according to their *m/z* ratio based on physical principles.
-There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, Orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 12.1).
+There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, Orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 10-1).
 For proteomic analysis, tandem mass spectrometry, which involves combining two or more mass analyzers, is typically used to achieve precursor selection, structural analysis, improved sensitivity, and better mass resolution [@DOI:10.1016/j.jasms.2007.11.013].
 The mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
 
 #### 3)	The detector.
 The detector is where ions are detected and their respective *m/z* values and abundances are recorded, generating a mass spectrum.
-Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with a summary of their strengths and limitations, are illustrated in Table 12.2.
+Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with a summary of their strengths and limitations, are illustrated in Table 10-2.
 It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
 Instead, these analyzers detect an image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
 In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.

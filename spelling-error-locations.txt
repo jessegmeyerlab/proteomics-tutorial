@@ -59,10 +59,10 @@ content/02.introduction.md:36:proteomics
 content/02.introduction.md:38:proteome
 content/02.introduction.md:43:proteomics
 content/02.introduction.md:45:proteomics
-content/02.introduction.md:51:Proteolysis
-content/02.introduction.md:53:Enrichments
-content/02.introduction.md:57:Spectrometry
-content/02.introduction.md:62:Proteomics
+content/02.introduction.md:52:Proteolysis
+content/02.introduction.md:54:Enrichments
+content/02.introduction.md:58:Spectrometry
+content/02.introduction.md:63:Proteomics
 content/03.biochemistry-basics.md:5:biomolecules
 content/03.biochemistry-basics.md:5:biopolymers
 content/03.biochemistry-basics.md:7:hydroxyproline
