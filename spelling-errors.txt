@@ -4,7 +4,7 @@ abinitio
 ABSciex
 acceptor
 acetivorans
-acetonitrile
+Acetonitrile
 acetylation
 acetylglucosamine
 acidification
@@ -143,7 +143,7 @@ catalase
 cationic
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -157,7 +157,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 Chymotrypsin
@@ -170,9 +170,9 @@ cleavable
 Clostridium
 Clostripain
 coli
-Collisional
+collisional
 collisionally
-Colorimetric
+colorimetric
 colorimetry
 columbic
 combinable
@@ -194,7 +194,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
+crosslinking
 Cryo
 cryogels
 crystalized
@@ -234,7 +234,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -250,11 +250,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
-dispersive
+Dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -297,7 +297,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
+enrichments
 Ensembl
 enviroments
 enzymatically
@@ -342,7 +342,7 @@ flowrate
 flowrates
 Flp
 FlpIn
-fluorescamine
+Fluorescamine
 fluorescently
 fluorogenic
 fluorometers
@@ -351,7 +351,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
 fractionation
@@ -377,7 +377,7 @@ GFF
 Gillet
 Gitter
 GL
-GlcNAc
+GlcNac
 GlcNAcylated
 Glu
 GluC
@@ -399,7 +399,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -474,7 +474,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-Immunodepletion
+immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -498,7 +498,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-iodoTMT
+IodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -507,8 +507,8 @@ iProX
 IRMPD
 iRT
 isocratic
-isoelectric
-isoform
+Isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -628,7 +628,7 @@ methylation
 Metriculator
 MGF
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 microflow
@@ -648,7 +648,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -694,7 +694,7 @@ nonlinearity
 nonoptimal
 nonparametric
 nonpolar
-NorbertVolkmar
+norbertvolkmar
 NormalyzerDE
 novo
 Novor
@@ -764,9 +764,9 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-phosphopeptide
+Phosphopeptide
 phosphopeptides
-phosphoprotein
+Phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -781,7 +781,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -818,7 +818,7 @@ Pronase
 Prosit
 Prot
 ProtContLib
-protease
+Protease
 proteases
 proteasome
 Proteinase
@@ -844,6 +844,7 @@ proximities
 Pseudomonas
 pseudopotential
 PSM
+PSMs
 PTM
 PTMProphet
 PTMs
@@ -861,7 +862,7 @@ QqLIT
 QqQ
 qRT
 QTOF
-Quadrupole
+quadrupole
 quadrupoles
 Qual
 quantile
@@ -909,7 +910,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-Sciex
+SCIEX
 SCP
 scrofa
 SCX
@@ -1020,8 +1021,8 @@ TMIMS
 TMT
 TMTpro
 TMTs
-tof
-TOFs
+TOF
+ToFs
 Torr
 TPP
 TQ
@@ -1031,7 +1032,7 @@ transcriptional
 transcriptome
 transfection
 transgene
-translational
+Translational
 translationally
 transmembrane
 transversing
@@ -1043,11 +1044,11 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-tripleTOF
+TripleTOF
 Tris
 Tritirachium
 Trp
-Trypsin
+trypsin
 Tryptic
 TryTrypDB
 TSA
@@ -1090,7 +1091,6 @@ UVPD
 valine
 Vanuopadath
 vanuopadathmurali
-Vaudel
 velcade
 Venable
 vibrational

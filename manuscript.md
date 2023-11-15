@@ -40,8 +40,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-15" />
   <meta name="citation_publication_date" content="2023-11-15" />
   <meta property="article:published_time" content="2023-11-15" />
-  <meta name="dc.modified" content="2023-11-15T16:34:52+00:00" />
-  <meta property="article:modified_time" content="2023-11-15T16:34:52+00:00" />
+  <meta name="dc.modified" content="2023-11-15T16:58:33+00:00" />
+  <meta property="article:modified_time" content="2023-11-15T16:58:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,9 +132,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -156,9 +156,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@3f79fc6](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3f79fc6c27330c6d73fe1a225580a1497a073d5d)
+from [jessegmeyerlab/proteomics-tutorial@4f641f2](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/4f641f283b47ec6e9e75060ec16746645eefc564)
 on November 15, 2023.
 </em></small>
 
@@ -2172,9 +2172,20 @@ Peptides are also often combined into a protein group through protein inference,
 Protein inference is still a challenge in bottom-up proteomics. 
 
 Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above. 
-The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:
+The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware.
 
-#### 15-1 DDA freeware:
+### Analysis of DDA data
+DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, SEQUEST (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, Comet, MaxQuant, MSGF+, X!Tandem, Morpheus, MS-Fragger, and OMSSA. 
+Tables 13-1 and 13-4 give weblinks and citations for these software tools.
+<!-- todo: need to make sure all these are listed in the table and cited -->
+For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
+The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
+All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
+The search algorithm scores each query spectrum against its possible peptide matches [@DOI:10.1002/mas.21543]. 
+A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
+The scores reflect a _goodness-of-fit_ between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.
+
+Table 13-1 DDA freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
@@ -2184,23 +2195,9 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | MS-GF+   |Kim et al., [@DOI:10.1038/ncomms6277]            | [MS-GF+](https://github.com/MSGFPlus/msgfplus)  |
 | X!Tandem |Craig et al., [@DOI:10.1002/rcm.1198;@DOI:10.1093/bioinformatics/bth092]  | [GPMDB](https://www.thegpm.org/tandem/) |
 | Comet    | Eng et al., 2012[@DOI:10.1002/pmic.201200439] | [Comet](https://uwpr.github.io/Comet/) |
-
-#### 15-2 DIA freeware:
-
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| MaxDIA |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|        [MaxQuant](https://www.maxquant.org/)    |
-| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
-| DIA-NN|Demichev et al., 2019[@DOI:10.1038/s41592-019-0638-x]  |    [DIA-NN](https://github.com/vdemichev/DiaNN)     |
-| EncyclopeDIA | Searle et al., 2018[@DOI:10.1038/s41467-018-07454-w] | [EncyclopeDIA](http://www.searlelab.org/software/encyclopedia/index.html) |
-
-#### 15-3 Targeted proteomics freeware:
-
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
 | Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
 
-#### 15-4 DDA non-freeware:
+Table 13-2 DDA non-freeware:
 
 |   Name   |         Publication           |             Website               |
 |:--------:|:-----------------------------:|:---------------------------------:|
@@ -2209,37 +2206,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 | Spectromine   |           |    [Spectromine](ttps://biognosys.com/software/spectromine/?gclid=Cj0KCQiAoY-PBhCNARIsABcz770mjUz6iavBr9Ql7RPUdMvaHu9RYgPNrEfZco1wExEeoFwnQXuCHscaAlgBEALw_wcB)     |
 | PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
 
-
-#### 15-5 DIA non-freeware:
-
-|   Name   |         Publication           |             Website               |
-|:--------:|:-----------------------------:|:---------------------------------:|
-| Spectronaut |Bruderer et al., 2015[@DOI:10.1074/mcp.M114.044305]|[Spectronaut](https://biognosys.com/software/spectronaut/)|
-| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
-
-#### 15-6 Data Summary and Interpretation
-|    Name    |            Publication     |                 Website              |
-|:----------:|:--------------------------:|:------------------------------------:|
-|SpectroDive| |[Biognosys](https://biognosys.com/software/spectrodive/)|
-
-#### 15-7 Data Summary and Interpretation
-|    Name    |            Publication     |                 Website              |
-|:----------:|:--------------------------:|:------------------------------------:|
-|Peptide Shaker|Vaudel _et al._, 2015[@DOI:10.1038/nbt.3109;@DOI:10.1021/acs.jproteome.1c00678]|[PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html), [Peptide Shaker Online](https://github.com/barsnes-group/peptide-shaker-online)|
-
-
-### Analysis of DDA data
-DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, SEQUEST (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, Comet, MaxQuant, MSGF+, X!Tandem, Morpheus, MS-Fragger, and OMSSA. 
-Tables 15-1 and 15-4 give weblinks and citations for these software tools.
-<!-- todo: need to make sure all these are listed in the table and cited -->
-<!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
-For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
-The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
-All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
-The search algorithm scores each query spectrum against its possible peptide matches [@DOI:10.1002/mas.21543]. 
-A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
-The scores reflect a _goodness-of-fit_ between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.
-
+### Deriving statistical significance of matches with the target-decoy approach
 For evaluating the matches, a decoy database is preferred as a null model for peptide matching.
 A randomized or reversed version of target database is used as a nonparametric null model.
 The decoy database can be searched separate from the target database (Kall's method)[@DOI:10.1021/pr700600n] or it can be combined with the target database before search (Elias and Gygi method)[@PMID:17327847].
@@ -2261,8 +2228,46 @@ Thus, the number of false hits is multiplied by two for FDR estimation.
 
 $$FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}$$
 
+### Strategies for analysis of DIA data
+DIA data analysis is fundamentally different from DDA data analysis because, instead of a single MS/MS spectrum for each peptide, we can observe the elution of peptide fragments for any peptide over chromatography time.
+Even though DIA data analysis derives peptide matches differently, the same target-decoy analysis described above is usually used. 
+There are two general approaches for peptide identification from DIA data: peptide-centric and spectrum-centric.
+
+Peptide-centric approaches looks for evidence of specific peptides that are in some assay library of MS/MS spectra. 
+That library could be predicted spectra (e.g., using Prosit) [@DOI:10.1038/s41592-019-0426-7], or previously measured spectra (e.g., from a organism-wide knowledge base) [@PMID:30172843].
+Examples of software that perform peptide-centric analysis include OpenSWATH [@DOI:10.1038/nbt.2841], Spectronaut [@DOI:10.1074/mcp.RA117.000314], csoDIAq [@DOI:10.1021/acs.analchem.1c02021], and DIA-NN [@DOI:10.1038/s41592-019-0638-x]. 
+
+Spectrum-centric approaches instead ask if there is evidence for any peptide based on analysis of the observed spectra. 
+Examples of spectrum-centric approaches include DIA-Umpire [@DOI:10.1038/nmeth.3255] and PECAN [@DOI:10.1038/nmeth.4390]. 
+Spectrum-centric approaches may assemble pseudo-MS/MS spectra from co-elution of fragments that can then be used with any DDA database search [@DOI:10.1038/nmeth.3255].
+Spectrum-centric may be less sensitive at peptide identification than peptide-centric approaches. 
+
+A non-comprehensive list of software for DIA data analysis is found in tables 13-3 and 13-4.
+
+Table 13-3 DIA freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| MaxDIA |Cox and Mann, 2008[@DOI:10.1038/nbt.1511]|        [MaxQuant](https://www.maxquant.org/)    |
+| Skyline|MacLean et al., 2010[@DOI:10.1093/bioinformatics/btq054]|[Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) |
+| DIA-NN|Demichev et al., 2019[@DOI:10.1038/s41592-019-0638-x]  |    [DIA-NN](https://github.com/vdemichev/DiaNN)     |
+| EncyclopeDIA | Searle et al., 2018[@DOI:10.1038/s41467-018-07454-w] | [EncyclopeDIA](http://www.searlelab.org/software/encyclopedia/index.html) |
+
+Table 13-4 DIA non-freeware:
+
+|   Name   |         Publication           |             Website               |
+|:--------:|:-----------------------------:|:---------------------------------:|
+| Spectronaut |Bruderer et al., 2015[@DOI:10.1074/mcp.M114.044305]|[Spectronaut](https://biognosys.com/software/spectronaut/)|
+| PEAKS   |Tran et al., 2018[@DOI:10.1038/s41592-018-0260-3] | [PEAKS](https://www.bioinfor.com/peaks-studio/)  |
+|SpectroDive| |[Biognosys](https://biognosys.com/software/spectrodive/)|
+
 ### Integrated MS Data Analysis Platforms
 Given the complexity of proteomic data analysis and the requirement for many steps to get from raw data to quantified proteins, there are some integrated software enviroments that easily allow users to complete everything in one place. 
+
+#### Peptide Shaker 
+Since each search engine may give slightly different results, and peptides identified by multiple search engines may be more confident hits, integration platforms have such as PeptideShaker have been developed to combine search results [@DOI:10.1038/nbt.3109; @DOI:10.1021/acs.jproteome.1c00678]. 
+PeptideShaker gives an interactive overview of all the protein, peptide, and PSMs in a dataset. 
+It also has many other features, such as PTM summaries, 3D structure mapping of detected peptides, QC, validation, and GO enrichment (see biological interpretation section for more details). 
 
 #### Trans-Proteomic Pipeline (TPP)
 The Trans-Proteomic Pipeline (TPP) is a free and open-source mass spectrometry data analysis suite for end-to end analysis that remains in continual development to provide ever expansive data analysis capabilities since its inception over twenty years ago [@PMID:16729052; @PMID:20013374; @PMID:21082435; @PMID:21876204; @PMID:25418363; @PMID:25631240; @PMID:26419769; @PMID:29400476; @PMID:31290668; @PMID:36629399; @PMID:36648445]. 
@@ -2302,19 +2307,6 @@ These improvements include support for additional open formats and standards, fu
 
 For open modification database searching, programs such as Magnum (@PMID:35184559) are also now available which is specialized in identification of non-peptide masses that are bound to peptides. The tool is capable of identifying xenobiotic mass adducts, in addition to PTMs that were uncharacterized in the search parameters. 
 
-### Strategies for analysis of DIA data
-DIA data analysis is fundamentally different from DDA data analysis because, instead of a single MS/MS spectrum for each peptide, we can observe the elution of peptide fragments for any peptide over chromatography time.
-There are two general approaches for peptide identification from DIA data: peptide-centric and spectrum-centric.
-
-Peptide-centric approaches looks for evidence of specific peptides that are in some assay library of MS/MS spectra. 
-That library could be predicted spectra (e.g., using Prosit) [@DOI:10.1038/s41592-019-0426-7], or previously measured spectra (e.g., from a organism-wide knowledge base) [@PMID:30172843].
-Examples of software that perform peptide-centric analysis include OpenSWATH [@DOI:10.1038/nbt.2841], Spectronaut [@DOI:10.1074/mcp.RA117.000314], csoDIAq [@DOI:10.1021/acs.analchem.1c02021], and DIA-NN [@DOI:10.1038/s41592-019-0638-x]. 
-
-Spectrum-centric approaches instead ask if there is evidence for any peptide based on analysis of the observed spectra. 
-Examples of spectrum-centric approaches include DIA-Umpire [@DOI:10.1038/nmeth.3255] and PECAN [@DOI:10.1038/nmeth.4390]. 
-Spectrum-centric approaches may assemble pseudo-MS/MS spectra from co-elution of fragments that can then be used with any DDA database search [@DOI:10.1038/nmeth.3255].
-Spectrum-centric may be less sensitive at peptide identification than peptide-centric approaches. 
-
 ### Quality control
 
 Quality control should be a central aspect of any mass spectrometry-based study to ensure reproducibility of generated results.
@@ -2346,23 +2338,9 @@ Another factor to take into consideration is the stability of your electrospray.
 Electrospray stability tends to worsen over time as columns wear, as well as when measuring samples with residual contaminants, such as salts or detergents. 
 You will notice spray instabilities either in the total ion chromatogram (TIC) as thin spikes with short periods of no measured signal or if you install cameras at your ESI source.
 Suboptimal spray conditions will usually result in droplets forming on the emitter, being released into the mass spectrometer (also referred to as "spitting"). 
-Real-time quality control software (listed in the table below) can help you identify instrument issues right away.
+Real-time quality control software (listed in tables 13-5 and 13-6 below) can help you identify instrument issues right away.
 
-#### Data Quality Control
-
-Apart from instrument performance, any kind of data analysis should have proper quality control in place to identify problematic measurements and to exclude them if necessary. 
-It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time. 
-Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
-Decoy searches help monitor and control the false-discovery rate. 
-Including common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
-Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
-Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurements to identify potential measurement or normalization issues. 
-Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
-In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.
-
-#### Quality Control Software
-
-##### Raw file and real-time analysis
+Table 13-5 Quality Control Software for raw file and real-time analysis:
 
 |    Name    |         Supported instrument vendors        |            Website/Download           |            publication            |           Note               |
 |:----------:|:-------------------------------------------:|:-------------------------------------:|:---------------------------------:|:----------------------------:|
@@ -2379,7 +2357,7 @@ In case you are analyzing different conditions, you can perform hierarchical clu
 | MassQC |               | [MassQC](https://massqc.proteomesoftware.com/) |                   |                     |
 | OpenMS |               | [OpenMS](https://www.openms.de/) |  [@DOI:10.1038/nmeth.3959]   |                  |
 
-##### Search result QC
+Table 13-6 Search result QC:
 
 |    Name    |       Website/Download/publication        |              publication        |              Note           |
 |:----------:|:-----------------------------------------:|:-------------------------------:|:----------------------------:|
@@ -2388,8 +2366,16 @@ In case you are analyzing different conditions, you can perform hierarchical clu
 | PTXQC |[PTXQC](https://github.com/cbielow/PTXQC) |[@DOI:10.1021/acs.jproteome.5b00780] | requires MaxQuant search engine output | 
 | protti | [protti](https://github.com/jpquast/protti) | [@DOI:10.1093/bioadv/vbab041]      |                   |
 
-<!-- todo: this table is probably very incomplete. Add more tools -->
-
+#### Data Quality Control
+Apart from instrument performance, any kind of data analysis should have proper quality control in place to identify problematic measurements and to exclude them if necessary. 
+It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time. 
+Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
+Decoy searches help monitor and control the false-discovery rate. 
+Including common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
+Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
+Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurements to identify potential measurement or normalization issues. 
+Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
+In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.
 
 ### Quantitative Proteomic Data Analysis Best Practices 
 This section aims to provide an overview of the best practices when conducting large scale proteomics quantitative data analysis. 

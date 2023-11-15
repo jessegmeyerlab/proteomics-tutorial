@@ -71,8 +71,8 @@
   <meta name="dc.date" content="2023-11-15" />
   <meta name="citation_publication_date" content="2023-11-15" />
   <meta property="article:published_time" content="2023-11-15" />
-  <meta name="dc.modified" content="2023-11-15T16:34:52+00:00" />
-  <meta property="article:modified_time" content="2023-11-15T16:34:52+00:00" />
+  <meta name="dc.modified" content="2023-11-15T16:58:33+00:00" />
+  <meta property="article:modified_time" content="2023-11-15T16:58:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -163,9 +163,9 @@
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -182,9 +182,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/3f79fc6c27330c6d73fe1a225580a1497a073d5d/">permalink</a>)
+(<a href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/4f641f283b47ec6e9e75060ec16746645eefc564/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/3f79fc6c27330c6d73fe1a225580a1497a073d5d">jessegmeyerlab/proteomics-tutorial@3f79fc6</a>
+from <a href="https://github.com/jessegmeyerlab/proteomics-tutorial/tree/4f641f283b47ec6e9e75060ec16746645eefc564">jessegmeyerlab/proteomics-tutorial@4f641f2</a>
 on November 15, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -2088,8 +2088,18 @@ The measured precursor quantities are combined to generate a peptide quantity.
 Peptides are also often combined into a protein group through protein inference, which combines multiple peptide identifications into a single protein identification <span class="citation" data-cites="imR1dFei wtH5a4Ax">[<a href="#ref-imR1dFei" role="doc-biblioref">603</a>,<a href="#ref-wtH5a4Ax" role="doc-biblioref">604</a>]</span>.
 Protein inference is still a challenge in bottom-up proteomics.</p>
 <p>Due to the inherent differences in the data structures of DDA and DIA measurements, there exist different types of software that can facilitate the steps mentioned above.
-The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware:</p>
-<h4 id="dda-freeware">15-1 DDA freeware:</h4>
+The existing software for DDA and DIA analysis can be further divided into freeware and non-freeware.</p>
+<h3 id="analysis-of-dda-data">Analysis of DDA data</h3>
+<p>DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, SEQUEST (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, Comet, MaxQuant, MSGF+, X!Tandem, Morpheus, MS-Fragger, and OMSSA.
+Tables 13-1 and 13-4 give weblinks and citations for these software tools.
+<!-- todo: need to make sure all these are listed in the table and cited -->
+For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML <span class="citation" data-cites="zsmAmqZJ fQHXeOG1 r2hPariY">[<a href="#ref-zsmAmqZJ" role="doc-biblioref">605</a>,<a href="#ref-fQHXeOG1" role="doc-biblioref">606</a>,<a href="#ref-r2hPariY" role="doc-biblioref">607</a>]</span>.
+The appropriate FASTA file containing proteins predicted from that organism’s genome is chosen as a reference database to search the experimental spectra.
+All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
+The search algorithm scores each query spectrum against its possible peptide matches <span class="citation" data-cites="1GxDrwPIW">[<a href="#ref-1GxDrwPIW" role="doc-biblioref">608</a>]</span>.
+A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
+The scores reflect a <em>goodness-of-fit</em> between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.</p>
+<p>Table 13-1 DDA freeware:</p>
 <table>
 <colgroup>
 <col style="width: 13%" />
@@ -2106,96 +2116,42 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">MaxQuant</td>
-<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">605</a>]</span></td>
+<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">609</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">MSFragger</td>
-<td style="text-align: center;">Kong et al., 2017<span class="citation" data-cites="bKpYR6PB">[<a href="#ref-bKpYR6PB" role="doc-biblioref">606</a>]</span></td>
+<td style="text-align: center;">Kong et al., 2017<span class="citation" data-cites="bKpYR6PB">[<a href="#ref-bKpYR6PB" role="doc-biblioref">610</a>]</span></td>
 <td style="text-align: center;"><a href="https://msfragger.nesvilab.org/">MSFragger</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Mascot</td>
-<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">607</a>]</span></td>
+<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">611</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.matrixscience.com/">Mascot</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">MS-GF+</td>
-<td style="text-align: center;">Kim et al., <span class="citation" data-cites="1B2RVFOKK">[<a href="#ref-1B2RVFOKK" role="doc-biblioref">608</a>]</span></td>
+<td style="text-align: center;">Kim et al., <span class="citation" data-cites="1B2RVFOKK">[<a href="#ref-1B2RVFOKK" role="doc-biblioref">612</a>]</span></td>
 <td style="text-align: center;"><a href="https://github.com/MSGFPlus/msgfplus">MS-GF+</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">X!Tandem</td>
-<td style="text-align: center;">Craig et al., <span class="citation" data-cites="IcvYCrHi iK4IJ8ED">[<a href="#ref-IcvYCrHi" role="doc-biblioref">609</a>,<a href="#ref-iK4IJ8ED" role="doc-biblioref">610</a>]</span></td>
+<td style="text-align: center;">Craig et al., <span class="citation" data-cites="IcvYCrHi iK4IJ8ED">[<a href="#ref-IcvYCrHi" role="doc-biblioref">613</a>,<a href="#ref-iK4IJ8ED" role="doc-biblioref">614</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.thegpm.org/tandem/">GPMDB</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Comet</td>
-<td style="text-align: center;">Eng et al., 2012<span class="citation" data-cites="jC0M4v7k">[<a href="#ref-jC0M4v7k" role="doc-biblioref">611</a>]</span></td>
+<td style="text-align: center;">Eng et al., 2012<span class="citation" data-cites="jC0M4v7k">[<a href="#ref-jC0M4v7k" role="doc-biblioref">615</a>]</span></td>
 <td style="text-align: center;"><a href="https://uwpr.github.io/Comet/">Comet</a></td>
 </tr>
-</tbody>
-</table>
-<h4 id="dia-freeware">15-2 DIA freeware:</h4>
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 40%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Name</th>
-<th style="text-align: center;">Publication</th>
-<th style="text-align: center;">Website</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">MaxDIA</td>
-<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">605</a>]</span></td>
-<td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Skyline</td>
-<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">612</a>]</span></td>
-<td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">DIA-NN</td>
-<td style="text-align: center;">Demichev et al., 2019<span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">613</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/vdemichev/DiaNN">DIA-NN</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">EncyclopeDIA</td>
-<td style="text-align: center;">Searle et al., 2018<span class="citation" data-cites="rYKhRHlv">[<a href="#ref-rYKhRHlv" role="doc-biblioref">614</a>]</span></td>
-<td style="text-align: center;"><a href="http://www.searlelab.org/software/encyclopedia/index.html">EncyclopeDIA</a></td>
-</tr>
-</tbody>
-</table>
-<h4 id="targeted-proteomics-freeware">15-3 Targeted proteomics freeware:</h4>
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 40%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Name</th>
-<th style="text-align: center;">Publication</th>
-<th style="text-align: center;">Website</th>
-</tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td style="text-align: center;">Skyline</td>
-<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">612</a>]</span></td>
+<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">616</a>]</span></td>
 <td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
 </tr>
 </tbody>
 </table>
-<h4 id="dda-non-freeware">15-4 DDA non-freeware:</h4>
+<p>Table 13-2 DDA non-freeware:</p>
 <table>
 <colgroup>
 <col style="width: 13%" />
@@ -2217,7 +2173,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 <tr class="even">
 <td style="text-align: center;">Mascot</td>
-<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">607</a>]</span></td>
+<td style="text-align: center;">Perkins et al., 1999<span class="citation" data-cites="rKtsv6G">[<a href="#ref-rKtsv6G" role="doc-biblioref">611</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.matrixscience.com/">Mascot</a></td>
 </tr>
 <tr class="odd">
@@ -2227,12 +2183,79 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 <tr class="even">
 <td style="text-align: center;">PEAKS</td>
-<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">615</a>]</span></td>
+<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">617</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.bioinfor.com/peaks-studio/">PEAKS</a></td>
 </tr>
 </tbody>
 </table>
-<h4 id="dia-non-freeware">15-5 DIA non-freeware:</h4>
+<h3 id="deriving-statistical-significance-of-matches-with-the-target-decoy-approach">Deriving statistical significance of matches with the target-decoy approach</h3>
+<p>For evaluating the matches, a decoy database is preferred as a null model for peptide matching.
+A randomized or reversed version of target database is used as a nonparametric null model.
+The decoy database can be searched separate from the target database (Kall’s method)<span class="citation" data-cites="bjANWlBN">[<a href="#ref-bjANWlBN" role="doc-biblioref">618</a>]</span> or it can be combined with the target database before search (Elias and Gygi method)<span class="citation" data-cites="BrkRiRe8">[<a href="#ref-BrkRiRe8" role="doc-biblioref">619</a>]</span>.
+Using either separate method or concatenated database search method, an estimate of false hits can be calculated which is used to estimate the false discovery rate (FDR) <span class="citation" data-cites="5mQtZh5o">[<a href="#ref-5mQtZh5o" role="doc-biblioref">620</a>]</span>.
+The FDR denotes the proportion of false hits in the population accepted as true.
+For Kall’s method: the false hits are estimated to be the number of decoys above a given threshold.
+It is assumed that the number of decoy hits that pass a threshold are the false hits.
+A similar number of target population may also be false.
+Therefore, the FDR is calculated as <span class="citation" data-cites="B2OZyvg5">[<a href="#ref-B2OZyvg5" role="doc-biblioref">621</a>]</span>:</p>
+<p><span class="math display">\[FDR = \frac{Decoy PSMs + 1}{Target PSMs}\]</span></p>
+<p>For Elias and Gygi Method, the target population in which FDR is estimated changes.
+The target and decoy hits coming from a joint database compete against each other.
+For any spectrum, either a target or a decoy peptide can be the best hit.
+It is argued that the joint target-decoy population has decoy hits as confirmed false hits.
+However, due to the joint database search, the target database may also have equal number of false hits.
+Thus, the number of false hits is multiplied by two for FDR estimation.</p>
+<p><span class="math display">\[FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}\]</span></p>
+<h3 id="strategies-for-analysis-of-dia-data">Strategies for analysis of DIA data</h3>
+<p>DIA data analysis is fundamentally different from DDA data analysis because, instead of a single MS/MS spectrum for each peptide, we can observe the elution of peptide fragments for any peptide over chromatography time.
+Even though DIA data analysis derives peptide matches differently, the same target-decoy analysis described above is usually used.
+There are two general approaches for peptide identification from DIA data: peptide-centric and spectrum-centric.</p>
+<p>Peptide-centric approaches looks for evidence of specific peptides that are in some assay library of MS/MS spectra.
+That library could be predicted spectra (e.g., using Prosit) <span class="citation" data-cites="50qmV6VJ">[<a href="#ref-50qmV6VJ" role="doc-biblioref">622</a>]</span>, or previously measured spectra (e.g., from a organism-wide knowledge base) <span class="citation" data-cites="JejZsE21">[<a href="#ref-JejZsE21" role="doc-biblioref">623</a>]</span>.
+Examples of software that perform peptide-centric analysis include OpenSWATH <span class="citation" data-cites="Sd09mxFZ">[<a href="#ref-Sd09mxFZ" role="doc-biblioref">624</a>]</span>, Spectronaut <span class="citation" data-cites="1GvzNjeV3">[<a href="#ref-1GvzNjeV3" role="doc-biblioref">601</a>]</span>, csoDIAq <span class="citation" data-cites="ezZ8OwXe">[<a href="#ref-ezZ8OwXe" role="doc-biblioref">625</a>]</span>, and DIA-NN <span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">626</a>]</span>.</p>
+<p>Spectrum-centric approaches instead ask if there is evidence for any peptide based on analysis of the observed spectra.
+Examples of spectrum-centric approaches include DIA-Umpire <span class="citation" data-cites="Mqz9Ko20">[<a href="#ref-Mqz9Ko20" role="doc-biblioref">627</a>]</span> and PECAN <span class="citation" data-cites="15hTjIZkP">[<a href="#ref-15hTjIZkP" role="doc-biblioref">628</a>]</span>.
+Spectrum-centric approaches may assemble pseudo-MS/MS spectra from co-elution of fragments that can then be used with any DDA database search <span class="citation" data-cites="Mqz9Ko20">[<a href="#ref-Mqz9Ko20" role="doc-biblioref">627</a>]</span>.
+Spectrum-centric may be less sensitive at peptide identification than peptide-centric approaches.</p>
+<p>A non-comprehensive list of software for DIA data analysis is found in tables 13-3 and 13-4.</p>
+<p>Table 13-3 DIA freeware:</p>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 40%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Publication</th>
+<th style="text-align: center;">Website</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">MaxDIA</td>
+<td style="text-align: center;">Cox and Mann, 2008<span class="citation" data-cites="18PIzg2Co">[<a href="#ref-18PIzg2Co" role="doc-biblioref">609</a>]</span></td>
+<td style="text-align: center;"><a href="https://www.maxquant.org/">MaxQuant</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Skyline</td>
+<td style="text-align: center;">MacLean et al., 2010<span class="citation" data-cites="CObAggjA">[<a href="#ref-CObAggjA" role="doc-biblioref">616</a>]</span></td>
+<td style="text-align: center;"><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">DIA-NN</td>
+<td style="text-align: center;">Demichev et al., 2019<span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">626</a>]</span></td>
+<td style="text-align: center;"><a href="https://github.com/vdemichev/DiaNN">DIA-NN</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">EncyclopeDIA</td>
+<td style="text-align: center;">Searle et al., 2018<span class="citation" data-cites="rYKhRHlv">[<a href="#ref-rYKhRHlv" role="doc-biblioref">629</a>]</span></td>
+<td style="text-align: center;"><a href="http://www.searlelab.org/software/encyclopedia/index.html">EncyclopeDIA</a></td>
+</tr>
+</tbody>
+</table>
+<p>Table 13-4 DIA non-freeware:</p>
 <table>
 <colgroup>
 <col style="width: 13%" />
@@ -2249,31 +2272,14 @@ The existing software for DDA and DIA analysis can be further divided into freew
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Spectronaut</td>
-<td style="text-align: center;">Bruderer et al., 2015<span class="citation" data-cites="UKcaDUJ7">[<a href="#ref-UKcaDUJ7" role="doc-biblioref">616</a>]</span></td>
+<td style="text-align: center;">Bruderer et al., 2015<span class="citation" data-cites="UKcaDUJ7">[<a href="#ref-UKcaDUJ7" role="doc-biblioref">630</a>]</span></td>
 <td style="text-align: center;"><a href="https://biognosys.com/software/spectronaut/">Spectronaut</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">PEAKS</td>
-<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">615</a>]</span></td>
+<td style="text-align: center;">Tran et al., 2018<span class="citation" data-cites="IUqTUA43">[<a href="#ref-IUqTUA43" role="doc-biblioref">617</a>]</span></td>
 <td style="text-align: center;"><a href="https://www.bioinfor.com/peaks-studio/">PEAKS</a></td>
 </tr>
-</tbody>
-</table>
-<h4 id="data-summary-and-interpretation">15-6 Data Summary and Interpretation</h4>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 35%" />
-<col style="width: 48%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Name</th>
-<th style="text-align: center;">Publication</th>
-<th style="text-align: center;">Website</th>
-</tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td style="text-align: center;">SpectroDive</td>
 <td style="text-align: center;"></td>
@@ -2281,98 +2287,42 @@ The existing software for DDA and DIA analysis can be further divided into freew
 </tr>
 </tbody>
 </table>
-<h4 id="data-summary-and-interpretation-1">15-7 Data Summary and Interpretation</h4>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 35%" />
-<col style="width: 48%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Name</th>
-<th style="text-align: center;">Publication</th>
-<th style="text-align: center;">Website</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">Peptide Shaker</td>
-<td style="text-align: center;">Vaudel <em>et al.</em>, 2015<span class="citation" data-cites="B10jxZjh tZ6JV4UF">[<a href="#ref-B10jxZjh" role="doc-biblioref">617</a>,<a href="#ref-tZ6JV4UF" role="doc-biblioref">618</a>]</span></td>
-<td style="text-align: center;"><a href="http://compomics.github.io/projects/peptide-shaker.html">PeptideShaker</a>, <a href="https://github.com/barsnes-group/peptide-shaker-online">Peptide Shaker Online</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="analysis-of-dda-data">Analysis of DDA data</h3>
-<p>DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, SEQUEST (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, Comet, MaxQuant, MSGF+, X!Tandem, Morpheus, MS-Fragger, and OMSSA.
-Tables 15-1 and 15-4 give weblinks and citations for these software tools.
-<!-- todo: need to make sure all these are listed in the table and cited -->
-<!-- todo: need a paragraph discussing intergration environments like the transproteomics pipeline (TPP) and IDpicker -->
-For analysis with freeware, raw data is converted to either text-based MGF (mascot generic format) or into a standard open XML format like mzML <span class="citation" data-cites="zsmAmqZJ fQHXeOG1 r2hPariY">[<a href="#ref-zsmAmqZJ" role="doc-biblioref">619</a>,<a href="#ref-fQHXeOG1" role="doc-biblioref">620</a>,<a href="#ref-r2hPariY" role="doc-biblioref">621</a>]</span>.
-The appropriate FASTA file containing proteins predicted from that organism’s genome is chosen as a reference database to search the experimental spectra.
-All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artefacts (fixed modifications) and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
-The search algorithm scores each query spectrum against its possible peptide matches <span class="citation" data-cites="1GxDrwPIW">[<a href="#ref-1GxDrwPIW" role="doc-biblioref">622</a>]</span>.
-A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
-The scores reflect a <em>goodness-of-fit</em> between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.</p>
-<p>For evaluating the matches, a decoy database is preferred as a null model for peptide matching.
-A randomized or reversed version of target database is used as a nonparametric null model.
-The decoy database can be searched separate from the target database (Kall’s method)<span class="citation" data-cites="bjANWlBN">[<a href="#ref-bjANWlBN" role="doc-biblioref">623</a>]</span> or it can be combined with the target database before search (Elias and Gygi method)<span class="citation" data-cites="BrkRiRe8">[<a href="#ref-BrkRiRe8" role="doc-biblioref">624</a>]</span>.
-Using either separate method or concatenated database search method, an estimate of false hits can be calculated which is used to estimate the false discovery rate (FDR) <span class="citation" data-cites="5mQtZh5o">[<a href="#ref-5mQtZh5o" role="doc-biblioref">625</a>]</span>.
-The FDR denotes the proportion of false hits in the population accepted as true.
-For Kall’s method: the false hits are estimated to be the number of decoys above a given threshold.
-It is assumed that the number of decoy hits that pass a threshold are the false hits.
-A similar number of target population may also be false.
-Therefore, the FDR is calculated as <span class="citation" data-cites="B2OZyvg5">[<a href="#ref-B2OZyvg5" role="doc-biblioref">626</a>]</span>:</p>
-<p><span class="math display">\[FDR = \frac{Decoy PSMs + 1}{Target PSMs}\]</span></p>
-<p>For Elias and Gygi Method, the target population in which FDR is estimated changes.
-The target and decoy hits coming from a joint database compete against each other.
-For any spectrum, either a target or a decoy peptide can be the best hit.
-It is argued that the joint target-decoy population has decoy hits as confirmed false hits.
-However, due to the joint database search, the target database may also have equal number of false hits.
-Thus, the number of false hits is multiplied by two for FDR estimation.</p>
-<p><span class="math display">\[FDR = \frac{2 * Decoy PSMs}{Target + Decoy PSMs}\]</span></p>
 <h3 id="integrated-ms-data-analysis-platforms">Integrated MS Data Analysis Platforms</h3>
 <p>Given the complexity of proteomic data analysis and the requirement for many steps to get from raw data to quantified proteins, there are some integrated software enviroments that easily allow users to complete everything in one place.</p>
+<h4 id="peptide-shaker">Peptide Shaker</h4>
+<p>Since each search engine may give slightly different results, and peptides identified by multiple search engines may be more confident hits, integration platforms have such as PeptideShaker have been developed to combine search results <span class="citation" data-cites="B10jxZjh tZ6JV4UF">[<a href="#ref-B10jxZjh" role="doc-biblioref">631</a>,<a href="#ref-tZ6JV4UF" role="doc-biblioref">632</a>]</span>.
+PeptideShaker gives an interactive overview of all the protein, peptide, and PSMs in a dataset.
+It also has many other features, such as PTM summaries, 3D structure mapping of detected peptides, QC, validation, and GO enrichment (see biological interpretation section for more details).</p>
 <h4 id="trans-proteomic-pipeline-tpp">Trans-Proteomic Pipeline (TPP)</h4>
-<p>The Trans-Proteomic Pipeline (TPP) is a free and open-source mass spectrometry data analysis suite for end-to end analysis that remains in continual development to provide ever expansive data analysis capabilities since its inception over twenty years ago <span class="citation" data-cites="9bP7w1xR w5NR3Ly9 NY6IKEE4 1FG7koZ0h 15EklFALC KUnjPYby 1ArAvfAkV 7BQGCj33 SKCHzO1U KIekIPp9 bBz09mFl">[<a href="#ref-KIekIPp9" role="doc-biblioref">73</a>,<a href="#ref-9bP7w1xR" role="doc-biblioref">627</a>,<a href="#ref-w5NR3Ly9" role="doc-biblioref">628</a>,<a href="#ref-NY6IKEE4" role="doc-biblioref">629</a>,<a href="#ref-1FG7koZ0h" role="doc-biblioref">630</a>,<a href="#ref-15EklFALC" role="doc-biblioref">631</a>,<a href="#ref-KUnjPYby" role="doc-biblioref">632</a>,<a href="#ref-1ArAvfAkV" role="doc-biblioref">633</a>,<a href="#ref-7BQGCj33" role="doc-biblioref">634</a>,<a href="#ref-SKCHzO1U" role="doc-biblioref">635</a>,<a href="#ref-bBz09mFl" role="doc-biblioref">636</a>]</span>.
+<p>The Trans-Proteomic Pipeline (TPP) is a free and open-source mass spectrometry data analysis suite for end-to end analysis that remains in continual development to provide ever expansive data analysis capabilities since its inception over twenty years ago <span class="citation" data-cites="9bP7w1xR w5NR3Ly9 NY6IKEE4 1FG7koZ0h 15EklFALC KUnjPYby 1ArAvfAkV 7BQGCj33 SKCHzO1U KIekIPp9 bBz09mFl">[<a href="#ref-KIekIPp9" role="doc-biblioref">73</a>,<a href="#ref-9bP7w1xR" role="doc-biblioref">633</a>,<a href="#ref-w5NR3Ly9" role="doc-biblioref">634</a>,<a href="#ref-NY6IKEE4" role="doc-biblioref">635</a>,<a href="#ref-1FG7koZ0h" role="doc-biblioref">636</a>,<a href="#ref-15EklFALC" role="doc-biblioref">637</a>,<a href="#ref-KUnjPYby" role="doc-biblioref">638</a>,<a href="#ref-1ArAvfAkV" role="doc-biblioref">639</a>,<a href="#ref-7BQGCj33" role="doc-biblioref">640</a>,<a href="#ref-SKCHzO1U" role="doc-biblioref">641</a>,<a href="#ref-bBz09mFl" role="doc-biblioref">642</a>]</span>.
 The current release provides tools for mass spectrometry spectral processing, spectrum searching, search validation, abundance computation, protein inference, and statistical evaluation of the data to ensure controlled false-discovery rates.
 Many of the tools include machine-learning modeling to extract the most information from datasets and build robust statistical models to compute probabilities that derived information is correct.</p>
 <p>One of the major advantages of TPP is its ability to be deployed in a wide variety of environments, from personal Windows laptops to extensive large Linux clusters for automated use within cloud computing environments.
 While the command-line interfaces are appreciated by many power users, others prefer a graphical user interface (GUI), which is provided by the TPP GUI called Petunia, allowing users to use the TPP from any web browser on any platform.
-Petunia has the advantages that the same exact GUI is available on a modest Windows laptop, a powerful expandable Linux server shared by a research group, or a remote cloud computing instance running on Amazon Web Services (AWS) <span class="citation" data-cites="15EklFALC">[<a href="#ref-15EklFALC" role="doc-biblioref">631</a>]</span>.</p>
-<p>The TPP incudes many statistical validation tools such as PeptideProphet <span class="citation" data-cites="10mgCOk6B">[<a href="#ref-10mgCOk6B" role="doc-biblioref">637</a>]</span>, ProteinProphet <span class="citation" data-cites="4OdLMmDD">[<a href="#ref-4OdLMmDD" role="doc-biblioref">638</a>]</span>, iProphet <span class="citation" data-cites="1FG7koZ0h">[<a href="#ref-1FG7koZ0h" role="doc-biblioref">630</a>]</span>, and PTMProphet <span class="citation" data-cites="SKCHzO1U">[<a href="#ref-SKCHzO1U" role="doc-biblioref">635</a>]</span>, where Bayesian machine learning techniques are applied to the various search engine scores to model the correct and incorrect assignment distributions and then use these models to assign a probability of being correct based on these learned models.
+Petunia has the advantages that the same exact GUI is available on a modest Windows laptop, a powerful expandable Linux server shared by a research group, or a remote cloud computing instance running on Amazon Web Services (AWS) <span class="citation" data-cites="15EklFALC">[<a href="#ref-15EklFALC" role="doc-biblioref">637</a>]</span>.</p>
+<p>The TPP incudes many statistical validation tools such as PeptideProphet <span class="citation" data-cites="10mgCOk6B">[<a href="#ref-10mgCOk6B" role="doc-biblioref">643</a>]</span>, ProteinProphet <span class="citation" data-cites="4OdLMmDD">[<a href="#ref-4OdLMmDD" role="doc-biblioref">644</a>]</span>, iProphet <span class="citation" data-cites="1FG7koZ0h">[<a href="#ref-1FG7koZ0h" role="doc-biblioref">636</a>]</span>, and PTMProphet <span class="citation" data-cites="SKCHzO1U">[<a href="#ref-SKCHzO1U" role="doc-biblioref">641</a>]</span>, where Bayesian machine learning techniques are applied to the various search engine scores to model the correct and incorrect assignment distributions and then use these models to assign a probability of being correct based on these learned models.
 With these tools it is possible to validate search engine results on large-scale datasets and in short order, enabling users to select probability thresholds based on a selected tolerable false discovery rate (FDR).
 The TPP is made fully interoperable via the open XML-based formats pepXML and protXML for different aspects of processing data-dependent acquisition (DDA), and Data-independent acquisition (DIA) proteomics data, resulting in a complete suite of tools for processing the increasingly larger datasets from start to finish.</p>
 <p>DIA workflows are supported via the DISCO tool which reads mzML files containing the instrument-produced spectra and uses signal processing approaches to isolate the fragment ions in the multiplexed MS2 spectra that correlate with precursors in the MS1 and writes the results to new mzML files that may then be searched with standard DDA search engines and downstream tools, including target-decoy analysis.
 This provides a comprehensive analysis of DIA data without the need for building a spectral library first.</p>
 <p>From its inception, the TPP has been and will always be free and open-source software, allowing anyone to use it without cost and to inspect its source code, alter the source code for their own needs, or even incorporate parts of it into their own products.
-Others have performed these tasks and include various analysis routines as addons such as TAILS N-terminomics analysis <span class="citation" data-cites="l6NqXxi8">[<a href="#ref-l6NqXxi8" role="doc-biblioref">639</a>]</span>, quantitation analysis with PyQuant <span class="citation" data-cites="WlEQJK9j">[<a href="#ref-WlEQJK9j" role="doc-biblioref">640</a>]</span>, SimPhospho <span class="citation" data-cites="DzOnRsF8">[<a href="#ref-DzOnRsF8" role="doc-biblioref">641</a>]</span>, WinProphet <span class="citation" data-cites="8GgfngeF">[<a href="#ref-8GgfngeF" role="doc-biblioref">642</a>]</span>, ProtyQuant <span class="citation" data-cites="2XDHE8d9">[<a href="#ref-2XDHE8d9" role="doc-biblioref">643</a>]</span>, and inclusion of R-tools for metaproteomic analysis <span class="citation" data-cites="146pjMaXB">[<a href="#ref-146pjMaXB" role="doc-biblioref">644</a>]</span>.
+Others have performed these tasks and include various analysis routines as addons such as TAILS N-terminomics analysis <span class="citation" data-cites="l6NqXxi8">[<a href="#ref-l6NqXxi8" role="doc-biblioref">645</a>]</span>, quantitation analysis with PyQuant <span class="citation" data-cites="WlEQJK9j">[<a href="#ref-WlEQJK9j" role="doc-biblioref">646</a>]</span>, SimPhospho <span class="citation" data-cites="DzOnRsF8">[<a href="#ref-DzOnRsF8" role="doc-biblioref">647</a>]</span>, WinProphet <span class="citation" data-cites="8GgfngeF">[<a href="#ref-8GgfngeF" role="doc-biblioref">648</a>]</span>, ProtyQuant <span class="citation" data-cites="2XDHE8d9">[<a href="#ref-2XDHE8d9" role="doc-biblioref">649</a>]</span>, and inclusion of R-tools for metaproteomic analysis <span class="citation" data-cites="146pjMaXB">[<a href="#ref-146pjMaXB" role="doc-biblioref">650</a>]</span>.
 As a collection of individual tools, they are easily amenable to pipelining in a very flexible manner to support a huge variety of combinations and workflows, and a custom program may easily be inserted into the pipeline to support technology development.</p>
 <h5 id="search-engines-supported-by-tpp">Search engines supported by TPP</h5>
 <p>The heart of MS proteomics DDA data continues to be the “search engine” that interprets collections of mass spectra to determine the peptide or peptides that yielded them.
 Spectral library search engines and de novo search engines, which are less common, are also available and are included in software suites such as the Trans Proteomic Pipeline.
 A sequence search engine most commonly used is the open-source version of SEQUEST called Comet, which is actively maintained and updated with new functionality as needs arise.
-For spectral library searching, SpectraST uses an approach where new spectra are matched against a library of previously identified spectra in the form of a spectral library <span class="citation" data-cites="KbIsieWP">[<a href="#ref-KbIsieWP" role="doc-biblioref">645</a>]</span>.
+For spectral library searching, SpectraST uses an approach where new spectra are matched against a library of previously identified spectra in the form of a spectral library <span class="citation" data-cites="KbIsieWP">[<a href="#ref-KbIsieWP" role="doc-biblioref">651</a>]</span>.
 This approach is much faster, more sensitive, and more specific than sequence database searching, although is only as good as the reference spectral library provided.
-There is renewed interest in spectral libraries because of data-independent acquisition (DIA) approaches being increasingly deployed and therefore the quality and coverage of libraries is paramount and likely to improve in the coming years, aided by the standard spectral library format being developed by the PSI <span class="citation" data-cites="M0N5UGce">[<a href="#ref-M0N5UGce" role="doc-biblioref">646</a>]</span>.
-For de novo sequence analysis, Novor <span class="citation" data-cites="1C0ZGb77k">[<a href="#ref-1C0ZGb77k" role="doc-biblioref">647</a>]</span> and Casanovo <span class="citation" data-cites="zzSgLIrm">[<a href="#ref-zzSgLIrm" role="doc-biblioref">648</a>]</span> are very fast and capable de novo sequence search engines that are available.</p>
+There is renewed interest in spectral libraries because of data-independent acquisition (DIA) approaches being increasingly deployed and therefore the quality and coverage of libraries is paramount and likely to improve in the coming years, aided by the standard spectral library format being developed by the PSI <span class="citation" data-cites="M0N5UGce">[<a href="#ref-M0N5UGce" role="doc-biblioref">652</a>]</span>.
+For de novo sequence analysis, Novor <span class="citation" data-cites="1C0ZGb77k">[<a href="#ref-1C0ZGb77k" role="doc-biblioref">653</a>]</span> and Casanovo <span class="citation" data-cites="zzSgLIrm">[<a href="#ref-zzSgLIrm" role="doc-biblioref">654</a>]</span> are very fast and capable de novo sequence search engines that are available.</p>
 <p>For chemical crosslinking proteomics analysis, open-source programs such as Kojak <span class="citation" data-cites="10TqPZVdy KIekIPp9">[<a href="#ref-10TqPZVdy" role="doc-biblioref">72</a>,<a href="#ref-KIekIPp9" role="doc-biblioref">73</a>]</span> are available for standard or cleavable MS2-based crosslinking techniques.
 Crosslinking-based MS analyses are employed to elucidate protein-protein interactions and facilitate protein structure and topology predictions.
 Kojak is designed to identify two independent peptides covalently bonded with a crosslinker and fragmented in a single MS2 scan event using a database search approach.
 Kojak algorithm also includes support for cleavable cross-linkers, and identification of cross-links between 15N-labeled homomultimers and is integrated into the Trans-Proteomic Pipeline, enabling access to dozens of additional tools, in particular, the PeptideProphet and iProphet tools for validation of cross-links improve the sensitivity and accuracy of correct cross-link identifications at user-defined thresholds.
 Development of Kojak has continued over the last ten years culminating in many improvements and new features.
 These improvements include support for additional open formats and standards, further refinement to the search algorithm for efficiency, E-values to normalize the scores of the results, support for cleavable cross-linkers, and methods to identify cross-links between homomultimer subunits.</p>
-<p>For open modification database searching, programs such as Magnum (<span class="citation" data-cites="fgRTHCzN">[<a href="#ref-fgRTHCzN" role="doc-biblioref">649</a>]</span>) are also now available which is specialized in identification of non-peptide masses that are bound to peptides. The tool is capable of identifying xenobiotic mass adducts, in addition to PTMs that were uncharacterized in the search parameters.</p>
-<h3 id="strategies-for-analysis-of-dia-data">Strategies for analysis of DIA data</h3>
-<p>DIA data analysis is fundamentally different from DDA data analysis because, instead of a single MS/MS spectrum for each peptide, we can observe the elution of peptide fragments for any peptide over chromatography time.
-There are two general approaches for peptide identification from DIA data: peptide-centric and spectrum-centric.</p>
-<p>Peptide-centric approaches looks for evidence of specific peptides that are in some assay library of MS/MS spectra.
-That library could be predicted spectra (e.g., using Prosit) <span class="citation" data-cites="50qmV6VJ">[<a href="#ref-50qmV6VJ" role="doc-biblioref">650</a>]</span>, or previously measured spectra (e.g., from a organism-wide knowledge base) <span class="citation" data-cites="JejZsE21">[<a href="#ref-JejZsE21" role="doc-biblioref">651</a>]</span>.
-Examples of software that perform peptide-centric analysis include OpenSWATH <span class="citation" data-cites="Sd09mxFZ">[<a href="#ref-Sd09mxFZ" role="doc-biblioref">652</a>]</span>, Spectronaut <span class="citation" data-cites="1GvzNjeV3">[<a href="#ref-1GvzNjeV3" role="doc-biblioref">601</a>]</span>, csoDIAq <span class="citation" data-cites="ezZ8OwXe">[<a href="#ref-ezZ8OwXe" role="doc-biblioref">653</a>]</span>, and DIA-NN <span class="citation" data-cites="1HLH2DWkK">[<a href="#ref-1HLH2DWkK" role="doc-biblioref">613</a>]</span>.</p>
-<p>Spectrum-centric approaches instead ask if there is evidence for any peptide based on analysis of the observed spectra.
-Examples of spectrum-centric approaches include DIA-Umpire <span class="citation" data-cites="Mqz9Ko20">[<a href="#ref-Mqz9Ko20" role="doc-biblioref">654</a>]</span> and PECAN <span class="citation" data-cites="15hTjIZkP">[<a href="#ref-15hTjIZkP" role="doc-biblioref">655</a>]</span>.
-Spectrum-centric approaches may assemble pseudo-MS/MS spectra from co-elution of fragments that can then be used with any DDA database search <span class="citation" data-cites="Mqz9Ko20">[<a href="#ref-Mqz9Ko20" role="doc-biblioref">654</a>]</span>.
-Spectrum-centric may be less sensitive at peptide identification than peptide-centric approaches.</p>
+<p>For open modification database searching, programs such as Magnum (<span class="citation" data-cites="fgRTHCzN">[<a href="#ref-fgRTHCzN" role="doc-biblioref">655</a>]</span>) are also now available which is specialized in identification of non-peptide masses that are bound to peptides. The tool is capable of identifying xenobiotic mass adducts, in addition to PTMs that were uncharacterized in the search parameters.</p>
 <h3 id="quality-control">Quality control</h3>
 <p>Quality control should be a central aspect of any mass spectrometry-based study to ensure reproducibility of generated results.
 There are two types of quality controls that can be conducted for any kind of mass spectrometry experiment.
@@ -2397,19 +2347,8 @@ In case of increased detection of carry-over, injections with trifluoroethanol c
 Electrospray stability tends to worsen over time as columns wear, as well as when measuring samples with residual contaminants, such as salts or detergents.
 You will notice spray instabilities either in the total ion chromatogram (TIC) as thin spikes with short periods of no measured signal or if you install cameras at your ESI source.
 Suboptimal spray conditions will usually result in droplets forming on the emitter, being released into the mass spectrometer (also referred to as “spitting”).
-Real-time quality control software (listed in the table below) can help you identify instrument issues right away.</p>
-<h4 id="data-quality-control">Data Quality Control</h4>
-<p>Apart from instrument performance, any kind of data analysis should have proper quality control in place to identify problematic measurements and to exclude them if necessary.
-It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time.
-Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
-Decoy searches help monitor and control the false-discovery rate.
-Including common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
-Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
-Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurements to identify potential measurement or normalization issues.
-Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
-In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.</p>
-<h4 id="quality-control-software">Quality Control Software</h4>
-<h5 id="raw-file-and-real-time-analysis">Raw file and real-time analysis</h5>
+Real-time quality control software (listed in tables 13-5 and 13-6 below) can help you identify instrument issues right away.</p>
+<p>Table 13-5 Quality Control Software for raw file and real-time analysis:</p>
 <table>
 <colgroup>
 <col style="width: 7%" />
@@ -2514,7 +2453,7 @@ In case you are analyzing different conditions, you can perform hierarchical clu
 </tr>
 </tbody>
 </table>
-<h5 id="search-result-qc">Search result QC</h5>
+<p>Table 13-6 Search result QC:</p>
 <table>
 <colgroup>
 <col style="width: 10%" />
@@ -2557,7 +2496,16 @@ In case you are analyzing different conditions, you can perform hierarchical clu
 </tr>
 </tbody>
 </table>
-<!-- todo: this table is probably very incomplete. Add more tools -->
+<h4 id="data-quality-control">Data Quality Control</h4>
+<p>Apart from instrument performance, any kind of data analysis should have proper quality control in place to identify problematic measurements and to exclude them if necessary.
+It is recommended to develop a standardized system for data quality control early on and to keep this consistent over time.
+Adding indexed retention time (iRT) peptides can help identify and correct gradient and retention time inconsistencies between samples at the data analysis stage.
+Decoy searches help monitor and control the false-discovery rate.
+Including common contaminants, such as keratins, in the FASTA files used for searches can help identify sample preparation issues.
+Other parameters to check in your analysis are the consistency of the number of peptide-spectrum matches, identified peptides and proteins over all samples of your study, as well as your coefficients of variation between your replicates.
+Before and after data normalization (if normalization is performed) it is good to compare the median intensities of all measurements to identify potential measurement or normalization issues.
+Precursor charge distributions, missed cleavage numbers, peak width, as well as the number of points per peak are additional parameters that can be checked.
+In case you are analyzing different conditions, you can perform hierarchical clustering or a principal component analysis to check if your samples cluster as expected.</p>
 <h3 id="quantitative-proteomic-data-analysis-best-practices">Quantitative Proteomic Data Analysis Best Practices</h3>
 <p>This section aims to provide an overview of the best practices when conducting large scale proteomics quantitative data analysis.
 The proteome is more complex than the genome and transcriptome due to PTMs and splicing, therefore careful selection of data analysis techniques is required to make capture the true biological signals in the data <span class="citation" data-cites="mkpI0rxh">[<a href="#ref-mkpI0rxh" role="doc-biblioref">672</a>]</span>.
@@ -2903,7 +2851,7 @@ Another unique component for SRM data repositories is the SRMAtlas website, whic
 As an example, the Human SRMAtlas provides data on 166,174 synthetic proteotypic human peptides, providing multiple, independent assays to quantify any human protein and numerous spliced variants, non-synonymous mutations, and post-translational modifications <span class="citation" data-cites="17qvo6lpw">[<a href="#ref-17qvo6lpw" role="doc-biblioref">753</a>]</span>.
 The data are freely accessible as a resource at http://www.srmatlas.org/.</p>
 <h3 id="other-knowledge-bases">Other knowledge bases</h3>
-<p>There are many more proteomics knowledgebases, such as PRIDE <span class="citation" data-cites="19xkjz9Ak jpihB8r0">[<a href="#ref-19xkjz9Ak" role="doc-biblioref">754</a>,<a href="#ref-jpihB8r0" role="doc-biblioref">755</a>]</span>, the proteomics standards initiative (PSI) <span class="citation" data-cites="qVEHb5K">[<a href="#ref-qVEHb5K" role="doc-biblioref">756</a>]</span>, Massive <span class="citation" data-cites="JejZsE21">[<a href="#ref-JejZsE21" role="doc-biblioref">651</a>]</span>, Proteometools <span class="citation" data-cites="2iJj61wl">[<a href="#ref-2iJj61wl" role="doc-biblioref">757</a>]</span>, Panorama <span class="citation" data-cites="rKWchS8R">[<a href="#ref-rKWchS8R" role="doc-biblioref">758</a>]</span>, Chorus <span class="citation" data-cites="BeY3BmUJ">[<a href="#ref-BeY3BmUJ" role="doc-biblioref">759</a>]</span>, and iProX <span class="citation" data-cites="LMs52Uzn">[<a href="#ref-LMs52Uzn" role="doc-biblioref">760</a>]</span>.</p>
+<p>There are many more proteomics knowledgebases, such as PRIDE <span class="citation" data-cites="19xkjz9Ak jpihB8r0">[<a href="#ref-19xkjz9Ak" role="doc-biblioref">754</a>,<a href="#ref-jpihB8r0" role="doc-biblioref">755</a>]</span>, the proteomics standards initiative (PSI) <span class="citation" data-cites="qVEHb5K">[<a href="#ref-qVEHb5K" role="doc-biblioref">756</a>]</span>, Massive <span class="citation" data-cites="JejZsE21">[<a href="#ref-JejZsE21" role="doc-biblioref">623</a>]</span>, Proteometools <span class="citation" data-cites="2iJj61wl">[<a href="#ref-2iJj61wl" role="doc-biblioref">757</a>]</span>, Panorama <span class="citation" data-cites="rKWchS8R">[<a href="#ref-rKWchS8R" role="doc-biblioref">758</a>]</span>, Chorus <span class="citation" data-cites="BeY3BmUJ">[<a href="#ref-BeY3BmUJ" role="doc-biblioref">759</a>]</span>, and iProX <span class="citation" data-cites="LMs52Uzn">[<a href="#ref-LMs52Uzn" role="doc-biblioref">760</a>]</span>.</p>
 <h2 class="page_break_before" id="biological-interpretation">Biological Interpretation</h2>
 <p>The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
 This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits.
@@ -5083,158 +5031,158 @@ Kc167 cells</strong> <div class="csl-block">Bernd Bodenmiller, Johan Malmstrom, 
 <div id="ref-wtH5a4Ax" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">604. </div><div class="csl-right-inline"><strong>In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics</strong> <div class="csl-block">Enrique Audain, Julian Uszkoreit, Timo Sachsenberg, Julianus Pfeuffer, Xiao Liang, Henning Hermjakob, Aniel Sanchez, Martin Eisenacher, Knut Reinert, David L Tabb, … Yasset Perez-Riverol</div> <em>Journal of Proteomics</em> (2017-01) <a href="https://doi.org/f9r8r6">https://doi.org/f9r8r6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2016.08.002">10.1016/j.jprot.2016.08.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27498275">27498275</a></div></div>
 </div>
-<div id="ref-18PIzg2Co" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">605. </div><div class="csl-right-inline"><strong>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</strong> <div class="csl-block">Jürgen Cox, Matthias Mann</div> <em>Nature Biotechnology</em> (2008-11-30) <a href="https://doi.org/crn24x">https://doi.org/crn24x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1511">10.1038/nbt.1511</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19029910">19029910</a></div></div>
-</div>
-<div id="ref-bKpYR6PB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">606. </div><div class="csl-right-inline"><strong>MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics</strong> <div class="csl-block">Andy T Kong, Felipe V Leprevost, Dmitry M Avtonomov, Dattatreya Mellacheruvu, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2017-04-10) <a href="https://doi.org/f9z6p7">https://doi.org/f9z6p7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4256">10.1038/nmeth.4256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28394336">28394336</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409104">PMC5409104</a></div></div>
-</div>
-<div id="ref-rKtsv6G" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">607. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
-</div>
-<div id="ref-1B2RVFOKK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">608. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-10-31) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">10.1038/ncomms6277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25358478">25358478</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036525">PMC5036525</a></div></div>
-</div>
-<div id="ref-IcvYCrHi" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">609. </div><div class="csl-right-inline"><strong>A method for reducing the time required to match protein sequences with tandem mass spectra</strong> <div class="csl-block">Robertson Craig, Ronald C Beavis</div> <em>Rapid Communications in Mass Spectrometry</em> (2003-09-19) <a href="https://doi.org/b7bgb9">https://doi.org/b7bgb9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/rcm.1198">10.1002/rcm.1198</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14558131">14558131</a></div></div>
-</div>
-<div id="ref-iK4IJ8ED" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">610. </div><div class="csl-right-inline"><strong>TANDEM: matching proteins with tandem mass spectra</strong> <div class="csl-block">Robertson Craig, Ronald C Beavis</div> <em>Bioinformatics</em> (2004-02-19) <a href="https://doi.org/cthw6n">https://doi.org/cthw6n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bth092">10.1093/bioinformatics/bth092</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14976030">14976030</a></div></div>
-</div>
-<div id="ref-jC0M4v7k" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">611. </div><div class="csl-right-inline"><strong>Comet: An open‐source &lt;scp&gt;MS&lt;/scp&gt;/&lt;scp&gt;MS&lt;/scp&gt; sequence database search tool</strong> <div class="csl-block">Jimmy K Eng, Tahmina A Jahan, Michael R Hoopmann</div> <em>PROTEOMICS</em> (2012-12-04) <a href="https://doi.org/f2d3cp">https://doi.org/f2d3cp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201200439">10.1002/pmic.201200439</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23148064">23148064</a></div></div>
-</div>
-<div id="ref-CObAggjA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">612. </div><div class="csl-right-inline"><strong>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</strong> <div class="csl-block">Brendan MacLean, Daniela M Tomazela, Nicholas Shulman, Matthew Chambers, Gregory L Finney, Barbara Frewen, Randall Kern, David L Tabb, Daniel C Liebler, Michael J MacCoss</div> <em>Bioinformatics</em> (2010-02-09) <a href="https://doi.org/bqx9rq">https://doi.org/bqx9rq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btq054">10.1093/bioinformatics/btq054</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20147306">20147306</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844992">PMC2844992</a></div></div>
-</div>
-<div id="ref-1HLH2DWkK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">613. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2019-11-25) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">10.1038/s41592-019-0638-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31768060">31768060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949130">PMC6949130</a></div></div>
-</div>
-<div id="ref-rYKhRHlv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">614. </div><div class="csl-right-inline"><strong>Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry</strong> <div class="csl-block">Brian C Searle, Lindsay K Pino, Jarrett D Egertson, Ying S Ting, Robert T Lawrence, Brendan X MacLean, Judit Villén, Michael J MacCoss</div> <em>Nature Communications</em> (2018-12-03) <a href="https://doi.org/gsthnx">https://doi.org/gsthnx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-018-07454-w">10.1038/s41467-018-07454-w</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30510204">30510204</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6277451">PMC6277451</a></div></div>
-</div>
-<div id="ref-IUqTUA43" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">615. </div><div class="csl-right-inline"><strong>Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry</strong> <div class="csl-block">Ngoc Hieu Tran, Rui Qiao, Lei Xin, Xin Chen, Chuyi Liu, Xianglilan Zhang, Baozhen Shan, Ali Ghodsi, Ming Li</div> <em>Nature Methods</em> (2018-12-20) <a href="https://doi.org/gftvmn">https://doi.org/gftvmn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0260-3">10.1038/s41592-018-0260-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30573815">30573815</a></div></div>
-</div>
-<div id="ref-UKcaDUJ7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">616. </div><div class="csl-right-inline"><strong>Extending the Limits of Quantitative Proteome Profiling with Data-Independent Acquisition and Application to Acetaminophen-Treated Three-Dimensional Liver Microtissues</strong> <div class="csl-block">Roland Bruderer, Oliver M Bernhardt, Tejas Gandhi, Saša M Miladinović, Lin-Yang Cheng, Simon Messner, Tobias Ehrenberger, Vito Zanotelli, Yulia Butscheid, Claudia Escher, … Lukas Reiter</div> <em>Molecular &amp;amp; Cellular Proteomics</em> (2015-05) <a href="https://doi.org/f7b76h">https://doi.org/f7b76h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m114.044305">10.1074/mcp.m114.044305</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25724911">25724911</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424408">PMC4424408</a></div></div>
-</div>
-<div id="ref-B10jxZjh" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">617. </div><div class="csl-right-inline"><strong>PeptideShaker enables reanalysis of MS-derived proteomics data sets</strong> <div class="csl-block">Marc Vaudel, Julia M Burkhart, René P Zahedi, Eystein Oveland, Frode S Berven, Albert Sickmann, Lennart Martens, Harald Barsnes</div> <em>Nature Biotechnology</em> (2015-01) <a href="https://doi.org/ggkds8">https://doi.org/ggkds8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3109">10.1038/nbt.3109</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25574629">25574629</a></div></div>
-</div>
-<div id="ref-tZ6JV4UF" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">618. </div><div class="csl-right-inline"><strong>PeptideShaker Online: A User-Friendly Web-Based Framework for the Identification of Mass Spectrometry-Based Proteomics Data</strong> <div class="csl-block">Yehia Mokhtar Farag, Carlos Horro, Marc Vaudel, Harald Barsnes</div> <em>Journal of Proteome Research</em> (2021-10-28) <a href="https://doi.org/gpdd85">https://doi.org/gpdd85</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.1c00678">10.1021/acs.jproteome.1c00678</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34709836">34709836</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8650087">PMC8650087</a></div></div>
-</div>
 <div id="ref-zsmAmqZJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">619. </div><div class="csl-right-inline"><strong>mzML—a Community Standard for Mass Spectrometry Data</strong> <div class="csl-block">Lennart Martens, Matthew Chambers, Marc Sturm, Darren Kessner, Fredrik Levander, Jim Shofstahl, Wilfred H Tang, Andreas Römpp, Steffen Neumann, Angel D Pizarro, … Eric W Deutsch</div> <em>Molecular &amp;amp; Cellular Proteomics</em> (2011-01) <a href="https://doi.org/dxkg99">https://doi.org/dxkg99</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r110.000133">10.1074/mcp.r110.000133</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20716697">20716697</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013463">PMC3013463</a></div></div>
+<div class="csl-left-margin">605. </div><div class="csl-right-inline"><strong>mzML—a Community Standard for Mass Spectrometry Data</strong> <div class="csl-block">Lennart Martens, Matthew Chambers, Marc Sturm, Darren Kessner, Fredrik Levander, Jim Shofstahl, Wilfred H Tang, Andreas Römpp, Steffen Neumann, Angel D Pizarro, … Eric W Deutsch</div> <em>Molecular &amp;amp; Cellular Proteomics</em> (2011-01) <a href="https://doi.org/dxkg99">https://doi.org/dxkg99</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r110.000133">10.1074/mcp.r110.000133</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20716697">20716697</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013463">PMC3013463</a></div></div>
 </div>
 <div id="ref-fQHXeOG1" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">620. </div><div class="csl-right-inline"><strong>Mass spectrometer output file format mzML.</strong> <div class="csl-block">Eric W Deutsch</div> <em>Methods in molecular biology (Clifton, N.J.)</em> (2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013381">https://www.ncbi.nlm.nih.gov/pubmed/20013381</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-60761-444-9_22">10.1007/978-1-60761-444-9_22</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013381">20013381</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073315">PMC3073315</a></div></div>
+<div class="csl-left-margin">606. </div><div class="csl-right-inline"><strong>Mass spectrometer output file format mzML.</strong> <div class="csl-block">Eric W Deutsch</div> <em>Methods in molecular biology (Clifton, N.J.)</em> (2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013381">https://www.ncbi.nlm.nih.gov/pubmed/20013381</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-60761-444-9_22">10.1007/978-1-60761-444-9_22</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013381">20013381</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073315">PMC3073315</a></div></div>
 </div>
 <div id="ref-r2hPariY" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">621. </div><div class="csl-right-inline"><strong>File Formats Commonly Used in Mass Spectrometry Proteomics</strong> <div class="csl-block">Eric W Deutsch</div> <em>Molecular &amp;amp; Cellular Proteomics</em> (2012-12) <a href="https://doi.org/ggkdvv">https://doi.org/ggkdvv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r112.019695">10.1074/mcp.r112.019695</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22956731">22956731</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3518119">PMC3518119</a></div></div>
+<div class="csl-left-margin">607. </div><div class="csl-right-inline"><strong>File Formats Commonly Used in Mass Spectrometry Proteomics</strong> <div class="csl-block">Eric W Deutsch</div> <em>Molecular &amp;amp; Cellular Proteomics</em> (2012-12) <a href="https://doi.org/ggkdvv">https://doi.org/ggkdvv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.r112.019695">10.1074/mcp.r112.019695</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22956731">22956731</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3518119">PMC3518119</a></div></div>
 </div>
 <div id="ref-1GxDrwPIW" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">622. </div><div class="csl-right-inline"><strong>Anatomy and evolution of database search engines—a central component of mass spectrometry based proteomic workflows</strong> <div class="csl-block">Kenneth Verheggen, Helge Ræder, Frode S Berven, Lennart Martens, Harald Barsnes, Marc Vaudel</div> <em>Mass Spectrometry Reviews</em> (2017-09-13) <a href="https://doi.org/gbwkmf">https://doi.org/gbwkmf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/mas.21543">10.1002/mas.21543</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28902424">28902424</a></div></div>
+<div class="csl-left-margin">608. </div><div class="csl-right-inline"><strong>Anatomy and evolution of database search engines—a central component of mass spectrometry based proteomic workflows</strong> <div class="csl-block">Kenneth Verheggen, Helge Ræder, Frode S Berven, Lennart Martens, Harald Barsnes, Marc Vaudel</div> <em>Mass Spectrometry Reviews</em> (2017-09-13) <a href="https://doi.org/gbwkmf">https://doi.org/gbwkmf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/mas.21543">10.1002/mas.21543</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28902424">28902424</a></div></div>
+</div>
+<div id="ref-18PIzg2Co" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">609. </div><div class="csl-right-inline"><strong>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</strong> <div class="csl-block">Jürgen Cox, Matthias Mann</div> <em>Nature Biotechnology</em> (2008-11-30) <a href="https://doi.org/crn24x">https://doi.org/crn24x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.1511">10.1038/nbt.1511</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19029910">19029910</a></div></div>
+</div>
+<div id="ref-bKpYR6PB" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">610. </div><div class="csl-right-inline"><strong>MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics</strong> <div class="csl-block">Andy T Kong, Felipe V Leprevost, Dmitry M Avtonomov, Dattatreya Mellacheruvu, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2017-04-10) <a href="https://doi.org/f9z6p7">https://doi.org/f9z6p7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4256">10.1038/nmeth.4256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28394336">28394336</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409104">PMC5409104</a></div></div>
+</div>
+<div id="ref-rKtsv6G" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">611. </div><div class="csl-right-inline"><strong>Probability-based protein identification by searching sequence databases using mass spectrometry data.</strong> <div class="csl-block">DN Perkins, DJ Pappin, DM Creasy, JS Cottrell</div> <em>Electrophoresis</em> (1999-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">https://www.ncbi.nlm.nih.gov/pubmed/10612281</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2">10.1002/(sici)1522-2683(19991201)20:18&lt;3551::aid-elps3551&gt;3.0.co;2-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10612281">10612281</a></div></div>
+</div>
+<div id="ref-1B2RVFOKK" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">612. </div><div class="csl-right-inline"><strong>MS-GF+ makes progress towards a universal database search tool for proteomics</strong> <div class="csl-block">Sangtae Kim, Pavel A Pevzner</div> <em>Nature Communications</em> (2014-10-31) <a href="https://doi.org/ggkdq8">https://doi.org/ggkdq8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ncomms6277">10.1038/ncomms6277</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25358478">25358478</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036525">PMC5036525</a></div></div>
+</div>
+<div id="ref-IcvYCrHi" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">613. </div><div class="csl-right-inline"><strong>A method for reducing the time required to match protein sequences with tandem mass spectra</strong> <div class="csl-block">Robertson Craig, Ronald C Beavis</div> <em>Rapid Communications in Mass Spectrometry</em> (2003-09-19) <a href="https://doi.org/b7bgb9">https://doi.org/b7bgb9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/rcm.1198">10.1002/rcm.1198</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14558131">14558131</a></div></div>
+</div>
+<div id="ref-iK4IJ8ED" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">614. </div><div class="csl-right-inline"><strong>TANDEM: matching proteins with tandem mass spectra</strong> <div class="csl-block">Robertson Craig, Ronald C Beavis</div> <em>Bioinformatics</em> (2004-02-19) <a href="https://doi.org/cthw6n">https://doi.org/cthw6n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bth092">10.1093/bioinformatics/bth092</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14976030">14976030</a></div></div>
+</div>
+<div id="ref-jC0M4v7k" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">615. </div><div class="csl-right-inline"><strong>Comet: An open‐source &lt;scp&gt;MS&lt;/scp&gt;/&lt;scp&gt;MS&lt;/scp&gt; sequence database search tool</strong> <div class="csl-block">Jimmy K Eng, Tahmina A Jahan, Michael R Hoopmann</div> <em>PROTEOMICS</em> (2012-12-04) <a href="https://doi.org/f2d3cp">https://doi.org/f2d3cp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201200439">10.1002/pmic.201200439</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23148064">23148064</a></div></div>
+</div>
+<div id="ref-CObAggjA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">616. </div><div class="csl-right-inline"><strong>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</strong> <div class="csl-block">Brendan MacLean, Daniela M Tomazela, Nicholas Shulman, Matthew Chambers, Gregory L Finney, Barbara Frewen, Randall Kern, David L Tabb, Daniel C Liebler, Michael J MacCoss</div> <em>Bioinformatics</em> (2010-02-09) <a href="https://doi.org/bqx9rq">https://doi.org/bqx9rq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btq054">10.1093/bioinformatics/btq054</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20147306">20147306</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844992">PMC2844992</a></div></div>
+</div>
+<div id="ref-IUqTUA43" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">617. </div><div class="csl-right-inline"><strong>Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry</strong> <div class="csl-block">Ngoc Hieu Tran, Rui Qiao, Lei Xin, Xin Chen, Chuyi Liu, Xianglilan Zhang, Baozhen Shan, Ali Ghodsi, Ming Li</div> <em>Nature Methods</em> (2018-12-20) <a href="https://doi.org/gftvmn">https://doi.org/gftvmn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0260-3">10.1038/s41592-018-0260-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30573815">30573815</a></div></div>
 </div>
 <div id="ref-bjANWlBN" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">623. </div><div class="csl-right-inline"><strong>Assigning Significance to Peptides Identified by Tandem Mass Spectrometry Using Decoy Databases</strong> <div class="csl-block">Lukas Käll, John D Storey, Michael J MacCoss, William Stafford Noble</div> <em>Journal of Proteome Research</em> (2007-12-08) <a href="https://doi.org/fbxhxp">https://doi.org/fbxhxp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/pr700600n">10.1021/pr700600n</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18067246">18067246</a></div></div>
+<div class="csl-left-margin">618. </div><div class="csl-right-inline"><strong>Assigning Significance to Peptides Identified by Tandem Mass Spectrometry Using Decoy Databases</strong> <div class="csl-block">Lukas Käll, John D Storey, Michael J MacCoss, William Stafford Noble</div> <em>Journal of Proteome Research</em> (2007-12-08) <a href="https://doi.org/fbxhxp">https://doi.org/fbxhxp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/pr700600n">10.1021/pr700600n</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18067246">18067246</a></div></div>
 </div>
 <div id="ref-BrkRiRe8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">624. </div><div class="csl-right-inline"><strong>Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry.</strong> <div class="csl-block">Joshua E Elias, Steven P Gygi</div> <em>Nature methods</em> (2007-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17327847">https://www.ncbi.nlm.nih.gov/pubmed/17327847</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth1019">10.1038/nmeth1019</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17327847">17327847</a></div></div>
+<div class="csl-left-margin">619. </div><div class="csl-right-inline"><strong>Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry.</strong> <div class="csl-block">Joshua E Elias, Steven P Gygi</div> <em>Nature methods</em> (2007-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17327847">https://www.ncbi.nlm.nih.gov/pubmed/17327847</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth1019">10.1038/nmeth1019</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17327847">17327847</a></div></div>
 </div>
 <div id="ref-5mQtZh5o" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">625. </div><div class="csl-right-inline"><strong>False Discovery Rate Estimation in Proteomics</strong> <div class="csl-block">Suruchi Aggarwal, Amit Kumar Yadav</div> <em>Methods in Molecular Biology</em> (2016) <a href="https://doi.org/f79mzp">https://doi.org/f79mzp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-4939-3106-4_7">10.1007/978-1-4939-3106-4_7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26519173">26519173</a></div></div>
+<div class="csl-left-margin">620. </div><div class="csl-right-inline"><strong>False Discovery Rate Estimation in Proteomics</strong> <div class="csl-block">Suruchi Aggarwal, Amit Kumar Yadav</div> <em>Methods in Molecular Biology</em> (2016) <a href="https://doi.org/f79mzp">https://doi.org/f79mzp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-4939-3106-4_7">10.1007/978-1-4939-3106-4_7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26519173">26519173</a></div></div>
 </div>
 <div id="ref-B2OZyvg5" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">626. </div><div class="csl-right-inline"><strong>Unbiased False Discovery Rate Estimation for Shotgun Proteomics Based on the Target-Decoy Approach</strong> <div class="csl-block">Lev I Levitsky, Mark V Ivanov, Anna A Lobas, Mikhail V Gorshkov</div> <em>Journal of Proteome Research</em> (2016-12-13) <a href="https://doi.org/gqtfbj">https://doi.org/gqtfbj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.6b00144">10.1021/acs.jproteome.6b00144</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27959540">27959540</a></div></div>
-</div>
-<div id="ref-9bP7w1xR" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">627. </div><div class="csl-right-inline"><strong>A uniform proteomics MS/MS analysis platform utilizing open XML file formats.</strong> <div class="csl-block">Andrew Keller, Jimmy Eng, Ning Zhang, Xiao-jun Li, Ruedi Aebersold</div> <em>Molecular systems biology</em> (2005-08-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16729052">https://www.ncbi.nlm.nih.gov/pubmed/16729052</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/msb4100024">10.1038/msb4100024</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16729052">16729052</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1681455">PMC1681455</a></div></div>
-</div>
-<div id="ref-w5NR3Ly9" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">628. </div><div class="csl-right-inline"><strong>Trans-proteomic pipeline: a pipeline for proteomic analysis.</strong> <div class="csl-block">Patrick GA Pedrioli</div> <em>Methods in molecular biology (Clifton, N.J.)</em> (2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013374">https://www.ncbi.nlm.nih.gov/pubmed/20013374</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-60761-444-9_15">10.1007/978-1-60761-444-9_15</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013374">20013374</a></div></div>
-</div>
-<div id="ref-NY6IKEE4" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">629. </div><div class="csl-right-inline"><strong>Software pipeline and data analysis for MS/MS proteomics: the trans-proteomic pipeline.</strong> <div class="csl-block">Andrew Keller, David Shteynberg</div> <em>Methods in molecular biology (Clifton, N.J.)</em> (2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21082435">https://www.ncbi.nlm.nih.gov/pubmed/21082435</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-60761-977-2_12">10.1007/978-1-60761-977-2_12</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21082435">21082435</a></div></div>
-</div>
-<div id="ref-1FG7koZ0h" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">630. </div><div class="csl-right-inline"><strong>iProphet: multi-level integrative analysis of shotgun proteomic data improves peptide and protein identification rates and error estimates.</strong> <div class="csl-block">David Shteynberg, Eric W Deutsch, Henry Lam, Jimmy K Eng, Zhi Sun, Natalie Tasman, Luis Mendoza, Robert L Moritz, Ruedi Aebersold, Alexey I Nesvizhskii</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2011-08-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21876204">https://www.ncbi.nlm.nih.gov/pubmed/21876204</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m111.007690">10.1074/mcp.m111.007690</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21876204">21876204</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3237071">PMC3237071</a></div></div>
-</div>
-<div id="ref-15EklFALC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">631. </div><div class="csl-right-inline"><strong>Processing shotgun proteomics data on the Amazon cloud with the trans-proteomic pipeline.</strong> <div class="csl-block">Joseph Slagel, Luis Mendoza, David Shteynberg, Eric W Deutsch, Robert L Moritz</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2014-11-23) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25418363">https://www.ncbi.nlm.nih.gov/pubmed/25418363</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.o114.043380">10.1074/mcp.o114.043380</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25418363">25418363</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4350034">PMC4350034</a></div></div>
-</div>
-<div id="ref-KUnjPYby" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">632. </div><div class="csl-right-inline"><strong>Trans-Proteomic Pipeline, a standardized data processing pipeline for large-scale reproducible proteomics informatics.</strong> <div class="csl-block">Eric W Deutsch, Luis Mendoza, David Shteynberg, Joseph Slagel, Zhi Sun, Robert L Moritz</div> <em>Proteomics. Clinical applications</em> (2015-04-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25631240">https://www.ncbi.nlm.nih.gov/pubmed/25631240</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/prca.201400164">10.1002/prca.201400164</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25631240">25631240</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4506239">PMC4506239</a></div></div>
-</div>
-<div id="ref-1ArAvfAkV" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">633. </div><div class="csl-right-inline"><strong>reSpect: software for identification of high and low abundance ion species in chimeric tandem mass spectra.</strong> <div class="csl-block">David Shteynberg, Luis Mendoza, Michael R Hoopmann, Zhi Sun, Frank Schmidt, Eric W Deutsch, Robert L Moritz</div> <em>Journal of the American Society for Mass Spectrometry</em> (2015-09-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26419769">https://www.ncbi.nlm.nih.gov/pubmed/26419769</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s13361-015-1252-5">10.1007/s13361-015-1252-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26419769">26419769</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4750398">PMC4750398</a></div></div>
-</div>
-<div id="ref-7BQGCj33" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">634. </div><div class="csl-right-inline"><strong>StPeter: Seamless Label-Free Quantification with the Trans-Proteomic Pipeline.</strong> <div class="csl-block">Michael R Hoopmann, Jason M Winget, Luis Mendoza, Robert L Moritz</div> <em>Journal of proteome research</em> (2018-02-14) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29400476">https://www.ncbi.nlm.nih.gov/pubmed/29400476</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.7b00786">10.1021/acs.jproteome.7b00786</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29400476">29400476</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5891225">PMC5891225</a></div></div>
-</div>
-<div id="ref-SKCHzO1U" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">635. </div><div class="csl-right-inline"><strong>PTMProphet: Fast and Accurate Mass Modification Localization for the Trans-Proteomic Pipeline.</strong> <div class="csl-block">David D Shteynberg, Eric W Deutsch, David S Campbell, Michael R Hoopmann, Ulrike Kusebauch, Dave Lee, Luis Mendoza, Mukul K Midha, Zhi Sun, Anthony D Whetton, Robert L Moritz</div> <em>Journal of proteome research</em> (2019-07-22) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31290668">https://www.ncbi.nlm.nih.gov/pubmed/31290668</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.9b00205">10.1021/acs.jproteome.9b00205</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31290668">31290668</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6898736">PMC6898736</a></div></div>
-</div>
-<div id="ref-bBz09mFl" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">636. </div><div class="csl-right-inline"><strong>Trans-Proteomic Pipeline: Robust Mass Spectrometry-Based Proteomics Data Analysis Suite.</strong> <div class="csl-block">Eric W Deutsch, Luis Mendoza, David D Shteynberg, Michael R Hoopmann, Zhi Sun, Jimmy K Eng, Robert L Moritz</div> <em>Journal of proteome research</em> (2023-01-17) <a href="https://www.ncbi.nlm.nih.gov/pubmed/36648445">https://www.ncbi.nlm.nih.gov/pubmed/36648445</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.2c00624">10.1021/acs.jproteome.2c00624</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36648445">36648445</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10166710">PMC10166710</a></div></div>
-</div>
-<div id="ref-10mgCOk6B" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">637. </div><div class="csl-right-inline"><strong>Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search.</strong> <div class="csl-block">Andrew Keller, Alexey I Nesvizhskii, Eugene Kolker, Ruedi Aebersold</div> <em>Analytical chemistry</em> (2002-10-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12403597">https://www.ncbi.nlm.nih.gov/pubmed/12403597</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/ac025747h">10.1021/ac025747h</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12403597">12403597</a></div></div>
-</div>
-<div id="ref-4OdLMmDD" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">638. </div><div class="csl-right-inline"><strong>A statistical model for identifying proteins by tandem mass spectrometry.</strong> <div class="csl-block">Alexey I Nesvizhskii, Andrew Keller, Eugene Kolker, Ruedi Aebersold</div> <em>Analytical chemistry</em> (2003-09-01) <a href="https://www.ncbi.nlm.nih.gov/pubmed/14632076">https://www.ncbi.nlm.nih.gov/pubmed/14632076</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/ac0341261">10.1021/ac0341261</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14632076">14632076</a></div></div>
-</div>
-<div id="ref-l6NqXxi8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">639. </div><div class="csl-right-inline"><strong>CLIPPER: an add-on to the Trans-Proteomic Pipeline for the automated analysis of TAILS N-terminomics data.</strong> <div class="csl-block">Ulrich auf dem Keller, Christopher M Overall</div> <em>Biological chemistry</em> (2012-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23667905">https://www.ncbi.nlm.nih.gov/pubmed/23667905</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1515/hsz-2012-0269">10.1515/hsz-2012-0269</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23667905">23667905</a></div></div>
-</div>
-<div id="ref-WlEQJK9j" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">640. </div><div class="csl-right-inline"><strong>PyQuant: A Versatile Framework for Analysis of Quantitative Mass Spectrometry Data.</strong> <div class="csl-block">Christopher J Mitchell, Min-Sik Kim, Chan Hyun Na, Akhilesh Pandey</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2016-05-26) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27231314">https://www.ncbi.nlm.nih.gov/pubmed/27231314</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.o115.056879">10.1074/mcp.o115.056879</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27231314">27231314</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974355">PMC4974355</a></div></div>
-</div>
-<div id="ref-DzOnRsF8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">641. </div><div class="csl-right-inline"><strong>SimPhospho: a software tool enabling confident phosphosite assignment.</strong> <div class="csl-block">Veronika Suni, Tomi Suomi, Tomoya Tsubosaka, Susumu Y Imanishi, Laura L Elo, Garry L Corthals</div> <em>Bioinformatics (Oxford, England)</em> (2018-08-01) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29596608">https://www.ncbi.nlm.nih.gov/pubmed/29596608</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bty151">10.1093/bioinformatics/bty151</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29596608">29596608</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6061695">PMC6061695</a></div></div>
-</div>
-<div id="ref-8GgfngeF" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">642. </div><div class="csl-right-inline"><strong>WinProphet: A User-Friendly Pipeline Management System for Proteomics Data Analysis Based on Trans-Proteomic Pipeline.</strong> <div class="csl-block">Ching-Tai Chen, Chu-Ling Ko, Wai-Kok Choong, Jen-Hung Wang, Wen-Lian Hsu, Ting-Yi Sung</div> <em>Analytical chemistry</em> (2019-07-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31305071">https://www.ncbi.nlm.nih.gov/pubmed/31305071</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.9b01556">10.1021/acs.analchem.9b01556</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31305071">31305071</a></div></div>
-</div>
-<div id="ref-2XDHE8d9" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">643. </div><div class="csl-right-inline"><strong>ProtyQuant: Comparing label-free shotgun proteomics datasets using accumulated peptide probabilities.</strong> <div class="csl-block">Robert Winkler</div> <em>Journal of proteomics</em> (2020-09-19) <a href="https://www.ncbi.nlm.nih.gov/pubmed/32956841">https://www.ncbi.nlm.nih.gov/pubmed/32956841</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2020.103985">10.1016/j.jprot.2020.103985</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32956841">32956841</a></div></div>
-</div>
-<div id="ref-146pjMaXB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">644. </div><div class="csl-right-inline"><strong>Metaproteomic Analysis of an Oral Squamous Cell Carcinoma Dataset Suggests Diagnostic Potential of the Mycobiome.</strong> <div class="csl-block">Steven He, Rajdeep Chakraborty, Shoba Ranganathan</div> <em>International journal of molecular sciences</em> (2023-01-05) <a href="https://www.ncbi.nlm.nih.gov/pubmed/36674563">https://www.ncbi.nlm.nih.gov/pubmed/36674563</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/ijms24021050">10.3390/ijms24021050</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36674563">36674563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9865486">PMC9865486</a></div></div>
-</div>
-<div id="ref-KbIsieWP" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">645. </div><div class="csl-right-inline"><strong>Building consensus spectral libraries for peptide identification in proteomics.</strong> <div class="csl-block">Henry Lam, Eric W Deutsch, James S Eddes, Jimmy K Eng, Stephen E Stein, Ruedi Aebersold</div> <em>Nature methods</em> (2008-09-21) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18806791">https://www.ncbi.nlm.nih.gov/pubmed/18806791</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.1254">10.1038/nmeth.1254</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18806791">18806791</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637392">PMC2637392</a></div></div>
-</div>
-<div id="ref-M0N5UGce" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">646. </div><div class="csl-right-inline"><strong>mzSpecLib | HUPO Proteomics Standards Initiative</strong> <a href="https://psidev.info/mzSpecLib">https://psidev.info/mzSpecLib</a></div>
-</div>
-<div id="ref-1C0ZGb77k" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">647. </div><div class="csl-right-inline"><strong>Novor: real-time peptide de novo sequencing software.</strong> <div class="csl-block">Bin Ma</div> <em>Journal of the American Society for Mass Spectrometry</em> (2015-06-30) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26122521">https://www.ncbi.nlm.nih.gov/pubmed/26122521</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s13361-015-1204-0">10.1007/s13361-015-1204-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26122521">26122521</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4604512">PMC4604512</a></div></div>
-</div>
-<div id="ref-zzSgLIrm" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">648. </div><div class="csl-right-inline"><strong>&lt;i&gt;De novo&lt;/i&gt; mass spectrometry peptide sequencing with a transformer model</strong> <div class="csl-block">Melih Yilmaz, William E Fondrie, Wout Bittremieux, Sewoong Oh, William Stafford Noble</div> <em>Cold Spring Harbor Laboratory</em> (2022-02-09) <a href="https://doi.org/gsthnz">https://doi.org/gsthnz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.02.07.479481">10.1101/2022.02.07.479481</a></div></div>
-</div>
-<div id="ref-fgRTHCzN" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">649. </div><div class="csl-right-inline"><strong>Discovery and Visualization of Uncharacterized Drug-Protein Adducts Using Mass Spectrometry.</strong> <div class="csl-block">Michael Riffle, Michael R Hoopmann, Daniel Jaschob, Guo Zhong, Robert L Moritz, Michael J MacCoss, Trisha N Davis, Nina Isoherranen, Alex Zelter</div> <em>Analytical chemistry</em> (2022-02-20) <a href="https://www.ncbi.nlm.nih.gov/pubmed/35184559">https://www.ncbi.nlm.nih.gov/pubmed/35184559</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.1c04101">10.1021/acs.analchem.1c04101</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35184559">35184559</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8892443">PMC8892443</a></div></div>
+<div class="csl-left-margin">621. </div><div class="csl-right-inline"><strong>Unbiased False Discovery Rate Estimation for Shotgun Proteomics Based on the Target-Decoy Approach</strong> <div class="csl-block">Lev I Levitsky, Mark V Ivanov, Anna A Lobas, Mikhail V Gorshkov</div> <em>Journal of Proteome Research</em> (2016-12-13) <a href="https://doi.org/gqtfbj">https://doi.org/gqtfbj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.6b00144">10.1021/acs.jproteome.6b00144</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27959540">27959540</a></div></div>
 </div>
 <div id="ref-50qmV6VJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">650. </div><div class="csl-right-inline"><strong>Prosit: proteome-wide prediction of peptide tandem mass spectra by deep learning</strong> <div class="csl-block">Siegfried Gessulat, Tobias Schmidt, Daniel Paul Zolg, Patroklos Samaras, Karsten Schnatbaum, Johannes Zerweck, Tobias Knaute, Julia Rechenberger, Bernard Delanghe, Andreas Huhmer, … Mathias Wilhelm</div> <em>Nature Methods</em> (2019-05-27) <a href="https://doi.org/gjqdvt">https://doi.org/gjqdvt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0426-7">10.1038/s41592-019-0426-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31133760">31133760</a></div></div>
+<div class="csl-left-margin">622. </div><div class="csl-right-inline"><strong>Prosit: proteome-wide prediction of peptide tandem mass spectra by deep learning</strong> <div class="csl-block">Siegfried Gessulat, Tobias Schmidt, Daniel Paul Zolg, Patroklos Samaras, Karsten Schnatbaum, Johannes Zerweck, Tobias Knaute, Julia Rechenberger, Bernard Delanghe, Andreas Huhmer, … Mathias Wilhelm</div> <em>Nature Methods</em> (2019-05-27) <a href="https://doi.org/gjqdvt">https://doi.org/gjqdvt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0426-7">10.1038/s41592-019-0426-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31133760">31133760</a></div></div>
 </div>
 <div id="ref-JejZsE21" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">651. </div><div class="csl-right-inline"><strong>Assembling the Community-Scale Discoverable Human Proteome.</strong> <div class="csl-block">Mingxun Wang, Jian Wang, Jeremy Carver, Benjamin S Pullman, Seong Won Cha, Nuno Bandeira</div> <em>Cell systems</em> (2018-08-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30172843">https://www.ncbi.nlm.nih.gov/pubmed/30172843</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cels.2018.08.004">10.1016/j.cels.2018.08.004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30172843">30172843</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6279426">PMC6279426</a></div></div>
+<div class="csl-left-margin">623. </div><div class="csl-right-inline"><strong>Assembling the Community-Scale Discoverable Human Proteome.</strong> <div class="csl-block">Mingxun Wang, Jian Wang, Jeremy Carver, Benjamin S Pullman, Seong Won Cha, Nuno Bandeira</div> <em>Cell systems</em> (2018-08-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30172843">https://www.ncbi.nlm.nih.gov/pubmed/30172843</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cels.2018.08.004">10.1016/j.cels.2018.08.004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30172843">30172843</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6279426">PMC6279426</a></div></div>
 </div>
 <div id="ref-Sd09mxFZ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">652. </div><div class="csl-right-inline"><strong>OpenSWATH enables automated, targeted analysis of data-independent acquisition MS data</strong> <div class="csl-block">Hannes L Röst, George Rosenberger, Pedro Navarro, Ludovic Gillet, Saša M Miladinović, Olga T Schubert, Witold Wolski, Ben C Collins, Johan Malmström, Lars Malmström, Ruedi Aebersold</div> <em>Nature Biotechnology</em> (2014-03) <a href="https://doi.org/f2z4c3">https://doi.org/f2z4c3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.2841">10.1038/nbt.2841</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24727770">24727770</a></div></div>
+<div class="csl-left-margin">624. </div><div class="csl-right-inline"><strong>OpenSWATH enables automated, targeted analysis of data-independent acquisition MS data</strong> <div class="csl-block">Hannes L Röst, George Rosenberger, Pedro Navarro, Ludovic Gillet, Saša M Miladinović, Olga T Schubert, Witold Wolski, Ben C Collins, Johan Malmström, Lars Malmström, Ruedi Aebersold</div> <em>Nature Biotechnology</em> (2014-03) <a href="https://doi.org/f2z4c3">https://doi.org/f2z4c3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.2841">10.1038/nbt.2841</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24727770">24727770</a></div></div>
 </div>
 <div id="ref-ezZ8OwXe" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">653. </div><div class="csl-right-inline"><strong>CsoDIAq Software for Direct Infusion Shotgun Proteome Analysis</strong> <div class="csl-block">Caleb W Cranney, Jesse G Meyer</div> <em>Analytical Chemistry</em> (2021-09-01) <a href="https://doi.org/gs4qk3">https://doi.org/gs4qk3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.1c02021">10.1021/acs.analchem.1c02021</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34469131">34469131</a></div></div>
+<div class="csl-left-margin">625. </div><div class="csl-right-inline"><strong>CsoDIAq Software for Direct Infusion Shotgun Proteome Analysis</strong> <div class="csl-block">Caleb W Cranney, Jesse G Meyer</div> <em>Analytical Chemistry</em> (2021-09-01) <a href="https://doi.org/gs4qk3">https://doi.org/gs4qk3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.1c02021">10.1021/acs.analchem.1c02021</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34469131">34469131</a></div></div>
+</div>
+<div id="ref-1HLH2DWkK" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">626. </div><div class="csl-right-inline"><strong>DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput</strong> <div class="csl-block">Vadim Demichev, Christoph B Messner, Spyros I Vernardis, Kathryn S Lilley, Markus Ralser</div> <em>Nature Methods</em> (2019-11-25) <a href="https://doi.org/gj9xgj">https://doi.org/gj9xgj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0638-x">10.1038/s41592-019-0638-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31768060">31768060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949130">PMC6949130</a></div></div>
 </div>
 <div id="ref-Mqz9Ko20" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">654. </div><div class="csl-right-inline"><strong>DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics</strong> <div class="csl-block">Chih-Chiang Tsou, Dmitry Avtonomov, Brett Larsen, Monika Tucholska, Hyungwon Choi, Anne-Claude Gingras, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2015-01-19) <a href="https://doi.org/f64sqj">https://doi.org/f64sqj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.3255">10.1038/nmeth.3255</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25599550">25599550</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4399776">PMC4399776</a></div></div>
+<div class="csl-left-margin">627. </div><div class="csl-right-inline"><strong>DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics</strong> <div class="csl-block">Chih-Chiang Tsou, Dmitry Avtonomov, Brett Larsen, Monika Tucholska, Hyungwon Choi, Anne-Claude Gingras, Alexey I Nesvizhskii</div> <em>Nature Methods</em> (2015-01-19) <a href="https://doi.org/f64sqj">https://doi.org/f64sqj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.3255">10.1038/nmeth.3255</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25599550">25599550</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4399776">PMC4399776</a></div></div>
 </div>
 <div id="ref-15hTjIZkP" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">655. </div><div class="csl-right-inline"><strong>PECAN: library-free peptide detection for data-independent acquisition tandem mass spectrometry data</strong> <div class="csl-block">Ying S Ting, Jarrett D Egertson, James G Bollinger, Brian C Searle, Samuel H Payne, William Stafford Noble, Michael J MacCoss</div> <em>Nature Methods</em> (2017-08-07) <a href="https://doi.org/gbqx8j">https://doi.org/gbqx8j</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4390">10.1038/nmeth.4390</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28783153">28783153</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578911">PMC5578911</a></div></div>
+<div class="csl-left-margin">628. </div><div class="csl-right-inline"><strong>PECAN: library-free peptide detection for data-independent acquisition tandem mass spectrometry data</strong> <div class="csl-block">Ying S Ting, Jarrett D Egertson, James G Bollinger, Brian C Searle, Samuel H Payne, William Stafford Noble, Michael J MacCoss</div> <em>Nature Methods</em> (2017-08-07) <a href="https://doi.org/gbqx8j">https://doi.org/gbqx8j</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.4390">10.1038/nmeth.4390</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28783153">28783153</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578911">PMC5578911</a></div></div>
+</div>
+<div id="ref-rYKhRHlv" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">629. </div><div class="csl-right-inline"><strong>Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry</strong> <div class="csl-block">Brian C Searle, Lindsay K Pino, Jarrett D Egertson, Ying S Ting, Robert T Lawrence, Brendan X MacLean, Judit Villén, Michael J MacCoss</div> <em>Nature Communications</em> (2018-12-03) <a href="https://doi.org/gsthnx">https://doi.org/gsthnx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-018-07454-w">10.1038/s41467-018-07454-w</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30510204">30510204</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6277451">PMC6277451</a></div></div>
+</div>
+<div id="ref-UKcaDUJ7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">630. </div><div class="csl-right-inline"><strong>Extending the Limits of Quantitative Proteome Profiling with Data-Independent Acquisition and Application to Acetaminophen-Treated Three-Dimensional Liver Microtissues</strong> <div class="csl-block">Roland Bruderer, Oliver M Bernhardt, Tejas Gandhi, Saša M Miladinović, Lin-Yang Cheng, Simon Messner, Tobias Ehrenberger, Vito Zanotelli, Yulia Butscheid, Claudia Escher, … Lukas Reiter</div> <em>Molecular &amp;amp; Cellular Proteomics</em> (2015-05) <a href="https://doi.org/f7b76h">https://doi.org/f7b76h</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m114.044305">10.1074/mcp.m114.044305</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25724911">25724911</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424408">PMC4424408</a></div></div>
+</div>
+<div id="ref-B10jxZjh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">631. </div><div class="csl-right-inline"><strong>PeptideShaker enables reanalysis of MS-derived proteomics data sets</strong> <div class="csl-block">Marc Vaudel, Julia M Burkhart, René P Zahedi, Eystein Oveland, Frode S Berven, Albert Sickmann, Lennart Martens, Harald Barsnes</div> <em>Nature Biotechnology</em> (2015-01) <a href="https://doi.org/ggkds8">https://doi.org/ggkds8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3109">10.1038/nbt.3109</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25574629">25574629</a></div></div>
+</div>
+<div id="ref-tZ6JV4UF" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">632. </div><div class="csl-right-inline"><strong>PeptideShaker Online: A User-Friendly Web-Based Framework for the Identification of Mass Spectrometry-Based Proteomics Data</strong> <div class="csl-block">Yehia Mokhtar Farag, Carlos Horro, Marc Vaudel, Harald Barsnes</div> <em>Journal of Proteome Research</em> (2021-10-28) <a href="https://doi.org/gpdd85">https://doi.org/gpdd85</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.1c00678">10.1021/acs.jproteome.1c00678</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34709836">34709836</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8650087">PMC8650087</a></div></div>
+</div>
+<div id="ref-9bP7w1xR" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">633. </div><div class="csl-right-inline"><strong>A uniform proteomics MS/MS analysis platform utilizing open XML file formats.</strong> <div class="csl-block">Andrew Keller, Jimmy Eng, Ning Zhang, Xiao-jun Li, Ruedi Aebersold</div> <em>Molecular systems biology</em> (2005-08-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16729052">https://www.ncbi.nlm.nih.gov/pubmed/16729052</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/msb4100024">10.1038/msb4100024</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16729052">16729052</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1681455">PMC1681455</a></div></div>
+</div>
+<div id="ref-w5NR3Ly9" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">634. </div><div class="csl-right-inline"><strong>Trans-proteomic pipeline: a pipeline for proteomic analysis.</strong> <div class="csl-block">Patrick GA Pedrioli</div> <em>Methods in molecular biology (Clifton, N.J.)</em> (2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013374">https://www.ncbi.nlm.nih.gov/pubmed/20013374</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-60761-444-9_15">10.1007/978-1-60761-444-9_15</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20013374">20013374</a></div></div>
+</div>
+<div id="ref-NY6IKEE4" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">635. </div><div class="csl-right-inline"><strong>Software pipeline and data analysis for MS/MS proteomics: the trans-proteomic pipeline.</strong> <div class="csl-block">Andrew Keller, David Shteynberg</div> <em>Methods in molecular biology (Clifton, N.J.)</em> (2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21082435">https://www.ncbi.nlm.nih.gov/pubmed/21082435</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/978-1-60761-977-2_12">10.1007/978-1-60761-977-2_12</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21082435">21082435</a></div></div>
+</div>
+<div id="ref-1FG7koZ0h" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">636. </div><div class="csl-right-inline"><strong>iProphet: multi-level integrative analysis of shotgun proteomic data improves peptide and protein identification rates and error estimates.</strong> <div class="csl-block">David Shteynberg, Eric W Deutsch, Henry Lam, Jimmy K Eng, Zhi Sun, Natalie Tasman, Luis Mendoza, Robert L Moritz, Ruedi Aebersold, Alexey I Nesvizhskii</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2011-08-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21876204">https://www.ncbi.nlm.nih.gov/pubmed/21876204</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.m111.007690">10.1074/mcp.m111.007690</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21876204">21876204</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3237071">PMC3237071</a></div></div>
+</div>
+<div id="ref-15EklFALC" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">637. </div><div class="csl-right-inline"><strong>Processing shotgun proteomics data on the Amazon cloud with the trans-proteomic pipeline.</strong> <div class="csl-block">Joseph Slagel, Luis Mendoza, David Shteynberg, Eric W Deutsch, Robert L Moritz</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2014-11-23) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25418363">https://www.ncbi.nlm.nih.gov/pubmed/25418363</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.o114.043380">10.1074/mcp.o114.043380</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25418363">25418363</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4350034">PMC4350034</a></div></div>
+</div>
+<div id="ref-KUnjPYby" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">638. </div><div class="csl-right-inline"><strong>Trans-Proteomic Pipeline, a standardized data processing pipeline for large-scale reproducible proteomics informatics.</strong> <div class="csl-block">Eric W Deutsch, Luis Mendoza, David Shteynberg, Joseph Slagel, Zhi Sun, Robert L Moritz</div> <em>Proteomics. Clinical applications</em> (2015-04-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25631240">https://www.ncbi.nlm.nih.gov/pubmed/25631240</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/prca.201400164">10.1002/prca.201400164</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25631240">25631240</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4506239">PMC4506239</a></div></div>
+</div>
+<div id="ref-1ArAvfAkV" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">639. </div><div class="csl-right-inline"><strong>reSpect: software for identification of high and low abundance ion species in chimeric tandem mass spectra.</strong> <div class="csl-block">David Shteynberg, Luis Mendoza, Michael R Hoopmann, Zhi Sun, Frank Schmidt, Eric W Deutsch, Robert L Moritz</div> <em>Journal of the American Society for Mass Spectrometry</em> (2015-09-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26419769">https://www.ncbi.nlm.nih.gov/pubmed/26419769</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s13361-015-1252-5">10.1007/s13361-015-1252-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26419769">26419769</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4750398">PMC4750398</a></div></div>
+</div>
+<div id="ref-7BQGCj33" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">640. </div><div class="csl-right-inline"><strong>StPeter: Seamless Label-Free Quantification with the Trans-Proteomic Pipeline.</strong> <div class="csl-block">Michael R Hoopmann, Jason M Winget, Luis Mendoza, Robert L Moritz</div> <em>Journal of proteome research</em> (2018-02-14) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29400476">https://www.ncbi.nlm.nih.gov/pubmed/29400476</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.7b00786">10.1021/acs.jproteome.7b00786</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29400476">29400476</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5891225">PMC5891225</a></div></div>
+</div>
+<div id="ref-SKCHzO1U" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">641. </div><div class="csl-right-inline"><strong>PTMProphet: Fast and Accurate Mass Modification Localization for the Trans-Proteomic Pipeline.</strong> <div class="csl-block">David D Shteynberg, Eric W Deutsch, David S Campbell, Michael R Hoopmann, Ulrike Kusebauch, Dave Lee, Luis Mendoza, Mukul K Midha, Zhi Sun, Anthony D Whetton, Robert L Moritz</div> <em>Journal of proteome research</em> (2019-07-22) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31290668">https://www.ncbi.nlm.nih.gov/pubmed/31290668</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.9b00205">10.1021/acs.jproteome.9b00205</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31290668">31290668</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6898736">PMC6898736</a></div></div>
+</div>
+<div id="ref-bBz09mFl" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">642. </div><div class="csl-right-inline"><strong>Trans-Proteomic Pipeline: Robust Mass Spectrometry-Based Proteomics Data Analysis Suite.</strong> <div class="csl-block">Eric W Deutsch, Luis Mendoza, David D Shteynberg, Michael R Hoopmann, Zhi Sun, Jimmy K Eng, Robert L Moritz</div> <em>Journal of proteome research</em> (2023-01-17) <a href="https://www.ncbi.nlm.nih.gov/pubmed/36648445">https://www.ncbi.nlm.nih.gov/pubmed/36648445</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jproteome.2c00624">10.1021/acs.jproteome.2c00624</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36648445">36648445</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10166710">PMC10166710</a></div></div>
+</div>
+<div id="ref-10mgCOk6B" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">643. </div><div class="csl-right-inline"><strong>Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search.</strong> <div class="csl-block">Andrew Keller, Alexey I Nesvizhskii, Eugene Kolker, Ruedi Aebersold</div> <em>Analytical chemistry</em> (2002-10-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12403597">https://www.ncbi.nlm.nih.gov/pubmed/12403597</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/ac025747h">10.1021/ac025747h</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12403597">12403597</a></div></div>
+</div>
+<div id="ref-4OdLMmDD" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">644. </div><div class="csl-right-inline"><strong>A statistical model for identifying proteins by tandem mass spectrometry.</strong> <div class="csl-block">Alexey I Nesvizhskii, Andrew Keller, Eugene Kolker, Ruedi Aebersold</div> <em>Analytical chemistry</em> (2003-09-01) <a href="https://www.ncbi.nlm.nih.gov/pubmed/14632076">https://www.ncbi.nlm.nih.gov/pubmed/14632076</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/ac0341261">10.1021/ac0341261</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14632076">14632076</a></div></div>
+</div>
+<div id="ref-l6NqXxi8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">645. </div><div class="csl-right-inline"><strong>CLIPPER: an add-on to the Trans-Proteomic Pipeline for the automated analysis of TAILS N-terminomics data.</strong> <div class="csl-block">Ulrich auf dem Keller, Christopher M Overall</div> <em>Biological chemistry</em> (2012-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23667905">https://www.ncbi.nlm.nih.gov/pubmed/23667905</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1515/hsz-2012-0269">10.1515/hsz-2012-0269</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23667905">23667905</a></div></div>
+</div>
+<div id="ref-WlEQJK9j" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">646. </div><div class="csl-right-inline"><strong>PyQuant: A Versatile Framework for Analysis of Quantitative Mass Spectrometry Data.</strong> <div class="csl-block">Christopher J Mitchell, Min-Sik Kim, Chan Hyun Na, Akhilesh Pandey</div> <em>Molecular &amp; cellular proteomics : MCP</em> (2016-05-26) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27231314">https://www.ncbi.nlm.nih.gov/pubmed/27231314</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1074/mcp.o115.056879">10.1074/mcp.o115.056879</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27231314">27231314</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974355">PMC4974355</a></div></div>
+</div>
+<div id="ref-DzOnRsF8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">647. </div><div class="csl-right-inline"><strong>SimPhospho: a software tool enabling confident phosphosite assignment.</strong> <div class="csl-block">Veronika Suni, Tomi Suomi, Tomoya Tsubosaka, Susumu Y Imanishi, Laura L Elo, Garry L Corthals</div> <em>Bioinformatics (Oxford, England)</em> (2018-08-01) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29596608">https://www.ncbi.nlm.nih.gov/pubmed/29596608</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bty151">10.1093/bioinformatics/bty151</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29596608">29596608</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6061695">PMC6061695</a></div></div>
+</div>
+<div id="ref-8GgfngeF" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">648. </div><div class="csl-right-inline"><strong>WinProphet: A User-Friendly Pipeline Management System for Proteomics Data Analysis Based on Trans-Proteomic Pipeline.</strong> <div class="csl-block">Ching-Tai Chen, Chu-Ling Ko, Wai-Kok Choong, Jen-Hung Wang, Wen-Lian Hsu, Ting-Yi Sung</div> <em>Analytical chemistry</em> (2019-07-29) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31305071">https://www.ncbi.nlm.nih.gov/pubmed/31305071</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.9b01556">10.1021/acs.analchem.9b01556</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31305071">31305071</a></div></div>
+</div>
+<div id="ref-2XDHE8d9" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">649. </div><div class="csl-right-inline"><strong>ProtyQuant: Comparing label-free shotgun proteomics datasets using accumulated peptide probabilities.</strong> <div class="csl-block">Robert Winkler</div> <em>Journal of proteomics</em> (2020-09-19) <a href="https://www.ncbi.nlm.nih.gov/pubmed/32956841">https://www.ncbi.nlm.nih.gov/pubmed/32956841</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jprot.2020.103985">10.1016/j.jprot.2020.103985</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32956841">32956841</a></div></div>
+</div>
+<div id="ref-146pjMaXB" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">650. </div><div class="csl-right-inline"><strong>Metaproteomic Analysis of an Oral Squamous Cell Carcinoma Dataset Suggests Diagnostic Potential of the Mycobiome.</strong> <div class="csl-block">Steven He, Rajdeep Chakraborty, Shoba Ranganathan</div> <em>International journal of molecular sciences</em> (2023-01-05) <a href="https://www.ncbi.nlm.nih.gov/pubmed/36674563">https://www.ncbi.nlm.nih.gov/pubmed/36674563</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/ijms24021050">10.3390/ijms24021050</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36674563">36674563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9865486">PMC9865486</a></div></div>
+</div>
+<div id="ref-KbIsieWP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">651. </div><div class="csl-right-inline"><strong>Building consensus spectral libraries for peptide identification in proteomics.</strong> <div class="csl-block">Henry Lam, Eric W Deutsch, James S Eddes, Jimmy K Eng, Stephen E Stein, Ruedi Aebersold</div> <em>Nature methods</em> (2008-09-21) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18806791">https://www.ncbi.nlm.nih.gov/pubmed/18806791</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.1254">10.1038/nmeth.1254</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18806791">18806791</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637392">PMC2637392</a></div></div>
+</div>
+<div id="ref-M0N5UGce" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">652. </div><div class="csl-right-inline"><strong>mzSpecLib | HUPO Proteomics Standards Initiative</strong> <a href="https://psidev.info/mzSpecLib">https://psidev.info/mzSpecLib</a></div>
+</div>
+<div id="ref-1C0ZGb77k" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">653. </div><div class="csl-right-inline"><strong>Novor: real-time peptide de novo sequencing software.</strong> <div class="csl-block">Bin Ma</div> <em>Journal of the American Society for Mass Spectrometry</em> (2015-06-30) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26122521">https://www.ncbi.nlm.nih.gov/pubmed/26122521</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s13361-015-1204-0">10.1007/s13361-015-1204-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26122521">26122521</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4604512">PMC4604512</a></div></div>
+</div>
+<div id="ref-zzSgLIrm" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">654. </div><div class="csl-right-inline"><strong>&lt;i&gt;De novo&lt;/i&gt; mass spectrometry peptide sequencing with a transformer model</strong> <div class="csl-block">Melih Yilmaz, William E Fondrie, Wout Bittremieux, Sewoong Oh, William Stafford Noble</div> <em>Cold Spring Harbor Laboratory</em> (2022-02-09) <a href="https://doi.org/gsthnz">https://doi.org/gsthnz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2022.02.07.479481">10.1101/2022.02.07.479481</a></div></div>
+</div>
+<div id="ref-fgRTHCzN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">655. </div><div class="csl-right-inline"><strong>Discovery and Visualization of Uncharacterized Drug-Protein Adducts Using Mass Spectrometry.</strong> <div class="csl-block">Michael Riffle, Michael R Hoopmann, Daniel Jaschob, Guo Zhong, Robert L Moritz, Michael J MacCoss, Trisha N Davis, Nina Isoherranen, Alex Zelter</div> <em>Analytical chemistry</em> (2022-02-20) <a href="https://www.ncbi.nlm.nih.gov/pubmed/35184559">https://www.ncbi.nlm.nih.gov/pubmed/35184559</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.analchem.1c04101">10.1021/acs.analchem.1c04101</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35184559">35184559</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8892443">PMC8892443</a></div></div>
 </div>
 <div id="ref-JXLIvVI6" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">656. </div><div class="csl-right-inline"><strong>Quality Control in Proteomics</strong> <div class="csl-block">PROTEOMICS</div> (2011-03) <a href="https://doi.org/bzmh75">https://doi.org/bzmh75</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1002/pmic.201190020">10.1002/pmic.201190020</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21374817">21374817</a></div></div>
