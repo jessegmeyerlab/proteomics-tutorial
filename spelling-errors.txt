@@ -104,7 +104,7 @@ biopolymers
 bioruptor
 Biosystems
 BioTek
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -157,7 +157,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-Chromatographic
+chromatographic
 chromophore
 chromophores
 Chymotrypsin
@@ -218,7 +218,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -234,7 +234,7 @@ denaturants
 deoxycholate
 depletions
 derivatization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -250,11 +250,11 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
-Dispersive
+dispersive
 disuccinimidyl
 disulfide
 disulphide
@@ -298,7 +298,7 @@ endopeptidase
 endoplasmic
 Enke
 enrichments
-Ensembl
+ensembl
 enviroments
 enzymatically
 enzymogenesis
@@ -314,7 +314,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 Exactive
 exchangers
 Excimer
@@ -327,8 +327,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-FC
+fasta
+Fc
 FCCS
 FCS
 Fenn
@@ -351,7 +351,7 @@ fluorometry
 FlyBase
 Fohlman
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -377,7 +377,7 @@ GFF
 Gillet
 Gitter
 GL
-GlcNac
+GlcNAc
 GlcNAcylated
 Glu
 GluC
@@ -385,7 +385,7 @@ glucopyranoside
 glutamate
 glutamic
 Glutamyl
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -474,7 +474,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-immunodepletion
+Immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -498,7 +498,7 @@ interspaced
 intitial
 introducted
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -508,7 +508,7 @@ IRMPD
 iRT
 isocratic
 Isoelectric
-Isoform
+isoform
 isoforms
 isogeneic
 isogenic
@@ -720,7 +720,7 @@ onotology
 OpenMS
 OpenSWATH
 operon
-Orbitrap
+orbitrap
 orbitraps
 organismal
 orignal
@@ -764,7 +764,7 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-Phosphopeptide
+phosphopeptide
 phosphopeptides
 Phosphoprotein
 phosphoproteins
@@ -781,7 +781,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-photomultiplier
+Photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -816,9 +816,9 @@ Progenesis
 proline
 Pronase
 Prosit
-Prot
+prot
 ProtContLib
-Protease
+protease
 proteases
 proteasome
 Proteinase
@@ -834,7 +834,7 @@ ProteomeDiscoverer
 proteomes
 Proteometools
 Proteomic
-proteomics
+Proteomics
 proteotypic
 ProtParam
 protti
@@ -859,7 +859,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
 QTOF
 quadrupole
@@ -885,7 +885,7 @@ Reactome
 recombinase
 refered
 reflectron
-refseq
+RefSeq
 repressor
 reproducibility
 resCID
@@ -910,7 +910,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 SCP
 scrofa
 SCX
@@ -1032,11 +1032,11 @@ transcriptional
 transcriptome
 transfection
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
-TrEMBL
+trembl
 trentmpc
 triazine
 Tribrid
@@ -1049,7 +1049,7 @@ Tris
 Tritirachium
 Trp
 trypsin
-Tryptic
+tryptic
 TryTrypDB
 TSA
 tSNE
@@ -1061,7 +1061,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 Udenfriend
 uDIA
 ug
@@ -1083,7 +1083,7 @@ Univariate
 Universidad
 unlysed
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
