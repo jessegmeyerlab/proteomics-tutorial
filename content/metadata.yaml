@@ -144,6 +144,16 @@ authors:
     funders:
       - Department of Health Research, Indian Council of Medical Research, Government of India (File No.R.12014/31/2022-HR)
 
+  - github: HegemanLab
+    name: Adrian D. Hegeman
+    initials: ADH
+    orcid: 0000-0003-1008-6066
+    email: hegem007@umn.edu
+    affiliations:
+      - Departments of Horticultural Science and Plant and Microbial Biology, University of Minnesota – Twin Cities, United States
+    funders:
+      - Nation Science Foundation MCB-2225057 and IOS-2025297
+      
   - github: martinmayta
     name: Martín L. Mayta
     initials: MLM
@@ -154,7 +164,6 @@ authors:
       - School of Medicine and Health Sciences, Center for Health Sciences Research, Universidad Adventista del Plata, Libertador San Martín 3103, Argentina
       - Molecular Biology Department, School of Pharmacy and Biochemistry, Universidad Nacional de Rosario, Rosario 2000, Argentina
 
-  
   - github: agduboff
     name: Anna G. Duboff
     initials: AGD
