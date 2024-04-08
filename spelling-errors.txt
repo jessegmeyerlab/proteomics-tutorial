@@ -35,7 +35,7 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-Aminoxy
+aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -84,7 +84,7 @@ Benjamini
 benzonase
 Bertin
 betweenc
-Betweenness
+betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -145,7 +145,7 @@ Casanovo
 catalase
 CBQCA
 CCS
-centralities
+Centralities
 centric
 centrifugation
 cerebrospinal
@@ -161,7 +161,7 @@ chloroacetamide
 chromatogram
 chromatograms
 chromatograph
-chromatographic
+Chromatographic
 chromophore
 chromophores
 chymotrypsin
@@ -176,8 +176,8 @@ clostripain
 coli
 collisional
 collisionally
-colorimetric
-colorimetry
+Colorimetric
+Colorimetry
 columbic
 combinable
 Combinatorial
@@ -198,7 +198,7 @@ crosslinked
 crosslinker
 crosslinkers
 crosslinking
-Cryo
+cryo
 cryogels
 crystalized
 crystallizable
@@ -221,7 +221,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -233,14 +233,14 @@ degron
 Demichev
 demultiplexing
 DeMux
-denaturant
+Denaturant
 denaturants
 deoxycholate
 depletions
 derivatization
 derivatized
 derivitization
-desorption
+Desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -304,7 +304,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-Enrichments
+enrichments
 Ensembl
 enviroments
 enzymatically
@@ -321,7 +321,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-Eukaryotic
+eukaryotic
 EVOQ
 Exactive
 exchangers
@@ -335,8 +335,8 @@ Expasy
 Exploris
 FAIMS
 FASP
-FASTA
-Fc
+fasta
+FC
 FCCS
 FCS
 Fenn
@@ -363,7 +363,7 @@ Folin
 footprinting
 FPOP
 fractionated
-Fractionation
+fractionation
 fractionators
 Fragger
 fragi
@@ -395,7 +395,7 @@ GluC
 glucopyranoside
 glutamate
 glutamic
-Glutamyl
+glutamyl
 glutathione
 Glycan
 glycans
@@ -474,7 +474,7 @@ hydroy
 hygromycin
 hyperabundant
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -599,7 +599,7 @@ lysing
 lysis
 Lysobacter
 lysozyme
-Lysyl
+lysyl
 lytic
 MacLean
 macromolecule
@@ -648,7 +648,7 @@ methylated
 methylation
 Metriculator
 MIAPE
-microarray
+Microarray
 microbiome
 Microchannel
 microflow
@@ -740,8 +740,8 @@ onotology
 OpenMS
 OpenSWATH
 operon
-Orbitrap
-orbitraps
+orbitrap
+Orbitraps
 organismal
 orignal
 Ortholog
@@ -764,7 +764,7 @@ PeptideAtlas
 PeptideProphet
 peptide’s
 PeptideShaker
-peptidyl
+Peptidyl
 pepXML
 permeabilization
 peroxidase
@@ -786,7 +786,7 @@ phosphoimaging
 phosphonate
 Phosphopeptide
 phosphopeptides
-Phosphoprotein
+phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
@@ -843,7 +843,7 @@ ProtContLib
 Protease
 proteases
 proteasome
-proteinase
+Proteinase
 proteinness
 ProteinProphet
 proteoform
@@ -883,9 +883,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QqQ
+QQQ
 qRT
-QTOF
+QToF
 QTRAP
 quadrupole
 quadrupoles
@@ -903,7 +903,7 @@ rawDiag
 RawMeat
 rawrr
 reaccelerated
-Reactome
+REACTOME
 recombinase
 reductants
 refered
@@ -1072,10 +1072,10 @@ tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 Tris
 Tritirachium
-TRP
+Trp
 trypsin
 tryptic
 TryTrypDB
@@ -1101,7 +1101,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
@@ -1109,7 +1109,7 @@ Univariate
 Universidad
 unoxidized
 unreviewed
-untargeted
+Untargeted
 upregulation
 Uq
 useable

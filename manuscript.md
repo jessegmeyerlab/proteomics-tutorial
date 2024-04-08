@@ -41,8 +41,8 @@ header-includes: |
   <meta name="dc.date" content="2024-04-08" />
   <meta name="citation_publication_date" content="2024-04-08" />
   <meta property="article:published_time" content="2024-04-08" />
-  <meta name="dc.modified" content="2024-04-08T14:34:51+00:00" />
-  <meta property="article:modified_time" content="2024-04-08T14:34:51+00:00" />
+  <meta name="dc.modified" content="2024-04-08T16:55:57+00:00" />
+  <meta property="article:modified_time" content="2024-04-08T16:55:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b72c8c407900def36fc1db6ee64bed0883f16c73/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b72c8c407900def36fc1db6ee64bed0883f16c73/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/b72c8c407900def36fc1db6ee64bed0883f16c73/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,9 +160,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/b72c8c407900def36fc1db6ee64bed0883f16c73/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@b72c8c4](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/b72c8c407900def36fc1db6ee64bed0883f16c73)
+from [jessegmeyerlab/proteomics-tutorial@88a39dc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/88a39dc969390c5e45b8d2083f5f3014c8e9c234)
 on April 8, 2024.
 </em></small>
 
@@ -861,7 +861,7 @@ For non-denaturing buffer conditions, which preserve tertiary and quaternary pro
 #### Extraction of plant proteins
 Protein extraction from plant tissues generally more challenging due to the presence of cell walls, large vacuoles, and several different classes of interfering substances that are often present in these materials.
 Cell walls require vigorous disruption techniques such as grinding with or without an abrasive, use of a bead mill, or homogenizers, which, while they do release the cellular contents, also rupture and mix the contents of organelles and other subcellular compartments.
-As a result, isolation of proteins from organelles or other subcellular fractions of plant materials can be fairly specialized [@DOI:10.1385/1-59259-655-X:53; @DOI:10.1016/j.jprot.2019.103542; @DOI:10.1016/S0091-679X(06)80003-8]. 
+As a result, isolation of proteins from organelles or other subcellular fractions of plant materials can be fairly specialized [@DOI:10.1385/1-59259-655-X:53; @DOI:10.1016/j.jprot.2019.103542; @PMID:17445689]. 
 Plant tissues have lower protein content compared with tissues from other organisms as only a small fraction of the tissue volume is cytoplasm with the apoplast (cell exterior and wall) and vacuole using much of the tissue volume. 
 Depending on tissue, cell type and maturity, a plant cell’s vacuole accounts for most of the cell interior space and typically contains substances that degrade or denature proteins upon tissue disruption. 
 Isolation of functional native proteins from plants usually requires use of plant-targeted protease inhibitors [@DOI:10.1016/j.biotechadv.2011.07.020; @DOI:10.1093/pcp/pcz028], and strategies for preventing protein modification and precipitation by phenolic compounds and their oxidation products [@DOI:10.1385/1-59259-655-X:65] in addition to the buffers, reductants and other additives discussed previously.
@@ -3008,7 +3008,7 @@ For example, the Gene Ontology is split into the classes: Cellular Component, Mo
 The Cellular Component terms could give us a starting point if this might be the case, by examining if Cellular Component annotations are enriched. 
 
 There are a number of databases and tools to perform such analysis, which can even be extended to examine whole pathways, networks, post-translational modification and literature representation.
-For example, databases such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
+For example, databases such as KEGG [@PMID:10592173], String [@PMID:33237311], Reactome [@PMID:31691815] and PhosphoSitePlus [@PMID:30445427] can be used to test or annotate a list of proteins.
 For example, proteomics analysis of human cardiac 3D microtissue exposed to anthracyclines (drugs used in cancer chemotherapy) unearthed several proteins with altered levels [@PMID:33060801]. 
 Many of these were specifically grouped under GO terms related to mitochondrial dysfunction, indicating the detrimental effects of these drugs on the organelle. 
 GO terms [@PMID:10802651] or descriptors from other annotation libraries (like KEGG [@PMID:10592173] or REACTOME [@PMID:34788843]) can be retrieved from STRING when constructing a network or from other freely available compendiums. 
