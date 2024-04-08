@@ -35,7 +35,7 @@ AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -84,7 +84,7 @@ Benjamini
 benzonase
 Bertin
 betweenc
-betweenness
+Betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -108,7 +108,7 @@ biopolymers
 bioruptor
 biosciences
 Biosystems
-Biotinylated
+biotinylated
 biotinylates
 biotinylating
 biotinylation
@@ -145,7 +145,7 @@ Casanovo
 catalase
 CBQCA
 CCS
-Centralities
+centralities
 centric
 centrifugation
 cerebrospinal
@@ -177,7 +177,7 @@ coli
 collisional
 collisionally
 colorimetric
-Colorimetry
+colorimetry
 columbic
 combinable
 Combinatorial
@@ -197,7 +197,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
+crosslinking
 Cryo
 cryogels
 crystalized
@@ -221,7 +221,7 @@ Daly
 Daniem
 Dasom
 dataset
-Datasets
+datasets
 DBT
 DDA
 DDBJ
@@ -290,7 +290,7 @@ EigenMS
 electrodynamic
 electrophoresis
 electrophoretic
-Electrospray
+electrospray
 electrosprayed
 elegans
 eluent
@@ -304,7 +304,7 @@ endonuclease
 endopeptidase
 endoplasmic
 Enke
-enrichments
+Enrichments
 Ensembl
 enviroments
 enzymatically
@@ -321,7 +321,7 @@ EThcD
 ETISEQ
 ETnoD
 ETuvPD
-eukaryotic
+Eukaryotic
 EVOQ
 Exactive
 exchangers
@@ -336,7 +336,7 @@ Exploris
 FAIMS
 FASP
 FASTA
-FC
+Fc
 FCCS
 FCS
 Fenn
@@ -360,10 +360,10 @@ FlyBase
 Fohlman
 Folch
 Folin
-Footprinting
+footprinting
 FPOP
 fractionated
-fractionation
+Fractionation
 fractionators
 Fragger
 fragi
@@ -397,7 +397,7 @@ glutamate
 glutamic
 Glutamyl
 glutathione
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -411,7 +411,7 @@ glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
-glycoproteomics
+Glycoproteomics
 glycosidases
 glycosylated
 glycosylation
@@ -489,7 +489,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-immunodepletion
+Immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -525,8 +525,8 @@ IRMPD
 iRT
 isobutane
 isocratic
-Isoelectric
-Isoform
+isoelectric
+isoform
 isoforms
 isogeneic
 isogenic
@@ -550,7 +550,7 @@ Kerala
 keratinocytes
 keratins
 kinases
-KNN
+kNN
 Knowledgebase
 knowledgebases
 Köcher
@@ -599,7 +599,7 @@ lysing
 lysis
 Lysobacter
 lysozyme
-lysyl
+Lysyl
 lytic
 MacLean
 macromolecule
@@ -613,7 +613,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 MaSDeS
 Masson
 MassQC
@@ -648,7 +648,7 @@ methylated
 methylation
 Metriculator
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -668,7 +668,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-moritz
+Moritz
 MRM
 mRNA
 MSE
@@ -714,7 +714,7 @@ nonlinearity
 nonoptimal
 nonparametric
 nonpolar
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -740,8 +740,8 @@ onotology
 OpenMS
 OpenSWATH
 operon
-orbitrap
-Orbitraps
+Orbitrap
+orbitraps
 organismal
 orignal
 Ortholog
@@ -784,7 +784,7 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-phosphopeptide
+Phosphopeptide
 phosphopeptides
 Phosphoprotein
 phosphoproteins
@@ -796,7 +796,7 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-photoactivation
+Photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -840,22 +840,22 @@ pronase
 Prosit
 Prot
 ProtContLib
-protease
+Protease
 proteases
 proteasome
-Proteinase
+proteinase
 proteinness
 ProteinProphet
 proteoform
 proteoforms
 proteoglycans
-Proteolysis
+proteolysis
 proteolytic
 proteome
 ProteomeDiscoverer
 proteomes
 Proteometools
-proteomic
+Proteomic
 proteomics
 proteotypic
 ProtiFi
@@ -885,7 +885,7 @@ QIT
 QqLIT
 QqQ
 qRT
-QToF
+QTOF
 QTRAP
 quadrupole
 quadrupoles
@@ -1050,7 +1050,7 @@ TMT
 TMTpro
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -1060,7 +1060,7 @@ transcriptional
 transfection
 transferase
 transgene
-Translational
+translational
 translationally
 transmembrane
 transversing
@@ -1073,9 +1073,9 @@ trichloroacetic
 triethanolamine
 trifluoroethanol
 TripleTOF
-tris
+Tris
 Tritirachium
-Trp
+TRP
 trypsin
 tryptic
 TryTrypDB
@@ -1090,7 +1090,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-Ubiquitination
+ubiquitination
 uDIA
 Ulilysin
 ultrafleXtreme
@@ -1109,7 +1109,7 @@ Univariate
 Universidad
 unoxidized
 unreviewed
-Untargeted
+untargeted
 upregulation
 Uq
 useable
