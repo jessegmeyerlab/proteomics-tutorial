@@ -41,8 +41,8 @@ header-includes: |
   <meta name="dc.date" content="2024-04-08" />
   <meta name="citation_publication_date" content="2024-04-08" />
   <meta property="article:published_time" content="2024-04-08" />
-  <meta name="dc.modified" content="2024-04-08T16:55:57+00:00" />
-  <meta property="article:modified_time" content="2024-04-08T16:55:57+00:00" />
+  <meta name="dc.modified" content="2024-04-08T17:02:48+00:00" />
+  <meta property="article:modified_time" content="2024-04-08T17:02:48+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,9 +160,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/88a39dc969390c5e45b8d2083f5f3014c8e9c234/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@88a39dc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/88a39dc969390c5e45b8d2083f5f3014c8e9c234)
+from [jessegmeyerlab/proteomics-tutorial@6acc2ac](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48)
 on April 8, 2024.
 </em></small>
 
@@ -756,7 +756,7 @@ BioID has the same limitations as APEX.
 For more information on BioID, please refer to [@doi:10.1007/978-1-4939-8814-3_10].
 
 
-## Protein Extraction {.page_break_before}
+## 3. Protein Extraction {.page_break_before}
 
 Protein extraction is the initial phase of any mass spectrometry-based proteomics experiment.
 Protein extraction is sample dependent; a solution that is effective for plasma proteomics may not work well for plant tissue proteomics. 
@@ -943,7 +943,7 @@ In order to monitor which cysteine residues are linked or modified in a protein,
 Alkylation reactions are generally carried out in the dark at room temperature to avoid excessive off-target alkylation of other amino acids.
 
 
-## 6. Proteolysis {.page_break_before}
+## 4. Proteolysis {.page_break_before}
 Proteolysis is the defining step that differentiates bottom-up or shotgun proteomics from top-down proteomics. 
 Hydrolysis of proteins is extremely important because it defines the population of potentially identifiable peptides. 
 Generally, peptides between a length of 7-35 amino acids are considered useful for mass spectrometry analysis.
@@ -1081,7 +1081,7 @@ A second option is also easy to use tryptophan fluorescence to quantify peptide 
 
 
 
-## Mass Spectrometry Methods for Peptide Quantification {.page_break_before}
+## 5. Peptide Quantification {.page_break_before}
 
 ### Label-free quantification (LFQ) of peptides
 LFQ of peptide precursors requires no additional steps in the protein extraction, digestion, and peptide purification workflow (**Figure 3**). 
@@ -1236,7 +1236,7 @@ TMT-SILAC hyperplexing was used to study synthesis and degradation rates in huma
 Variants of SILAC-iTRAQ and BONCAT, namely BONPlex [@PMID:27672675] and MITNCAT [@PMID:30466063] were also developed to study temporal proteome dynamics.
 
 
-## Peptide/Protein Enrichment and Depletion {.page_break_before}
+## 6. Enrichment and Depletion {.page_break_before}
 In order to study low abundance protein modifications, or to study rare proteins in complex mixtures, various methods have been developed to enrich or deplete specific proteins or peptides. 
 
 ### Peptide enrichment 
@@ -1376,9 +1376,11 @@ Automated nanoparticle (NP) protein corona-based proteomics workflows are a nove
 NPs can efficiently compress the dynamic range of protein abundances into a mass spectrometry accessible detection range and allow full automation of the protein preparation process providing a platform that can rival affinity based approaches with equivalent reproducibility and sensitivity [@PMID:32699280]. 
 
 
-## Peptide Purification and Fractionation {.page_break_before}
+## 7. Peptide Purification and Fractionation {.page_break_before}
 
 ### Peptide purification methods
+Before peptide analysis, interferences from sample preparation must be removed. 
+There are several approaches to purify peptides. 
 
 #### Solid phase extraction (SPE)
 Solid phase extraction (SPE) is a common MS-based proteomics technique employed in the sample preparation. 
@@ -1470,7 +1472,7 @@ The IEF system is not only used for increasing the coverage of proteome but also
 IEF and gel-based separations have fallen out of favor in the last decade due to improvements in liquid chromatography. 
 
 
-## Liquid Chromatography (LC) {.page_break_before}
+## 8. Liquid Chromatography (LC) {.page_break_before}
 
 Chromatography is the physical sorting of a mixture of molecular species that are dissolved in a mobile phase through the strength of binding, or affinity, to the chromatographic column’s stationary phase [@DOI:10.1016/j.aca.2009.03.041]. 
 The mobile phase is pressure driven through the column and molecular species, or analytes, that have a strong affinity to the stationary phase are retained, or slowed, while those with a weak affinity pass through quickly. 
@@ -1569,7 +1571,8 @@ Thus, lengthy multidimensional methods have been replaced with single shot exper
 However peak capacity is regained by using ion mobility spectrometry (separation of ionized peptides in the gas phase).
 
 
-## Peptide Ionization {.page_break_before}
+## 9. Peptide Ionization {.page_break_before}
+
 As early as the late 1950s, derivitization reagents were used to make peptides volatile enough for electron impact ionization analysis [@DOI:10.1021/ja01518a069]. 
 Eventually this led to GC-MS analysis of derivatized peptides for sequencing [@DOI:10.1021/ja00802a048].
 In the early 1980s, fast atom bombardment (FAB) enabled peptide ionization and sequencing by MS/MS [@DOI:10.1021/ac00234a035], but difficulty interfacing FAB with LC limited its utility [@DOI:10.1021/ja3094313].
@@ -1630,7 +1633,7 @@ Typical bottom-up proteomics experiments make use of acidic analyte solutions wh
 
 
 
-## Types of Mass Spectrometers used for Proteomics {.page_break_before}
+## 10. Mass Spectrometers {.page_break_before}
 ### Mass spectrometry
 Mass spectrometry is a science of ions; mass spectrometers serve as sophisticated instruments for determining the masses of compounds and elements. 
 Mass spectrometers can therefore be likened to an ultra-precise weigh scale that can differentiate mass variations down to a single electron, or even lighter. 
@@ -2006,7 +2009,7 @@ This technology is currently under commercial development by Mobilion, in a plat
 
 
 
-## Tandem Mass Spectrometry and Peptide Fragmentation {.page_break_before}
+## 11. Tandem Mass Spectrometry and Peptide Fragmentation {.page_break_before}
 
 ### Tandem Mass Spectrometry
 
@@ -2096,7 +2099,7 @@ That said, 213 nm photons tend to provide more directed, preferential cleavage p
 Outside of ExD and photoactivation approaches, other alternative dissociation methods have been explored for various proteomic applications, although they are not as widely adopted at ExD and UVPD methods [@DOI:10.1021/acs.analchem.9b04859].
 
 
-## Data Acquisition {.page_break_before}
+## 12. Data Acquisition {.page_break_before}
 
 Hybrid mass spectrometers used for modern proteome analysis offer the flexibility to collect data in many different ways. 
 Data acquisition strategies differ in the sequence of precursor scans and fragment ion scans, and in how analytes are chosen for MS/MS. 
@@ -2233,7 +2236,7 @@ If oxonium ions from the fragmented glycan are detected among the most abundant 
 This ETD scan provides information about the peptide sequence, while the original HCD scan provides glycan structure information. 
 
 
-## Analysis of Raw Data {.page_break_before}
+## 13. Raw Data Analysis {.page_break_before}
 
 The goal of raw data analysis is to convert raw spectral data into lists of altered protein groups, which requires many steps, including checking data quality, peptide spectra matching, protein inference [@PMID:16009968; @DOI:10.1016/j.jprot.2016.08.002], quantification, and statistical hypothesis tests. 
 Subsequently, many additional analyses can be performed to make biological inferences, which is covered in a subsequent section. 
@@ -2646,8 +2649,7 @@ These sampling methods may lead to a poorly calibrated model that overestimates 
 
 
 
-## Protein Sequence Databases {.page_break_before}
-
+## 14. Protein Sequence Databases {.page_break_before}
 
 ### Where do you get them?
 For those looking for guidance on where to obtain a database for their organism of interest quickly, we recommend going to uniprot.org and using their "proteomes": https://www.uniprot.org/proteomes?query=*. 
@@ -2852,7 +2854,7 @@ Moreover, in cases where no species-specific protein sequence collection exists,
 In each of these cases, proteomics practitioners must understand their specific experimental sample and search algorithm in order to know how to best define the search space, which is essential to yielding accurate results.
 
 
-## Proteomics Data Repositories and Knowledge Bases {.page_break_before}
+## 15. Data Repositories and Knowledge Bases {.page_break_before}
 
 ### Proteomics raw data repositories
 An essential part of the proteomics publication cycle is raw data sharing. 
@@ -2891,7 +2893,7 @@ These include the proteomics standards initiative (PSI) [@DOI:10.1021/acs.jprote
 Panorama [@DOI:10.1021/pr5006636] is a resource for sharing processed proteomics data including the extracted ion chromatograms, which can improve transparency by enabling easy data inspection on the web. 
 
 
-## Biological Interpretation  {.page_break_before}
+## 16. Biological Interpretation  {.page_break_before}
 
 The most common untargeted proteomics experiment will produce a list of proteins or peptides of interest which require further validation and biological interpretation.
 This list usually results from statistical data analysis; the typical output of differentially expressed proteins usually contains hundreds of hits. 
@@ -3107,7 +3109,7 @@ These representations are also advantageous because they can easily become the i
 
 
 
-## Orthogonal experimental methods {.page_break_before}
+## 17. Orthogonal Validation {.page_break_before}
 
 ### The importance of orthogonal experimental validation
 
