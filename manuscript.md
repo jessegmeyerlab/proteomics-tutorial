@@ -41,8 +41,8 @@ header-includes: |
   <meta name="dc.date" content="2024-04-09" />
   <meta name="citation_publication_date" content="2024-04-09" />
   <meta property="article:published_time" content="2024-04-09" />
-  <meta name="dc.modified" content="2024-04-09T15:11:50+00:00" />
-  <meta property="article:modified_time" content="2024-04-09T15:11:50+00:00" />
+  <meta name="dc.modified" content="2024-04-09T15:23:24+00:00" />
+  <meta property="article:modified_time" content="2024-04-09T15:23:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,9 +160,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@f71427c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/f71427c3fa278a2f63693b9d6663fae1dbf9b465)
+from [jessegmeyerlab/proteomics-tutorial@882d8a9](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0)
 on April 9, 2024.
 </em></small>
 
@@ -999,7 +999,7 @@ Therefore, this will allow more protein isoforms and post-translational modifica
 Table 2: Common proteases used for proteomics. 
 
 |  Protease |  source | class | specificity | optimal pH |  notes |
-|:-----------:|:--------:|:--------------------------:|:-----------:|:-----------:|
+|:-----------:|:--------:|:--------------------------:|:-----------:|:-----------:|:-----------:|
 | Trypsin    | mammal pancreas | serine protease | c-term of R/K, not before P    | 7-9  | most common protease |
 | LysC	     | _Lysobacter enzymogenesis_ | serine protease | c-term of K    | 7-9 | high stability | 
 | Alpha-lytic protease | _Lysobacter enzymogenesis_ | serine protease | c-term of small side chains | 7-9 | high stability | 
@@ -1413,7 +1413,7 @@ This can be performed with the aid of positive or negative pressure to ensure a 
 In this step molecules bind the adsorbent and interferences pass through. 
 Next, the column is washed with the mobile phase to eliminate the contaminants while ensuring the analyte remains bound. 
 Finally, peptides are eluted in an appropriate buffer solution with polarity or charge that competes with interaction with the solid phase. 
-](images/SPE_v04.png){#fig:SPE tag="5" width="100%"}
+](images/SPE_v05.png){#fig:SPE tag="5" width="100%"}
 
 #### Specific Types of peptide purification
 There are many additional peptide purification methods that are commonly used in proteomics currently. 
