@@ -41,8 +41,8 @@ header-includes: |
   <meta name="dc.date" content="2024-04-09" />
   <meta name="citation_publication_date" content="2024-04-09" />
   <meta property="article:published_time" content="2024-04-09" />
-  <meta name="dc.modified" content="2024-04-09T15:23:24+00:00" />
-  <meta property="article:modified_time" content="2024-04-09T15:23:24+00:00" />
+  <meta name="dc.modified" content="2024-04-09T15:40:01+00:00" />
+  <meta property="article:modified_time" content="2024-04-09T15:40:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,9 +160,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@882d8a9](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/882d8a9eaaab75de6b2e55f77e9359bd59fe3bd0)
+from [jessegmeyerlab/proteomics-tutorial@93cd141](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/93cd1418c874cd0b9d403c74306e38a9cbc89ea0)
 on April 9, 2024.
 </em></small>
 
@@ -805,6 +805,7 @@ Table 1: Common buffers used for proteomic sample preparation.
 Complete and quick denaturation of proteins in the sample is required to limit changes to protein status by endogenous proteases, kinases, phosphatases, and other enzymes.
 For this reason, buffers must be used in conjunction with a chaotrope or surfactant to denature and solubilize proteins [@PMID:16152629; @PMID:20722421]. 
 The choice of denaturant should be governed by compatibility with the protease (typically trypsin) and peptide cleanup steps must be considered. 
+Table 2 lists common denaturants used for proteomics. 
 Urea is an easy and a common choice because it is compatible with trypsin at <2M and it can be removed by desalting.
 However, urea induces carbamylation, which is made worse with sample heating [@PMID:24161613]. 
 If intact protein separations are planned (based on size or isoelectric point), choose a denaturant compatible with those methods, such as sodium dodecyl sulphate (SDS) [@PMID:31249407]. 
@@ -974,7 +975,7 @@ Peptides below a certain length are likely to occur many times in the whole prot
 In protein regions devoid of R/K, trypsin may also result in very long peptides that are then lost due to irreversible binding to the solid phase extraction device, or that become difficult to identify due to complicated fragmentation patterns. 
 Thus, parts of the true proteome sequences that are present are lost after trypsin digestion due to both production of very long and very short peptides. 
 
-Many alternative proteases are available with different specificities that complement trypsin to reveal different protein sequences [@PMID:12643544; @PMID:20113005], which can help distinguish protein isoforms [@PMID:27123950] (**Figure 2, Table 2**).
+Many alternative proteases are available with different specificities that complement trypsin to reveal different protein sequences [@PMID:12643544; @PMID:20113005], which can help distinguish protein isoforms [@PMID:27123950] (**Figure 2, Table 3**).
 The enzyme choice mostly depends on the application.
 In general, for a mere protein identification, trypsin is often chosen due to the aforementioned reasons.
 However, alternative enzymes can facilitate _de novo_ assembly when the genomic data information is limited in the public database repositories [@pmid:31615963; @pmid:30622160; @pmid:29990557; @doi:10.1016/j.actatropica.2022.106324; @DOI:10.1021/pr400173d].
@@ -996,7 +997,7 @@ This improves protein sequence coverage and allows for the correct identificatio
 Increasing the number of complimentary enzymes used will increase the number of proteins identified by single peptides and decreases the ambiguity of the assignment of protein groups. 
 Therefore, this will allow more protein isoforms and post-translational modifications to be identified than using Trypsin alone.](images/Proteolysis_v03.png){#fig:Multiple-protease-proteolysis tag="2" width="100%"}
 
-Table 2: Common proteases used for proteomics. 
+Table 3: Common proteases used for proteomics. 
 
 |  Protease |  source | class | specificity | optimal pH |  notes |
 |:-----------:|:--------:|:--------------------------:|:-----------:|:-----------:|:-----------:|
@@ -1659,13 +1660,13 @@ Additional ionization methods used to generate ions for mass spectrometry of sma
 
 #### 2)	The mass analyzer.
 The mass analyzer is where gas phase ions are separated according to their *m/z* ratio based on physical principles.
-There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 10-1).
+There are several types of mass analyzers applied in mass spectrometry, including the quadrupole, linear ion trap and three-dimensional ion trap, orbitrap, Fourier transform-ion cyclotron resonance (FT-ICR), time-of-flight (TOF), and the magnetic sector analyzers [@DOI:10.3389/fchem.2021.813359; @DOI:10.1146/annurev-anchem-071114-040325], each with unique advantages and applications (Table 4).
 For proteomic analysis, tandem mass spectrometry, which involves combining two or more stages of mass analysis, is typically used to achieve precursor selection, structural analysis, and improved sensitivity [@DOI:10.1016/j.jasms.2007.11.013].
 The mass analyzer is the core component of a mass spectrometer, it is also the most important factor that we need to take into consideration when choosing a mass spectrometer for a specific project.
 
 #### 3)	The detector.
 The detector is where ions are detected and their respective *m/z* values and abundances are recorded, generating a mass spectrum.
-Common types of ion detectors, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with a summary of their strengths and limitations, are illustrated in Table 10-2.
+Common types of ion detectors are illustrated in Table 5, including the Electron Multiplier (EM), Photomultiplier Tube (PMT), Microchannel Plate (MP) and Faraday Cup (FC), along with a summary of their strengths and limitations.
 It is worth noting that Orbitrap and FT-ICR mass analyzers don't use conventional detectors as listed above.
 Instead, these analyzers detect an image current produced by oscillating ions [@DOI:10.1002/9780470027318.a9309.pub2; @DOI:10.1021/ac4001223; @DOI:10.1016/B978-0-12-814013-0.00005-3].
 In both mass analyzers, the detector is essentially measuring an electrical current (or more accurately, a voltage that's proportional to the current) that's induced by the motion of the ions.
@@ -1688,7 +1689,7 @@ This typically includes ion source control, mass analyzer control, detector cont
 Systems must have an ion source, mass analyzer, detector, vacuum system, and control system.
 ](images/MS_f101.svg){#fig:MS-diagram tag="8" width="100%"}
 
-Table 12.1 Common mass analyzers.
+Table 4: Common mass analyzers.
 
 | Type     | Acronym  | Principle          | Characteristics      |
 |:--------:|:--------:|:------------------:|:--------------------:|
@@ -1698,7 +1699,7 @@ Table 12.1 Common mass analyzers.
 | Fourier transform-ion cyclotron resonance | FT-ICR | Traps ions in a strong magnetic field by Lorentz force; separation by cyclotron frequency, image current detection and Fourier transformation of transient signal |Ultimate high mass resolution (over 2,700,000 with 21 telsa magnets), making it ideal for elemental and isotopic analysis. Large size, low speed, and expensive in terms of both initial purchase cost and ongoing operation and maintenance costs. |
 | Orbitrap | Orbitrap | Axial oscillation in inhomogeneous electric field; detection of frequency after Fourier transformation of transient signal |Extremely high resolution and accuracy (up to 1,000,000), capable of resolving complex mixtures with high sensitivity. Relatively low speed, expensive in terms of both initial purchase cost and ongoing operation and maintenance costs. Need high vacuum. |
 
-Table 12.2 Common detectors.
+Table 5: Common detectors.
 
 |   Type   | Principle |   Characteristics |
 |:--------:|:---------:|:-----------------:|
@@ -1918,10 +1919,10 @@ Ion confinement and release strategies are recently developed techniques which t
 This technique relies on the ability to control the position of ions under elevated pressure conditions using precisely adjustable electrodynamic fields. 
 It requires a precise fabrication craft and more complicated control system. 
 While it has only been perfected recently, typical products like trapped ion mobility spectrometry (TIMS) [@DOI:10.1021/acs.jproteome.5b00932;@DOI:10.1016/j.trac.2019.03.030] and cyclic traveling wave IMS have become commercially available [@DOI:10.1021/acs.analchem.9b01838]. 
-Table 10.3 summarized typical ion mobility separation techniques, their separation concept, electric field direction, gas flow direction, strengths, and drawbacks. 
+Table 6 summarizes typical ion mobility separation techniques, their separation concept, electric field direction, gas flow direction, strengths, and drawbacks. 
 Also, for three categories of ion mobility techniques, we have selected a typical technique from each for brief introduction. 
 
-Table 12.3 Typical ion mobility separation techniques.
+Table 6: Typical ion mobility separation techniques.
 
 | Separation concept | Ion mobility techniques | Ion movement direction | Electric field direction | Drift Gas direction | Characteristics |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:----------------------------:|
@@ -2254,7 +2255,7 @@ The existing software for DDA and DIA analysis can be further divided into freew
 
 ### Analysis of DDA data
 DDA data analysis either directly uses the vendor proprietary data format directly with a proprietary search engine like Mascot, SEQUEST (through Proteome Discoverer), Paragon (through Protein Pilot), or it can be processed through one of the many freely available search engines or pipelines, for example, Comet, MaxQuant, MSGF+, X!Tandem, Morpheus, MS-Fragger, and OMSSA. 
-Table 13-1 gives weblinks and citations for these software tools.
+Table 7 gives weblinks and citations for these software tools.
 For analysis with freeware, raw data is converted to standard open XML formats like mzML [@DOI:10.1074/mcp.R110.000133; @PMID:20013381; @DOI:10.1074/mcp.R112.019695]. 
 The appropriate FASTA file containing proteins predicted from that organism's genome is chosen as a reference database to search the experimental spectra.
 All search parameters like peptide and fragment mass errors (i.e. MS1 and MS2 tolerances), enzyme specificity, number of missed cleavages, chemical artifacts and potential biological modifications (variable/dynamic modifications) are specified before executing the search.
@@ -2262,7 +2263,7 @@ The search algorithm scores each query spectrum against its possible peptide mat
 A spectrum and its best scoring candidate peptide are called a peptide spectrum match (PSM).
 The scores reflect a _goodness-of-fit_ between an experimental spectrum and a theoretical one and do not necessarily depict the correctness of the peptide assignment.
 
-Table 13-1 DDA software examples:
+Table 7: DDA data analysis software examples.
 
 |   Name   |         Publication           |             Website               |  Free/Paid   |
 |:--------:|:-----------------------------:|:---------------------------------:|:------------:|
@@ -2300,9 +2301,9 @@ Examples of spectrum-centric approaches include DIA-Umpire [@DOI:10.1038/nmeth.3
 Spectrum-centric approaches may assemble pseudo-MS/MS spectra from co-elution of fragments that can then be used with any DDA database search [@DOI:10.1038/nmeth.3255].
 Spectrum-centric approaches may be less sensitive at peptide identification than peptide-centric approaches. 
 
-A non-comprehensive list of software for DIA data analysis is found in table 13-2.
+A non-comprehensive list of software for DIA data analysis is found in table 8.
 
-Table 13-2 DIA software examples:
+Table 8: DIA data analysis software examples.
 
 |   Name   |         Publication           |             Website               |  Free/Paid   |
 |:--------:|:-----------------------------:|:---------------------------------:|:------------:|
@@ -2415,9 +2416,9 @@ Another factor to take into consideration is the stability of your electrospray.
 Electrospray stability tends to worsen over time as columns wear and accumulate contaminants, such as salts or detergents, which can influence the quality of the emitter or column tip. 
 You will notice spray instabilities either in the total ion chromatogram (TIC) as thin spikes with short periods of no measured signal or if you install cameras at your ESI source.
 Suboptimal spray conditions will usually result in droplets forming on the emitter, being released into the mass spectrometer (also referred to as "spitting"). 
-Real-time quality control software (listed in tables 13-3 and 13-4 below) can help you identify instrument issues right away.
+Real-time quality control software (listed in tables 9 and 10 below) can help you identify instrument issues right away.
 
-Table 13-3 Quality Control Software for raw file and real-time analysis:
+Table 9: Quality Control Software for raw file and real-time analysis.
 
 |    Name    |         Supported instrument vendors        |            Website/Download           |            publication            |           Note               |
 |:----------:|:-------------------------------------------:|:-------------------------------------:|:---------------------------------:|:----------------------------:|
@@ -2434,7 +2435,7 @@ Table 13-3 Quality Control Software for raw file and real-time analysis:
 | MassQC |               | [MassQC](https://massqc.proteomesoftware.com/) |                   |                     |
 | OpenMS |               | [OpenMS](https://www.openms.de/) |  [@DOI:10.1038/nmeth.3959]   |                  |
 
-Table 13-4 Search result QC:
+Table 10: Search result QC.
 
 |    Name    |       Website/Download/publication        |              publication        |              Note           |
 |:----------:|:-----------------------------------------:|:-------------------------------:|:----------------------------:|
@@ -3042,7 +3043,9 @@ Fold-change and significance thresholds are chosen (e.g., fold-change ≥ 2 and 
 In over-representation methods, a contingency table is created for every protein set to establish whether proteins with altered abundance show an enrichment or a depletion of the ontology term compared to the background observed proteome [@PMID:32695141]. 
 For example, suppose that 2000 proteins were quantified in a proteomics analysis, being 40 of these members of the set "tricarboxylic acid cycle (TCA)." 
 Also, let us assume that 200 proteins showed altered abundance, with 15 belonging to the TCA set. 
-Then, the contingency table can be constructed as follows:
+Then, the contingency table can be constructed as follows (Table 11):
+
+Table 11: Example term enrichment analysis. 
 
 |                             | **Proteins with altered abundance** | **Proteins with unaltered abundance** | **Total** |
 |-----------------------------|:-----------------------------------:|:-------------------------------------:|:---------:|
