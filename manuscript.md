@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-04-08'
+date-meta: '2024-04-09'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -38,11 +38,11 @@ header-includes: |
   <meta name="citation_title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2024-04-08" />
-  <meta name="citation_publication_date" content="2024-04-08" />
-  <meta property="article:published_time" content="2024-04-08" />
-  <meta name="dc.modified" content="2024-04-08T17:22:57+00:00" />
-  <meta property="article:modified_time" content="2024-04-08T17:22:57+00:00" />
+  <meta name="dc.date" content="2024-04-09" />
+  <meta name="citation_publication_date" content="2024-04-09" />
+  <meta property="article:published_time" content="2024-04-09" />
+  <meta name="dc.modified" content="2024-04-09T15:11:50+00:00" />
+  <meta property="article:modified_time" content="2024-04-09T15:11:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,10 +160,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/f71427c3fa278a2f63693b9d6663fae1dbf9b465/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@6acc2ac](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/6acc2ac6a9cb980eea55aed1d4da1e00f0924f48)
-on April 8, 2024.
+from [jessegmeyerlab/proteomics-tutorial@f71427c](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/f71427c3fa278a2f63693b9d6663fae1dbf9b465)
+on April 9, 2024.
 </em></small>
 
 
@@ -999,7 +999,7 @@ Therefore, this will allow more protein isoforms and post-translational modifica
 Table 2: Common proteases used for proteomics. 
 
 |  Protease |  source | class | specificity | optimal pH |  notes |
-| -----------  | —-------- | —--------------------------  | —-----------  | —----------- |
+|:-----------:|:--------:|:--------------------------:|:-----------:|:-----------:|
 | Trypsin    | mammal pancreas | serine protease | c-term of R/K, not before P    | 7-9  | most common protease |
 | LysC	     | _Lysobacter enzymogenesis_ | serine protease | c-term of K    | 7-9 | high stability | 
 | Alpha-lytic protease | _Lysobacter enzymogenesis_ | serine protease | c-term of small side chains | 7-9 | high stability | 
