@@ -9,5 +9,5 @@ filters:
 - citeproc
 wrap: preserve
 metadata:
-  csl: build/assets/style.csl
+  csl: build/assets/journal-of-proteome-research.csl
   link-citations: true
