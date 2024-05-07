@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-04-09'
+date-meta: '2024-05-07'
 author-meta:
 - Yuming Jiang
 - Devasahayam Arokia Balaya Rex
@@ -38,11 +38,11 @@ header-includes: |
   <meta name="citation_title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="og:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
   <meta property="twitter:title" content="Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry" />
-  <meta name="dc.date" content="2024-04-09" />
-  <meta name="citation_publication_date" content="2024-04-09" />
-  <meta property="article:published_time" content="2024-04-09" />
-  <meta name="dc.modified" content="2024-04-09T15:40:01+00:00" />
-  <meta property="article:modified_time" content="2024-04-09T15:40:01+00:00" />
+  <meta name="dc.date" content="2024-05-07" />
+  <meta name="citation_publication_date" content="2024-05-07" />
+  <meta property="article:published_time" content="2024-05-07" />
+  <meta name="dc.modified" content="2024-05-07T19:23:44+00:00" />
+  <meta property="article:modified_time" content="2024-05-07T19:23:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/" />
   <meta name="citation_pdf_url" content="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jessegmeyerlab.github.io/proteomics-tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/" />
-  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2fe7ffc01bc3e3308868108809963e71fda857df/" />
+  <meta name="manubot_html_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2fe7ffc01bc3e3308868108809963e71fda857df/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jessegmeyerlab.github.io/proteomics-tutorial/v/2fe7ffc01bc3e3308868108809963e71fda857df/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,10 +160,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/93cd1418c874cd0b9d403c74306e38a9cbc89ea0/))
+([permalink](https://jessegmeyerlab.github.io/proteomics-tutorial/v/2fe7ffc01bc3e3308868108809963e71fda857df/))
 was automatically generated
-from [jessegmeyerlab/proteomics-tutorial@93cd141](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/93cd1418c874cd0b9d403c74306e38a9cbc89ea0)
-on April 9, 2024.
+from [jessegmeyerlab/proteomics-tutorial@2fe7ffc](https://github.com/jessegmeyerlab/proteomics-tutorial/tree/2fe7ffc01bc3e3308868108809963e71fda857df)
+on May 7, 2024.
 </em></small>
 
 

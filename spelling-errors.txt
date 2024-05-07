@@ -29,13 +29,13 @@ alkyl
 alkylate
 alkylated
 alkylating
-alkylation
+Alkylation
 AlphaFold
 AlphaPept
 AlphaPeptStats
 amandamomenzadeh
 aminomethane
-aminoxy
+Aminoxy
 aminoxyTMT
 Amit
 ammoniums
@@ -84,7 +84,7 @@ Benjamini
 benzonase
 Bertin
 betweenc
-betweenness
+Betweenness
 Beynon
 bicinchoninic
 Biemann
@@ -164,7 +164,7 @@ chromatograph
 Chromatographic
 chromophore
 chromophores
-chymotrypsin
+Chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -197,8 +197,8 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
-Cryo
+crosslinking
+cryo
 cryogels
 crystalized
 crystallizable
@@ -235,7 +235,7 @@ demultiplexing
 DeMux
 denaturant
 denaturants
-deoxycholate
+Deoxycholate
 depletions
 derivatization
 derivatized
@@ -256,7 +256,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-dimethyl
+Dimethyl
 dimethylated
 diol
 dipeptides
@@ -360,7 +360,7 @@ FlyBase
 Fohlman
 Folch
 Folin
-footprinting
+Footprinting
 FPOP
 fractionated
 fractionation
@@ -395,7 +395,7 @@ GluC
 glucopyranoside
 glutamate
 glutamic
-Glutamyl
+glutamyl
 glutathione
 glycan
 glycans
@@ -407,14 +407,14 @@ glycoforms
 glycolic
 glycols
 glycopeptide
-Glycopeptides
+glycopeptides
 glycoprotein
 glycoproteins
 glycoproteome
 glycoproteomics
 glycosidases
 glycosylated
-glycosylation
+Glycosylation
 glycosyltransferases
 Goodlett
 GPMDB
@@ -474,7 +474,7 @@ hydroy
 hygromycin
 hyperabundant
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -489,7 +489,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-immunodepletion
+Immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -515,7 +515,7 @@ intitial
 introducted
 Invitrogen
 iodoacetamide
-IodoTMT
+iodoTMT
 iodoTMTzero
 IonQuant
 IPG
@@ -525,8 +525,8 @@ IRMPD
 iRT
 isobutane
 isocratic
-isoelectric
-isoform
+Isoelectric
+Isoform
 isoforms
 isogeneic
 isogenic
@@ -599,7 +599,7 @@ lysing
 lysis
 Lysobacter
 lysozyme
-lysyl
+Lysyl
 lytic
 MacLean
 macromolecule
@@ -613,7 +613,7 @@ maltoside
 Mammalia
 Mangalore
 Martín
-martinmayta
+MartinMayta
 MaSDeS
 Masson
 MassQC
@@ -648,7 +648,7 @@ methylated
 methylation
 Metriculator
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -668,7 +668,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -714,7 +714,7 @@ nonlinearity
 nonoptimal
 nonparametric
 nonpolar
-norbertvolkmar
+NorbertVolkmar
 NormalyzerDE
 novo
 Novor
@@ -740,7 +740,7 @@ onotology
 OpenMS
 OpenSWATH
 operon
-orbitrap
+Orbitrap
 orbitraps
 organismal
 orignal
@@ -764,7 +764,7 @@ PeptideAtlas
 PeptideProphet
 peptide’s
 PeptideShaker
-peptidyl
+Peptidyl
 pepXML
 permeabilization
 peroxidase
@@ -784,8 +784,8 @@ phosphoenrichment
 phosphoester
 phosphoimaging
 phosphonate
-Phosphopeptide
-phosphopeptides
+phosphopeptide
+Phosphopeptides
 phosphoprotein
 phosphoproteins
 phosphoproteome
@@ -796,7 +796,7 @@ phosphosite
 PhosphoSitePlus
 phosphosites
 phosphotyrosine
-Photoactivation
+photoactivation
 photobleaching
 photochemical
 photodissociation
@@ -826,7 +826,7 @@ posttranslational
 PPI
 PPIs
 practicioners
-Pre
+pre
 Precellys
 precipiation
 prefered
@@ -838,9 +838,9 @@ proline
 Promega
 pronase
 Prosit
-prot
+Prot
 ProtContLib
-Protease
+protease
 proteases
 proteasome
 proteinase
@@ -851,12 +851,12 @@ proteoforms
 proteoglycans
 proteolysis
 proteolytic
-Proteome
+proteome
 ProteomeDiscoverer
 proteomes
 Proteometools
 Proteomic
-proteomics
+Proteomics
 proteotypic
 ProtiFi
 ProtParam
@@ -883,7 +883,7 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
 QToF
 QTRAP
@@ -908,7 +908,7 @@ recombinase
 reductants
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -934,7 +934,7 @@ Scanorama
 Schamp
 Scherrer
 Schuster
-SCIEX
+Sciex
 scikit
 scipy
 SCP
@@ -1090,7 +1090,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 uDIA
 Ulilysin
 ultrafleXtreme
@@ -1101,7 +1101,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-UniProt
+uniprot
 UniProtKB
 UniProt’s
 UniRef
