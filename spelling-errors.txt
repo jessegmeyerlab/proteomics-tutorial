@@ -36,7 +36,7 @@ AlphaPeptStats
 amandamomenzadeh
 aminomethane
 Aminoxy
-AminoxyTMT
+aminoxyTMT
 Amit
 ammoniums
 ampholytes
@@ -77,7 +77,7 @@ balancer
 Balaya
 BASU
 BCA
-beamCID
+BeamCID
 Benchmarking
 benchtop
 Benjamini
@@ -164,7 +164,7 @@ chromatograph
 Chromatographic
 chromophore
 chromophores
-Chymotrypsin
+chymotrypsin
 chymotrypsinogen
 chymotryptic
 Cibacron
@@ -172,11 +172,11 @@ Ciocalteu
 clade
 cleavable
 Clostridium
-Clostripain
+clostripain
 coli
 Collisional
 collisionally
-colorimetric
+Colorimetric
 colorimetry
 columbic
 combinable
@@ -197,7 +197,7 @@ CRISPR
 crosslinked
 crosslinker
 crosslinkers
-Crosslinking
+crosslinking
 Cryo
 cryogels
 crystalized
@@ -221,7 +221,7 @@ Daly
 Daniem
 Dasom
 dataset
-datasets
+Datasets
 DBT
 DDA
 DDBJ
@@ -235,12 +235,12 @@ demultiplexing
 DeMux
 denaturant
 denaturants
-deoxycholate
+Deoxycholate
 depletions
 derivatization
 derivatized
 derivitization
-Desorption
+desorption
 deubiquitinase
 deuteron
 Devasahayam
@@ -256,7 +256,7 @@ dihydroxybenzoic
 dihyrobenzic
 DiLeu
 dimensionality
-Dimethyl
+dimethyl
 dimethylated
 diol
 dipeptides
@@ -310,7 +310,7 @@ enviroments
 enzymatically
 enzymogenesis
 Enzymology
-epitope
+Epitope
 equilibration
 Equus
 ERLIC
@@ -335,7 +335,7 @@ Expasy
 Exploris
 FAIMS
 FASP
-fasta
+FASTA
 FC
 FCCS
 FCS
@@ -397,7 +397,7 @@ glutamate
 glutamic
 glutamyl
 glutathione
-glycan
+Glycan
 glycans
 glycerophosphate
 glycine
@@ -474,7 +474,7 @@ hydroy
 hygromycin
 hyperabundant
 hypergeometric
-Hyperplexing
+hyperplexing
 ICR
 Ido
 IEC
@@ -489,7 +489,7 @@ immonium
 immunoaffinity
 immunoblot
 immunoblotting
-immunodepletion
+Immunodepletion
 immunofluorescence
 immunohistological
 immunoprecipitation
@@ -525,7 +525,7 @@ IRMPD
 iRT
 isobutane
 isocratic
-isoelectric
+Isoelectric
 isoform
 isoforms
 isogeneic
@@ -648,7 +648,7 @@ methylated
 methylation
 Metriculator
 MIAPE
-Microarray
+microarray
 microbiome
 Microchannel
 microflow
@@ -668,7 +668,7 @@ Mobie
 Mobilion
 mobilities
 Momenzadeh
-Moritz
+moritz
 MRM
 mRNA
 MSE
@@ -701,7 +701,7 @@ nanoparticle
 nanopores
 NCBI
 neccessary
-Neely
+neely
 NHEJ
 NHS
 NIST
@@ -790,7 +790,7 @@ phosphoprotein
 phosphoproteins
 phosphoproteome
 phosphoproteomic
-phosphoproteomics
+Phosphoproteomics
 phosphorylated
 phosphosite
 PhosphoSitePlus
@@ -801,7 +801,7 @@ photobleaching
 photochemical
 photodissociation
 Photolysis
-Photomultiplier
+photomultiplier
 photoreactive
 physicochemical
 pipelining
@@ -838,12 +838,12 @@ proline
 Promega
 pronase
 Prosit
-Prot
+prot
 ProtContLib
-protease
+Protease
 proteases
 proteasome
-proteinase
+Proteinase
 proteinness
 ProteinProphet
 proteoform
@@ -856,7 +856,7 @@ ProteomeDiscoverer
 proteomes
 Proteometools
 Proteomic
-Proteomics
+proteomics
 proteotypic
 ProtiFi
 ProtParam
@@ -883,9 +883,9 @@ pyrophosphatase
 pyrrolysine
 QIT
 QqLIT
-QQQ
+QqQ
 qRT
-QToF
+QTOF
 QTRAP
 quadrupole
 quadrupoles
@@ -903,12 +903,12 @@ rawDiag
 RawMeat
 rawrr
 reaccelerated
-Reactome
+REACTOME
 recombinase
 reductants
 refered
 reflectron
-RefSeq
+refseq
 repressor
 reproducibility
 resCID
@@ -980,7 +980,7 @@ SPE
 specificities
 SpectraST
 spectrometric
-spectrometry
+Spectrometry
 Spectromine
 Spectronaut
 spectrophotometer
@@ -1050,7 +1050,7 @@ TMT
 TMTpro
 TMTs
 TOF
-ToFs
+TOFs
 Torr
 TPP
 TQ
@@ -1067,12 +1067,12 @@ transversing
 TrEMBL
 trentmpc
 triazine
-Tribrid
+tribrid
 tricarboxylic
 trichloroacetic
 triethanolamine
 trifluoroethanol
-TripleTOF
+tripleTOF
 Tris
 Tritirachium
 Trp
@@ -1090,7 +1090,7 @@ TWIMS
 Tyr
 tyrosine
 ubiquitin
-ubiquitination
+Ubiquitination
 uDIA
 Ulilysin
 ultrafleXtreme
@@ -1101,7 +1101,7 @@ uncharacterized
 underivatized
 undirected
 UniParc
-uniprot
+UniProt
 UniProtKB
 UniProt’s
 UniRef
